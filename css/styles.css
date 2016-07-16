@@ -708,9 +708,9 @@ a {
   z-index: 1;
 }
 .sorting li:hover {
-  color: #666578;
+  color: #40a7c7;
 }
-.sorting__curent {
+.sorting__current {
   color: #40a7c7;
 }
 .sorting__icon {
