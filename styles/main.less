@@ -185,11 +185,12 @@
   padding: 2%;
   .box-shadow(0 3px 5px rgba(0,0,0,.2));
   z-index: 2;
-  margin-bottom: 1em;
+  margin-bottom: .5em;
   li{
     color: @grey;
     float: left;
-    line-height: 36px;
+    line-height: 32px;
+    font-size: .85em;
     margin: 0;
     padding: 0 4%;
     cursor: pointer;
@@ -213,6 +214,17 @@
   }
 }
 
+.selector__title{
+  display: none;
+  font-size: .7em;
+  text-transform: uppercase;
+  padding: 0 2%;
+  font-family: @sans-serif-font;
+  border-bottom: 1px solid #ccc;
+  color: #aaa;
+  margin-bottom: .5em;
+}
+
 .selector__icon{
   width: 20px;
   height: 2em;
@@ -226,7 +238,7 @@
 @media screen and (min-width: @mobile-bp) and (max-width: @tablet-bp){
   .selector__options{
     li{
-      font-size: .9em;
+      font-size: .8em;
     }
   }
 }
@@ -245,7 +257,7 @@
     top: @v-unit;
     bottom: 0;
     left: 0;
-    width: 33%;
+    width: 30%;
     padding: 1%;
   }
   .selector{
@@ -262,6 +274,9 @@
     display: block !important;
     position: relative;
     .box-shadow(none);
+  }
+  .selector__title{
+    display: block;
   }
 }
 
@@ -288,7 +303,7 @@
 @media screen and (min-width: @mobile-bp){
   .main-container{
     position: absolute;
-    width: 67%;
+    width: 70%;
     right: 0;
     top: @v-unit;
   }
@@ -700,10 +715,10 @@
   font-family: @sans-serif-font;
   // border: 1px solid #ddd;
   clear: both;
-  margin: 2em 0;
+  margin: 2.5em 0;
   h3{
     font-family: @serif-font;
-    font-size: .8em;
+    font-size: .75em;
     font-weight: 700;
     text-transform: uppercase;
   }
@@ -718,8 +733,8 @@
 #mc_embed_signup{
   margin-top: .5em;
   input[type=email]{
-    height: @v-unit;
-    line-height: @v-unit;
+    height: 40px;
+    line-height: 40px;
     padding: 0 4%;
     display: inline-block;
     border: 1px solid #ddd;
@@ -727,6 +742,7 @@
     width: 100%;
     max-width: 300px;
     margin-bottom: .5em;
+    font-size: .875em;
   }
   .button{
     display: block;
@@ -751,10 +767,12 @@
 
 .newsletter-icon{
   display: inline-block;
-  vertical-align: middle;
   margin-right: 5px;
+  height: 1.5em;
+  vertical-align: text-bottom;;
   webicon{
     width: 1.5em;
+    height: 1.5em;
   }
 }
 
@@ -972,11 +990,20 @@
   }
 }
 
+
+.team-member-card__link{
+  display: block;
+  margin-bottom: .5em;
+}
+
+
 .team-member-card__icon{
+  height: 1.5em;
   display: inline-block;
+  vertical-align: middle;
   webicon{
-    vertical-align: text-top;
     width: 1.5em;
+    height: 1.5em;
   }
 }
 
@@ -1002,7 +1029,7 @@
   margin-bottom: 1em;
   h3{
     font-family: @serif-font;
-    font-size: .8em;
+    font-size: .75em;
     font-weight: 700;
     text-transform: uppercase;
     margin-bottom: 1em;

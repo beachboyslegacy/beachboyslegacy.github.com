@@ -597,12 +597,13 @@ a {
   -moz-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
   z-index: 2;
-  margin-bottom: 1em;
+  margin-bottom: .5em;
 }
 .selector__options li {
   color: #666578;
   float: left;
-  line-height: 36px;
+  line-height: 32px;
+  font-size: .85em;
   margin: 0;
   padding: 0 4%;
   cursor: pointer;
@@ -627,6 +628,16 @@ a {
 .selector__options__current.selector__options__current:hover {
   color: #fff;
 }
+.selector__title {
+  display: none;
+  font-size: .7em;
+  text-transform: uppercase;
+  padding: 0 2%;
+  font-family: 'Lato', sans-serif;
+  border-bottom: 1px solid #ccc;
+  color: #aaa;
+  margin-bottom: .5em;
+}
 .selector__icon {
   width: 20px;
   height: 2em;
@@ -637,7 +648,7 @@ a {
 }
 @media screen and (min-width: 700px) and (max-width: 900px) {
   .selector__options li {
-    font-size: .9em;
+    font-size: .8em;
   }
 }
 @media screen and (min-width: 700px) {
@@ -653,7 +664,7 @@ a {
     top: 44px;
     bottom: 0;
     left: 0;
-    width: 33%;
+    width: 30%;
     padding: 1%;
   }
   .selector {
@@ -673,6 +684,9 @@ a {
     -moz-box-shadow: none;
     box-shadow: none;
   }
+  .selector__title {
+    display: block;
+  }
 }
 .main-container {
   width: 100%;
@@ -687,7 +701,7 @@ a {
 @media screen and (min-width: 700px) {
   .main-container {
     position: absolute;
-    width: 67%;
+    width: 70%;
     right: 0;
     top: 44px;
   }
@@ -1077,11 +1091,11 @@ a {
   padding: 0 4%;
   font-family: 'Lato', sans-serif;
   clear: both;
-  margin: 2em 0;
+  margin: 2.5em 0;
 }
 .newsletter-signup h3 {
   font-family: 'Roboto Slab', serif;
-  font-size: .8em;
+  font-size: .75em;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -1094,8 +1108,8 @@ a {
   margin-top: .5em;
 }
 #mc_embed_signup input[type=email] {
-  height: 44px;
-  line-height: 44px;
+  height: 40px;
+  line-height: 40px;
   padding: 0 4%;
   display: inline-block;
   border: 1px solid #ddd;
@@ -1103,6 +1117,7 @@ a {
   width: 100%;
   max-width: 300px;
   margin-bottom: .5em;
+  font-size: .875em;
 }
 #mc_embed_signup .button {
   display: block;
@@ -1122,11 +1137,13 @@ a {
 }
 .newsletter-icon {
   display: inline-block;
-  vertical-align: middle;
   margin-right: 5px;
+  height: 1.5em;
+  vertical-align: text-bottom;
 }
 .newsletter-icon webicon {
   width: 1.5em;
+  height: 1.5em;
 }
 #overlay-menu-screen {
   display: none;
@@ -1332,12 +1349,18 @@ a {
 .team-member-card__data a:hover {
   color: #f8981d;
 }
+.team-member-card__link {
+  display: block;
+  margin-bottom: .5em;
+}
 .team-member-card__icon {
+  height: 1.5em;
   display: inline-block;
+  vertical-align: middle;
 }
 .team-member-card__icon webicon {
-  vertical-align: text-top;
   width: 1.5em;
+  height: 1.5em;
 }
 @media screen and (min-width: 600px) {
   .team-member-card {
@@ -1361,7 +1384,7 @@ a {
 }
 .social-widget h3 {
   font-family: 'Roboto Slab', serif;
-  font-size: .8em;
+  font-size: .75em;
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 1em;
