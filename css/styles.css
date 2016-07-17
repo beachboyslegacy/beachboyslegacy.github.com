@@ -404,13 +404,6 @@ a {
 .containing-block {
   position: relative;
 }
-.inline-icon {
-  display: inline-block;
-  vertical-align: middle;
-}
-.inline-icon webicon {
-  display: block;
-}
 .disable-scrolling {
   overflow-y: hidden;
 }
@@ -465,6 +458,8 @@ a {
   padding: 0 10px;
   cursor: pointer;
   color: #fff;
+  display: inline-block;
+  vertical-align: middle;
 }
 .header__search__icon:hover {
   background: #40a7c7;
@@ -639,8 +634,10 @@ a {
   margin-bottom: .5em;
 }
 .selector__icon {
+  display: inline-block;
   width: 20px;
   height: 2em;
+  vertical-align: middle;
 }
 .selector__icon webicon {
   width: 20px;
