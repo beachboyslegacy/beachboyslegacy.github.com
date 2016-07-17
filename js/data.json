@@ -867,7 +867,7 @@
         },
 		{
           "title": "Surfer Girl / Shut Down, Vol. 2",
-          "cover" : "img/albums/the-beach-boys/studio/1963-surfer-girl/surfer-girl-2001.jpg",
+          "cover" : "img/albums/the-beach-boys/studio/1963-surfer-girl/surfer-girl-1990.jpg",
           "backCover" : "",
           "label" : "Capitol",
           "code" : "",
@@ -890,7 +890,7 @@
           "amazonJp" : "",
           "notes": "",
           "review": "",
-          "tracklist": "Bonus Tracks:\n\nIn My Room (German Version) (B.Wilson/Usher)\n\nThis edition includes:\n\nWhy Do Fools Fall In Love - longer ending\nIn My Room (German Version) - including an intro with Brian counting\nI Do - including a false start and an a cappella snippet of Ganz Allein"
+          "tracklist": "Bonus Tracks:\n\nIn My Room (German Version) (B.Wilson/Usher) - including an intro with Brian counting"
         },
 		{
           "title": "Surfer Girl (Mono & Stereo Remasters)",
@@ -1396,7 +1396,7 @@
           "amazonJp" : "",
           "notes": "",
           "review": "",
-          "tracklist": "Bonus Tracks:\n\nFun, Fun, Fun (Single Version) (B.Wilson/Love)\nI Do (B.Wilson)\n\nThis edition includes:\n\nWhy Do Fools Fall In Love - longer ending\nIn My Room (German Version) - including an intro with Brian counting\nI Do - including a false start and an a cappella snippet of Ganz Allein"
+          "tracklist": "Bonus Tracks:\n\nFun, Fun, Fun (Single Version) (B.Wilson/Love)\nI Do (B.Wilson) - including a false start and an a cappella snippet of Ganz Allein\n\nThis edition includes:\n\nWhy Do Fools Fall In Love - longer ending"
         },
 		{
           "title": "Shut Down Vol. 2 (Mono & Stereo Remasters)",
@@ -1918,7 +1918,7 @@
         },
 		{
           "title": "Beach Boys Concert [LP]",
-          "cover" : "img/albums/the-beach-boys/live/1964-beach-boys-concert/beach-boys-concert-cover.jpg",
+          "cover" : "img/albums/the-beach-boys/live/1964-beach-boys-concert/beach-boys-concert-2014.jpg",
           "backCover" : "",
           "label" : "Capitol",
           "code" : "",
@@ -3648,7 +3648,7 @@
           "amazonJp" : "",
           "notes": "",
           "review": "",
-          "tracklist": ""
+          "tracklist": "Bonus Tracks:\n\nHeroes And Villains (Alternate Take)\n(B.Wilson/Parks)\nGood Vibrations (Various Sessions) (B.Wilson)\nGood Vibrations (Early Take) (B.Wilson/Asher)\nYou're Welcome (B.Wilson)\nTheir Hearts Were Full Of Spring (Live Rehearsal 1967) (Troup)"
         },
 		{
           "title": "Smiley Smile (Mono & Stereo Remasters)",
@@ -3889,7 +3889,7 @@
           "amazonJp" : "",
           "notes": "",
           "review": "",
-          "tracklist": ""
+          "tracklist": "Bonus Tracks:\n\nCan't Wait Too Long (B.Wilson)"
         }
 	]
     },
@@ -4115,7 +4115,7 @@
           "amazonJp" : "",
           "notes": "",
           "review": "",
-          "tracklist": ""
+          "tracklist": "Bonus Tracks:\n\nWalk On By (Bacharach/David)\nOld Folks At Home/Ol' Man River (Foster-Hammerstein/Kern)"
         },
 		{
           "title": "Friends [LP]",
@@ -4368,7 +4368,7 @@
           "amazonJp" : "",
           "notes": "",
           "review": "",
-          "tracklist": ""
+          "tracklist": "Bonus Tracks:\n\nBreak Away (B.Wilson/Dunbar)\nCelebrate The News (D.Wilson/Jakobsen)\nWe're Together Again (R.Wilson)"
         },
 		{
           "title": "20/20 [LP]",
@@ -11599,7 +11599,7 @@
         "billboardPosition" : "Did not chart",
         "unitsSold": 0,
         "riaa": "",
-        "rating" : 4,
+        "rating" : 3,
         "relevance": 1,
         "backgroundColor": "#928C4D",
         "notes": "",
@@ -12093,7 +12093,7 @@
         "billboardPosition" : 88,
         "unitsSold": 0,
         "riaa": "",
-        "rating" : 3.5,
+        "rating" : 3,
         "relevance": 1,
         "backgroundColor": "#5740AA",
         "notes": "",
@@ -13661,7 +13661,7 @@
         "billboardPosition" : 200,
         "unitsSold": 0,
         "riaa": "",
-        "rating" : 3.5,
+        "rating" : 3,
         "relevance": 1,
         "backgroundColor": "#3AA243",
         "notes": "",
@@ -15939,7 +15939,7 @@
         "billboardPosition" : 185,
         "unitsSold": 0,
         "riaa": "",
-        "rating" : 3,
+        "rating" : 2.5,
         "relevance": 1,
         "backgroundColor": "#777E76",
         "notes": "",
@@ -16117,7 +16117,7 @@
         "billboardPosition" : "Did not chart",
         "unitsSold": 0,
         "riaa": "",
-        "rating" : 3.5,
+        "rating" : 3,
         "relevance": 1,
         "backgroundColor": "#67615C",
         "notes": "",
@@ -33873,7 +33873,7 @@
       "parent" : {
         "uniqueId" : "the-smile-sessions-box",
         "title" : "The Smile Sessions",
-        "cover" : "img/albums/the-beach-boys/studio/2011-the-smile-sessions/the-smile-sessions-boxset-cover.jpg",
+        "cover" : "img/albums/the-beach-boys/studio/2011-the-smile-sessions/the-smile-sessions-lp-cover.jpg",
         "backCover" : "",
         "label" : "Capitol",
         "code" : "509990 27658 22",
@@ -41929,7 +41929,7 @@
           "amazonJp" : "",
           "notes": "",
           "review": "",
-          "tracklist": "# Previously Unreleased"
+          "tracklist": "# Previously Unreleased\n\nDisc 5 is a Blu-ray Pure Audio Disc"
         }
 ]
 },
