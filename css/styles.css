@@ -697,6 +697,7 @@ a {
   position: relative;
   height: 30px;
   line-height: 30px;
+  overflow: hidden;
 }
 @media screen and (min-width: 700px) {
   .main-container {
@@ -728,7 +729,12 @@ a {
   color: #40a7c7;
 }
 .sorting__icon {
-  width: 12px;
+  display: inline-block;
+  vertical-align: bottom;
+  height: 30px;
+}
+.sorting__icon webicon {
+  width: 1em;
   height: 30px;
 }
 .results-number {

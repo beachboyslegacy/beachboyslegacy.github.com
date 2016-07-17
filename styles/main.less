@@ -291,6 +291,7 @@
   .containing-block;
   height: 30px;
   line-height: 30px;
+  overflow: hidden;
   // position: -webkit-sticky;
   // position: -moz-sticky;
   // position: -ms-sticky;
@@ -338,8 +339,13 @@
 }
 
 .sorting__icon{
-  width: 12px;
+  display: inline-block;
+  vertical-align: bottom;
   height: 30px;
+  webicon{
+    width: 1em;
+    height: 30px;
+  }
 }
 
 .results-number{
