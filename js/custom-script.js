@@ -42,7 +42,7 @@ $(function(){
             thisReleaseMonthName = months[thisReleaseMonthNumber - 1];
 
 
-            $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-rating="'+data.items[i].parent.rating+'">'+
+            $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-rating="'+data.items[i].parent.rating+'" data-date="'+data.items[i].parent.releaseYear+'">'+
                               '<div class="item__header" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
                                 '<img class="item__cover" src="'+data.items[i].parent.cover+'" alt="">'+
                                 '<div class="item__info">'+
@@ -140,9 +140,13 @@ $(function(){
                  offset: -44
               });
 
-          } // /if selectedCategory = 'solo'
+          }
 
         } //end of main for loop
+
+        sortByRelease();
+
+        // /if selectedCategory = 'solo'
 
       }else{
 
@@ -157,7 +161,7 @@ $(function(){
             thisReleaseMonthName = months[thisReleaseMonthNumber - 1];
 
             if( (data.items[i].parent.category.video) && !(data.items[i].parent.category.live) ){
-              $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-rating="'+data.items[i].parent.rating+'">'+
+              $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-rating="'+data.items[i].parent.rating+'" data-date="'+data.items[i].parent.releaseYear+'">'+
                                 '<div class="item__header" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
                                   '<img class="item__cover" src="'+data.items[i].parent.cover+'" alt="">'+
                                   '<div class="item__info">'+
@@ -181,7 +185,7 @@ $(function(){
                               '</li>';
             }
             else if(data.items[i].parent.category.book){
-              $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-rating="'+data.items[i].parent.rating+'">'+
+              $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-rating="'+data.items[i].parent.rating+'" data-date="'+data.items[i].parent.releaseYear+'">'+
                                 '<div class="item__header" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
                                   '<img class="item__cover" src="'+data.items[i].parent.cover+'" alt="">'+
                                   '<div class="item__info">'+
@@ -206,7 +210,7 @@ $(function(){
                               '</li>';
             }
             else if(data.items[i].parent.category.compilation){
-              $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-rating="'+data.items[i].parent.rating+'">'+
+              $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-rating="'+data.items[i].parent.rating+'" data-date="'+data.items[i].parent.releaseYear+'">'+
                                 '<div class="item__header" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
                                   '<img class="item__cover" src="'+data.items[i].parent.cover+'" alt="">'+
                                   '<div class="item__info">'+
@@ -242,7 +246,7 @@ $(function(){
                               '</li>';
             }
             else{ //albums
-              $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-rating="'+data.items[i].parent.rating+'">'+
+              $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-rating="'+data.items[i].parent.rating+'" data-date="'+data.items[i].parent.releaseYear+'">'+
                                 '<div class="item__header" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
                                   '<img class="item__cover" src="'+data.items[i].parent.cover+'" alt="">'+
                                   '<div class="item__info">'+
@@ -523,8 +527,14 @@ $(function(){
 
 
     function sortByRelease(){
-      loadItems(currentArtist, currentCategory);
-      loadChildren();
+
+      var list = $('.items');
+      var listItems = list.children('li');
+
+      listItems.sort(sortList).appendTo(list);
+      function sortList(a, b){
+          return ($(b).data('date')) < ($(a).data('date')) ? 1 : -1;
+      }
     }
 
     function resetSorting(){
