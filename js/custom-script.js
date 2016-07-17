@@ -519,7 +519,7 @@ $(function(){
 
 
     function sortByRelease(){
-      loadItems(initialArtist, initialCategory);
+      loadItems(currentArtist, currentCategory);
       loadChildren();
     }
 
