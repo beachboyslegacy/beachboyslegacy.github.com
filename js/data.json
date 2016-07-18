@@ -9693,7 +9693,7 @@
         "length": "",
         "numberOfDiscs" : 2,
         "country" : "US",
-        "billboardPosition" : "Did not chart",
+        "billboardPosition" : 94,
         "unitsSold": 0,
         "riaa": "",
         "rating" : 3.5,
@@ -11329,7 +11329,7 @@
           "amazonJp" : "",
           "notes": "",
           "review": "",
-          "tracklist": "Recorded live at the Arie Crown Theater, Chicago, March 26, 1965"
+          "tracklist": "Recorded live at the Arie Crown Theater, Chicago, March 26 & 27, 1965"
         }
 		]
 	},
