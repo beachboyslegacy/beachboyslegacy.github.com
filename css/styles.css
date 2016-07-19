@@ -969,9 +969,9 @@ a {
   min-width: 70px;
 }
 .hit-or-gem img {
-  height: 12px;
+  height: 16px;
   opacity: .2;
-  vertical-align: baseline;
+  vertical-align: text-top;
 }
 .child-items > li {
   background: #fff;
