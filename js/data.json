@@ -18708,7 +18708,7 @@
             "url": "",
 			"hit": false,
 			"inthit": false,
-            "gem": false
+            "gem": true
           }
 		]
       },
@@ -19013,7 +19013,7 @@
             "disc" : 1,
             "track" : 1,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -19026,7 +19026,7 @@
             "disc" : 1,
             "track" : 2,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -19039,7 +19039,7 @@
             "disc" : 1,
             "track" : 3,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -19052,7 +19052,7 @@
             "disc" : 1,
             "track" : 4,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -19065,7 +19065,7 @@
             "disc" : 1,
             "track" : 5,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -19078,7 +19078,7 @@
             "disc" : 1,
             "track" : 6,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -19091,7 +19091,7 @@
             "disc" : 1,
             "track" : 7,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -19104,7 +19104,7 @@
             "disc" : 1,
             "track" : 8,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -19117,7 +19117,7 @@
             "disc" : 1,
             "track" : 9,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -19130,7 +19130,7 @@
             "disc" : 1,
             "track" : 10,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           }
@@ -19225,7 +19225,7 @@
             "disc" : 1,
             "track" : 1,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -19238,7 +19238,7 @@
             "disc" : 1,
             "track" : 2,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -19251,7 +19251,7 @@
             "disc" : 1,
             "track" : 3,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -19264,7 +19264,7 @@
             "disc" : 1,
             "track" : 4,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -19277,7 +19277,7 @@
             "disc" : 1,
             "track" : 5,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -19290,7 +19290,7 @@
             "disc" : 1,
             "track" : 6,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -19303,7 +19303,7 @@
             "disc" : 1,
             "track" : 7,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -19316,7 +19316,7 @@
             "disc" : 1,
             "track" : 8,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -19329,7 +19329,7 @@
             "disc" : 1,
             "track" : 9,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -19342,20 +19342,20 @@
             "disc" : 1,
             "track" : 10,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
 		  		  {
             "title" : "Maliblu",
             "length" : "",
-            "composer" : "Johnston",
+            "composer" : "Johnston/Pohlman",
             "producer" : "",
             "leadVocal" : "",
             "disc" : 1,
             "track" : 11,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -19368,7 +19368,7 @@
             "disc" : 1,
             "track" : 12,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           }
@@ -20195,7 +20195,7 @@
             "disc" : 1,
             "track" : 1,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -20221,7 +20221,7 @@
             "disc" : 1,
             "track" : 3,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -20234,7 +20234,7 @@
             "disc" : 1,
             "track" : 4,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -20247,7 +20247,7 @@
             "disc" : 1,
             "track" : 5,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -20260,7 +20260,7 @@
             "disc" : 1,
             "track" : 6,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -20273,7 +20273,7 @@
             "disc" : 1,
             "track" : 7,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -20286,7 +20286,7 @@
             "disc" : 1,
             "track" : 8,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -20299,7 +20299,7 @@
             "disc" : 1,
             "track" : 9,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -20312,7 +20312,7 @@
             "disc" : 1,
             "track" : 10,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -20325,7 +20325,7 @@
             "disc" : 1,
             "track" : 11,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -20338,7 +20338,7 @@
             "disc" : 1,
             "track" : 12,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           }
@@ -21052,7 +21052,7 @@
             "disc" : 1,
             "track" : 1,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -21065,7 +21065,7 @@
             "disc" : 1,
             "track" : 2,
             "url": "",
-			      "hit": true,
+			"hit": true,
 			"inthit": false,
             "gem": false
           },
@@ -21078,7 +21078,7 @@
             "disc" : 1,
             "track" : 3,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -21104,7 +21104,7 @@
             "disc" : 1,
             "track" : 5,
             "url": "",
-			      "hit": true,
+			"hit": true,
 			"inthit": false,
             "gem": false
           },
@@ -21117,7 +21117,7 @@
             "disc" : 1,
             "track" : 6,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -21130,7 +21130,7 @@
             "disc" : 1,
             "track" : 7,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -21208,7 +21208,7 @@
             "disc" : 2,
             "track" : 1,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -21273,7 +21273,7 @@
             "disc" : 2,
             "track" : 6,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -21286,7 +21286,7 @@
             "disc" : 2,
             "track" : 7,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -21299,7 +21299,7 @@
             "disc" : 2,
             "track" : 8,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -22046,8 +22046,8 @@
             "composer" : "Spector/Greenwich/Berry",
             "producer" : "",
             "leadVocal" : "",
-                        "disc" : 2,
-						"track" : 1,
+            "disc" : 2,
+			"track" : 1,
             "url": "",
 			      "hit": false,
 			"inthit": false,
@@ -22262,7 +22262,7 @@
             "gem": false
           },
           {
-            "title" : "Be True To Your School",
+            "title" : "Be True To Your School (Single Version)",
             "length" : "",
             "composer" : "B.Wilson/Love",
             "producer" : "",
@@ -22270,7 +22270,7 @@
             "disc" : 3,
             "track" : 1,
             "url": "",
-			      "hit": false,
+			"hit": true,
 			"inthit": false,
             "gem": false
           },
@@ -23094,7 +23094,7 @@
             "gem": false
           },
 		  		  {
-            "title" : "Cottonfields",
+            "title" : "Cottonfields (Single Version)",
             "length" : "",
             "composer" : "Ledbetter",
             "producer" : "",
@@ -23102,7 +23102,7 @@
             "disc" : 6,
             "track" : 11,
             "url": "",
-			      "hit": true,
+			"hit": true,
 			"inthit": false,
             "gem": false
           },
@@ -23115,12 +23115,12 @@
             "disc" : 6,
             "track" : 12,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
-		  		  		  {
-            "title" : "Bluebirds Over The Mountain",
+		  	{
+            "title" : "Bluebirds Over The Mountain (Dutch Sinlge Version)",
             "length" : "",
             "composer" : "Hickey",
             "producer" : "",
@@ -23128,8 +23128,8 @@
             "disc" : 6,
             "track" : 13,
             "url": "",
-			      "hit": false,
-			"inthit": false,
+			"hit": false,
+			"inthit": true,
             "gem": false
           },
 		  		  		  {
@@ -23219,7 +23219,7 @@
             "disc" : 7,
             "track" : 4,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -23232,7 +23232,7 @@
             "disc" : 7,
             "track" : 5,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -23245,7 +23245,7 @@
             "disc" : 7,
             "track" : 6,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -23284,7 +23284,7 @@
             "disc" : 7,
             "track" : 9,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -23297,7 +23297,7 @@
             "disc" : 7,
             "track" : 10,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -23420,7 +23420,7 @@
           "amazonJp" : "",
           "notes": "",
           "review": "",
-          "tracklist": "Disc 1 - Summertime U.S.A.\nDisc 2 - Changes\nDisc 3 - California Dream\nDisc 4 - Timeless\nDisc 5 - Sunshine Music\nDisc 6 - Breakaway\nDisc 7 - The Brian Wilson Productions"
+          "tracklist": "Disc 1 - Summertime U.S.A.\nDisc 2 - Changes\nDisc 3 - California Dream\nDisc 4 - Timeless\nDisc 5 - Sunshine Music\nDisc 6 - Breakaway\nDisc 7 - The Brian Wilson Productions\n\nFirst appearance on an album:\nBe True To Your School (Single Version)\nThe Lord's Prayer\nYou're Welcome\nCelebrate The News\nBluebirds Over The Mountain (Dutch Single Version)"
         }
 	]
 },
@@ -23483,7 +23483,7 @@
             "disc" : 1,
             "track" : 1,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -23496,7 +23496,7 @@
             "disc" : 1,
             "track" : 2,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -23509,7 +23509,7 @@
             "disc" : 1,
             "track" : 3,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -23522,8 +23522,8 @@
             "disc" : 1,
             "track" : 4,
             "url": "",
-			      "hit": true,
-			"inthit": false,
+			"hit": false,
+			"inthit": true,
             "gem": false
           },
 		  {
@@ -23535,7 +23535,7 @@
             "disc" : 1,
             "track" : 5,
             "url": "",
-			      "hit": false,
+			"hit": true,
 			"inthit": false,
             "gem": false
           },
@@ -23548,7 +23548,7 @@
             "disc" : 1,
             "track" : 6,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -23561,7 +23561,7 @@
             "disc" : 1,
             "track" : 7,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -23574,7 +23574,7 @@
             "disc" : 1,
             "track" : 8,
             "url": "",
-			      "hit": false,
+			"hit": true,
 			"inthit": false,
             "gem": false
           },
@@ -23587,7 +23587,7 @@
             "disc" : 1,
             "track" : 9,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -23600,7 +23600,7 @@
             "disc" : 1,
             "track" : 10,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -23613,7 +23613,7 @@
             "disc" : 1,
             "track" : 11,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -23626,7 +23626,8 @@
             "disc" : 1,
             "track" : 12,
             "url": "",
-			      "hit": false,
+			"hit": false,
+			"inthit": false,
             "gem": true
           },
 		  		  		  {
@@ -23638,7 +23639,7 @@
             "disc" : 1,
             "track" : 13,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -23651,7 +23652,7 @@
             "disc" : 1,
             "track" : 14,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -23664,7 +23665,7 @@
             "disc" : 1,
             "track" : 15,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -23677,7 +23678,7 @@
             "disc" : 2,
             "track" : 1,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -23690,7 +23691,7 @@
             "disc" : 2,
             "track" : 2,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -23703,7 +23704,7 @@
             "disc" : 2,
             "track" : 3,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -23716,7 +23717,7 @@
             "disc" : 2,
             "track" : 4,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -23729,7 +23730,7 @@
             "disc" : 2,
             "track" : 5,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -23742,7 +23743,7 @@
             "disc" : 2,
             "track" : 6,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -23755,7 +23756,7 @@
             "disc" : 2,
             "track" : 7,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -23768,7 +23769,7 @@
             "disc" : 2,
             "track" : 8,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -23781,7 +23782,7 @@
             "disc" : 2,
             "track" : 9,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -23794,7 +23795,7 @@
             "disc" : 2,
             "track" : 10,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -23807,7 +23808,7 @@
             "disc" : 2,
             "track" : 11,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -23820,7 +23821,7 @@
             "disc" : 2,
             "track" : 12,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -23833,7 +23834,7 @@
             "disc" : 2,
             "track" : 13,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -23845,7 +23846,7 @@
             "leadVocal" : "",
             "disc" : 2,
             "track" : 14,
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           }
@@ -24239,7 +24240,7 @@
             "disc" : 2,
             "track" : 12,
             "url": "",
-			      "hit": true,
+			"hit": true,
 			"inthit": false,
             "gem": false
           }
@@ -24334,7 +24335,7 @@
             "disc" : 1,
             "track" : 1,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -24347,7 +24348,7 @@
             "disc" : 1,
             "track" : 2,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -24360,7 +24361,7 @@
             "disc" : 1,
             "track" : 3,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -24373,7 +24374,7 @@
             "disc" : 1,
             "track" : 4,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -24386,7 +24387,7 @@
             "disc" : 1,
             "track" : 5,
             "url": "",
-			      "hit": false,
+			"hit": false,
             "gem": true
           },
 		  {
@@ -24398,7 +24399,7 @@
             "disc" : 1,
             "track" : 6,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -24411,7 +24412,7 @@
             "disc" : 1,
             "track" : 7,
             "url": "",
-			      "hit": false,
+			"hit": false,
             "gem": true
           },
 		  {
@@ -24423,7 +24424,7 @@
             "disc" : 1,
             "track" : 8,
             "url": "",
-			      "hit": false,
+			"hit": false,
             "gem": true
           },
 		  {
@@ -24435,7 +24436,7 @@
             "disc" : 1,
             "track" : 9,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -24448,7 +24449,7 @@
             "disc" : 1,
             "track" : 10,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -24461,7 +24462,7 @@
             "disc" : 1,
             "track" : 11,
             "url": "",
-			      "hit": true,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -24474,7 +24475,7 @@
             "disc" : 1,
             "track" : 12,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -24487,7 +24488,7 @@
             "disc" : 1,
             "track" : 13,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           }
@@ -24820,7 +24821,7 @@
             "disc" : 1,
             "track" : 4,
             "url": "",
-			      "hit": true,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -25028,7 +25029,7 @@
             "disc" : 2,
             "track" : 7,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -25041,7 +25042,7 @@
             "disc" : 2,
             "track" : 8,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -25054,7 +25055,7 @@
             "disc" : 2,
             "track" : 9,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -25067,7 +25068,7 @@
             "disc" : 2,
             "track" : 10,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -25080,7 +25081,7 @@
             "disc" : 2,
             "track" : 11,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -25093,7 +25094,7 @@
             "disc" : 2,
             "track" : 12,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           }
@@ -26805,7 +26806,7 @@
             "disc" : 1,
             "track" : 1,
             "url": "",
-			      "hit": false,
+			"hit": false,
             "gem": true
           },
           {
@@ -27479,7 +27480,7 @@
             "url": "",
 			      "hit": false,
 			"inthit": false,
-            "gem": false
+            "gem": true
           },
 		  		  		  		  		  {
             "title" : "Heroes And Villains (Alternate Version)",
@@ -27492,7 +27493,7 @@
             "url": "",
 			      "hit": false,
 			"inthit": false,
-            "gem": false
+            "gem": true
           },
 		  		  		  		  		  {
             "title" : "Heroes And Villains (Sections) (Previously Unreleased)",
@@ -27517,7 +27518,7 @@
             "url": "",
 			      "hit": false,
 			"inthit": false,
-            "gem": false
+            "gem": true
           },
           {
             "title" : "Cabinessence",
@@ -27543,7 +27544,7 @@
             "url": "",
 			      "hit": false,
 			"inthit": false,
-            "gem": false
+            "gem": true
           },
 		  {
             "title" : "Heroes And Villains (Intro) (Previously Unreleased)",
@@ -27556,7 +27557,7 @@
             "url": "",
 			      "hit": false,
 			"inthit": false,
-            "gem": false
+            "gem": true
           },
 		  {
             "title" : "Do You Like Worms (Previously Unreleased)",
@@ -27569,7 +27570,7 @@
             "url": "",
 			      "hit": false,
 			"inthit": false,
-            "gem": false
+            "gem": true
           },
 		  {
             "title" : "Vega-Tables (Previously Unreleased)",
@@ -27582,7 +27583,7 @@
             "url": "",
 			      "hit": false,
 			"inthit": false,
-            "gem": false
+            "gem": true
           },
 		  {
             "title" : "I Love To Say Da Da (Previously Unreleased)",
@@ -27595,7 +27596,7 @@
             "url": "",
 			      "hit": false,
 			"inthit": false,
-            "gem": false
+            "gem": true
           },
 		  {
             "title" : "Surf's Up (Previously Unreleased)",
@@ -27618,7 +27619,7 @@
             "disc" : 2,
             "track" : 29,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
