@@ -1400,6 +1400,14 @@ a {
 .twitter-share-button {
   margin-left: 4px;
   vertical-align: bottom;
+  font-size: 10px;
+  display: inline-block;
+  font-family: 'Lato', sans-serif;
+}
+.fb-share-button {
+  font-size: 10px;
+  display: inline-block;
+  font-family: 'Lato', sans-serif;
 }
 .policy-link {
   display: inline-block;
