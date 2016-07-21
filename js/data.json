@@ -787,7 +787,7 @@
             "disc" : 1,
             "track" : 8,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": true,
             "gem": false
           },
@@ -1358,7 +1358,7 @@
             "disc" : 1,
             "track" : 7,
             "url": "",
-			      "hit": true,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -1823,8 +1823,8 @@
             "disc" : 1,
             "track" : 2,
             "url": "",
-			      "hit": false,
-			"inthit": false,
+			"hit": false,
+			"inthit": true,
             "gem": false
           },
 		  {
@@ -1901,8 +1901,8 @@
             "disc" : 1,
             "track" : 8,
             "url": "",
-			      "hit": false,
-			"inthit": false,
+			"hit": false,
+			"inthit": true,
             "gem": false
           },
 		  {
@@ -2088,8 +2088,8 @@
             "disc" : 1,
             "track" : 1,
             "url": "",
-			      "hit": true,
-			"inthit": false,
+			"hit": false,
+			"inthit": true,
             "gem": false
           },
           {
@@ -2101,8 +2101,8 @@
             "disc" : 1,
             "track" : 2,
             "url": "",
-			      "hit": false,
-			"inthit": false,
+			"hit": false,
+			"inthit": true,
             "gem": false
           },
 		  {
@@ -2551,7 +2551,7 @@
             "disc" : 1,
             "track" : 10,
             "url": "",
-			      "hit": true,
+			"hit": false,
 			"inthit": false,
             "gem": true
           },
@@ -4384,7 +4384,7 @@
             "disc" : 1,
             "track" : 1,
             "url": "",
-			      "hit": true,
+			"hit": true,
 			"inthit": false,
             "gem": false
           },
@@ -4397,7 +4397,7 @@
             "disc" : 1,
             "track" : 2,
             "url": "",
-			      "hit": true,
+			"hit": true,
 			"inthit": false,
             "gem": false
           },
@@ -4410,7 +4410,7 @@
             "disc" : 1,
             "track" : 3,
             "url": "",
-			      "hit": true,
+			"hit": true,
 			"inthit": false,
             "gem": false
           },
@@ -4449,7 +4449,7 @@
             "disc" : 1,
             "track" : 6,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -4462,7 +4462,7 @@
             "disc" : 1,
             "track" : 7,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": false,
             "gem": false
           },
@@ -5192,7 +5192,7 @@
             "disc" : 1,
             "track" : 4,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": true,
             "gem": false
           },
@@ -7346,7 +7346,7 @@
             "disc" : 1,
             "track" : 2,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": true,
             "gem": false
           },
@@ -7398,7 +7398,7 @@
             "disc" : 1,
             "track" : 6,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": true,
             "gem": false
           },
@@ -7863,7 +7863,7 @@
             "disc" : 1,
             "track" : 5,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": true,
             "gem": false
           },
@@ -8275,7 +8275,7 @@
             "disc" : 1,
             "track" : 1,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": true,
             "gem": false
           },
@@ -8540,7 +8540,7 @@
             "disc" : 1,
             "track" : 1,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": true,
             "gem": false
           },
@@ -8553,7 +8553,7 @@
             "disc" : 1,
             "track" : 2,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": true,
             "gem": false
           },
@@ -8579,8 +8579,8 @@
             "disc" : 1,
             "track" : 4,
             "url": "",
-			      "hit": true,
-			"inthit": false,
+			"hit": false,
+			"inthit": true,
             "gem": false
           },
 		  {
@@ -8670,7 +8670,7 @@
             "disc" : 1,
             "track" : 11,
             "url": "",
-			      "hit": false,
+			"hit": false,
 			"inthit": true,
             "gem": false
           },
@@ -9936,8 +9936,8 @@
             "disc" : 1,
             "track" : 2,
             "url": "",
-			"hit": true,
-			"inthit": false,
+			"hit": false,
+			"inthit": true,
             "gem": false
           },
 		  {
@@ -20749,8 +20749,8 @@
             "disc" : 1,
             "track" : 4,
             "url": "",
-			      "hit": false,
-			"inthit": false,
+			"hit": false,
+			"inthit": true,
             "gem": false
           },
 		  {
@@ -20762,7 +20762,7 @@
             "disc" : 1,
             "track" : 5,
             "url": "",
-			      "hit": false,
+			"hit": true,
 			"inthit": false,
             "gem": false
           },
@@ -23102,8 +23102,8 @@
             "disc" : 6,
             "track" : 11,
             "url": "",
-			"hit": true,
-			"inthit": false,
+			"hit": false,
+			"inthit": true,
             "gem": false
           },
 		  		  {
