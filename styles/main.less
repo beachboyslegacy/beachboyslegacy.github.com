@@ -130,6 +130,14 @@
   position: sticky;;
   top: 0;
   z-index: 2;
+  h3{
+    margin-bottom: .5em;
+    font-family: @serif-font;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: @grey-light;
+    font-size: .8rem;
+  }
 }
 
 /* for sticky footer */
@@ -143,6 +151,9 @@
   display: block;
   height: 20px;
 }
+
+
+
 
 
 .sidebar__footer{
@@ -721,29 +732,9 @@
 }
 
 .newsletter-signup{
-  padding: 0 4%;
   font-family: @sans-serif-font;
-  // border: 1px solid #ddd;
   clear: both;
   margin: 2.5em 0;
-  h3{
-    font-family: @serif-font;
-    font-size: .75em;
-    font-weight: 700;
-    text-transform: uppercase;
-  }
-}
-
-@media screen and (max-width: @mobile-bp){
-  .newsletter-signup{
-    display: none;
-  }
-}
-
-.newsletter-signup{
-  h3{
-    margin-bottom: .5em;
-  }
   input[type=email]{
     height: 40px;
     line-height: 40px;
@@ -754,7 +745,6 @@
     width: 100%;
     max-width: 300px;
     margin-bottom: .5em;
-    font-size: .875em;
   }
   .button{
     display: block;
@@ -766,13 +756,49 @@
     padding: 0 2%;
     cursor: pointer;
     font-weight: 700;
-    font-size: .875em;
     letter-spacing: .01em;
     &:hover{
       text-decoration: underline;
     }
   }
+  &.desktop{
+    padding: 0 4%;
+    input[type=email]{
+      font-size: .875em;
+    }
+    .button{
+      font-size: .875em;
+    }
+  }
+  &.mobile{
+    display: none;
+    h3{
+      margin-bottom: .5em;
+      font-family: @serif-font;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: @grey-light;
+      font-size: .8rem;
+    }
+    input[type=email]{
+      font-size: 1rem;
+      padding: 0 2%;
+    }
+  }
 }
+
+
+
+@media screen and (max-width: @mobile-bp){
+  .newsletter-signup.desktop{
+    display: none;
+  }
+  .newsletter-signup.mobile{
+    display: block;
+  }
+}
+
+
 
 
 
@@ -1040,10 +1066,6 @@
   padding: 4%;
   margin-bottom: 1em;
   h3{
-    font-family: @serif-font;
-    font-size: .75em;
-    font-weight: 700;
-    text-transform: uppercase;
     margin-bottom: 1em;
   }
 }
@@ -1078,6 +1100,7 @@
   display: inline-block;
   color: @grey-light;
   line-height: @v-unit/2;
+  margin-right: 10px;
   &:hover{
     text-decoration: underline;
   }
