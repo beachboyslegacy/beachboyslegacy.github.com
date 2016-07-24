@@ -152,8 +152,7 @@ $(function(){
 
         sortByRelease();
 
-        // /if selectedCategory = 'solo'
-
+      // not a solo album
       }else{
 
         for(i=0; i<totalItems; i++){
@@ -166,6 +165,7 @@ $(function(){
             thisReleaseMonthNumber = data.items[i].parent.releaseMonth;
             thisReleaseMonthName = months[thisReleaseMonthNumber - 1];
 
+            // VIDEO
             if( (data.items[i].parent.category.video) && !(data.items[i].parent.category.live) ){
               $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-rating="'+data.items[i].parent.rating+'" data-date="'+data.items[i].parent.releaseYear+'">'+
                                 '<div class="item__header" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
@@ -190,6 +190,7 @@ $(function(){
                                 '</div>'+
                               '</li>';
             }
+            // BOOK
             else if(data.items[i].parent.category.book){
               $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-rating="'+data.items[i].parent.rating+'" data-date="'+data.items[i].parent.releaseYear+'">'+
                                 '<div class="item__header" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
@@ -215,6 +216,7 @@ $(function(){
                                 '</div>'+
                               '</li>';
             }
+            // COMPILATION
             else if(data.items[i].parent.category.compilation){
               $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-rating="'+data.items[i].parent.rating+'" data-date="'+data.items[i].parent.releaseYear+'">'+
                                 '<div class="item__header" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
@@ -251,7 +253,8 @@ $(function(){
                                 '</div>'+
                               '</li>';
             }
-            else{ //albums
+            // ALBUM
+            else{
               $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-rating="'+data.items[i].parent.rating+'" data-date="'+data.items[i].parent.releaseYear+'">'+
                                 '<div class="item__header" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
                                   '<img class="item__cover" src="'+data.items[i].parent.cover+'" alt="">'+
@@ -637,6 +640,19 @@ $(function(){
   }); // /get json
 
 
+  //sets height of selector option
+  function setSelectorsHeight(){
+    var artistSelectorHeight = $('#artist').height() + 20;
+    var categorySelectorHeight = $('#category').height() + 20;
+    $('#artist').css({
+      'min-height':artistSelectorHeight
+    });
+    $('#category').css({
+      'min-height':categorySelectorHeight
+    });
+  }
+
+  setSelectorsHeight();
 
 
   //toggles dropdown menu on mobile
