@@ -479,7 +479,7 @@ $(function(){
                                 '<div class="child-item__sidebar">'+
                                   '<div class="sticky-content">'+
                                     '<a href="'+data.items[requestedItemNumber].editions[j].amazonUs+'" target="_blank"><img class="child-item__cover" src="'+data.items[requestedItemNumber].editions[j].cover+'" alt="'+data.items[requestedItemNumber].editions[j].title+'"></a>'+
-                                    '<a class="child-item__buy" href="'+data.items[requestedItemNumber].editions[j].amazonUs+'" target="_blank">Buy on amazon.com</a>'+
+                                    '<a class="child-item__buy" href="'+data.items[requestedItemNumber].editions[j].amazonUs+'" target="_blank" onClick="ga(\x27send\x27, \x27event\x27, \x27Amazon\x27, \x27click\x27, \x27Item\x27);">Buy on amazon.com</a>'+  // \x27 is a scaped quote '
                                   '</div>'+
                                 '</div>'+
                                 '<div class="child-item__tracklist">'+
