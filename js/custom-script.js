@@ -41,7 +41,7 @@ $(function(){
             thisReleaseMonthNumber = data.items[i].parent.releaseMonth;
             thisReleaseMonthName = months[thisReleaseMonthNumber - 1];
 
-
+            // SOLO
             $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-rating="'+data.items[i].parent.rating+'" data-date="'+data.items[i].parent.releaseYear+'">'+
                               '<div class="item__header" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
                                 '<img class="item__cover" src="'+data.items[i].parent.cover+'" alt="">'+
@@ -49,7 +49,7 @@ $(function(){
                                   '<h2 class="item__title">'+data.items[i].parent.title+'</h2>'+
                                   '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
                                   '<ul class="item__rating"></ul>'+
-                                  '<a href="#'+data.items[i].parent.uniqueId+'" class="item__btn scroll-to-anchor">See details and editions</a>'+
+                                  '<a href="#'+data.items[i].parent.uniqueId+'" class="item__btn scroll-to-anchor" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Solo\x27)">See details and editions</a>'+
                                 '</div>'+
                               '</div>'+
                               '<div class="item__body">'+
@@ -174,7 +174,7 @@ $(function(){
                                     '<h2 class="item__title">'+data.items[i].parent.title+'</h2>'+
                                     '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
                                     '<ul class="item__rating"></ul>'+
-                                    '<a href="#'+data.items[i].parent.uniqueId+'" class="item__btn scroll-to-anchor">See details and editions</a>'+
+                                    '<a href="#'+data.items[i].parent.uniqueId+'" class="item__btn scroll-to-anchor" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Video\x27)">See details and editions</a>'+
                                   '</div>'+
                                 '</div>'+
                                 '<div class="item__body">'+
@@ -199,7 +199,7 @@ $(function(){
                                     '<h2 class="item__title">'+data.items[i].parent.title+'</h2>'+
                                     '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
                                     '<ul class="item__rating"></ul>'+
-                                    '<a href="#'+data.items[i].parent.uniqueId+'" class="item__btn scroll-to-anchor">See details and editions</a>'+
+                                    '<a href="#'+data.items[i].parent.uniqueId+'" class="item__btn scroll-to-anchor" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Book\x27)">See details and editions</a>'+
                                   '</div>'+
                                 '</div>'+
                                 '<div class="item__body">'+
@@ -225,7 +225,7 @@ $(function(){
                                     '<h2 class="item__title">'+data.items[i].parent.title+'</h2>'+
                                     '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
                                     '<ul class="item__rating"></ul>'+
-                                    '<a href="#'+data.items[i].parent.uniqueId+'" class="item__btn scroll-to-anchor">See details and editions</a>'+
+                                    '<a href="#'+data.items[i].parent.uniqueId+'" class="item__btn scroll-to-anchor" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Compilation\x27)">See details and editions</a>'+
                                   '</div>'+
                                 '</div>'+
                                 '<div class="item__body">'+
@@ -262,7 +262,7 @@ $(function(){
                                     '<h2 class="item__title">'+data.items[i].parent.title+'</h2>'+
                                     '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
                                     '<ul class="item__rating"></ul>'+
-                                    '<a href="#'+data.items[i].parent.uniqueId+'" class="item__btn scroll-to-anchor">See details and editions</a>'+
+                                    '<a href="#'+data.items[i].parent.uniqueId+'" class="item__btn scroll-to-anchor" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Album\x27)">See details and editions</a>'+
                                   '</div>'+
                                 '</div>'+
                                 '<div class="item__body">'+
@@ -479,7 +479,7 @@ $(function(){
                                 '<div class="child-item__sidebar">'+
                                   '<div class="sticky-content">'+
                                     '<a href="'+data.items[requestedItemNumber].editions[j].amazonUs+'" target="_blank"><img class="child-item__cover" src="'+data.items[requestedItemNumber].editions[j].cover+'" alt="'+data.items[requestedItemNumber].editions[j].title+'"></a>'+
-                                    '<a class="child-item__buy" href="'+data.items[requestedItemNumber].editions[j].amazonUs+'" target="_blank" onClick="ga(\x27send\x27, \x27event\x27, \x27Amazon\x27, \x27click\x27, \x27Item\x27);">Buy on amazon.com</a>'+  // \x27 is a scaped quote '
+                                    '<a class="child-item__buy" href="'+data.items[requestedItemNumber].editions[j].amazonUs+'" target="_blank" onClick="ga(\x27send\x27, \x27event\x27, \x27Amazon\x27, \x27click\x27, \x27Item\x27)">Buy on amazon.com</a>'+  // \x27 is a scaped quote '
                                   '</div>'+
                                 '</div>'+
                                 '<div class="child-item__tracklist">'+
@@ -662,6 +662,7 @@ $(function(){
 
   // Closes mobile dropdown menu after selecting an option
   $('.selector__options li').on( 'click', function() {
+
     var theseOptions = $(this).parent('.selector__options');
 
     if( $('.selector__current').is(":visible")  ){
@@ -669,6 +670,8 @@ $(function(){
       var newOption = $(this).html();
       theseOptions.prev('.selector__current').find('span').html(newOption);
     }
+
+    ga('send', 'event', 'Navigation', 'click', 'Filter');
 
   });
 

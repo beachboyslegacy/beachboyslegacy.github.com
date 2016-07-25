@@ -76,7 +76,7 @@
 
   ga('create', 'UA-10359362-22', 'auto');
   ga('send', 'pageview');
-
+  setTimeout("ga('send','event','User explores the site','time on page more than one minute')",60000);
 </script>
 
 </head>
@@ -87,7 +87,7 @@
 
 
 <div class="header clearfix">
-  <a id="open-overlay-menu" class="header__menu-icon" href="javascript:void(0)"><webicon icon="material:menu"/></a>
+  <a id="open-overlay-menu" class="header__menu-icon" href="javascript:void(0)" onClick="ga('send', 'event', 'Navigation', 'click', 'Overlay Menu')"><webicon icon="material:menu"/></a>
   <div class="logo">
     <h1>Beach Boys Legacy</h1>
   </div>
