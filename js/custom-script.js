@@ -42,7 +42,7 @@ $(function(){
             thisReleaseMonthName = months[thisReleaseMonthNumber - 1];
 
             // SOLO
-            $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-rating="'+data.items[i].parent.rating+'" data-date="'+data.items[i].parent.releaseYear+'">'+
+            $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-rating="'+data.items[i].parent.aggregateRating+'" data-date="'+data.items[i].parent.releaseYear+'">'+
                               '<div class="item__header" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
                                 '<img class="item__cover" src="'+data.items[i].parent.image+'" alt="">'+
                                 '<div class="item__info">'+
@@ -55,7 +55,7 @@ $(function(){
                               '<div class="item__body">'+
                                 '<div class="parent-item__info">'+
                                   '<p>Released on '+thisReleaseMonthName+' '+data.items[i].parent.releaseDay+', '+data.items[i].parent.releaseYear+'</p>'+
-                                  '<p>'+data.items[i].parent.label+' ('+data.items[i].parent.country+') '+data.items[i].parent.code+'</p>'+
+                                  '<p>'+data.items[i].parent.publisher+' ('+data.items[i].parent.country+') '+data.items[i].parent.code+'</p>'+
                                   '<p>Produced by '+data.items[i].parent.producer+'</p>'+
                                   '<p>Chart position: #'+data.items[i].parent.billboardPosition+'</p>'+
                                   // '<p>'+data.items[i].parent.notes+'</p>'+
@@ -82,7 +82,7 @@ $(function(){
               $thisItem = $($thisItem); //convers string to DOM element
               $('.items').append($thisItem);
 
-              rating = data.items[i].parent.rating;
+              rating = data.items[i].parent.aggregateRating;
 
               for (j=0; j<rating; j++){
                 $thisItem.find('.item__rating').append(
@@ -158,7 +158,7 @@ $(function(){
         for(i=0; i<totalItems; i++){
 
 
-          if( (data.items[i].parent.artist === selectedArtist) && (data.items[i].parent.category[selectedCategory] == true) ){
+          if( (data.items[i].parent.byArtist === selectedArtist) && (data.items[i].parent.category[selectedCategory] == true) ){
 
             loadedItems++;
 
@@ -167,7 +167,7 @@ $(function(){
 
             // VIDEO
             if( (data.items[i].parent.category.video) && !(data.items[i].parent.category.live) ){
-              $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-rating="'+data.items[i].parent.rating+'" data-date="'+data.items[i].parent.releaseYear+'">'+
+              $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-rating="'+data.items[i].parent.aggregateRating+'" data-date="'+data.items[i].parent.releaseYear+'">'+
                                 '<div class="item__header" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
                                   '<img class="item__cover" src="'+data.items[i].parent.image+'" alt="">'+
                                   '<div class="item__info">'+
@@ -180,7 +180,7 @@ $(function(){
                                 '<div class="item__body">'+
                                   '<div class="parent-item__info">'+
                                     '<p>Released on '+thisReleaseMonthName+' '+data.items[i].parent.releaseDay+', '+data.items[i].parent.releaseYear+'</p>'+
-                                    '<p>'+data.items[i].parent.label+' ('+data.items[i].parent.country+')</p>'+
+                                    '<p>'+data.items[i].parent.publisher+' ('+data.items[i].parent.country+')</p>'+
                                     // '<p>'+data.items[i].parent.notes+'</p>'+
                                   '</div>'+
                                   '<ul class="child-items"></ul>'+
@@ -192,7 +192,7 @@ $(function(){
             }
             // BOOK
             else if(data.items[i].parent.category.book){
-              $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-rating="'+data.items[i].parent.rating+'" data-date="'+data.items[i].parent.releaseYear+'">'+
+              $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-rating="'+data.items[i].parent.aggregateRating+'" data-date="'+data.items[i].parent.releaseYear+'">'+
                                 '<div class="item__header" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
                                   '<img class="item__cover" src="'+data.items[i].parent.image+'" alt="">'+
                                   '<div class="item__info">'+
@@ -205,7 +205,7 @@ $(function(){
                                 '<div class="item__body">'+
                                   '<div class="parent-item__info">'+
                                     '<p>Released on '+thisReleaseMonthName+' '+data.items[i].parent.releaseDay+', '+data.items[i].parent.releaseYear+'</p>'+
-                                    '<p>'+data.items[i].parent.label+' ('+data.items[i].parent.country+')</p>'+
+                                    '<p>'+data.items[i].parent.publisher+' ('+data.items[i].parent.country+')</p>'+
                                     '<p> ISBN: '+data.items[i].parent.isbn+'</p>'+
                                     // '<p>'+data.items[i].parent.notes+'</p>'+
                                   '</div>'+
@@ -218,7 +218,7 @@ $(function(){
             }
             // COMPILATION
             else if(data.items[i].parent.category.compilation){
-              $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-rating="'+data.items[i].parent.rating+'" data-date="'+data.items[i].parent.releaseYear+'">'+
+              $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-rating="'+data.items[i].parent.aggregateRating+'" data-date="'+data.items[i].parent.releaseYear+'">'+
                                 '<div class="item__header" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
                                   '<img class="item__cover" src="'+data.items[i].parent.image+'" alt="">'+
                                   '<div class="item__info">'+
@@ -231,7 +231,7 @@ $(function(){
                                 '<div class="item__body">'+
                                   '<div class="parent-item__info">'+
                                     '<p>Released on '+thisReleaseMonthName+' '+data.items[i].parent.releaseDay+', '+data.items[i].parent.releaseYear+'</p>'+
-                                    '<p>'+data.items[i].parent.label+' ('+data.items[i].parent.country+') '+data.items[i].parent.code+'</p>'+
+                                    '<p>'+data.items[i].parent.publisher+' ('+data.items[i].parent.country+') '+data.items[i].parent.code+'</p>'+
                                     '<p>Chart position: #'+data.items[i].parent.billboardPosition+'</p>'+
                                     // '<p>'+data.items[i].parent.notes+'</p>'+
                                   '</div>'+
@@ -255,7 +255,7 @@ $(function(){
             }
             // ALBUM
             else{
-              $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-rating="'+data.items[i].parent.rating+'" data-date="'+data.items[i].parent.releaseYear+'">'+
+              $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-rating="'+data.items[i].parent.aggregateRating+'" data-date="'+data.items[i].parent.releaseYear+'">'+
                                 '<div class="item__header" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
                                   '<img class="item__cover" src="'+data.items[i].parent.image+'" alt="">'+
                                   '<div class="item__info">'+
@@ -268,7 +268,7 @@ $(function(){
                                 '<div class="item__body">'+
                                   '<div class="parent-item__info">'+
                                     '<p>Released on '+thisReleaseMonthName+' '+data.items[i].parent.releaseDay+', '+data.items[i].parent.releaseYear+'</p>'+
-                                    '<p>'+data.items[i].parent.label+' ('+data.items[i].parent.country+') '+data.items[i].parent.code+'</p>'+
+                                    '<p>'+data.items[i].parent.publisher+' ('+data.items[i].parent.country+') '+data.items[i].parent.code+'</p>'+
                                     '<p>Produced by '+data.items[i].parent.producer+'</p>'+
                                     '<p>Chart position: #'+data.items[i].parent.billboardPosition+'</p>'+
                                     // '<p>'+data.items[i].parent.notes+'</p>'+
@@ -295,7 +295,7 @@ $(function(){
               $thisItem = $($thisItem); //convers string to DOM element
               $('.items').append($thisItem);
 
-              rating = data.items[i].parent.rating;
+              rating = data.items[i].parent.aggregateRating;
 
               for (j=0; j<rating; j++){
                 $thisItem.find('.item__rating').append(
@@ -476,7 +476,7 @@ $(function(){
                                   '<h3 class="child-item__title">'+data.items[requestedItemNumber].editions[j].name+'</h3>'+
                                   '<ul class="child-item__info">'+
                                     '<li>'+thisChildReleaseMonthName+' '+data.items[requestedItemNumber].editions[j].releaseDay+', '+data.items[requestedItemNumber].editions[j].releaseYear+'</li>'+
-                                    '<li>'+data.items[requestedItemNumber].editions[j].label+' ('+data.items[requestedItemNumber].editions[j].country+')</li>'+
+                                    '<li>'+data.items[requestedItemNumber].editions[j].publisher+' ('+data.items[requestedItemNumber].editions[j].country+')</li>'+
                                     '<li>'+data.items[requestedItemNumber].editions[j].format+'</li>'+
                                   '</ul>'+
                                 '</div>'+
@@ -496,7 +496,7 @@ $(function(){
                                   '<h3 class="child-item__title">'+data.items[requestedItemNumber].editions[j].name+'</h3>'+
                                   '<ul class="child-item__info">'+
                                     '<li>'+thisChildReleaseMonthName+' '+data.items[requestedItemNumber].editions[j].releaseDay+', '+data.items[requestedItemNumber].editions[j].releaseYear+'</li>'+
-                                    '<li>'+data.items[requestedItemNumber].editions[j].label+' ('+data.items[requestedItemNumber].editions[j].country+')</li>'+
+                                    '<li>'+data.items[requestedItemNumber].editions[j].publisher+' ('+data.items[requestedItemNumber].editions[j].country+')</li>'+
                                     '<li>'+data.items[requestedItemNumber].editions[j].format+'</li>'+
                                   '</ul>'+
                                 '</div>'+
