@@ -106,7 +106,7 @@ $(function(){
                 if (data.items[i].parent.numberOfDiscs > 1) {
                   if( data.items[i].parent.track.itemListElement[k].item.track == 1){
                     $thisItem.find('.parent-item__tracklist tbody tr:last-child').after(
-                      '<tr class="discnumber"><td colspan="3">Disc '+data.items[i].parent.track.itemListElement[k].disc+'</td></tr>'
+                      '<tr class="discnumber"><td colspan="3">Disc '+data.items[i].parent.track.itemListElement[k].item.disc+'</td></tr>'
                     );
                   }
                 }
@@ -321,7 +321,7 @@ $(function(){
                   if (data.items[i].parent.numberOfDiscs > 1) {
                     if( data.items[i].parent.track.itemListElement[k].item.track == 1){
                       $thisItem.find('.parent-item__tracklist tbody tr:last-child').after(
-                        '<tr class="discnumber"><td colspan="3">Disc '+data.items[i].parent.track.itemListElement[k].disc+'</td></tr>'
+                        '<tr class="discnumber"><td colspan="3">Disc '+data.items[i].parent.track.itemListElement[k].item.disc+'</td></tr>'
                       );
                     }
                   }
