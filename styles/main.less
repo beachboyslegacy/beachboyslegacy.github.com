@@ -343,6 +343,7 @@
     position: relative;
     background: @bg;
     z-index: 1;
+    .noselect;
     &:hover{
       background: rgba(0,0,0,.05);
     }
@@ -637,10 +638,16 @@
   font-size: 1.5rem;
   line-height: 1.2;
   font-weight: 700;
-  margin-bottom: .5rem;
+}
+
+.child-item__subtitle{
+  font-size: 1.2rem;
+  line-height: 1.2;
+  font-weight: 700;
 }
 
 .child-item__info{
+  margin-top: .5rem;
   color: #999;
   li{
     display: inline-block;
