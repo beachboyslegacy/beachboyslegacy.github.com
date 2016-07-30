@@ -605,7 +605,6 @@ $(function(){
                                     '<li>'+thisChildReleaseMonthName+' '+data.items[requestedItemNumber].editions[j].albumRelease.releaseDay+', '+data.items[requestedItemNumber].editions[j].albumRelease.releaseYear+'</li>'+
                                     '<li>'+data.items[requestedItemNumber].editions[j].albumRelease.publisher+' ('+data.items[requestedItemNumber].editions[j].albumRelease.country+')</li>'+
                                     '<li>'+data.items[requestedItemNumber].editions[j].albumRelease.videoReleaseFormat+'</li>'+
-                                    '<li>ASIN: '+data.items[requestedItemNumber].editions[j].albumRelease.asin+'</li>'+
                                   '</ul>'+
                                 '</div>'+
                                 '<div class="child-item__body">'+
@@ -632,7 +631,6 @@ $(function(){
                                     '<li>'+thisChildReleaseMonthName+' '+data.items[requestedItemNumber].editions[j].albumRelease.releaseDay+', '+data.items[requestedItemNumber].editions[j].albumRelease.releaseYear+'</li>'+
                                     '<li>'+data.items[requestedItemNumber].editions[j].albumRelease.recordLabel+' ('+data.items[requestedItemNumber].editions[j].albumRelease.country+')</li>'+
                                     '<li>'+data.items[requestedItemNumber].editions[j].albumRelease.musicReleaseFormat+'</li>'+
-                                    '<li>ASIN: '+data.items[requestedItemNumber].editions[j].albumRelease.asin+'</li>'+
                                   '</ul>'+
                                 '</div>'+
                                 '<div class="child-item__body">'+
