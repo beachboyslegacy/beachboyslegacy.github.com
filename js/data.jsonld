@@ -924,7 +924,7 @@
                 "trackLink": "",
                 "hit": false,
                 "inthit": false,
-                "gem": false
+                "gem": true
               }
             },
             {
@@ -7986,7 +7986,7 @@
                 "trackLink": "",
                 "hit": false,
                 "inthit": false,
-                "gem": false
+                "gem": true
               }
             },
             {
