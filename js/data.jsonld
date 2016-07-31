@@ -21384,7 +21384,7 @@
         "albumProductionType": "StudioAlbum",
         "uniqueId": "dennis-wilson-pacific-ocean-blue",
         "name": "Pacific Ocean Blue",
-        "sameAs": "",
+        "sameAs": "https://en.wikipedia.org/wiki/Pacific_Ocean_Blue",
         "image": "img/albums/dennis-wilson/1977-dennis-wilson-pacific-ocean-blue/dennis-wilson-pacific-ocean-blue-cover.jpg",
         "backCover": "",
         "publisher": "Caribou Records",
@@ -21684,6 +21684,695 @@
             "notes": "",
             "review": "",
             "tracklist": "New to this edition\n\nCD 1:\n\nTug Of Love (D.Wilson/Jakobson)\nOnly With You (D.Wilson/Love)\nHoly Man (D.Wilson/Jakobson)\nMexico (D.Wilson)\n\nCD 2 (Bambu):\n\nUnder The Moonlight (Munoz)\nIt's Not Too Late (Munoz)\nSchool Girl (D.Wilson/Jakobson)\nLove Remember Me (D.Wilson/Jakobson/Kalinich)\nLove Surrounds Me (D.Wilson/Cushing Murray)\nWild Situation (D.Wilson/Jakobson)\nCommon (D.Wilson)\nAre You Real (D.Wilson/Jakobson)\nHe's A Bum (D.Wilson/Jakobson)\nCocktails (D.Wilson/Jakobson/Hanlon)\nI Love You (D.Wilson/Jakobson)\nConstant Companion (Munoz/Baker)\nTime For Bed (D.Wilson/Jakobson)\nAlbum Tag Song (D.Wilson)\nAll Alone (Munoz)\nPiano variations on Thoughts Of You (D.Wilson)\nHoly Man (D.Wilson/Jakobson/Kalinich/Hawkins)"
+          }
+        }
+      ]
+    },
+    {
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "MusicAlbum",
+        "albumProductionType": "StudioAlbum",
+        "uniqueId": "dennis-wilson-pacific-ocean-blue-legacy-edition",
+        "name": "Pacific Ocean Blue & Bambu - 2 CD Deluxe Legacy Edition",
+        "sameAs": "https://en.wikipedia.org/wiki/Pacific_Ocean_Blue",
+        "image": "img/albums/dennis-wilson/1977-dennis-wilson-pacific-ocean-blue/dennis-wilson-pacific-ocean-blue-2008.jpg",
+        "backCover": "",
+        "publisher": "Sony Legacy",
+        "catalogNumber": "88697 31711 2",
+        "datePublished": "",
+        "releaseDay": 17,
+        "releaseMonth": 6,
+        "releaseYear": 2008,
+        "recordingStartDay": 1,
+        "recordingStartMonth": 1,
+        "recordingStartYear": 1,
+        "recordingEndDay": 1,
+        "recordingEndMonth": 1,
+        "recordingEndYear": 1,
+        "byArtist": "Dennis Wilson",
+        "producer": "Dennis Wilson, Gregg Jakobson, John Hanlon and Carli Muñoz. Rob Santos",
+        "duration": "",
+        "numberOfDiscs": 2,
+        "country": "US",
+        "billboardPosition": "8 (Billboard's Top Pop Catalog Albums chart)",
+        "unitsSold": 0,
+        "riaa": "",
+        "aggregateRating": 5,
+        "relevance": 1,
+        "backgroundColor": "#778DC6",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": true,
+          "studio": true,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": true,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": false,
+          "book": false
+        },
+        "track": {
+          "@type": "ItemList",
+          "numberofItems": 0,
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 0,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "River Song",
+                "duration": "",
+                "composer": "D.Wilson/C.Wilson",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 1,
+                "trackLink": "",
+                "hit": false,
+                "gem": true
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 0,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "What's Wrong",
+                "duration": "",
+                "composer": "D.Wilson/Jakobson/Horn",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 2,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 0,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Moonshine",
+                "duration": "",
+                "composer": "D.Wilson/Jakobson",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 3,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": true
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 0,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Friday Night",
+                "duration": "",
+                "composer": "D.Wilson/Jakobson",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 4,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 0,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Dreamer",
+                "duration": "",
+                "composer": "D.Wilson/Jakobson",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 5,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 0,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Thoughts Of You",
+                "duration": "",
+                "composer": "D.Wilson/Dutch",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 6,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": true
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 0,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Time",
+                "duration": "",
+                "composer": "D.Wilson/Lamm-Wilson",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 7,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 0,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "You And I",
+                "duration": "",
+                "composer": "D.Wilson/Lamm-Wilson/Jakobson",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 8,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 0,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Pacific Ocean Blues",
+                "duration": "",
+                "composer": "D.Wilson/Love",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 9,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 0,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Farewell My Friend",
+                "duration": "",
+                "composer": "D.Wilson",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 10,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": true
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 0,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Rainbows",
+                "duration": "",
+                "composer": "D.Wilson/C.Wilson/Kalinich",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 11,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 0,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "End Of The Show",
+                "duration": "",
+                "composer": "D.Wilson/Jakobson",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 12,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+			            {
+              "@type": "ListItem",
+              "position": 0,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Tug Of Love (#)",
+                "duration": "",
+                "composer": "D.Wilson/Jakobson",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 13,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+			            {
+              "@type": "ListItem",
+              "position": 0,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Only With You (#)",
+                "duration": "",
+                "composer": "D.Wilson/Love",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 14,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+			            {
+              "@type": "ListItem",
+              "position": 0,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Holy Man (Instrumental) (#)",
+                "duration": "",
+                "composer": "D.Wilson/Jakobson",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 15,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+			            {
+        "@type": "ListItem",
+        "position": 0,
+        "item": {
+                "@type": "MusicRecording",
+                "name": "Mexico (#)",
+                "duration": "",
+                "composer": "D.Wilson",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 16,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+			          {
+        "@type" : "ListItem",
+        "position": 0,
+        "item": {
+            "@type": "MusicRecording",
+            "name" : "Under The Moonlight",
+            "duration" : "",
+            "composer" : "Munoz",
+            "producer" : "",
+            "leadVocal" : "",
+            "disc" : 2,
+            "trackNumber" : 1,
+            "trackLink" : "",
+            "hit" : false,
+            "inthit" : false,
+            "gem" : false
+            }
+          },
+                  {
+        "@type" : "ListItem",
+        "position": 0,
+        "item": {
+        "@type": "MusicRecording",
+            "name" : "It's Not Too Late",
+            "duration" : "",
+            "composer" : "Munoz",
+            "producer" : "",
+            "leadVocal" : "",
+            "disc" : 2,
+            "trackNumber" : 2,
+            "trackLink" : "",
+            "hit" : false,
+            "inthit" : false,
+            "gem" : true
+            }
+          },
+                           {
+            "@type" : "ListItem",
+            "position": 0,
+            "item": {
+                "@type": "MusicRecording",
+            "name" : "School Girl",
+            "duration" : "",
+            "composer" : "D.Wilson/Jakobson",
+            "producer" : "",
+            "leadVocal" : "",
+            "disc" : 2,
+            "trackNumber" : 3,
+            "trackLink" : "",
+            "hit" : false,
+            "inthit" : false,
+            "gem" : false
+            }
+          },
+                           {
+            "@type" : "ListItem",
+            "position": 0,
+            "item": {
+                "@type": "MusicRecording",
+            "name" : "Love Remember Me",
+            "duration" : "",
+            "composer" : "D.Wilson/Jakobson/Kalinich",
+            "producer" : "",
+            "leadVocal" : "",
+            "disc" : 2,
+            "trackNumber" : 4,
+            "trackLink" : "",
+            "hit" : false,
+            "inthit" : false,
+            "gem" : true
+            }
+          },
+                           {
+            "@type" : "ListItem",
+            "position": 0,
+            "item": {
+                "@type": "MusicRecording",
+            "name" : "Love Surrounds Me",
+            "duration" : "",
+            "composer" : "D.Wilson/Cushing-Murray",
+            "producer" : "",
+            "leadVocal" : "",
+            "disc" : 2,
+            "trackNumber" : 5,
+            "trackLink" : "",
+            "hit" : false,
+            "inthit" : false,
+            "gem" : false
+            }
+          },
+                           {
+            "@type" : "ListItem",
+            "position": 0,
+            "item": {
+                "@type": "MusicRecording",
+            "name" : "Wild Situation",
+            "duration" : "",
+            "composer" : "D.Wilson/Jakobson",
+            "producer" : "",
+            "leadVocal" : "",
+            "disc" : 2,
+            "trackNumber" : 6,
+            "trackLink" : "",
+            "hit" : false,
+            "inthit" : false,
+            "gem" : false
+            }
+          },
+                           {
+            "@type" : "ListItem",
+            "position": 0,
+            "item": {
+                "@type": "MusicRecording",
+            "name" : "Common",
+            "duration" : "",
+            "composer" : "D.Wilson",
+            "producer" : "",
+            "leadVocal" : "",
+            "disc" : 2,
+            "trackNumber" : 7,
+            "trackLink" : "",
+            "hit" : false,
+            "inthit" : false,
+            "gem" : false
+            }
+          },
+                           {
+            "@type" : "ListItem",
+            "position": 0,
+            "item": {
+                "@type": "MusicRecording",
+            "name" : "Are You Real",
+            "duration" : "",
+            "composer" : "D.Wilson/Jakobson",
+            "producer" : "",
+            "leadVocal" : "",
+            "disc" : 2,
+            "trackNumber" : 8,
+            "trackLink" : "",
+            "hit" : false,
+            "inthit" : false,
+            "gem" : false
+            }
+          },
+                           {
+            "@type" : "ListItem",
+            "position": 0,
+            "item": {
+                "@type": "MusicRecording",
+            "name" : "He's A Bum",
+            "duration" : "",
+            "composer" : "D.Wilson/Jakobson",
+            "producer" : "",
+            "leadVocal" : "",
+            "disc" : 2,
+            "trackNumber" : 9,
+            "trackLink" : "",
+            "hit" : false,
+            "inthit" : false,
+            "gem" : false
+            }
+          },
+                           {
+            "@type" : "ListItem",
+            "position": 0,
+            "item": {
+                "@type": "MusicRecording",
+            "name" : "Cocktails",
+            "duration" : "",
+            "composer" : "D.Wilson/Jakobson/Hanlon",
+            "producer" : "",
+            "leadVocal" : "",
+            "disc" : 2,
+            "trackNumber" : 10,
+            "trackLink" : "",
+            "hit" : false,
+            "inthit" : false,
+            "gem" : true
+            }
+          },
+                           {
+            "@type" : "ListItem",
+            "position": 0,
+            "item": {
+                "@type": "MusicRecording",
+            "name" : "I Love You",
+            "duration" : "",
+            "composer" : "D.Wilson/Jakobson",
+            "producer" : "",
+            "leadVocal" : "",
+            "disc" : 2,
+            "trackNumber" : 11,
+            "trackLink" : "",
+            "hit" : false,
+            "inthit" : false,
+            "gem" : false
+            }
+          },
+                           {
+            "@type" : "ListItem",
+            "position": 0,
+            "item": {
+                "@type": "MusicRecording",
+            "name" : "Constant Companion",
+            "duration" : "",
+            "composer" : "Munoz/Baker",
+            "producer" : "",
+            "leadVocal" : "",
+            "disc" : 2,
+            "trackNumber" : 12,
+            "trackLink" : "",
+            "hit" : false,
+            "inthit" : false,
+            "gem" : false
+            }
+          },
+                           {
+            "@type" : "ListItem",
+            "position": 0,
+            "item": {
+                "@type": "MusicRecording",
+            "name" : "Time For Bed",
+            "duration" : "",
+            "composer" : "D.Wilson/Jakobson",
+            "producer" : "",
+            "leadVocal" : "",
+            "disc" : 2,
+            "trackNumber" : 13,
+            "trackLink" : "",
+            "hit" : false,
+            "inthit" : false,
+            "gem" : false
+            }
+          },
+                           {
+            "@type" : "ListItem",
+            "position": 0,
+            "item": {
+                "@type": "MusicRecording",
+            "name" : "Album Tag Song",
+            "duration" : "",
+            "composer" : "D.Wilson",
+            "producer" : "",
+            "leadVocal" : "",
+            "disc" : 2,
+            "trackNumber" : 14,
+            "trackLink" : "",
+            "hit" : false,
+            "inthit" : false,
+            "gem" : false
+            }
+          },
+                           {
+            "@type" : "ListItem",
+            "position": 0,
+            "item": {
+                "@type": "MusicRecording",
+            "name" : "All Alone",
+            "duration" : "",
+            "composer" : "Munoz",
+            "producer" : "",
+            "leadVocal" : "",
+            "disc" : 2,
+            "trackNumber" : 15,
+            "trackLink" : "",
+            "hit" : false,
+            "inthit" : false,
+            "gem" : true
+            }
+          },
+                           {
+            "@type" : "ListItem",
+            "position": 0,
+            "item": {
+            "@type": "MusicRecording",
+            "name" : "Piano variations on Thoughts Of You",
+            "duration" : "",
+            "composer" : "D.Wilson",
+            "producer" : "",
+            "leadVocal" : "",
+            "disc" : 2,
+            "trackNumber" : 16,
+            "trackLink" : "",
+            "hit" : false,
+            "inthit" : false,
+            "gem" : false
+            }
+          },
+                           {
+        "@type" : "ListItem",
+        "position": 0,
+        "item": {
+			"@type": "MusicRecording",
+            "name" : "Holy Man (Taylor Hawkings Version)",
+            "duration" : "",
+            "composer" : "D.Wilson/Jakobson/Hawkins",
+            "producer" : "",
+            "leadVocal" : "",
+            "disc" : 2,
+            "trackNumber" : 17,
+            "trackLink" : "",
+            "hit" : false,
+            "inthit" : false,
+            "gem" : true
+            }
+          }
+          ]
+        }
+      },
+      "editions": [
+        {
+          "albumRelease": {
+            "@type": "MusicRelease",
+            "name": "Pacific Ocean Blue & Bambu - 2 CD Deluxe Legacy Edition",
+            "sameAs": "",
+            "image": "img/albums/dennis-wilson/1977-dennis-wilson-pacific-ocean-blue/dennis-wilson-pacific-ocean-blue-2008.jpg",
+            "backCover": "",
+            "recordLabel": "Sony Legacy",
+            "catalogNumber": "88697 31711 2",
+            "datePublished": "",
+            "releaseDay": 17,
+            "releaseMonth": 6,
+            "releaseYear": 2008,
+            "category": "solo",
+            "musicReleaseFormat": "CD",
+            "duration": "",
+            "numberOfDiscs": 2,
+            "country": "US",
+            "asin": "B015NYSFUO",
+            "amazonUs": "http://amzn.to/1Q2eB49",
+            "amazonUk": "",
+            "amazonCa": "",
+            "amazonEs": "",
+            "amazonFr": "",
+            "amazonIt": "",
+            "amazonDe": "",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": "30th Anniversary Edition:\n\nDisc one: Pacific Ocean Blue\n# Previously unreleased\n\nDisc two: Bambu (The Caribou Sessions)\nPreviously unreleased except All Alone"
           }
         }
       ]
