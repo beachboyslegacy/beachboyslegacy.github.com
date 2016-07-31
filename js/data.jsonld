@@ -281,7 +281,7 @@
           "albumRelease": {
             "@type": "MusicRelease",
             "name": "Surfin' Safari / Surfin' U.S.A.",
-            "sameAs": "",
+            "sameAs": "https://en.wikipedia.org/wiki/Surfin%27_Safari",
             "image": "img/albums/the-beach-boys/studio/1962-surfin-safari/surfin-safari-cover.jpg",
             "backCover": "",
             "recordLabel": "Capitol",
@@ -721,7 +721,7 @@
           "albumRelease": {
             "@type": "MusicRelease",
             "name": "Surfer Girl / Surfin' U.S.A. Gold CD",
-            "sameAs": "",
+            "sameAs": "https://en.wikipedia.org/wiki/Surfin%27_U.S.A.",
             "image": "img/albums/the-beach-boys/studio/1963-surfin-usa/surfin-usa-1989.jpg",
             "backCover": "",
             "recordLabel": "Capitol",
@@ -753,7 +753,7 @@
           "albumRelease": {
             "@type": "MusicRelease",
             "name": "Surfin' Safari / Surfin' U.S.A.",
-            "sameAs": "",
+            "sameAs": "https://en.wikipedia.org/wiki/Surfin%27_U.S.A.",
             "image": "img/albums/the-beach-boys/studio/1963-surfin-usa/surfin-usa-2001.jpg",
             "backCover": "",
             "recordLabel": "Capitol",
@@ -1097,7 +1097,7 @@
           "albumRelease": {
             "@type": "MusicRelease",
             "name": "Surfer Girl / Surfin' U.S.A. Gold CD",
-            "sameAs": "",
+            "sameAs": "https://en.wikipedia.org/wiki/Surfer_Girl",
             "image": "img/albums/the-beach-boys/studio/1963-surfer-girl/surfer-girl-1989.jpg",
             "backCover": "",
             "recordLabel": "Capitol",
@@ -1129,7 +1129,7 @@
           "albumRelease": {
             "@type": "MusicRelease",
             "name": "Surfer Girl & Shut Down Vol. 2",
-            "sameAs": "",
+            "sameAs": "https://en.wikipedia.org/wiki/Surfer_Girl",
             "image": "img/albums/the-beach-boys/studio/1963-surfer-girl/surfer-girl-1990.jpg",
             "backCover": "",
             "recordLabel": "Capitol",
@@ -1161,7 +1161,7 @@
           "albumRelease": {
             "@type": "MusicRelease",
             "name": "Surfer Girl / Shut Down, Vol. 2",
-            "sameAs": "",
+            "sameAs": "https://en.wikipedia.org/wiki/Surfer_Girl",
             "image": "img/albums/the-beach-boys/studio/1963-surfer-girl/surfer-girl-1990.jpg",
             "backCover": "",
             "recordLabel": "Capitol",
@@ -1505,7 +1505,7 @@
           "albumRelease": {
             "@type": "MusicRelease",
             "name": "Little Deuce Coupe / All Summer Long",
-            "sameAs": "",
+            "sameAs": "https://en.wikipedia.org/wiki/Little_Deuce_Coupe",
             "image": "img/albums/the-beach-boys/studio/1963-little-deuce-coupe/little-deuce-coupe-2001.jpg",
             "backCover": "",
             "recordLabel": "Capitol",
@@ -1849,7 +1849,7 @@
           "albumRelease": {
             "@type": "MusicRelease",
             "name": "Surfer Girl / Shut Down, Vol. 2",
-            "sameAs": "",
+            "sameAs": "https://en.wikipedia.org/wiki/Shut_Down_Volume_2",
             "image": "img/albums/the-beach-boys/studio/1964-shut-down-vol-2/shut-down-vol-2-2001.jpg",
             "backCover": "",
             "recordLabel": "Capitol",
@@ -2193,7 +2193,7 @@
           "albumRelease": {
             "@type": "MusicRelease",
             "name": "Little Deuce Coupe / All Summer Long",
-            "sameAs": "",
+            "sameAs": "https://en.wikipedia.org/wiki/All_Summer_Long_(album)",
             "image": "img/albums/the-beach-boys/studio/1964-all-summer-long/all-summer-long-2001.jpg",
             "backCover": "",
             "recordLabel": "Capitol",
@@ -2555,7 +2555,7 @@
           "albumRelease": {
             "@type": "MusicRelease",
             "name": "Beach Boys Concert / Live In London",
-            "sameAs": "",
+            "sameAs": "https://en.wikipedia.org/wiki/Beach_Boys_Concert",
             "image": "img/albums/the-beach-boys/live/1964-beach-boys-concert/beach-boys-concert-2001.jpg",
             "backCover": "",
             "recordLabel": "Capitol",
@@ -3339,7 +3339,7 @@
           "albumRelease": {
             "@type": "MusicRelease",
             "name": "Today / Summer Days (and Summer Nights)",
-            "sameAs": "",
+            "sameAs": "https://en.wikipedia.org/wiki/The_Beach_Boys_Today!",
             "image": "img/albums/the-beach-boys/studio/1965-the-beach-boys-today/the-beach-boys-today-cover.jpg",
             "backCover": "",
             "recordLabel": "Capitol",
@@ -3683,7 +3683,7 @@
           "albumRelease": {
             "@type": "MusicRelease",
             "name": "Today / Summer Days (and Summer Nights)",
-            "sameAs": "",
+            "sameAs": "https://en.wikipedia.org/wiki/Summer_Days_(And_Summer_Nights!!)",
             "image": "img/albums/the-beach-boys/studio/1965-summer-days/summer-days-2001.jpg",
             "backCover": "",
             "recordLabel": "Capitol",
@@ -4027,7 +4027,7 @@
           "albumRelease": {
             "@type": "MusicRelease",
             "name": "Party / Stack-O-Tracks",
-            "sameAs": "",
+            "sameAs": "https://en.wikipedia.org/wiki/Beach_Boys%27_Party!",
             "image": "img/albums/the-beach-boys/studio/1965-beach-boys-party/beach-boys-party-2001.jpg",
             "backCover": "",
             "recordLabel": "Capitol",
@@ -4875,7 +4875,7 @@
           "albumRelease": {
             "@type": "MusicRelease",
             "name": "Smiley Smile / Wild Honey",
-            "sameAs": "",
+            "sameAs": "https://en.wikipedia.org/wiki/Smiley_Smile",
             "image": "img/albums/the-beach-boys/studio/1967-smiley-smile/smiley-smile-2001.jpg",
             "backCover": "",
             "recordLabel": "Capitol",
@@ -5513,7 +5513,7 @@
           "albumRelease": {
             "@type": "MusicRelease",
             "name": "Friends / 20/20",
-            "sameAs": "",
+            "sameAs": "https://en.wikipedia.org/wiki/Friends_(The_Beach_Boys_album)",
             "image": "img/albums/the-beach-boys/studio/1968-friends/friends-2001.jpg",
             "backCover": "",
             "recordLabel": "Capitol",
@@ -5857,7 +5857,7 @@
           "albumRelease": {
             "@type": "MusicRelease",
             "name": "Friends / 20/20",
-            "sameAs": "",
+            "sameAs": "https://en.wikipedia.org/wiki/20/20_(The_Beach_Boys_album)",
             "image": "img/albums/the-beach-boys/studio/1969-the-beach-boys-20-20/the-beach-boys-20-20-2001.jpg",
             "backCover": "",
             "recordLabel": "Capitol",
@@ -6201,7 +6201,7 @@
           "albumRelease": {
             "@type": "MusicRelease",
             "name": "Sunflower / Surf's Up",
-            "sameAs": "",
+            "sameAs": "https://en.wikipedia.org/wiki/Sunflower_(The_Beach_Boys_album)",
             "image": "img/albums/the-beach-boys/studio/1970-sunflower/sunflower-2000.jpg",
             "backCover": "",
             "recordLabel": "Capitol",
@@ -6509,7 +6509,7 @@
           "albumRelease": {
             "@type": "MusicRelease",
             "name": "Sunflower / Surf's Up",
-            "sameAs": "",
+            "sameAs": "https://en.wikipedia.org/wiki/Surf%27s_Up_(album)",
             "image": "img/albums/the-beach-boys/studio/1971-surfs-up/surfs-up-2000.jpg",
             "backCover": "",
             "recordLabel": "Capitol",
@@ -6781,7 +6781,7 @@
           "albumRelease": {
             "@type": "MusicRelease",
             "name": "Carl & The Passions - So Tough / Holland",
-            "sameAs": "",
+            "sameAs": "https://en.wikipedia.org/wiki/Carl_and_the_Passions_%E2%80%93_%22So_Tough%22",
             "image": "img/albums/the-beach-boys/studio/1972-carl-and-the-passions-so-tough/carl-and-the-passions-so-tough-2000.jpg",
             "backCover": "",
             "recordLabel": "Capitol",
@@ -8033,7 +8033,7 @@
           "albumRelease": {
             "@type": "MusicRelease",
             "name": "15 Big Ones / Love You",
-            "sameAs": "",
+            "sameAs": "https://en.wikipedia.org/wiki/15_Big_Ones",
             "image": "img/albums/the-beach-boys/studio/1976-15-big-ones/15-big-ones-cover.jpg",
             "backCover": "",
             "recordLabel": "Capitol",
@@ -8377,7 +8377,7 @@
           "albumRelease": {
             "@type": "MusicRelease",
             "name": "Beach Boys Concert / Live In London",
-            "sameAs": "",
+            "sameAs": "https://en.wikipedia.org/wiki/Live_in_London_(The_Beach_Boys_album)",
             "image": "img/albums/the-beach-boys/live/1976-beach-boys-69/live-in-london-2001.jpg",
             "backCover": "",
             "recordLabel": "Capitol",
@@ -8757,7 +8757,7 @@
           "albumRelease": {
             "@type": "MusicRelease",
             "name": "15 Big Ones / Love You",
-            "sameAs": "",
+            "sameAs": "https://en.wikipedia.org/wiki/The_Beach_Boys_Love_You",
             "image": "img/albums/the-beach-boys/studio/1977-the-beach-boys-love-you/the-beach-boys-love-you-cover.jpg",
             "backCover": "",
             "recordLabel": "Capitol",
@@ -9133,7 +9133,7 @@
           "albumRelease": {
             "@type": "MusicRelease",
             "name": "M.I.U. / L.A. Album",
-            "sameAs": "",
+            "sameAs": "https://en.wikipedia.org/wiki/M.I.U._Album",
             "image": "img/albums/the-beach-boys/studio/1978-miu-album/miu-album-2000.jpg",
             "backCover": "",
             "recordLabel": "Capitol",
@@ -9441,7 +9441,7 @@
           "albumRelease": {
             "@type": "MusicRelease",
             "name": "M.I.U. / L.A. Album",
-            "sameAs": "",
+            "sameAs": "https://en.wikipedia.org/wiki/L.A._(Light_Album)",
             "image": "img/albums/the-beach-boys/studio/1979-la-light-album/la-light-album-2000.jpg",
             "backCover": "",
             "recordLabel": "Capitol",
@@ -9749,7 +9749,7 @@
           "albumRelease": {
             "@type": "MusicRelease",
             "name": "Keepin' The Summer Alive / The Beach Boys",
-            "sameAs": "",
+            "sameAs": "https://en.wikipedia.org/wiki/Keepin%27_the_Summer_Alive",
             "image": "img/albums/the-beach-boys/studio/1980-keepin-the-summer-alive/keepin-the-summer-alive-2000.jpg",
             "backCover": "",
             "recordLabel": "Capitol",
@@ -10075,7 +10075,7 @@
           "albumRelease": {
             "@type": "MusicRelease",
             "name": "Keepin' The Summer Alive / The Beach Boys",
-            "sameAs": "",
+            "sameAs": "https://en.wikipedia.org/wiki/The_Beach_Boys_(album)",
             "image": "img/albums/the-beach-boys/studio/1985-the-beach-boys-85/the-beach-boys-85-2000.jpg",
             "backCover": "",
             "recordLabel": "Capitol",
