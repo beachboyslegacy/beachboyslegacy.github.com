@@ -24123,7 +24123,7 @@
         "backCover": "",
         "publisher": "Reverse Falcon Music",
         "catalogNumber": "",
-        "datePublished": "",
+        "datePublished": "08-12-2008",
         "releaseDay": 12,
         "releaseMonth": 8,
         "releaseYear": 2008,
@@ -24167,11 +24167,11 @@
         },
         "track": {
           "@type": "ItemList",
-          "numberofItems": 0,
+          "numberofItems": 67,
           "itemListElement": [
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 1,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Sheriff Of Noddingham (studio out-take)",
@@ -24189,7 +24189,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 2,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Travelin' (alternate take)",
@@ -24207,7 +24207,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 3,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Cruisin' (basic track)",
@@ -24225,7 +24225,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 4,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Cruisin' (alternate take)",
@@ -24243,7 +24243,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 5,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Kustom Kar Show (studio out-take)",
@@ -24261,7 +24261,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 6,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Food Fair",
@@ -24279,7 +24279,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 7,
               "item": {
                 "@type": "MusicRecording",
                 "name": "I Wanna Cry",
@@ -24297,7 +24297,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 8,
               "item": {
                 "@type": "MusicRecording",
                 "name": "I Could Make You Mine",
@@ -24315,7 +24315,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 9,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Let's Dance (unreleased)",
@@ -24333,7 +24333,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 10,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Do You Know What Lover's Say",
@@ -24351,7 +24351,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 11,
               "item": {
                 "@type": "MusicRecording",
                 "name": "I Heard You Cryin' (unreleased)",
@@ -24369,7 +24369,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 12,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Don't Cry For Me (unreleased)",
@@ -24387,7 +24387,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 13,
               "item": {
                 "@type": "MusicRecording",
                 "name": "In My Lonely World (unreleased)",
@@ -24405,7 +24405,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 14,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Lazy Sunday Morning (unreleased)",
@@ -24423,7 +24423,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 15,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Don't Weep (unreleased)",
@@ -24441,7 +24441,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 16,
               "item": {
                 "@type": "MusicRecording",
                 "name": "That's Why (unreleased)",
@@ -24459,7 +24459,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 17,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Baby The Rain Must Fall (unreleased)",
@@ -24477,7 +24477,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 18,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Lebanon - The Moon",
@@ -24495,7 +24495,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 19,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Transporting Machine - The Moon",
@@ -24513,7 +24513,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 20,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Not To Know - The Moon",
@@ -24531,7 +24531,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 21,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Life Is A Season - The Moon",
@@ -24549,7 +24549,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 22,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Softly - The Moon",
@@ -24567,7 +24567,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 23,
               "item": {
                 "@type": "MusicRecording",
                 "name": "John Automaton - The Moon",
@@ -24585,7 +24585,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 24,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Good Side - The Moon",
@@ -24603,7 +24603,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 25,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Chilly, Chilly - GD Crocker & Dirty Dog Dave",
@@ -24621,7 +24621,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 26,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Prelude - GD Crocker & Dirty Dog Dave",
@@ -24639,7 +24639,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 27,
               "item": {
                 "@type": "MusicRecording",
                 "name": "The Weary Canoe Suite (part 1) - Abstract Plastic Plasma Dog",
@@ -24657,7 +24657,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 28,
               "item": {
                 "@type": "MusicRecording",
                 "name": "The Weary Canoe Suite (part 2) - Abstract Plastic Plasma Dog",
@@ -24675,7 +24675,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 29,
               "item": {
                 "@type": "MusicRecording",
                 "name": "The Weary Canoe Suite (part 3) - Abstract Plastic Plasma Dog",
@@ -24693,7 +24693,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 30,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Rock & Roll Music Suite - Abstract Plastic Plasma Dog",
@@ -24711,7 +24711,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 31,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Still Life In Motion - Silvermine Demo",
@@ -24729,7 +24729,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 32,
               "item": {
                 "@type": "MusicRecording",
                 "name": "The Rehearsal - Silvermine Demo",
@@ -24747,7 +24747,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 33,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Early In The Morning - Marks-Clifford Band",
@@ -24765,7 +24765,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 34,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Put Yourself In My Place (Alternate version) - The Lake House Sessions",
@@ -24783,7 +24783,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 35,
               "item": {
                 "@type": "MusicRecording",
                 "name": "You Can't Talk To Me (Alternate version) - The Lake House Sessions",
@@ -24801,7 +24801,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 36,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Hawaii - Low key Intensity",
@@ -24819,7 +24819,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 37,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Big Wave - Low key Intensity",
@@ -24837,7 +24837,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 38,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Love & Mercy - Low key Intensity",
@@ -24855,7 +24855,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 39,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Light Of The Spirit - Low key Intensity",
@@ -24873,7 +24873,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 40,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Touch - Low key Intensity",
@@ -24891,7 +24891,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 41,
               "item": {
                 "@type": "MusicRecording",
                 "name": "You & I - Low key Intensity",
@@ -24909,7 +24909,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 42,
               "item": {
                 "@type": "MusicRecording",
                 "name": "The Round Up - Low key Intensity",
@@ -24927,7 +24927,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 43,
               "item": {
                 "@type": "MusicRecording",
                 "name": "I Fall Into The Grace - Low key Intensity",
@@ -24945,7 +24945,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 44,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Long Promised Road - Low key Intensity",
@@ -24963,7 +24963,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 45,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Angie - The Colours",
@@ -24981,7 +24981,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 46,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Ocean Liner - Blue Dolphin",
@@ -24999,7 +24999,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 47,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Light Of The Spirit - Blue Dolphin",
@@ -25017,7 +25017,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 48,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Dr. Of Love - Blue Dolphin",
@@ -25035,7 +25035,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 49,
               "item": {
                 "@type": "MusicRecording",
                 "name": "You Can't Talk To Me - Blue Dolphin",
@@ -25053,7 +25053,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 50,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Steppin' Out - Blue Dolphin",
@@ -25071,7 +25071,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 51,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Early In The Morning - Work Tapes",
@@ -25089,7 +25089,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 52,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Siren Song - Work Tapes",
@@ -25107,7 +25107,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 53,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Over My Head - Work Tapes",
@@ -25125,7 +25125,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 54,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Fool's Guarantee - Work Tapes",
@@ -25143,7 +25143,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 55,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Land Of Opportunity - Something Funny Goin' On",
@@ -25161,7 +25161,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 56,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Mixed Drinks & Mixed Emotions - Something Funny Goin' On",
@@ -25179,7 +25179,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 57,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Bamboo Shack - I Think About You Often",
@@ -25197,7 +25197,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 58,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Stowaway - I Think About You Often",
@@ -25215,7 +25215,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 59,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Like 1969 - I Think About You Often",
@@ -25233,7 +25233,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 60,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Light Of The Spirit - I Think About You Often",
@@ -25251,7 +25251,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 61,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Big Wave - I Think About You Often",
@@ -25269,7 +25269,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 62,
               "item": {
                 "@type": "MusicRecording",
                 "name": "I Ain't Goin' Surfin' - I Think About You Often",
@@ -25287,7 +25287,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 63,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Pretty Eyes - I Think About You Often",
@@ -25305,7 +25305,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 64,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Have You Ever Been Duped - I Think About You Often",
@@ -25323,7 +25323,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 65,
               "item": {
                 "@type": "MusicRecording",
                 "name": "I'm So Clever - I Think About You Often",
@@ -25341,7 +25341,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 66,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Dancin' In The Mirror - I Think About You Often",
@@ -25359,7 +25359,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 67,
               "item": {
                 "@type": "MusicRecording",
                 "name": "I Think About You Often - I Think About You Often",
@@ -25388,7 +25388,7 @@
             "backCover": "",
             "recordLabel": "Reverse Falcon Music",
             "catalogNumber": "",
-            "datePublished": "",
+            "datePublished": "08-12-2008",
             "releaseDay": 12,
             "releaseMonth": 8,
             "releaseYear": 2008,
@@ -25425,7 +25425,7 @@
         "backCover": "",
         "publisher": "Reverse Falcon Music",
         "catalogNumber": "",
-        "datePublished": "",
+        "datePublished": "08-22-2008",
         "releaseDay": 22,
         "releaseMonth": 8,
         "releaseYear": 2008,
@@ -25469,11 +25469,11 @@
         },
         "track": {
           "@type": "ItemList",
-          "numberofItems": 0,
+          "numberofItems": 17,
           "itemListElement": [
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 1,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Sheriff Of Noddingham",
@@ -25491,7 +25491,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 2,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Travelin'",
@@ -25509,7 +25509,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 3,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Kustom Kar Show",
@@ -25527,7 +25527,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 4,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Cruisin'",
@@ -25545,7 +25545,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 5,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Let's Dance",
@@ -25563,7 +25563,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 6,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Food Fair",
@@ -25581,7 +25581,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 7,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Do You Know What Lovers Say",
@@ -25599,7 +25599,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 8,
               "item": {
                 "@type": "MusicRecording",
                 "name": "I Wanna Cry",
@@ -25617,7 +25617,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 9,
               "item": {
                 "@type": "MusicRecording",
                 "name": "I Could Make You Mine",
@@ -25635,7 +25635,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 10,
               "item": {
                 "@type": "MusicRecording",
                 "name": "I Heard You Cryin'",
@@ -25653,7 +25653,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 11,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Don't Cry for Me",
@@ -25671,7 +25671,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 12,
               "item": {
                 "@type": "MusicRecording",
                 "name": "In My Lonely World",
@@ -25689,7 +25689,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 13,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Lazy Sunday Morning",
@@ -25707,7 +25707,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 14,
               "item": {
                 "@type": "MusicRecording",
                 "name": "That's Why",
@@ -25725,7 +25725,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 15,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Don't Weep (#)",
@@ -25743,7 +25743,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 16,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Cruisin' (Instrumental) (#)",
@@ -25761,7 +25761,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 17,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Cruisin' (Alternate Take) (#)",
@@ -25790,7 +25790,7 @@
             "backCover": "",
             "recordLabel": "Reverse Falcon Music",
             "catalogNumber": "",
-            "datePublished": "",
+            "datePublished": "08-22-2008",
             "releaseDay": 22,
             "releaseMonth": 8,
             "releaseYear": 2008,
@@ -25827,7 +25827,7 @@
         "backCover": "",
         "publisher": "MsMusic Productions",
         "catalogNumber": "MUS-105-1",
-        "datePublished": "",
+        "datePublished": "09-28-2015",
         "releaseDay": 28,
         "releaseMonth": 9,
         "releaseYear": 2015,
@@ -25871,11 +25871,11 @@
         },
         "track": {
           "@type": "ItemList",
-          "numberofItems": 0,
+          "numberofItems": 13,
           "itemListElement": [
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 1,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Hawaii",
@@ -25893,7 +25893,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 2,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Summertime Blues",
@@ -25911,7 +25911,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 3,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Have You Ever Been Duped",
@@ -25929,7 +25929,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 4,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Your Summer Dream",
@@ -25947,7 +25947,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 5,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Little Deuce Coupe",
@@ -25965,7 +25965,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 6,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Farmer's Daughter",
@@ -25983,7 +25983,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 7,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Land of Opportunity",
@@ -26001,7 +26001,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 8,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Boogie Woodie",
@@ -26019,7 +26019,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 9,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Sail On, Sailor",
@@ -26037,7 +26037,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 10,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Unchain My Heart",
@@ -26055,7 +26055,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 11,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Tore Down",
@@ -26073,7 +26073,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 12,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Intros",
@@ -26091,7 +26091,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 13,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Big Wave",
@@ -26120,7 +26120,7 @@
             "backCover": "",
             "recordLabel": "MsMusic Productions",
             "catalogNumber": "MUS-105-1",
-            "datePublished": "",
+            "datePublished": "09-28-2015",
             "releaseDay": 28,
             "releaseMonth": 9,
             "releaseYear": 2015,
@@ -26157,7 +26157,7 @@
         "backCover": "",
         "publisher": "Lion and the Pigeon Records",
         "catalogNumber": "None",
-        "datePublished": "",
+        "datePublished": "03-28-2016",
         "releaseDay": 28,
         "releaseMonth": 3,
         "releaseYear": 2016,
@@ -26201,11 +26201,11 @@
         },
         "track": {
           "@type": "ItemList",
-          "numberofItems": 0,
+          "numberofItems": 11,
           "itemListElement": [
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 1,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Sheriff Of Noddingham",
@@ -26223,7 +26223,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 2,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Cruisin'",
@@ -26241,7 +26241,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 3,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Stoked",
@@ -26259,7 +26259,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 4,
               "item": {
                 "@type": "MusicRecording",
                 "name": "I Could Make You Mine",
@@ -26277,7 +26277,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 5,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Food Fair",
@@ -26295,7 +26295,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 6,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Travelin'",
@@ -26313,7 +26313,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 7,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Let's Dance",
@@ -26331,7 +26331,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 8,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Summertime Blues",
@@ -26349,7 +26349,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 9,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Surf Jam",
@@ -26367,7 +26367,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 10,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Louie, Louie",
@@ -26385,7 +26385,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 11,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Kustom Kar Show",
@@ -26414,7 +26414,7 @@
             "backCover": "",
             "recordLabel": "Lion and the Pigeon",
             "catalogNumber": "None",
-            "datePublished": "",
+            "datePublished": "09-28-2015",
             "releaseDay": 28,
             "releaseMonth": 9,
             "releaseYear": 2015,
@@ -26451,7 +26451,7 @@
         "backCover": "",
         "publisher": "MCA",
         "catalogNumber": "3037",
-        "datePublished": "",
+        "datePublished": "05-08-1978",
         "releaseDay": 8,
         "releaseMonth": 5,
         "releaseYear": 1978,
@@ -26495,11 +26495,11 @@
         },
         "track": {
           "@type": "ItemList",
-          "numberofItems": 0,
+          "numberofItems": 11,
           "itemListElement": [
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 1,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Almost Summer",
@@ -26517,7 +26517,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 2,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Sad, Sad Summer",
@@ -26535,7 +26535,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 3,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Cruisin'",
@@ -26553,7 +26553,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 4,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Lookin Good",
@@ -26571,7 +26571,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 5,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Summer In the City",
@@ -26589,7 +26589,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 6,
               "item": {
                 "@type": "MusicRecording",
                 "name": "It's O.K.",
@@ -26607,7 +26607,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 7,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Football",
@@ -26625,7 +26625,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 8,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Island Girl",
@@ -26643,7 +26643,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 9,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Christine And Bobby",
@@ -26661,7 +26661,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 10,
               "item": {
                 "@type": "MusicRecording",
                 "name": "We Are The Future (by High Inergy)",
@@ -26679,7 +26679,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 11,
               "item": {
                 "@type": "MusicRecording",
                 "name": "She Was A Lady (by Fresh)",
@@ -26708,7 +26708,7 @@
             "backCover": "",
             "recordLabel": "MCA",
             "catalogNumber": "3037",
-            "datePublished": "",
+            "datePublished": "05-08-1978",
             "releaseDay": 8,
             "releaseMonth": 5,
             "releaseYear": 1978,
@@ -26745,7 +26745,7 @@
         "backCover": "",
         "publisher": "Pacific Arts",
         "catalogNumber": "PAC7 122",
-        "datePublished": "",
+        "datePublished": "02-21-1979",
         "releaseDay": 21,
         "releaseMonth": 2,
         "releaseYear": 1979,
@@ -26789,11 +26789,11 @@
         },
         "track": {
           "@type": "ItemList",
-          "numberofItems": 0,
+          "numberofItems": 10,
           "itemListElement": [
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 1,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Gettin' Hungry",
@@ -26811,7 +26811,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 2,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Sailor",
@@ -26829,7 +26829,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 3,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Lovestruck",
@@ -26847,7 +26847,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 4,
               "item": {
                 "@type": "MusicRecording",
                 "name": "She's Just Out To Get You",
@@ -26865,7 +26865,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 5,
               "item": {
                 "@type": "MusicRecording",
                 "name": "I Don't Wanna Know",
@@ -26883,7 +26883,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 6,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Starbaby",
@@ -26901,7 +26901,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 7,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Go And Get That Girl",
@@ -26919,7 +26919,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 8,
               "item": {
                 "@type": "MusicRecording",
                 "name": "How's About A Little Bit",
@@ -26937,7 +26937,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 9,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Song Of Creation",
@@ -26955,7 +26955,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 10,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Country Pie",
@@ -26984,7 +26984,7 @@
             "backCover": "",
             "recordLabel": "Pacific Arts",
             "catalogNumber": "PAC7 122",
-            "datePublished": "",
+            "datePublished": "02-21-1979",
             "releaseDay": 21,
             "releaseMonth": 2,
             "releaseYear": 1979,
@@ -27021,7 +27021,7 @@
         "backCover": "",
         "publisher": "Boardwalk",
         "catalogNumber": "NB1 33242",
-        "datePublished": "",
+        "datePublished": "10-08-1981",
         "releaseDay": 8,
         "releaseMonth": 10,
         "releaseYear": 1981,
@@ -27065,11 +27065,11 @@
         },
         "track": {
           "@type": "ItemList",
-          "numberofItems": 0,
+          "numberofItems": 10,
           "itemListElement": [
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 1,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Looking Back With Love",
@@ -27087,7 +27087,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 2,
               "item": {
                 "@type": "MusicRecording",
                 "name": "On And On And On",
@@ -27105,7 +27105,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 3,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Runnin' Around The World",
@@ -27123,7 +27123,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 4,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Over And Over",
@@ -27141,7 +27141,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 5,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Rockin' The Man In The Boat",
@@ -27159,7 +27159,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 6,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Calender Girl",
@@ -27177,7 +27177,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 7,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Be My Baby",
@@ -27195,7 +27195,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 8,
               "item": {
                 "@type": "MusicRecording",
                 "name": "One Good Reason",
@@ -27213,7 +27213,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 9,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Teach Me Tonight",
@@ -27231,7 +27231,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 10,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Paradise Found",
@@ -27260,7 +27260,7 @@
             "backCover": "",
             "recordLabel": "Boardwalk",
             "catalogNumber": "",
-            "datePublished": "",
+            "datePublished": "10-08-1981",
             "releaseDay": 8,
             "releaseMonth": 10,
             "releaseYear": 1981,
@@ -27297,7 +27297,7 @@
         "backCover": "",
         "publisher": "MELECo/Tosco",
         "catalogNumber": "",
-        "datePublished": "",
+        "datePublished": "02-01-1998",
         "releaseDay": 1,
         "releaseMonth": 2,
         "releaseYear": 1998,
@@ -27341,11 +27341,11 @@
         },
         "track": {
           "@type": "ItemList",
-          "numberofItems": 0,
+          "numberofItems": 10,
           "itemListElement": [
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 1,
               "item": {
                 "@type": "MusicRecording",
                 "name": "I Get Around",
@@ -27363,7 +27363,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 2,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Little Deuce Coupe",
@@ -27381,7 +27381,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 3,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Little Old Lady From Pasadena",
@@ -27399,7 +27399,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 4,
               "item": {
                 "@type": "MusicRecording",
                 "name": "409",
@@ -27417,7 +27417,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 5,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Shut Down",
@@ -27435,7 +27435,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 6,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Little G.T.O.",
@@ -27453,7 +27453,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 7,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Ballad Of Ole' Betsy",
@@ -27471,7 +27471,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 8,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Little Honda",
@@ -27489,7 +27489,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 9,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Fun, Fun, Fun",
@@ -27507,7 +27507,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 10,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Don't Worry, Baby",
@@ -27536,7 +27536,7 @@
             "backCover": "",
             "recordLabel": "MELECo/Tosco",
             "catalogNumber": "",
-            "datePublished": "",
+            "datePublished": "02-01-1998",
             "releaseDay": 1,
             "releaseMonth": 2,
             "releaseYear": 1998,
@@ -27573,7 +27573,7 @@
         "backCover": "",
         "publisher": "Del-Fi",
         "catalogNumber": "DFLP 1228",
-        "datePublished": "",
+        "datePublished": "06-01-1963",
         "releaseDay": 1,
         "releaseMonth": 6,
         "releaseYear": 1963,
@@ -27617,11 +27617,11 @@
         },
         "track": {
           "@type": "ItemList",
-          "numberofItems": 0,
+          "numberofItems": 10,
           "itemListElement": [
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 1,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Surfer's Delight",
@@ -27639,7 +27639,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 2,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Kansas City",
@@ -27657,7 +27657,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 3,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Mashin' The Popeye",
@@ -27675,7 +27675,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 4,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Gee But I'm Lonesome",
@@ -27693,7 +27693,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 5,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Green Onions",
@@ -27711,7 +27711,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 6,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Ramrod",
@@ -27729,7 +27729,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 7,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Last Night",
@@ -27747,7 +27747,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 8,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Surfer Stomp",
@@ -27765,7 +27765,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 9,
               "item": {
                 "@type": "MusicRecording",
                 "name": "What'd I Say",
@@ -27783,7 +27783,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 10,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Something On Your Mind",
@@ -27812,7 +27812,7 @@
             "backCover": "",
             "recordLabel": "MsMusic Productions",
             "catalogNumber": "",
-            "datePublished": "",
+            "datePublished": "01-04-2005",
             "releaseDay": 4,
             "releaseMonth": 1,
             "releaseYear": 2005,
@@ -27849,7 +27849,7 @@
         "backCover": "",
         "publisher": "Columbia",
         "catalogNumber": "CL 2057",
-        "datePublished": "",
+        "datePublished": "08-01-1963",
         "releaseDay": 1,
         "releaseMonth": 8,
         "releaseYear": 1963,
@@ -27893,11 +27893,11 @@
         },
         "track": {
           "@type": "ItemList",
-          "numberofItems": 0,
+          "numberofItems": 12,
           "itemListElement": [
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 1,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Surfin' 'Round The World",
@@ -27915,7 +27915,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 2,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Maksha At Midnight",
@@ -27933,7 +27933,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 3,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Down Under",
@@ -27951,7 +27951,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 4,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Capetown",
@@ -27969,7 +27969,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 5,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Biarritz",
@@ -27987,7 +27987,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 6,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Jersey Channel Islands - Part 7",
@@ -28005,7 +28005,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 7,
               "item": {
                 "@type": "MusicRecording",
                 "name": "The Hamptons",
@@ -28023,7 +28023,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 8,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Virginia Beach",
@@ -28041,7 +28041,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 9,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Surf-A-Nova",
@@ -28059,7 +28059,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 10,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Hot Pastrami, Mashed Potatoes, Come On To Rincon-Yeah!!!",
@@ -28077,7 +28077,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 11,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Maliblu",
@@ -28095,7 +28095,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 12,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Surfin's Here To Stay",
@@ -28124,7 +28124,7 @@
             "backCover": "",
             "recordLabel": "Sundazed",
             "catalogNumber": "SC 6100",
-            "datePublished": "",
+            "datePublished": "02-24-1997",
             "releaseDay": 24,
             "releaseMonth": 2,
             "releaseYear": 1997,
@@ -28156,7 +28156,7 @@
             "backCover": "",
             "recordLabel": "Beat Goes On",
             "catalogNumber": "",
-            "datePublished": "",
+            "datePublished": "04-30-2007",
             "releaseDay": 30,
             "releaseMonth": 4,
             "releaseYear": 2007,
@@ -28193,7 +28193,7 @@
         "backCover": "",
         "publisher": "Columbia",
         "catalogNumber": "PC 34459",
-        "datePublished": "",
+        "datePublished": "05-01-1977",
         "releaseDay": 1,
         "releaseMonth": 5,
         "releaseYear": 1977,
@@ -28237,11 +28237,11 @@
         },
         "track": {
           "@type": "ItemList",
-          "numberofItems": 0,
+          "numberofItems": 9,
           "itemListElement": [
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 1,
               "item": {
                 "@type": "MusicRecording",
                 "name": "I Write The Songs",
@@ -28259,7 +28259,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 2,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Deirdre",
@@ -28277,7 +28277,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 3,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Thank You Baby",
@@ -28295,7 +28295,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 4,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Rendezvous",
@@ -28313,7 +28313,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 5,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Won't Somebody Dance With Me",
@@ -28331,7 +28331,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 6,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Disney Girls",
@@ -28349,7 +28349,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 7,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Rock And Roll Survivor",
@@ -28367,7 +28367,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 8,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Don't Be Scared",
@@ -28385,7 +28385,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 9,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Pipeline",
@@ -28414,7 +28414,7 @@
             "backCover": "",
             "recordLabel": "Beat Goes On",
             "catalogNumber": "",
-            "datePublished": "",
+            "datePublished": "04-30-2007",
             "releaseDay": 30,
             "releaseMonth": 4,
             "releaseYear": 2007,
@@ -28446,7 +28446,7 @@
             "backCover": "",
             "recordLabel": "Sony",
             "catalogNumber": "",
-            "datePublished": "",
+            "datePublished": "07-10-2012",
             "releaseDay": 10,
             "releaseMonth": 7,
             "releaseYear": 2012,
@@ -28480,7 +28480,7 @@
         "sameAs": "",
         "image": "img/videos/2012-the-beach-boys-50-live-in-concert/the-beach-boys-50-live-in-concert-cover.jpg",
         "backCover": "",
-        "datePublished": "",
+        "datePublished": "11-19-2012",
         "releaseDay": 19,
         "releaseMonth": 11,
         "releaseYear": 2012,
@@ -28528,11 +28528,11 @@
         },
         "track": {
           "@type": "ItemList",
-          "numberofItems": 0,
+          "numberofItems": 21,
           "itemListElement": [
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 1,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Do It Again",
@@ -28550,7 +28550,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 2,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Catch A Wave",
@@ -28568,7 +28568,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 3,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Hawaii",
@@ -28586,7 +28586,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 4,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Marcella",
@@ -28604,7 +28604,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 5,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Isn't It Time",
@@ -28622,7 +28622,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 6,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Little Deuce Coupe",
@@ -28640,7 +28640,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 7,
               "item": {
                 "@type": "MusicRecording",
                 "name": "409",
@@ -28658,7 +28658,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 8,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Shut Down",
@@ -28676,7 +28676,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 9,
               "item": {
                 "@type": "MusicRecording",
                 "name": "I Get Around",
@@ -28694,7 +28694,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 10,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Heroes And Villains",
@@ -28712,7 +28712,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 11,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Sloop John B",
@@ -28730,7 +28730,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 12,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Wouldn't It Be Nice",
@@ -28748,7 +28748,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 13,
               "item": {
                 "@type": "MusicRecording",
                 "name": "All This Is That",
@@ -28766,7 +28766,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 14,
               "item": {
                 "@type": "MusicRecording",
                 "name": "That's Why God Made The Radio",
@@ -28784,7 +28784,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 15,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Sail On, Sailor",
@@ -28802,7 +28802,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 16,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Good Vibrations",
@@ -28820,7 +28820,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 17,
               "item": {
                 "@type": "MusicRecording",
                 "name": "California Girls",
@@ -28838,7 +28838,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 18,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Help Me, Rhonda",
@@ -28856,7 +28856,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 19,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Rock And Roll Music",
@@ -28874,7 +28874,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 20,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Kokomo",
@@ -28892,7 +28892,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 21,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Fun, Fun, Fun",
@@ -28921,7 +28921,7 @@
             "backCover": "",
             "publisher": "BlastMusic",
             "catalogNumber": "3722196",
-            "datePublished": "",
+            "datePublished": "11-19-2012",
             "releaseDay": 19,
             "releaseMonth": 11,
             "releaseYear": 2012,
@@ -28953,7 +28953,7 @@
             "backCover": "",
             "publisher": "BlastMusic",
             "catalogNumber": "",
-            "datePublished": "",
+            "datePublished": "11-19-2012",
             "releaseDay": 19,
             "releaseMonth": 11,
             "releaseYear": 2012,
@@ -28992,7 +28992,7 @@
           "@type": "Person",
           "name": "Brian Wilson &amp; Ben Greenman"
         },
-        "datePublished": "",
+        "datePublished": "10-11-2016",
         "releaseDay": 11,
         "releaseMonth": 10,
         "releaseYear": 2016,
@@ -29039,7 +29039,7 @@
           },
           "publisher": "Da Capo Press",
           "isbn": "0306823063",
-          "datePublished": "",
+          "datePublished": "10-11-2016",
           "releaseDay": 11,
           "releaseMonth": 10,
           "releaseYear": 2016,
@@ -29154,7 +29154,7 @@
         "backCover": "",
         "publisher": "Capitol",
         "catalogNumber": "T 2545",
-        "datePublished": "",
+        "datePublished": "07-05-1966",
         "releaseDay": 5,
         "releaseMonth": 7,
         "releaseYear": 1966,
@@ -29198,11 +29198,11 @@
         },
         "track": {
           "@type": "ItemList",
-          "numberofItems": 0,
+          "numberofItems": 12,
           "itemListElement": [
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 1,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Surfin' U.S.A.",
@@ -29220,7 +29220,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 2,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Catch A Wave",
@@ -29238,7 +29238,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 3,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Surfer Girl",
@@ -29256,7 +29256,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 4,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Little Deuce Coupe",
@@ -29274,7 +29274,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 5,
               "item": {
                 "@type": "MusicRecording",
                 "name": "In My Room",
@@ -29292,7 +29292,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 6,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Little Honda",
@@ -29310,7 +29310,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 7,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Fun, Fun, Fun",
@@ -29328,7 +29328,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 8,
               "item": {
                 "@type": "MusicRecording",
                 "name": "The Warmth Of The Sun",
@@ -29346,7 +29346,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 9,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Louie, Louie",
@@ -29364,7 +29364,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 10,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Kiss Me, Baby",
@@ -29382,7 +29382,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 11,
               "item": {
                 "@type": "MusicRecording",
                 "name": "You're So Good To Me",
@@ -29400,7 +29400,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 0,
+              "position": 12,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Wendy",
@@ -29429,7 +29429,7 @@
             "backCover": "",
             "recordLabel": "Capitol",
             "catalogNumber": "",
-            "datePublished": "",
+            "datePublished": "01-01-1988",
             "releaseDay": 1,
             "releaseMonth": 1,
             "releaseYear": 1988,
