@@ -64074,6 +64074,138 @@
           }
         }
       ]
+    },
+    {
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "MusicAlbum",
+        "albumProductionType": "NonAlbumSingles",
+        "uniqueId": "california-dreamin",
+        "name": "California Dreamin' / Lady Liberty",
+        "sameAs": "https://en.wikipedia.org/wiki/California_Dreamin%27",
+        "image": "img/singles/1986-california-dreamin/california-dreamin-cover.jpg",
+        "backCover": "",
+        "publisher": "Capitol",
+        "catalogNumber": "B 5630",
+        "datePublished": "08-01-1986",
+        "releaseDay": 1,
+        "releaseMonth": 8,
+        "releaseYear": 1986,
+        "recordingStartDay": 1,
+        "recordingStartMonth": 1,
+        "recordingStartYear": 1,
+        "recordingEndDay": 1,
+        "recordingEndMonth": 1,
+        "recordingEndYear": 1,
+        "byArtist": "The Beach Boys",
+        "producer": "Terry Melcher: A side / Alan Jardine: B side",
+        "duration": "",
+        "numberOfDiscs": 1,
+        "country": "US",
+        "billboardPosition": "57 - A side / #100 - B side",
+        "unitsSold": 0,
+        "riaa": "",
+        "aggregateRating": 4,
+        "relevance": 1,
+        "backgroundColor": "#D8514B",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": false,
+          "book": false
+        },
+        "track": {
+          "@type": "ItemList",
+          "numberofItems": 2,
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "California Dreamin'",
+                "duration": "",
+                "composer": "Phillips/Phillips",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 1,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Lady Liberty",
+                "duration": "",
+                "composer": "Jardine/Altbach",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 2,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            }
+          ]
+        }
+      },
+      "editions": [
+                {
+          "albumRelease": {
+            "@type": "MusicRelease",
+            "name": "Made In U.S.A.",
+            "sameAs": "https://en.wikipedia.org/wiki/Made_in_U.S.A._(The_Beach_Boys_album)",
+            "image": "img/compilations/1986-made-in-usa/made-in-usa-cover.jpg",
+            "backCover": "",
+            "recordLabel": "Capitol",
+            "catalogNumber": "CDP 7 46324 2",
+            "datePublished": "07-07-1986",
+            "releaseDay": 7,
+            "releaseMonth": 7,
+            "releaseYear": 1986,
+            "category": "compilation",
+            "musicReleaseFormat": "CD",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "US",
+            "asin": "B000008DAI",
+            "amazonUs": "http://amzn.to/1Wy5UWQ",
+            "amazonUk": "",
+            "amazonCa": "",
+            "amazonEs": "",
+            "amazonFr": "",
+            "amazonIt": "",
+            "amazonDe": "",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": ""
+          }
+		}
+      ]
     }
   ]
 }
