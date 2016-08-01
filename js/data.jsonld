@@ -64079,7 +64079,7 @@
       "parent": {
         "@context": "http://schema.org",
         "@type": "MusicAlbum",
-        "albumProductionType": "NonAlbumSingles",
+        "albumProductionType": "StudioAlbum",
         "uniqueId": "california-dreamin",
         "name": "California Dreamin' / Lady Liberty",
         "sameAs": "https://en.wikipedia.org/wiki/California_Dreamin%27",
@@ -64117,8 +64117,8 @@
           "live": false,
           "compilation": false,
           "boxset": false,
-          "single": false,
-          "solo": false,
+          "single": true,
+          "solo": true,
           "digital": false,
           "christmas": false,
           "variousArtists": false,
@@ -64128,6 +64128,10 @@
           "tribute": false,
           "video": false,
           "book": false
+        },
+        "subcategory": {
+          "albumSingle": false,
+          "nonAlbumSingle": true
         },
         "track": {
           "@type": "ItemList",
