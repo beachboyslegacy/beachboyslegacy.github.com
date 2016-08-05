@@ -21,6 +21,8 @@ $(function(){
       var selectedCategory = category;
       var thisReleaseMonthNumber = 0;
       var thisReleaseMonthName = 0;
+      var thisReleaseDayNumber = 0;
+      var thisReleaseDayName = 0;
       var $thisItem = '<li></li>';
       var rating = 0;
       var tracks = 0;
@@ -160,7 +162,19 @@ $(function(){
           loadedItems++;
 
           thisReleaseMonthNumber = data.items[i].parent.releaseMonth;
-          thisReleaseMonthName = months[thisReleaseMonthNumber - 1];
+          if ( thisReleaseMonthNumber == 0 ){
+            thisReleaseMonthName = "";
+          }else{
+            thisReleaseMonthName = months[thisReleaseMonthNumber - 1];
+          }
+
+          thisReleaseDayNumber = data.items[i].parent.releaseDay;
+          if ( thisReleaseDayNumber == 0 ){
+            thisReleaseDayNumber = "";
+          }else{
+            thisReleaseDayNumber = thisReleaseDayNumber;
+          }
+
 
           // If selected artist is The Beach Boys, then load all the books
           if( data.items[i].parent.category.book == true && selectedArtist == 'The Beach Boys'){
@@ -170,7 +184,7 @@ $(function(){
                                 '<img class="item__cover" src="'+data.items[i].parent.image+'" alt="">'+
                                 '<div class="item__info">'+
                                   '<h2 class="item__title">'+data.items[i].parent.name+'</h2>'+
-                                  '<h3 class="item__year">'+data.items[i].parent.alternateName+'</h3>'+
+                                  '<h3 class="item__subtitle">'+data.items[i].parent.alternateName+'</h3>'+
                                   '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
                                   '<ul class="item__rating"></ul>'+
                                   '<a href="#'+data.items[i].parent.uniqueId+'" class="item__btn scroll-to-anchor" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Book\x27)">See details and editions</a>'+
@@ -178,7 +192,7 @@ $(function(){
                               '</div>'+
                               '<div class="item__body">'+
                                 '<div class="parent-item__info">'+
-                                  '<p>Released on '+thisReleaseMonthName+' '+data.items[i].parent.releaseDay+', '+data.items[i].parent.releaseYear+'</p>'+
+                                  '<p>Release date: '+thisReleaseMonthName+' '+thisReleaseDayNumber+' '+data.items[i].parent.releaseYear+'</p>'+
                                   '<p>Written by '+data.items[i].parent.author.name+'</p>'+
                                   // '<p>'+data.items[i].parent.notes+'</p>'+
                                 '</div>'+
@@ -283,7 +297,7 @@ $(function(){
             thisReleaseMonthNumber = data.items[i].parent.releaseMonth;
             thisReleaseMonthName = months[thisReleaseMonthNumber - 1];
 
-            // VIDEO
+            // VIDEO (Excluding Video & Live (e.g. Brian Wilson and Friends))
             if( (data.items[i].parent.category.video) && !(data.items[i].parent.category.live) ){
               $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-rating="'+data.items[i].parent.aggregateRating+'" data-date="'+data.items[i].parent.releaseYear+'">'+
                                 '<div class="item__header" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
@@ -570,14 +584,29 @@ $(function(){
 
             // BOOKS
             if(data.items[requestedItemNumber].parent.category.book){
+
               var thisChildReleaseMonthNumber = data.items[requestedItemNumber].editions[j].releaseMonth;
-              var thisChildReleaseMonthName = months[thisChildReleaseMonthNumber - 1];
+              var thisChildReleaseMonthName = 0;
+              if ( thisChildReleaseMonthNumber == 0 ){
+                thisChildReleaseMonthName = "";
+              }else{
+                var thisChildReleaseMonthName = months[thisChildReleaseMonthNumber - 1];
+              }
+
+              var thisChildReleaseDayNumber = data.items[requestedItemNumber].editions[j].releaseDay;
+              if ( thisChildReleaseDayNumber == 0 ){
+                thisChildReleaseDayNumber = "";
+              }else{
+                thisChildReleaseDayNumber = thisChildReleaseDayNumber;
+              }
+
+
               var $thisChild = '<li>'+
                                 '<div class="child-item__header">'+
                                   '<h3 class="child-item__title">'+data.items[requestedItemNumber].editions[j].name+'</h3>'+
                                   '<h4 class="child-item__subtitle">'+data.items[requestedItemNumber].editions[j].alternateName+'</h4>'+
                                   '<ul class="child-item__info">'+
-                                    '<li>'+thisChildReleaseMonthName+' '+data.items[requestedItemNumber].editions[j].releaseDay+', '+data.items[requestedItemNumber].editions[j].releaseYear+'</li>'+
+                                    '<li>'+thisChildReleaseMonthName+' '+thisChildReleaseDayNumber+' '+data.items[requestedItemNumber].editions[j].releaseYear+'</li>'+
                                     '<li>'+data.items[requestedItemNumber].editions[j].publisher+' ('+data.items[requestedItemNumber].editions[j].country+')</li>'+
                                     '<li>'+data.items[requestedItemNumber].editions[j].bookFormat+'</li>'+
                                     '<li>'+data.items[requestedItemNumber].editions[j].numberOfPages+' pages</li>'+
@@ -594,8 +623,8 @@ $(function(){
                                 '</div>'+
                               '</li>';
             }
-            // VIDEO
-            else if(data.items[requestedItemNumber].parent.category.video){
+            // VIDEO (Excluding Live & Video, e.g. Brian Wilson and Friends)
+            else if( (data.items[requestedItemNumber].parent.category.video) && !(data.items[requestedItemNumber].parent.category.live) ){
               var thisChildReleaseMonthNumber = data.items[requestedItemNumber].editions[j].albumRelease.releaseMonth;
               var thisChildReleaseMonthName = months[thisChildReleaseMonthNumber - 1];
               var $thisChild = '<li>'+
