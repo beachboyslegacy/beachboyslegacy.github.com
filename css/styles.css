@@ -1050,18 +1050,22 @@ a {
 .child-item__body:after {
   clear: both;
 }
-.child-item__tracklist {
+.child-item__tracklist,
+.child-item__book-review {
   margin: 0;
 }
-.child-item__tracklist pre {
+.child-item__tracklist pre,
+.child-item__book-review pre {
   white-space: pre-line;
   font-family: Lato, sans-serif;
   line-height: 1.5;
 }
-.child-item__tracklist a {
+.child-item__tracklist a,
+.child-item__book-review a {
   color: #40a7c7;
 }
-.child-item__tracklist a:hover {
+.child-item__tracklist a:hover,
+.child-item__book-review a:hover {
   text-decoration: underline;
 }
 .child-item__sidebar {
@@ -1103,7 +1107,8 @@ a {
     float: left;
     width: 40%;
   }
-  .child-item__tracklist {
+  .child-item__tracklist,
+  .child-item__book-review {
     float: right;
     width: 60%;
     padding-left: 4%;
