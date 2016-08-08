@@ -809,13 +809,19 @@ a {
   font-size: 2rem;
   font-weight: 700;
   line-height: 1.2;
-  margin-bottom: .2rem;
+}
+.item__subtitle {
+  font-size: 1.7rem;
+  font-weight: 400;
+  line-height: 1.2;
+  margin: .2rem 0;
+  font-family: 'Roboto Slab', serif;
 }
 .item__year {
   font-size: 1.5rem;
   font-weight: 700;
   line-height: 1.2;
-  margin-bottom: .5rem;
+  margin: .5rem 0;
 }
 .item__cover {
   display: block;
@@ -1013,7 +1019,7 @@ a {
   font-weight: 700;
 }
 .child-item__subtitle {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   line-height: 1.2;
   font-weight: 700;
 }
