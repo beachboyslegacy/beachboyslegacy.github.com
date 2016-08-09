@@ -33868,6 +33868,88 @@
         }
 	  ]
     },
+  {
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "Book",
+        "uniqueId": "philip-lambert-inside-the-music-of-brian-wilson",
+        "name": "Inside the Music of Brian Wilson",
+        "alternateName": "The Songs, Sounds, and Influences of the Beach Boys' Founding Genius",
+        "sameAs": "",
+        "image": "img/books/2007-philip-lambert-inside-the-music-of-brian-wilson/philip-lambert-inside-the-music-of-brian-wilson-cover.jpg",
+        "backCover": "",
+        "author": {
+          "@type": "Person",
+          "name": "Philip Lambert"
+        },
+        "datePublished": "03-19-2007",
+        "releaseDay": 19,
+        "releaseMonth": 3,
+        "releaseYear": 2007,
+        "aboutArtist": "Brian Wilson",
+        "country": "US",
+        "unitsSold": 0,
+        "aggregateRating": 4,
+        "relevance": 1,
+        "backgroundColor": "#ADBD27",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": false,
+          "book": true
+        }
+      },
+      "editions": [
+		{
+          "@context": "http://schema.org",
+          "@type": "Book",
+          "name": "Inside the Music of Brian Wilson",
+          "alternateName": "The Songs, Sounds, and Influences of the Beach Boys' Founding Genius",
+          "sameAs": "",
+          "image": "img/books/2007-philip-lambert-inside-the-music-of-brian-wilson/philip-lambert-inside-the-music-of-brian-wilson-cover.jpg",
+          "backCover": "",
+          "author": {
+            "@type": "Person",
+            "name": "Philip Lambert"
+          },
+          "publisher": "Continuum",
+          "isbn": "0826418775",
+          "datePublished": "03-19-2007",
+          "releaseDay": 19,
+          "releaseMonth": 3,
+          "releaseYear": 2007,
+          "category": "book",
+          "bookFormat": "Paperback",
+          "numberOfPages": "416",
+          "country": "US",
+          "amazonUs": "http://amzn.to/2aXjlOP",
+          "amazonUk": "http://amzn.to/2b43yib",
+          "amazonCa": "http://amzn.to/2aSH2Wt",
+          "amazonEs": "http://amzn.to/2ay7rfQ",
+          "amazonFr": "http://amzn.to/2ay7eJP",
+          "amazonIt": "http://amzn.to/2ay7Vmm",
+          "amazonDe": "http://amzn.to/2b61ZBV",
+          "amazonJp": "",
+          "notes": "",
+          "review": "Inside the Music of Brian Wilson is, as author Phillip Lambert writes in the prologue ''completely, and intensely, focused on the music of Brian Wilson, on the musical essence of his songs and the aesthetic value of his artistic achievements. It acknowledges the familiar biographical contexts of his songs, but it tells completely new stories about the birth and evolution of his musical ideas, identifying important musical trends in his work, heretofore undisclosed inter-song connections within his music, or between his music and that of others, and the nature and extent of his artistry. It aims not just to identify great songs, but to explain exactly what makes them so.''\nLambert, a renowned musicologist, brings to this work to life with both his professional expertise and an infectious personal appreciation of the power of pop music. His clear, engaging tone and accessible writing style allows even a musically inexperienced reader to follow him as he traces Wilson's musical evolution, with a particular focus on the years leading up to the writing and recording of Pet Sounds and SMiLE, albums which many consider to be the masterpieces of his oeuvre. Inside the Music of Brian Wilson is the definitive book on Wilson's music and is essential reading for fans of Brian Wilson, the Beach Boys, and great pop music.\n\nIncludes THREE amazing Appendixes:\nAppendix 1: Brian Wilson Song Chronology\nAppendix 2: Four Freshmen Albums, 1955-1961 \nAppendix 3: Favorite Songs and Influences Through 1961\nThe most complete song chronology ever published."
+        }
+	  ]
+    },
     {
       "parent": {
         "@context": "http://schema.org",
