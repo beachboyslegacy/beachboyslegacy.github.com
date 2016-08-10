@@ -631,7 +631,8 @@ $(function(){
                                   '<h4 class="child-item__subtitle">'+data.items[requestedItemNumber].editions[j].alternateName+'</h4>'+
                                   '<ul class="child-item__info">'+
                                     '<li>'+thisChildReleaseMonthName+' '+thisChildReleaseDayNumber+' '+data.items[requestedItemNumber].editions[j].releaseYear+'</li>'+
-                                    '<li>'+data.items[requestedItemNumber].editions[j].publisher+' ('+data.items[requestedItemNumber].editions[j].country+')</li>'+
+                                    '<li>'+data.items[requestedItemNumber].editions[j].publisher+'</li>'+
+									'<li>'+data.items[requestedItemNumber].editions[j].country+'</li>'+
                                     '<li>'+data.items[requestedItemNumber].editions[j].bookFormat+'</li>'+
                                     '<li>'+data.items[requestedItemNumber].editions[j].numberOfPages+' pages</li>'+
                                     '<li>ISBN: '+data.items[requestedItemNumber].editions[j].isbn+'</li>'+
