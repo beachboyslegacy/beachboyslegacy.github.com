@@ -11,7 +11,6 @@ $(function(){
     var currentArtist = initialArtist;
     var currentCategory = initialCategory;
 
-
     function loadItems(artist, category){
 
 
@@ -623,6 +622,7 @@ $(function(){
               }else{
                 thisChildReleaseDayNumber = thisChildReleaseDayNumber;
               }
+
 
 
               var $thisChild = '<li>'+
