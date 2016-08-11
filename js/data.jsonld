@@ -30980,7 +30980,7 @@
         }
 	  ]
     },
-   {
+	{
       "parent": {
         "@context": "http://schema.org",
         "@type": "Book",
@@ -31128,7 +31128,7 @@
         }
 	  ]
     },
-   {
+	{
       "parent": {
         "@context": "http://schema.org",
         "@type": "Book",
@@ -31210,7 +31210,7 @@
         }
 	  ]
     },
-   {
+	{
       "parent": {
         "@context": "http://schema.org",
         "@type": "Book",
@@ -31292,7 +31292,7 @@
         }
 	  ]
     },
-   {
+	{
       "parent": {
         "@context": "http://schema.org",
         "@type": "Book",
@@ -31407,7 +31407,7 @@
         }
 	  ]
     },
-   {
+	{
       "parent": {
         "@context": "http://schema.org",
         "@type": "Book",
@@ -31522,7 +31522,7 @@
         }
 	  ]
     },
-   {
+	{
       "parent": {
         "@context": "http://schema.org",
         "@type": "Book",
@@ -31604,7 +31604,7 @@
         }
 	  ]
     },
-   {
+	{
       "parent": {
         "@context": "http://schema.org",
         "@type": "Book",
@@ -31752,7 +31752,7 @@
         }
 	  ]
     },
-   {
+	{
       "parent": {
         "@context": "http://schema.org",
         "@type": "Book",
@@ -31900,7 +31900,7 @@
         }
 	  ]
     },
-   {
+	{
       "parent": {
         "@context": "http://schema.org",
         "@type": "Book",
@@ -31982,7 +31982,7 @@
         }
 	  ]
     },
-   {
+	{
       "parent": {
         "@context": "http://schema.org",
         "@type": "Book",
@@ -32064,7 +32064,7 @@
         }
 	  ]
     },
-   {
+	{
       "parent": {
         "@context": "http://schema.org",
         "@type": "Book",
@@ -32212,7 +32212,7 @@
         }
 	  ]
     },
-   {
+	{
       "parent": {
         "@context": "http://schema.org",
         "@type": "Book",
@@ -32294,7 +32294,7 @@
         }
 	  ]
     },
-   {
+	{
       "parent": {
         "@context": "http://schema.org",
         "@type": "Book",
@@ -32376,7 +32376,7 @@
         }
 	  ]
     },
-   {
+	{
       "parent": {
         "@context": "http://schema.org",
         "@type": "Book",
@@ -32540,7 +32540,7 @@
         }
 	  ]
     },
-   {
+	{
       "parent": {
         "@context": "http://schema.org",
         "@type": "Book",
@@ -32688,7 +32688,7 @@
         }
 	  ]
     },
-   {
+	{
       "parent": {
         "@context": "http://schema.org",
         "@type": "Book",
@@ -32770,7 +32770,7 @@
         }
 	  ]
     },
-   {
+	{
       "parent": {
         "@context": "http://schema.org",
         "@type": "Book",
@@ -32852,7 +32852,7 @@
         }
 	  ]
     },
-   {
+	{
       "parent": {
         "@context": "http://schema.org",
         "@type": "Book",
@@ -32934,7 +32934,7 @@
         }
 	  ]
     },
-   {
+	{
       "parent": {
         "@context": "http://schema.org",
         "@type": "Book",
@@ -33115,7 +33115,7 @@
         }
 	  ]
     },
-   {
+	{
       "parent": {
         "@context": "http://schema.org",
         "@type": "Book",
@@ -33197,7 +33197,7 @@
         }
 	  ]
     },
-   {
+	{
       "parent": {
         "@context": "http://schema.org",
         "@type": "Book",
@@ -33279,7 +33279,7 @@
         }
 	  ]
     },
-   {
+	{
       "parent": {
         "@context": "http://schema.org",
         "@type": "Book",
@@ -33361,7 +33361,7 @@
         }
 	  ]
     },
-  {
+	{
       "parent": {
         "@context": "http://schema.org",
         "@type": "Book",
@@ -33443,7 +33443,7 @@
         }
 	  ]
     },
-  {
+	{
       "parent": {
         "@context": "http://schema.org",
         "@type": "Book",
@@ -33525,7 +33525,7 @@
         }
 	  ]
     },
-  {
+	{
       "parent": {
         "@context": "http://schema.org",
         "@type": "Book",
@@ -33607,7 +33607,7 @@
         }
 	  ]
     },
-  {
+	{
       "parent": {
         "@context": "http://schema.org",
         "@type": "Book",
@@ -33689,7 +33689,7 @@
         }
 	  ]
     },	
-  {
+	{
       "parent": {
         "@context": "http://schema.org",
         "@type": "Book",
@@ -33838,7 +33838,7 @@
 
 	  ]
     },
-  {
+	{
       "parent": {
         "@context": "http://schema.org",
         "@type": "Book",
@@ -33920,7 +33920,7 @@
         }
 	  ]
     },
-  {
+	{
       "parent": {
         "@context": "http://schema.org",
         "@type": "Book",
@@ -34002,7 +34002,7 @@
         }
 	  ]
     },
-  {
+	{
       "parent": {
         "@context": "http://schema.org",
         "@type": "Book",
@@ -34084,7 +34084,7 @@
         }
 	  ]
     },
-  {
+	{
       "parent": {
         "@context": "http://schema.org",
         "@type": "Book",
@@ -34199,7 +34199,7 @@
         }
 	  ]
     },
-  {
+	{
       "parent": {
         "@context": "http://schema.org",
         "@type": "Book",
@@ -34281,7 +34281,7 @@
         }
 	  ]
     },
-  {
+	{
       "parent": {
         "@context": "http://schema.org",
         "@type": "Book",
@@ -34363,7 +34363,7 @@
         }
 	  ]
     },
-  {
+	{
       "parent": {
         "@context": "http://schema.org",
         "@type": "Book",
@@ -34445,7 +34445,7 @@
         }
 	  ]
     },
-  {
+	{
       "parent": {
         "@context": "http://schema.org",
         "@type": "Book",
@@ -34527,7 +34527,7 @@
         }
 	  ]
     },
-  {
+	{
       "parent": {
         "@context": "http://schema.org",
         "@type": "Book",
@@ -34609,7 +34609,7 @@
         }
 	  ]
     },
-  {
+	{
       "parent": {
         "@context": "http://schema.org",
         "@type": "Book",
@@ -34691,7 +34691,7 @@
         }
 	  ]
     },
-  {
+	{
       "parent": {
         "@context": "http://schema.org",
         "@type": "Book",
@@ -34773,7 +34773,7 @@
         }
 	  ]
     },
-  {
+	{
       "parent": {
         "@context": "http://schema.org",
         "@type": "Book",
@@ -34855,7 +34855,7 @@
         }
 	  ]
     },
-  {
+	{
       "parent": {
         "@context": "http://schema.org",
         "@type": "Book",
@@ -34878,7 +34878,7 @@
         "unitsSold": 0,
         "aggregateRating": 2.5,
         "relevance": 1,
-        "backgroundColor": "#B6BE52",
+        "backgroundColor": "#FCEC6D",
         "notes": "",
         "review": "",
         "category": {
@@ -34937,30 +34937,30 @@
         }
 	  ]
     },
-    {
+	{
       "parent": {
         "@context": "http://schema.org",
         "@type": "Book",
-        "uniqueId": "i-am-brian-wilson-a-memoir",
-        "name": "I Am Brian Wilson",
-        "alternateName": "A Memoir",
-        "sameAs": "https://en.wikipedia.org/wiki/I_Am_Brian_Wilson",
-        "image": "img/books/2016-i-am-brian-wilson-a-memoir/i-am-brian-wilson-a-memoir-cover.jpg",
+        "uniqueId": "john-stebbins-the-beach-boys-faq",
+        "name": "The Beach Boys FAQ",
+        "alternateName": "All That's Left To Know About America's Band",
+        "sameAs": "",
+        "image": "img/books/2011-john-stebbins-the-beach-boys-faq/john-stebbins-the-beach-boys-faq-cover.jpg",
         "backCover": "",
         "author": {
           "@type": "Person",
-          "name": "Brian Wilson &amp; Ben Greenman"
+          "name": "Jon Stebbins"
         },
-        "datePublished": "10-11-2016",
-        "releaseDay": 11,
-        "releaseMonth": 10,
-        "releaseYear": 2016,
-        "aboutArtist": "Brian Wilson",
-        "country": "US",
+        "datePublished": "09-01-2011",
+        "releaseDay": 1,
+        "releaseMonth": 9,
+        "releaseYear": 2011,
+        "aboutArtist": "The Beach Boys",
+        "country": "Milwaukee, WI",
         "unitsSold": 0,
-        "aggregateRating": 0,
+        "aggregateRating": 3.5,
         "relevance": 1,
-        "backgroundColor": "#edc204",
+        "backgroundColor": "#7D7B83",
         "notes": "",
         "review": "",
         "category": {
@@ -34984,61 +34984,2079 @@
         }
       },
       "editions": [
-        {
+		{
           "@context": "http://schema.org",
           "@type": "Book",
-          "name": "I Am Brian Wilson: A Memoir",
-          "alternateName": "",
-          "sameAs": "https://en.wikipedia.org/wiki/I_Am_Brian_Wilson",
-          "image": "img/books/2016-i-am-brian-wilson-a-memoir/i-am-brian-wilson-a-memoir-cover.jpg",
+          "name": "The Beach Boys FAQ",
+          "alternateName": "All That's Left To Know About America's Band",
+          "sameAs": "",
+          "image": "img/books/2011-john-stebbins-the-beach-boys-faq/john-stebbins-the-beach-boys-faq-cover.jpg",
           "backCover": "",
           "author": {
             "@type": "Person",
-            "name": "Brian Wilson &amp; Ben Greenman"
+            "name": "Jon Stebbins"
           },
-          "publisher": "Da Capo Press",
-          "isbn": "0306823063",
-          "datePublished": "10-11-2016",
-          "releaseDay": 11,
-          "releaseMonth": 10,
-          "releaseYear": 2016,
+          "publisher": "Backbeat Books",
+          "isbn": "0879309873",
+          "datePublished": "09-01-2011",
+          "releaseDay": 1,
+          "releaseMonth": 9,
+          "releaseYear": 2011,
           "category": "book",
-          "bookFormat": "Hardcover",
+          "bookFormat": "Paperback",
           "numberOfPages": "320",
+          "country": "Milwaukee, WI",
+          "amazonUs": "http://amzn.to/2bacJPx",
+          "amazonUk": "http://amzn.to/2b7mzgU",
+          "amazonCa": "http://amzn.to/2aIQY48",
+          "amazonEs": "http://amzn.to/2babYpw",
+          "amazonFr": "http://amzn.to/2bkQRNY",
+          "amazonIt": "http://amzn.to/2b7mFVQ",
+          "amazonDe": "http://amzn.to/2bkPZZn",
+          "amazonJp": "",
+          "notes": "",
+          "review": "A half-century after their first single release, ''Surfin''', the Beach Boys continue to define California popular culture and the sunshine-infused sound that will forever be its living soundtrack. But beyond innocent harmonies touting the delights of catching waves and cruising to the drive-in, the Beach Boys are responsible for some of the most sophisticated pop/rock music ever made. Brian Wilson's acclaimed production, the 1966 LP Pet Sounds , was both a creative triumph that inspired The Beatles' best work, and a commercial disappointment that was widely misunderstood by the band's U.S. fans. The Beach Boys followed that with perhaps the greatest three-minute rock single ever, 'Good Vibrations', which wowed the critics, was a worldwide number one hit, and ushered Brian Wilson down the path of substance abuse and mental illness. Brian then leapt into the abstract madness of Smile , his epic psychedelic masterpiece that was ultimately scrapped in a 1967 sea of paranoia that nearly drowned the Beach Boys as an act. As the 1970s dawned, the endless summer of nostalgia designated the Beach Boys as its favorite sons. They recorded a critically lauded string of albums even while coping with the knowledge that their creative leader, Brian Wilson, had become a semipermanent recluse and a casualty of his own excess. Still, the Beach Boys continued through controversy, conflict, and death, rising again and again to find more popularity and more commercial peaks into the 1980s and beyond. As the new millennium unfolds, the Beach Boys are still here and continue to be a popular concert attraction and one of rock's most compelling and important stories. In The Beach Boys FAQ , Jon Stebbins explains how the band impacted music and pop culture. This entertaining, fast-moving tome is accompanied by dozens of rare images, making this volume a must-have for fans."
+        }
+	  ]
+    },
+	{
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "Book",
+        "uniqueId": "andrew-hickey-the-beach-boys-on-cd-vol-1",
+        "name": "The Beach Boys On CD",
+        "alternateName": "Vol. 1 1961-1969",
+        "sameAs": "",
+        "image": "img/books/2011-andrew-hickey-the-beach-boys-on-cd-vol-1/andrew-hickey-the-beach-boys-on-cd-vol-1-cover.jpg",
+        "backCover": "",
+        "author": {
+          "@type": "Person",
+          "name": "Andrew Hickey"
+        },
+        "datePublished": "07-10-2011",
+        "releaseDay": 10,
+        "releaseMonth": 7,
+        "releaseYear": 2011,
+        "aboutArtist": "The Beach Boys",
+        "country": "US",
+        "unitsSold": 0,
+        "aggregateRating": 3.5,
+        "relevance": 1,
+        "backgroundColor": "#F26108",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": false,
+          "book": true
+        }
+      },
+      "editions": [
+		{
+          "@context": "http://schema.org",
+          "@type": "Book",
+          "name": "The Beach Boys On CD",
+          "alternateName": "Vol. 1 1961-1969",
+          "sameAs": "",
+          "image": "img/books/2011-andrew-hickey-the-beach-boys-on-cd-vol-1/andrew-hickey-the-beach-boys-on-cd-vol-1-cover.jpg",
+          "backCover": "",
+          "author": {
+            "@type": "Person",
+            "name": "Andrew Hickey"
+          },
+          "publisher": "lulu.com",
+          "isbn": "1447542339",
+          "datePublished": "07-10-2011",
+          "releaseDay": 10,
+          "releaseMonth": 7,
+          "releaseYear": 2011,
+          "category": "book",
+          "bookFormat": "Paperback",
+          "numberOfPages": "194",
           "country": "US",
-          "amazonUs": "http://amzn.to/1YiIeUM",
-          "amazonUk": "http://amzn.to/2acDa6r",
-          "amazonCa": "http://amzn.to/2algMn0",
-          "amazonEs": "http://amzn.to/2aIP1Hp",
-          "amazonFr": "http://amzn.to/2aFrWDY",
-          "amazonIt": "http://amzn.to/2aLuNNs",
-          "amazonDe": "http://amzn.to/2aG9riS",
+          "amazonUs": "http://amzn.to/2aNDtWI",
+          "amazonUk": "http://amzn.to/2b7pmXz",
+          "amazonCa": "http://amzn.to/2bj7RqG",
+          "amazonEs": "http://amzn.to/2b7q1It",
+          "amazonFr": "http://amzn.to/2b0ZVbH",
+          "amazonIt": "http://amzn.to/2bj5fKp",
+          "amazonDe": "http://amzn.to/2b7pTc3",
+          "amazonJp": "",
+          "notes": "",
+          "review": "Between 1961 and 1969 the Beach Boys made nineteen albums, including some of the best music ever recorded - and some not so good. In this book, Andrew Hickey looks at this music track by track, analysing every song that Brian, Carl, Dennis, Mike, Al, Bruce and David recorded and released during that time period. From early surf and car classics like 409 to sophisticated masterpieces like Time To Get Alone, in this book you'll learn how they were recorded, why they work the way they do, and which albums to buy if you want to hear a great band at their best."
+        }
+	  ]
+    },
+	{
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "Book",
+        "uniqueId": "stephen-mcparland-inception-and-conception",
+        "name": "The Beach Boys",
+        "alternateName": "Inception And Conception, 1961-1963",
+        "sameAs": "",
+        "image": "img/books/2011-stephen-mcparland-inception-and-conception/stephen-mcparland-inception-and-conception-cover.jpg",
+        "backCover": "",
+        "author": {
+          "@type": "Person",
+          "name": "Stephen J. McParland"
+        },
+        "datePublished": "12-01-2011",
+        "releaseDay": 0,
+        "releaseMonth": 12,
+        "releaseYear": 2011,
+        "aboutArtist": "The Beach Boys",
+        "country": "North Strathfield, N.S.W.",
+        "unitsSold": 0,
+        "aggregateRating": 3.5,
+        "relevance": 1,
+        "backgroundColor": "#E62049",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": false,
+          "book": true
+        }
+      },
+      "editions": [
+		{
+          "@context": "http://schema.org",
+          "@type": "Book",
+          "name": "The Beach Boys",
+          "alternateName": "Inception And Conception, 1961-1963",
+          "sameAs": "",
+          "image": "img/books/2011-stephen-mcparland-inception-and-conception/stephen-mcparland-inception-and-conception-cover.jpg",
+          "backCover": "",
+          "author": {
+            "@type": "Person",
+            "name": "Stephen J. McParland"
+          },
+          "publisher": "Cmusic Books",
+          "isbn": "1876788291",
+          "datePublished": "12-01-2011",
+          "releaseDay": 0,
+          "releaseMonth": 12,
+          "releaseYear": 2011,
+          "category": "book",
+          "bookFormat": "Paperback",
+          "numberOfPages": "136",
+          "country": "North Strathfield, N.S.W.",
+          "amazonUs": "",
+          "amazonUk": "",
+          "amazonCa": "",
+          "amazonEs": "",
+          "amazonFr": "",
+          "amazonIt": "",
+          "amazonDe": "",
+          "amazonJp": "",
+          "notes": "",
+          "review": ""
+        },
+				{
+          "@context": "http://schema.org",
+          "@type": "Book",
+          "name": "The Beach Boys 1961-1963",
+          "alternateName": "Inception And Conception - 3rd Edition",
+          "sameAs": "",
+          "image": "img/books/2011-stephen-mcparland-inception-and-conception/stephen-mcparland-inception-and-conception-2015.jpg",
+          "backCover": "",
+          "author": {
+            "@type": "Person",
+            "name": "Stephen J. McParland"
+          },
+          "publisher": "Cmusic Books",
+          "isbn": "187678895X",
+          "datePublished": "11-01-2015",
+          "releaseDay": 0,
+          "releaseMonth": 11,
+          "releaseYear": 2015,
+          "category": "book",
+          "bookFormat": "eBook",
+          "numberOfPages": "156",
+          "country": "North Strathfield, N.S.W.",
+          "amazonUs": "",
+          "amazonUk": "",
+          "amazonCa": "",
+          "amazonEs": "",
+          "amazonFr": "",
+          "amazonIt": "",
+          "amazonDe": "",
           "amazonJp": "",
           "notes": "",
           "review": ""
         }
-      ]
+	  ]
+    },
+	{
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "Book",
+        "uniqueId": "mark-dillon-fifty-sides-of-the-beach-boys",
+        "name": "Fifty Sides Of The Beach Boys",
+        "alternateName": "The Songs That Tell Their Story",
+        "sameAs": "",
+        "image": "img/books/2012-mark-dillon-fifty-sides-of-the-beach-boys/mark-dillon-fifty-sides-of-the-beach-boys-cover.jpg",
+        "backCover": "",
+        "author": {
+          "@type": "Person",
+          "name": "Mark Dillon"
+        },
+        "datePublished": "06-01-2012",
+        "releaseDay": 1,
+        "releaseMonth": 6,
+        "releaseYear": 2012,
+        "aboutArtist": "The Beach Boys",
+        "country": "Toronto",
+        "unitsSold": 0,
+        "aggregateRating": 4,
+        "relevance": 1,
+        "backgroundColor": "#FEC746",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": false,
+          "book": true
+        }
+      },
+      "editions": [
+		{
+          "@context": "http://schema.org",
+          "@type": "Book",
+          "name": "Fifty Sides Of The Beach Boys",
+          "alternateName": "The Songs That Tell Their Story",
+          "sameAs": "",
+          "image": "img/books/2012-mark-dillon-fifty-sides-of-the-beach-boys/mark-dillon-fifty-sides-of-the-beach-boys-cover.jpg",
+          "backCover": "",
+          "author": {
+            "@type": "Person",
+            "name": "Mark Dillon"
+          },
+          "publisher": "ECW Press",
+          "isbn": "1770410716",
+          "datePublished": "06-01-2012",
+          "releaseDay": 1,
+          "releaseMonth": 6,
+          "releaseYear": 2012,
+          "category": "book",
+          "bookFormat": "Paperback",
+          "numberOfPages": "316",
+          "country": "Toronto",
+          "amazonUs": "http://amzn.to/2aNKcjd",
+          "amazonUk": "http://amzn.to/2b142EN",
+          "amazonCa": "http://amzn.to/2baiugj",
+          "amazonEs": "http://amzn.to/2aDKcB3",
+          "amazonFr": "http://amzn.to/2b14GCa",
+          "amazonIt": "http://amzn.to/2bjdMNF",
+          "amazonDe": "http://amzn.to/2aDKGre",
+          "amazonJp": "",
+          "notes": "",
+          "review": "Reflecting on the Beach Boys’ long, fascinating history, this book tells the story behind 50 of the band’s greatest songs from the perspective of group members, collaborators, fellow musicians, and notable fans. It is filled with new interviews with music legends such as Brian Wilson, Mike Love, Alan Jardine, Bruce Johnston, David Marks, Blondie Chaplin, Randy Bachman, Roger McGuinn, John Sebastian, Lyle Lovett, Alice Cooper, and Al Kooper, and commentary from a younger generation such as Matthew Sweet, Carnie Wilson, Daniel Lanois, Cameron Crowe, and Zooey Deschanel. Even hardcore fans will be delighted by the breadth of this musical-history volume. Plans for celebrating the golden anniversary of “America’s band” include the long-awaited release of 1967’s Smile—the most famous aborted album in rock history—and concerts reuniting the group’s three main surviving members. The band’s music is as influential as it was 50 years ago, and this retelling of how the iconic rock group found itself in the annals of pop culture couldn’t come at a better time."
+        }
+	  ]
+    },
+	{
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "Book",
+        "uniqueId": "kirk-curnutt-icons-of-pop-music-brian-wilson",
+        "name": "Brian Wilson",
+        "alternateName": "Icons of Pop Music",
+        "sameAs": "",
+        "image": "img/books/2012-kirk-curnutt-icons-of-pop-music-brian-wilson/kirk-curnutt-icons-of-pop-music-brian-wilson-cover.jpg",
+        "backCover": "",
+        "author": {
+          "@type": "Person",
+          "name": "Kirk Curnutt"
+        },
+        "datePublished": "05-22-2012",
+        "releaseDay": 22,
+        "releaseMonth": 5,
+        "releaseYear": 2012,
+        "aboutArtist": "Brian Wilson",
+        "country": "Bristol, CT",
+        "unitsSold": 0,
+        "aggregateRating": 4,
+        "relevance": 1,
+        "backgroundColor": "#ABBCE8",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": false,
+          "book": true
+        }
+      },
+      "editions": [
+		{
+          "@context": "http://schema.org",
+          "@type": "Book",
+          "name": "Brian Wilson",
+          "alternateName": "Icons of Pop Music",
+          "sameAs": "",
+          "image": "img/books/2012-kirk-curnutt-icons-of-pop-music-brian-wilson/kirk-curnutt-icons-of-pop-music-brian-wilson-cover.jpg",
+          "backCover": "",
+          "author": {
+            "@type": "Person",
+            "name": "Kirk Curnutt"
+          },
+          "publisher": "Equinox Publishing, Ltd",
+          "isbn": "1845536630",
+          "datePublished": "06-01-2012",
+          "releaseDay": 1,
+          "releaseMonth": 6,
+          "releaseYear": 2012,
+          "category": "book",
+          "bookFormat": "Paperback",
+          "numberOfPages": "192",
+          "country": "Bristol, CT",
+          "amazonUs": "http://amzn.to/2aMc7tK",
+          "amazonUk": "http://amzn.to/2b7G09C",
+          "amazonCa": "http://amzn.to/2aNMP4H",
+          "amazonEs": "http://amzn.to/2bjh4R6",
+          "amazonFr": "http://amzn.to/2aDMkc8",
+          "amazonIt": "http://amzn.to/2bjgOBy",
+          "amazonDe": "http://amzn.to/2aDMP6h",
+          "amazonJp": "",
+          "notes": "",
+          "review": "This is the first study of Wilson to eschew chronology for a topical organization that allows discussion of lyrical themes and musical motifs outside of any prejudicial presumptions about their place in the trajectory of his career. The book emphasizes the often overlooked point that, despite his status as a 'living legend', Brian Wilson does not always fit neatly into the paradigms of taste and value by which critics grant certain artists entry into the pantheon of pop and rock importance."
+        }
+	  ]
+    },
+	{
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "Book",
+        "uniqueId": "bill-yerkes-surfboards-stratocasters-striped-shirts",
+        "name": "The Beach Boys on Tour 1966",
+        "alternateName": "Surfboards, Stratocasters, Striped Shirts",
+        "sameAs": "",
+        "image": "img/books/2012-bill-yerkes-surfboards-stratocasters-striped-shirts/bill-yerkes-surfboards-stratocasters-striped-shirts-cover.jpg",
+        "backCover": "",
+        "author": {
+          "@type": "Person",
+          "name": "Bill Yerkes"
+        },
+        "datePublished": "12-16-2012",
+        "releaseDay": 16,
+        "releaseMonth": 12,
+        "releaseYear": 2012,
+        "aboutArtist": "The Beach Boys",
+        "country": "Satellite Beach, FL",
+        "unitsSold": 0,
+        "aggregateRating": 4,
+        "relevance": 1,
+        "backgroundColor": "#2B9EFB",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": false,
+          "book": true
+        }
+      },
+      "editions": [
+		{
+          "@context": "http://schema.org",
+          "@type": "Book",
+          "name": "The Beach Boys on Tour 1966",
+          "alternateName": "Surfboards, Stratocasters, Striped Shirts",
+          "sameAs": "",
+          "image": "img/books/2012-bill-yerkes-surfboards-stratocasters-striped-shirts/bill-yerkes-surfboards-stratocasters-striped-shirts-cover.jpg",
+          "backCover": "",
+          "author": {
+            "@type": "Person",
+            "name": "Bill Yerkes"
+          },
+          "publisher": "Surf Chaser Publishing",
+          "isbn": "0615711162",
+          "datePublished": "12-16-2012",
+          "releaseDay": 16,
+          "releaseMonth": 12,
+          "releaseYear": 2012,
+          "category": "book",
+          "bookFormat": "Hardcover",
+          "numberOfPages": "160",
+          "country": "Satellite Beach, FL",
+          "amazonUs": "http://amzn.to/2aMbTTs",
+          "amazonUk": "http://amzn.to/2aMbTTs",
+          "amazonCa": "http://amzn.to/2aMbTTs",
+          "amazonEs": "http://amzn.to/2bl1Erd",
+          "amazonFr": "http://amzn.to/2aMbTTs",
+          "amazonIt": "http://amzn.to/2bl0fB9",
+          "amazonDe": "http://amzn.to/2aMbTTs",
+          "amazonJp": "",
+          "notes": "",
+          "review": "By Bill Yerkes Foreword by Bruce Johnston. Over 160 glossy pages of previously unpublished photos including candid backstage, dressing room rehearsals, and onstage (some from the stage). The original negatives have been scanned and reproduced to the highest quality. Bill Yerkes (aka 'Balsa Bill') is a Hall of Fame surfer, surfboard builder, musician, photographer and film maker. All of which gives him a unique perspective of the time and the subject. Al Jardine says, 'What a journey down memory lane. A slice of life on the road with the touring band at the peak of an era'. If you would like your book signed with a special inscription, send an email to surfchaser@balsabill.com and reference your order."
+        }
+	  ]
+    },
+	{
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "Book",
+        "uniqueId": "jon-stebbins-ian-rusten-in-concert",
+        "name": "The Beach Boys in Concert",
+        "alternateName": "The Ultimate History Of America's Band On Tour And Onstage",
+        "sameAs": "",
+        "image": "img/books/2013-jon-stebbins-ian-rusten-in-concert/jon-stebbins-ian-rusten-in-concert-cover.jpg",
+        "backCover": "",
+        "author": {
+          "@type": "Person",
+          "name": "Ian Rusten and Jon Stebbins"
+        },
+        "datePublished": "06-18-2013",
+        "releaseDay": 18,
+        "releaseMonth": 6,
+        "releaseYear": 2013,
+        "aboutArtist": "The Beach Boys",
+        "country": "Montclair, NJ",
+        "unitsSold": 0,
+        "aggregateRating": 4.5,
+        "relevance": 1,
+        "backgroundColor": "#FF4A47",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": false,
+          "book": true
+        }
+      },
+      "editions": [
+		{
+          "@context": "http://schema.org",
+          "@type": "Book",
+          "name": "The Beach Boys in Concert",
+          "alternateName": "The Ultimate History Of America's Band On Tour And Onstage",
+          "sameAs": "",
+          "image": "img/books/2013-jon-stebbins-ian-rusten-in-concert/jon-stebbins-ian-rusten-in-concert-cover.jpg",
+          "backCover": "",
+          "author": {
+            "@type": "Person",
+            "name": "Ian Rusten and Jon Stebbins"
+          },
+          "publisher": "Backbeat Books",
+          "isbn": "1617134562",
+          "datePublished": "06-18-2013",
+          "releaseDay": 18,
+          "releaseMonth": 6,
+          "releaseYear": 2013,
+          "category": "book",
+          "bookFormat": "Hardcover",
+          "numberOfPages": "407",
+          "country": "Montclair, NJ",
+          "amazonUs": "http://amzn.to/2aNH0RY",
+          "amazonUk": "http://amzn.to/2bl20y0",
+          "amazonCa": "http://amzn.to/2aJ81mO",
+          "amazonEs": "http://amzn.to/2b1aJqo",
+          "amazonFr": "http://amzn.to/2b1aoEb",
+          "amazonIt": "http://amzn.to/2b7KblR",
+          "amazonDe": "http://amzn.to/2aDQqRF",
+          "amazonJp": "",
+          "notes": "",
+          "review": "The Beach Boys in Concert! is an exhilarating day-by-day journey through the triumphs and tribulations of one of rock history's most legendary acts. Over ten years of exhaustive research has produced an unprecedented window into the Beach Boys' thrilling successes, personal tragedies, and interband dramas globe-trotting rock-and-roll adventures from 1961 to 2012. The Beach Boys in Concert! is a solidly factual and highly entertaining ride from the humble beginnings of driving to local gigs in their mom's station wagon to touring the world in private jets with a massive entourage in tow, from nervously playing to a dozen unimpressed Southern California surfers to performing for a half-million worshipping fans on the national mall. The evolution and growth of an entertainment phenomenon is captured here in a far more detailed way than ever before. The Beach Boys in Concert! is the ultimate document for fans when it comes to the group's career as concert performers; no other publication comes close to this tome in scope, detail, and definitive quality. Adding to the feast is an extensive collection of unpublished photos and rare memorabilia images that bring fans deeper into the context of any given era covered in the book. This detailed, illustrated 50-year Surfin' Safari will blow your mind!"
+        }
+	  ]
+    },
+	{
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "Book",
+        "uniqueId": "robert-haagsma-the-beach-boys",
+        "name": "The Beach Boys",
+        "alternateName": "Perfecte Harmonie in een Donkere Wereld",
+        "sameAs": "",
+        "image": "img/books/2013-robert-haagsma-the-beach-boys/robert-haagsma-the-beach-boys-cover.jpg",
+        "backCover": "",
+        "author": {
+          "@type": "Person",
+          "name": "Robert Haagsma"
+        },
+        "datePublished": "07-01-2013",
+        "releaseDay": 0,
+        "releaseMonth": 7,
+        "releaseYear": 2013,
+        "aboutArtist": "The Beach Boys",
+        "country": "Laren, North Holland",
+        "unitsSold": 0,
+        "aggregateRating": 3.5,
+        "relevance": 1,
+        "backgroundColor": "#ECAD28",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": false,
+          "book": true
+        }
+      },
+      "editions": [
+		{
+          "@context": "http://schema.org",
+          "@type": "Book",
+          "name": "The Beach Boys",
+          "alternateName": "Perfecte Harmonie in een Donkere Wereld",
+          "sameAs": "",
+          "image": "img/books/2013-robert-haagsma-the-beach-boys/robert-haagsma-the-beach-boys-cover.jpg",
+          "backCover": "",
+          "author": {
+            "@type": "Person",
+            "name": "Robert Haagsma"
+          },
+          "publisher": "Uitgeverij Verbum",
+          "isbn": "9074274668",
+          "datePublished": "07-01-2013",
+          "releaseDay": 0,
+          "releaseMonth": 7,
+          "releaseYear": 2013,
+          "category": "book",
+          "bookFormat": "Paperback",
+          "numberOfPages": "172",
+          "country": "Laren, North Holland",
+          "amazonUs": "http://amzn.to/2b1c0Oj",
+          "amazonUk": "http://amzn.to/2b1c0Oj",
+          "amazonCa": "http://amzn.to/2b1c0Oj",
+          "amazonEs": "http://amzn.to/2bl3Ley",
+          "amazonFr": "http://amzn.to/2bao424",
+          "amazonIt": "http://amzn.to/2b1bFeb",
+          "amazonDe": "http://amzn.to/2bao6He",
+          "amazonJp": "",
+          "notes": "",
+          "review": ""
+        }
+	  ]
+    },
+	{
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "Book",
+        "uniqueId": "andrew-hickey-the-beach-boys-on-cd-vol-1",
+        "name": "The Beach Boys On CD",
+        "alternateName": "Vol. 2 1970-1984",
+        "sameAs": "",
+        "image": "img/books/2013-andrew-hickey-the-beach-boys-on-cd-vol-2/andrew-hickey-the-beach-boys-on-cd-vol-2-cover.jpg",
+        "backCover": "",
+        "author": {
+          "@type": "Person",
+          "name": "Andrew Hickey"
+        },
+        "datePublished": "09-02-2013",
+        "releaseDay": 2,
+        "releaseMonth": 9,
+        "releaseYear": 2013,
+        "aboutArtist": "The Beach Boys",
+        "country": "US",
+        "unitsSold": 0,
+        "aggregateRating": 3.5,
+        "relevance": 1,
+        "backgroundColor": "#BCE9E2",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": false,
+          "book": true
+        }
+      },
+      "editions": [
+		{
+          "@context": "http://schema.org",
+          "@type": "Book",
+          "name": "The Beach Boys On CD",
+          "alternateName": "Vol. 2 1970-1984",
+          "sameAs": "",
+          "image": "img/books/2013-andrew-hickey-the-beach-boys-on-cd-vol-2/andrew-hickey-the-beach-boys-on-cd-vol-2-cover.jpg",
+          "backCover": "",
+          "author": {
+            "@type": "Person",
+            "name": "Andrew Hickey"
+          },
+          "publisher": "lulu.com",
+          "isbn": "1291546251",
+          "datePublished": "09-02-2013",
+          "releaseDay": 2,
+          "releaseMonth": 9,
+          "releaseYear": 2013,
+          "category": "book",
+          "bookFormat": "Paperback",
+          "numberOfPages": "212",
+          "country": "US",
+          "amazonUs": "http://amzn.to/2b8ygqC",
+          "amazonUk": "http://amzn.to/2bl5wbU",
+          "amazonCa": "http://amzn.to/2aJcZzT",
+          "amazonEs": "http://amzn.to/2aDToFN",
+          "amazonFr": "http://amzn.to/2aDTqNO",
+          "amazonIt": "http://amzn.to/2aDU9yv",
+          "amazonDe": "http://amzn.to/2bl5aBS",
+          "amazonJp": "",
+          "notes": "",
+          "review": "Between 1970 and 1984 the Beach Boys, both solo and together, made some of the best albums ever recorded - and some not so good. In this book, Andrew Hickey takes a personal look at this music track by track, analysing every song that Brian, Carl, Dennis, Mike, Al, Bruce, Blondie and Ricky recorded and released during that time period. From psychedelic masterpieces like Surf's Up to the raw rock of Pacific Ocean Blues, in this book you'll learn how they were recorded, why they work the way they do, and which albums to buy if you want to hear a great band at their best. Also available: The Beach Boys On Cd Volume 1: 1961 - 1969"
+        }
+	  ]
+    },
+	{
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "Book",
+        "uniqueId": "simone-caltabellota-note-parallele",
+        "name": "Note parallele",
+        "alternateName": "Vite di Brian Wilson e di Epic Soundtracks",
+        "sameAs": "",
+        "image": "img/books/2013-simone-caltabellota-note-parallele/simone-caltabellota-note-parallele-cover.jpg",
+        "backCover": "",
+        "author": {
+          "@type": "Person",
+          "name": "Simone Caltabellota"
+        },
+        "datePublished": "11-06-2013",
+        "releaseDay": 6,
+        "releaseMonth": 11,
+        "releaseYear": 2013,
+        "aboutArtist": "The Beach Boys",
+        "country": "Roma",
+        "unitsSold": 0,
+        "aggregateRating": 3.5,
+        "relevance": 1,
+        "backgroundColor": "#DBA66C",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": false,
+          "book": true
+        }
+      },
+      "editions": [
+		{
+          "@context": "http://schema.org",
+          "@type": "Book",
+          "name": "Note parallele",
+          "alternateName": "Vite di Brian Wilson e di Epic Soundtracks",
+          "sameAs": "",
+          "image": "img/books/2013-simone-caltabellota-note-parallele/simone-caltabellota-note-parallele-cover.jpg",
+          "backCover": "",
+          "author": {
+            "@type": "Person",
+            "name": "Simone Caltabellota"
+          },
+          "publisher": "Nutrimenti",
+          "isbn": "8865942630",
+          "datePublished": "11-06-2013",
+          "releaseDay": 6,
+          "releaseMonth": 11,
+          "releaseYear": 2013,
+          "category": "book",
+          "bookFormat": "Paperback",
+          "numberOfPages": "107",
+          "country": "Roma",
+          "amazonUs": "http://amzn.to/2aVhrz4",
+          "amazonUk": "http://amzn.to/2b7UuWT",
+          "amazonCa": "http://amzn.to/2bjwaov",
+          "amazonEs": "http://amzn.to/2bl9sJO",
+          "amazonFr": "http://amzn.to/2b1hzfl",
+          "amazonIt": "http://amzn.to/2b7UuWY",
+          "amazonDe": "http://amzn.to/2bjwvII",
+          "amazonJp": "",
+          "notes": "",
+          "review": "Quando, nel 1966, 'Pet Sounds' fu pubblicato in America, i Beach Boys erano all'apice del loro successo. Da tempo però Brian Wilson, leader del gruppo, non era soddisfatto di quello che stava ottenendo come musicista. 'Pet Sounds' sarebbe stata la risposta alla propria insoddisfazione, e avrebbe mostrato al mondo un nuovo modo di concepire la musica. Oggi quell'album è considerato uno dei capolavori della musica pop di tutti i tempi. Epic Soundtracks, che fu un grande ammiratore del genio di Brian Wilson, ne racconta la storia prima e dopo 'Pet Sounds', e il percorso visionario che portò il musicista californiano a immaginarne un ideale seguito, 'Smile', che doveva suonare come una straordinaria sinfonia adolescente a Dio, ma che di fatto restò soltanto una chimera. Parallelamente, Simone Caltabellota ricostruisce la vicenda di Epic Soundtracks, a sua volta eccezionale - e semidimenticato - musicista britannico, batterista e fondatore con il fratello Nikki Sudden degli Swell Maps e quindi autore di alcuni album bellissimi e fuori dal tempo. Nell'incrocio sorprendente dei percorsi biografici e musicali di Brian Wilson e Epic Soundtracks che 'Note parallele' testimonia e racconta, c'è tutto il fascino e il mistero del rock 'n' roll e delle forme imprevedibili che assume il destino quando si fa 'rima', musica e parole."
+        }
+	  ]
+    },
+	{
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "Book",
+        "uniqueId": "torrence-berry-gary-zenker-archives-vol-1",
+        "name": "The Beach Boys",
+        "alternateName": "Archives, Vol. 1",
+        "sameAs": "",
+        "image": "img/books/2013-torrence-berry-gary-zenker-archives-vol-1/torrence-berry-gary-zenker-archives-vol-1-cover.jpg",
+        "backCover": "",
+        "author": {
+          "@type": "Person",
+          "name": "Torrence Berry"
+        },
+        "datePublished": "11-10-2013",
+        "releaseDay": 10,
+        "releaseMonth": 11,
+        "releaseYear": 2013,
+        "aboutArtist": "The Beach Boys",
+        "country": "West Chester, PA",
+        "unitsSold": 0,
+        "aggregateRating": 3.5,
+        "relevance": 1,
+        "backgroundColor": "#EE905D",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": false,
+          "book": true
+        }
+      },
+      "editions": [
+		{
+          "@context": "http://schema.org",
+          "@type": "Book",
+          "name": "The Beach Boys",
+          "alternateName": "Archives, Vol. 1",
+          "sameAs": "",
+          "image": "img/books/2013-torrence-berry-gary-zenker-archives-vol-1/torrence-berry-gary-zenker-archives-vol-1-cover.jpg",
+          "backCover": "",
+          "author": {
+            "@type": "Person",
+            "name": "Torrence Berry"
+          },
+          "publisher": "White Lightning",
+          "isbn": "0989334457",
+          "datePublished": "11-10-2013",
+          "releaseDay": 10,
+          "releaseMonth": 11,
+          "releaseYear": 2013,
+          "category": "book",
+          "bookFormat": "Paperback",
+          "numberOfPages": "202",
+          "country": "West Chester, PA",
+          "amazonUs": "http://amzn.to/2aVjByu",
+          "amazonUk": "http://amzn.to/2blbucR",
+          "amazonCa": "http://amzn.to/2aNPKYj",
+          "amazonEs": "http://amzn.to/2b1iXyO",
+          "amazonFr": "http://amzn.to/2b7X9zZ",
+          "amazonIt": "http://amzn.to/2bjyEEr",
+          "amazonDe": "http://amzn.to/2blaQfq",
+          "amazonJp": "",
+          "notes": "",
+          "review": "Covering their beginnings through 1976, this 202 page volume reprints a variety of printed artifacts related to America's Band, The Beach Boys. From ads that appeared in major music publications to promo photos, tour books and magazine articles, you'll read the PR puff pieces and more serious articles talking about various aspects of the guys' careers. It's a fun trip down memory lane with rare materials, pic and stories."
+        }
+	  ]
+    },
+	{
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "Book",
+        "uniqueId": "torrence-berry-gary-zenker-archives-vol-2",
+        "name": "The Beach Boys",
+        "alternateName": "Archives, Vol. 2",
+        "sameAs": "",
+        "image": "img/books/2013-torrence-berry-gary-zenker-archives-vol-2/torrence-berry-gary-zenker-archives-vol-2-cover.jpg",
+        "backCover": "",
+        "author": {
+          "@type": "Person",
+          "name": "Torrence Berry"
+        },
+        "datePublished": "12-12-2013",
+        "releaseDay": 12,
+        "releaseMonth": 12,
+        "releaseYear": 2013,
+        "aboutArtist": "The Beach Boys",
+        "country": "West Chester, PA",
+        "unitsSold": 0,
+        "aggregateRating": 3.5,
+        "relevance": 1,
+        "backgroundColor": "#70ACAD",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": false,
+          "book": true
+        }
+      },
+      "editions": [
+		{
+          "@context": "http://schema.org",
+          "@type": "Book",
+          "name": "The Beach Boys",
+          "alternateName": "Archives, Vol. 2",
+          "sameAs": "",
+          "image": "img/books/2013-torrence-berry-gary-zenker-archives-vol-2/torrence-berry-gary-zenker-archives-vol-2-cover.jpg",
+          "backCover": "",
+          "author": {
+            "@type": "Person",
+            "name": "Torrence Berry"
+          },
+          "publisher": "White Lightning",
+          "isbn": "1941028993",
+          "datePublished": "12-12-2013",
+          "releaseDay": 12,
+          "releaseMonth": 12,
+          "releaseYear": 2013,
+          "category": "book",
+          "bookFormat": "Paperback",
+          "numberOfPages": "192",
+          "country": "West Chester, PA",
+          "amazonUs": "http://amzn.to/2aJlWsR",
+          "amazonUk": "http://amzn.to/2bawDtz",
+          "amazonCa": "http://amzn.to/2aZa4ne",
+          "amazonEs": "http://amzn.to/2bavFxs",
+          "amazonFr": "http://amzn.to/2blcnC1",
+          "amazonIt": "http://amzn.to/2blcxtg",
+          "amazonDe": "http://amzn.to/2b7YAhH",
+          "amazonJp": "",
+          "notes": "",
+          "review": "A second volume of artifacts including photographs, article reprints, tour books and other memorabilia related to the Beach Boys. Nearly 200 pages of materials related to the band from their start to the mid 1970s."
+        }
+	  ]
+    },
+	{
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "Book",
+        "uniqueId": "torrence-berry-gary-zenker-archives-vol-3",
+        "name": "The Beach Boys",
+        "alternateName": "Archives, Vol. 3",
+        "sameAs": "",
+        "image": "img/books/2014-torrence-berry-gary-zenker-archives-vol-3/torrence-berry-gary-zenker-archives-vol-3-cover.jpg",
+        "backCover": "",
+        "author": {
+          "@type": "Person",
+          "name": "Torrence Berry"
+        },
+        "datePublished": "01-04-2014",
+        "releaseDay": 4,
+        "releaseMonth": 1,
+        "releaseYear": 2014,
+        "aboutArtist": "The Beach Boys",
+        "country": "West Chester, PA",
+        "unitsSold": 0,
+        "aggregateRating": 3.5,
+        "relevance": 1,
+        "backgroundColor": "#A3A2A8",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": false,
+          "book": true
+        }
+      },
+      "editions": [
+		{
+          "@context": "http://schema.org",
+          "@type": "Book",
+          "name": "The Beach Boys",
+          "alternateName": "Archives, Vol. 3",
+          "sameAs": "",
+          "image": "img/books/2014-torrence-berry-gary-zenker-archives-vol-3/torrence-berry-gary-zenker-archives-vol-3-cover.jpg",
+          "backCover": "",
+          "author": {
+            "@type": "Person",
+            "name": "Torrence Berry"
+          },
+          "publisher": "White Lightning",
+          "isbn": "1941028012",
+          "datePublished": "01-04-2014",
+          "releaseDay": 4,
+          "releaseMonth": 1,
+          "releaseYear": 2014,
+          "category": "book",
+          "bookFormat": "Paperback",
+          "numberOfPages": "194",
+          "country": "West Chester, PA",
+          "amazonUs": "http://amzn.to/2aVmIXg",
+          "amazonUk": "http://amzn.to/2b7Z9Iq",
+          "amazonCa": "http://amzn.to/2bax33j",
+          "amazonEs": "http://amzn.to/2b802k7",
+          "amazonFr": "http://amzn.to/2b7Zefj",
+          "amazonIt": "http://amzn.to/2baxzOH",
+          "amazonDe": "http://amzn.to/2b80b79",
+          "amazonJp": "",
+          "notes": "",
+          "review": "Beach Boys Archives Volume 3 offers even more reprint articles, public relations materials and other artifacts dating from the 1960s through the 1990s, including trade ads used to market their music. Almost 200 pages of material cheaper than you could make the copies or print them out at home, if you could find the materials themselves. Add this to your collection!"
+        }
+	  ]
+    },
+	{
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "Book",
+        "uniqueId": "torrence-berry-gary-zenker-archives-vol-4",
+        "name": "The Beach Boys",
+        "alternateName": "Archives, Vol. 4",
+        "sameAs": "",
+        "image": "img/books/2014-torrence-berry-gary-zenker-archives-vol-4/torrence-berry-gary-zenker-archives-vol-4-cover.jpg",
+        "backCover": "",
+        "author": {
+          "@type": "Person",
+          "name": "Torrence Berry"
+        },
+        "datePublished": "03-25-2014",
+        "releaseDay": 25,
+        "releaseMonth": 3,
+        "releaseYear": 2014,
+        "aboutArtist": "The Beach Boys",
+        "country": "West Chester, PA",
+        "unitsSold": 0,
+        "aggregateRating": 3.5,
+        "relevance": 1,
+        "backgroundColor": "#62A473",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": false,
+          "book": true
+        }
+      },
+      "editions": [
+		{
+          "@context": "http://schema.org",
+          "@type": "Book",
+          "name": "The Beach Boys",
+          "alternateName": "Archives, Vol. 4",
+          "sameAs": "",
+          "image": "img/books/2014-torrence-berry-gary-zenker-archives-vol-4/torrence-berry-gary-zenker-archives-vol-4-cover.jpg",
+          "backCover": "",
+          "author": {
+            "@type": "Person",
+            "name": "Torrence Berry"
+          },
+          "publisher": "White Lightning",
+          "isbn": "1941028020",
+          "datePublished": "03-25-2014",
+          "releaseDay": 25,
+          "releaseMonth": 3,
+          "releaseYear": 2014,
+          "category": "book",
+          "bookFormat": "Paperback",
+          "numberOfPages": "230",
+          "country": "West Chester, PA",
+          "amazonUs": "http://amzn.to/2aMnsKG",
+          "amazonUk": "http://amzn.to/2bayped",
+          "amazonCa": "http://amzn.to/2aZct18",
+          "amazonEs": "http://amzn.to/2b80ezM",
+          "amazonFr": "http://amzn.to/2baxZVp",
+          "amazonIt": "http://amzn.to/2bjDkdg",
+          "amazonDe": "http://amzn.to/2baxIBB",
+          "amazonJp": "",
+          "notes": "",
+          "review": "The Beach Boys Archives Volume 4! Relive the most exciting years of the Beach Boys revival - 1977 through 1986 - through the original BBFUN (Beach Boys Freaks United) newsletter! This thick 230 page volume reprints the official newsletter that fans received when they subscribed to the fan club. You will read exclusive interviews with band members and associated musicians; news articles; tour updates; and Trading Post sale lists for all sorts of Beach Boys related merchandise. Grab your book and you're sitting on top of the world!"
+        }
+	  ]
+    },
+	{
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "Book",
+        "uniqueId": "torrence-berry-gary-zenker-archives-vol-5",
+        "name": "The Beach Boys",
+        "alternateName": "Archives, Vol. 5",
+        "sameAs": "",
+        "image": "img/books/2014-torrence-berry-gary-zenker-archives-vol-5/torrence-berry-gary-zenker-archives-vol-5-cover.jpg",
+        "backCover": "",
+        "author": {
+          "@type": "Person",
+          "name": "Torrence Berry"
+        },
+        "datePublished": "05-16-2014",
+        "releaseDay": 16,
+        "releaseMonth": 5,
+        "releaseYear": 2014,
+        "aboutArtist": "The Beach Boys",
+        "country": "West Chester, PA",
+        "unitsSold": 0,
+        "aggregateRating": 3.5,
+        "relevance": 1,
+        "backgroundColor": "#D10A03",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": false,
+          "book": true
+        }
+      },
+      "editions": [
+		{
+          "@context": "http://schema.org",
+          "@type": "Book",
+          "name": "The Beach Boys",
+          "alternateName": "Archives, Vol. 5",
+          "sameAs": "",
+          "image": "img/books/2014-torrence-berry-gary-zenker-archives-vol-5/torrence-berry-gary-zenker-archives-vol-5-cover.jpg",
+          "backCover": "",
+          "author": {
+            "@type": "Person",
+            "name": "Torrence Berry"
+          },
+          "publisher": "White Lightning",
+          "isbn": "1941028063",
+          "datePublished": "05-16-2014",
+          "releaseDay": 16,
+          "releaseMonth": 5,
+          "releaseYear": 2014,
+          "category": "book",
+          "bookFormat": "Paperback",
+          "numberOfPages": "188",
+          "country": "West Chester, PA",
+          "amazonUs": "http://amzn.to/2b8Gq28",
+          "amazonUk": "http://amzn.to/2b81mDu",
+          "amazonCa": "http://amzn.to/2aNSnJH",
+          "amazonEs": "http://amzn.to/2b1mhcZ",
+          "amazonFr": "http://amzn.to/2b81T8A",
+          "amazonIt": "http://amzn.to/2bjEHJ0",
+          "amazonDe": "http://amzn.to/2bayU8k",
+          "amazonJp": "",
+          "notes": "",
+          "review": "Beach Boys Archives Volume 5 continues the series of reproducing news, ads, artifacts and other items of interest from the fifty year history of the Beach Boys. Fans will find this volume a mix of concert posters advertising Beach Boys concerts, ads focused on the Beach Boys musical output including albums and singles, sheet music covers, news articles, interviews and the like. Featuring pieces on Brian Wilson, Carl Wilson, Dennis Wilson, Bruce Johnston, Al Jardine and Mike Love."
+        }
+	  ]
+    },
+	{
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "Book",
+        "uniqueId": "torrence-berry-gary-zenker-archives-vol-6",
+        "name": "The Beach Boys",
+        "alternateName": "Archives, Vol. 6",
+        "sameAs": "",
+        "image": "img/books/2016-torrence-berry-gary-zenker-archives-vol-6/torrence-berry-gary-zenker-archives-vol-6-cover.jpg",
+        "backCover": "",
+        "author": {
+          "@type": "Person",
+          "name": "Torrence Berry"
+        },
+        "datePublished": "04-03-2016",
+        "releaseDay": 3,
+        "releaseMonth": 4,
+        "releaseYear": 2016,
+        "aboutArtist": "The Beach Boys",
+        "country": "West Chester, PA",
+        "unitsSold": 0,
+        "aggregateRating": 3.5,
+        "relevance": 1,
+        "backgroundColor": "#68B5C9",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": false,
+          "book": true
+        }
+      },
+      "editions": [
+		{
+          "@context": "http://schema.org",
+          "@type": "Book",
+          "name": "The Beach Boys",
+          "alternateName": "Archives, Vol. 6",
+          "sameAs": "",
+          "image": "img/books/2016-torrence-berry-gary-zenker-archives-vol-6/torrence-berry-gary-zenker-archives-vol-6-cover.jpg",
+          "backCover": "",
+          "author": {
+            "@type": "Person",
+            "name": "Torrence Berry"
+          },
+          "publisher": "White Lightning",
+          "isbn": "1941028292",
+          "datePublished": "04-03-2016",
+          "releaseDay": 3,
+          "releaseMonth": 4,
+          "releaseYear": 2016,
+          "category": "book",
+          "bookFormat": "Paperback",
+          "numberOfPages": "186",
+          "country": "West Chester, PA",
+          "amazonUs": "http://amzn.to/2aZdN4h",
+          "amazonUk": "http://amzn.to/2b82OWB",
+          "amazonCa": "http://amzn.to/2aJpXxC",
+          "amazonEs": "http://amzn.to/2bazdQs",
+          "amazonFr": "http://amzn.to/2bazliI",
+          "amazonIt": "http://amzn.to/2baze76",
+          "amazonDe": "http://amzn.to/2b82N4X",
+          "amazonJp": "",
+          "notes": "",
+          "review": "Covering their beginnings through 1976, this 186 page volume reprints a variety of printed artifacts related to America's Band, The Beach Boys. this volume focuses on the individual members' solo efforts and efforts related to related musicians, including Brian Wilson as a solo act. From ads that appeared in major music publications to promo photos, tour books and magazine articles, you'll read the PR puff pieces and more serious articles talking about various aspects of the guys' careers. It's a fun trip down memory lane with rare materials, pic and stories."
+        }
+	  ]
+    },
+	{
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "Book",
+        "uniqueId": "torrence-berry-gary-zenker-archives-vol-7",
+        "name": "The Beach Boys",
+        "alternateName": "Archives, Vol. 7",
+        "sameAs": "",
+        "image": "img/books/2015-torrence-berry-gary-zenker-archives-vol-7/torrence-berry-gary-zenker-archives-vol-7-cover.jpg",
+        "backCover": "",
+        "author": {
+          "@type": "Person",
+          "name": "Torrence Berry"
+        },
+        "datePublished": "01-19-2015",
+        "releaseDay": 19,
+        "releaseMonth": 1,
+        "releaseYear": 2015,
+        "aboutArtist": "The Beach Boys",
+        "country": "West Chester, PA",
+        "unitsSold": 0,
+        "aggregateRating": 3.5,
+        "relevance": 1,
+        "backgroundColor": "#E8B371",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": false,
+          "book": true
+        }
+      },
+      "editions": [
+		{
+          "@context": "http://schema.org",
+          "@type": "Book",
+          "name": "The Beach Boys",
+          "alternateName": "Archives, Vol. 7",
+          "sameAs": "",
+          "image": "img/books/2015-torrence-berry-gary-zenker-archives-vol-7/torrence-berry-gary-zenker-archives-vol-7-cover.jpg",
+          "backCover": "",
+          "author": {
+            "@type": "Person",
+            "name": "Torrence Berry"
+          },
+          "publisher": "White Lightning",
+          "isbn": "1941028101",
+          "datePublished": "01-19-2015",
+          "releaseDay": 19,
+          "releaseMonth": 1,
+          "releaseYear": 2015,
+          "category": "book",
+          "bookFormat": "Paperback",
+          "numberOfPages": "182",
+          "country": "West Chester, PA",
+          "amazonUs": "http://amzn.to/2aNTGbp",
+          "amazonUk": "http://amzn.to/2aE2D95",
+          "amazonCa": "http://amzn.to/2b8HG5i",
+          "amazonEs": "http://amzn.to/2baAcA4",
+          "amazonFr": "http://amzn.to/2aE2Rgh",
+          "amazonIt": "http://amzn.to/2b1mInY",
+          "amazonDe": "http://amzn.to/2b1mJb9",
+          "amazonJp": "",
+          "notes": "",
+          "review": "Volume 7 of the continuing series of books covering artifacts from the 50 year history of the Beach Boys. A focus on out of print magazine articles and features, news stories, ads and even a few vintage radio playlist make this a very interesting volume."
+        }
+	  ]
+    },
+	{
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "Book",
+        "uniqueId": "max-harrick-shenk-meeting-dennis-wilson",
+        "name": "Meeting Dennis Wilson",
+        "alternateName": "A Novel",
+        "sameAs": "",
+        "image": "img/books/2013-max-harrick-shenk-meeting-dennis-wilson/max-harrick-shenk-meeting-dennis-wilson-cover.jpg",
+        "backCover": "",
+        "author": {
+          "@type": "Person",
+          "name": "Max Harrick Shenk"
+        },
+        "datePublished": "12-03-2013",
+        "releaseDay": 3,
+        "releaseMonth": 12,
+        "releaseYear": 2013,
+        "aboutArtist": "Dennis Wilson",
+        "country": "Charleston, SC",
+        "unitsSold": 0,
+        "aggregateRating": 3.5,
+        "relevance": 1,
+        "backgroundColor": "#5ABF5B",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": false,
+          "book": true
+        }
+      },
+      "editions": [
+		{
+          "@context": "http://schema.org",
+          "@type": "Book",
+          "name": "Meeting Dennis Wilson",
+          "alternateName": "A Novel",
+          "sameAs": "",
+          "image": "img/books/2013-max-harrick-shenk-meeting-dennis-wilson/max-harrick-shenk-meeting-dennis-wilson-cover.jpg",
+          "backCover": "",
+          "author": {
+            "@type": "Person",
+            "name": "Max Harrick Shenk"
+          },
+          "publisher": "CreateSpace",
+          "isbn": "1494325691",
+          "datePublished": "12-03-2013",
+          "releaseDay": 3,
+          "releaseMonth": 12,
+          "releaseYear": 2013,
+          "category": "book",
+          "bookFormat": "Paperback",
+          "numberOfPages": "636",
+          "country": "Charleston, SC",
+          "amazonUs": "http://amzn.to/2aJrN1r",
+          "amazonUk": "http://amzn.to/2bjGLkv",
+          "amazonCa": "http://amzn.to/2baBefy",
+          "amazonEs": "http://amzn.to/2bjHDFI",
+          "amazonFr": "http://amzn.to/2baACGG",
+          "amazonIt": "http://amzn.to/2b1n6CG",
+          "amazonDe": "http://amzn.to/2baAEhB",
+          "amazonJp": "",
+          "notes": "",
+          "review": "15 year old softball pitcher (and Beach Boys fan) Margo LeDoux has a crush on Beach Boys drummer Dennis Wilson, and wants to meet him, but her boyfriend, Scott, doesn't really like the idea. Meanwhile, Margo's best friend (and our narrator) Brian Pressley and his girlfriend, Christy Kelly, decide that they are going to take steps toward going all the way, steps which seem to get them into trouble no matter how careful they are. And then there is Christy's big sister Kathy, who is stricken with a bad case of senioritis and a boyfriend who is avoiding her just weeks shy of the senior prom ... and Brian's buddy Marty, a shy kid with a Beatles obsession and a crush on Margo ... and Margo's catcher Tara Longbaugh, whose parents have a Beach Boys connection that could get Margo closer to meeting her heartthrob ... not to mention parents, brothers, sisters, classmates and teachers who just seem to make life harder, not easier. How can a girl with a rockstar-sized crush meet the drummer of her dreams?"
+        }
+	  ]
+    },
+	{
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "Book",
+        "uniqueId": "luis-sanchez-33-1-3-smile",
+        "name": "Smile",
+        "alternateName": "33 1/3",
+        "sameAs": "",
+        "image": "img/books/2014-luis-sanchez-33-1-3-smile/luis-sanchez-33-1-3-smile-cover.jpg",
+        "backCover": "",
+        "author": {
+          "@type": "Person",
+          "name": "Luis Sanchez"
+        },
+        "datePublished": "05-08-2014",
+        "releaseDay": 8,
+        "releaseMonth": 5,
+        "releaseYear": 2014,
+        "aboutArtist": "The Beach Boys",
+        "country": "New York",
+        "unitsSold": 0,
+        "aggregateRating": 3.5,
+        "relevance": 1,
+        "backgroundColor": "#2E9D44",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": false,
+          "book": true
+        }
+      },
+      "editions": [
+		{
+          "@context": "http://schema.org",
+          "@type": "Book",
+          "name": "Smile",
+          "alternateName": "33 1/3",
+          "sameAs": "",
+          "image": "img/books/2014-luis-sanchez-33-1-3-smile/luis-sanchez-33-1-3-smile-cover.jpg",
+          "backCover": "",
+          "author": {
+            "@type": "Person",
+            "name": "Luis Sanchez"
+          },
+          "publisher": "Bloomsbury",
+          "isbn": "1623562589",
+          "datePublished": "05-08-2014",
+          "releaseDay": 8,
+          "releaseMonth": 5,
+          "releaseYear": 2014,
+          "category": "book",
+          "bookFormat": "Paperback",
+          "numberOfPages": "144",
+          "country": "New York",
+          "amazonUs": "http://amzn.to/2aJu9gX",
+          "amazonUk": "http://amzn.to/2baD2VS",
+          "amazonCa": "http://amzn.to/2aMrdj3",
+          "amazonEs": "http://amzn.to/2b86o2S",
+          "amazonFr": "http://amzn.to/2b86J5Z",
+          "amazonIt": "http://amzn.to/2baD00e",
+          "amazonDe": "http://amzn.to/2b8760b",
+          "amazonJp": "",
+          "notes": "",
+          "review": "Smile is not merely a great unfinished album, but a living work of art that is all at once expansive, indeterminate, and resolutely pop.\nIn the early 1960s, The Beach Boys rose from the suburbs of Hawthorne, California to become emissaries of a post-war American dream that fused middle-class aspiration and mobility with images of youth. Led by dream master Brian Wilson, their music gave voice to a Southern California mythos and compelled an audience across the nation and beyond to live out their own versions of the fantasy. By 1966, the encroaching counterculture added new dimensions of creative possibility to popular music. Looking to revise and expand, Brian Wilson sought collaboration with a brilliant musician named Van Dyke Parks. Together they began work on Smile, an ambitious album of music that refracted The Beach Boys' naïveté into a visionary exploration of American consciousness. Smile edged so close to greatness it seemed destined to become one of the most significant musical advances of its time. But the story didn't end quite like this.\nIn this book of evocative essays, Sanchez traces the musical journey that transformed The Beach Boys from West Coast surf heroes into America's pop luminaries, and ultimately why Smile represents a tumultuous turning point in the history of popular music."
+        }
+	  ]
+    },
+	{
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "Book",
+        "uniqueId": "james-murphy-becoming-the-beach-boys",
+        "name": "Becoming the Beach Boys, 1961-1963",
+        "alternateName": "",
+        "sameAs": "",
+        "image": "img/books/2015-james-murphy-becoming-the-beach-boys/james-murphy-becoming-the-beach-boys-cover.jpg",
+        "backCover": "",
+        "author": {
+          "@type": "Person",
+          "name": "James B. Murphy"
+        },
+        "datePublished": "06-08-2015",
+        "releaseDay": 8,
+        "releaseMonth": 6,
+        "releaseYear": 2015,
+        "aboutArtist": "The Beach Boys",
+        "country": "Jefferson, NC",
+        "unitsSold": 0,
+        "aggregateRating": 5,
+        "relevance": 1,
+        "backgroundColor": "#BBDADD",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": false,
+          "book": true
+        }
+      },
+      "editions": [
+		{
+          "@context": "http://schema.org",
+          "@type": "Book",
+          "name": "Becoming the Beach Boys, 1961-1963",
+          "alternateName": "",
+          "sameAs": "",
+          "image": "img/books/2015-james-murphy-becoming-the-beach-boys/james-murphy-becoming-the-beach-boys-cover.jpg",
+          "backCover": "",
+          "author": {
+            "@type": "Person",
+            "name": "James B. Murphy"
+          },
+          "publisher": "McFarland Publishing",
+          "isbn": "0786473657",
+          "datePublished": "06-08-2015",
+          "releaseDay": 8,
+          "releaseMonth": 6,
+          "releaseYear": 2015,
+          "category": "book",
+          "bookFormat": "Paperback",
+          "numberOfPages": "436",
+          "country": "Jefferson, NC",
+          "amazonUs": "http://amzn.to/2b1qyxm",
+          "amazonUk": "http://amzn.to/2b1qQnL",
+          "amazonCa": "http://amzn.to/2b8MkAl",
+          "amazonEs": "http://amzn.to/2baDUKf",
+          "amazonFr": "http://amzn.to/2baDlzJ",
+          "amazonIt": "http://amzn.to/2b87wUa",
+          "amazonDe": "http://amzn.to/2baEasl",
+          "amazonJp": "",
+          "notes": "",
+          "review": "They were almost The Pendletones--after the Pendleton wool shirts favored on chilly nights at the beach--then The Surfers, before being named The Beach Boys. But what separated them from every other teenage garage band with no musical training? They had raw talent, persistence and a wellspring of creativity that launched them on a legendary career now in its sixth decade.\nFollowing the musical vision of Brian Wilson, the Beach Boys blended ethereal vocal harmonies, searing electric guitars and lush arrangements into one of the most distinctive sounds in the history of popular music. Drawing on original interviews and newly uncovered documents, this book untangles the band's convoluted early history and tells the story of how five boys from California formed America's greatest rock 'n' roll band."
+        }
+	  ]
+    },
+	{
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "Book",
+        "uniqueId": "kent-crowley-long-promised-road",
+        "name": "Long Promised Road",
+        "alternateName": "Carl Wilson, Soul of the Beach Boys - The Biography",
+        "sameAs": "",
+        "image": "img/books/2015-kent-crowley-long-promised-road/kent-crowley-long-promised-road-cover.jpg",
+        "backCover": "",
+        "author": {
+          "@type": "Person",
+          "name": "Kent Crowley"
+        },
+        "datePublished": "10-12-2015",
+        "releaseDay": 12,
+        "releaseMonth": 10,
+        "releaseYear": 2015,
+        "aboutArtist": "Carl Wilson",
+        "country": "London",
+        "unitsSold": 0,
+        "aggregateRating": 2.5,
+        "relevance": 1,
+        "backgroundColor": "#8DA48A",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": false,
+          "book": true
+        }
+      },
+      "editions": [
+		{
+          "@context": "http://schema.org",
+          "@type": "Book",
+          "name": "Long Promised Road",
+          "alternateName": "Carl Wilson, Soul of the Beach Boys - The Biography",
+          "sameAs": "",
+          "image": "img/books/2015-kent-crowley-long-promised-road/kent-crowley-long-promised-road-cover.jpg",
+          "backCover": "",
+          "author": {
+            "@type": "Person",
+            "name": "Kent Crowley"
+          },
+          "publisher": "Jawbone Press",
+          "isbn": "1908279842",
+          "datePublished": "10-12-2015",
+          "releaseDay": 12,
+          "releaseMonth": 10,
+          "releaseYear": 2015,
+          "category": "book",
+          "bookFormat": "Paperback",
+          "numberOfPages": "288",
+          "country": "London",
+          "amazonUs": "http://amzn.to/2aNXARO",
+          "amazonUk": "http://amzn.to/2blkyyi",
+          "amazonCa": "http://amzn.to/2aVvgxj",
+          "amazonEs": "http://amzn.to/2blkZsB",
+          "amazonFr": "http://amzn.to/2baEyr6",
+          "amazonIt": "http://amzn.to/2bll8fo",
+          "amazonDe": "http://amzn.to/2b89hkg",
+          "amazonJp": "",
+          "notes": "",
+          "review": "No life in popular music touched on as many major musical milestones as that of The Beach Boys' Carl Wilson. While he is often unjustly overlooked as a mere adjunct to his more famous brothers Brian and Dennis, Carl was a major international rock star from his early teens.\nThe proud owner of one of the greatest voices in popular music--one that graced some of the most important records of the pop era, including 'God Only Knows' and 'Good Vibrations'--Wilson was also one of the first musicians to bring the electric guitar to the forefront of rock'n'roll. His musical skills provided The Beach Boys' entree into the music business, from which he then stewarded their onstage journey through the ups and downs of the 60s to their comeback in the 70s and into the role of 'America's band' in the 80s. Along the way, Carl quietly endured his own battles with obesity, divorce, substance abuse, and ultimately terminal cancer, all the while working to protect his family's business and legacy. This major new biography reveals the true story of modern rock'n'roll, lived from the center of the most important decades of popular music."
+        }
+	  ]
+    },
+	{
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "Book",
+        "uniqueId": "johnny-morgan-the-beach-boys-americas-band",
+        "name": "The Beach Boys",
+        "alternateName": "America's Band",
+        "sameAs": "",
+        "image": "img/books/2015-johnny-morgan-the-beach-boys-americas-band/johnny-morgan-the-beach-boys-americas-band-cover.jpg",
+        "backCover": "",
+        "author": {
+          "@type": "Person",
+          "name": "Johnny Morgan"
+        },
+        "datePublished": "10-27-2015",
+        "releaseDay": 27,
+        "releaseMonth": 10,
+        "releaseYear": 2015,
+        "aboutArtist": "The Beach Boys",
+        "country": "New York",
+        "unitsSold": 0,
+        "aggregateRating": 4,
+        "relevance": 1,
+        "backgroundColor": "#F4DAC1",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": false,
+          "book": true
+        }
+      },
+      "editions": [
+		{
+          "@context": "http://schema.org",
+          "@type": "Book",
+          "name": "The Beach Boys",
+          "alternateName": "America's Band",
+          "sameAs": "",
+          "image": "img/books/2015-johnny-morgan-the-beach-boys-americas-band/johnny-morgan-the-beach-boys-americas-band-cover.jpg",
+          "backCover": "",
+          "author": {
+            "@type": "Person",
+            "name": "Johnny Morgan"
+          },
+          "publisher": "Sterling",
+          "isbn": "1454917091",
+          "datePublished": "10-27-2015",
+          "releaseDay": 27,
+          "releaseMonth": 10,
+          "releaseYear": 2015,
+          "category": "book",
+          "bookFormat": "Hardcover",
+          "numberOfPages": "256",
+          "country": "New York",
+          "amazonUs": "http://amzn.to/2aZmrQg",
+          "amazonUk": "http://amzn.to/2bllYbX",
+          "amazonCa": "http://amzn.to/2aVxZqu",
+          "amazonEs": "http://amzn.to/2b8bsof",
+          "amazonFr": "http://amzn.to/2b8c5y3",
+          "amazonIt": "http://amzn.to/2baGD6n",
+          "amazonDe": "http://amzn.to/2b8Owbh",
+          "amazonJp": "",
+          "notes": "",
+          "review": "The Beach Boys pioneered the wildly popular 'Surf Sound', selling more records than any other American band. And 2016 marks the 50th anniversary of their groundbreaking and hugely influential album Pet Sounds and its follow-up single, 'Good Vibrations'. This book offers the first fully illustrated, in-depth examination of the group's story, with a special emphasis on the creation of those two masterpieces and what came after. More than 150 images include classic and rarely published photographs, album artwork, and archive memorabilia. By examining the writing, recording and performance of the band's entire catalogue, the book presents a unique look at the making of the Beach Boys, both before and after their 1966 triumphs."
+        }
+	  ]
+    },
+	{
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "Book",
+        "uniqueId": "karen-lesley-powell-scott-wilson-son-of-a-beach-boy",
+        "name": "Son of a Beach Boy",
+        "alternateName": "My dad, Dennis Wilson",
+        "sameAs": "",
+        "image": "img/books/2015-karen-lesley-powell-scott-wilson-son-of-a-beach-boy/karen-lesley-powell-scott-wilson-son-of-a-beach-boy-cover.jpg",
+        "backCover": "",
+        "author": {
+          "@type": "Person",
+          "name": "Karen Lesley Powell and Scott Wilson"
+        },
+        "datePublished": "01-22-2015",
+        "releaseDay": 22,
+        "releaseMonth": 1,
+        "releaseYear": 2015,
+        "aboutArtist": "Dennis Wilson",
+        "country": "US",
+        "unitsSold": 0,
+        "aggregateRating": 3,
+        "relevance": 1,
+        "backgroundColor": "#ADACBC",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": false,
+          "book": true
+        }
+      },
+      "editions": [
+		{
+          "@context": "http://schema.org",
+          "@type": "Book",
+          "name": "Son of a Beach Boy",
+          "alternateName": "My dad, Dennis Wilson",
+          "sameAs": "",
+          "image": "img/books/2015-karen-lesley-powell-scott-wilson-son-of-a-beach-boy/karen-lesley-powell-scott-wilson-son-of-a-beach-boy-cover.jpg",
+          "backCover": "",
+          "author": {
+            "@type": "Person",
+            "name": "Karen Lesley Powell and Scott Wilson"
+          },
+          "publisher": "CreateSpace",
+          "isbn": "1507684894",
+          "datePublished": "01-22-2015",
+          "releaseDay": 22,
+          "releaseMonth": 1,
+          "releaseYear": 2015,
+          "category": "book",
+          "bookFormat": "Paperback",
+          "numberOfPages": "234",
+          "country": "US",
+          "amazonUs": "http://amzn.to/2bjORIu",
+          "amazonUk": "http://amzn.to/2bjRyei",
+          "amazonCa": "http://amzn.to/2aVAd9u",
+          "amazonEs": "http://amzn.to/2bln9s0",
+          "amazonFr": "http://amzn.to/2aE9sXT",
+          "amazonIt": "http://amzn.to/2blnRFx",
+          "amazonDe": "http://amzn.to/2aEafYT",
+          "amazonJp": "",
+          "notes": "",
+          "review": "REVISED EDITION It never occurred to me that my life growing up with my dad, Dennis Wilson of The Beach Boys, would be of any interest to anyone. That is until I built The Beach Boys Historical Landmark on the site where my dad, his brothers Brian and Carl Wilson and the other founding members of The Beach Boys grew up in Hawthorne, California, the site where The Beach Boys phenomenon was born. A great deal of my dad’s life was undeniably self- destructive. I will not sugar coat the facts but at the same time, I want to let every-one know what a great person he was. He had the kindest and most sincere heart I have ever known. Despite his well-publicized addictions, I hope this book helps Dad's fans understand why his life was so messed up. I have tried so hard to get over his death but I doubt I ever will. I know I am a good person but like my dad, I have made some terrible mistakes. I have done bad things, been addicted to drugs and much more. But even though I had a privileged childhood, I am aware, that I've embodied many of Dad's demons right through to my adulthood. I know now that having such a lack of self-worth, I became responsible for my own self- destructive nature. Could this have been the same for him? Dad, I loved you with all my heart and I miss you every single day and I hope this book sheds light on the two of us and that whatever needs to be forgiven, will be."
+        },
+		{
+          "@context": "http://schema.org",
+          "@type": "Book",
+          "name": "Son of a Beach Boy - Second revision",
+          "alternateName": "My dad, Dennis Wilson",
+          "sameAs": "",
+          "image": "img/books/2015-karen-lesley-powell-scott-wilson-son-of-a-beach-boy/karen-lesley-powell-scott-wilson-son-of-a-beach-boy-2015.jpg",
+          "backCover": "",
+          "author": {
+            "@type": "Person",
+            "name": "Karen Lesley Powell and Scott Wilson"
+          },
+          "publisher": "lulu.com",
+          "isbn": "1326249800",
+          "datePublished": "05-03-2015",
+          "releaseDay": 3,
+          "releaseMonth": 5,
+          "releaseYear": 2015,
+          "category": "book",
+          "bookFormat": "Hardcover",
+          "numberOfPages": "233",
+          "country": "US",
+          "amazonUs": "http://amzn.to/2aJWCD7",
+          "amazonUk": "http://amzn.to/2bkhYwp",
+          "amazonCa": "http://amzn.to/2aJX6JC",
+          "amazonEs": "http://amzn.to/2baWEJg",
+          "amazonFr": "http://amzn.to/2aEqrcV",
+          "amazonIt": "http://amzn.to/2b96R83",
+          "amazonDe": "http://amzn.to/2bkiw5D",
+          "amazonJp": "",
+          "notes": "",
+          "review": "The true story of the relationship between a boy and his rock n roll father, Dennis Wilson of The Beach Boys. Scott Wilson's memoirs are completely honest, heartfelt and told on a very personal level. From his earliest childhood memories of when Dennis was married to Carole Wilson Bloom to living with Chrisitne McVie, Fleetwood Mac's singer and keyboardist; the fun times, the crazy times, the sad times, the addictions and the death of a parent. Scott tells it all, exactly how it was! In 2005 Scott built the Beach Boys Landmark Monument which stands in place of the Wilson brothers home in Hawthorne California."
+        },
+		{
+          "@context": "http://schema.org",
+          "@type": "Book",
+          "name": "Son of a Beach Boy - Third revision",
+          "alternateName": "My dad, Dennis Wilson",
+          "sameAs": "",
+          "image": "img/books/2015-karen-lesley-powell-scott-wilson-son-of-a-beach-boy/karen-lesley-powell-scott-wilson-son-of-a-beach-boy-2016.jpg",
+          "backCover": "",
+          "author": {
+            "@type": "Person",
+            "name": "Karen Lesley Powell and Scott Wilson"
+          },
+          "publisher": "CreateSpace",
+          "isbn": "1530707331",
+          "datePublished": "03-27-2016",
+          "releaseDay": 27,
+          "releaseMonth": 3,
+          "releaseYear": 2016,
+          "category": "book",
+          "bookFormat": "Paperback",
+          "numberOfPages": "224",
+          "country": "US",
+          "amazonUs": "http://amzn.to/2aOk3hm",
+          "amazonUk": "http://amzn.to/2b8zxLo",
+          "amazonCa": "http://amzn.to/2b1JR9N",
+          "amazonEs": "http://amzn.to/2baXm9l",
+          "amazonFr": "http://amzn.to/2baXVjR",
+          "amazonIt": "http://amzn.to/2aEqXaG",
+          "amazonDe": "http://amzn.to/2b97xKE",
+          "amazonJp": "",
+          "notes": "",
+          "review": "LATEST REVISION of Scott Wilson's rewritten memoirs, the eldest son of THE BEACH BOYS drummer, Dennis Wilson. Now includes contributions from POINT JUDITH'S Mitch Toney (BEACH BOYS SUPPORT ACT) and Carli Munoz (Composer of Bambu and BEACH BOYS former musician.) Brand new personal photographs (black and white budget edition.) Forward It never occurred to me that growing up with my dad, Dennis Wilson of The Beach Boys would be of any interest to anyone. That is until I built The Beach Boys 'Historical Landmark Monument' on the site where my dad, his brothers Brian and Carl Wilson and the other founding members of The Beach Boys grew up in Hawthorne, California; The site where The Beach Boys phenomenon was born. Thousands of people came from around the world to attend the unveiling ceremony on 20th of May, 2005. Since that dedication commemoration, there have been countless books, articles, and documentaries about my dad and The Beach Boys. Almost all have been the same rehashed story, mainly concentrating on Dad's tough battle with drugs and alcohol, and the seemingly eternal fascination with his involvement with Charles Manson. I never did interviews for any of these books or films because I did not want to be a part of any one-sided, or unfair portrayals of my father, but shortly after I built the 'Monument', I was having lunch with my friend Jon Stebbins (who has written many books and articles about my dad and The Beach Boys). He had just finished working with British producer Matt O'Casey on what I think is one of the best documentaries ever made about my dad, based on Jon's book 'The Real Beach Boy.' This project focused on Dad's musical achievements, and his life as a whole, rather than just the troubled side of his personality. 'Wow, Scott Wilson, the missing link. You are the only person who has never spoken to anyone about your dad'. It got me thinking. Would people like to hear about my relationship with my father? Incredible, personal stories of our adventures together? The life of a boy and his rock and roll father. A tribute to the good and crazy times we shared; my deepest thoughts and feelings finally revealed. A great deal of my dad's life was undeniably self- destructive. It would be pointless to deny the well-publicized facts, but at the same time, I want to let everyone know what an awesome person he was. Despite his addictions, I hope this book helps Dad's fans understand why his life came to such a tragic end on 28th December 1983. I have tried so hard to get over his death, but I doubt I ever will. Regardless of my privileged childhood, I am aware that I have embodied many of Dads demons right through to my adulthood. I have always lacked self-esteem. Just like my dad, I became responsible for my equally self-destructive nature. Dad, I loved you with all my heart. I miss you every single day. Perhaps this book will some shed light on the two of us, and that whatever needs to be forgiven, will be."
+        },
+		{
+          "@context": "http://schema.org",
+          "@type": "Book",
+          "name": "Son of a Beach Boy - Colour edition",
+          "alternateName": "My dad, Dennis Wilson",
+          "sameAs": "",
+          "image": "img/books/2015-karen-lesley-powell-scott-wilson-son-of-a-beach-boy/karen-lesley-powell-scott-wilson-son-of-a-beach-boy-color-2016.jpg",
+          "backCover": "",
+          "author": {
+            "@type": "Person",
+            "name": "Karen Lesley Powell and Scott Wilson"
+          },
+          "publisher": "lulu.com",
+          "isbn": "1326734431",
+          "datePublished": "07-12-2016",
+          "releaseDay": 12,
+          "releaseMonth": 7,
+          "releaseYear": 2016,
+          "category": "book",
+          "bookFormat": "Hardcover",
+          "numberOfPages": "226",
+          "country": "US",
+          "amazonUs": "http://amzn.to/2aOk0m5",
+          "amazonUk": "http://amzn.to/2blFjd9",
+          "amazonCa": "http://amzn.to/2aOkI2k",
+          "amazonEs": "http://amzn.to/2b8zRdc",
+          "amazonFr": "http://amzn.to/2b8B5oJ",
+          "amazonIt": "http://amzn.to/2b8AHqn",
+          "amazonDe": "http://amzn.to/2b8B7wR",
+          "amazonJp": "",
+          "notes": "",
+          "review": "The entirely true and honest story of a boy and his rock and roll father (Drummer, Dennis Wilson.) Regarded as the sex symbol of one of the most prolific bands in musical history, Dennis, a long with his brother Brian Wilson, were haunted by their harsh and abusive father, resulting in a life time of substance abuse and Dennis' untimely death in a drowning accident in Marina Del Rey, Los Angeles, C.A in 1983. His eldest son Scott has never got over the loss of his father and has led a pretty much carbon copy of his life. (The book is co based on Scott's own demons, some shocking, and the affects of having a very famous, yet deeply troubled father.) The un-sugar-coated story of self destruction, sex, drugs and Hollywood gone wrong! With contributions from fans, friends and former musicians etc. Black and white personal photographs. Hardcover."
+        }
+	  ]
+    },
+	{
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "Book",
+        "uniqueId": "jeff-sellars-god-only-knows",
+        "name": "God Only Knows",
+        "alternateName": "Faith, Hope, Love, and The Beach Boys",
+        "sameAs": "",
+        "image": "img/books/2015-jeff-sellars-god-only-knows/jeff-sellars-god-only-knows-cover.jpg",
+        "backCover": "",
+        "author": {
+          "@type": "Person",
+          "name": "Jeff Sellars"
+        },
+        "datePublished": "12-14-2015",
+        "releaseDay": 14,
+        "releaseMonth": 12,
+        "releaseYear": 2015,
+        "aboutArtist": "The Beach Boys",
+        "country": "Eugene, OR",
+        "unitsSold": 0,
+        "aggregateRating": 4,
+        "relevance": 1,
+        "backgroundColor": "#8F6679",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": false,
+          "book": true
+        }
+      },
+      "editions": [
+		{
+          "@context": "http://schema.org",
+          "@type": "Book",
+          "name": "God Only Knows",
+          "alternateName": "Faith, Hope, Love, and The Beach Boys",
+          "sameAs": "",
+          "image": "img/books/2015-jeff-sellars-god-only-knows/jeff-sellars-god-only-knows-cover.jpg",
+          "backCover": "",
+          "author": {
+            "@type": "Person",
+            "name": "Jeff Sellars"
+          },
+          "publisher": "Cascade Books",
+          "isbn": "1498207669",
+          "datePublished": "12-14-2015",
+          "releaseDay": 14,
+          "releaseMonth": 12,
+          "releaseYear": 2015,
+          "category": "book",
+          "bookFormat": "Paperback",
+          "numberOfPages": "180",
+          "country": "Eugene, OR",
+          "amazonUs": "http://amzn.to/2biTyAa",
+          "amazonUk": "http://amzn.to/2bkoyD9",
+          "amazonCa": "http://amzn.to/2bb0oL1",
+          "amazonEs": "http://amzn.to/2b9a9bf",
+          "amazonFr": "http://amzn.to/2blFCVt",
+          "amazonIt": "http://amzn.to/2bb0WQR",
+          "amazonDe": "http://amzn.to/2bb0K4f",
+          "amazonJp": "",
+          "notes": "",
+          "review": "The Beach Boys are one of rock's most enduring and enigmatic groups, and while the band has been the subject of numerous biographies and other in-depth studies, there has been no focused evaluation of the religious and spiritual themes in their work. Spiritual and theological themes are present in much of their work, and when this realization is coupled with Brian Wilson's mission 'to spread the gospel of love through records', and his sense of music as spiritual--of thinking 'pop music is going to be spiritual . . . that's the direction I want to go'--this is a striking way to explore the band's music. In God Only Knows, the contributors attempt to come to grips with just a small amount of this band's massive output--by circling around its theological virtues. Each section of the book is a loose investigation of the guiding topics of faith, hope, and love. Each essay is a free exploration of theological and spiritual themes from the contributor's own perspectives."
+        }
+	  ]
     },
     {
       "parent": {
         "@context": "http://schema.org",
         "@type": "Book",
-        "uniqueId": "good-vibrations-my-life-as-a-beach-boy",
+        "uniqueId": "mike-love-james-hirsch-good-vibrations",
         "name": "Good Vibrations",
         "alternateName": "My Life as a Beach Boy",
         "sameAs": "",
-        "image": "img/books/2016-good-vibrations-my-life-as-a-beach-boy/good-vibrations-my-life-as-a-beach-boy-cover.jpg",
+        "image": "img/books/2016-mike-love-james-hirsch-good-vibrations/mike-love-james-hirsch-good-vibrations-cover.jpg",
         "backCover": "",
         "author": {
           "@type": "Person",
-          "name": "Mike Love &amp; James S. Hirsch"
+          "name": "Mike Love and James S. Hirsch"
         },
         "datePublished": "09-13-2016",
         "releaseDay": 13,
         "releaseMonth": 9,
         "releaseYear": 2016,
         "aboutArtist": "Mike Love",
-        "country": "US",
+        "country": "New York",
         "unitsSold": 0,
         "aggregateRating": 0,
         "relevance": 1,
@@ -35069,14 +37087,14 @@
         {
           "@context": "http://schema.org",
           "@type": "Book",
-          "name": "Good Vibrations: My Life as a Beach Boy",
-          "alternateName": "",
+          "name": "Good Vibrations",
+          "alternateName": "My Life as a Beach Boy",
           "sameAs": "",
-          "image": "img/books/2016-good-vibrations-my-life-as-a-beach-boy/good-vibrations-my-life-as-a-beach-boy-cover.jpg",
+          "image": "img/books/2016-mike-love-james-hirsch-good-vibrations/mike-love-james-hirsch-good-vibrations-cover.jpg",
           "backCover": "",
           "author": {
             "@type": "Person",
-            "name": "Mike Love &amp; James S. Hirsch"
+            "name": "Mike Love and James S. Hirsch"
           },
           "publisher": "Blue Rider Press",
           "isbn": "0399176411",
@@ -35087,7 +37105,7 @@
           "category": "book",
           "bookFormat": "Hardcover",
           "numberOfPages": "448",
-          "country": "US",
+          "country": "New York",
           "amazonUs": "http://amzn.to/2anMiAX",
           "amazonUk": "http://amzn.to/2aGp8d4",
           "amazonCa": "http://amzn.to/2aIym6U",
@@ -35097,7 +37115,89 @@
           "amazonDe": "http://amzn.to/2alkXU7",
           "amazonJp": "",
           "notes": "",
-          "review": ""
+          "review": "Mike Love tells the story of his legendary, raucous, and ultimately triumphant five-decade career as the front man of The Beach Boys, the most popular American band in history -- timed to coincide with the 50th anniversary of 'Good Vibrations'.\nAs a founding member of The Beach Boys, Mike Love has spent an extraordinary fifty-five years, and counting, as the group's lead singer and one of its principal lyricists. The Beach Boys, from their California roots to their international fame, are a unique American story -- one of overnight success and age-defying longevity; of musical genius and reckless self-destruction; of spirituality, betrayal, and forgiveness -- and Love is the only band member to be part of it each and every step. His own story has never been fully told, of how a sheet-metal apprentice became the quintessential front man for America's most successful rock band, singing in more than 5,600 concerts in 26 countries.\nLove describes the stories behind his lyrics for pop classics such as 'Good Vibrations', 'California Girls', 'Surfin' USA', and 'Kokomo', while providing vivid portraits of the turbulent lives of his three gifted cousins, Brian, Dennis, and Carl Wilson. His partnership with Brian has few equals in American pop music, though Mike has carved out a legacy of his own -- he co-wrote the lyrics to eleven of the twelve original Beach Boy songs that were top 10 hits while providing the lead vocals on ten of them. The band's unprecedented durability also provides a glimpse into America's changing cultural mores over the past half century, while Love himself has experienced both the diabolical and the divine -- from Charles Manson's 'family' threatening his life to Maharishi instilling it with peace. A husband, a father, and an avid environmentalist, Love has written a book that is as rich and layered as the Beach Boy harmonies themselves."
+        }
+      ]
+    },
+    {
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "Book",
+        "uniqueId": "brian-wilson-ben-greenman-i-am-brian-wilson",
+        "name": "I Am Brian Wilson",
+        "alternateName": "A Memoir",
+        "sameAs": "https://en.wikipedia.org/wiki/I_Am_Brian_Wilson",
+        "image": "img/books/2016-brian-wilson-ben-greenman-i-am-brian-wilson/brian-wilson-ben-greenman-i-am-brian-wilson-cover.jpg",
+        "backCover": "",
+        "author": {
+          "@type": "Person",
+          "name": "Brian Wilson and Ben Greenman"
+        },
+        "datePublished": "10-11-2016",
+        "releaseDay": 11,
+        "releaseMonth": 10,
+        "releaseYear": 2016,
+        "aboutArtist": "Brian Wilson",
+        "country": "Boston, MA",
+        "unitsSold": 0,
+        "aggregateRating": 0,
+        "relevance": 1,
+        "backgroundColor": "#edc204",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": false,
+          "book": true
+        }
+      },
+      "editions": [
+        {
+          "@context": "http://schema.org",
+          "@type": "Book",
+          "name": "I Am Brian Wilson",
+          "alternateName": "A Memoir",
+          "sameAs": "https://en.wikipedia.org/wiki/I_Am_Brian_Wilson",
+          "image": "img/books/2016-brian-wilson-ben-greenman-i-am-brian-wilson/brian-wilson-ben-greenman-i-am-brian-wilson-cover.jpg",
+          "backCover": "",
+          "author": {
+            "@type": "Person",
+            "name": "Brian Wilson and Ben Greenman"
+          },
+          "publisher": "Da Capo Press",
+          "isbn": "0306823063",
+          "datePublished": "10-11-2016",
+          "releaseDay": 11,
+          "releaseMonth": 10,
+          "releaseYear": 2016,
+          "category": "book",
+          "bookFormat": "Hardcover",
+          "numberOfPages": "320",
+          "country": "Boston, MA",
+          "amazonUs": "http://amzn.to/1YiIeUM",
+          "amazonUk": "http://amzn.to/2acDa6r",
+          "amazonCa": "http://amzn.to/2algMn0",
+          "amazonEs": "http://amzn.to/2aIP1Hp",
+          "amazonFr": "http://amzn.to/2aFrWDY",
+          "amazonIt": "http://amzn.to/2aLuNNs",
+          "amazonDe": "http://amzn.to/2aG9riS",
+          "amazonJp": "",
+          "notes": "",
+          "review": "They say there are no second acts in American lives, and third acts are almost unheard of. That’s part of what makes Brian Wilson’s story so astonishing.\n\nAs a co-founding member of the Beach Boys in the 1960s, Wilson created some of the most groundbreaking and timeless popular music ever recorded. With intricate harmonies, symphonic structures, and wide-eyed lyrics that explored life’s most transcendent joys and deepest sorrows, songs like “In My Room,” “God Only Knows,” and “Good Vibrations” forever expanded the possibilities of pop songwriting. Derailed in the 1970s by mental illness, drug use, and the shifting fortunes of the band, Wilson came back again and again over the next few decades, surviving and—finally—thriving. Now, for the first time, he weighs in on the sources of his creative inspiration and on his struggles, the exhilarating highs and the debilitating lows.\n\nI Am Brian Wilson reveals as never before the man who fought his way back to stability and creative relevance, who became a mesmerizing live artist, who forced himself to reckon with his own complex legacy, and completed Smile, the legendary unfinished Beach Boys record that had become synonymous with both his genius and its destabilization. Today Brian Wilson is older, calmer, and filled with perspective and forgiveness. Whether he’s talking about his childhood, his bandmates, or his own inner demons, Wilson’s story, told in his own voice and in his own way, unforgettably illuminates the man behind the music, working through the turbulence and discord to achieve, at last, a new harmony."
         }
       ]
     },
