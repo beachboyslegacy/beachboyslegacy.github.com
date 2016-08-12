@@ -21,7 +21,6 @@ $(function(){
       var thisReleaseMonthNumber = 0;
       var thisReleaseMonthName = 0;
       var thisReleaseDayNumber = 0;
-      var thisReleaseDayName = 0;
       var $thisItem = '<li></li>';
       var rating = 0;
       var tracks = 0;
