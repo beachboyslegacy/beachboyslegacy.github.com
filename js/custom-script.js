@@ -973,8 +973,11 @@ $(function(){
 
         resetSorting();
 
-
       } // /else
+
+
+      $('#sorting-rating').show();
+
 
     });
 
@@ -1002,6 +1005,13 @@ $(function(){
         resetSorting();
 
       } // /else
+
+      if ( selectedCategory == 'book' ){
+        $('#sorting-rating').hide();
+      }
+      else{
+        $('#sorting-rating').show();
+      }
 
     });
 
