@@ -28571,6 +28571,513 @@
       "parent": {
         "@context": "http://schema.org",
         "@type": "",
+        "uniqueId": "the-beach-boys-50-live-in-concert-2",
+        "name": "The Beach Boys 50: Live in Concert",
+        "sameAs": "",
+        "image": "img/videos/2012-the-beach-boys-50-live-in-concert/the-beach-boys-50-live-in-concert-cover.jpg",
+        "backCover": "",
+        "datePublished": "11-19-2012",
+        "releaseDay": 19,
+        "releaseMonth": 11,
+        "releaseYear": 2012,
+        "recordingStartDay": 1,
+        "recordingStartMonth": 1,
+        "recordingStartYear": 1,
+        "recordingEndDay": 1,
+        "recordingEndMonth": 1,
+        "recordingEndYear": 1,
+        "byArtist": "The Beach Boys",
+        "producer": "",
+        "duration": "",
+        "numberOfDiscs": 1,
+        "country": "US",
+        "unitsSold": 0,
+        "riaa": "",
+        "aggregateRating": 3.5,
+        "relevance": 1,
+        "backgroundColor": "#D85238",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": true,
+          "book": false
+        },
+        "subcategory":{
+          "live": true,
+          "documentary": false,
+          "movie": false
+        },
+        "track": {
+          "@type": "ItemList",
+          "numberofItems": 21,
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Do It Again",
+                "duration": "",
+                "composer": "B.Wilson/Love",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 1,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Catch A Wave",
+                "duration": "",
+                "composer": "B.Wilson/Love",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 2,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Hawaii",
+                "duration": "",
+                "composer": "B.Wilson/Love",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 3,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Marcella",
+                "duration": "",
+                "composer": "B.Wilson/Rieley",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 4,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Isn't It Time",
+                "duration": "",
+                "composer": "B.Wilson/Love/Peterik/Millas/Thomas",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 5,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Little Deuce Coupe",
+                "duration": "",
+                "composer": "B.Wilson/Christian",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 6,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 7,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "409",
+                "duration": "",
+                "composer": "B.Wilson/Usher/Love",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 7,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 8,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Shut Down",
+                "duration": "",
+                "composer": "B.Wilson/Christian",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 8,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 9,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "I Get Around",
+                "duration": "",
+                "composer": "B.Wilson/Love",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 9,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 10,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Heroes And Villains",
+                "duration": "",
+                "composer": "B.Wilson/Parks",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 10,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 11,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Sloop John B",
+                "duration": "",
+                "composer": "Traditional/Arranged by B.Wilson",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 11,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 12,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Wouldn't It Be Nice",
+                "duration": "",
+                "composer": "B.Wilson/Asher/Love",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 12,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 13,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "All This Is That",
+                "duration": "",
+                "composer": "C.Wilson/Jardine/Love",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 13,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 14,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "That's Why God Made The Radio",
+                "duration": "",
+                "composer": "B.Wilson/Peterik/Millas/Thomas",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 14,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 15,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Sail On, Sailor",
+                "duration": "",
+                "composer": "B.Wilson/Parks/Almer/Kennedy/Rieley",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 15,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 16,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Good Vibrations",
+                "duration": "",
+                "composer": "B.Wilson/Love",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 16,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 17,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "California Girls",
+                "duration": "",
+                "composer": "B.Wilson/Love",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 17,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 18,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Help Me, Rhonda",
+                "duration": "",
+                "composer": "B.Wilson/Love",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 18,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 19,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Rock And Roll Music",
+                "duration": "",
+                "composer": "Berry",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 19,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 20,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Kokomo",
+                "duration": "",
+                "composer": "Phillips/Mackenzie/Love/Melcher",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 20,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 21,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Fun, Fun, Fun",
+                "duration": "",
+                "composer": "B.Wilson/Love",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 21,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            }
+          ]
+        }
+      },
+      "editions": [
+        {
+          "albumRelease": {
+            "@type": "",
+            "name": "The Beach Boys 50: Live in Concert",
+            "sameAs": "",
+            "image": "img/videos/2012-the-beach-boys-50-live-in-concert/the-beach-boys-50-live-in-concert-bluray.jpg",
+            "backCover": "",
+            "publisher": "BlastMusic",
+            "catalogNumber": "3722196",
+            "datePublished": "11-19-2012",
+            "releaseDay": 19,
+            "releaseMonth": 11,
+            "releaseYear": 2012,
+            "category": "video",
+            "videoReleaseFormat": "Blu-ray",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "US",
+            "asin": "B009KKLQVS",
+            "amazonUs": "http://amzn.to/1SYjVdB",
+            "amazonUk": "http://amzn.to/2acDPES",
+            "amazonCa": "http://amzn.to/2aIsOcn",
+            "amazonEs": "http://amzn.to/2aNZgvI",
+            "amazonFr": "http://amzn.to/2aSy7I3",
+            "amazonIt": "http://amzn.to/2aT3DWt",
+            "amazonDe": "http://amzn.to/2aLF8Zq",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": ""
+          }
+        },
+        {
+          "albumRelease": {
+            "@type": "",
+            "name": "The Beach Boys 50: Live in Concert",
+            "sameAs": "",
+            "image": "img/videos/2012-the-beach-boys-50-live-in-concert/the-beach-boys-50-live-in-concert-cover.jpg",
+            "backCover": "",
+            "publisher": "BlastMusic",
+            "catalogNumber": "",
+            "datePublished": "11-19-2012",
+            "releaseDay": 19,
+            "releaseMonth": 11,
+            "releaseYear": 2012,
+            "category": "video",
+            "videoReleaseFormat": "DVD",
+            "duration": "",
+            "numberOfDiscs": 2,
+            "country": "US",
+            "asin": "B009KKLQKO",
+            "amazonUs": "http://amzn.to/1N2YV6g",
+            "amazonUk": "http://amzn.to/2ap2DLc",
+            "amazonCa": "http://amzn.to/2aN3XFE",
+            "amazonEs": "http://amzn.to/2aibYD5",
+            "amazonFr": "http://amzn.to/2b5nmPY",
+            "amazonIt": "http://amzn.to/2al4L5m",
+            "amazonDe": "http://amzn.to/2alhsNB",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": "Disc 2:\n\nBeach Boys 50 - Doin' It Again\n2012 exclusive interview with the Beach Boys, never-before-seen footage from the 1966 Good Vibrations recording sessions, footage from the 2012 recording sessions for That's Why God Made The Radio; also moving tributes to founding members Carl and Dennis Wilson."
+          }
+        }
+      ]
+    },
+    {
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "",
         "uniqueId": "the-beach-boys-50-live-in-concert",
         "name": "The Beach Boys 50: Live in Concert",
         "sameAs": "",
