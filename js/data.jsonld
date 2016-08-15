@@ -28624,8 +28624,8 @@
         },
         "subcategory":{
           "live": false,
-          "documentary": true,
-          "movie": false
+          "documentary": false,
+          "movie": true
         }
       },
       "editions": [
@@ -28715,8 +28715,8 @@
         },
         "subcategory":{
           "live": false,
-          "documentary": true,
-          "movie": false
+          "documentary": false,
+          "movie": true
         }
       },
       "editions": [
@@ -28838,8 +28838,8 @@
         },
         "subcategory":{
           "live": false,
-          "documentary": true,
-          "movie": false
+          "documentary": false,
+          "movie": true
         }
       },
       "editions": [
@@ -28937,7 +28937,7 @@
         "riaa": "",
         "aggregateRating": 0,
         "relevance": 1,
-        "backgroundColor": "#DCB43B",
+        "backgroundColor": "#48B6E4",
         "notes": "",
         "review": "",
         "category": {
@@ -29049,6 +29049,2328 @@
             "numberOfDiscs": 1,
             "country": "US",
             "asin": "B00G11ZOG2",
+            "amazonUs": "",
+            "amazonUk": "",
+            "amazonCa": "",
+            "amazonEs": "",
+            "amazonFr": "",
+            "amazonIt": "",
+            "amazonDe": "",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": ""
+          }
+        }
+      ]
+    },
+    {
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "",
+        "uniqueId": "dennis-wilson-forever",
+        "name": "Dennis Wilson Forever: Interviews with the people who knew him best",
+        "sameAs": "",
+        "image": "img/videos/2008-dennis-wilson-forever/dennis-wilson-forever-cover.jpg",
+        "backCover": "",
+        "datePublished": "08-05-2008",
+        "releaseDay": 5,
+        "releaseMonth": 8,
+        "releaseYear": 2008,
+        "recordingStartDay": 1,
+        "recordingStartMonth": 1,
+        "recordingStartYear": 1,
+        "recordingEndDay": 1,
+        "recordingEndMonth": 1,
+        "recordingEndYear": 1,
+        "byArtist": "Dennis Wilson",
+        "producer": "",
+        "duration": "82 min",
+        "numberOfDiscs": 1,
+        "country": "US",
+        "unitsSold": 0,
+        "riaa": "",
+        "aggregateRating": 0,
+        "relevance": 1,
+        "backgroundColor": "#A97E3E",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": true,
+          "book": false
+        },
+        "subcategory":{
+          "live": false,
+          "documentary": true,
+          "movie": false
+        }
+      },
+      "editions": [
+	    {
+          "albumRelease": {
+            "@type": "",
+            "name": "Dennis Wilson Forever: Interviews with the people who knew him best",
+            "sameAs": "",
+            "image": "img/videos/2008-dennis-wilson-forever/dennis-wilson-forever-cover.jpg",
+            "backCover": "",
+            "publisher": "Sony/Bmg Int'l",
+            "catalogNumber": "",
+            "datePublished": "08-05-2008",
+            "releaseDay": 5,
+            "releaseMonth": 8,
+            "releaseYear": 2008,
+            "category": "video",
+            "videoReleaseFormat": "DVD",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "US",
+            "asin": "B001B11L14",
+            "amazonUs": "",
+            "amazonUk": "",
+            "amazonCa": "",
+            "amazonEs": "",
+            "amazonFr": "",
+            "amazonIt": "",
+            "amazonDe": "",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": ""
+          }
+        }
+      ]
+    },
+    {
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "",
+        "uniqueId": "the-beach-boys-and-the-satan",
+        "name": "The Beach Boys And The Satan",
+        "sameAs": "",
+        "image": "img/videos/2008-the-beach-boys-and-the-satan/the-beach-boys-and-the-satan-cover.jpg",
+        "backCover": "",
+        "datePublished": "09-30-2008",
+        "releaseDay": 30,
+        "releaseMonth": 9,
+        "releaseYear": 2008,
+        "recordingStartDay": 1,
+        "recordingStartMonth": 1,
+        "recordingStartYear": 1,
+        "recordingEndDay": 1,
+        "recordingEndMonth": 1,
+        "recordingEndYear": 1,
+        "byArtist": "The Beach Boys",
+        "producer": "",
+        "duration": "59 min",
+        "numberOfDiscs": 1,
+        "country": "US",
+        "unitsSold": 0,
+        "riaa": "",
+        "aggregateRating": 0,
+        "relevance": 1,
+        "backgroundColor": "#FF3838",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": true,
+          "book": false
+        },
+        "subcategory":{
+          "live": false,
+          "documentary": true,
+          "movie": false
+        }
+      },
+      "editions": [
+	    {
+          "albumRelease": {
+            "@type": "",
+            "name": "The Beach Boys And The Satan",
+            "sameAs": "",
+            "image": "img/videos/2008-the-beach-boys-and-the-satan/the-beach-boys-and-the-satan-cover.jpg",
+            "backCover": "",
+            "publisher": "Zeit Media Limited",
+            "catalogNumber": "",
+            "datePublished": "09-30-2008",
+            "releaseDay": 30,
+            "releaseMonth": 9,
+            "releaseYear": 2008,
+            "category": "video",
+            "videoReleaseFormat": "DVD",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "US",
+            "asin": "B001DGFGQI",
+            "amazonUs": "",
+            "amazonUk": "",
+            "amazonCa": "",
+            "amazonEs": "",
+            "amazonFr": "",
+            "amazonIt": "",
+            "amazonDe": "",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": ""
+          }
+        },
+			    {
+          "albumRelease": {
+            "@type": "",
+            "name": "The Beach Boys And The Satan",
+            "sameAs": "",
+            "image": "img/videos/2008-the-beach-boys-and-the-satan/the-beach-boys-and-the-satan-cover.jpg",
+            "backCover": "",
+            "publisher": "CLA",
+            "catalogNumber": "",
+            "datePublished": "09-30-2008",
+            "releaseDay": 30,
+            "releaseMonth": 9,
+            "releaseYear": 2008,
+            "category": "video",
+            "videoReleaseFormat": "Amazon video",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "US",
+            "asin": "B002GXK7LQ",
+            "amazonUs": "",
+            "amazonUk": "",
+            "amazonCa": "",
+            "amazonEs": "",
+            "amazonFr": "",
+            "amazonIt": "",
+            "amazonDe": "",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": ""
+          }
+        }
+      ]
+    },
+    {
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "",
+        "uniqueId": "brian-wilson-that-lucky-old-sun",
+        "name": "Brian Wilson: That Lucky Old Sun",
+        "sameAs": "https://en.wikipedia.org/wiki/That_Lucky_Old_Sun_(album)",
+        "image": "img/videos/2009-brian-wilson-that-lucky-old-sun/brian-wilson-that-lucky-old-sun-cover.jpg",
+        "backCover": "",
+        "datePublished": "01-27-2009",
+        "releaseDay": 27,
+        "releaseMonth": 1,
+        "releaseYear": 2009,
+        "recordingStartDay": 1,
+        "recordingStartMonth": 1,
+        "recordingStartYear": 1,
+        "recordingEndDay": 1,
+        "recordingEndMonth": 1,
+        "recordingEndYear": 1,
+        "byArtist": "Brian Wilson",
+        "producer": "",
+        "duration": "150 min",
+        "numberOfDiscs": 1,
+        "country": "US",
+        "unitsSold": 0,
+        "riaa": "",
+        "aggregateRating": 0,
+        "relevance": 1,
+        "backgroundColor": "#93B0C5",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": true,
+          "book": false
+        },
+        "subcategory":{
+          "live": false,
+          "documentary": true,
+          "movie": false
+        }
+      },
+      "editions": [
+	    {
+          "albumRelease": {
+            "@type": "",
+            "name": "Brian Wilson: That Lucky Old Sun",
+            "sameAs": "",
+            "image": "img/videos/2009-brian-wilson-that-lucky-old-sun/brian-wilson-that-lucky-old-sun-cover.jpg",
+            "backCover": "",
+            "publisher": "Capitol",
+            "catalogNumber": "",
+            "datePublished": "01-27-2009",
+            "releaseDay": 27,
+            "releaseMonth": 1,
+            "releaseYear": 2009,
+            "category": "video",
+            "videoReleaseFormat": "DVD",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "US",
+            "asin": "B001JRB1BK",
+            "amazonUs": "",
+            "amazonUk": "",
+            "amazonCa": "",
+            "amazonEs": "",
+            "amazonFr": "",
+            "amazonIt": "",
+            "amazonDe": "",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": "The complete live performance of Brian's critically acclaimed new studio album with a feature length documentary, bonus features and optional 5.1 surround stereo mix.\n\n1. That Lucky Old Sun Live performance from Capitol Records Studio A\n\nAudio features:\n5.1 Surround Sound\n2.0 Stereo\n\n2. Feature - Length Documentary:\n\nGoing Home: The making of the album and a look at Brian Wilson's life long personal and creative relationship with Southern California. Directed & Edited by George Dougherty.\n\nBonus Material includes:\n- Behind the scenes studio footage for the making of the album\n- Yahoo! Live Sets plus Q&A\n- Artist On Artist interview on MySpace with Brian Wilson and Zooey Deschanel\n- Black Cab session UK web performance"
+          }
+        }
+      ]
+    },
+    {
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "",
+        "uniqueId": "1974-on-the-road-with-the-beach-boys",
+        "name": "1974 - On The Road With The Beach Boys",
+        "sameAs": "",
+        "image": "img/videos/2009-1974-on-the-road-with-the-beach-boys/1974-on-the-road-with-the-beach-boys-cover.jpg",
+        "backCover": "",
+        "datePublished": "12-01-2009",
+        "releaseDay": 1,
+        "releaseMonth": 12,
+        "releaseYear": 2009,
+        "recordingStartDay": 1,
+        "recordingStartMonth": 1,
+        "recordingStartYear": 1,
+        "recordingEndDay": 1,
+        "recordingEndMonth": 1,
+        "recordingEndYear": 1,
+        "byArtist": "The Beach Boys",
+        "producer": "",
+        "duration": "95 min",
+        "numberOfDiscs": 1,
+        "country": "US",
+        "unitsSold": 0,
+        "riaa": "",
+        "aggregateRating": 0,
+        "relevance": 1,
+        "backgroundColor": "#449E95",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": true,
+          "book": false
+        },
+        "subcategory":{
+          "live": false,
+          "documentary": true,
+          "movie": false
+        }
+      },
+      "editions": [
+	    {
+          "albumRelease": {
+            "@type": "",
+            "name": "1974 - On The Road With The Beach Boys",
+            "sameAs": "",
+            "image": "img/videos/2009-1974-on-the-road-with-the-beach-boys/1974-on-the-road-with-the-beach-boys-cover.jpg",
+            "backCover": "",
+            "publisher": "MFM Productions",
+            "catalogNumber": "",
+            "datePublished": "12-01-2009",
+            "releaseDay": 1,
+            "releaseMonth": 12,
+            "releaseYear": 2009,
+            "category": "video",
+            "videoReleaseFormat": "DVD",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "US",
+            "asin": "B007C3LRV4",
+            "amazonUs": "",
+            "amazonUk": "",
+            "amazonCa": "",
+            "amazonEs": "",
+            "amazonFr": "",
+            "amazonIt": "",
+            "amazonDe": "",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": ""
+          }
+        }
+      ]
+    },
+    {
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "",
+        "uniqueId": "the-tami-show",
+        "name": "The T.A.M.I. Show - Collector's Edition",
+        "sameAs": "https://en.wikipedia.org/wiki/T.A.M.I._Show",
+        "image": "img/videos/2010-the-tami-show/the-tami-show-cover.jpg",
+        "backCover": "",
+        "datePublished": "03-23-2010",
+        "releaseDay": 23,
+        "releaseMonth": 3,
+        "releaseYear": 2010,
+        "recordingStartDay": 1,
+        "recordingStartMonth": 1,
+        "recordingStartYear": 1,
+        "recordingEndDay": 1,
+        "recordingEndMonth": 1,
+        "recordingEndYear": 1,
+        "byArtist": "The Beach Boys",
+        "producer": "",
+        "duration": "112 min",
+        "numberOfDiscs": 1,
+        "country": "US",
+        "unitsSold": 0,
+        "riaa": "",
+        "aggregateRating": 3.5,
+        "relevance": 1,
+        "backgroundColor": "#EF673F",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": true,
+          "book": false
+        },
+        "subcategory":{
+          "live": true,
+          "documentary": false,
+          "movie": false
+        },
+		"track": {
+          "@type": "ItemList",
+          "numberofItems": 48,
+          "itemListElement": [
+            {
+              "@type" : "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Jan And Dean - Show Open: (Here They Come) From All Over The World",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 1,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Chuck Berry - Johnny B. Goode",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 2,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Chuck Berry - Maybelline",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 3,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 4,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Gerry And The Pacemakers - Maybelline",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 4,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 5,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Gerry And The Pacemakers - Don't Let The Sun Catch You Crying",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 5,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 6,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Gerry And The Pacemakers - It's Gonna Be Alright",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 6,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 7,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Chuck Berry - Sweet Little Sixteen",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 7,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 8,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Gerry And The Pacemakers - How Do You Do It?",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 8,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 9,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Chuck Berry - Nadine (Is It You?)",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 9,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 10,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Gerry And The Pacemakers - I Like It",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 10,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 11,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Smokey Robinson And The Miracles - That's What Love Is Made Of",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 11,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 12,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Smokey Robinson And The Miracles - You've Really Got A Hold On Me",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 12,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 13,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Smokey Robinson And The Miracles - Mickey's Monkey",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 13,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 14,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Marvin Gaye - Stubborn Kind Of Fellow",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 14,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 15,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Marvin Gaye - Pride And Joy",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 15,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 16,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Marvin Gaye - Can I Get A Witness",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 16,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 17,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Marvin Gaye - Hitch Hike",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 17,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 18,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Lesley Gore - Maybe I Know",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 18,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 19,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Lesley Gore - You Don't Own Me",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 19,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 20,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Lesley Gore - You Didn't Look Around",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 20,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 21,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Lesley Gore - Hey Now",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 21,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 22,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Lesley Gore - It's My Party",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 22,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 23,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Lesley Gore - Judy's Turn To Cry",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 23,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 24,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Jan And Dean - The Little Old Lady From Pasadena",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 24,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 25,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Jan And Dean - Sidewalk Surfin'",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 25,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 26,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "The Beach Boys - Surfin' U.S.A.",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 26,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 27,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "The Beach Boys - I Get Around",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 27,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 28,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "The Beach Boys - Surfer Girl",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 28,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 29,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "The Beach Boys - Dance, Dance, Dance",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 29,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 30,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Billy J. Kramer And The Dakotas - Little Children",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 30,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+			            {
+              "@type" : "ListItem",
+              "position": 31,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Billy J. Kramer And The Dakotas - Bad To Me",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 31,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 32,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Billy J. Kramer And The Dakotas - I'll Keep You Satisfied",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 32,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 33,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Billy J. Kramer And The Dakotas - From A Window",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 33,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 34,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "The Supremes - When The Lovelight Starts Shining Through His Eyes",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 34,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 35,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "The Supremes - Run, Run, Run",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 35,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 36,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "The Supremes - Baby Love",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 36,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 37,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "The Supremes - Where Did Our Love Go",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 37,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 38,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "The Barbarians - Hey Little Bird",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 38,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 39,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "James Brown And The Flames - Out Of Sight",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 39,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 40,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "James Brown And The Flames - Prisoner Of Love",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 40,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 41,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "James Brown And The Flames - Please, Please, Please",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 41,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 42,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "James Brown And The Flames - Night Train",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 42,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 43,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "The Rolling Stones - Around And Around",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 43,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 44,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "The Rolling Stones - Off The Hook",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 44,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 45,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "The Rolling Stones - Time Is On My Side",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 45,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+			            {
+              "@type" : "ListItem",
+              "position": 46,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "The Rolling Stones - It's All Over Now",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 46,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+			            {
+              "@type" : "ListItem",
+              "position": 47,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "The Rolling Stones - I'm All Right",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 47,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+			            {
+              "@type" : "ListItem",
+              "position": 48,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Various - Show Close: Let's Get Together",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 48,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            }
+          ]
+        }
+		},
+      "editions": [
+	    {
+          "albumRelease": {
+            "@type": "",
+            "name": "The T.A.M.I. Show - Collector's Edition",
+            "sameAs": "",
+            "image": "img/videos/2010-the-tami-show/the-tami-show-cover.jpg",
+            "backCover": "",
+            "publisher": "Shout! Factory",
+            "catalogNumber": "",
+            "datePublished": "03-23-2010",
+            "releaseDay": 23,
+            "releaseMonth": 3,
+            "releaseYear": 2010,
+            "category": "video",
+            "videoReleaseFormat": "DVD",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "US",
+            "asin": "B0030ATZIA",
+            "amazonUs": "",
+            "amazonUk": "",
+            "amazonCa": "",
+            "amazonEs": "",
+            "amazonFr": "",
+            "amazonIt": "",
+            "amazonDe": "",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": ""
+          }
+        }
+      ]
+    },
+    {
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "",
+        "uniqueId": "brian-wilson-songwriter-1962-1969",
+        "name": "Brian Wilson: Songwriter 1962-1969",
+        "sameAs": "",
+        "image": "img/videos/2010-brian-wilson-songwriter-1962-1969/brian-wilson-songwriter-1962-1969-cover.jpg",
+        "backCover": "",
+        "datePublished": "11-23-2010",
+        "releaseDay": 23,
+        "releaseMonth": 11,
+        "releaseYear": 2010,
+        "recordingStartDay": 1,
+        "recordingStartMonth": 1,
+        "recordingStartYear": 1,
+        "recordingEndDay": 1,
+        "recordingEndMonth": 1,
+        "recordingEndYear": 1,
+        "byArtist": "Brian Wilson",
+        "producer": "",
+        "duration": "190 min",
+        "numberOfDiscs": 2,
+        "country": "US",
+        "unitsSold": 0,
+        "riaa": "",
+        "aggregateRating": 0,
+        "relevance": 1,
+        "backgroundColor": "#C1B551",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": true,
+          "book": false
+        },
+        "subcategory":{
+          "live": false,
+          "documentary": true,
+          "movie": false
+        }
+      },
+      "editions": [
+	    {
+          "albumRelease": {
+            "@type": "",
+            "name": "Brian Wilson: Songwriter 1962-1969",
+            "sameAs": "",
+            "image": "img/videos/2010-brian-wilson-songwriter-1962-1969/brian-wilson-songwriter-1962-1969-cover.jpg",
+            "backCover": "",
+            "publisher": "Sexy Intellectual",
+            "catalogNumber": "",
+            "datePublished": "11-23-2010",
+            "releaseDay": 23,
+            "releaseMonth": 11,
+            "releaseYear": 2010,
+            "category": "video",
+            "videoReleaseFormat": "DVD",
+            "duration": "",
+            "numberOfDiscs": 2,
+            "country": "US",
+            "asin": "B003Z8ZC7U",
+            "amazonUs": "",
+            "amazonUk": "",
+            "amazonCa": "",
+            "amazonEs": "",
+            "amazonFr": "",
+            "amazonIt": "",
+            "amazonDe": "",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": ""
+          }
+        }
+      ]
+    },
+    {
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "",
+        "uniqueId": "carl-wilson-here-and-now",
+        "name": "Carl Wilson: Here and Now",
+        "sameAs": "",
+        "image": "img/videos/2011-carl-wilson-here-and-now/carl-wilson-here-and-now-cover.jpg",
+        "backCover": "",
+        "datePublished": "05-01-2011",
+        "releaseDay": 1,
+        "releaseMonth": 5,
+        "releaseYear": 2011,
+        "recordingStartDay": 1,
+        "recordingStartMonth": 1,
+        "recordingStartYear": 1,
+        "recordingEndDay": 1,
+        "recordingEndMonth": 1,
+        "recordingEndYear": 1,
+        "byArtist": "Carl Wilson",
+        "producer": "",
+        "duration": "183 min",
+        "numberOfDiscs": 1,
+        "country": "US",
+        "unitsSold": 0,
+        "riaa": "",
+        "aggregateRating": 4,
+        "relevance": 1,
+        "backgroundColor": "#B56436",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": true,
+          "book": false
+        },
+        "subcategory":{
+          "live": false,
+          "documentary": true,
+          "movie": false
+        }
+      },
+      "editions": [
+	    {
+          "albumRelease": {
+            "@type": "",
+            "name": "Carl Wilson: Here and Now",
+            "sameAs": "",
+            "image": "img/videos/2011-carl-wilson-here-and-now/carl-wilson-here-and-now-cover.jpg",
+            "backCover": "",
+            "publisher": "MFM Productions",
+            "catalogNumber": "",
+            "datePublished": "05-01-2011",
+            "releaseDay": 1,
+            "releaseMonth": 5,
+            "releaseYear": 2011,
+            "category": "video",
+            "videoReleaseFormat": "DVD",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "US",
+            "asin": "B0082D7U0U",
+            "amazonUs": "",
+            "amazonUk": "",
+            "amazonCa": "",
+            "amazonEs": "",
+            "amazonFr": "",
+            "amazonIt": "",
+            "amazonDe": "",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": ""
+          }
+        }
+      ]
+    },
+    {
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "",
+        "uniqueId": "the-bridge-school-concerts",
+        "name": "The Bridge School Concerts: 25th Anniversary Edition",
+        "sameAs": "",
+        "image": "img/videos/2011-the-bridge-school-concerts/the-bridge-school-concerts-cover.jpg",
+        "backCover": "",
+        "datePublished": "11-24-2011",
+        "releaseDay": 24,
+        "releaseMonth": 11,
+        "releaseYear": 2011,
+        "recordingStartDay": 1,
+        "recordingStartMonth": 1,
+        "recordingStartYear": 1,
+        "recordingEndDay": 1,
+        "recordingEndMonth": 1,
+        "recordingEndYear": 1,
+        "byArtist": "Brian Wilson",
+        "producer": "",
+        "duration": "120 min",
+        "numberOfDiscs": 3,
+        "country": "US",
+        "unitsSold": 0,
+        "riaa": "",
+        "aggregateRating": 0,
+        "relevance": 1,
+        "backgroundColor": "#F4A03E",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": true,
+          "book": false
+        },
+        "subcategory":{
+          "live": true,
+          "documentary": false,
+          "movie": false
+        },
+		"track": {
+          "@type": "ItemList",
+          "numberofItems": 28,
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Bruce Springsteen - Born In The USA",
+                "duration": "",
+                "composer": "",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 1,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Patti Smith - People Have The Power",
+                "duration": "",
+                "composer": "",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 2,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Pearl Jam - Better Man",
+                "duration": "",
+                "composer": "",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 3,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "David Bowie - Heroes",
+                "duration": "",
+                "composer": "",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 4,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Ben Harper - There Will Be A Light",
+                "duration": "",
+                "composer": "",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 5,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Bob Dylan - Girl From The North Country",
+                "duration": "",
+                "composer": "",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 6,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 7,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "R.E.M., Neil Young - Country Feedback",
+                "duration": "",
+                "composer": "",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 7,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 8,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Emmylou Harris, Buddy Miller - Love Hurts",
+                "duration": "",
+                "composer": "",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 8,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 9,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Fleet Foxes - Blue Ridge Mountains",
+                "duration": "",
+                "composer": "",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 9,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 10,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Devendra Banhart - At The Hop",
+                "duration": "",
+                "composer": "",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 10,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 11,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Bonnie Raitt - The Road Is My Middle Name",
+                "duration": "",
+                "composer": "",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 11,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 12,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Billy Idol - Rebel Yell",
+                "duration": "",
+                "composer": "",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 12,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 13,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Brian Wilson - Surfin' USA",
+                "duration": "",
+                "composer": "",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 2,
+                "trackNumber": 1,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 14,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Gillian Welch - The Way It Will Be",
+                "duration": "",
+                "composer": "",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 2,
+                "trackNumber": 2,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 15,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "The Pretenders - Sense Of Purpose",
+                "duration": "",
+                "composer": "",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 2,
+                "trackNumber": 3,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 16,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "James Taylor - Fire And Rain",
+                "duration": "",
+                "composer": "",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 2,
+                "trackNumber": 4,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 17,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Simon & Garfunkel - America",
+                "duration": "",
+                "composer": "",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 2,
+                "trackNumber": 5,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 18,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Tom Petty - Shadow Of A Doubt",
+                "duration": "",
+                "composer": "",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 2,
+                "trackNumber": 6,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 19,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Dave Matthews - Too Much",
+                "duration": "",
+                "composer": "",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 2,
+                "trackNumber": 7,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 20,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Neil Young - Crime In The City",
+                "duration": "",
+                "composer": "",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 2,
+                "trackNumber": 8,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 21,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Tom Waits - 16 Shells From A Thirty-Ought Six",
+                "duration": "",
+                "composer": "",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 2,
+                "trackNumber": 9,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+			{
+              "@type": "ListItem",
+              "position": 21,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Elton John, Leon Russell - A Dream Come True",
+                "duration": "",
+                "composer": "",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 2,
+                "trackNumber": 10,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+			{
+              "@type": "ListItem",
+              "position": 21,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Paul McCartney - Get Back",
+                "duration": "",
+                "composer": "",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 2,
+                "trackNumber": 11,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+			{
+              "@type": "ListItem",
+              "position": 21,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Metallica - Disposable Heroes",
+                "duration": "",
+                "composer": "",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 2,
+                "trackNumber": 12,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+			{
+              "@type": "ListItem",
+              "position": 21,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "The Who - Won't Get Fooled Again",
+                "duration": "",
+                "composer": "",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 2,
+                "trackNumber": 13,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+			{
+              "@type": "ListItem",
+              "position": 21,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Various - Backstage At The Bridge School Benefit Concert",
+                "duration": "",
+                "composer": "",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 3,
+                "trackNumber": 1,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+			{
+              "@type": "ListItem",
+              "position": 21,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Various - The Bridge School Story",
+                "duration": "",
+                "composer": "",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 3,
+                "trackNumber": 2,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+			{
+              "@type": "ListItem",
+              "position": 21,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Various - Special Feature - Student/Artist Interviews",
+                "duration": "",
+                "composer": "",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 3,
+                "trackNumber": 3,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            }
+          ]
+        }
+		},
+      "editions": [
+	    {
+          "albumRelease": {
+            "@type": "",
+            "name": "The Bridge School Concerts: 25th Anniversary Edition",
+            "sameAs": "",
+            "image": "img/videos/2011-the-bridge-school-concerts/the-bridge-school-concerts-cover.jpg",
+            "backCover": "",
+            "publisher": "Reprise Records",
+            "catalogNumber": "",
+            "datePublished": "10-24-2011",
+            "releaseDay": 24,
+            "releaseMonth": 11,
+            "releaseYear": 2011,
+            "category": "video",
+            "videoReleaseFormat": "DVD",
+            "duration": "",
+            "numberOfDiscs": 3,
+            "country": "US",
+            "asin": "B005N959PE",
+            "amazonUs": "",
+            "amazonUk": "",
+            "amazonCa": "",
+            "amazonEs": "",
+            "amazonFr": "",
+            "amazonIt": "",
+            "amazonDe": "",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": ""
+          }
+        }
+      ]
+    },
+    {
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "",
+        "uniqueId": "the-beach-boys-doin-it-again",
+        "name": "The Beach Boys: Doin' It Again",
+        "sameAs": "https://en.wikipedia.org/wiki/The_50th_Reunion_Tour",
+        "image": "img/videos/2012-the-beach-boys-doin-it-again/the-beach-boys-doin-it-again-cover.jpg",
+        "backCover": "",
+        "datePublished": "08-28-2012",
+        "releaseDay": 28,
+        "releaseMonth": 8,
+        "releaseYear": 2012,
+        "recordingStartDay": 1,
+        "recordingStartMonth": 1,
+        "recordingStartYear": 1,
+        "recordingEndDay": 1,
+        "recordingEndMonth": 1,
+        "recordingEndYear": 1,
+        "byArtist": "The Beach Boys",
+        "producer": "",
+        "duration": "90 min",
+        "numberOfDiscs": 1,
+        "country": "US",
+        "unitsSold": 0,
+        "riaa": "",
+        "aggregateRating": 4,
+        "relevance": 1,
+        "backgroundColor": "#FFA516",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": true,
+          "book": false
+        },
+        "subcategory":{
+          "live": false,
+          "documentary": true,
+          "movie": false
+        }
+      },
+      "editions": [
+	    {
+          "albumRelease": {
+            "@type": "",
+            "name": "The Beach Boys: Doin' It Again",
+            "sameAs": "https://en.wikipedia.org/wiki/The_50th_Reunion_Tour",
+            "image": "img/videos/2012-the-beach-boys-doin-it-again/the-beach-boys-doin-it-again-cover.jpg",
+            "backCover": "",
+            "publisher": "Universal Music Enterprises",
+            "catalogNumber": "",
+            "datePublished": "08-28-2012",
+            "releaseDay": 28,
+            "releaseMonth": 8,
+            "releaseYear": 2012,
+            "category": "video",
+            "videoReleaseFormat": "DVD",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "US",
+            "asin": "B008KJZJTK",
+            "amazonUs": "",
+            "amazonUk": "",
+            "amazonCa": "",
+            "amazonEs": "",
+            "amazonFr": "",
+            "amazonIt": "",
+            "amazonDe": "",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": ""
+          }
+        }
+      ]
+    },
+    {
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "",
+        "uniqueId": "brian-wilson-songwriter-1969-1982",
+        "name": "Brian Wilson: Songwriter 1969-1982",
+        "sameAs": "",
+        "image": "img/videos/2012-brian-wilson-songwriter-1969-1982/brian-wilson-songwriter-1969-1982-cover.jpg",
+        "backCover": "",
+        "datePublished": "10-23-2012",
+        "releaseDay": 23,
+        "releaseMonth": 10,
+        "releaseYear": 2012,
+        "recordingStartDay": 1,
+        "recordingStartMonth": 1,
+        "recordingStartYear": 1,
+        "recordingEndDay": 1,
+        "recordingEndMonth": 1,
+        "recordingEndYear": 1,
+        "byArtist": "Brian Wilson",
+        "producer": "",
+        "duration": "134 min",
+        "numberOfDiscs": 1,
+        "country": "US",
+        "unitsSold": 0,
+        "riaa": "",
+        "aggregateRating": 0,
+        "relevance": 1,
+        "backgroundColor": "#C1571E",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": true,
+          "book": false
+        },
+        "subcategory":{
+          "live": false,
+          "documentary": true,
+          "movie": false
+        }
+      },
+      "editions": [
+	    {
+          "albumRelease": {
+            "@type": "",
+            "name": "Brian Wilson: Songwriter 1969-1982",
+            "sameAs": "",
+            "image": "img/videos/2012-brian-wilson-songwriter-1969-1982/brian-wilson-songwriter-1969-1982-cover.jpg",
+            "backCover": "",
+            "publisher": "Sexy Intellectual",
+            "catalogNumber": "",
+            "datePublished": "10-23-2012",
+            "releaseDay": 23,
+            "releaseMonth": 10,
+            "releaseYear": 2012,
+            "category": "video",
+            "videoReleaseFormat": "DVD",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "US",
+            "asin": "B008QOH122",
             "amazonUs": "",
             "amazonUk": "",
             "amazonCa": "",
@@ -29567,6 +31889,867 @@
             "notes": "",
             "review": "",
             "tracklist": "Disc 2:\n\nBeach Boys 50 - Doin' It Again\n2012 exclusive interview with the Beach Boys, never-before-seen footage from the 1966 Good Vibrations recording sessions, footage from the 2012 recording sessions for That's Why God Made The Radio; also moving tributes to founding members Carl and Dennis Wilson."
+          }
+        }
+      ]
+    },
+    {
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "",
+        "uniqueId": "love-and-mercy",
+        "name": "Love & Mercy: The Amazing Story of The Beach Boys' Brian Wilson",
+        "sameAs": "https://en.wikipedia.org/wiki/Love_%26_Mercy_(film)",
+        "image": "img/videos/2015-love-and-mercy/love-and-mercy-cover.jpg",
+        "backCover": "",
+        "datePublished": "09-15-2015",
+        "releaseDay": 15,
+        "releaseMonth": 9,
+        "releaseYear": 2015,
+        "recordingStartDay": 1,
+        "recordingStartMonth": 1,
+        "recordingStartYear": 1,
+        "recordingEndDay": 1,
+        "recordingEndMonth": 1,
+        "recordingEndYear": 1,
+        "byArtist": "Brian Wilson",
+        "producer": "",
+        "duration": "111 min",
+        "numberOfDiscs": 1,
+        "country": "US",
+        "unitsSold": 0,
+        "riaa": "",
+        "aggregateRating": 0,
+        "relevance": 1,
+        "backgroundColor": "#4E6B83",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": true,
+          "book": false
+        },
+        "subcategory":{
+          "live": false,
+          "documentary": false,
+          "movie": true
+        }
+      },
+      "editions": [
+        {
+          "albumRelease": {
+            "@type": "",
+            "name": "Love & Mercy: The Amazing Story of The Beach Boys' Brian Wilson",
+            "sameAs": "https://en.wikipedia.org/wiki/Love_%26_Mercy_(film)",
+            "image": "img/videos/2015-love-and-mercy/love-and-mercy-bluray.jpg",
+            "backCover": "",
+            "publisher": "Vestron Video",
+            "catalogNumber": "",
+            "datePublished": "09-15-2015",
+            "releaseDay": 15,
+            "releaseMonth": 9,
+            "releaseYear": 2015,
+            "category": "video",
+            "videoReleaseFormat": "Bluray",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "US",
+            "asin": "B01127XNHQ",
+            "amazonUs": "",
+            "amazonUk": "",
+            "amazonCa": "",
+            "amazonEs": "",
+            "amazonFr": "",
+            "amazonIt": "",
+            "amazonDe": "",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": ""
+          }
+        },
+	    {
+          "albumRelease": {
+            "@type": "",
+            "name": "Love & Mercy: The Amazing Story of The Beach Boys' Brian Wilson",
+            "sameAs": "https://en.wikipedia.org/wiki/Love_%26_Mercy_(film)",
+            "image": "img/videos/2015-love-and-mercy/love-and-mercy-cover.jpg",
+            "backCover": "",
+            "publisher": "Lions Gate",
+            "catalogNumber": "",
+            "datePublished": "09-15-2015",
+            "releaseDay": 15,
+            "releaseMonth": 9,
+            "releaseYear": 2015,
+            "category": "video",
+            "videoReleaseFormat": "DVD",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "US",
+            "asin": "B01127XNEE",
+            "amazonUs": "",
+            "amazonUk": "",
+            "amazonCa": "",
+            "amazonEs": "",
+            "amazonFr": "",
+            "amazonIt": "",
+            "amazonDe": "",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": ""
+          }
+        }
+      ]
+    },
+    {
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "",
+        "uniqueId": "brian-wilson-and-friends-bluray",
+        "name": "Brian Wilson and Friends: A Soundstage Special Event",
+        "sameAs": "",
+        "image": "img/videos/2016-brian-wilson-and-friends/brian-wilson-and-friends-cover.jpg",
+        "backCover": "",
+        "datePublished": "07-29-2016",
+        "releaseDay": 29,
+        "releaseMonth": 7,
+        "releaseYear": 2016,
+        "recordingStartDay": 1,
+        "recordingStartMonth": 1,
+        "recordingStartYear": 1,
+        "recordingEndDay": 1,
+        "recordingEndMonth": 1,
+        "recordingEndYear": 1,
+        "byArtist": "Brian Wilson",
+        "producer": "",
+        "duration": "",
+        "numberOfDiscs": 1,
+        "country": "US",
+        "unitsSold": 0,
+        "riaa": "",
+        "aggregateRating": 4,
+        "relevance": 1,
+        "backgroundColor": "#839BB3",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": true,
+          "book": false
+        },
+        "subcategory":{
+          "live": true,
+          "documentary": false,
+          "movie": false
+        },
+        "track": {
+          "@type": "ItemList",
+          "numberofItems": 27,
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Our Prayer",
+                "duration": "",
+                "composer": "B.Wilson",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 1,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Heroes and Villains",
+                "duration": "",
+                "composer": "B.Wilson/Parks",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 2,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Sloop John B",
+                "duration": "",
+                "composer": "Traditional/Arranged by B.Wilson",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 3,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Dance, Dance, Dance",
+                "duration": "",
+                "composer": "B.Wilson/C.Wilson/Love",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 4,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Good Vibrations",
+                "duration": "",
+                "composer": "B.Wilson/Love",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 5,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "This Beautiful Day",
+                "duration": "",
+                "composer": "B.Wilson/Thomas",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 6,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 7,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Runaway Dancer",
+                "duration": "",
+                "composer": "B.Wilson/Thomas/Simonian",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 7,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 8,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Don't Worry, Baby",
+                "duration": "",
+                "composer": "B.Wilson/Christian",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 8,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 9,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Marcella",
+                "duration": "",
+                "composer": "B.Wilson/Rieley",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 9,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 10,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Wild Honey",
+                "duration": "",
+                "composer": "B.Wilson/Love",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 10,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 11,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Sail On, Sailor",
+                "duration": "",
+                "composer": "B.Wilson/Parks/Almer/Kennedy/Rieley",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 11,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 12,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Sail Away",
+                "duration": "",
+                "composer": "B.Wilson/Peterik/Millas/Thomas",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 12,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 13,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Half Moon Bay",
+                "duration": "",
+                "composer": "B.Wilson/Thomas",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 13,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 14,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Don't Talk",
+                "duration": "",
+                "composer": "B.Wilson/Asher",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 14,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 15,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Saturday Night",
+                "duration": "",
+                "composer": "B.Wilson/Thomas/Ruess",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 15,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 16,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Hold On Dear Brother",
+                "duration": "",
+                "composer": "Chaplin/Fataar",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 16,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 17,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Darlin'",
+                "duration": "",
+                "composer": "B.Wilson/Love",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 17,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 18,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "On the Island",
+                "duration": "",
+                "composer": "B.Wilson/Thomas",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 18,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 19,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "God Only Knows",
+                "duration": "",
+                "composer": "B.Wilson/Asher",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 19,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 20,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "The Right Time",
+                "duration": "",
+                "composer": "B.Wilson/Thomas",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 20,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 21,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Wouldn't It Be Nice",
+                "duration": "",
+                "composer": "B.Wilson/Asher/Love",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 21,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 22,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Help Me, Rhonda",
+                "duration": "",
+                "composer": "B.Wilson/Love",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 22,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 23,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "All Summer Long",
+                "duration": "",
+                "composer": "B.Wilson/Love",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 23,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 24,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Fun, Fun, Fun",
+                "duration": "",
+                "composer": "B.Wilson/Love",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 24,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 25,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Pacific Coast Highway (Bonus Song)",
+                "duration": "",
+                "composer": "B.Wilson/Thomas",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 25,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 26,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Summers Gone (Bonus Song)",
+                "duration": "",
+                "composer": "B.Wilson/Bon Jovi/Thomas",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 26,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 27,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Interviews (DVD Bonus Feature)",
+                "duration": "",
+                "composer": "",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 27,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            }
+          ]
+        }
+      },
+      "editions": [
+        {
+          "albumRelease": {
+            "@type": "",
+            "name": "Brian Wilson and Friends: A Soundstage Special Event",
+            "sameAs": "",
+            "image": "img/videos/2016-brian-wilson-and-friends/brian-wilson-and-friends-cover.jpg",
+            "backCover": "",
+            "publisher": "BMG Rights Management",
+            "catalogNumber": "",
+            "datePublished": "07-29-2016",
+            "releaseDay": 29,
+            "releaseMonth": 7,
+            "releaseYear": 2016,
+            "category": "video",
+            "videoReleaseFormat": "Blu-ray",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "US",
+            "asin": "B01HE7M8YM",
+            "amazonUs": "",
+            "amazonUk": "",
+            "amazonCa": "",
+            "amazonEs": "",
+            "amazonFr": "",
+            "amazonIt": "",
+            "amazonDe": "",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": "Recorded live at The Venetian Theatre, Las Vegas NV, December 12, 2014"
+          }
+        },
+        {
+          "albumRelease": {
+            "@type": "",
+            "name": "Brian Wilson and Friends: A Soundstage Special Event",
+            "sameAs": "",
+            "image": "img/videos/2016-brian-wilson-and-friends/brian-wilson-and-friends-cover.jpg",
+            "backCover": "",
+            "publisher": "BMG Rights Management",
+            "catalogNumber": "",
+            "datePublished": "07-29-2016",
+            "releaseDay": 29,
+            "releaseMonth": 7,
+            "releaseYear": 2016,
+            "category": "video",
+            "videoReleaseFormat": "Amazon video",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "US",
+            "asin": "B017OIUPOG",
+            "amazonUs": "",
+            "amazonUk": "",
+            "amazonCa": "",
+            "amazonEs": "",
+            "amazonFr": "",
+            "amazonIt": "",
+            "amazonDe": "",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": "Recorded live at The Venetian Theatre, Las Vegas NV, December 12, 2014"
+          }
+        }
+      ]
+    },
+    {
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "",
+        "uniqueId": "pet-sounds-classic-album",
+        "name": "Pet Sounds Classic Album",
+        "sameAs": "",
+        "image": "img/videos/2016-pet-sounds-classic-album/pet-sounds-classic-album-cover.jpg",
+        "backCover": "",
+        "datePublished": "09-23-2016",
+        "releaseDay": 23,
+        "releaseMonth": 9,
+        "releaseYear": 2016,
+        "recordingStartDay": 1,
+        "recordingStartMonth": 1,
+        "recordingStartYear": 1,
+        "recordingEndDay": 1,
+        "recordingEndMonth": 1,
+        "recordingEndYear": 1,
+        "byArtist": "The Beach Boys",
+        "producer": "",
+        "duration": "",
+        "numberOfDiscs": 1,
+        "country": "US",
+        "unitsSold": 0,
+        "riaa": "",
+        "aggregateRating": 4,
+        "relevance": 1,
+        "backgroundColor": "#63B062",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": true,
+          "book": false
+        },
+        "subcategory":{
+          "live": false,
+          "documentary": true,
+          "movie": false
+        }
+      },
+      "editions": [
+        {
+          "albumRelease": {
+            "@type": "",
+            "name": "Pet Sounds Classic Album (Bluray)",
+            "sameAs": "",
+            "image": "img/videos/2016-pet-sounds-classic-album/pet-sounds-classic-album-bluray.jpg",
+            "backCover": "",
+            "publisher": "Eagle Rock",
+            "catalogNumber": "",
+            "datePublished": "09-23-2016",
+            "releaseDay": 23,
+            "releaseMonth": 9,
+            "releaseYear": 2016,
+            "category": "video",
+            "videoReleaseFormat": "Blu-ray",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "US",
+            "asin": "B01JACFG5W",
+            "amazonUs": "",
+            "amazonUk": "",
+            "amazonCa": "",
+            "amazonEs": "",
+            "amazonFr": "",
+            "amazonIt": "",
+            "amazonDe": "",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": ""
+          }
+        },
+        {
+          "albumRelease": {
+            "@type": "",
+            "name": "Pet Sounds Classic Album",
+            "sameAs": "",
+            "image": "img/videos/2016-pet-sounds-classic-album/pet-sounds-classic-album-cover.jpg",
+            "backCover": "",
+            "publisher": "Eagle Rock",
+            "catalogNumber": "",
+            "datePublished": "09-23-2016",
+            "releaseDay": 23,
+            "releaseMonth": 9,
+            "releaseYear": 2016,
+            "category": "video",
+            "videoReleaseFormat": "DVD",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "US",
+            "asin": "B01JACFFZI",
+            "amazonUs": "",
+            "amazonUk": "",
+            "amazonCa": "",
+            "amazonEs": "",
+            "amazonFr": "",
+            "amazonIt": "",
+            "amazonDe": "",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": ""
           }
         }
       ]
@@ -31385,7 +34568,7 @@
         "unitsSold": 0,
         "aggregateRating": 0,
         "relevance": 1,
-        "backgroundColor": "#FEE1E5",
+        "backgroundColor": "#B65D64",
         "notes": "",
         "review": "",
         "category": {
@@ -31637,7 +34820,7 @@
         "backCover": "",
         "author": {
           "@type": "Person",
-          "name": "Nick Wise"
+          "name": "Nick Wise (Compiler)"
         },
         "datePublished": "06-01-1994",
         "releaseDay": 0,
@@ -31682,7 +34865,7 @@
           "backCover": "",
           "author": {
             "@type": "Person",
-            "name": "Nick Wise"
+            "name": "Nick Wise (Compiler)"
           },
           "publisher": "Omnibus Press",
           "isbn": "0711939403",
