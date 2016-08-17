@@ -3502,7 +3502,7 @@
                 "@type": "MusicRecording",
                 "name": "Then I Kissed Her",
                 "duration": "",
-                "composer": "Spector/Greenwich/Berry",
+                "composer": "Spector/Barry/Greenwich",
                 "producer": "",
                 "leadVocal": "",
                 "disc": 1,
@@ -13169,7 +13169,7 @@
                 "@type": "MusicRecording",
                 "name": "Then I Kissed Her",
                 "duration": "",
-                "composer": "Spector/Greenwich/Berry",
+                "composer": "Spector/Barry/Greenwich",
                 "producer": "",
                 "leadVocal": "",
                 "disc": 1,
@@ -29068,6 +29068,1499 @@
       "parent": {
         "@context": "http://schema.org",
         "@type": "",
+        "uniqueId": "chapel-of-love",
+        "name": "Jeff Barry & Friends - Chapel of Love",
+        "sameAs": "",
+        "image": "img/videos/2001-chapel-of-love/chapel-of-love-cover.jpg",
+        "backCover": "",
+        "datePublished": "05-15-2001",
+        "releaseDay": 15,
+        "releaseMonth": 5,
+        "releaseYear": 2001,
+        "recordingStartDay": 1,
+        "recordingStartMonth": 1,
+        "recordingStartYear": 1,
+        "recordingEndDay": 1,
+        "recordingEndMonth": 1,
+        "recordingEndYear": 1,
+        "byArtist": "Brian Wilson",
+        "producer": "",
+        "duration": "58 min",
+        "numberOfDiscs": 1,
+        "country": "US",
+        "unitsSold": 0,
+        "riaa": "",
+        "aggregateRating": 3,
+        "relevance": 1,
+        "backgroundColor": "#FA3221",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": true,
+          "book": false
+        },
+        "subcategory":{
+          "live": true,
+          "documentary": false,
+          "movie": false
+		},
+        "track": {
+          "@type": "ItemList",
+          "numberofItems": 14,
+          "itemListElement": [
+           {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "The Dixie Cups - Chapel Of Love",
+                "duration": "",
+                "composer": "Spector/Barry/Greenwich",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 1,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+		  {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "The Crystals - Da Doo Ron Ron",
+                "duration": "",
+                "composer": "Spector/Barry/Greenwich",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 2,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Brian Wilson - Be My Baby",
+                "duration": "",
+                "composer": "Spector/Barry/Greenwich",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 3,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Ronnie Spector with Brian Wilson - I Can Hear Music",
+                "duration": "",
+                "composer": "Spector/Barry/Greenwich",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 4,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Mary Wilson - River Deep Mountain High",
+                "duration": "",
+                "composer": "Spector/Barry/Greenwich",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 5,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Ray Peterson - Tell Laura I Love Her",
+                "duration": "",
+                "composer": "Raleigh/Barry",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 6,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 7,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Ron Dante - Sugar Sugar",
+                "duration": "",
+                "composer": "Kim/Barry",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 7,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 8,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Jana Anderson, Mindy Stein, Melanie Taylor - Leader Of The Pack",
+                "duration": "",
+                "composer": "Morton/Barry/Greenwich",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 8,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 9,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "The Crystals - Then He Kissed Me",
+                "duration": "",
+                "composer": "Spector/Barry/Greenwich",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 9,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 10,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Jeffrey Osborne & Deniece Williams - The Last Time I Made Love",
+                "duration": "",
+                "composer": "Osborne",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 10,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 11,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Deniece Williams - I Honestly Love You",
+                "duration": "",
+                "composer": "Barry/Allen",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 11,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 12,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Andy Kim - Baby I Love You",
+                "duration": "",
+                "composer": "Spector/Barry/Greenwich",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 12,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 13,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Ron Dante - Hanky Panky",
+                "duration": "",
+                "composer": "Barry/Greenwich",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 13,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 14,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "All - Doo Wah Diddy Diddy",
+                "duration": "",
+                "composer": "Barry",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 14,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            }
+          ]
+        }
+        },
+      "editions": [
+	    {
+          "albumRelease": {
+            "@type": "",
+            "name": "Jeff Barry & Friends - Chapel of Love",
+            "sameAs": "",
+            "image": "img/videos/2001-chapel-of-love/chapel-of-love-cover.jpg",
+            "backCover": "",
+            "publisher": "Image Entertainment",
+            "catalogNumber": "",
+            "datePublished": "05-15-2001",
+            "releaseDay": 15,
+            "releaseMonth": 5,
+            "releaseYear": 2001,
+            "category": "video",
+            "videoReleaseFormat": "DVD",
+            "duration": "",
+            "numberOfDiscs": 2,
+            "country": "US",
+            "asin": "B00005B34O",
+            "amazonUs": "",
+            "amazonUk": "",
+            "amazonCa": "",
+            "amazonEs": "",
+            "amazonFr": "",
+            "amazonIt": "",
+            "amazonDe": "",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": "Jeff Barry, one of the most successful popular songwriters of the century, invited some of his favorite performers to star in a special concert taped in Santa Barbara, California. The show features many classic songs sung by some of our favorite performers of all-time including Brian Wilson singing 'Be My Baby', Mary Wilson of The Supremes belting out 'River Deep Mountain High', and Ronnie Spector giving a special charge to 'I Can Hear Music'. Also featured are The Dixie Cups, The Crystals, Andy Kim and many others. The artists and Jeff also talk about the songs, giving new insight into the writing and production of these classic songs. 'Chapel of Love' captures these special moments in a once-in-a-lifetime event."
+          }
+        }
+      ]
+    },
+    {
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "",
+        "uniqueId": "an-all-star-tribute-to-brian-wilson",
+        "name": "An All-Star Tribute To Brian Wilson",
+        "sameAs": "https://en.wikipedia.org/wiki/An_All-Star_Tribute_to_Brian_Wilson",
+        "image": "img/videos/2001-an-all-star-tribute-to-brian-wilson/an-all-star-tribute-to-brian-wilson-cover.jpg",
+        "backCover": "",
+        "datePublished": "11-06-2001",
+        "releaseDay": 6,
+        "releaseMonth": 11,
+        "releaseYear": 2001,
+        "recordingStartDay": 1,
+        "recordingStartMonth": 1,
+        "recordingStartYear": 1,
+        "recordingEndDay": 1,
+        "recordingEndMonth": 1,
+        "recordingEndYear": 1,
+        "byArtist": "Brian Wilson",
+        "producer": "",
+        "duration": "96 min",
+        "numberOfDiscs": 1,
+        "country": "US",
+        "unitsSold": 0,
+        "riaa": "",
+        "aggregateRating": 4,
+        "relevance": 1,
+        "backgroundColor": "#B76439",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": true,
+          "book": false
+        },
+        "subcategory":{
+          "live": true,
+          "documentary": false,
+          "movie": false
+		},
+        "track": {
+          "@type": "ItemList",
+          "numberofItems": 20,
+          "itemListElement": [
+           {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "The Boys Choir Of Harlem - Our Prayer",
+                "duration": "",
+                "composer": "B.Wilson",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 1,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+		  {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Ricky Martin - California Girls",
+                "duration": "",
+                "composer": "B.Wilson/Love",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 2,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Ricky Martin - Help Me Rhonda",
+                "duration": "",
+                "composer": "B.Wilson/Love",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 3,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Paul Simon - Surfer Girl",
+                "duration": "",
+                "composer": "B.Wilson",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 4,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "The Go-Go's - Surf City",
+                "duration": "",
+                "composer": "B.Wilson/J.Berry",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 5,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "David Crosby, Carly Simon and Jimmy Webb - In My Room",
+                "duration": "",
+                "composer": "B.Wilson/Usher",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 6,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 7,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Vince Gill - The Warmth Of The Sun",
+                "duration": "",
+                "composer": "B.Wilson/Love",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 7,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 8,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Evan and Jaron - I Get Around",
+                "duration": "",
+                "composer": "B.Wilson/Love",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 8,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 9,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Elton John - God Only Knows",
+                "duration": "",
+                "composer": "B.Wilson/Asher",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 9,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 10,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Aimee Mann and Michael Penn - I Just Wasn't Made for These Times",
+                "duration": "",
+                "composer": "B.Wilson/Asher",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 10,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 11,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Billy Joel - Don't Worry Baby",
+                "duration": "",
+                "composer": "B.Wilson/Christian",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 11,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 12,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Darius Rucker and Matthew Sweet - Sail On Sailor",
+                "duration": "",
+                "composer": "B.Wilson/Parks/Almer/Kennedy/Rieley",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 12,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 13,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Wilson Phillips - You're So Good To Me",
+                "duration": "",
+                "composer": "B.Wilson/Love",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 13,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 14,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Heart, Jubilant Sykes and The Boys Choir of Harlem - Good Vibrations",
+                "duration": "",
+                "composer": "B.Wilson/Love",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 14,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 15,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "David Crosby, Vince Gill and Jimmy Webb - Surf's Up",
+                "duration": "",
+                "composer": "B.Wilson/Parks",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 15,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 16,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Brian Wilson - Heroes and Villains",
+                "duration": "",
+                "composer": "B.Wilson/Parks",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 16,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 17,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Elton John and Brian Wilson - Wouldn't It Be Nice",
+                "duration": "",
+                "composer": "B.Wilson/Asher/Love",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 17,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 18,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Brian Wilson and All-Star Ensemble - Barbara Ann",
+                "duration": "",
+                "composer": "Fassert",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 18,
+                "trackLink": "",
+                "hit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 19,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Brian Wilson and All-Star Ensemble - Fun, Fun, Fun",
+                "duration": "",
+                "composer": "B.Wilson/Love",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 19,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 20,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Brian Wilson and The Boys Choir of Harlem - Love and Mercy",
+                "duration": "",
+                "composer": "B.Wilson",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 20,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            }
+          ]
+        }
+        },
+      "editions": [
+	    {
+          "albumRelease": {
+            "@type": "",
+            "name": "An All-Star Tribute To Brian Wilson",
+            "sameAs": "https://en.wikipedia.org/wiki/An_All-Star_Tribute_to_Brian_Wilson",
+            "image": "img/videos/2001-an-all-star-tribute-to-brian-wilson/an-all-star-tribute-to-brian-wilson-cover.jpg",
+            "backCover": "",
+            "publisher": "Image Entertainment",
+            "catalogNumber": "",
+            "datePublished": "11-06-2001",
+            "releaseDay": 6,
+            "releaseMonth": 11,
+            "releaseYear": 2001,
+            "category": "video",
+            "videoReleaseFormat": "DVD",
+            "duration": "",
+            "numberOfDiscs": 2,
+            "country": "US",
+            "asin": "B00005QAPR",
+            "amazonUs": "",
+            "amazonUk": "",
+            "amazonCa": "",
+            "amazonEs": "",
+            "amazonFr": "",
+            "amazonIt": "",
+            "amazonDe": "",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": "He is the Mozart of pop, the Orson Welles of rock, the George Gershwin of his generation. You'll see and hear exactly why on An All-Star Tribute to Brian Wilson, a celebration of Wilson's artistry held at New York's famed Radio City Music Hall on March 29, 2001. This once-in-a-lifetime gathering of superstars and legends takes us on an amazing musical journey through an unparalleled body of work--and along the way, we learn the uplifting story of the heroic survivor who has brought us a lifetime of 'Good Vibrations'."
+          }
+        }
+      ]
+    },
+    {
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "",
+        "uniqueId": "the-beach-boys-special-edition-ep",
+        "name": "The Beach Boys Special Edition EP",
+        "sameAs": "",
+        "image": "img/videos/2003-the-beach-boys-special-edition-ep/the-beach-boys-special-edition-ep-cover.jpg",
+        "backCover": "",
+        "datePublished": "03-25-2003",
+        "releaseDay": 25,
+        "releaseMonth": 3,
+        "releaseYear": 2003,
+        "recordingStartDay": 1,
+        "recordingStartMonth": 1,
+        "recordingStartYear": 1,
+        "recordingEndDay": 1,
+        "recordingEndMonth": 1,
+        "recordingEndYear": 1,
+        "byArtist": "The Beach Boys",
+        "producer": "",
+        "duration": "54 min",
+        "numberOfDiscs": 1,
+        "country": "US",
+        "unitsSold": 0,
+        "riaa": "",
+        "aggregateRating": 2,
+        "relevance": 1,
+        "backgroundColor": "#81958E",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": true,
+          "book": false
+        },
+        "subcategory":{
+          "live": false,
+          "documentary": true,
+          "movie": false
+        }
+      },
+      "editions": [
+	    {
+          "albumRelease": {
+            "@type": "",
+            "name": "The Beach Boys Special Edition EP",
+            "sameAs": "",
+            "image": "img/videos/2003-the-beach-boys-special-edition-ep/the-beach-boys-special-edition-ep-cover.jpg",
+            "backCover": "",
+            "publisher": "Classic Pictures",
+            "catalogNumber": "",
+            "datePublished": "03-25-2003",
+            "releaseDay": 25,
+            "releaseMonth": 3,
+            "releaseYear": 2003,
+            "category": "video",
+            "videoReleaseFormat": "DVD",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "US",
+            "asin": "B0000897B0",
+            "amazonUs": "",
+            "amazonUk": "",
+            "amazonCa": "",
+            "amazonEs": "",
+            "amazonFr": "",
+            "amazonIt": "",
+            "amazonDe": "",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": "In 1963 the Beach Boys phenomenon reached the UK and Europe in the shape of the single 'Surfin' U.S.A.'. This DVD EP captures the group performing live renditions of hit tracks throughout 1968/1969 including 'California Girls' which is an impressive symphonic arrangement with glorious harmonies, and a classic statement of Californian lifestyle. This collection also features 'Surfin U.S.A.', originally written by Chuck Berry."
+          }
+        }
+      ]
+    },
+    {
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "",
+        "uniqueId": "good-timin-live-at-knebworth-1980",
+        "name": "Good Timin' - Live at Knebworth, England 1980",
+        "sameAs": "https://en.wikipedia.org/wiki/Good_Timin%27:_Live_at_Knebworth_England_1980",
+        "image": "img/videos/2003-good-timin-live-at-knebworth-1980/good-timin-live-at-knebworth-1980-cover.jpg",
+        "backCover": "",
+        "datePublished": "03-25-2003",
+        "releaseDay": 25,
+        "releaseMonth": 3,
+        "releaseYear": 2003,
+        "recordingStartDay": 1,
+        "recordingStartMonth": 1,
+        "recordingStartYear": 1,
+        "recordingEndDay": 1,
+        "recordingEndMonth": 1,
+        "recordingEndYear": 1,
+        "byArtist": "The Beach Boys",
+        "producer": "",
+        "duration": "70 min",
+        "numberOfDiscs": 1,
+        "country": "US",
+        "unitsSold": 0,
+        "riaa": "",
+        "aggregateRating": 3.5,
+        "relevance": 1,
+        "backgroundColor": "#DE253D",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": true,
+          "book": false
+        },
+        "subcategory":{
+          "live": true,
+          "documentary": false,
+          "movie": false
+		},
+        "track": {
+          "@type": "ItemList",
+          "numberofItems": 21,
+          "itemListElement": [
+           {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Intro (Good Timin')",
+                "duration": "",
+                "composer": "B.Wilson/C.Wilson",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 1,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+		  {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "California Girls",
+                "duration": "",
+                "composer": "B.Wilson/Love",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 2,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Sloop John B",
+                "duration": "",
+                "composer": "Traditional/Arranged by B.Wilson",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 3,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Darlin'",
+                "duration": "",
+                "composer": "B.Wilson/Love",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 4,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "School Days",
+                "duration": "",
+                "composer": "Berry",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 5,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "God Only Knows",
+                "duration": "",
+                "composer": "B.Wilson/Asher",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 6,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 7,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Be True To Your School",
+                "duration": "",
+                "composer": "B.Wilson/Love",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 7,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 8,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Do It Again",
+                "duration": "",
+                "composer": "B.Wilson/Love",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 8,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 9,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Little Deuce Coupe",
+                "duration": "",
+                "composer": "B.Wilson/Christian",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 9,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 10,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Medley: Cottonfields/Heroes And Villains",
+                "duration": "",
+                "composer": "Ledbetter-Wilson/Parks",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 10,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 11,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Keepin' The Summer Alive",
+                "duration": "",
+                "composer": "C.Wilson/Bachman",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 11,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 12,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Lady Lynda",
+                "duration": "",
+                "composer": "Bach/Jardine/Altbach",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 12,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 13,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Surfer Girl",
+                "duration": "",
+                "composer": "B.Wilson",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 13,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 14,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Help Me, Rhonda",
+                "duration": "",
+                "composer": "B.Wilson/Love",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 14,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 15,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Rock And Roll Music",
+                "duration": "",
+                "composer": "Berry",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 15,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 16,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "I Get Around",
+                "duration": "",
+                "composer": "B.Wilson/Love",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 16,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 17,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Surfin' U.S.A.",
+                "duration": "",
+                "composer": "Berry/B.Wilson",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 17,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 18,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "You Are So Beautiful",
+                "duration": "",
+                "composer": "Preston/Fisher/D.Wilson",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 18,
+                "trackLink": "",
+                "hit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 19,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Good Vibrations",
+                "duration": "",
+                "composer": "B.Wilson/Love",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 19,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 20,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Barbara Ann",
+                "duration": "",
+                "composer": "Fassert",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 20,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 21,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Fun, Fun, Fun",
+                "duration": "",
+                "composer": "B.Wilson/Love",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 21,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            }
+          ]
+        }
+        },
+      "editions": [
+	    {
+          "albumRelease": {
+            "@type": "",
+            "name": "Good Timin' - Live at Knebworth, England 1980",
+            "sameAs": "https://en.wikipedia.org/wiki/Good_Timin%27:_Live_at_Knebworth_England_1980",
+            "image": "img/videos/2003-good-timin-live-at-knebworth-1980/good-timin-live-at-knebworth-1980-cover.jpg",
+            "backCover": "",
+            "publisher": "Eagle Vision",
+            "catalogNumber": "",
+            "datePublished": "03-25-2003",
+            "releaseDay": 25,
+            "releaseMonth": 3,
+            "releaseYear": 2003,
+            "category": "video",
+            "videoReleaseFormat": "DVD",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "US",
+            "asin": "B00008HCB8",
+            "amazonUs": "",
+            "amazonUk": "",
+            "amazonCa": "",
+            "amazonEs": "",
+            "amazonFr": "",
+            "amazonIt": "",
+            "amazonDe": "",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": "This DVD was recorded at the Beach Boys historic concert at Knebworth House on June 21st 1980. It proved to be the last time that the original Beach Boys: Brian Wilson, Mike Love, Carl Wilson, Dennis Wilson and Alan Jardine, would appear together on any stage.\nThe Beach Boys are one of the most successful groups of all time, selling over 10 million records in the U.S, with Pet Sounds being generally regarded as one of the all time great albums.\nThe DVD includes virtually all the Beach Boys classics such as Fun, Fun, Fun, Help Me Rhonda, Sloop John B, Lady Lynda, I Get Around, Barbara Ann, Wouldn't It Be Nice, Surfin' USA, California Girls and of course Good Vibrations."
+          }
+        },
+			    {
+          "albumRelease": {
+            "@type": "",
+            "name": "Good Timin' - Live at Knebworth [+ 1 CD Audio]",
+            "sameAs": "https://en.wikipedia.org/wiki/Good_Timin%27:_Live_at_Knebworth_England_1980",
+            "image": "img/videos/2003-good-timin-live-at-knebworth-1980/good-timin-live-at-knebworth-1980-2004.jpg",
+            "backCover": "",
+            "publisher": "Eagle Vision",
+            "catalogNumber": "",
+            "datePublished": "06-15-2004",
+            "releaseDay": 15,
+            "releaseMonth": 6,
+            "releaseYear": 2004,
+            "category": "video",
+            "videoReleaseFormat": "DVD/CD",
+            "duration": "",
+            "numberOfDiscs": 2,
+            "country": "US",
+            "asin": "B00066K0WG",
+            "amazonUs": "",
+            "amazonUk": "",
+            "amazonCa": "",
+            "amazonEs": "",
+            "amazonFr": "",
+            "amazonIt": "",
+            "amazonDe": "",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": "This DVD was recorded at the Beach Boys historic concert at Knebworth House on June 21st 1980. It proved to be the last time that the original Beach Boys: Brian Wilson, Mike Love, Carl Wilson, Dennis Wilson and Alan Jardine, would appear together on any stage.\nThe Beach Boys are one of the most successful groups of all time, selling over 10 million records in the U.S, with Pet Sounds being generally regarded as one of the all time great albums.\nThe DVD includes virtually all the Beach Boys classics such as Fun, Fun, Fun, Help Me Rhonda, Sloop John B, Lady Lynda, I Get Around, Barbara Ann, Wouldn't It Be Nice, Surfin' USA, California Girls and of course Good Vibrations."
+          }
+        }
+      ]
+    },
+    {
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "",
+        "uniqueId": "brian-wilson-on-tour",
+        "name": "Brian Wilson On Tour",
+        "sameAs": "",
+        "image": "img/videos/2003-brian-wilson-on-tour/brian-wilson-on-tour-cover.jpg",
+        "backCover": "",
+        "datePublished": "04-01-2003",
+        "releaseDay": 1,
+        "releaseMonth": 4,
+        "releaseYear": 2003,
+        "recordingStartDay": 1,
+        "recordingStartMonth": 1,
+        "recordingStartYear": 1,
+        "recordingEndDay": 1,
+        "recordingEndMonth": 1,
+        "recordingEndYear": 1,
+        "byArtist": "Brian Wilson",
+        "producer": "",
+        "duration": "77 min",
+        "numberOfDiscs": 1,
+        "country": "US",
+        "unitsSold": 0,
+        "riaa": "",
+        "aggregateRating": 4,
+        "relevance": 1,
+        "backgroundColor": "#9F85C5",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": true,
+          "book": false
+        },
+        "subcategory":{
+          "live": false,
+          "documentary": true,
+          "movie": false
+        }
+      },
+      "editions": [
+	    {
+          "albumRelease": {
+            "@type": "",
+            "name": "Brian Wilson On Tour",
+            "sameAs": "",
+            "image": "img/videos/2003-brian-wilson-on-tour/brian-wilson-on-tour-cover.jpg",
+            "backCover": "",
+            "publisher": "Sanctuary Records",
+            "catalogNumber": "",
+            "datePublished": "04-01-2003",
+            "releaseDay": 1,
+            "releaseMonth": 4,
+            "releaseYear": 2003,
+            "category": "video",
+            "videoReleaseFormat": "DVD",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "US",
+            "asin": "B00008NJFR",
+            "amazonUs": "",
+            "amazonUk": "",
+            "amazonCa": "",
+            "amazonEs": "",
+            "amazonFr": "",
+            "amazonIt": "",
+            "amazonDe": "",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": "His first headlining solo tour of North America and Japan is chronicled as you see excerpts of Fun, Fun, Fun; God Only Knows; Do It Again; Sail On Sailor , and more by a joyful Brian and his fantastic band. This 2003 film also features his interactions with Paul McCartney, Neil Young, Pete Townshend, Patti Smith, Ronnie Spector and more!"
+          }
+        }
+      ]
+    },
+    {
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "",
         "uniqueId": "pet-sounds-live-in-london",
         "name": "Brian Wilson Presents Pet Sounds Live In London",
         "sameAs": "",
@@ -29121,7 +30614,7 @@
 		},
 		"track": {
           "@type": "ItemList",
-          "numberofItems": 6,
+          "numberofItems": 17,
           "itemListElement": [
             {
               "@type" : "ListItem",
@@ -29143,7 +30636,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 1,
+              "position": 2,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Wouldn't It Be Nice",
@@ -29161,7 +30654,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 2,
+              "position": 3,
               "item": {
                 "@type": "MusicRecording",
                 "name": "You Still Believe In Me",
@@ -29179,7 +30672,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 3,
+              "position": 4,
               "item": {
                 "@type": "MusicRecording",
                 "name": "That's Not Me",
@@ -29197,7 +30690,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 4,
+              "position": 5,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Don't Talk (Put Your Head On My Shoulder)",
@@ -29215,7 +30708,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 5,
+              "position": 6,
               "item": {
                 "@type": "MusicRecording",
                 "name": "I'm Waiting For The Day",
@@ -29233,7 +30726,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 6,
+              "position": 7,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Let's Go Away For Awhile",
@@ -29251,7 +30744,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 7,
+              "position": 8,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Sloop John B",
@@ -29269,7 +30762,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 8,
+              "position": 9,
               "item": {
                 "@type": "MusicRecording",
                 "name": "God Only Knows",
@@ -29287,7 +30780,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 9,
+              "position": 10,
               "item": {
                 "@type": "MusicRecording",
                 "name": "I Know There's An Answer",
@@ -29305,7 +30798,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 10,
+              "position": 11,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Here Today",
@@ -29323,7 +30816,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 11,
+              "position": 12,
               "item": {
                 "@type": "MusicRecording",
                 "name": "I Just Wasn't Made For These Times",
@@ -29341,7 +30834,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 12,
+              "position": 13,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Pet Sounds",
@@ -29359,7 +30852,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 13,
+              "position": 14,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Caroline, No",
@@ -29375,9 +30868,9 @@
                 "gem": false
               }
             },
-			            {
+			{
               "@type": "ListItem",
-              "position": 13,
+              "position": 15,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Band Intros",
@@ -29393,9 +30886,9 @@
                 "gem": false
               }
             },
-			            {
+			{
               "@type": "ListItem",
-              "position": 13,
+              "position": 16,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Good Vibrations",
@@ -29411,9 +30904,9 @@
                 "gem": false
               }
             },
-			            {
+			{
               "@type": "ListItem",
-              "position": 13,
+              "position": 17,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Credits",
@@ -44764,7 +46257,7 @@
                 "@type": "MusicRecording",
                 "name": "Then I Kissed Her",
                 "duration": "",
-                "composer": "Spector/Greenwich/Berry",
+                "composer": "Spector/Barry/Greenwich",
                 "producer": "",
                 "leadVocal": "",
                 "disc": 1,
@@ -45310,7 +46803,7 @@
                 "@type": "MusicRecording",
                 "name": "Then I Kissed Her",
                 "duration": "",
-                "composer": "Spector/Greenwich/Berry",
+                "composer": "Spector/Barry/Greenwich",
                 "producer": "",
                 "leadVocal": "",
                 "disc": 2,
@@ -48201,7 +49694,7 @@
                 "@type": "MusicRecording",
                 "name": "Then I Kissed Her",
                 "duration": "",
-                "composer": "Spector/Greenwich/Berry",
+                "composer": "Spector/Barry/Greenwich",
                 "producer": "",
                 "leadVocal": "",
                 "disc": 2,
@@ -49946,7 +51439,7 @@
                 "@type": "MusicRecording",
                 "name": "Then I Kissed Her",
                 "duration": "",
-                "composer": "Spector/Greenwich/Berry",
+                "composer": "Spector/Barry/Greenwich",
                 "producer": "",
                 "leadVocal": "",
                 "disc": 2,
@@ -52370,7 +53863,7 @@
                 "@type": "MusicRecording",
                 "name": "Then I Kissed Her",
                 "duration": "",
-                "composer": "Spector/Greenwich/Berry",
+                "composer": "Spector/Barry/Greenwich",
                 "producer": "",
                 "leadVocal": "",
                 "disc": 2,
@@ -59810,7 +61303,7 @@
                 "@type": "MusicRecording",
                 "name": "Then I Kissed Her",
                 "duration": "",
-                "composer": "Spector/Greenwich/Berry",
+                "composer": "Spector/Barry/Greenwich",
                 "producer": "",
                 "leadVocal": "",
                 "disc": 1,
@@ -61982,7 +63475,7 @@
                 "@type": "MusicRecording",
                 "name": "Then I Kissed Her (New Stereo Remix)",
                 "duration": "",
-                "composer": "Spector/Greenwich/Berry",
+                "composer": "Spector/Barry/Greenwich",
                 "producer": "",
                 "leadVocal": "",
                 "disc": 1,
