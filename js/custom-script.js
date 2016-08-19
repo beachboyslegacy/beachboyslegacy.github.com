@@ -342,7 +342,9 @@ $(function(){
                                   '<div class="item__body">'+
                                     '<div class="parent-item__info">'+
                                       '<p>Released on '+thisReleaseMonthName+' '+thisReleaseDayNumber+', '+data.items[i].parent.releaseYear+'</p>'+
-                                      // '<p>'+data.items[i].parent.notes+'</p>'+
+									  '<p>'+data.items[i].parent.producer+'</p>'+
+									  '<p>Duration: '+data.items[i].parent.duration+'</p>'+
+									  // '<p>'+data.items[i].parent.notes+'</p>'+
                                     '</div>'+
                                     '<ul class="child-items"></ul>'+
                                     '<div class="item__footer">'+
@@ -397,7 +399,9 @@ $(function(){
                                   '<div class="item__body">'+
                                     '<div class="parent-item__info">'+
                                       '<p>Released on '+thisReleaseMonthName+' '+thisReleaseDayNumber+', '+data.items[i].parent.releaseYear+'</p>'+
-                                      // '<p>'+data.items[i].parent.notes+'</p>'+
+									  '<p>'+data.items[i].parent.producer+'</p>'+
+									  '<p>Duration: '+data.items[i].parent.duration+'</p>'+
+									  // '<p>'+data.items[i].parent.notes+'</p>'+
                                     '</div>'+
                                     '<div class="parent-item__tracklist">'+
                                       '<table>'+
