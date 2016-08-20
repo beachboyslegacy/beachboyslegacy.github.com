@@ -16336,7 +16336,7 @@
         "@context": "http://schema.org",
         "@type": "MusicAlbum",
         "albumProductionType": "StudioAlbum",
-        "uniqueId": "imagination",
+        "uniqueId": "brian-wilson-imagination",
         "name": "Imagination",
         "sameAs": "https://en.wikipedia.org/wiki/Imagination_(Brian_Wilson_album)",
         "image": "img/albums/brian-wilson/1998-imagination/imagination-cover.jpg",
@@ -29223,7 +29223,7 @@
       "parent": {
         "@context": "http://schema.org",
         "@type": "",
-        "uniqueId": "i-just-wasnt-made-for-these-times",
+        "uniqueId": "i-just-wasnt-made-for-these-times-documentary",
         "name": "Brian Wilson: I Just Wasn't Made For These Times",
         "sameAs": "https://en.wikipedia.org/wiki/Brian_Wilson:_I_Just_Wasn%27t_Made_for_These_Times",
         "image": "img/videos/1996-i-just-wasnt-made-for-these-times/i-just-wasnt-made-for-these-times-cover.jpg",
@@ -29688,7 +29688,7 @@
       "parent": {
         "@context": "http://schema.org",
         "@type": "",
-        "uniqueId": "brian-wilson-imagination",
+        "uniqueId": "brian-wilson-imagination-documentary",
         "name": "Brian Wilson: Imagination",
         "sameAs": "https://en.wikipedia.org/wiki/Imagination_(Brian_Wilson_album)",
         "image": "img/videos/1999-brian-wilson-imagination/brian-wilson-imagination-cover.jpg",
@@ -32380,7 +32380,7 @@
       "parent": {
         "@context": "http://schema.org",
         "@type": "",
-        "uniqueId": "brian-wilson-presents-smile",
+        "uniqueId": "brian-wilson-presents-smile-dvd",
         "name": "Brian Wilson Presents SMiLE",
         "sameAs": "https://en.wikipedia.org/wiki/Beautiful_Dreamer:_Brian_Wilson_and_the_Story_of_Smile",
         "image": "img/videos/2005-brian-wilson-presents-smile/brian-wilson-presents-smile-cover.jpg",
