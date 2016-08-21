@@ -2580,7 +2580,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": "Bonus Tracks:\n\nDon't Worry, Baby (B.Wilson/Christian)\n\nRecorded at the Civic Memorial Auditorium in  Sacramento CA, August 1, 1964"
+            "tracklist": "Bonus Tracks:\n\nDon't Worry, Baby (B.Wilson/Christian)\n\nRecorded at the Civic Memorial Auditorium in Sacramento CA, August 1, 1964"
           }
         },
         {
@@ -2612,7 +2612,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": "Recorded at the Civic Memorial Auditorium in  Sacramento CA, August 1, 1964"
+            "tracklist": "Recorded at the Civic Memorial Auditorium in Sacramento CA, August 1, 1964"
           }
         }
       ]
@@ -29223,6 +29223,129 @@
       "parent": {
         "@context": "http://schema.org",
         "@type": "",
+        "uniqueId": "bo-diddleys-all-star-jam",
+        "name": "Bo Diddley's All Star Jam",
+        "sameAs": "",
+        "image": "img/videos/1990-bo-diddleys-all-star-jam/bo-diddleys-all-star-jam-cover.jpg",
+        "backCover": "",
+        "datePublished": "05-23-1990",
+        "releaseDay": 23,
+        "releaseMonth": 5,
+        "releaseYear": 1990,
+        "recordingStartDay": 1,
+        "recordingStartMonth": 1,
+        "recordingStartYear": 1,
+        "recordingEndDay": 1,
+        "recordingEndMonth": 1,
+        "recordingEndYear": 1,
+        "byArtist": "Carl Wilson",
+        "producer": "",
+        "duration": "55 min",
+        "numberOfDiscs": 1,
+        "country": "US",
+        "unitsSold": 0,
+        "riaa": "",
+        "aggregateRating": 4,
+        "relevance": 1,
+        "backgroundColor": "#4E5DF0",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": true,
+          "book": false
+        },
+        "subcategory":{
+          "live": false,
+          "documentary": true,
+          "movie": false
+        }
+      },
+      "editions": [
+		{
+          "albumRelease": {
+            "@type": "",
+            "name": "30th Anniversary of Rock 'N Roll All-Star Jam with Bo Diddley",
+            "sameAs": "",
+            "image": "img/videos/1990-bo-diddleys-all-star-jam/bo-diddleys-all-star-jam-1998.jpg",
+            "backCover": "",
+            "publisher": "Geneon",
+            "catalogNumber": "",
+            "datePublished": "10-27-1998",
+            "releaseDay": 27,
+            "releaseMonth": 10,
+            "releaseYear": 1998,
+            "category": "video",
+            "videoReleaseFormat": "DVD",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "US",
+            "asin": "6305150877",
+            "amazonUs": "http://amzn.to/2bDSKVM",
+            "amazonUk": "http://amzn.to/2btbcBF",
+            "amazonCa": "http://amzn.to/2bLY2BV",
+            "amazonEs": "http://amzn.to/2btaHaS",
+            "amazonFr": "http://amzn.to/2bxmPck",
+            "amazonIt": "http://amzn.to/2buLuiS",
+            "amazonDe": "http://amzn.to/2b8p861",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": "Carl Wilson makes a guest appearance playing guitar in the back line.\n\nFilmed live at the Irvine Meadows Amphitheatre. October 25, 1985\n\nIn 1985, Bo Diddley put together a band that included Ron Wood, John Mayall, Mick Fleetwood, Kenny Jones, Carmine Appice, John Lodge, Ronnie Lane, Carl Wilson, and members of the Jimi Hendrix Experience, Chicago, Quiet Riot, and Three Dog Night.\nHe cooked them all a barbecue dinner, and then they put on a show. It's a 55-minute R&B jamfest.\nChuck Berry shows up in the middle of this film for a number or two, but--despite the title--it's Bo's show.\nBehind-the-scenes footage shows how Bo oversaw every detail of the music, even getting behind Kenny Jones's drum kit to show him exactly how a riff should go. Bo Diddley's songs are mostly about Bo Diddley the rock & roll legend, but the group is terrific (every rock & roll band should have four drummers!) and everyone is obviously having a ball--especially Wood, who spends the whole concert grinning like a school boy to be on stage with one of his heroes.\n\n1. BO DIDDLEY\n2. I'M A MAN\n3. BO PUT THE ROCK IN ROCK'N'ROLL\n4. MY DING- A- LING\n5. DESTINATION\n6. WHO DO YOU LOVE\n7. GUNSLINGER\n8. HEY BO DIDDLEY\n9. ROCK'N'ROLL MUSIC"
+          }
+        },
+		{
+          "albumRelease": {
+            "@type": "",
+            "name": "Chuck Berry And Bo Diddley Rock'N'Roll All Star Jam",
+            "sameAs": "",
+            "image": "img/videos/1990-bo-diddleys-all-star-jam/bo-diddleys-all-star-jam-2010.jpg",
+            "backCover": "",
+            "publisher": "Store For Music",
+            "catalogNumber": "",
+            "datePublished": "10-14-2010",
+            "releaseDay": 14,
+            "releaseMonth": 10,
+            "releaseYear": 2010,
+            "category": "video",
+            "videoReleaseFormat": "DVD",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "US",
+            "asin": "B0039I8G06",
+            "amazonUs": "http://amzn.to/2bDSIgg",
+            "amazonUk": "http://amzn.to/2buLnUs",
+            "amazonCa": "http://amzn.to/2b9oJvk",
+            "amazonEs": "http://amzn.to/2bGYP4K",
+            "amazonFr": "http://amzn.to/2bGYP4K",
+            "amazonIt": "http://amzn.to/2bGYP4K",
+            "amazonDe": "http://amzn.to/2btbZCF",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": "Carl Wilson makes a guest appearance playing guitar in the back line.\n\nFilmed live at the Irvine Meadows Amphitheatre. October 25, 1985\n\nIn 1985, Bo Diddley put together a band that included Ron Wood, John Mayall, Mick Fleetwood, Kenny Jones, Carmine Appice, John Lodge, Ronnie Lane, Carl Wilson, and members of the Jimi Hendrix Experience, Chicago, Quiet Riot, and Three Dog Night.\nHe cooked them all a barbecue dinner, and then they put on a show. It's a 55-minute R&B jamfest.\nChuck Berry shows up in the middle of this film for a number or two, but--despite the title--it's Bo's show.\nBehind-the-scenes footage shows how Bo oversaw every detail of the music, even getting behind Kenny Jones's drum kit to show him exactly how a riff should go. Bo Diddley's songs are mostly about Bo Diddley the rock & roll legend, but the group is terrific (every rock & roll band should have four drummers!) and everyone is obviously having a ball--especially Wood, who spends the whole concert grinning like a school boy to be on stage with one of his heroes.\n\n1. BO DIDDLEY\n2. I'M A MAN\n3. BO PUT THE ROCK IN ROCK'N'ROLL\n4. MY DING- A- LING\n5. DESTINATION\n6. WHO DO YOU LOVE\n7. GUNSLINGER\n8. HEY BO DIDDLEY\n9. ROCK'N'ROLL MUSIC"
+          }
+        }
+      ]
+    },
+    {
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "",
         "uniqueId": "i-just-wasnt-made-for-these-times-documentary",
         "name": "Brian Wilson: I Just Wasn't Made For These Times",
         "sameAs": "https://en.wikipedia.org/wiki/Brian_Wilson:_I_Just_Wasn%27t_Made_for_These_Times",
@@ -29492,7 +29615,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": "The legendary Beach Boys are once again led by their founding genius, Brian Wilson, in a once-in-a-lifetime all-star concert. Joining with many of country music's finest musicians, the Beach Boys revisit a number of their most famous hits, bringing a new magic and personality to these classic songs."
+            "tracklist": "Includes footage filmed at the Fan Fair in Nashville, TN. June 14, 1996\n\nThe legendary Beach Boys are once again led by their founding genius, Brian Wilson, in a once-in-a-lifetime all-star concert. Joining with many of country music's finest musicians, the Beach Boys revisit a number of their most famous hits, bringing a new magic and personality to these classic songs."
           }
         },
 		{
@@ -29524,7 +29647,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "Includes footage filmed at the Fan Fair in Nashville, TN. June 14, 1996"
           }
         },
 				{
@@ -29556,7 +29679,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": "Introduction and track-by-track audio review from journalist & author Sylvie Simmons."
+            "tracklist": "Includes footage filmed at the Fan Fair in Nashville, TN. June 14, 1996\n\nIntroduction and track-by-track audio review from journalist & author Sylvie Simmons."
           }
         }
       ]
@@ -29770,7 +29893,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": "Brian Wilson's imagination inspired some of the most influential and chart-topping music of this century. This program spans from the earliest archival footage to the landmark album 'Pet Sounds', and on to behind-the-scenes in the studio with Brian recording his first solo disc in a decade. Interviews with fans like Eric Clapton, Sean Lennon, Elvis Costello, the Barenaked Ladies, Stevie Wonder and Jimmy Buffett make this program a celebration of the genius behind the Beach Boys, one of music's brightest, most mercurial, and most enduring legends. Centerstage is a concert special featuring guests Jimmy Buffett, Christopher Cross, Bruce Johnston and Timothy B. Schmit with a 20-piece orchestral back-up showcasing a mix of Brian Wilson classics, old and new.\n\nFeaturing:\n\nCalifornia Girls\nIn My Room\nSouth American\nShe Says That She Needs Me\nYour Imagination\nCry\nLay Down Burden\nDon't Worry Baby."
+            "tracklist": "Includes footage filmed at the Norris Cultural Arts Center in St Charles, IL. May 9, 1998\n\nBrian Wilson's imagination inspired some of the most influential and chart-topping music of this century. This program spans from the earliest archival footage to the landmark album 'Pet Sounds', and on to behind-the-scenes in the studio with Brian recording his first solo disc in a decade. Interviews with fans like Eric Clapton, Sean Lennon, Elvis Costello, the Barenaked Ladies, Stevie Wonder and Jimmy Buffett make this program a celebration of the genius behind the Beach Boys, one of music's brightest, most mercurial, and most enduring legends. Centerstage is a concert special featuring guests Jimmy Buffett, Christopher Cross, Bruce Johnston and Timothy B. Schmit with a 20-piece orchestral back-up showcasing a mix of Brian Wilson classics, old and new.\n\nFeaturing:\n\nCalifornia Girls\nIn My Room\nSouth American\nShe Says That She Needs Me\nYour Imagination\nCry\nLay Down Burden\nDon't Worry Baby."
           }
         },
 		{
@@ -29802,7 +29925,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": "Brian Wilson's imagination inspired some of the most influential and chart-topping music of this century. This program spans from the earliest archival footage to the landmark album 'Pet Sounds', and on to behind-the-scenes in the studio with Brian recording his first solo disc in a decade. Interviews with fans like Eric Clapton, Sean Lennon, Elvis Costello, the Barenaked Ladies, Stevie Wonder and Jimmy Buffett make this program a celebration of the genius behind the Beach Boys, one of music's brightest, most mercurial, and most enduring legends. Centerstage is a concert special featuring guests Jimmy Buffett, Christopher Cross, Bruce Johnston and Timothy B. Schmit with a 20-piece orchestral back-up showcasing a mix of Brian Wilson classics, old and new.\n\nFeaturing:\n\nCalifornia Girls\nIn My Room\nSouth American\nShe Says That She Needs Me\nYour Imagination\nCry\nLay Down Burden\nDon't Worry Baby."
+            "tracklist": "Includes footage filmed at the Norris Cultural Arts Center in St Charles, IL. May 9, 1998\n\nBrian Wilson's imagination inspired some of the most influential and chart-topping music of this century. This program spans from the earliest archival footage to the landmark album 'Pet Sounds', and on to behind-the-scenes in the studio with Brian recording his first solo disc in a decade. Interviews with fans like Eric Clapton, Sean Lennon, Elvis Costello, the Barenaked Ladies, Stevie Wonder and Jimmy Buffett make this program a celebration of the genius behind the Beach Boys, one of music's brightest, most mercurial, and most enduring legends. Centerstage is a concert special featuring guests Jimmy Buffett, Christopher Cross, Bruce Johnston and Timothy B. Schmit with a 20-piece orchestral back-up showcasing a mix of Brian Wilson classics, old and new.\n\nFeaturing:\n\nCalifornia Girls\nIn My Room\nSouth American\nShe Says That She Needs Me\nYour Imagination\nCry\nLay Down Burden\nDon't Worry Baby."
           }
         }
       ]
@@ -30079,7 +30202,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": "Thought lost for thirty-five years, this rare concert brings you the Beach Boys at the peak of their performing talents. Early in 1964, promoters put together a mega-concert with the hottest stars of the day: the Beatles, Lesley Gore and the Beach Boys. The performances were taped live and aired on closed circuit. The Beach Boys' portion of the show was lost until 1998, but now it can be savored by their millions of fans on home video for the first time."
+            "tracklist": "Recorded at the NBC TV studios in Burbank CA, March 14, 1964\n\nThought lost for thirty-five years, this rare concert brings you the Beach Boys at the peak of their performing talents. Early in 1964, promoters put together a mega-concert with the hottest stars of the day: the Beatles, Lesley Gore and the Beach Boys. The performances were taped live and aired on closed circuit. The Beach Boys' portion of the show was lost until 1998, but now it can be savored by their millions of fans on home video for the first time."
           }
         },
 		{
@@ -30111,7 +30234,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": "Thought lost for thirty-five years, this rare concert brings you the Beach Boys at the peak of their performing talents. Early in 1964, promoters put together a mega-concert with the hottest stars of the day: the Beatles, Lesley Gore and the Beach Boys. The performances were taped live and aired on closed circuit. The Beach Boys' portion of the show was lost until 1998, but now it can be savored by their millions of fans on home video for the first time."
+            "tracklist": "Recorded at the NBC TV studios in Burbank CA, March 14, 1964\n\nThought lost for thirty-five years, this rare concert brings you the Beach Boys at the peak of their performing talents. Early in 1964, promoters put together a mega-concert with the hottest stars of the day: the Beatles, Lesley Gore and the Beach Boys. The performances were taped live and aired on closed circuit. The Beach Boys' portion of the show was lost until 1998, but now it can be savored by their millions of fans on home video for the first time."
           }
         }
       ]
@@ -30642,7 +30765,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": "Jeff Barry, one of the most successful popular songwriters of the century, invited some of his favorite performers to star in a special concert taped in Santa Barbara, California. The show features many classic songs sung by some of our favorite performers of all-time including Brian Wilson singing 'Be My Baby', Mary Wilson of The Supremes belting out 'River Deep Mountain High', and Ronnie Spector giving a special charge to 'I Can Hear Music'. Also featured are The Dixie Cups, The Crystals, Andy Kim and many others. The artists and Jeff also talk about the songs, giving new insight into the writing and production of these classic songs. 'Chapel of Love' captures these special moments in a once-in-a-lifetime event."
+            "tracklist": "Recorded in Santa Barbara CA, March 2000\n\nJeff Barry, one of the most successful popular songwriters of the century, invited some of his favorite performers to star in a special concert taped in Santa Barbara, California. The show features many classic songs sung by some of our favorite performers of all-time including Brian Wilson singing 'Be My Baby', Mary Wilson of The Supremes belting out 'River Deep Mountain High', and Ronnie Spector giving a special charge to 'I Can Hear Music'. Also featured are The Dixie Cups, The Crystals, Andy Kim and many others. The artists and Jeff also talk about the songs, giving new insight into the writing and production of these classic songs. 'Chapel of Love' captures these special moments in a once-in-a-lifetime event."
           }
         }
       ]
@@ -31098,7 +31221,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": "He is the Mozart of pop, the Orson Welles of rock, the George Gershwin of his generation. You'll see and hear exactly why on An All-Star Tribute to Brian Wilson, a celebration of Wilson's artistry held at New York's famed Radio City Music Hall on March 29, 2001. This once-in-a-lifetime gathering of superstars and legends takes us on an amazing musical journey through an unparalleled body of work--and along the way, we learn the uplifting story of the heroic survivor who has brought us a lifetime of 'Good Vibrations'."
+            "tracklist": "Recorded at the Radio City Music Hall in New York NY, March 29, 2001\n\nHe is the Mozart of pop, the Orson Welles of rock, the George Gershwin of his generation. You'll see and hear exactly why on An All-Star Tribute to Brian Wilson, a celebration of Wilson's artistry held at New York's famed Radio City Music Hall on March 29, 2001. This once-in-a-lifetime gathering of superstars and legends takes us on an amazing musical journey through an unparalleled body of work--and along the way, we learn the uplifting story of the heroic survivor who has brought us a lifetime of 'Good Vibrations'."
           }
         }
       ]
@@ -31154,11 +31277,89 @@
           "book": false
         },
         "subcategory":{
-          "live": false,
-          "documentary": true,
+          "live": true,
+          "documentary": false,
           "movie": false
-        }
-      },
+        },
+        "track": {
+          "@type": "ItemList",
+          "numberofItems": 4,
+          "itemListElement": [
+           {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Do It Again",
+                "duration": "",
+                "composer": "B.Wilson/Love",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 1,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+		  {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "California Girls",
+                "duration": "",
+                "composer": "B.Wilson/Love",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 2,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Break Away",
+                "duration": "",
+                "composer": "B.Wilson/Dunbar",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 3,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Surfin' U.S.A.",
+                "duration": "",
+                "composer": "Berry/B.Wilson",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 4,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            }
+          ]
+		  }
+        },
       "editions": [
 	    {
           "albumRelease": {
@@ -31189,7 +31390,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": "In 1963 the Beach Boys phenomenon reached the UK and Europe in the shape of the single 'Surfin' U.S.A.'. This DVD EP captures the group performing live renditions of hit tracks throughout 1968/1969 including 'California Girls' which is an impressive symphonic arrangement with glorious harmonies, and a classic statement of Californian lifestyle. This collection also features 'Surfin U.S.A.', originally written by Chuck Berry."
+            "tracklist": "Recorded at the Beat Club TV show in Bremen, West Germany, December 16, 1968\n\n- Do It Again\n- California Girls\n\nRecorded at the Beat Club TV show in Bremen, West Germany, June 4, 1969\n\n- Break Away\n- Surfin’ U.S.A."
           }
         }
       ]
@@ -31663,7 +31864,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": "This DVD was recorded at the Beach Boys historic concert at Knebworth House on June 21st 1980. It proved to be the last time that the original Beach Boys: Brian Wilson, Mike Love, Carl Wilson, Dennis Wilson and Alan Jardine, would appear together on any stage.\nThe Beach Boys are one of the most successful groups of all time, selling over 10 million records in the U.S, with Pet Sounds being generally regarded as one of the all time great albums.\nThe DVD includes virtually all the Beach Boys classics such as Fun, Fun, Fun, Help Me Rhonda, Sloop John B, Lady Lynda, I Get Around, Barbara Ann, Wouldn't It Be Nice, Surfin' USA, California Girls and of course Good Vibrations."
+            "tracklist": "Recorded at the Knebworth House on June 21st 1980"
           }
         },
 			    {
@@ -31695,7 +31896,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": "This DVD was recorded at the Beach Boys historic concert at Knebworth House on June 21st 1980. It proved to be the last time that the original Beach Boys: Brian Wilson, Mike Love, Carl Wilson, Dennis Wilson and Alan Jardine, would appear together on any stage.\nThe Beach Boys are one of the most successful groups of all time, selling over 10 million records in the U.S, with Pet Sounds being generally regarded as one of the all time great albums.\nThe DVD includes virtually all the Beach Boys classics such as Fun, Fun, Fun, Help Me Rhonda, Sloop John B, Lady Lynda, I Get Around, Barbara Ann, Wouldn't It Be Nice, Surfin' USA, California Girls and of course Good Vibrations."
+            "tracklist": "Recorded at the Knebworth House on June 21st 1980"
           }
         }
       ]
@@ -31819,7 +32020,7 @@
         "riaa": "",
         "aggregateRating": 4.5,
         "relevance": 1,
-        "backgroundColor": "#C24B37",
+        "backgroundColor": "#63B42C",
         "notes": "Video produced by Maggie Magee",
         "review": "",
         "category": {
@@ -32189,7 +32390,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": "The Concert (57 minutes)\n\nPet Stories (40 minutes):\nAn intimate inside look at the making of the original album, through brand new interviews with Brian, lyricist Tony Asher and others.\n\nBrian Wilson Discography:\n\n'Pet Sounds Live' Photo Gallery."
+            "tracklist": "Recorded at the Royal Festival Hall in London, England, January 27-30, 2002\n\nThe Concert (57 minutes)\n\nPet Stories (40 minutes):\nAn intimate inside look at the making of the original album, through brand new interviews with Brian, lyricist Tony Asher and others.\n\nBrian Wilson Discography:\n\n'Pet Sounds Live' Photo Gallery."
           }
         }
       ]
@@ -32371,7 +32572,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": "The Beach Boys were the most successful American pop group of the sixties producing a string of classic singles and albums. After a difficult period in the early seventies the original line-up of brothers Brian, Carl and Dennis Wilson, their cousin Mike Love and long standing friend Al Jardine, regrouped in 1976 and released a new studio album 15 Big Ones.\nThis DVD was originally made for American television following the release of that album. It combines full live performances of their greatest hits from the Anaheim Stadium with band interviews and wonderful sequences including Dennis Wilson judging a beauty pageant, Carl Wilson flying a plane and Brian Wilson being arrested for violation of the surf code by the original Blues Brothers, Dan Aykroyd and John Belushi, in the guise of highway patrolmen.\nFrom the three Wilson brothers singing a song about their father to the full band harmonizing with a gospel choir this DVD is full of gems but above all it is the five original Beach Boys performing fantastic versions of their best known songs.\n\nTrack Listing:\n1) Fun, Fun, Fun\n2) Be True To Your School\n3) I'm Bugged At My Ol Man\n4) God Only Knows\n5) I Get Around\n6) You Are So Beautiful\n7) That Same Song\n8) Good Vibrations\n9) Sloop John B\n10) Surfin' U.S.A.\n11) California Girls\n12) Help Me Rhonda\n13) It's OK\n14) Rock n Roll Music\n15) Wouldn t It Be Nice"
+            "tracklist": "Brian's birthday party filmed on June 20, 1976\nConcert footage filmed at the Anaheim Stadium in Anaheim CA, July 3, 1976\n\nThe Beach Boys were the most successful American pop group of the sixties producing a string of classic singles and albums. After a difficult period in the early seventies the original line-up of brothers Brian, Carl and Dennis Wilson, their cousin Mike Love and long standing friend Al Jardine, regrouped in 1976 and released a new studio album 15 Big Ones.\nThis DVD was originally made for American television following the release of that album. It combines full live performances of their greatest hits from the Anaheim Stadium with band interviews and wonderful sequences including Dennis Wilson judging a beauty pageant, Carl Wilson flying a plane and Brian Wilson being arrested for violation of the surf code by the original Blues Brothers, Dan Aykroyd and John Belushi, in the guise of highway patrolmen.\nFrom the three Wilson brothers singing a song about their father to the full band harmonizing with a gospel choir this DVD is full of gems but above all it is the five original Beach Boys performing fantastic versions of their best known songs.\n\nTrack Listing:\n1) Fun, Fun, Fun\n2) Be True To Your School\n3) I'm Bugged At My Ol Man\n4) God Only Knows\n5) I Get Around\n6) You Are So Beautiful\n7) That Same Song\n8) Good Vibrations\n9) Sloop John B\n10) Surfin' U.S.A.\n11) California Girls\n12) Help Me Rhonda\n13) It's OK\n14) Rock n Roll Music\n15) Wouldn t It Be Nice"
           }
         }
       ]
@@ -32404,7 +32605,7 @@
         "riaa": "",
         "aggregateRating": 5,
         "relevance": 1,
-        "backgroundColor": "#73DF56",
+        "backgroundColor": "#2596F5",
         "notes": "Beautiful Dreamer documentary produced by Richard Waltzer, David LEaf, John Scheinfeld. SMiLE Live Performance produced by John Anderson and Maggie Magee",
         "review": "",
         "category": {
@@ -33070,7 +33271,98 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": "Every year in conjunction with the Grammy Awards, a concert is held for the MusiCares charity and to honor the achievements of a particular group or artist. In 2005 the recipient of the award was the one and only Brian Wilson, the leader and creative force of the Beach Boys. An amazing line-up of artists came together to give their own interpretations of classic Beach Boys songs before the great man himself took the stage for the climax of the evening."
+            "tracklist": "Recorded at The Palladium in Hollywood CA. February 11, 2005\n\nEvery year in conjunction with the Grammy Awards, a concert is held for the MusiCares charity and to honor the achievements of a particular group or artist. In 2005 the recipient of the award was the one and only Brian Wilson, the leader and creative force of the Beach Boys. An amazing line-up of artists came together to give their own interpretations of classic Beach Boys songs before the great man himself took the stage for the climax of the evening."
+          }
+        }
+      ]
+    },
+    {
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "",
+        "uniqueId": "donovan-live-in-la-at-the-kodak-theatre",
+        "name": "Donovan: Live in L.A. at the Kodak Theatre",
+        "sameAs": "",
+        "image": "img/videos/2008-donovan-live-in-la-at-the-kodak-theatre/donovan-live-in-la-at-the-kodak-theatre-cover.jpg",
+        "backCover": "",
+        "datePublished": "01-22-2008",
+        "releaseDay": 22,
+        "releaseMonth": 1,
+        "releaseYear": 2008,
+        "recordingStartDay": 1,
+        "recordingStartMonth": 1,
+        "recordingStartYear": 1,
+        "recordingEndDay": 1,
+        "recordingEndMonth": 1,
+        "recordingEndYear": 1,
+        "byArtist": "Mike Love",
+        "producer": "",
+        "duration": "78 min",
+        "numberOfDiscs": 1,
+        "country": "US",
+        "unitsSold": 0,
+        "riaa": "",
+        "aggregateRating": 0,
+        "relevance": 1,
+        "backgroundColor": "#598F46",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": true,
+          "book": false
+        },
+        "subcategory":{
+          "live": false,
+          "documentary": true,
+          "movie": false
+        }
+      },
+      "editions": [
+	    {
+          "albumRelease": {
+            "@type": "",
+            "name": "Donovan: Live in L.A. at the Kodak Theatre",
+            "sameAs": "",
+            "image": "img/videos/2008-donovan-live-in-la-at-the-kodak-theatre/donovan-live-in-la-at-the-kodak-theatre-cover.jpg",
+            "backCover": "",
+            "publisher": "Raven Productions",
+            "catalogNumber": "",
+            "datePublished": "01-22-2008",
+            "releaseDay": 22,
+            "releaseMonth": 1,
+            "releaseYear": 2008,
+            "category": "video",
+            "videoReleaseFormat": "DVD",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "US",
+            "asin": "B000UC33NO",
+            "amazonUs": "http://amzn.to/2bDQ1LO",
+            "amazonUk": "http://amzn.to/2bt8JY9",
+            "amazonCa": "http://amzn.to/2bxkTjN",
+            "amazonEs": "http://amzn.to/2bxlfqC",
+            "amazonFr": "http://amzn.to/2buJt6q",
+            "amazonIt": "http://amzn.to/2bV5Mm3",
+            "amazonDe": "http://amzn.to/2bt8Pif",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": "Recorded at the Kodak Theatre in Hollywood, CA. January 21, 2007\n\nMike Love makes a guest appearance singing Mellow Yellow with Donovan"
           }
         }
       ]
@@ -34623,9 +34915,9 @@
         "sameAs": "https://en.wikipedia.org/wiki/Bridge_School_Benefit",
         "image": "img/videos/2011-the-bridge-school-concerts/the-bridge-school-concerts-cover.jpg",
         "backCover": "",
-        "datePublished": "11-24-2011",
+        "datePublished": "10-24-2011",
         "releaseDay": 24,
-        "releaseMonth": 11,
+        "releaseMonth": 10,
         "releaseYear": 2011,
         "recordingStartDay": 1,
         "recordingStartMonth": 1,
@@ -35192,7 +35484,7 @@
             "catalogNumber": "",
             "datePublished": "10-24-2011",
             "releaseDay": 24,
-            "releaseMonth": 11,
+            "releaseMonth": 10,
             "releaseYear": 2011,
             "category": "video",
             "videoReleaseFormat": "DVD",
@@ -35210,7 +35502,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "Brian Wilson performs Surfin' U.S.A. at the Shoreline Amphitheatre in Mountain View CA. October 30, 1999"
           }
         }
       ]
@@ -35301,7 +35593,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "Includes footage from St. Augustine Amphitheater in St Augustine, FL. May 2, 2012"
           }
         },
 			    {
@@ -35333,7 +35625,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "Includes footage from St. Augustine Amphitheater in St Augustine, FL. May 2, 2012"
           }
         }
       ]
@@ -35899,7 +36191,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "Recorded at the Grand Canyon University in Phoenix, AZ. July 7, 2012"
           }
         },
         {
@@ -35931,7 +36223,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": "Disc 2:\n\nBeach Boys 50 - Doin' It Again\n2012 exclusive interview with the Beach Boys, never-before-seen footage from the 1966 Good Vibrations recording sessions, footage from the 2012 recording sessions for That's Why God Made The Radio; also moving tributes to founding members Carl and Dennis Wilson."
+            "tracklist": "Recorded at the Grand Canyon University in Phoenix, AZ. July 7, 2012\n\nDisc 2:\n\nBeach Boys 50 - Doin' It Again\n2012 exclusive interview with the Beach Boys, never-before-seen footage from the 1966 Good Vibrations recording sessions, footage from the 2012 recording sessions for That's Why God Made The Radio; also moving tributes to founding members Carl and Dennis Wilson."
           }
         }
       ]
