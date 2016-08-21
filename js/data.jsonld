@@ -28575,6 +28575,1358 @@
     {
       "parent": {
         "@context": "http://schema.org",
+        "@type": "MusicAlbum",
+        "albumProductionType": "LiveAlbum",
+        "uniqueId": "celebration-big-sur-folk-festival-monterey-1970",
+        "name": "Celebration: Recorded Live Big Sur Folk Festival Monterey California 1970",
+        "sameAs": "",
+        "image": "img/various-artists/1971-celebration-big-sur-folk-festival-monterey-1970/celebration-big-sur-folk-festival-monterey-1970-cover.jpg",
+        "backCover": "",
+        "publisher": "Ode",
+        "catalogNumber": "SPX 77008",
+        "datePublished": "01-25-1971",
+        "releaseDay": 25,
+        "releaseMonth": 1,
+        "releaseYear": 1971,
+        "recordingStartDay": 1,
+        "recordingStartMonth": 1,
+        "recordingStartYear": 1,
+        "recordingEndDay": 1,
+        "recordingEndMonth": 1,
+        "recordingEndYear": 1,
+        "byArtist": "The Beach Boys",
+        "producer": "Lou Adler (Supervised)",
+        "duration": "",
+        "numberOfDiscs": 1,
+        "country": "US",
+        "billboardPosition": "Did not chart",
+        "unitsSold": 0,
+        "riaa": "",
+        "aggregateRating": 3.5,
+        "relevance": 1,
+        "backgroundColor": "#C27B23",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": true,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": false,
+          "book": false
+        },
+        "track": {
+          "@type": "ItemList",
+          "numberofItems": 11,
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Joan Baez - The Night They Drove Old Dixie Down",
+                "duration": "",
+                "composer": "",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 1,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Joan Baez - Let It Be",
+                "duration": "",
+                "composer": "",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 2,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Linda Ronstadt - Zhe Only Mama That'll Walk The Line",
+                "duration": "",
+                "composer": "",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 3,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Linda Ronstadt - Lovesick Blues",
+                "duration": "",
+                "composer": "",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 4,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Merry Clayton - The Times They Are A Changin'",
+                "duration": "",
+                "composer": "",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 5,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Merry Clayton - Bridge Over Troubled Water",
+                "duration": "",
+                "composer": "",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 6,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 7,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "The Beach Boys - Wouldn't It Be Nice",
+                "duration": "",
+                "composer": "B.Wilson/Asher/Love",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 7,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": true
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 8,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Country Joe McDonald - Entertainment Is My Business",
+                "duration": "",
+                "composer": "",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 8,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 9,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Country Joe McDonald - Air Algiers",
+                "duration": "",
+                "composer": "",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 9,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 10,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Kris Kristofferson - The Law Is For The Protection Of The People",
+                "duration": "",
+                "composer": "",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 10,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 11,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Kris Kristofferson - To Beat The Devil",
+                "duration": "",
+                "composer": "",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 11,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            }
+          ]
+        }
+      },
+      "editions": [
+        {
+          "albumRelease": {
+            "@type": "MusicRelease",
+            "name": "Celebration: Recorded Live Big Sur Folk Festival Monterey California 1970",
+            "sameAs": "",
+            "image": "img/various-artists/1971-celebration-big-sur-folk-festival-monterey-1970/celebration-big-sur-folk-festival-monterey-1970-cover.jpg",
+            "backCover": "",
+            "recordLabel": "Ode Records",
+            "catalogNumber": "SPX 77008",
+            "datePublished": "01-25-1971",
+            "releaseDay": 25,
+            "releaseMonth": 1,
+            "releaseYear": 1971,
+            "category": "variousArtists",
+            "musicReleaseFormat": "LP",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "US",
+            "asin": "B006CWZA0A",
+            "amazonUs": "http://amzn.to/2bE884q",
+            "amazonUk": "http://amzn.to/2btsMFS",
+            "amazonCa": "http://amzn.to/2bE8dVM",
+            "amazonEs": "http://amzn.to/2btsEWK",
+            "amazonFr": "http://amzn.to/2bsdIpN",
+            "amazonIt": "http://amzn.to/2btsS0c",
+            "amazonDe": "http://amzn.to/2bGE5cK",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": ""
+          }
+        },
+		        {
+          "albumRelease": {
+            "@type": "MusicRelease",
+            "name": "Celebration: The Big Sur Folk Festival 1970",
+            "sameAs": "",
+            "image": "img/various-artists/1971-celebration-big-sur-folk-festival-monterey-1970/celebration-big-sur-folk-festival-monterey-1970-cover.jpg",
+            "backCover": "",
+            "recordLabel": "Ode Records",
+            "catalogNumber": "ESMCD871",
+            "datePublished": "08-15-2000",
+            "releaseDay": 15,
+            "releaseMonth": 8,
+            "releaseYear": 2000,
+            "category": "variousArtists",
+            "musicReleaseFormat": "CD",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "UK",
+            "asin": "B000XHBKSG",
+            "amazonUs": "http://amzn.to/2bE8nfI",
+            "amazonUk": "http://amzn.to/2bseao3",
+            "amazonCa": "http://amzn.to/2bE8SpW",
+            "amazonEs": "http://amzn.to/2bsdyPf",
+            "amazonFr": "http://amzn.to/2bseenN",
+            "amazonIt": "http://amzn.to/2b8Cm2J",
+            "amazonDe": "http://amzn.to/2bHbMf9",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": ""
+          }
+        }
+      ]
+    },
+    {
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "MusicAlbum",
+        "albumProductionType": "StudioAlbum",
+        "uniqueId": "americathon",
+        "name": "Americathon (Soundtrack)",
+        "sameAs": "https://en.wikipedia.org/wiki/Americathon",
+        "image": "img/various-artists/1979-americathon/americathon-cover.jpg",
+        "backCover": "",
+        "publisher": "Lorimar",
+        "catalogNumber": "JS 36174",
+        "datePublished": "08-01-1979",
+        "releaseDay": 0,
+        "releaseMonth": 8,
+        "releaseYear": 1979,
+        "recordingStartDay": 1,
+        "recordingStartMonth": 1,
+        "recordingStartYear": 1,
+        "recordingEndDay": 1,
+        "recordingEndMonth": 1,
+        "recordingEndYear": 1,
+        "byArtist": "The Beach Boys",
+        "producer": "Jay Levy, Michael Dilbeck (Executive Producer)",
+        "duration": "",
+        "numberOfDiscs": 1,
+        "country": "US",
+        "billboardPosition": "Did not chart",
+        "unitsSold": 0,
+        "riaa": "",
+        "aggregateRating": 2.5,
+        "relevance": 1,
+        "backgroundColor": "#90A6DF",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": true,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": false,
+          "book": false
+        },
+        "track": {
+          "@type": "ItemList",
+          "numberofItems": 9,
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "The Beach Boys - It's A Beautiful Day",
+                "duration": "",
+                "composer": "Jardine/Love",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 1,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": true
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Eddie Money - Get A Move On",
+                "duration": "",
+                "composer": "",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 2,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Eddie Money - Open Up Your Heart",
+                "duration": "",
+                "composer": "",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 3,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Elvis Costello - (I Don't Want To Go To) Chelsea",
+                "duration": "",
+                "composer": "",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 4,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Elvis Costello - Crawling To The U.S.A.",
+                "duration": "",
+                "composer": "",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 5,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Nick Lowe - Without Love",
+                "duration": "",
+                "composer": "",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 6,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 7,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Tom Scott - Car Wars",
+                "duration": "",
+                "composer": "",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 7,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 8,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Zane Buzby - Don't You Ever Say No",
+                "duration": "",
+                "composer": "",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 8,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 9,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Harvey Korman - Gold",
+                "duration": "",
+                "composer": "",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 9,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            }
+          ]
+        }
+      },
+      "editions": [
+        {
+          "albumRelease": {
+            "@type": "MusicRelease",
+            "name": "Americathon (Soundtrack)",
+            "sameAs": "https://en.wikipedia.org/wiki/Americathon",
+            "image": "img/various-artists/1979-americathon/americathon-cover.jpg",
+            "backCover": "",
+            "recordLabel": "Lorimar",
+            "catalogNumber": "JS 36174",
+            "datePublished": "08-01-1979",
+            "releaseDay": 0,
+            "releaseMonth": 8,
+            "releaseYear": 1979,
+            "category": "variousArtists",
+            "musicReleaseFormat": "LP",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "US",
+            "asin": "B000X9XXRA",
+            "amazonUs": "http://amzn.to/2b9LsaI",
+            "amazonUk": "http://amzn.to/2bHmwKr",
+            "amazonCa": "http://amzn.to/2ba0de8",
+            "amazonEs": "http://amzn.to/2bv5bqH",
+            "amazonFr": "http://amzn.to/2btGfNV",
+            "amazonIt": "http://amzn.to/2b8N613",
+            "amazonDe": "http://amzn.to/2bv57ak",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": ""
+          }
+        }
+      ]
+    },
+    {
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "MusicAlbum",
+        "albumProductionType": "StudioAlbum",
+        "uniqueId": "brian-wilson-rarities-beach-boys",
+        "name": "Brian Wilson Rarities: Beach Boys",
+        "sameAs": "",
+        "image": "img/various-artists/1981-brian-wilson-rarities-beach-boys/brian-wilson-rarities-beach-boys-cover.jpg",
+        "backCover": "",
+        "publisher": "Capitol",
+        "catalogNumber": "ST 26463",
+        "datePublished": "09-01-1981",
+        "releaseDay": 0,
+        "releaseMonth": 9,
+        "releaseYear": 1981,
+        "recordingStartDay": 1,
+        "recordingStartMonth": 1,
+        "recordingStartYear": 1,
+        "recordingEndDay": 1,
+        "recordingEndMonth": 1,
+        "recordingEndYear": 1,
+        "byArtist": "The Beach Boys",
+        "producer": "Brian Wilson. Nick Venet. The Beach Boys. Dennis Wilson. Bruce Johnston & Carl Wilson",
+        "duration": "",
+        "numberOfDiscs": 1,
+        "country": "AU",
+        "billboardPosition": "Did not chart",
+        "unitsSold": 0,
+        "riaa": "",
+        "aggregateRating": 3.5,
+        "relevance": 1,
+        "backgroundColor": "#FF5645",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": true,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": false,
+          "book": false
+        },
+        "track": {
+          "@type": "ItemList",
+          "numberofItems": 20,
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "The Beach Boys - Be True To Your School",
+                "duration": "",
+                "composer": "B.Wilson/Love",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 1,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "The Survivors - Pamela Jean",
+                "duration": "",
+                "composer": "B.Wilson",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 2,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Gary Usher - Sacramento",
+                "duration": "",
+                "composer": "B.Wilson/Usher",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 3,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "The Honeys - The One You Can't Have",
+                "duration": "",
+                "composer": "B.Wilson",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 4,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Sharon Marie - Thinkin' Bout You Baby",
+                "duration": "",
+                "composer": "B.Wilson/Love",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 5,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Glen Campbell - Guess I'm Dumb",
+                "duration": "",
+                "composer": "B.Wilson/Titelman",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 6,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 7,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "The Survivors - After The Game",
+                "duration": "",
+                "composer": "B.Wilson",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 7,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 8,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "The Honeys - Pray For Surf",
+                "duration": "",
+                "composer": "D.Rovell/Glantz",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 8,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 9,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Sharon Marie - Runaround Lover",
+                "duration": "",
+                "composer": "B.Wilson/Love",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 9,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+			{
+              "@type": "ListItem",
+              "position": 10,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "The Honeys - Surfin' Down The Swanee River",
+                "duration": "",
+                "composer": "Foster/Arranged by B.Wilson",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 10,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+			{
+              "@type": "ListItem",
+              "position": 11,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "The Beach Boys - Cottonfields (Single Version)",
+                "duration": "",
+                "composer": "Ledbetter",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 11,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+			{
+              "@type": "ListItem",
+              "position": 12,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Dennis Wilson & Rumbo - Lady",
+                "duration": "",
+                "composer": "D.Wilson",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 12,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+			{
+              "@type": "ListItem",
+              "position": 13,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "The Beach Boys - Celebrate The News",
+                "duration": "",
+                "composer": "D.Wilson/Jakobson",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 13,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+			{
+              "@type": "ListItem",
+              "position": 14,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Dennis Wilson & Rumbo - Sound Of Free",
+                "duration": "",
+                "composer": "D.Wilson/Love",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 14,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+			{
+              "@type": "ListItem",
+              "position": 15,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "The Beach Boys - Bluebirds Over The Mountain (Alt. Version)",
+                "duration": "",
+                "composer": "Hickey",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 15,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+			{
+              "@type": "ListItem",
+              "position": 16,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "The Beach Boys - Well, You're Welcome",
+                "duration": "",
+                "composer": "B.Wilson",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 16,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+			{
+              "@type": "ListItem",
+              "position": 17,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "The Beach Boys - The Lord's Prayer",
+                "duration": "",
+                "composer": "Malotte",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 17,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+			{
+              "@type": "ListItem",
+              "position": 18,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Sharon Marie - The Story Of My Life",
+                "duration": "",
+                "composer": "B.Wilson/Love",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 18,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+			{
+              "@type": "ListItem",
+              "position": 19,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "The Honeys - Goodnight My Love",
+                "duration": "",
+                "composer": "Marascalco/Matola",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 19,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+			{
+              "@type": "ListItem",
+              "position": 20,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "The Beach Boys - What'd I Say (Live In Sydney)",
+                "duration": "",
+                "composer": "Charles",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 20,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": true
+              }
+            }
+          ]
+        }
+      },
+      "editions": [
+        {
+          "albumRelease": {
+            "@type": "MusicRelease",
+            "name": "Brian Wilson Rarities: Beach Boys",
+            "sameAs": "",
+            "image": "img/various-artists/1981-brian-wilson-rarities-beach-boys/brian-wilson-rarities-beach-boys-cover.jpg",
+            "backCover": "",
+            "recordLabel": "Capitol",
+            "catalogNumber": "ST 26463",
+            "datePublished": "09-01-1981",
+            "releaseDay": 1,
+            "releaseMonth": 9,
+            "releaseYear": 1981,
+            "category": "variousArtists",
+            "musicReleaseFormat": "LP",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "AU",
+            "asin": "B00QEGCWQO",
+            "amazonUs": "http://amzn.to/2ba1emf",
+            "amazonUk": "http://amzn.to/2b8ODEs",
+            "amazonCa": "http://amzn.to/2ba1emf",
+            "amazonEs": "http://amzn.to/2b8ODEs",
+            "amazonFr": "http://amzn.to/2b8ODEs",
+            "amazonIt": "http://amzn.to/2b8ODEs",
+            "amazonDe": "http://amzn.to/2b8ODEs",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": ""
+          }
+        }
+      ]
+    },
+    {
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "MusicAlbum",
+        "albumProductionType": "StudioAlbum",
+        "uniqueId": "mike-love-dean-torrence-rock-and-roll-city",
+        "name": "Rock'n'Roll City",
+        "sameAs": "",
+        "image": "img/various-artists/1983-mike-love-dean-torrence-rock-and-roll-city/mike-love-dean-torrence-rock-and-roll-city-cover.jpg",
+        "backCover": "",
+        "publisher": "Hitbound Records",
+        "catalogNumber": "1001",
+        "datePublished": "03-01-1983",
+        "releaseDay": 0,
+        "releaseMonth": 3,
+        "releaseYear": 1983,
+        "recordingStartDay": 1,
+        "recordingStartMonth": 1,
+        "recordingStartYear": 1,
+        "recordingEndDay": 1,
+        "recordingEndMonth": 1,
+        "recordingEndYear": 1,
+        "byArtist": "The Beach Boys",
+        "producer": "Daryl Dragon. Curt Becher. Terry Melcher. Paul Revere. Al Jardine, Bruce Johnston",
+        "duration": "",
+        "numberOfDiscs": 1,
+        "country": "US",
+        "billboardPosition": "Did not chart",
+        "unitsSold": 0,
+        "riaa": "",
+        "aggregateRating": 3,
+        "relevance": 1,
+        "backgroundColor": "#873A2E",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": true,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": false,
+          "book": false
+        },
+        "track": {
+          "@type": "ItemList",
+          "numberofItems": 12,
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Mike & Dean - Lightning Strikes",
+                "duration": "",
+                "composer": "Christie/Herbert",
+                "producer": "Daryl Dragon",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 1,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": true
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "The Association - Walk Away Renee",
+                "duration": "",
+                "composer": "Calilli/Brown/Sansone",
+                "producer": "Curt Becher",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 2,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Mike Love - The Letter",
+                "duration": "",
+                "composer": "Carson",
+                "producer": "Daryl Dragon",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 3,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": true
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Mike Love - The Locomotion",
+                "duration": "",
+                "composer": "Goffin/King",
+                "producer": "Daryl Dragon",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 4,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": true
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "The Ripchords - Sealed With A Kiss",
+                "duration": "",
+                "composer": "Geld/Udell",
+                "producer": "Terry Melcher",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 5,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Mike Love - Sugar Shack",
+                "duration": "",
+                "composer": "Voss/McCormack",
+                "producer": "Daryl Dragon",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 6,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": true
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 7,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Paul Revere & The Raiders - 96 Tears",
+                "duration": "",
+                "composer": "Martinez",
+                "producer": "Paul Revere",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 7,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 8,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "The Beach Boys - California Dreamin'",
+                "duration": "",
+                "composer": "Phillips/Phillips",
+                "producer": "Jardine/Johnston/Terry Melcher",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 8,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": true
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 9,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Dean Torrence - Baby Talk",
+                "duration": "",
+                "composer": "Schwartz",
+                "producer": "Daryl Dragon",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 9,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+			{
+              "@type": "ListItem",
+              "position": 10,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Dean Torrence - Wild Thing",
+                "duration": "",
+                "composer": "Taylor",
+                "producer": "Daryl Dragon",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 10,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+			{
+              "@type": "ListItem",
+              "position": 11,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Mike Love - Da Doo Run Run",
+                "duration": "",
+                "composer": "Greenwich/Barry/Spector",
+                "producer": "Daryl Dragon",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 11,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": true
+              }
+            },
+			{
+              "@type": "ListItem",
+              "position": 12,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Mike & Dean - Her Boyfriend's Back",
+                "duration": "",
+                "composer": "Feldman/Goldstein/Gottehrer",
+                "producer": "Daryl Dragon",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 12,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": true
+              }
+            }
+          ]
+        }
+      },
+      "editions": [
+        {
+          "albumRelease": {
+            "@type": "MusicRelease",
+            "name": "Rock'n'Roll City",
+            "sameAs": "",
+            "image": "img/various-artists/1983-mike-love-dean-torrence-rock-and-roll-city/mike-love-dean-torrence-rock-and-roll-city-cover.jpg",
+            "backCover": "",
+            "recordLabel": "Hitbound Records",
+            "catalogNumber": "1001",
+            "datePublished": "03-01-1983",
+            "releaseDay": 1,
+            "releaseMonth": 3,
+            "releaseYear": 1983,
+            "category": "variousArtists",
+            "musicReleaseFormat": "Cassette",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "US",
+            "asin": "",
+            "amazonUs": "",
+            "amazonUk": "",
+            "amazonCa": "",
+            "amazonEs": "",
+            "amazonFr": "",
+            "amazonIt": "",
+            "amazonDe": "",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": ""
+          }
+        }
+      ]
+    },
+    {
+      "parent": {
+        "@context": "http://schema.org",
         "@type": "",
         "uniqueId": "the-girls-on-the-beach",
         "name": "The Girls On The Beach",
@@ -49963,7 +51315,7 @@
                 "@type": "MusicRecording",
                 "name": "The Honeys - Pray For Surf",
                 "duration": "",
-                "composer": "D.Rovell",
+                "composer": "D.Rovell/Glantz",
                 "producer": "",
                 "leadVocal": "",
                 "disc": 7,
@@ -49999,7 +51351,7 @@
                 "@type": "MusicRecording",
                 "name": "Sharon Marie - Runaround Lover",
                 "duration": "",
-                "composer": "B.Wilson",
+                "composer": "B.Wilson/Love",
                 "producer": "",
                 "leadVocal": "",
                 "disc": 7,
