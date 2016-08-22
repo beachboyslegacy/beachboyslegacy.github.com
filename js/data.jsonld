@@ -29623,7 +29623,7 @@
         "image": "img/various-artists/1983-mike-love-dean-torrence-rock-and-roll-city/mike-love-dean-torrence-rock-and-roll-city-cover.jpg",
         "backCover": "",
         "publisher": "Hitbound Records",
-        "catalogNumber": "1001",
+        "catalogNumber": "51-3009",
         "datePublished": "03-01-1983",
         "releaseDay": 0,
         "releaseMonth": 3,
@@ -29644,7 +29644,7 @@
         "riaa": "",
         "aggregateRating": 3,
         "relevance": 1,
-        "backgroundColor": "#873A2E",
+        "backgroundColor": "#EC8753",
         "notes": "",
         "review": "",
         "category": {
@@ -29898,7 +29898,7 @@
             "image": "img/various-artists/1983-mike-love-dean-torrence-rock-and-roll-city/mike-love-dean-torrence-rock-and-roll-city-cover.jpg",
             "backCover": "",
             "recordLabel": "Hitbound Records",
-            "catalogNumber": "1001",
+            "catalogNumber": "51-3009",
             "datePublished": "03-01-1983",
             "releaseDay": 1,
             "releaseMonth": 3,
@@ -29909,6 +29909,2132 @@
             "numberOfDiscs": 1,
             "country": "US",
             "asin": "",
+            "amazonUs": "",
+            "amazonUk": "",
+            "amazonCa": "",
+            "amazonEs": "",
+            "amazonFr": "",
+            "amazonIt": "",
+            "amazonDe": "",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": ""
+          }
+        }
+      ]
+    },
+    {
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "MusicAlbum",
+        "albumProductionType": "StudioAlbum",
+        "uniqueId": "mike-love-and-dean-torrence-listen-to-the-air",
+        "name": "Listen To The Air",
+        "sameAs": "",
+        "image": "img/various-artists/1983-mike-love-and-dean-torrence-listen-to-the-air/mike-love-and-dean-torrence-listen-to-the-air-cover.jpg",
+        "backCover": "",
+        "publisher": "Invitation",
+        "catalogNumber": "VIH 28138",
+        "datePublished": "01-01-1983",
+        "releaseDay": 0,
+        "releaseMonth": 0,
+        "releaseYear": 1983,
+        "recordingStartDay": 1,
+        "recordingStartMonth": 1,
+        "recordingStartYear": 1,
+        "recordingEndDay": 1,
+        "recordingEndMonth": 1,
+        "recordingEndYear": 1,
+        "byArtist": "The Beach Boys",
+        "producer": "T. Greenwood. Tak Glassman (Co-Producer)",
+        "duration": "",
+        "numberOfDiscs": 1,
+        "country": "JP",
+        "billboardPosition": "Did not chart",
+        "unitsSold": 0,
+        "riaa": "",
+        "aggregateRating": 2.5,
+        "relevance": 1,
+        "backgroundColor": "#678BAD",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": true,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": false,
+          "book": false
+        },
+        "track": {
+          "@type": "ItemList",
+          "numberofItems": 12,
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Mike & Dean - Lightning Strikes",
+                "duration": "",
+                "composer": "Christie/Herbert",
+                "producer": "Daryl Dragon",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 1,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "The Association - Walk Away Renee",
+                "duration": "",
+                "composer": "Calilli/Brown/Sansone",
+                "producer": "Curt Becher",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 2,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Mike Love - The Letter",
+                "duration": "",
+                "composer": "Carson",
+                "producer": "Daryl Dragon",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 3,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Mike Love - The Locomotion",
+                "duration": "",
+                "composer": "Goffin/King",
+                "producer": "Daryl Dragon",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 4,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "The Ripchords - Sealed With A Kiss",
+                "duration": "",
+                "composer": "Geld/Udell",
+                "producer": "Terry Melcher",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 5,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Mike Love - Sugar Shack",
+                "duration": "",
+                "composer": "Voss/McCormack",
+                "producer": "Daryl Dragon",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 6,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 7,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Paul Revere & The Raiders - 96 Tears",
+                "duration": "",
+                "composer": "Martinez",
+                "producer": "Paul Revere",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 7,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 8,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Mike & Dean - Alley Oop",
+                "duration": "",
+                "composer": "Frazier",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 8,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": true
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 9,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Dean Torrence - Baby Talk",
+                "duration": "",
+                "composer": "Schwartz",
+                "producer": "Daryl Dragon",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 9,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+			{
+              "@type": "ListItem",
+              "position": 10,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Dean Torrence - Wild Thing",
+                "duration": "",
+                "composer": "Taylor",
+                "producer": "Daryl Dragon",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 10,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+			{
+              "@type": "ListItem",
+              "position": 11,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Mike Love - Da Doo Run Run",
+                "duration": "",
+                "composer": "Greenwich/Barry/Spector",
+                "producer": "Daryl Dragon",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 11,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+			{
+              "@type": "ListItem",
+              "position": 12,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Mike & Dean - Her Boyfriend's Back",
+                "duration": "",
+                "composer": "Feldman/Goldstein/Gottehrer",
+                "producer": "Daryl Dragon",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 12,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            }
+          ]
+        }
+      },
+      "editions": [
+        {
+          "albumRelease": {
+            "@type": "MusicRelease",
+            "name": "Listen To The Air",
+            "sameAs": "",
+            "image": "img/various-artists/1983-mike-love-and-dean-torrence-listen-to-the-air/mike-love-and-dean-torrence-listen-to-the-air-cover.jpg",
+            "backCover": "",
+            "recordLabel": "Invitation",
+            "catalogNumber": "VIH 28138",
+            "datePublished": "01-01-1983",
+            "releaseDay": 0,
+            "releaseMonth": 0,
+            "releaseYear": 1983,
+            "category": "variousArtists",
+            "musicReleaseFormat": "LP",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "JP",
+            "asin": "",
+            "amazonUs": "",
+            "amazonUk": "",
+            "amazonCa": "",
+            "amazonEs": "",
+            "amazonFr": "",
+            "amazonIt": "",
+            "amazonDe": "",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": ""
+          }
+        }
+      ]
+    },
+    {
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "MusicAlbum",
+        "albumProductionType": "StudioAlbum",
+        "uniqueId": "the-association-new-memories",
+        "name": "The Association: New Memories",
+        "sameAs": "",
+        "image": "img/various-artists/1983-the-association-new-memories/the-association-new-memories-cover.jpg",
+        "backCover": "",
+        "publisher": "Hitbound Records",
+        "catalogNumber": "51-3022",
+        "datePublished": "01-01-1983",
+        "releaseDay": 0,
+        "releaseMonth": 0,
+        "releaseYear": 1983,
+        "recordingStartDay": 1,
+        "recordingStartMonth": 1,
+        "recordingStartYear": 1,
+        "recordingEndDay": 1,
+        "recordingEndMonth": 1,
+        "recordingEndYear": 1,
+        "byArtist": "The Beach Boys",
+        "producer": "The Association. Jim Studer. Bobby Vee",
+        "duration": "",
+        "numberOfDiscs": 1,
+        "country": "JP",
+        "billboardPosition": "Did not chart",
+        "unitsSold": 0,
+        "riaa": "",
+        "aggregateRating": 2.5,
+        "relevance": 1,
+        "backgroundColor": "#D0736C",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": true,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": false,
+          "book": false
+        },
+        "track": {
+          "@type": "ItemList",
+          "numberofItems": 10,
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "The Association - Memories Are Made Of This",
+                "duration": "",
+                "composer": "Miller/Dehr/Gilkyson",
+                "producer": "The Association",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 1,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "The Association - Love Me Tender",
+                "duration": "",
+                "composer": "Presley/Matson",
+                "producer": "The Association",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 2,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "The Association - Breaking Up Is Hard To Do",
+                "duration": "",
+                "composer": "Sedaka/Greenfield",
+                "producer": "The Association",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 3,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "The Association - Oh Pretty Woman",
+                "duration": "",
+                "composer": "Orbison/Dees",
+                "producer": "The Association",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 4,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Bobby Vee - Fever",
+                "duration": "",
+                "composer": "Cooley/Davenport",
+                "producer": "Bobby Vee",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 5,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "The Association - World Without Love",
+                "duration": "",
+                "composer": "Lennon/McCartney",
+                "producer": "The Association",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 6,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 7,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "The Association - The Dock Of The Bay",
+                "duration": "",
+                "composer": "Redding/Cropper",
+                "producer": "The Association",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 7,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 8,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "The Association - It’s All In The Game",
+                "duration": "",
+                "composer": "Sigman/Dawes",
+                "producer": "The Association",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 8,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 9,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Mary MacGregor - Sugar Sugar",
+                "duration": "",
+                "composer": "Kim/Barry",
+                "producer": "Jim Studer",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 9,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+			{
+              "@type": "ListItem",
+              "position": 10,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Mike Love - Stagger Lee",
+                "duration": "",
+                "composer": "Price/Logan",
+                "producer": "Jim Studer",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 10,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": true
+              }
+            }
+          ]
+        }
+      },
+      "editions": [
+        {
+          "albumRelease": {
+            "@type": "MusicRelease",
+            "name": "The Association: New Memories",
+            "sameAs": "",
+            "image": "img/various-artists/1983-the-association-new-memories/the-association-new-memories-cover.jpg",
+            "backCover": "",
+            "recordLabel": "Hitbound Records",
+            "catalogNumber": "51-3022",
+            "datePublished": "01-01-1983",
+            "releaseDay": 0,
+            "releaseMonth": 0,
+            "releaseYear": 1983,
+            "category": "variousArtists",
+            "musicReleaseFormat": "LP",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "US",
+            "asin": "B0077RGXWS",
+            "amazonUs": "http://amzn.to/2bpqBUB",
+            "amazonUk": "http://amzn.to/2bbgBzr",
+            "amazonCa": "http://amzn.to/2bpqBUB",
+            "amazonEs": "http://amzn.to/2bbgBzr",
+            "amazonFr": "http://amzn.to/2bwpKRo",
+            "amazonIt": "http://amzn.to/2bbgfZy",
+            "amazonDe": "http://amzn.to/2bImJw5",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": ""
+          }
+        }
+      ]
+    },
+    {
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "MusicAlbum",
+        "albumProductionType": "StudioAlbum",
+        "uniqueId": "christmas-party",
+        "name": "Christmas Party",
+        "sameAs": "",
+        "image": "img/various-artists/1983-christmas-party/christmas-party-cover.jpg",
+        "backCover": "",
+        "publisher": "Realistic",
+        "catalogNumber": "1003",
+        "datePublished": "09-01-1983",
+        "releaseDay": 0,
+        "releaseMonth": 9,
+        "releaseYear": 1983,
+        "recordingStartDay": 1,
+        "recordingStartMonth": 1,
+        "recordingStartYear": 1,
+        "recordingEndDay": 1,
+        "recordingEndMonth": 1,
+        "recordingEndYear": 1,
+        "byArtist": "The Beach Boys",
+        "producer": "Jeff Foskett. Jim Studer. Dick Hieronymus. Paul Revere. Adrian Baker",
+        "duration": "",
+        "numberOfDiscs": 1,
+        "country": "US",
+        "billboardPosition": "Did not chart",
+        "unitsSold": 0,
+        "riaa": "",
+        "aggregateRating": 2,
+        "relevance": 1,
+        "backgroundColor": "#04A46E",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": true,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": false,
+          "book": false
+        },
+        "track": {
+          "@type": "ItemList",
+          "numberofItems": 12,
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Various - Carol Of The Bells",
+                "duration": "",
+                "composer": "Leontovych/Hohman",
+                "producer": "Jeff Foskett",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 1,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Merrilee Rush - White Christmas",
+                "duration": "",
+                "composer": "Berlin",
+                "producer": "Paul Revere",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 2,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Three Dog Night - Rocking Around The Christmas Tree",
+                "duration": "",
+                "composer": "Marks",
+                "producer": "Jim Studer",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 3,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Paul Revere & The Raiders - Jingle Bells",
+                "duration": "",
+                "composer": "Pierpont",
+                "producer": "Paul Revere",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 4,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Paul Revere & The Raiders - The Christmas Song",
+                "duration": "",
+                "composer": "Wells/Tormé",
+                "producer": "Paul Revere",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 5,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Mike Love & Mary MacGregor - Do You Hear What I Hear",
+                "duration": "",
+                "composer": "Baker/Regney",
+                "producer": "Jim Studer",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 6,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": true
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 7,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Mike Love & Dean Torrence - Jingle Bell Rock",
+                "duration": "",
+                "composer": "Beal/Boothe",
+                "producer": "Adrian Baker",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 7,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": true
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 8,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "The Association - Sleigh Ride",
+                "duration": "",
+                "composer": "Anderson",
+                "producer": "Dick Hieronymus",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 8,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 9,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "The Association - Home For The Holidays",
+                "duration": "",
+                "composer": "Stillman",
+                "producer": "Dick Hieronymus",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 9,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+			{
+              "@type": "ListItem",
+              "position": 10,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Bobby Goldsboro - Winter Wonderland",
+                "duration": "",
+                "composer": "Bernard/Smith",
+                "producer": "Jeff Foskett",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 10,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+						{
+              "@type": "ListItem",
+              "position": 11,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Mike Love - Have Yourself A Merry Little Christmas",
+                "duration": "",
+                "composer": "Martin/Blane",
+                "producer": "Dick Hieronymus",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 11,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": true
+              }
+            },
+						{
+              "@type": "ListItem",
+              "position": 12,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Various - We Wish You A Merry Christmas",
+                "duration": "",
+                "composer": "Traditional",
+                "producer": "Jeff Foskett",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 12,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            }
+          ]
+        }
+      },
+      "editions": [
+        {
+          "albumRelease": {
+            "@type": "MusicRelease",
+            "name": "Christmas Party",
+            "sameAs": "",
+            "image": "img/various-artists/1983-christmas-party/christmas-party-cover.jpg",
+            "backCover": "",
+            "recordLabel": "Realistic",
+            "catalogNumber": "1003",
+            "datePublished": "09-01-1983",
+            "releaseDay": 0,
+            "releaseMonth": 9,
+            "releaseYear": 1983,
+            "category": "variousArtists",
+            "musicReleaseFormat": "LP",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "US",
+            "asin": "B00E1RLANE",
+            "amazonUs": "http://amzn.to/2bwy6Z4",
+            "amazonUk": "http://amzn.to/2bwy6Z4",
+            "amazonCa": "http://amzn.to/2bwy6Z4",
+            "amazonEs": "http://amzn.to/2bwy6Z4",
+            "amazonFr": "http://amzn.to/2bwy6Z4",
+            "amazonIt": "http://amzn.to/2bwy6Z4",
+            "amazonDe": "http://amzn.to/2bwy6Z4",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": ""
+          }
+        }
+      ]
+    },
+    {
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "MusicAlbum",
+        "albumProductionType": "StudioAlbum",
+        "uniqueId": "up-the-creek-soundtrack",
+        "name": "Up The Creek: Original Soundtrack From The Motion Picture",
+        "sameAs": "",
+        "image": "img/various-artists/1984-up-the-creek-soundtrack/up-the-creek-soundtrack-cover.jpg",
+        "backCover": "",
+        "publisher": "Pasha",
+        "catalogNumber": "SZ 39333",
+        "datePublished": "04-01-1984",
+        "releaseDay": 0,
+        "releaseMonth": 4,
+        "releaseYear": 1984,
+        "recordingStartDay": 1,
+        "recordingStartMonth": 1,
+        "recordingStartYear": 1,
+        "recordingEndDay": 1,
+        "recordingEndMonth": 1,
+        "recordingEndYear": 1,
+        "byArtist": "The Beach Boys",
+        "producer": "Spencer Proffer",
+        "duration": "",
+        "numberOfDiscs": 1,
+        "country": "US",
+        "billboardPosition": "Did not chart",
+        "unitsSold": 0,
+        "riaa": "",
+        "aggregateRating": 2.5,
+        "relevance": 1,
+        "backgroundColor": "#A6BCD3",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": true,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": false,
+          "book": false
+        },
+        "track": {
+          "@type": "ItemList",
+          "numberofItems": 10,
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Cheap Trick - Up The Creek",
+                "duration": "",
+                "composer": "Bishop/Nielsen",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 1,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Heart - The Heat",
+                "duration": "",
+                "composer": "Bishop",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 2,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Kick Axe - 30 Days In The Hole",
+                "duration": "",
+                "composer": "Marriot",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 3,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Ian Hunter - Great Expectations (You Never Know What To Expect)",
+                "duration": "",
+                "composer": "Hunter",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 4,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "The Beach Boys - Chasin' The Sky",
+                "duration": "",
+                "composer": "Bishop",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 5,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": true
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Shooting Star - Get Ready Boy",
+                "duration": "",
+                "composer": "West/McLain",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 6,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 7,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Danny Spanos - Passion In The Dark (One Track Heart)",
+                "duration": "",
+                "composer": "Appice/Hitchings/Bishop",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 7,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 8,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Shooting Star - Take It",
+                "duration": "",
+                "composer": "West/McLain",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 8,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 9,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Randy Bishop - Two Hearts On The Loose",
+                "duration": "",
+                "composer": "Bishop",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 9,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+			{
+              "@type": "ListItem",
+              "position": 10,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Shooting Star - Get Ready Boy (Instrumental)",
+                "duration": "",
+                "composer": "West/McLain",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 10,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            }
+          ]
+        }
+      },
+      "editions": [
+        {
+          "albumRelease": {
+            "@type": "MusicRelease",
+            "name": "Up The Creek: Original Soundtrack From The Motion Picture",
+            "sameAs": "",
+            "image": "img/various-artists/1984-up-the-creek-soundtrack/up-the-creek-soundtrack-cover.jpg",
+            "backCover": "",
+            "recordLabel": "Pasha",
+            "catalogNumber": "SZ 39333",
+            "datePublished": "04-01-1984",
+            "releaseDay": 0,
+            "releaseMonth": 4,
+            "releaseYear": 1984,
+            "category": "variousArtists",
+            "musicReleaseFormat": "LP",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "US",
+            "asin": "B00KRHVMJY",
+            "amazonUs": "http://amzn.to/2bzVjL8",
+            "amazonUk": "http://amzn.to/2bwyCbU",
+            "amazonCa": "http://amzn.to/2bbnYFd",
+            "amazonEs": "http://amzn.to/2bwDICL",
+            "amazonFr": "http://amzn.to/2bwzwVT",
+            "amazonIt": "http://amzn.to/2bJeoJt",
+            "amazonDe": "http://amzn.to/2bJfLaP",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": ""
+          }
+        },
+        {
+          "albumRelease": {
+            "@type": "MusicRelease",
+            "name": "Up The Creek: Original Soundtrack From The Motion Picture",
+            "sameAs": "",
+            "image": "img/various-artists/1984-up-the-creek-soundtrack/up-the-creek-soundtrack-cover.jpg",
+            "backCover": "",
+            "recordLabel": "CBS Records",
+            "catalogNumber": "",
+            "datePublished": "01-01-2001",
+            "releaseDay": 0,
+            "releaseMonth": 0,
+            "releaseYear": 2001,
+            "category": "variousArtists",
+            "musicReleaseFormat": "CD",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "UK",
+            "asin": "B007O0QK2G",
+            "amazonUs": "http://amzn.to/2bbqxY9",
+            "amazonUk": "http://amzn.to/2bbqxY9",
+            "amazonCa": "http://amzn.to/2bbqxY9",
+            "amazonEs": "http://amzn.to/2bbqxY9",
+            "amazonFr": "http://amzn.to/2bbqxY9",
+            "amazonIt": "http://amzn.to/2bbqxY9",
+            "amazonDe": "http://amzn.to/2bbqxY9",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": ""
+          }
+        }
+      ]
+    },
+    {
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "MusicAlbum",
+        "albumProductionType": "StudioAlbum",
+        "uniqueId": "fourth-of-july",
+        "name": "Fourth Of July: A Rockin' Celebration Of America",
+        "sameAs": "",
+        "image": "img/various-artists/1986-fourth-of-july/fourth-of-july-cover.jpg",
+        "backCover": "",
+        "publisher": "Love Foundation",
+        "catalogNumber": "PLAT-86",
+        "datePublished": "12-01-1986",
+        "releaseDay": 0,
+        "releaseMonth": 12,
+        "releaseYear": 1986,
+        "recordingStartDay": 1,
+        "recordingStartMonth": 1,
+        "recordingStartYear": 1,
+        "recordingEndDay": 1,
+        "recordingEndMonth": 1,
+        "recordingEndYear": 1,
+        "byArtist": "The Beach Boys",
+        "producer": "Ted Mather. Mike Love and Ron Altbach (Executive Producers)",
+        "duration": "",
+        "numberOfDiscs": 1,
+        "country": "US",
+        "billboardPosition": "Did not chart",
+        "unitsSold": 0,
+        "riaa": "",
+        "aggregateRating": 3,
+        "relevance": 1,
+        "backgroundColor": "#E29337",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": true,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": false,
+          "book": false
+        },
+        "track": {
+          "@type": "ItemList",
+          "numberofItems": 11,
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Ringo Starr with The Beach Boys - Back In The USSR",
+                "duration": "",
+                "composer": "Lennon/McCartney",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 1,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": true
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "The Oak Ridge Boys - Elvira",
+                "duration": "",
+                "composer": "Frazier",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 2,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "The Beach Boys and The Oak Ridge Boys - Come Go With Me",
+                "duration": "",
+                "composer": "Quick",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 3,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": true
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Joe Ely - Fade Away",
+                "duration": "",
+                "composer": "Holly",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 4,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Four Tops - Wake Me Shake Me",
+                "duration": "",
+                "composer": "Holland/Dozier/Holland",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 5,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Mike Love & Friends - Happy Birthday, America",
+                "duration": "",
+                "composer": "Griffin/Mather",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 6,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": true
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 7,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Three Dog Night - Joy To The World",
+                "duration": "",
+                "composer": "Axton",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 7,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 8,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "America - Sister Golden Hair",
+                "duration": "",
+                "composer": "Beckley",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 8,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 9,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Bellamy Brothers - Old Hippie",
+                "duration": "",
+                "composer": "Bellamy",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 9,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+			{
+              "@type": "ListItem",
+              "position": 10,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "The Beach Boys with Julio Iglesias - Surfer Girl",
+                "duration": "",
+                "composer": "B.Wilson",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 10,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": true
+              }
+            },
+			{
+              "@type": "ListItem",
+              "position": 11,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "The Beach Boys, Jimmy Page and Friends - Barbara Ann",
+                "duration": "",
+                "composer": "Fassert",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 11,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": true
+              }
+            }
+          ]
+        }
+      },
+      "editions": [
+        {
+          "albumRelease": {
+            "@type": "MusicRelease",
+            "name": "Fourth Of July: A Rockin' Celebration Of America",
+            "sameAs": "",
+            "image": "img/various-artists/1986-fourth-of-july/fourth-of-july-cover.jpg",
+            "backCover": "",
+            "recordLabel": "Love Foundation",
+            "catalogNumber": "PLAT-86",
+            "datePublished": "12-01-1986",
+            "releaseDay": 0,
+            "releaseMonth": 12,
+            "releaseYear": 1986,
+            "category": "variousArtists",
+            "musicReleaseFormat": "LP",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "US",
+            "asin": "B00NJ7IHZQ",
+            "amazonUs": "http://amzn.to/2bq1DVa",
+            "amazonUk": "http://amzn.to/2bq1DVa",
+            "amazonCa": "http://amzn.to/2bq1DVa",
+            "amazonEs": "http://amzn.to/2bq1DVa",
+            "amazonFr": "http://amzn.to/2bq1DVa",
+            "amazonIt": "http://amzn.to/2bq1DVa",
+            "amazonDe": "http://amzn.to/2bq1DVa",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": ""
+          }
+        }
+      ]
+    },
+    {
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "MusicAlbum",
+        "albumProductionType": "StudioAlbum",
+        "uniqueId": "folkways-a-vision-shared",
+        "name": "Folkways: A Vision Shared",
+        "sameAs": "",
+        "image": "img/various-artists/1988-folkways-a-vision-shared/folkways-a-vision-shared-cover.jpg",
+        "backCover": "",
+        "publisher": "Columbia",
+        "catalogNumber": "44034",
+        "datePublished": "08-23-1988",
+        "releaseDay": 23,
+        "releaseMonth": 8,
+        "releaseYear": 1988,
+        "recordingStartDay": 1,
+        "recordingStartMonth": 1,
+        "recordingStartYear": 1,
+        "recordingEndDay": 1,
+        "recordingEndMonth": 1,
+        "recordingEndYear": 1,
+        "byArtist": "The Beach Boys",
+        "producer": "Harold Leventhal",
+        "duration": "",
+        "numberOfDiscs": 1,
+        "country": "US",
+        "billboardPosition": "Did not chart",
+        "unitsSold": 0,
+        "riaa": "",
+        "aggregateRating": 4,
+        "relevance": 1,
+        "backgroundColor": "#856645",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": true,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": false,
+          "book": false
+        },
+        "track": {
+          "@type": "ItemList",
+          "numberofItems": 14,
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Sweet Honey In The Rock - Sylvie",
+                "duration": "",
+                "composer": "Ledbetter/Lomax/Lomax",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 1,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Bob Dylan - Pretty Boy Floyd",
+                "duration": "",
+                "composer": "Guthrie",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 2,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "John Cougar Mellencamp - Do Re Mi",
+                "duration": "",
+                "composer": "Guthrie",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 3,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Bruce Springsteen - I Ain't Got No Home",
+                "duration": "",
+                "composer": "Guthrie",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 4,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "U2 - Jesus Christ",
+                "duration": "",
+                "composer": "Guthrie",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 5,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Little Richard - Rock Island Line",
+                "duration": "",
+                "composer": "Ledbetter/Lomax/Lomax",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 6,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 7,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Arlo Guthrie - East Texas Red",
+                "duration": "",
+                "composer": "Guthrie",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 7,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 8,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Willie Nelson - Philadelphia Lawyer",
+                "duration": "",
+                "composer": "Guthrie",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 8,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 9,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Emmylou Harris - Hobo's Lullaby",
+                "duration": "",
+                "composer": "Reeves",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 9,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+			{
+              "@type": "ListItem",
+              "position": 10,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Taj Mahal - The Bourgeois Blues",
+                "duration": "",
+                "composer": "Ledbetter/Lomax",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 10,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+			{
+              "@type": "ListItem",
+              "position": 11,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Sweet Honey In The Rock - Gray Goose",
+                "duration": "",
+                "composer": "Lomax",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 11,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+			{
+              "@type": "ListItem",
+              "position": 12,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Brian Wilson - Goodnight Irene",
+                "duration": "",
+                "composer": "Ledbetter",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 12,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": true
+              }
+            },
+			{
+              "@type": "ListItem",
+              "position": 13,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Bruce Springsteen - Vigilante Man",
+                "duration": "",
+                "composer": "Guthrie",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 13,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+			{
+              "@type": "ListItem",
+              "position": 14,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Pete Seeger - This Land Is Your Land",
+                "duration": "",
+                "composer": "Guthrie",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 14,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            }
+          ]
+        }
+      },
+      "editions": [
+        {
+          "albumRelease": {
+            "@type": "MusicRelease",
+            "name": "Folkways: A Vision Shared",
+            "sameAs": "",
+            "image": "img/various-artists/1988-folkways-a-vision-shared/folkways-a-vision-shared-cover.jpg",
+            "backCover": "",
+            "recordLabel": "Columbia",
+            "catalogNumber": "44034",
+            "datePublished": "08-23-1988",
+            "releaseDay": 23,
+            "releaseMonth": 8,
+            "releaseYear": 1988,
+            "category": "variousArtists",
+            "musicReleaseFormat": "LP",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "US",
+            "asin": "B0012GMZHW",
+            "amazonUs": "",
+            "amazonUk": "",
+            "amazonCa": "",
+            "amazonEs": "",
+            "amazonFr": "",
+            "amazonIt": "",
+            "amazonDe": "",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": ""
+          }
+        }
+      ]
+    },
+    {
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "MusicAlbum",
+        "albumProductionType": "StudioAlbum",
+        "uniqueId": "everly-brothers-some-hearts",
+        "name": "The Everly Brothers: Some Hearts...",
+        "sameAs": "",
+        "image": "img/various-artists/1988-everly-brothers-some-hearts/everly-brothers-some-hearts-cover.jpg",
+        "backCover": "",
+        "publisher": "Mercury",
+        "catalogNumber": "832 520-1",
+        "datePublished": "11-04-1988",
+        "releaseDay": 4,
+        "releaseMonth": 11,
+        "releaseYear": 1988,
+        "recordingStartDay": 1,
+        "recordingStartMonth": 1,
+        "recordingStartYear": 1,
+        "recordingEndDay": 1,
+        "recordingEndMonth": 1,
+        "recordingEndYear": 1,
+        "byArtist": "The Beach Boys",
+        "producer": "The Everly Brothers, Larrie Londin",
+        "duration": "",
+        "numberOfDiscs": 1,
+        "country": "US",
+        "billboardPosition": "Did not chart",
+        "unitsSold": 0,
+        "riaa": "",
+        "aggregateRating": 3,
+        "relevance": 1,
+        "backgroundColor": "#76929E",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": true,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": false,
+          "book": false
+        },
+        "track": {
+          "@type": "ItemList",
+          "numberofItems": 10,
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Some Hearts",
+                "duration": "",
+                "composer": "D.Everly",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 1,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "The Everly Brothers with The Beach Boys - Don't Worry Baby",
+                "duration": "",
+                "composer": "B.Wilson/Christian",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 2,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": true
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Ride the Wind",
+                "duration": "",
+                "composer": "Durrill/P.Everly",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 3,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Be My Love Again",
+                "duration": "",
+                "composer": "D.Everly",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 4,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Can't Get over It",
+                "duration": "",
+                "composer": "D.Everly",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 5,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Angel Of The Darkness",
+                "duration": "",
+                "composer": "Durrill/P.Everly",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 6,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 7,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Brown Eyes",
+                "duration": "",
+                "composer": "Durrill/P.Everly",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 7,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 8,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Three Bands of Steel",
+                "duration": "",
+                "composer": "D.Everly",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 8,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 9,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Julianne",
+                "duration": "",
+                "composer": "Alger/Knobloch",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 9,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+			{
+              "@type": "ListItem",
+              "position": 10,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Any Single Solitary Heart",
+                "duration": "",
+                "composer": "Hiatt/Porter",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 10,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            }
+          ]
+        }
+      },
+      "editions": [
+        {
+          "albumRelease": {
+            "@type": "MusicRelease",
+            "name": "The Everly Brothers: Some Hearts...",
+            "sameAs": "",
+            "image": "img/various-artists/1988-everly-brothers-some-hearts/everly-brothers-some-hearts-cover.jpg",
+            "backCover": "",
+            "recordLabel": "Mercury",
+            "catalogNumber": "832 520-1",
+            "datePublished": "11-04-1988",
+            "releaseDay": 4,
+            "releaseMonth": 11,
+            "releaseYear": 1988,
+            "category": "variousArtists",
+            "musicReleaseFormat": "LP",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "US",
+            "asin": "B000WGKNS6",
             "amazonUs": "",
             "amazonUk": "",
             "amazonCa": "",
@@ -49352,7 +51478,7 @@
           "solo": false,
           "digital": false,
           "christmas": false,
-          "variousArtists": true,
+          "variousArtists": false,
           "collaboration": false,
           "bootleg": false,
           "production": true,
