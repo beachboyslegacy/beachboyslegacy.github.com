@@ -28628,116 +28628,8 @@
         },
         "track": {
           "@type": "ItemList",
-          "numberofItems": 11,
+          "numberofItems": 1,
           "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Joan Baez - The Night They Drove Old Dixie Down",
-                "duration": "",
-                "composer": "",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 1,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Joan Baez - Let It Be",
-                "duration": "",
-                "composer": "",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 2,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Linda Ronstadt - Zhe Only Mama That'll Walk The Line",
-                "duration": "",
-                "composer": "",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 3,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 4,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Linda Ronstadt - Lovesick Blues",
-                "duration": "",
-                "composer": "",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 4,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 5,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Merry Clayton - The Times They Are A Changin'",
-                "duration": "",
-                "composer": "",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 5,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 6,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Merry Clayton - Bridge Over Troubled Water",
-                "duration": "",
-                "composer": "",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 6,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
             {
               "@type": "ListItem",
               "position": 7,
@@ -28750,78 +28642,6 @@
                 "leadVocal": "",
                 "disc": 1,
                 "trackNumber": 7,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": true
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 8,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Country Joe McDonald - Entertainment Is My Business",
-                "duration": "",
-                "composer": "",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 8,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 9,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Country Joe McDonald - Air Algiers",
-                "duration": "",
-                "composer": "",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 9,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 10,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Kris Kristofferson - The Law Is For The Protection Of The People",
-                "duration": "",
-                "composer": "",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 10,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 11,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Kris Kristofferson - To Beat The Devil",
-                "duration": "",
-                "composer": "",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 11,
                 "trackLink": "",
                 "hit": false,
                 "inthit": false,
@@ -28904,7 +28724,7 @@
         "@type": "MusicAlbum",
         "albumProductionType": "StudioAlbum",
         "uniqueId": "americathon",
-        "name": "Americathon (Soundtrack)",
+        "name": "Americathon",
         "sameAs": "https://en.wikipedia.org/wiki/Americathon",
         "image": "img/various-artists/1979-americathon/americathon-cover.jpg",
         "backCover": "",
@@ -28954,7 +28774,7 @@
         },
         "track": {
           "@type": "ItemList",
-          "numberofItems": 9,
+          "numberofItems": 1,
           "itemListElement": [
             {
               "@type": "ListItem",
@@ -28971,150 +28791,6 @@
                 "trackLink": "",
                 "hit": false,
                 "inthit": false,
-                "gem": true
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Eddie Money - Get A Move On",
-                "duration": "",
-                "composer": "",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 2,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Eddie Money - Open Up Your Heart",
-                "duration": "",
-                "composer": "",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 3,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 4,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Elvis Costello - (I Don't Want To Go To) Chelsea",
-                "duration": "",
-                "composer": "",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 4,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 5,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Elvis Costello - Crawling To The U.S.A.",
-                "duration": "",
-                "composer": "",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 5,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 6,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Nick Lowe - Without Love",
-                "duration": "",
-                "composer": "",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 6,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 7,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Tom Scott - Car Wars",
-                "duration": "",
-                "composer": "",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 7,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 8,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Zane Buzby - Don't You Ever Say No",
-                "duration": "",
-                "composer": "",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 8,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 9,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Harvey Korman - Gold",
-                "duration": "",
-                "composer": "",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 9,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
                 "gem": false
               }
             }
@@ -29125,7 +28801,7 @@
         {
           "albumRelease": {
             "@type": "MusicRelease",
-            "name": "Americathon (Soundtrack)",
+            "name": "Americathon",
             "sameAs": "https://en.wikipedia.org/wiki/Americathon",
             "image": "img/various-artists/1979-americathon/americathon-cover.jpg",
             "backCover": "",
@@ -30831,7 +30507,7 @@
         "albumProductionType": "StudioAlbum",
         "uniqueId": "up-the-creek-soundtrack",
         "name": "Up The Creek: Original Soundtrack From The Motion Picture",
-        "sameAs": "",
+        "sameAs": "https://en.wikipedia.org/wiki/Up_the_Creek_(1984_film)",
         "image": "img/various-artists/1984-up-the-creek-soundtrack/up-the-creek-soundtrack-cover.jpg",
         "backCover": "",
         "publisher": "Pasha",
@@ -30880,80 +30556,8 @@
         },
         "track": {
           "@type": "ItemList",
-          "numberofItems": 10,
+          "numberofItems": 1,
           "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Cheap Trick - Up The Creek",
-                "duration": "",
-                "composer": "Bishop/Nielsen",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 1,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Heart - The Heat",
-                "duration": "",
-                "composer": "Bishop",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 2,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Kick Axe - 30 Days In The Hole",
-                "duration": "",
-                "composer": "Marriot",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 3,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 4,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Ian Hunter - Great Expectations (You Never Know What To Expect)",
-                "duration": "",
-                "composer": "Hunter",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 4,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
             {
               "@type": "ListItem",
               "position": 5,
@@ -30969,96 +30573,6 @@
                 "trackLink": "",
                 "hit": false,
                 "inthit": false,
-                "gem": true
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 6,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Shooting Star - Get Ready Boy",
-                "duration": "",
-                "composer": "West/McLain",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 6,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 7,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Danny Spanos - Passion In The Dark (One Track Heart)",
-                "duration": "",
-                "composer": "Appice/Hitchings/Bishop",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 7,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 8,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Shooting Star - Take It",
-                "duration": "",
-                "composer": "West/McLain",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 8,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 9,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Randy Bishop - Two Hearts On The Loose",
-                "duration": "",
-                "composer": "Bishop",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 9,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-			{
-              "@type": "ListItem",
-              "position": 10,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Shooting Star - Get Ready Boy (Instrumental)",
-                "duration": "",
-                "composer": "West/McLain",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 10,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
                 "gem": false
               }
             }
@@ -31070,7 +30584,7 @@
           "albumRelease": {
             "@type": "MusicRelease",
             "name": "Up The Creek: Original Soundtrack From The Motion Picture",
-            "sameAs": "",
+            "sameAs": "https://en.wikipedia.org/wiki/Up_the_Creek_(1984_film)",
             "image": "img/various-artists/1984-up-the-creek-soundtrack/up-the-creek-soundtrack-cover.jpg",
             "backCover": "",
             "recordLabel": "Pasha",
@@ -31102,7 +30616,7 @@
           "albumRelease": {
             "@type": "MusicRelease",
             "name": "Up The Creek: Original Soundtrack From The Motion Picture",
-            "sameAs": "",
+            "sameAs": "https://en.wikipedia.org/wiki/Up_the_Creek_(1984_film)",
             "image": "img/various-artists/1984-up-the-creek-soundtrack/up-the-creek-soundtrack-cover.jpg",
             "backCover": "",
             "recordLabel": "CBS Records",
@@ -31433,7 +30947,7 @@
         "albumProductionType": "StudioAlbum",
         "uniqueId": "folkways-a-vision-shared",
         "name": "Folkways: A Vision Shared",
-        "sameAs": "",
+        "sameAs": "https://en.wikipedia.org/wiki/Folkways:_A_Vision_Shared",
         "image": "img/various-artists/1988-folkways-a-vision-shared/folkways-a-vision-shared-cover.jpg",
         "backCover": "",
         "publisher": "Columbia",
@@ -31482,206 +30996,8 @@
         },
         "track": {
           "@type": "ItemList",
-          "numberofItems": 14,
+          "numberofItems": 1,
           "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Sweet Honey In The Rock - Sylvie",
-                "duration": "",
-                "composer": "Ledbetter/Lomax/Lomax",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 1,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Bob Dylan - Pretty Boy Floyd",
-                "duration": "",
-                "composer": "Guthrie",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 2,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "John Cougar Mellencamp - Do Re Mi",
-                "duration": "",
-                "composer": "Guthrie",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 3,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 4,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Bruce Springsteen - I Ain't Got No Home",
-                "duration": "",
-                "composer": "Guthrie",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 4,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 5,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "U2 - Jesus Christ",
-                "duration": "",
-                "composer": "Guthrie",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 5,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 6,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Little Richard - Rock Island Line",
-                "duration": "",
-                "composer": "Ledbetter/Lomax/Lomax",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 6,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 7,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Arlo Guthrie - East Texas Red",
-                "duration": "",
-                "composer": "Guthrie",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 7,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 8,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Willie Nelson - Philadelphia Lawyer",
-                "duration": "",
-                "composer": "Guthrie",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 8,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 9,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Emmylou Harris - Hobo's Lullaby",
-                "duration": "",
-                "composer": "Reeves",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 9,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-			{
-              "@type": "ListItem",
-              "position": 10,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Taj Mahal - The Bourgeois Blues",
-                "duration": "",
-                "composer": "Ledbetter/Lomax",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 10,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-			{
-              "@type": "ListItem",
-              "position": 11,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Sweet Honey In The Rock - Gray Goose",
-                "duration": "",
-                "composer": "Lomax",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 11,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
 			{
               "@type": "ListItem",
               "position": 12,
@@ -31697,42 +31013,6 @@
                 "trackLink": "",
                 "hit": false,
                 "inthit": false,
-                "gem": true
-              }
-            },
-			{
-              "@type": "ListItem",
-              "position": 13,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Bruce Springsteen - Vigilante Man",
-                "duration": "",
-                "composer": "Guthrie",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 13,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-			{
-              "@type": "ListItem",
-              "position": 14,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Pete Seeger - This Land Is Your Land",
-                "duration": "",
-                "composer": "Guthrie",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 14,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
                 "gem": false
               }
             }
@@ -31744,7 +31024,7 @@
           "albumRelease": {
             "@type": "MusicRelease",
             "name": "Folkways: A Vision Shared",
-            "sameAs": "",
+            "sameAs": "https://en.wikipedia.org/wiki/Folkways:_A_Vision_Shared",
             "image": "img/various-artists/1988-folkways-a-vision-shared/folkways-a-vision-shared-cover.jpg",
             "backCover": "",
             "recordLabel": "Columbia",
@@ -31754,18 +31034,18 @@
             "releaseMonth": 8,
             "releaseYear": 1988,
             "category": "variousArtists",
-            "musicReleaseFormat": "LP",
+            "musicReleaseFormat": "CD",
             "duration": "",
             "numberOfDiscs": 1,
             "country": "US",
             "asin": "B0012GMZHW",
-            "amazonUs": "",
-            "amazonUk": "",
-            "amazonCa": "",
-            "amazonEs": "",
-            "amazonFr": "",
-            "amazonIt": "",
-            "amazonDe": "",
+            "amazonUs": "http://amzn.to/2bsmeZ0",
+            "amazonUk": "http://amzn.to/2bwNBy6",
+            "amazonCa": "http://amzn.to/2bbMokM",
+            "amazonEs": "http://amzn.to/2bAIrn0",
+            "amazonFr": "http://amzn.to/2bCBvGY",
+            "amazonIt": "http://amzn.to/2byV8km",
+            "amazonDe": "http://amzn.to/2c2iPT2",
             "amazonJp": "",
             "notes": "",
             "review": "",
@@ -31781,7 +31061,7 @@
         "albumProductionType": "StudioAlbum",
         "uniqueId": "everly-brothers-some-hearts",
         "name": "The Everly Brothers: Some Hearts...",
-        "sameAs": "",
+        "sameAs": "https://en.wikipedia.org/wiki/Some_Hearts_(The_Everly_Brothers_album)",
         "image": "img/various-artists/1988-everly-brothers-some-hearts/everly-brothers-some-hearts-cover.jpg",
         "backCover": "",
         "publisher": "Mercury",
@@ -31830,26 +31110,8 @@
         },
         "track": {
           "@type": "ItemList",
-          "numberofItems": 10,
+          "numberofItems": 1,
           "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Some Hearts",
-                "duration": "",
-                "composer": "D.Everly",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 1,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
             {
               "@type": "ListItem",
               "position": 2,
@@ -31865,147 +31127,117 @@
                 "trackLink": "",
                 "hit": false,
                 "inthit": false,
-                "gem": true
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Ride the Wind",
-                "duration": "",
-                "composer": "Durrill/P.Everly",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 3,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
                 "gem": false
               }
-            },
-            {
-              "@type": "ListItem",
-              "position": 4,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Be My Love Again",
-                "duration": "",
-                "composer": "D.Everly",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 4,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 5,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Can't Get over It",
-                "duration": "",
-                "composer": "D.Everly",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 5,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 6,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Angel Of The Darkness",
-                "duration": "",
-                "composer": "Durrill/P.Everly",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 6,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 7,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Brown Eyes",
-                "duration": "",
-                "composer": "Durrill/P.Everly",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 7,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
+            }
+          ]
+        }
+      },
+      "editions": [
+        {
+          "albumRelease": {
+            "@type": "MusicRelease",
+            "name": "The Everly Brothers: Some Hearts...",
+            "sameAs": "https://en.wikipedia.org/wiki/Some_Hearts_(The_Everly_Brothers_album)",
+            "image": "img/various-artists/1988-everly-brothers-some-hearts/everly-brothers-some-hearts-cover.jpg",
+            "backCover": "",
+            "recordLabel": "Mercury",
+            "catalogNumber": "832 520-1",
+            "datePublished": "11-04-1988",
+            "releaseDay": 4,
+            "releaseMonth": 11,
+            "releaseYear": 1988,
+            "category": "variousArtists",
+            "musicReleaseFormat": "CD",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "US",
+            "asin": "B000WGKNS6",
+            "amazonUs": "http://amzn.to/2bsowaf",
+            "amazonUk": "http://amzn.to/2byYvrO",
+            "amazonCa": "http://amzn.to/2bdxbwS",
+            "amazonEs": "http://amzn.to/2c2m3G3",
+            "amazonFr": "http://amzn.to/2bAL5cp",
+            "amazonIt": "http://amzn.to/2bAMob3",
+            "amazonDe": "http://amzn.to/2c2lUCk",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": ""
+          }
+        }
+      ]
+    },
+    {
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "MusicAlbum",
+        "albumProductionType": "StudioAlbum",
+        "uniqueId": "shes-out-of-control",
+        "name": "She's Out of Control",
+        "sameAs": "https://en.wikipedia.org/wiki/She%27s_Out_of_Control",
+        "image": "img/various-artists/1989-shes-out-of-control/shes-out-of-control-cover.jpg",
+        "backCover": "",
+        "publisher": "MCA",
+        "catalogNumber": "6281",
+        "datePublished": "05-01-1989",
+        "releaseDay": 0,
+        "releaseMonth": 5,
+        "releaseYear": 1989,
+        "recordingStartDay": 1,
+        "recordingStartMonth": 1,
+        "recordingStartYear": 1,
+        "recordingEndDay": 1,
+        "recordingEndMonth": 1,
+        "recordingEndYear": 1,
+        "byArtist": "The Beach Boys",
+        "producer": "Various producers",
+        "duration": "",
+        "numberOfDiscs": 1,
+        "country": "US",
+        "billboardPosition": "Did not chart",
+        "unitsSold": 0,
+        "riaa": "",
+        "aggregateRating": 3,
+        "relevance": 1,
+        "backgroundColor": "#E27F33",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": true,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": false,
+          "book": false
+        },
+        "track": {
+          "@type": "ItemList",
+          "numberofItems": 1,
+          "itemListElement": [
             {
               "@type": "ListItem",
               "position": 8,
               "item": {
                 "@type": "MusicRecording",
-                "name": "Three Bands of Steel",
+                "name": "Brian Wilson - Daddy's Little Girl",
                 "duration": "",
-                "composer": "D.Everly",
+                "composer": "B.Wilson/Morgan/Landy",
                 "producer": "",
                 "leadVocal": "",
                 "disc": 1,
                 "trackNumber": 8,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 9,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Julianne",
-                "duration": "",
-                "composer": "Alger/Knobloch",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 9,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-			{
-              "@type": "ListItem",
-              "position": 10,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Any Single Solitary Heart",
-                "duration": "",
-                "composer": "Hiatt/Porter",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 10,
                 "trackLink": "",
                 "hit": false,
                 "inthit": false,
@@ -32019,22 +31251,884 @@
         {
           "albumRelease": {
             "@type": "MusicRelease",
-            "name": "The Everly Brothers: Some Hearts...",
-            "sameAs": "",
-            "image": "img/various-artists/1988-everly-brothers-some-hearts/everly-brothers-some-hearts-cover.jpg",
+            "name": "She's Out of Control: Original Motion Picture Soundtrack",
+            "sameAs": "https://en.wikipedia.org/wiki/She%27s_Out_of_Control",
+            "image": "img/various-artists/1989-shes-out-of-control/shes-out-of-control-cover.jpg",
             "backCover": "",
-            "recordLabel": "Mercury",
-            "catalogNumber": "832 520-1",
-            "datePublished": "11-04-1988",
-            "releaseDay": 4,
-            "releaseMonth": 11,
-            "releaseYear": 1988,
+            "recordLabel": "MCA",
+            "catalogNumber": "6281",
+            "datePublished": "05-01-1989",
+            "releaseDay": 1,
+            "releaseMonth": 5,
+            "releaseYear": 1989,
             "category": "variousArtists",
-            "musicReleaseFormat": "LP",
+            "musicReleaseFormat": "CD",
             "duration": "",
             "numberOfDiscs": 1,
             "country": "US",
-            "asin": "B000WGKNS6",
+            "asin": "B000008KN0",
+            "amazonUs": "http://amzn.to/2bJCLFJ",
+            "amazonUk": "http://amzn.to/2bAQ64E",
+            "amazonCa": "http://amzn.to/2biqKr2",
+            "amazonEs": "http://amzn.to/2bAOPue",
+            "amazonFr": "http://amzn.to/2bAPpYS",
+            "amazonIt": "http://amzn.to/2bz1Fvx",
+            "amazonDe": "http://amzn.to/2c2qPU4",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": ""
+          }
+        }
+      ]
+    },
+    {
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "MusicAlbum",
+        "albumProductionType": "StudioAlbum",
+        "uniqueId": "for-our-children",
+        "name": "For Our Children",
+        "sameAs": "",
+        "image": "img/various-artists/1991-for-our-children/for-our-children-cover.jpg",
+        "backCover": "",
+        "publisher": "Walt Disney Records",
+        "catalogNumber": "60616-2",
+        "datePublished": "05-01-1991",
+        "releaseDay": 0,
+        "releaseMonth": 5,
+        "releaseYear": 1991,
+        "recordingStartDay": 1,
+        "recordingStartMonth": 1,
+        "recordingStartYear": 1,
+        "recordingEndDay": 1,
+        "recordingEndMonth": 1,
+        "recordingEndYear": 1,
+        "byArtist": "The Beach Boys",
+        "producer": "Shepard Stern",
+        "duration": "",
+        "numberOfDiscs": 1,
+        "country": "US",
+        "billboardPosition": "Did not chart",
+        "unitsSold": 0,
+        "riaa": "",
+        "aggregateRating": 3,
+        "relevance": 1,
+        "backgroundColor": "#C4515E",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": true,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": false,
+          "book": false
+        },
+        "track": {
+          "@type": "ItemList",
+          "numberofItems": 1,
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 8,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Brian Wilson - County Feelin's",
+                "duration": "",
+                "composer": "B.Wilson/Morgan/Landy",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 8,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            }
+          ]
+        }
+      },
+      "editions": [
+        {
+          "albumRelease": {
+            "@type": "MusicRelease",
+            "name": "For Our Children To Benefit The Pediatric AIDS Foundation",
+            "sameAs": "",
+            "image": "img/various-artists/1991-for-our-children/for-our-children-cover.jpg",
+            "backCover": "",
+            "recordLabel": "Walt Disney Records",
+            "catalogNumber": "60616-2",
+            "datePublished": "05-01-1991",
+            "releaseDay": 1,
+            "releaseMonth": 5,
+            "releaseYear": 1991,
+            "category": "variousArtists",
+            "musicReleaseFormat": "CD",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "US",
+            "asin": "6302049997",
+            "amazonUs": "",
+            "amazonUk": "",
+            "amazonCa": "",
+            "amazonEs": "",
+            "amazonFr": "",
+            "amazonIt": "",
+            "amazonDe": "",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": ""
+          }
+        },
+		{
+          "albumRelease": {
+            "@type": "MusicRelease",
+            "name": "For Our Children: 10th Anniversary Edition",
+            "sameAs": "",
+            "image": "img/various-artists/1991-for-our-children/for-our-children-1999.jpg",
+            "backCover": "",
+            "recordLabel": "Kid Rhino",
+            "catalogNumber": "",
+            "datePublished": "10-19-1999",
+            "releaseDay": 19,
+            "releaseMonth": 10,
+            "releaseYear": 1999,
+            "category": "variousArtists",
+            "musicReleaseFormat": "CD",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "US",
+            "asin": "B00001WRKW",
+            "amazonUs": "http://amzn.to/2bisP6G",
+            "amazonUk": "http://amzn.to/2bM5Lh1",
+            "amazonCa": "http://amzn.to/2bitMeY",
+            "amazonEs": "http://amzn.to/2bz3usl",
+            "amazonFr": "http://amzn.to/2bz3GHX",
+            "amazonIt": "http://amzn.to/2bz3CYY",
+            "amazonDe": "http://amzn.to/2bCKZSy",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": ""
+          }
+        }
+      ]
+    },
+    {
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "MusicAlbum",
+        "albumProductionType": "StudioAlbum",
+        "uniqueId": "two-rooms",
+        "name": "Two Rooms: Celebrating The Songs Of Elton John & Bernie Taupin",
+        "sameAs": "https://en.wikipedia.org/wiki/Two_Rooms:_Celebrating_the_Songs_of_Elton_John_%26_Bernie_Taupin",
+        "image": "img/various-artists/1991-two-rooms/two-rooms-cover.jpg",
+        "backCover": "",
+        "publisher": "Mercury",
+        "catalogNumber": "845 749-2",
+        "datePublished": "05-01-1991",
+        "releaseDay": 0,
+        "releaseMonth": 5,
+        "releaseYear": 1991,
+        "recordingStartDay": 1,
+        "recordingStartMonth": 1,
+        "recordingStartYear": 1,
+        "recordingEndDay": 1,
+        "recordingEndMonth": 1,
+        "recordingEndYear": 1,
+        "byArtist": "The Beach Boys",
+        "producer": "Various producers",
+        "duration": "",
+        "numberOfDiscs": 1,
+        "country": "US",
+        "billboardPosition": "Did not chart",
+        "unitsSold": 0,
+        "riaa": "",
+        "aggregateRating": 4,
+        "relevance": 1,
+        "backgroundColor": "#29B1C7",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": true,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": false,
+          "book": false
+        },
+        "track": {
+          "@type": "ItemList",
+          "numberofItems": 1,
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "The Beach Boys - Crocodile Rock",
+                "duration": "",
+                "composer": "John/Taupin",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 5,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            }
+          ]
+        }
+      },
+      "editions": [
+		{
+          "albumRelease": {
+            "@type": "MusicRelease",
+            "name": "Two Rooms: Celebrating The Songs Of Elton John & Bernie Taupin",
+            "sameAs": "https://en.wikipedia.org/wiki/Two_Rooms:_Celebrating_the_Songs_of_Elton_John_%26_Bernie_Taupin",
+            "image": "img/various-artists/1991-two-rooms/two-rooms-cover.jpg",
+            "backCover": "",
+            "recordLabel": "Mercury",
+            "catalogNumber": "845 749-2",
+            "datePublished": "05-01-1991",
+            "releaseDay": 1,
+            "releaseMonth": 5,
+            "releaseYear": 1991,
+            "category": "variousArtists",
+            "musicReleaseFormat": "CD",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "US",
+            "asin": "B000001FXH",
+            "amazonUs": "http://amzn.to/2bc3gbr",
+            "amazonUk": "http://amzn.to/2bz8pcF",
+            "amazonCa": "http://amzn.to/2bCQeBM",
+            "amazonEs": "http://amzn.to/2bz83Da",
+            "amazonFr": "http://amzn.to/2bB06eb",
+            "amazonIt": "http://amzn.to/2bB2h14",
+            "amazonDe": "http://amzn.to/2bMaYWi",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": ""
+          }
+        }
+      ]
+    },
+    {
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "MusicAlbum",
+        "albumProductionType": "StudioAlbum",
+        "uniqueId": "trios-rob-wasserman",
+        "name": "Rob Wasserman: Trios",
+        "sameAs": "",
+        "image": "img/various-artists/1994-trios-rob-wasserman/trios-rob-wasserman-cover.jpg",
+        "backCover": "",
+        "publisher": "MCA",
+        "catalogNumber": "GRP 4021",
+        "datePublished": "02-01-1994",
+        "releaseDay": 0,
+        "releaseMonth": 2,
+        "releaseYear": 1994,
+        "recordingStartDay": 1,
+        "recordingStartMonth": 1,
+        "recordingStartYear": 1,
+        "recordingEndDay": 1,
+        "recordingEndMonth": 1,
+        "recordingEndYear": 1,
+        "byArtist": "The Beach Boys",
+        "producer": "Rob Wasserman & John Cutler",
+        "duration": "",
+        "numberOfDiscs": 1,
+        "country": "US",
+        "billboardPosition": "Did not chart",
+        "unitsSold": 0,
+        "riaa": "",
+        "aggregateRating": 4,
+        "relevance": 1,
+        "backgroundColor": "#74758D",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": true,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": false,
+          "book": false
+        },
+        "track": {
+          "@type": "ItemList",
+          "numberofItems": 1,
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Carnie Wilson & Brian Wilson - Fantasy Is Reality/Bells Of Madness",
+                "duration": "4:09",
+                "composer": "B.Wilson/Wasserman/Phillips",
+                "producer": "Don Was",
+                "leadVocal": "Brian Wilson, Carnie Wilson",
+                "disc": 1,
+                "trackNumber": 1,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            }
+          ]
+        }
+      },
+      "editions": [
+		{
+          "albumRelease": {
+            "@type": "MusicRelease",
+            "name": "Rob Wasserman: Trios",
+            "sameAs": "",
+            "image": "img/various-artists/1994-trios-rob-wasserman/trios-rob-wasserman-cover.jpg",
+            "backCover": "",
+            "recordLabel": "MCA",
+            "catalogNumber": "GRP 4021",
+            "datePublished": "02-01-1994",
+            "releaseDay": 1,
+            "releaseMonth": 2,
+            "releaseYear": 1994,
+            "category": "variousArtists",
+            "musicReleaseFormat": "CD",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "US",
+            "asin": "B000008CIZ",
+            "amazonUs": "http://amzn.to/2bCSpW3",
+            "amazonUk": "http://amzn.to/2bza42d",
+            "amazonCa": "http://amzn.to/2bc8jIM",
+            "amazonEs": "http://amzn.to/2bzafug",
+            "amazonFr": "http://amzn.to/2bf6J7P",
+            "amazonIt": "http://amzn.to/2bf7rBY",
+            "amazonDe": "http://amzn.to/2bzapBK",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": ""
+          }
+        },
+				{
+          "albumRelease": {
+            "@type": "MusicRelease",
+            "name": "Rob Wasserman: Trilogy",
+            "sameAs": "",
+            "image": "img/various-artists/1994-trios-rob-wasserman/trios-rob-wasserman-2004.jpg",
+            "backCover": "",
+            "recordLabel": "Rounder Records",
+            "catalogNumber": "11661-3225-2",
+            "datePublished": "08-03-2004",
+            "releaseDay": 3,
+            "releaseMonth": 8,
+            "releaseYear": 2004,
+            "category": "variousArtists",
+            "musicReleaseFormat": "CD",
+            "duration": "",
+            "numberOfDiscs": 3,
+            "country": "US",
+            "asin": "B000269RW4",
+            "amazonUs": "http://amzn.to/2bJP2Ka",
+            "amazonUk": "http://amzn.to/2bB4Mkc",
+            "amazonCa": "http://amzn.to/2bzbgTc",
+            "amazonEs": "http://amzn.to/2bB5m1f",
+            "amazonFr": "http://amzn.to/2bzaGVo",
+            "amazonIt": "http://amzn.to/2bL1Gc8",
+            "amazonDe": "http://amzn.to/2bB5g9X",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": ""
+          }
+        }
+      ]
+    },
+    {
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "MusicAlbum",
+        "albumProductionType": "StudioAlbum",
+        "uniqueId": "till-the-night-is-gone-a-tribute-to-doc-pomus",
+        "name": "Till The Night Is Gone: A Tribute To Doc Pomus",
+        "sameAs": "",
+        "image": "img/various-artists/1995-till-the-night-is-gone-a-tribute-to-doc-pomus/till-the-night-is-gone-a-tribute-to-doc-pomus-cover.jpg",
+        "backCover": "",
+        "publisher": "Rhino",
+        "catalogNumber": "R2 71878",
+        "datePublished": "03-28-1995",
+        "releaseDay": 28,
+        "releaseMonth": 3,
+        "releaseYear": 1995,
+        "recordingStartDay": 1,
+        "recordingStartMonth": 1,
+        "recordingStartYear": 1,
+        "recordingEndDay": 1,
+        "recordingEndMonth": 1,
+        "recordingEndYear": 1,
+        "byArtist": "The Beach Boys",
+        "producer": "Richard Foos, Sharyn Felder, Will Bratton & Robin Lerner (Executive Producers)",
+        "duration": "",
+        "numberOfDiscs": 1,
+        "country": "US",
+        "billboardPosition": "Did not chart",
+        "unitsSold": 0,
+        "riaa": "",
+        "aggregateRating": 4,
+        "relevance": 1,
+        "backgroundColor": "#BAB7B2",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": true,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": false,
+          "book": false
+        },
+        "track": {
+          "@type": "ItemList",
+          "numberofItems": 1,
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 13,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Brian Wilson - Sweets For My Sweet",
+                "duration": "2:21",
+                "composer": "Pomus/Shuman",
+                "producer": "Andy Paley",
+                "leadVocal": "Brian Wilson",
+                "disc": 1,
+                "trackNumber": 13,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            }
+          ]
+        }
+      },
+      "editions": [
+		{
+          "albumRelease": {
+            "@type": "MusicRelease",
+            "name": "Till The Night Is Gone: A Tribute To Doc Pomus",
+            "sameAs": "",
+            "image": "img/various-artists/1995-till-the-night-is-gone-a-tribute-to-doc-pomus/till-the-night-is-gone-a-tribute-to-doc-pomus-cover.jpg",
+            "backCover": "",
+            "recordLabel": "Rhino",
+            "catalogNumber": "R2 71878",
+            "datePublished": "03-28-1995",
+            "releaseDay": 28,
+            "releaseMonth": 3,
+            "releaseYear": 1995,
+            "category": "variousArtists",
+            "musicReleaseFormat": "CD",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "US",
+            "asin": "B0000033GU",
+            "amazonUs": "http://amzn.to/2bJR9NW",
+            "amazonUk": "http://amzn.to/2bx5GMw",
+            "amazonCa": "http://amzn.to/2bsGUQi",
+            "amazonEs": "http://amzn.to/2bL3sdo",
+            "amazonFr": "http://amzn.to/2bB6z8P",
+            "amazonIt": "http://amzn.to/2bB6XEl",
+            "amazonDe": "http://amzn.to/2c2KlQj",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": ""
+          }
+        }
+      ]
+    },
+    {
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "MusicAlbum",
+        "albumProductionType": "StudioAlbum",
+        "uniqueId": "for-the-love-of-harry-everybody-sings-nilsson",
+        "name": "For The Love Of Harry: Everybody Sings Nilsson",
+        "sameAs": "https://en.wikipedia.org/wiki/For_the_Love_of_Harry:_Everybody_Sings_Nilsson",
+        "image": "img/various-artists/1995-for-the-love-of-harry-everybody-sings-nilsson/for-the-love-of-harry-everybody-sings-nilsson-cover.jpg",
+        "backCover": "",
+        "publisher": "Music Masters Rock",
+        "catalogNumber": "0162-65127-2",
+        "datePublished": "05-09-1995",
+        "releaseDay": 9,
+        "releaseMonth": 5,
+        "releaseYear": 1995,
+        "recordingStartDay": 1,
+        "recordingStartMonth": 1,
+        "recordingStartYear": 1,
+        "recordingEndDay": 1,
+        "recordingEndMonth": 1,
+        "recordingEndYear": 1,
+        "byArtist": "The Beach Boys",
+        "producer": "Danny Kapilian and Al Kooper",
+        "duration": "",
+        "numberOfDiscs": 1,
+        "country": "US",
+        "billboardPosition": "Did not chart",
+        "unitsSold": 0,
+        "riaa": "",
+        "aggregateRating": 4,
+        "relevance": 1,
+        "backgroundColor": "#537BB1",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": true,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": false,
+          "book": false
+        },
+        "track": {
+          "@type": "ItemList",
+          "numberofItems": 1,
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 15,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Brian Wilson - This Could Be The Night",
+                "duration": "2:30",
+                "composer": "Nilsson/Spector",
+                "producer": "B.Wilson",
+                "leadVocal": "Brian Wilson",
+                "disc": 1,
+                "trackNumber": 15,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            }
+          ]
+        }
+      },
+      "editions": [
+		{
+          "albumRelease": {
+            "@type": "MusicRelease",
+            "name": "For The Love Of Harry: Everybody Sings Nilsson",
+            "sameAs": "https://en.wikipedia.org/wiki/For_the_Love_of_Harry:_Everybody_Sings_Nilsson",
+            "image": "img/various-artists/1995-for-the-love-of-harry-everybody-sings-nilsson/for-the-love-of-harry-everybody-sings-nilsson-cover.jpg",
+            "backCover": "",
+            "recordLabel": "Music Masters Rock",
+            "catalogNumber": "0162-65127-2",
+            "datePublished": "05-09-1995",
+            "releaseDay": 9,
+            "releaseMonth": 5,
+            "releaseYear": 1995,
+            "category": "variousArtists",
+            "musicReleaseFormat": "CD",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "US",
+            "asin": "B000000FPE",
+            "amazonUs": "http://amzn.to/2beVtmS",
+            "amazonUk": "http://amzn.to/2bzeDcE",
+            "amazonCa": "http://amzn.to/2beVlnr",
+            "amazonEs": "http://amzn.to/2bB9KgR",
+            "amazonFr": "http://amzn.to/2bCX2j1",
+            "amazonIt": "http://amzn.to/2bx87yC",
+            "amazonDe": "http://amzn.to/2bze5Dt",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": ""
+          }
+        }
+      ]
+    },
+    {
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "MusicAlbum",
+        "albumProductionType": "StudioAlbum",
+        "uniqueId": "cowabunga-the-surf-box",
+        "name": "Cowabunga!: The Surf Box",
+        "sameAs": "",
+        "image": "img/various-artists/1996-cowabunga-the-surf-box/cowabunga-the-surf-box-cover.jpg",
+        "backCover": "",
+        "publisher": "Rhino",
+        "catalogNumber": "R2 72418",
+        "datePublished": "05-21-1996",
+        "releaseDay": 21,
+        "releaseMonth": 5,
+        "releaseYear": 1996,
+        "recordingStartDay": 1,
+        "recordingStartMonth": 1,
+        "recordingStartYear": 1,
+        "recordingEndDay": 1,
+        "recordingEndMonth": 1,
+        "recordingEndYear": 1,
+        "byArtist": "The Beach Boys",
+        "producer": "James Austin, John Blair",
+        "duration": "",
+        "numberOfDiscs": 4,
+        "country": "US",
+        "billboardPosition": "Did not chart",
+        "unitsSold": 0,
+        "riaa": "",
+        "aggregateRating": 4,
+        "relevance": 1,
+        "backgroundColor": "#AC5859",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": true,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": false,
+          "book": false
+        },
+        "track": {
+          "@type": "ItemList",
+          "numberofItems": 1,
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "The Beach Boys - KFWB Jingle",
+                "duration": "0:29",
+                "composer": "",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 2,
+                "trackNumber": 1,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            }
+          ]
+        }
+      },
+      "editions": [
+		{
+          "albumRelease": {
+            "@type": "MusicRelease",
+            "name": "Cowabunga!: The Surf Box",
+            "sameAs": "",
+            "image": "img/various-artists/1996-cowabunga-the-surf-box/cowabunga-the-surf-box-cover.jpg",
+            "backCover": "",
+            "recordLabel": "Rhino",
+            "catalogNumber": "R2 72418",
+            "datePublished": "05-21-1996",
+            "releaseDay": 21,
+            "releaseMonth": 5,
+            "releaseYear": 1996,
+            "category": "variousArtists",
+            "musicReleaseFormat": "CD",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "US",
+            "asin": "B0000033S4",
+            "amazonUs": "http://amzn.to/2bfdTJ4",
+            "amazonUk": "http://amzn.to/2bzf2vA",
+            "amazonCa": "http://amzn.to/2bRQIVc",
+            "amazonEs": "http://amzn.to/2bBcMBz",
+            "amazonFr": "http://amzn.to/2bzgkqz",
+            "amazonIt": "http://amzn.to/2bBc1st",
+            "amazonDe": "http://amzn.to/2bBctXq",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": ""
+          }
+        }
+      ]
+    },
+   {
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "MusicAlbum",
+        "albumProductionType": "StudioAlbum",
+        "uniqueId": "televisions-greatest-hits-black-and-white-classics-vol-4",
+        "name": "Television's Greatest Hits, Volume 4: Black & White Classics",
+        "sameAs": "",
+        "image": "img/various-artists/1996-televisions-greatest-hits-black-and-white-classics-vol-4/televisions-greatest-hits-black-and-white-classics-vol-4-cover.jpg",
+        "backCover": "",
+        "publisher": "TVT Records",
+        "catalogNumber": "TVT 1600-2",
+        "datePublished": "11-05-1996",
+        "releaseDay": 5,
+        "releaseMonth": 11,
+        "releaseYear": 1996,
+        "recordingStartDay": 1,
+        "recordingStartMonth": 1,
+        "recordingStartYear": 1,
+        "recordingEndDay": 1,
+        "recordingEndMonth": 1,
+        "recordingEndYear": 1,
+        "byArtist": "The Beach Boys",
+        "producer": "Various producers",
+        "duration": "",
+        "numberOfDiscs": 1,
+        "country": "US",
+        "billboardPosition": "Did not chart",
+        "unitsSold": 0,
+        "riaa": "",
+        "aggregateRating": 3,
+        "relevance": 1,
+        "backgroundColor": "#9EBDEC",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": true,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": false,
+          "book": false
+        },
+        "track": {
+          "@type": "ItemList",
+          "numberofItems": 1,
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "The Beach Boys - Karen",
+                "duration": "",
+                "composer": "Marshal",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 1,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            }
+          ]
+        }
+      },
+      "editions": [
+		{
+          "albumRelease": {
+            "@type": "MusicRelease",
+            "name": "Television's Greatest Hits, Volume 4: Black & White Classics",
+            "sameAs": "",
+            "image": "img/various-artists/1996-televisions-greatest-hits-black-and-white-classics-vol-4/televisions-greatest-hits-black-and-white-classics-vol-4-cover.jpg",
+            "backCover": "",
+            "recordLabel": "TVT Records",
+            "catalogNumber": "TVT 1600-2",
+            "datePublished": "11-05-1996",
+            "releaseDay": 5,
+            "releaseMonth": 11,
+            "releaseYear": 1996,
+            "category": "variousArtists",
+            "musicReleaseFormat": "CD",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "US",
+            "asin": "B000000GOU",
             "amazonUs": "",
             "amazonUk": "",
             "amazonCa": "",
