@@ -24216,6 +24216,924 @@
       "parent": {
         "@context": "http://schema.org",
         "@type": "MusicAlbum",
+        "albumProductionType": "StudioAlbum",
+        "uniqueId": "the-moon-without-earth",
+        "name": "The Moon: Without Earth",
+        "sameAs": "",
+        "image": "img/albums/david-marks/1968-the-moon-without-earth/the-moon-without-earth-cover.jpg",
+        "backCover": "",
+        "publisher": "Imperial",
+        "catalogNumber": "LP 12381",
+        "datePublished": "02-01-1968",
+        "releaseDay": 0,
+        "releaseMonth": 2,
+        "releaseYear": 1968,
+        "recordingStartDay": 1,
+        "recordingStartMonth": 1,
+        "recordingStartYear": 1,
+        "recordingEndDay": 1,
+        "recordingEndMonth": 1,
+        "recordingEndYear": 1,
+        "byArtist": "David Marks",
+        "producer": "Larry Brown",
+        "duration": "",
+        "numberOfDiscs": 1,
+        "country": "US",
+        "billboardPosition": "Did not chart",
+        "unitsSold": 0,
+        "riaa": "",
+        "aggregateRating": 3.5,
+        "relevance": 1,
+        "backgroundColor": "#FE8319",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": true,
+          "studio": true,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": true,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": false,
+          "book": false
+        },
+        "track": {
+          "@type": "ItemList",
+          "numberofItems": 12,
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Mothers And Fathers",
+                "duration": "",
+                "composer": "Moore",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 1,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Pleasure",
+                "duration": "",
+                "composer": "Moore",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 2,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "I Should Be Dreaming",
+                "duration": "",
+                "composer": "Moore",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 3,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Brother Lou's Love Colony",
+                "duration": "",
+                "composer": "Montgomery/Dalton",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 4,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Got To Be On My Way",
+                "duration": "",
+                "composer": "Moore",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 5,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Someday Girl",
+                "duration": "",
+                "composer": "Moore",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 6,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 7,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Papers",
+                "duration": "",
+                "composer": "Moore",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 7,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 8,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Faces",
+                "duration": "",
+                "composer": "Moore",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 8,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 9,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Never Mind",
+                "duration": "",
+                "composer": "Moore",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 9,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 10,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Give Me More",
+                "duration": "",
+                "composer": "Moore",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 10,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 11,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "She's On My Mind",
+                "duration": "",
+                "composer": "Montgomery/Dalton",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 11,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+			            {
+              "@type": "ListItem",
+              "position": 12,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Walking Around",
+                "duration": "",
+                "composer": "Moore",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 12,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            }
+          ]
+        }
+      },
+      "editions": [
+        {
+          "albumRelease": {
+            "@type": "MusicRelease",
+            "name": "Without Earth / The Moon",
+            "sameAs": "",
+            "image": "img/albums/david-marks/1968-the-moon-without-earth/the-moon-without-earth-2002.jpg",
+            "backCover": "",
+            "recordLabel": "Rev-Ola",
+            "catalogNumber": "CR REV 9",
+            "datePublished": "12-03-2002",
+            "releaseDay": 3,
+            "releaseMonth": 12,
+            "releaseYear": 2002,
+            "category": "solo",
+            "musicReleaseFormat": "CD",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "US",
+            "asin": "B00006JXZ2",
+            "amazonUs": "http://amzn.to/2bYFpuX",
+            "amazonUk": "http://amzn.to/2coO1vc",
+            "amazonCa": "http://amzn.to/2cHMblO",
+            "amazonEs": "http://amzn.to/2coLMrU",
+            "amazonFr": "http://amzn.to/2cyXpsg",
+            "amazonIt": "http://amzn.to/2ceImpc",
+            "amazonDe": "http://amzn.to/2c4CCBo",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": "Bonus Tracks\n\nPirate (Mono 45 Mix) (Moore)\nNot To Know (Mono 45 Mix) (Moore)\nMatthew Moore Plus 4 - Face In The Crowd (Moore)\nMatthew Moore Plus 4 - White Silk Glove (Clifford)\nMatthew Moore Plus 4 - Come On Home (Moore)"
+          }
+        }
+      ]
+    },
+    {
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "MusicAlbum",
+        "albumProductionType": "StudioAlbum",
+        "uniqueId": "the-moon",
+        "name": "The Moon: The Moon",
+        "sameAs": "",
+        "image": "img/albums/david-marks/1969-the-moon/the-moon-cover.jpg",
+        "backCover": "",
+        "publisher": "Imperial",
+        "catalogNumber": "LP 12444",
+        "datePublished": "06-01-1969",
+        "releaseDay": 0,
+        "releaseMonth": 6,
+        "releaseYear": 1969,
+        "recordingStartDay": 1,
+        "recordingStartMonth": 1,
+        "recordingStartYear": 1,
+        "recordingEndDay": 1,
+        "recordingEndMonth": 1,
+        "recordingEndYear": 1,
+        "byArtist": "David Marks",
+        "producer": "Matthew Moore & Larry Brown",
+        "duration": "",
+        "numberOfDiscs": 1,
+        "country": "US",
+        "billboardPosition": "Did not chart",
+        "unitsSold": 0,
+        "riaa": "",
+        "aggregateRating": 3.5,
+        "relevance": 1,
+        "backgroundColor": "#D5AC50",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": true,
+          "studio": true,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": true,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": false,
+          "book": false
+        },
+        "track": {
+          "@type": "ItemList",
+          "numberofItems": 12,
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Pirate",
+                "duration": "",
+                "composer": "Moore",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 1,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Lebanon",
+                "duration": "",
+                "composer": "Moore/Morse",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 2,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Transporting Machine",
+                "duration": "",
+                "composer": "Moore",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 3,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Mary Jane",
+                "duration": "",
+                "composer": "Witcraft/Klimes",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 4,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Softly",
+                "duration": "",
+                "composer": "Moore",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 5,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Not To Know",
+                "duration": "",
+                "composer": "Moore",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 6,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 7,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "The Good Side",
+                "duration": "",
+                "composer": "Moore",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 7,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 8,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Life Is A Season",
+                "duration": "",
+                "composer": "Moore",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 8,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 9,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "John Automation",
+                "duration": "",
+                "composer": "Moore",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 9,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 10,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Come Out Tonight",
+                "duration": "",
+                "composer": "Moore",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 10,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 11,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Mr. Duffy",
+                "duration": "",
+                "composer": "Moore/Brown",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 11,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            }
+          ]
+        }
+      },
+      "editions": [
+        {
+          "albumRelease": {
+            "@type": "MusicRelease",
+            "name": "Without Earth / The Moon",
+            "sameAs": "",
+            "image": "img/albums/david-marks/1968-the-moon-without-earth/the-moon-without-earth-2002.jpg",
+            "backCover": "",
+            "recordLabel": "Rev-Ola",
+            "catalogNumber": "CR REV 9",
+            "datePublished": "12-03-2002",
+            "releaseDay": 3,
+            "releaseMonth": 12,
+            "releaseYear": 2002,
+            "category": "solo",
+            "musicReleaseFormat": "CD",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "US",
+            "asin": "B00006JXZ2",
+            "amazonUs": "http://amzn.to/2bYFpuX",
+            "amazonUk": "http://amzn.to/2coO1vc",
+            "amazonCa": "http://amzn.to/2cHMblO",
+            "amazonEs": "http://amzn.to/2coLMrU",
+            "amazonFr": "http://amzn.to/2cyXpsg",
+            "amazonIt": "http://amzn.to/2ceImpc",
+            "amazonDe": "http://amzn.to/2c4CCBo",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": "Bonus Tracks\n\nPirate (Mono 45 Mix) (Moore)\nNot To Know (Mono 45 Mix) (Moore)\nMatthew Moore Plus 4 - Face In The Crowd (Moore)\nMatthew Moore Plus 4 - White Silk Glove (Clifford)\nMatthew Moore Plus 4 - Come On Home (Moore)"
+          }
+        }
+      ]
+    },
+    {
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "MusicAlbum",
+        "albumProductionType": "StudioAlbum",
+        "uniqueId": "i-think-about-you-often",
+        "name": "I Think About You Often",
+        "sameAs": "",
+        "image": "img/albums/david-marks/2007-i-think-about-you-often/i-think-about-you-often-cover.jpg",
+        "backCover": "",
+        "publisher": "Quiver Records",
+        "catalogNumber": "0602",
+        "datePublished": "12-01-2006",
+        "releaseDay": 0,
+        "releaseMonth": 12,
+        "releaseYear": 2006,
+        "recordingStartDay": 1,
+        "recordingStartMonth": 1,
+        "recordingStartYear": 1,
+        "recordingEndDay": 1,
+        "recordingEndMonth": 1,
+        "recordingEndYear": 1,
+        "byArtist": "David Marks",
+        "producer": "",
+        "duration": "",
+        "numberOfDiscs": 1,
+        "country": "US",
+        "billboardPosition": "Did not chart",
+        "unitsSold": 0,
+        "riaa": "",
+        "aggregateRating": 3.5,
+        "relevance": 1,
+        "backgroundColor": "#B6AED3",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": true,
+          "studio": true,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": true,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": false,
+          "book": false
+        },
+        "track": {
+          "@type": "ItemList",
+          "numberofItems": 12,
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Like 1969",
+                "duration": "",
+                "composer": "Marks",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 1,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Bamboo Shack",
+                "duration": "",
+                "composer": "Marks/Clifford",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 2,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Light Of The Spirit",
+                "duration": "",
+                "composer": "Marks",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 3,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "I Fall Into The Grace",
+                "duration": "",
+                "composer": "Marks",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 4,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Big Wave",
+                "duration": "",
+                "composer": "Marks",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 5,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Stowaway",
+                "duration": "",
+                "composer": "Marks",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 6,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 7,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "I'm So Clever",
+                "duration": "",
+                "composer": "Marks/Clifford",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 7,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 8,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Pretty Eyes",
+                "duration": "",
+                "composer": "Marks",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 8,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 9,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Dancin' In The Mirror",
+                "duration": "",
+                "composer": "Marks",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 9,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 10,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "I Ain't Goin' Surfin'",
+                "duration": "",
+                "composer": "Marks",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 10,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 11,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Have You Ever Been Duped",
+                "duration": "",
+                "composer": "Marks/Clifford",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 11,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+			            {
+              "@type": "ListItem",
+              "position": 12,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "I Think About You Often",
+                "duration": "",
+                "composer": "Marks",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 12,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            }
+          ]
+        }
+      },
+      "editions": [
+        {
+          "albumRelease": {
+            "@type": "MusicRelease",
+            "name": "I Think About You Often",
+            "sameAs": "",
+            "image": "img/albums/david-marks/2007-i-think-about-you-often/i-think-about-you-often-cover.jpg",
+            "backCover": "",
+            "recordLabel": "Quiver Records",
+            "catalogNumber": "0602",
+            "datePublished": "03-09-2007",
+            "releaseDay": 9,
+            "releaseMonth": 3,
+            "releaseYear": 2007,
+            "category": "solo",
+            "musicReleaseFormat": "DIGITAL",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "US",
+            "asin": "B0019A6Q4O",
+            "amazonUs": "http://amzn.to/2c50Xay",
+            "amazonUk": "http://amzn.to/2cp6Cr0",
+            "amazonCa": "http://amzn.to/2ccrRI5",
+            "amazonEs": "http://amzn.to/2c52xJn",
+            "amazonFr": "http://amzn.to/2cp4WxR",
+            "amazonIt": "http://amzn.to/2bYYFZ2",
+            "amazonDe": "http://amzn.to/2czlkYu",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": ""
+          }
+        }
+      ]
+    },
+    {
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "MusicAlbum",
         "albumProductionType": "CompilationAlbum",
         "uniqueId": "david-marks-the-lost-years",
         "name": "The Lost Years",
