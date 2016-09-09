@@ -24823,6 +24823,978 @@
         "@context": "http://schema.org",
         "@type": "MusicAlbum",
         "albumProductionType": "StudioAlbum",
+        "uniqueId": "david-marks-work-tapes",
+        "name": "Work Tapes",
+        "sameAs": "",
+        "image": "img/albums/david-marks/2000-david-marks-work-tapes/david-marks-work-tapes-cover.jpg",
+        "backCover": "",
+        "publisher": "davidleemarks.com",
+        "catalogNumber": "",
+        "datePublished": "01-01-2000",
+        "releaseDay": 0,
+        "releaseMonth": 0,
+        "releaseYear": 2000,
+        "recordingStartDay": 1,
+        "recordingStartMonth": 1,
+        "recordingStartYear": 1,
+        "recordingEndDay": 1,
+        "recordingEndMonth": 1,
+        "recordingEndYear": 1,
+        "byArtist": "David Marks",
+        "producer": "",
+        "duration": "",
+        "numberOfDiscs": 1,
+        "country": "US",
+        "billboardPosition": "Did not chart",
+        "unitsSold": 0,
+        "riaa": "",
+        "aggregateRating": 3,
+        "relevance": 1,
+        "backgroundColor": "#198DE4",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": true,
+          "studio": true,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": true,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": false,
+          "book": false
+        },
+        "track": {
+          "@type": "ItemList",
+          "numberofItems": 10,
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Siren Song",
+                "duration": "",
+                "composer": "Clifford",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 1,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Ocean Liner",
+                "duration": "",
+                "composer": "Clifford",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 2,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "I Wanna Be Your Driver",
+                "duration": "",
+                "composer": "C.Berry",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 3,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Fool's Guarantee",
+                "duration": "",
+                "composer": "Marks",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 4,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Over My Head",
+                "duration": "",
+                "composer": "Marks/Clifford",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 5,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Doctor Of Love",
+                "duration": "",
+                "composer": "Marks",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 6,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 7,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Bamboo Shack",
+                "duration": "",
+                "composer": "Marks/Clifford",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 7,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 8,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Early In The Morning",
+                "duration": "",
+                "composer": "Marks",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 8,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 9,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Have Love Will Travel",
+                "duration": "",
+                "composer": "R.Berry",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 9,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 10,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Hollywood Joe",
+                "duration": "",
+                "composer": "Moore/Clifford",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 10,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            }
+          ]
+        }
+      },
+      "editions": [
+        {
+          "albumRelease": {
+            "@type": "MusicRelease",
+            "name": "Work Tapes",
+            "sameAs": "",
+            "image": "img/albums/david-marks/2000-david-marks-work-tapes/david-marks-work-tapes-cover.jpg",
+            "backCover": "",
+            "recordLabel": "davidleemarks.com",
+            "catalogNumber": "",
+            "datePublished": "01-01-2000",
+            "releaseDay": 0,
+            "releaseMonth": 0,
+            "releaseYear": 2000,
+            "category": "solo",
+            "musicReleaseFormat": "CD",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "US",
+            "asin": "",
+            "amazonUs": "",
+            "amazonUk": "",
+            "amazonCa": "",
+            "amazonEs": "",
+            "amazonFr": "",
+            "amazonIt": "",
+            "amazonDe": "",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": ""
+          }
+        }
+      ]
+    },
+    {
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "MusicAlbum",
+        "albumProductionType": "StudioAlbum",
+        "uniqueId": "something-funny-goin-on",
+        "name": "Something Funny Goin' On",
+        "sameAs": "",
+        "image": "img/albums/david-marks/2003-something-funny-goin-on/something-funny-goin-on-cover.jpg",
+        "backCover": "",
+        "publisher": "Quiver Records",
+        "catalogNumber": "DM5513",
+        "datePublished": "12-15-2003",
+        "releaseDay": 15,
+        "releaseMonth": 12,
+        "releaseYear": 2003,
+        "recordingStartDay": 1,
+        "recordingStartMonth": 1,
+        "recordingStartYear": 1,
+        "recordingEndDay": 1,
+        "recordingEndMonth": 1,
+        "recordingEndYear": 1,
+        "byArtist": "David Marks",
+        "producer": "David Marks",
+        "duration": "",
+        "numberOfDiscs": 1,
+        "country": "US",
+        "billboardPosition": "Did not chart",
+        "unitsSold": 0,
+        "riaa": "",
+        "aggregateRating": 2.5,
+        "relevance": 1,
+        "backgroundColor": "#757357",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": true,
+          "studio": true,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": true,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": false,
+          "book": false
+        },
+        "track": {
+          "@type": "ItemList",
+          "numberofItems": 11,
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Second Wind",
+                "duration": "",
+                "composer": "Marks",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 1,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Stowaway",
+                "duration": "",
+                "composer": "Marks",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 2,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Put Yourself In My Place ('Live At Silvermine')",
+                "duration": "",
+                "composer": "Marks",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 3,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Mixed Drinks & High Emotions",
+                "duration": "",
+                "composer": "Marks",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 4,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "High Side Of Normal",
+                "duration": "",
+                "composer": "Marks",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 5,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Crenshaw Blvd.",
+                "duration": "",
+                "composer": "Marks",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 6,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 7,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "You Can’t Talk To Me",
+                "duration": "",
+                "composer": "Marks",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 7,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 8,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "The Legend",
+                "duration": "",
+                "composer": "Marks",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 8,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 9,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Put Yourself In My Place",
+                "duration": "",
+                "composer": "Marks",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 9,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 10,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Still Life In Motion",
+                "duration": "",
+                "composer": "Marks/Hand",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 10,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 11,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Land Of Opportunity",
+                "duration": "",
+                "composer": "Marks",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 11,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            }
+          ]
+        }
+      },
+      "editions": [
+        {
+          "albumRelease": {
+            "@type": "MusicRelease",
+            "name": "Something Funny Goin' On",
+            "sameAs": "",
+            "image": "img/albums/david-marks/2003-something-funny-goin-on/something-funny-goin-on-cover.jpg",
+            "backCover": "",
+            "recordLabel": "Quiver Records",
+            "catalogNumber": "DM5513",
+            "datePublished": "12-15-2003",
+            "releaseDay": 15,
+            "releaseMonth": 12,
+            "releaseYear": 2003,
+            "category": "solo",
+            "musicReleaseFormat": "CD",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "US",
+            "asin": "B0001AG9RC",
+            "amazonUs": "http://amzn.to/2c62zRd",
+            "amazonUk": "http://amzn.to/2ccaB6W",
+            "amazonCa": "http://amzn.to/2cJ96NA",
+            "amazonEs": "http://amzn.to/2ccaB6W",
+            "amazonFr": "http://amzn.to/2cfF05q",
+            "amazonIt": "http://amzn.to/2ccaB6W",
+            "amazonDe": "http://amzn.to/2cpRxpb",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": ""
+          }
+        }
+      ]
+    },
+    {
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "MusicAlbum",
+        "albumProductionType": "LiveAlbum",
+        "uniqueId": "marks-clifford-band-live-blue-dolphin",
+        "name": "The Marks-Clifford Band: Live @ The Blue Dolphin '77",
+        "sameAs": "",
+        "image": "img/albums/david-marks/2006-marks-clifford-band-live-blue-dolphin/marks-clifford-band-live-blue-dolphin-77-cover.jpg",
+        "backCover": "",
+        "publisher": "DJM Records",
+        "catalogNumber": "DJM-0603",
+        "datePublished": "01-01-2006",
+        "releaseDay": 0,
+        "releaseMonth": 0,
+        "releaseYear": 2006,
+        "recordingStartDay": 1,
+        "recordingStartMonth": 1,
+        "recordingStartYear": 1,
+        "recordingEndDay": 1,
+        "recordingEndMonth": 1,
+        "recordingEndYear": 1,
+        "byArtist": "David Marks",
+        "producer": "Unknown",
+        "duration": "",
+        "numberOfDiscs": 1,
+        "country": "US",
+        "billboardPosition": "Did not chart",
+        "unitsSold": 0,
+        "riaa": "",
+        "aggregateRating": 3,
+        "relevance": 1,
+        "backgroundColor": "#DF351A",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": true,
+          "studio": false,
+          "live": true,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": true,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": false,
+          "book": false
+        },
+        "track": {
+          "@type": "ItemList",
+          "numberofItems": 17,
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Have Love Will Travel",
+                "duration": "",
+                "composer": "Berry",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 1,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Call Me The Breeze",
+                "duration": "",
+                "composer": "Cale",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 2,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Something Funny Goin’ On",
+                "duration": "",
+                "composer": "Clifford",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 3,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Tutti Frutti",
+                "duration": "",
+                "composer": "Lubin/Penniman/LaBostrie",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 4,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Raindrops",
+                "duration": "",
+                "composer": "Clark",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 5,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Since I Don’t Have You",
+                "duration": "",
+                "composer": "Rock/Beaumont/The Skyliners",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 6,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 7,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Ocean Liner",
+                "duration": "",
+                "composer": "Clifford",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 7,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 8,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Steppin’ Out",
+                "duration": "",
+                "composer": "Marks",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 8,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 9,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Room Full Of Gloom",
+                "duration": "",
+                "composer": "Clifford",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 9,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 10,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Nothing Takes The Place Of You",
+                "duration": "",
+                "composer": "Clifford",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 10,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 11,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Creation",
+                "duration": "",
+                "composer": "Clifford",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 11,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 12,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Dr Of Love",
+                "duration": "",
+                "composer": "Marks",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 12,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 13,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Hot Flashes At Midnight",
+                "duration": "",
+                "composer": "Clifford",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 13,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+			{
+              "@type": "ListItem",
+              "position": 14,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Early In The Morning",
+                "duration": "",
+                "composer": "Marks",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 14,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+			{
+              "@type": "ListItem",
+              "position": 15,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "You Can’t Talk To Me",
+                "duration": "",
+                "composer": "Marks",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 15,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+			{
+              "@type": "ListItem",
+              "position": 16,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Light Of The Spirit",
+                "duration": "",
+                "composer": "Marks",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 16,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+			{
+              "@type": "ListItem",
+              "position": 17,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Hollywood Joe",
+                "duration": "",
+                "composer": "Moore",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 17,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            }
+          ]
+        }
+      },
+      "editions": [
+        {
+          "albumRelease": {
+            "@type": "MusicRelease",
+            "name": "The Marks-Clifford Band: Live @ The Blue Dolphin '77",
+            "sameAs": "",
+            "image": "img/albums/david-marks/2006-marks-clifford-band-live-blue-dolphin/marks-clifford-band-live-blue-dolphin-77-cover.jpg",
+            "backCover": "",
+            "recordLabel": "DJM Records",
+            "catalogNumber": "DJM-0603",
+            "datePublished": "01-01-2006",
+            "releaseDay": 0,
+            "releaseMonth": 0,
+            "releaseYear": 2006,
+            "category": "solo",
+            "musicReleaseFormat": "CD",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "US",
+            "asin": "",
+            "amazonUs": "",
+            "amazonUk": "",
+            "amazonCa": "",
+            "amazonEs": "",
+            "amazonFr": "",
+            "amazonIt": "",
+            "amazonDe": "",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": ""
+          }
+        }
+      ]
+    },
+    {
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "MusicAlbum",
+        "albumProductionType": "StudioAlbum",
         "uniqueId": "i-think-about-you-often",
         "name": "I Think About You Often",
         "sameAs": "",
@@ -26838,6 +27810,318 @@
       "parent": {
         "@context": "http://schema.org",
         "@type": "MusicAlbum",
+        "albumProductionType": "StudioAlbum",
+        "uniqueId": "the-circle-continues",
+        "name": "The Circle Continues",
+        "sameAs": "",
+        "image": "img/albums/david-marks/2012-the-circle-continues/the-circle-continues-cover.jpg",
+        "backCover": "",
+        "publisher": "",
+        "catalogNumber": "",
+        "datePublished": "12-15-2012",
+        "releaseDay": 15,
+        "releaseMonth": 12,
+        "releaseYear": 2012,
+        "recordingStartDay": 1,
+        "recordingStartMonth": 1,
+        "recordingStartYear": 1,
+        "recordingEndDay": 1,
+        "recordingEndMonth": 1,
+        "recordingEndYear": 1,
+        "byArtist": "David Marks",
+        "producer": "",
+        "duration": "",
+        "numberOfDiscs": 1,
+        "country": "US",
+        "billboardPosition": "Did not chart",
+        "unitsSold": 0,
+        "riaa": "",
+        "aggregateRating": 3.5,
+        "relevance": 1,
+        "backgroundColor": "#518C3A",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": true,
+          "studio": true,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": true,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": false,
+          "book": false
+        },
+        "track": {
+          "@type": "ItemList",
+          "numberofItems": 12,
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "I Sail Away",
+                "duration": "",
+                "composer": "Marks/Kalinich",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 1,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Anytime USA",
+                "duration": "",
+                "composer": "Marks/Kalinich",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 2,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "If You Believe",
+                "duration": "",
+                "composer": "Marks/Kalinich",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 3,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "The Circle Continues",
+                "duration": "",
+                "composer": "Marks/Kalinich",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 4,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Johnny",
+                "duration": "",
+                "composer": "Marks/Kalinich",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 5,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "You Cry Out",
+                "duration": "",
+                "composer": "Marks/Kalinich",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 6,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 7,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Don't Give Up on Your Dreams",
+                "duration": "",
+                "composer": "Marks/Kalinich",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 7,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 8,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "A Day Like No Other",
+                "duration": "",
+                "composer": "Marks/Kalinich",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 8,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 9,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "I Fall Into The Grace",
+                "duration": "",
+                "composer": "Marks/Kalinich",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 9,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 10,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "These 50 States",
+                "duration": "",
+                "composer": "Marks/Kalinich",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 10,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 11,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Polemics, Poetry and Peace",
+                "duration": "",
+                "composer": "Marks/Kalinich",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 11,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+			            {
+              "@type": "ListItem",
+              "position": 12,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Benediction",
+                "duration": "",
+                "composer": "Marks/Kalinich",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 12,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            }
+          ]
+        }
+      },
+      "editions": [
+        {
+          "albumRelease": {
+            "@type": "MusicRelease",
+            "name": "The Circle Continues",
+            "sameAs": "",
+            "image": "img/albums/david-marks/2012-the-circle-continues/the-circle-continues-cover.jpg",
+            "backCover": "",
+            "recordLabel": "",
+            "catalogNumber": "",
+            "datePublished": "12-15-2012",
+            "releaseDay": 15,
+            "releaseMonth": 12,
+            "releaseYear": 2012,
+            "category": "solo",
+            "musicReleaseFormat": "CD",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "US",
+            "asin": "",
+            "amazonUs": "",
+            "amazonUk": "",
+            "amazonCa": "",
+            "amazonEs": "",
+            "amazonFr": "",
+            "amazonIt": "",
+            "amazonDe": "",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": ""
+          }
+        }
+      ]
+    },
+    {
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "MusicAlbum",
         "albumProductionType": "LiveAlbum",
         "uniqueId": "david-marks-and-friends-live-on-sunset-2010",
         "name": "Live on Sunset 2010",
@@ -27015,7 +28299,7 @@
                 "trackLink": "",
                 "hit": false,
                 "inthit": false,
-                "gem": true
+                "gem": false
               }
             },
             {
