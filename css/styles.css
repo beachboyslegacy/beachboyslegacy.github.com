@@ -835,6 +835,10 @@ a {
   background-repeat: no-repeat;
   background-position: center;
 }
+.single.single {
+  background: transparent;
+  box-shadow: none;
+}
 .item__rating {
   margin-bottom: 1rem;
 }

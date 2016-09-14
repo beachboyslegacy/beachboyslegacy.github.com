@@ -51678,7 +51678,7 @@
           "review": "His name may not be familiar, but David Marks was one of the original founding members of the Beach Boys. His signature joined those of Brian, Carl, and Dennis Wilson and their cousin Mike Love at Capitol Records in 1962. He grew up with the Wilson family, moving into a house across the street from them, and started playing music with them soon after. His signature sound is on 'Surfin' U.S.A.,' 'Shut Down,' 'Hawaii,' and many more. He played and sang on the Beach Boys' first string of national sold-out tours and television appearances. Then one day he vanished from the public eye. Over time, David's name disappeared from the history books and the Beach Boys' story was rewritten, without David's name. For many years, the public and critics were unaware of the important role David Marks played in the formation of the Beach Boys. For the first time, the truth is behind one of the most influential bands ever is revealed here. As a lifelong friend of each member of the band, David Marks is uniquely placed to bring this extraordinary story to life. This is the compelling true story of one of the greatest bands of all time."
         }
 	  ]
-    },	
+    },
 	{
       "parent": {
         "@context": "http://schema.org",
@@ -89786,7 +89786,7 @@
         "uniqueId": "luau",
         "name": "Luau",
         "sameAs": "",
-        "image": "img/singles/1961-luau/luau-cover.jpg",
+        "image": "img/singles/1961-luau/luau-cover.png",
         "backCover": "",
         "publisher": "Candix",
         "catalogNumber": "331",
