@@ -904,13 +904,31 @@ $(function(){
             }
             // ALL ITEMS BUT BOOKS AND VIDEOS
             else{
+              // var thisChildReleaseMonthNumber = data.items[requestedItemNumber].editions[j].albumRelease.releaseMonth;
+              // var thisChildReleaseMonthName = months[thisChildReleaseMonthNumber - 1];
+
+
               var thisChildReleaseMonthNumber = data.items[requestedItemNumber].editions[j].albumRelease.releaseMonth;
-              var thisChildReleaseMonthName = months[thisChildReleaseMonthNumber - 1];
+              var thisChildReleaseMonthName = 0;
+              if ( thisChildReleaseMonthNumber == 0 ){
+                thisChildReleaseMonthName = "";
+              }else{
+                var thisChildReleaseMonthName = months[thisChildReleaseMonthNumber - 1];
+              }
+
+              var thisChildReleaseDayNumber = data.items[requestedItemNumber].editions[j].albumRelease.releaseDay;
+              if ( thisChildReleaseDayNumber == 0 ){
+                thisChildReleaseDayNumber = "";
+              }else{
+                thisChildReleaseDayNumber = thisChildReleaseDayNumber;
+              }
+
+
               var $thisChild = '<li>'+
                                 '<div class="child-item__header">'+
                                   '<h3 class="child-item__title">'+data.items[requestedItemNumber].editions[j].albumRelease.name+'</h3>'+
                                   '<ul class="child-item__info">'+
-                                    '<li>'+thisChildReleaseMonthName+' '+data.items[requestedItemNumber].editions[j].albumRelease.releaseDay+', '+data.items[requestedItemNumber].editions[j].albumRelease.releaseYear+'</li>'+
+                                    '<li>'+thisChildReleaseMonthName+' '+thisChildReleaseDayNumber+' '+data.items[requestedItemNumber].editions[j].albumRelease.releaseYear+'</li>'+
                                     '<li>'+data.items[requestedItemNumber].editions[j].albumRelease.recordLabel+' ('+data.items[requestedItemNumber].editions[j].albumRelease.country+')</li>'+
                                     '<li>'+data.items[requestedItemNumber].editions[j].albumRelease.musicReleaseFormat+'</li>'+
                                   '</ul>'+
