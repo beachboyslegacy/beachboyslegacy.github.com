@@ -60,6 +60,14 @@
 <!-- <script src="js/jquery.3.0.0.js"></script> -->
 
 
+<script src="https://embed.widgetpack.com/widget.js" async></script>
+<script type="text/javascript">
+function wpac_ajax_init() {
+    WPac.init({widget: 'Rating', id: 2265, el: 'wpac-rating-ajax'});
+}
+</script>
+
+
 <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
 <script type="text/javascript">
     window.cookieconsent_options = {"message":"This website uses cookies to ensure you get the best experience. ","dismiss":"Got it!","learnMore":"More info","link":"cookies-policy.html","theme":"dark-bottom","target":"_blank"};
@@ -383,6 +391,20 @@
    }(document, 'script', 'facebook-jssdk'));
 </script>
 
+<!-- Rating widget from widgetpack.com -->
+<!-- <script type="text/javascript">
+wpac_init = window.wpac_init || [];
+wpac_init.push({widget: 'Rating', id: 2265});
+(function() {
+    if ('WIDGETPACK_LOADED' in window) return;
+    WIDGETPACK_LOADED = true;
+    var mc = document.createElement('script');
+    mc.type = 'text/javascript';
+    mc.async = true;
+    mc.src = 'https://embed.widgetpack.com/widget.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(mc, s.nextSibling);
+})();
+</script> -->
 
 </body>
 </html>
