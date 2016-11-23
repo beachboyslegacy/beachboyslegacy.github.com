@@ -396,7 +396,8 @@ $(function(){
                                     '<div class="item__info">'+
                                       '<h2 class="item__title">'+data.items[i].parent.name+'</h2>'+
                                       '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
-                                      '<ul class="item__rating"></ul>'+
+                                      // '<ul class="item__rating"></ul>'+
+                                      '<div class="wpac-rating-ajax" data-wpac-chan="'+data.items[i].parent.uniqueId+'"></div>'+
                                       '<a href="#'+data.items[i].parent.uniqueId+'" class="item__btn scroll-to-anchor" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Video\x27)">See details and editions</a>'+
                                     '</div>'+
                                   '</div>'+
