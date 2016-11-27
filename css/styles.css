@@ -1620,7 +1620,7 @@ a {
 }
 .donate-wrapper h4 {
   font-family: 'Roboto Slab', serif;
-  margin-top: 3rem;
+  margin: 3rem 0;
   color: #fff;
 }
 .donate-wrapper p + h3 {
