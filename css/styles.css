@@ -1582,6 +1582,7 @@ a {
   width: 100%;
   max-width: 600px;
   margin: 0 auto;
+  border: 2px solid #3d4b61;
 }
 .donate-wrapper h2 {
   font-size: 2em;
