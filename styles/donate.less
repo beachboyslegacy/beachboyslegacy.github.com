@@ -1,30 +1,93 @@
 .donate-wrapper{
-  padding: 20px 5%;
-  width: 100%;
+  padding: 0 5% 4rem;
+  width: 96%;
   max-width: 600px;
-  margin: 0 auto;
+  margin: 5rem auto;
   border: 2px solid @blue-dark;
+  text-align: center;
+  background: @blue-dark;
   h2{
-    font-size: 2em;
-    font-family: @serif-font;
-    margin: 1em 0 2em;
-    text-align: center;
-  }
-  h3{
     font-size: 1.5em;
     font-family: @serif-font;
-    margin-bottom: .5em;
+    margin: 0 0 1.5em;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  hr{
+    max-width: 100px;
+    margin: 3rem auto;
+
+  }
+  h3{
+    font-family: @serif-font;
+    margin-bottom: 4em;
+    color: #fff;
+    span{
+      font-size: 3em;
+      display: block;
+      margin-bottom: .5em;
+    }
+  }
+  h4{
+    font-family: @serif-font;
+    margin-top: 3rem;
+    color: #fff;
   }
   p + h3{
     margin-top: 2em;
   }
   p{
+    color: #fff;
     line-height: 1.61;
+    text-align: left;
+  }
+  small{
+    color: #fff;
+    font-size: .875rem;
+    display: block;
+    margin-top: .5em;
+  }
+  small+p{
+    margin-top: 3rem;
   }
 }
 
-@media screen and (min-width: @mobile-bp){
+
+@media screen and (max-width: @mobile-bp){
   .donate-wrapper{
-    padding-top: @v-unit*1.5;
+    margin-top: 2rem;
   }
+}
+
+
+.donate-pic{
+  max-width: 100px;
+  border-radius: 50%;
+}
+
+.donate-link{
+  color: #fff;
+  display: block;
+  border-radius: 4px;
+  padding: 0 10px;
+  line-height: 3;
+  font-weight: 700;
+  margin-top: 2rem;
+  background: @yellow;
+  color: @blue-dark;
+  &:hover{
+    background: darken(@yellow, 5%);
+  }
+}
+
+.amazon-link{
+  color: #fff;
+  display: block;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  padding: 0 10px;
+  line-height: 3;
+  font-weight: 700;
+  margin-top: 2rem;
+  color: #fff;
 }
