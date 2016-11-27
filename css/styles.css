@@ -546,10 +546,10 @@ a {
 }
 .sidebar h3 {
   margin-bottom: .5em;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
-  color: #929799;
+  color: #666578;
   font-size: .8rem;
 }
 /* for sticky footer */
@@ -1170,10 +1170,9 @@ a {
 }
 .newsletter-signup.mobile h3 {
   margin-bottom: .5em;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
-  color: #929799;
   font-size: .8rem;
 }
 .newsletter-signup.mobile input[type=email] {
@@ -1192,7 +1191,7 @@ a {
   display: inline-block;
   margin-right: 5px;
   height: 1.5em;
-  vertical-align: text-bottom;
+  vertical-align: bottom;
 }
 .newsletter-icon webicon {
   width: 1.5em;
@@ -1435,19 +1434,16 @@ a {
   padding: 4%;
   margin-bottom: 1em;
 }
-.social-widget h3 {
-  margin-bottom: 1em;
-}
 @media screen and (max-width: 700px) {
   .social-widget {
     display: none;
   }
 }
 .donate-btn {
-  margin-bottom: 1em;
-}
-.donate-btn--desktop {
-  padding: 4%;
+  display: inline-block;
+  position: relative;
+  top: 6px;
+  margin-left: 4px;
 }
 @media screen and (max-width: 700px) {
   .donate-btn--desktop {
@@ -1483,6 +1479,12 @@ a {
 .mobile-footer__social {
   display: block;
   margin-bottom: 2em;
+}
+.mobile-footer__social h3 {
+  margin-bottom: .5em;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .8rem;
 }
 @media screen and (min-width: 700px) {
   .mobile-footer {
@@ -1573,5 +1575,33 @@ a {
   40% {
     -webkit-transform: scale(1);
     transform: scale(1);
+  }
+}
+.donate-wrapper {
+  padding: 20px 5%;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.donate-wrapper h2 {
+  font-size: 2em;
+  font-family: 'Roboto Slab', serif;
+  margin: 1em 0 2em;
+  text-align: center;
+}
+.donate-wrapper h3 {
+  font-size: 1.5em;
+  font-family: 'Roboto Slab', serif;
+  margin-bottom: .5em;
+}
+.donate-wrapper p + h3 {
+  margin-top: 2em;
+}
+.donate-wrapper p {
+  line-height: 1.61;
+}
+@media screen and (min-width: 700px) {
+  .donate-wrapper {
+    padding-top: 66px;
   }
 }

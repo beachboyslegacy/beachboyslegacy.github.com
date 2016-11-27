@@ -132,10 +132,10 @@
   z-index: 2;
   h3{
     margin-bottom: .5em;
-    font-family: @serif-font;
+    font-family: @sans-serif-font;
     font-weight: 700;
     text-transform: uppercase;
-    color: @grey-light;
+    color: @grey;
     font-size: .8rem;
   }
 }
@@ -794,10 +794,10 @@
     display: none;
     h3{
       margin-bottom: .5em;
-      font-family: @serif-font;
+      font-family: @sans-serif-font;
       font-weight: 700;
       text-transform: uppercase;
-      color: @grey-light;
+      //color: @grey-light;
       font-size: .8rem;
     }
     input[type=email]{
@@ -827,7 +827,7 @@
   display: inline-block;
   margin-right: 5px;
   height: 1.5em;
-  vertical-align: text-bottom;;
+  vertical-align: bottom;;
   webicon{
     width: 1.5em;
     height: 1.5em;
@@ -1085,9 +1085,7 @@
 .social-widget{
   padding: 4%;
   margin-bottom: 1em;
-  h3{
-    margin-bottom: 1em;
-  }
+
 }
 
 
@@ -1101,12 +1099,16 @@
 
 
 .donate-btn{
-  margin-bottom: 1em;
+  display: inline-block;
+  position: relative;
+  top: 6px;
+  margin-left: 4px;
+  // margin-bottom: 1em;
 }
 
-.donate-btn--desktop{
-  padding: 4%;
-}
+// .donate-btn--desktop{
+//   padding: 10px 0;
+// }
 
 @media screen and (max-width: @mobile-bp){
   .donate-btn--desktop{
@@ -1150,6 +1152,12 @@
 .mobile-footer__social{
   display: block;
   margin-bottom: 2em;
+  h3{
+    margin-bottom: .5em;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .8rem;
+  }
 }
 
 @media screen and (min-width: @mobile-bp){

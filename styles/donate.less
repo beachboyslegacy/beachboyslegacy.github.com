@@ -1,0 +1,29 @@
+.donate-wrapper{
+  padding: 20px 5%;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  h2{
+    font-size: 2em;
+    font-family: @serif-font;
+    margin: 1em 0 2em;
+    text-align: center;
+  }
+  h3{
+    font-size: 1.5em;
+    font-family: @serif-font;
+    margin-bottom: .5em;
+  }
+  p + h3{
+    margin-top: 2em;
+  }
+  p{
+    line-height: 1.61;
+  }
+}
+
+@media screen and (min-width: @mobile-bp){
+  .donate-wrapper{
+    padding-top: @v-unit*1.5;
+  }
+}
