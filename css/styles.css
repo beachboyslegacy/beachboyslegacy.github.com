@@ -564,7 +564,7 @@ a {
   height: 20px;
 }
 .sidebar__footer {
-  padding: 0 4%;
+  padding: 40px 4%;
   font-family: 'Lato', sans-serif;
   font-size: .75em;
   height: 20px;
@@ -1461,6 +1461,17 @@ a {
   font-size: 10px;
   display: inline-block;
   font-family: 'Lato', sans-serif;
+}
+.amazon-ad {
+  margin-top: 2rem;
+}
+@media screen and (max-width: 700px) {
+  .amazon-ad {
+    display: none;
+  }
+}
+.amzn-native-header {
+  display: none;
 }
 .policy-link {
   display: inline-block;
