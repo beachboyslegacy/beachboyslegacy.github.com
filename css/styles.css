@@ -1592,10 +1592,9 @@ a {
   padding: 0 5% 4rem;
   width: 96%;
   max-width: 600px;
-  margin: 5rem auto;
-  border: 2px solid #3d4b61;
+  margin: 5rem auto 2rem;
   text-align: center;
-  background: #3d4b61;
+  background: #252E3C;
 }
 .donate-wrapper h2 {
   font-size: 1.5em;
@@ -1605,8 +1604,8 @@ a {
   color: #fff;
 }
 .donate-wrapper hr {
+  margin: 0 auto 4rem;
   max-width: 100px;
-  margin: 3rem auto;
 }
 .donate-wrapper h3 {
   font-family: 'Roboto Slab', serif;
@@ -1658,7 +1657,7 @@ a {
   font-weight: 700;
   margin-top: 2rem;
   background: #f8981d;
-  color: #3d4b61;
+  color: #252E3C;
 }
 .donate-link:hover {
   background: #f48c08;
