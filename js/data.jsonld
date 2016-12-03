@@ -2580,7 +2580,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": "Bonus Tracks:\n\nDon't Worry, Baby (B.Wilson/Christian)\n\nRecorded at the Civic Memorial Auditorium in Sacramento CA, August 1, 1964"
+            "tracklist": "1. Intro (Recorded at the Memorial Auditorium in Sacramento CA. December 21, 1963)\n2. Fun Fun Fun (Recorded at a sweetening session at Western Studio. August 31, 1964)\n3. The Little Old Lady From Pasadena (Recorded at the Civic Memorial Auditorium in Sacramento CA, Second Show. August 1, 1964. Recorded at a sweetening session at Western Studio. August 31, 1964)\n4. Little Deuce Coupe (Recorded at the Memorial Auditorium in Sacramento CA. December 21, 1963)\n5. Long Tall Texan (Recorded at the Memorial Auditorium in Sacramento CA. December 21, 1963)\n6. In My Room (Recorded at the Memorial Auditorium in Sacramento CA. December 21, 1963)\n7. Monster Mash (Recorded at the Memorial Auditorium in Sacramento CA. December 21, 1963)\n8. Let's Go Trippin' (Recorded at the Civic Memorial Auditorium in Sacramento CA, Second Show. August 1, 1964)\n9. Papa-Oom-Mow-Mow (Recorded at the Memorial Auditorium in Sacramento CA. December 21, 1963)\n10. The Wanderer (Recorded at the Civic Memorial Auditorium in Sacramento CA, Second Show. August 1, 1964)\n11. Hawaii (Recorded at the Civic Memorial Auditorium in Sacramento CA, First Show. August 1, 1964)\n12. Graduation Day (Recorded at the Civic Memorial Auditorium in Sacramento CA, Second Show. August 1, 1964)\n13. I Get Around (Intro recorded at the Civic Memorial Auditorium in Sacramento CA, First Show. August 1, 1964. Recorded at a sweetening session at Western Studio. August 31, 1964)\n14. Johnny B. Goode (Intro recorded at the Civic Memorial Auditorium in Sacramento CA, Second Show. August 1, 1964. Recorded at the Memorial Auditorium in Sacramento CA. December 21, 1963. Recorded at a sweetening session at Western Studio. August 31, 1964)\n\nBonus Tracks:\n\nDon't Worry, Baby (Recorded at the Civic Memorial Auditorium in Sacramento CA, Second Show. August 1, 1964)"
           }
         },
         {
@@ -2612,7 +2612,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": "Recorded at the Civic Memorial Auditorium in Sacramento CA, August 1, 1964"
+            "tracklist": "1. Intro (Recorded at the Memorial Auditorium in Sacramento CA. December 21, 1963)\n2. Fun Fun Fun (Recorded at a sweetening session at Western Studio. August 31, 1964)\n3. The Little Old Lady From Pasadena (Recorded at the Civic Memorial Auditorium in Sacramento CA, Second Show. August 1, 1964. Recorded at a sweetening session at Western Studio. August 31, 1964)\n4. Little Deuce Coupe (Recorded at the Memorial Auditorium in Sacramento CA. December 21, 1963)\n5. Long Tall Texan (Recorded at the Memorial Auditorium in Sacramento CA. December 21, 1963)\n6. In My Room (Recorded at the Memorial Auditorium in Sacramento CA. December 21, 1963)\n7. Monster Mash (Recorded at the Memorial Auditorium in Sacramento CA. December 21, 1963)\n8. Let's Go Trippin' (Recorded at the Civic Memorial Auditorium in Sacramento CA, Second Show. August 1, 1964)\n9. Papa-Oom-Mow-Mow (Recorded at the Memorial Auditorium in Sacramento CA. December 21, 1963)\n10. The Wanderer (Recorded at the Civic Memorial Auditorium in Sacramento CA, Second Show. August 1, 1964)\n11. Hawaii (Recorded at the Civic Memorial Auditorium in Sacramento CA, First Show. August 1, 1964)\n12. Graduation Day (Recorded at the Civic Memorial Auditorium in Sacramento CA, Second Show. August 1, 1964)\n13. I Get Around (Intro recorded at the Civic Memorial Auditorium in Sacramento CA, First Show. August 1, 1964. Recorded at a sweetening session at Western Studio. August 31, 1964)\n14. Johnny B. Goode (Intro recorded at the Civic Memorial Auditorium in Sacramento CA, Second Show. August 1, 1964. Recorded at the Memorial Auditorium in Sacramento CA. December 21, 1963. Recorded at a sweetening session at Western Studio. August 31, 1964)\n\nBonus Tracks:\n\nDon't Worry, Baby (Recorded at the Civic Memorial Auditorium in Sacramento CA, Second Show. August 1, 1964)"
           }
         }
       ]
@@ -66952,7 +66952,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "Hushabye (Live)\nConcert Intro/Surfin' U.S.A. - Live 1964\nSurfer Girl - Live 1964\nBe True To Your School - Live 1964\n\nRecorded live at the Civic Memorial Auditorium in Sacramento, CA (First Show). August 1, 1964"
           }
         }
       ]
@@ -101274,7 +101274,7 @@
         "@type": "MusicAlbum",
         "albumProductionType": "LiveAlbum",
         "uniqueId": "sacramento-01",
-        "name": "Civic Memorial Auditorium - Sacramento CA (First Show)",
+        "name": "Sacramento CA (First Show)",
         "sameAs": "https://en.wikipedia.org/wiki/Beach_Boys_Concert",
         "image": "img/concerts/the-beach-boys/1964-08-01-sacramento/burbank-cover.jpg",
         "backCover": "",
@@ -101291,10 +101291,10 @@
         "recordingEndMonth": 1,
         "recordingEndYear": 1,
         "byArtist": "The Beach Boys",
-        "producer": "",
+        "producer": "Beach Boys present: Brian Wilson, Dennis Wilson, Carl Wilson, Mike Love, Al Jardine",
         "duration": "",
         "numberOfDiscs": 1,
-        "country": "Beach Boys present: Brian Wilson, Dennis Wilson, Carl Wilson, Mike Love, Al Jardine",
+        "country": "Civic Memorial Auditorium, Sacramento CA (First Show, 7:00 p.m.)",
         "billboardPosition": 1,
         "unitsSold": 0,
         "riaa": "",
@@ -101741,7 +101741,7 @@
         "@type": "MusicAlbum",
         "albumProductionType": "LiveAlbum",
         "uniqueId": "sacramento-02",
-        "name": "Civic Memorial Auditorium - Sacramento CA (Second Show)",
+        "name": "Sacramento CA (Second Show)",
         "sameAs": "https://en.wikipedia.org/wiki/Beach_Boys_Concert",
         "image": "img/concerts/the-beach-boys/1964-08-01-sacramento/burbank-cover.jpg",
         "backCover": "",
@@ -101758,10 +101758,10 @@
         "recordingEndMonth": 1,
         "recordingEndYear": 1,
         "byArtist": "The Beach Boys",
-        "producer": "",
+        "producer": "Beach Boys present: Brian Wilson, Dennis Wilson, Carl Wilson, Mike Love, Al Jardine",
         "duration": "",
         "numberOfDiscs": 1,
-        "country": "Beach Boys present: Brian Wilson, Dennis Wilson, Carl Wilson, Mike Love, Al Jardine",
+        "country": "Civic Memorial Auditorium, Sacramento CA (Second Show, 9:30 p.m.)",
         "billboardPosition": 1,
         "unitsSold": 0,
         "riaa": "",
