@@ -13770,8 +13770,8 @@
         "backCover": "",
         "publisher": "Capitol",
         "catalogNumber": "",
-        "datePublished": "12-03-2014",
-        "releaseDay": 3,
+        "datePublished": "12-02-2014",
+        "releaseDay": 2,
         "releaseMonth": 12,
         "releaseYear": 2014,
         "recordingStartDay": 1,
@@ -14495,8 +14495,8 @@
             "backCover": "",
             "recordLabel": "Capitol",
             "catalogNumber": "",
-            "datePublished": "12-13-2014",
-            "releaseDay": 13,
+            "datePublished": "12-02-2014",
+            "releaseDay": 2,
             "releaseMonth": 12,
             "releaseYear": 2014,
             "category": "live",
@@ -84516,8 +84516,8 @@
         "backCover": "",
         "publisher": "Capitol",
         "catalogNumber": "",
-        "datePublished": "12-03-2014",
-        "releaseDay": 3,
+        "datePublished": "12-02-2014",
+        "releaseDay": 2,
         "releaseMonth": 12,
         "releaseYear": 2014,
         "recordingStartDay": 1,
@@ -85403,8 +85403,8 @@
             "backCover": "",
             "recordLabel": "Capitol",
             "catalogNumber": "",
-            "datePublished": "12-03-2014",
-            "releaseDay": 3,
+            "datePublished": "12-02-2014",
+            "releaseDay": 2,
             "releaseMonth": 12,
             "releaseYear": 2014,
             "category": "compilation",
@@ -101273,10 +101273,197 @@
         "@context": "http://schema.org",
         "@type": "MusicAlbum",
         "albumProductionType": "LiveAlbum",
-        "uniqueId": "sacramento-01",
+        "uniqueId": "1963-10-19-hollywood",
+        "name": "Hollywood CA",
+        "sameAs": "",
+        "image": "img/concerts/the-beach-boys/1963-10-19-hollywood/1963-10-19-hollywood-cover.jpg",
+        "backCover": "",
+        "publisher": "",
+        "catalogNumber": "",
+        "datePublished": "10-19-1963",
+        "releaseDay": 19,
+        "releaseMonth": 10,
+        "releaseYear": 1963,
+        "recordingStartDay": 1,
+        "recordingStartMonth": 1,
+        "recordingStartYear": 1,
+        "recordingEndDay": 1,
+        "recordingEndMonth": 1,
+        "recordingEndYear": 1,
+        "byArtist": "The Beach Boys",
+        "producer": "Beach Boys present: Brian Wilson, Dennis Wilson, Carl Wilson, Mike Love, Al Jardine",
+        "duration": "",
+        "numberOfDiscs": 1,
+        "country": "Y-Day At Hollywood Bowl, Hollywood CA",
+        "billboardPosition": 1,
+        "unitsSold": 0,
+        "riaa": "",
+        "aggregateRating": 3.5,
+        "relevance": 1,
+        "backgroundColor": "#8095AA",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": false,
+		  "concert": true,
+          "production": false,
+          "tribute": false,
+          "video": false,
+          "book": false
+        },
+        "track": {
+          "@type": "ItemList",
+          "numberofItems": 5,
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Little Deuce Coupe",
+                "duration": "",
+                "composer": "",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 1,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "In My Room",
+                "duration": "",
+                "composer": "",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 2,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Be True To Your School",
+                "duration": "",
+                "composer": "",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 3,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Surfer Girl",
+                "duration": "",
+                "composer": "",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 4,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "KFWB Jingle",
+                "duration": "",
+                "composer": "",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 5,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            }
+          ]
+        }
+      },
+      "editions": [
+		{
+          "albumRelease": {
+            "@type": "MusicRelease",
+            "name": "Cowabunga!: The Surf Box",
+            "sameAs": "",
+            "image": "img/various-artists/1996-cowabunga-the-surf-box/cowabunga-the-surf-box-cover.jpg",
+            "backCover": "",
+            "recordLabel": "Rhino",
+            "catalogNumber": "R2 72418",
+            "datePublished": "05-21-1996",
+            "releaseDay": 21,
+            "releaseMonth": 5,
+            "releaseYear": 1996,
+            "category": "variousArtists",
+            "musicReleaseFormat": "CD",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "US",
+            "asin": "B0000033S4",
+            "amazonUs": "http://amzn.to/2bfdTJ4",
+            "amazonUk": "http://amzn.to/2bzf2vA",
+            "amazonCa": "http://amzn.to/2bRQIVc",
+            "amazonEs": "http://amzn.to/2bBcMBz",
+            "amazonFr": "http://amzn.to/2bzgkqz",
+            "amazonIt": "http://amzn.to/2bBc1st",
+            "amazonDe": "http://amzn.to/2bBctXq",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": "Contains the following track from this show:\n\nKFWB Jingle"
+          }
+        }
+      ]
+    },
+    {
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "MusicAlbum",
+        "albumProductionType": "LiveAlbum",
+        "uniqueId": "1964-08-01-sacramento-01",
         "name": "Sacramento CA (First Show)",
         "sameAs": "https://en.wikipedia.org/wiki/Beach_Boys_Concert",
-        "image": "img/concerts/the-beach-boys/1964-08-01-sacramento/burbank-cover.jpg",
+        "image": "img/concerts/the-beach-boys/1964-08-01-sacramento/1964-08-01-sacramento-cover.jpg",
         "backCover": "",
         "publisher": "",
         "catalogNumber": "",
@@ -101640,6 +101827,38 @@
         {
           "albumRelease": {
             "@type": "MusicRelease",
+            "name": "Good Vibrations - 30 Years Of The Beach Boys [5CD]",
+            "sameAs": "https://en.wikipedia.org/wiki/Good_Vibrations:_Thirty_Years_of_The_Beach_Boys",
+            "image": "img/compilations/1993-good-vibrations-thirty-years-of-the-beach-boys/good-vibrations-thirty-years-of-the-beach-boys-cover.jpg",
+            "backCover": "",
+            "recordLabel": "Capitol",
+            "catalogNumber": "C2 0777 7 81294 24",
+            "datePublished": "06-29-1993",
+            "releaseDay": 29,
+            "releaseMonth": 6,
+            "releaseYear": 1993,
+            "category": "compilation",
+            "musicReleaseFormat": "CD",
+            "duration": "",
+            "numberOfDiscs": 5,
+            "country": "US",
+            "asin": "B000002UR4",
+            "amazonUs": "http://amzn.to/1VwDmy0",
+            "amazonUk": "http://amzn.to/2acFg61",
+            "amazonCa": "http://amzn.to/2aleaW8",
+            "amazonEs": "http://amzn.to/2aidxRv",
+            "amazonFr": "http://amzn.to/2aFqOA6",
+            "amazonIt": "http://amzn.to/2al6A2i",
+            "amazonDe": "http://amzn.to/2aliWY1",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": "Contains the following tracks from this show:\n\nHushabye (Live)\nConcert Intro/Surfin' U.S.A. - Live 1964\nSurfer Girl - Live 1964\nBe True To Your School - Live 1964"
+          }
+        },
+        {
+          "albumRelease": {
+            "@type": "MusicRelease",
             "name": "Beach Boys Concert / Live In London",
             "sameAs": "https://en.wikipedia.org/wiki/Beach_Boys_Concert",
             "image": "img/albums/the-beach-boys/live/1964-beach-boys-concert/beach-boys-concert-2001.jpg",
@@ -101666,7 +101885,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": "Bonus Tracks:\n\nDon't Worry, Baby (B.Wilson/Christian)\n\nRecorded at the Civic Memorial Auditorium in Sacramento CA, August 1, 1964"
+            "tracklist": "This edition contains the following tracks from this show:\n\nHawaii\nIntro to I Get Around"
           }
         },
         {
@@ -101698,7 +101917,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": "Recorded at the Civic Memorial Auditorium in Sacramento CA, August 1, 1964"
+            "tracklist": "This edition contains the following tracks from this show:\n\nHawaii\nIntro to I Get Around"
           }
         },
         {
@@ -101710,8 +101929,8 @@
             "backCover": "",
             "recordLabel": "Capitol",
             "catalogNumber": "",
-            "datePublished": "12-13-2014",
-            "releaseDay": 13,
+            "datePublished": "12-02-2014",
+            "releaseDay": 2,
             "releaseMonth": 12,
             "releaseYear": 2014,
             "category": "live",
@@ -101740,10 +101959,10 @@
         "@context": "http://schema.org",
         "@type": "MusicAlbum",
         "albumProductionType": "LiveAlbum",
-        "uniqueId": "sacramento-02",
+        "uniqueId": "1964-08-01-sacramento-02",
         "name": "Sacramento CA (Second Show)",
         "sameAs": "https://en.wikipedia.org/wiki/Beach_Boys_Concert",
-        "image": "img/concerts/the-beach-boys/1964-08-01-sacramento/burbank-cover.jpg",
+        "image": "img/concerts/the-beach-boys/1964-08-01-sacramento/1964-08-01-sacramento-cover.jpg",
         "backCover": "",
         "publisher": "",
         "catalogNumber": "",
@@ -101792,11 +102011,11 @@
         },
         "track": {
           "@type": "ItemList",
-          "numberofItems": 37,
+          "numberofItems": 18,
           "itemListElement": [
             {
               "@type": "ListItem",
-              "position": 18,
+              "position": 1,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Concert Intro (Second Show/Live)",
@@ -101814,7 +102033,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 19,
+              "position": 2,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Little Honda (Second Show/Live)",
@@ -101832,7 +102051,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 20,
+              "position": 3,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Fun, Fun, Fun (Second Show/Live)",
@@ -101850,7 +102069,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 21,
+              "position": 4,
               "item": {
                 "@type": "MusicRecording",
                 "name": "The Little Old Lady From Pasadena (Second Show/Live)",
@@ -101868,7 +102087,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 22,
+              "position": 5,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Hushabye (Second Show/Live)",
@@ -101886,7 +102105,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 23,
+              "position": 6,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Hawaii (Second Show/Live)",
@@ -101904,7 +102123,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 24,
+              "position": 7,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Let's Go Trippin' (Second Show/Live)",
@@ -101922,7 +102141,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 25,
+              "position": 8,
               "item": {
                 "@type": "MusicRecording",
                 "name": "The Wanderer (Second Show/Live)",
@@ -101940,7 +102159,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 26,
+              "position": 9,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Wendy (Second Show/Live)",
@@ -101958,7 +102177,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 27,
+              "position": 10,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Monster Mash (Second Show/Live)",
@@ -101976,7 +102195,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 28,
+              "position": 11,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Surfer Girl (Second Show/Live)",
@@ -101994,7 +102213,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 29,
+              "position": 12,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Be True To Your School (Second Show/Live)",
@@ -102012,7 +102231,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 30,
+              "position": 13,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Graduation Day (Second Show/Live)",
@@ -102030,7 +102249,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 31,
+              "position": 14,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Surfin' U.S.A. (Second Show/Live)",
@@ -102048,7 +102267,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 32,
+              "position": 15,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Don't Back Down (Second Show/Live)",
@@ -102066,7 +102285,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 33,
+              "position": 16,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Don't Worry, Baby (Second Show/Live)",
@@ -102084,7 +102303,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 34,
+              "position": 17,
               "item": {
                 "@type": "MusicRecording",
                 "name": "I Get Around (Second Show/Live)",
@@ -102102,7 +102321,7 @@
             },
             {
               "@type": "ListItem",
-              "position": 35,
+              "position": 18,
               "item": {
                 "@type": "MusicRecording",
                 "name": "Encore: Papa Oom Mow Mow (Second Show/Live)",
@@ -102112,42 +102331,6 @@
                 "leadVocal": "",
                 "disc": 2,
                 "trackNumber": 18,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 36,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Little Honda (Rehearsal/Live)",
-                "duration": "",
-                "composer": "B.Wilson/Love",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 3,
-                "trackNumber": 1,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 37,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Papa-Oom-Mow-Mow (Rehearsal/Live)",
-                "duration": "",
-                "composer": "Frazier/White/Wilson/Harris",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 3,
-                "trackNumber": 2,
                 "trackLink": "",
                 "hit": false,
                 "inthit": false,
@@ -102187,7 +102370,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": "Bonus Tracks:\n\nDon't Worry, Baby (B.Wilson/Christian)\n\nRecorded at the Civic Memorial Auditorium in Sacramento CA, August 1, 1964"
+            "tracklist": "This edition contains the following tracks from this show:\n\nThe Little Old Lady From Pasadena\nThe Wanderer\nGraduation Day\nIntro to Johnny B. Goode\n\nBonus Track:\n\nDon't Worry, Baby"
           }
         },
         {
@@ -102219,7 +102402,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": "Recorded at the Civic Memorial Auditorium in Sacramento CA, August 1, 1964"
+            "tracklist": "This edition contains the following tracks from this show:\n\nThe Little Old Lady From Pasadena\nLet's Go Trippin'\nThe Wanderer\nGraduation Day\nIntro to Johnny B. Goode"
           }
         },
         {
@@ -102231,8 +102414,8 @@
             "backCover": "",
             "recordLabel": "Capitol",
             "catalogNumber": "",
-            "datePublished": "12-13-2014",
-            "releaseDay": 13,
+            "datePublished": "12-02-2014",
+            "releaseDay": 2,
             "releaseMonth": 12,
             "releaseYear": 2014,
             "category": "live",
