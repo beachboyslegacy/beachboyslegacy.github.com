@@ -15339,6 +15339,660 @@
       "parent": {
         "@context": "http://schema.org",
         "@type": "MusicAlbum",
+        "albumProductionType": "LiveAlbum",
+        "uniqueId": "graduation-day-1966",
+        "name": "Graduation Day 1966: Live At The University Of Michigan",
+        "sameAs": "",
+        "image": "img/albums/the-beach-boys/live/2016-graduation-day-1966/graduation-day-1966-cover.jpg",
+        "backCover": "",
+        "publisher": "Capitol",
+        "catalogNumber": "C92",
+        "datePublished": "12-09-2016",
+        "releaseDay": 9,
+        "releaseMonth": 12,
+        "releaseYear": 2016,
+        "recordingStartDay": 1,
+        "recordingStartMonth": 1,
+        "recordingStartYear": 1,
+        "recordingEndDay": 1,
+        "recordingEndMonth": 1,
+        "recordingEndYear": 1,
+        "byArtist": "The Beach Boys",
+        "producer": "Alan Boyd, Mark Linett. Brian Wilson (original recordings)",
+        "duration": "",
+        "numberOfDiscs": 3,
+        "country": "US",
+        "billboardPosition": "Did not chart",
+        "unitsSold": 0,
+        "riaa": "",
+        "aggregateRating": 3,
+        "relevance": 1,
+        "backgroundColor": "#158EA9",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": true,
+          "studio": false,
+          "live": true,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": true,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": false,
+          "book": false
+        },
+        "track": {
+          "@type": "ItemList",
+          "numberofItems": 31,
+          "itemListElement": [
+            {
+              "@type" : "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Help Me Rhonda (Live At The University Of Michigan/1966/Show 1)",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 1,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "I Get Around (Live At The University Of Michigan/1966/Show 1)",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 2,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Medley (Live At The University Of Michigan/1966/Show 1)",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 3,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 4,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Surfer Girl (Live At The University Of Michigan/1966/Show 1)",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 4,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 5,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Papa-Oom-Mow-Mow (Live At The University Of Michigan/1966/Show 1)",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 5,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 6,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "You're So Good To Me (Live At The University Of Michigan/1966/Show 1)",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 6,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 7,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "You've Got To Hide Your Love Away (Live At The University Of Michigan/1966/Show 1)",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 7,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 8,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "California Girls (Live At The University Of Michigan/1966/Show 1)",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 8,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 9,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Sloop John B (Live At The University Of Michigan/1966/Show 1)",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 9,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 10,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Wouldn't It Be Nice (Live At The University Of Michigan/1966/Show 1)",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 10,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 11,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "God Only Knows (Live At The University Of Michigan/1966/Show 1)",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 11,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 12,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Good Vibrations (Live At The University Of Michigan/1966/Show 1)",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 12,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 13,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Graduation Day (Live At The University Of Michigan/1966/Show 1)",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 13,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 14,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Barbara Ann (Live At The University Of Michigan/1966/Show 1)",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 14,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 15,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Help Me Rhonda (Live At The University Of Michigan/1966/Show 2)",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 2,
+                "trackNumber" : 1,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 16,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "I Get Around (Live At The University Of Michigan/1966/Show 2)",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 2,
+                "trackNumber" : 2,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 17,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Medley (Live At The University Of Michigan/1966/Show 2)",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 2,
+                "trackNumber" : 3,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 18,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Surfer Girl (Live At The University Of Michigan/1966/Show 2)",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 2,
+                "trackNumber" : 4,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 19,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Papa-Oom-Mow-Mow (Live At The University Of Michigan/1966/Show 2)",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 2,
+                "trackNumber" : 5,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 20,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "You're So Good To Me (Live At The University Of Michigan/1966/Show 2)",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 2,
+                "trackNumber" : 6,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 21,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "You've Got To Hide Your Love Away (Live At The University Of Michigan/1966/Show 2)",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 2,
+                "trackNumber" : 7,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 22,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "California Girls (Live At The University Of Michigan/1966/Show 2)",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 2,
+                "trackNumber" : 8,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 23,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Sloop John B (Live At The University Of Michigan/1966/Show 2)",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 2,
+                "trackNumber" : 9,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 24,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Wouldn't It Be Nice (Live At The University Of Michigan/1966/Show 2)",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 2,
+                "trackNumber" : 10,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 25,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "God Only Knows (Live At The University Of Michigan/1966/Show 2)",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 2,
+                "trackNumber" : 11,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 26,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Good Vibrations (Live At The University Of Michigan/1966/Show 2)",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 2,
+                "trackNumber" : 12,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 27,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Graduation Day (Live At The University Of Michigan/1966/Show 2)",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 2,
+                "trackNumber" : 13,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 28,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Barbara Ann (Live At The University Of Michigan/1966/Show 2)",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 2,
+                "trackNumber" : 14,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 29,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Johnny B. Goode (Live At The University Of Michigan/1966/Show 2)",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 2,
+                "trackNumber" : 15,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 30,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Koma Radio Spot",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 3,
+                "trackNumber" : 1,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 31,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Row Row Row Your Boat (Live)",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 3,
+                "trackNumber" : 2,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            }
+          ]
+        }
+      },
+      "editions": [
+        {
+          "albumRelease": {
+            "@type": "MusicRelease",
+            "name": "Graduation Day 1966: Live At The University Of Michigan",
+            "sameAs": "",
+            "image": "img/albums/the-beach-boys/live/2016-graduation-day-1966/graduation-day-1966-cover.jpg",
+            "backCover": "",
+            "recordLabel": "Capitol",
+            "catalogNumber": "C92",
+            "datePublished": "12-09-2016",
+            "releaseDay": 9,
+            "releaseMonth": 12,
+            "releaseYear": 2016,
+            "category": "live",
+            "musicReleaseFormat": "DIGITAL",
+            "duration": "",
+            "numberOfDiscs": 3,
+            "country": "US",
+            "asin": "B01N7EDNL2",
+            "amazonUs": "http://amzn.to/2glRc8O",
+            "amazonUk": "http://amzn.to/2glRc8O",
+            "amazonCa": "http://amzn.to/2glRc8O",
+            "amazonEs": "http://amzn.to/2glRc8O",
+            "amazonFr": "http://amzn.to/2glRc8O",
+            "amazonIt": "http://amzn.to/2glRc8O",
+            "amazonDe": "http://amzn.to/2glRc8O",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": "Recorded live at the University Of Michigan, Ann Arbor, October 22, 1966 (Two Shows)"
+          }
+        }
+      ]
+    },
+    {
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "MusicAlbum",
         "albumProductionType": "StudioAlbum",
         "uniqueId": "brian-wilson-1988",
         "name": "Brian Wilson",
@@ -61618,7 +62272,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": "Exclusive to this edition:\n\nRunaway (Live at the Blossom Music Center, Cleveland OH, June 26, 1981. Produced by Al Jardine)"
+            "tracklist": "Exclusive to this edition:\n\nRunaway (Live at the Blossom Music Center, Cleveland OH, June 11, 1982. Produced by Al Jardine)"
           }
         }
       ]
