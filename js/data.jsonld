@@ -630,7 +630,7 @@
                 "@type": "MusicRecording",
                 "name": "Honky Tonk",
                 "duration": "",
-                "composer": "Doggett/Scott/Sheppard/Butler",
+                "composer": "Doggett/Scott/Shepherd/Butler",
                 "producer": "",
                 "leadVocal": "",
                 "disc": 1,
@@ -2988,7 +2988,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": "Bonus Tracks:\n\nLittle Saint Nick (Single Version) (B.Wilson/Love)\nAuld Lang Syne (Alternate Mix) (Traditional)\nLittle Saint Nick (Alternate Version) (B.Wilson/Love)\nChild Of Winter (Christmas Song) (B.Wilson/Kalinich)\nSanta's Got An Airplane (B.Wilson/Jardine/Love)\nWinter Symphony (B.Wilson)\n(I Saw Santa) Rockin' Around The Christmas Tree (B.Wilson/Jardine)\nMelekalikimaka (Jardine/Love)\nBells Of Christmas (Jardine/Altbach/Love)\nMorning Christmas (D.Wilson)\nToy Drive Public Service Announcement (B.Wilson/Love)\nDennis Wilson Christmas Message\nBrian Wilson Christmas Interview"
+            "tracklist": "1. Little Saint Nick (Stereo)\n2. The Man With All The Toys (Stereo)\n3. Santa's Beard (Stereo)\n4. Merry Christmas, Baby (Stereo)\n5. Christmas Day (Stereo)\n6. Frosty The Snowman (Stereo)\n7. We Three Kings Of Orient Are (Stereo)\n8. Blue Christmas (Stereo)\n9. Santa Claus Is Coming To Town (Stereo)\n10. White Christmas (Stereo)\n11. I'll Be Home For Christmas (Stereo)\n12. Auld Lang Syne (Stereo)\n\nBonus Tracks:\n13. Little Saint Nick (Stereo Single Version) (B.Wilson/Love)\n14. Auld Lang Syne (Stereo Alternate Mix) (Traditional)\n15. Little Saint Nick (Stereo Alternate Version) (B.Wilson/Love)\n16. Child Of Winter (Christmas Song) (B.Wilson/Kalinich)\n17. Santa's Got An Airplane (B.Wilson/Jardine/Love)\n18. Winter Symphony (B.Wilson)\n19. (I Saw Santa) Rockin' Around The Christmas Tree (B.Wilson/Jardine)\n20. Melekalikimaka (Jardine/Love)\n21. Bells Of Christmas (Jardine/Altbach/Love)\n22. Morning Christmas (D.Wilson)\n23. Toy Drive Public Service Announcement (B.Wilson/Love)\n24. Dennis Wilson Christmas Message\n25. Brian Wilson Christmas Interview"
           }
         },
         {
@@ -3020,7 +3020,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "1. Santa Claus Is Comin' To Town (Stereo)\n2. Frosty The Snowman (Stereo)\n3. White Christmas (Stereo)\n4. Little Saint Nick (Mono)\n5. Christmas Day (Mono)\n6. I'll Be Home For Christmas (Stereo)\n7. Santa's Beard (Mono)\n8. Child Of Winter (Christmas Song)\n9. Merry Christmas, Baby (Mono)\n10. Blue Christmas (Stereo)\n11. Melekalikimaka\n12. (I Saw Santa) Rockin' Around The Christmas Tree\n13. The Man With All The Toys (Mono)\n14. We Three Kings Of Orient Are (Stereo)\n15. Auld Lang Syne (Stereo Alternate Take)"
           }
         },
         {
@@ -9126,7 +9126,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": "Exclusive on this edition:\n\nCome Go With Me (Alternate Version)\nPeggy Sue (Alternate Mix)\nWinds Of Change (Alternate Mix)"
+            "tracklist": "2. Come Go With Me (Alternate 'Wrong' Version)\n5. Peggy Sue (Alternate Mix)\n12. Winds Of Change (Alternate Mix)\n\nCome Go With Me (Alternate 'Wrong' Version) also appeared on the 2CD US edition of Ten Years Of Harmony"
           }
         },
         {
@@ -35120,7 +35120,7 @@
             "image": "img/compilations/2013-made-in-california/made-in-california-cover.jpg",
             "backCover": "",
             "recordLabel": "Capitol",
-            "catalogNumber": "509992 31345 29",
+            "catalogNumber": "B0018509-02",
             "datePublished": "08-27-2013",
             "releaseDay": 27,
             "releaseMonth": 8,
@@ -60772,7 +60772,7 @@
               "position": 10,
               "item": {
                 "@type": "MusicRecording",
-                "name": "It's OK",
+                "name": "It's OK (Sped Up Single Version)",
                 "duration": "",
                 "composer": "B.Wilson/Love",
                 "producer": "",
@@ -61006,7 +61006,7 @@
               "position": 23,
               "item": {
                 "@type": "MusicRecording",
-                "name": "Come Go With Me ('Wrong' Version)",
+                "name": "Come Go With Me",
                 "duration": "",
                 "composer": "Quick",
                 "producer": "",
@@ -61135,10 +61135,42 @@
             "@type": "MusicRelease",
             "name": "Ten Years Of Harmony",
             "sameAs": "https://en.wikipedia.org/wiki/Ten_Years_of_Harmony",
+            "image": "img/compilations/1981-ten-years-of-harmony/ten-years-of-harmony-cover.jpg",
+            "backCover": "",
+            "recordLabel": "Caribou",
+            "catalogNumber": "Z2X 37445",
+            "datePublished": "12-07-1981",
+            "releaseDay": 7,
+            "releaseMonth": 12,
+            "releaseYear": 1981,
+            "category": "compilation",
+            "musicReleaseFormat": "LP",
+            "duration": "",
+            "numberOfDiscs": 2,
+            "country": "US",
+            "asin": "B007TNLEFG",
+            "amazonUs": "http://amzn.to/2kKI62T",
+            "amazonUk": "http://amzn.to/2jJeiGp",
+            "amazonCa": "http://amzn.to/2kKzuJC",
+            "amazonEs": "http://amzn.to/2jJfXM5",
+            "amazonFr": "http://amzn.to/2jJeSEc",
+            "amazonIt": "http://amzn.to/2k8j9j6",
+            "amazonDe": "http://amzn.to/2jlOLV4",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": ""
+          }
+        },
+        {
+          "albumRelease": {
+            "@type": "MusicRelease",
+            "name": "Ten Years Of Harmony",
+            "sameAs": "https://en.wikipedia.org/wiki/Ten_Years_of_Harmony",
             "image": "img/compilations/1981-ten-years-of-harmony/ten-years-of-harmony-eu-1991.jpg",
             "backCover": "",
             "recordLabel": "Caribou",
-            "catalogNumber": "465670 2",
+            "catalogNumber": "Z2K 37445",
             "datePublished": "03-26-1991",
             "releaseDay": 26,
             "releaseMonth": 3,
@@ -61159,7 +61191,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": "On this CD edition, the standard vesions of the following songs were used:\n\nCalifornia Saga/California\nRock And Roll Music\nSchool Day (Ring! Ring! Goes The Bell)"
+            "tracklist": "On this US 2CD edition, the standard vesions of the following songs were used:\n\nDisc 1\n5. California Saga/California\n8. Rock And Roll Music\n10. It's OK\n13. School Day (Ring! Ring! Goes The Bell)\n\nIt also included the Alternate 'Wrong' Version of Come Go With Me also available on the M.I.U. 1991 CD edition"
           }
         }
       ]
@@ -62664,7 +62696,7 @@
               "position": 19,
               "item": {
                 "@type": "MusicRecording",
-                "name": "Caroline, No",
+                "name": "Caroline, No (Mono Single Version)",
                 "duration": "",
                 "composer": "B.Wilson/Asher",
                 "producer": "",
@@ -67615,6 +67647,1316 @@
       "parent": {
         "@context": "http://schema.org",
         "@type": "MusicAlbum",
+        "albumProductionType": "CompilationAlbum",
+        "uniqueId": "instrumental-hits",
+        "name": "Instrumental Hits",
+        "sameAs": "",
+        "image": "img/compilations/1994-instrumental-hits/instrumental-hits-cover.jpg",
+        "backCover": "",
+        "publisher": "Capitol",
+        "catalogNumber": "TOCP-8210",
+        "datePublished": "04-08-1994",
+        "releaseDay": 8,
+        "releaseMonth": 4,
+        "releaseYear": 1994,
+        "recordingStartDay": 1,
+        "recordingStartMonth": 1,
+        "recordingStartYear": 1,
+        "recordingEndDay": 1,
+        "recordingEndMonth": 1,
+        "recordingEndYear": 1,
+        "byArtist": "The Beach Boys",
+        "producer": "",
+        "duration": "",
+        "numberOfDiscs": 1,
+        "country": "JP",
+        "billboardPosition": "Did not chart",
+        "unitsSold": 0,
+        "riaa": "",
+        "aggregateRating": 4.5,
+        "relevance": 1,
+        "backgroundColor": "#A7C0A0",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": true,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": false,
+          "book": false
+        },
+        "track": {
+          "@type": "ItemList",
+          "numberofItems": 20,
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Moon Dawg",
+                "duration": "",
+                "composer": "Weaver",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 1,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Misirlou",
+                "duration": "",
+                "composer": "Roubanis/Wise/Leeds/Russell",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 2,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Stoked",
+                "duration": "",
+                "composer": "B.Wilson",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 3,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Honky Tonk",
+                "duration": "",
+                "composer": "Doggett/Scott/Shepherd/Butler",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 4,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Surf Jam",
+                "duration": "",
+                "composer": "C.Wilson",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 5,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Let's Go Trippin'",
+                "duration": "",
+                "composer": "Dale",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 6,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 7,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "The Rocking Surfer",
+                "duration": "",
+                "composer": "Traditional/Arranged by B.Wilson",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 7,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 8,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Boogie Woodie",
+                "duration": "",
+                "composer": "Traditional/Arranged by B.Wilson",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 8,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 9,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "After The Game",
+                "duration": "",
+                "composer": "B.Wilson",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 9,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 10,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Shut Down, Part II",
+                "duration": "",
+                "composer": "C.Wilson",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 10,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 11,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Denny's Drums",
+                "duration": "",
+                "composer": "D.Wilson",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 11,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 12,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Carl's Big Chance",
+                "duration": "",
+                "composer": "B.Wilson/C.Wilson",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 12,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 13,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Let's Go Trippin' (Live)",
+                "duration": "",
+                "composer": "Dale",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 13,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 14,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Summer Means New Love",
+                "duration": "",
+                "composer": "B.Wilson",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 14,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 15,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Let's Go Away For Awhile",
+                "duration": "",
+                "composer": "B.Wilson",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 15,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 16,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Pet Sounds",
+                "duration": "",
+                "composer": "B.Wilson",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 16,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 17,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Fall Breaks... And Back To Winter (Woody Woodpecker Symphony)",
+                "duration": "",
+                "composer": "B.Wilson",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 17,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 18,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Passing By",
+                "duration": "",
+                "composer": "B.Wilson",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 18,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 19,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Diamond Head",
+                "duration": "",
+                "composer": "Vescozo/Ritz/Ackley/B.Wilson",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 19,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 20,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "The Nearest Far Away Place",
+                "duration": "",
+                "composer": "Johnston",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 20,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            }
+          ]
+        }
+      },
+      "editions": [
+        {
+          "albumRelease": {
+            "@type": "MusicRelease",
+            "name": "Instrumental Hits",
+            "sameAs": "",
+            "image": "img/compilations/1994-instrumental-hits/instrumental-hits-cover.jpg",
+            "backCover": "",
+            "recordLabel": "Toshiba EMI",
+            "catalogNumber": "TOCP-66033",
+            "datePublished": "06-19-2002",
+            "releaseDay": 19,
+            "releaseMonth": 6,
+            "releaseYear": 2002,
+            "category": "compilation",
+            "musicReleaseFormat": "CD",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "JP",
+            "asin": "B000066ACJ",
+            "amazonUs": "http://amzn.to/2kMOOFH",
+            "amazonUk": "http://amzn.to/2jOsHOZ",
+            "amazonCa": "http://amzn.to/2kMMLBp",
+            "amazonEs": "http://amzn.to/2jOunrM",
+            "amazonFr": "http://amzn.to/2kkehtn",
+            "amazonIt": "http://amzn.to/2kkp6f5",
+            "amazonDe": "http://amzn.to/2jOlIWj",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": ""
+          }
+        }
+      ]
+    },
+    {
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "MusicAlbum",
+        "albumProductionType": "CompilationAlbum",
+        "uniqueId": "20-good-vibrations-the-greatest-hits",
+        "name": "Greatest Hits: 20 Good Vibrations",
+        "sameAs": "https://en.wikipedia.org/wiki/The_Greatest_Hits_%E2%80%93_Volume_1:_20_Good_Vibrations",
+        "image": "img/compilations/1995-20-good-vibrations-the-greatest-hits/20-good-vibrations-the-greatest-hits-cover.jpg",
+        "backCover": "",
+        "publisher": "Capitol",
+        "catalogNumber": "72438 29418 28",
+        "datePublished": "04-04-1995",
+        "releaseDay": 4,
+        "releaseMonth": 4,
+        "releaseYear": 1995,
+        "recordingStartDay": 1,
+        "recordingStartMonth": 1,
+        "recordingStartYear": 1,
+        "recordingEndDay": 1,
+        "recordingEndMonth": 1,
+        "recordingEndYear": 1,
+        "byArtist": "The Beach Boys",
+        "producer": "",
+        "duration": "",
+        "numberOfDiscs": 1,
+        "country": "US",
+        "billboardPosition": 95,
+        "unitsSold": 0,
+        "riaa": "",
+        "aggregateRating": 4.5,
+        "relevance": 1,
+        "backgroundColor": "#626A8E",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": true,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": false,
+          "book": false
+        },
+        "track": {
+          "@type": "ItemList",
+          "numberofItems": 20,
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Surfin' Safari (Mono)",
+                "duration": "",
+                "composer": "B.Wilson/Love",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 1,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Surfin' U.S.A.",
+                "duration": "",
+                "composer": "Berry/B.Wilson",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 2,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Surfer Girl",
+                "duration": "",
+                "composer": "B.Wilson",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 3,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Little Deuce Coupe",
+                "duration": "",
+                "composer": "B.Wilson/Christian",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 4,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Be True To Your School (Album Version)",
+                "duration": "",
+                "composer": "B.Wilson/Love",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 5,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Fun, Fun, Fun (Album Version)",
+                "duration": "",
+                "composer": "B.Wilson/Love",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 6,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 7,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "I Get Around (Mono)",
+                "duration": "",
+                "composer": "B.Wilson/Love",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 7,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 8,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Shut Down",
+                "duration": "",
+                "composer": "B.Wilson/Christian",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 8,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 9,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Dance, Dance, Dance (Mono)",
+                "duration": "",
+                "composer": "B.Wilson/C.Wilson/Love",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 9,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 10,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Do You Wanna Dance? (Mono)",
+                "duration": "",
+                "composer": "Freeman",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 10,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 11,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Help Me, Rhonda (Mono Album Version)",
+                "duration": "",
+                "composer": "B.Wilson/Love",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 11,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 12,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "California Girls (Mono)",
+                "duration": "",
+                "composer": "B.Wilson/Love",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 12,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 13,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Barbara Ann (Mono Single Edit)",
+                "duration": "",
+                "composer": "Fassert",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 13,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 14,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Sloop John B (Mono)",
+                "duration": "",
+                "composer": "Traditional/Arranged by B.Wilson",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 14,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 15,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Wouldn't It Be Nice (Mono)",
+                "duration": "",
+                "composer": "B.Wilson/Asher/Love",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 15,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 16,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Good Vibrations (Mono)",
+                "duration": "",
+                "composer": "B.Wilson/Love",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 16,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 17,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "409 (Mono)",
+                "duration": "",
+                "composer": "B.Wilson/Usher/Love",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 17,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 18,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "God Only Knows (Mono)",
+                "duration": "",
+                "composer": "B.Wilson/Asher",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 18,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 19,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Catch A Wave",
+                "duration": "",
+                "composer": "B.Wilson/Love",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 19,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 20,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Kokomo",
+                "duration": "",
+                "composer": "Phillips/Mackenzie/Love/Melcher",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 20,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            }
+          ]
+        }
+      },
+      "editions": [
+        {
+          "albumRelease": {
+            "@type": "MusicRelease",
+            "name": "20 Good Vibrations - The Greatest Hits",
+            "sameAs": "https://en.wikipedia.org/wiki/The_Greatest_Hits_%E2%80%93_Volume_1:_20_Good_Vibrations",
+            "image": "img/compilations/1995-20-good-vibrations-the-greatest-hits/20-good-vibrations-the-greatest-hits-cover.jpg",
+            "backCover": "",
+            "recordLabel": "Capitol",
+            "catalogNumber": "72438 29418 28",
+            "datePublished": "04-04-1995",
+            "releaseDay": 4,
+            "releaseMonth": 4,
+            "releaseYear": 1995,
+            "category": "compilation",
+            "musicReleaseFormat": "CD",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "US",
+            "asin": "B013Q7N9DS",
+            "amazonUs": "http://amzn.to/1VwDr4X",
+            "amazonUk": "http://amzn.to/2aXdHuw",
+            "amazonCa": "http://amzn.to/2aN5ICG",
+            "amazonEs": "http://amzn.to/2aidXrg",
+            "amazonFr": "http://amzn.to/2b5okLW",
+            "amazonIt": "http://amzn.to/2awtxN5",
+            "amazonDe": "http://amzn.to/2aG7B1g",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": ""
+          }
+        },
+        {
+          "albumRelease": {
+            "@type": "MusicRelease",
+            "name": "20 Good Vibrations - The Greatest Hits Volume 1",
+            "sameAs": "https://en.wikipedia.org/wiki/The_Greatest_Hits_%E2%80%93_Volume_1:_20_Good_Vibrations",
+            "image": "img/compilations/1995-20-good-vibrations-the-greatest-hits/20-good-vibrations-the-greatest-hits-1999.jpg",
+            "backCover": "",
+            "recordLabel": "Capitol",
+            "catalogNumber": "72438 29418 28",
+            "datePublished": "09-21-1999",
+            "releaseDay": 21,
+            "releaseMonth": 9,
+            "releaseYear": 1999,
+            "category": "compilation",
+            "musicReleaseFormat": "CD",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "US",
+            "asin": "B00001IVJY",
+            "amazonUs": "http://amzn.to/1SStPL5",
+            "amazonUk": "http://amzn.to/2aGrmZR",
+            "amazonCa": "http://amzn.to/2axB3Jj",
+            "amazonEs": "http://amzn.to/2at8niU",
+            "amazonFr": "http://amzn.to/2aw6G44",
+            "amazonIt": "http://amzn.to/2al6wQ5",
+            "amazonDe": "http://amzn.to/2alji10",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": "1. Surfin' Safari (Mono)\n2. 409 (Mono)\n3. Surfin' U.S.A. (Mono)\n4. Shut Down (Mono)\n5. Surfer Girl (Mono)\n6. Little Deuce Coupe (Mono)\n7. Catch A Wave (Mono)\n8. Be True To Your School (Mono Single Version)\n9. Fun, Fun, Fun (Mono Single Version)\n10. I Get Around (Mono)\n11. Dance, Dance, Dance (Mono)\n12. Do You Wanna Dance? (Mono)\n13. Help Me, Rhonda (Mono Single Version)\n14. California Girls (Mono)\n15. Barbara Ann (Mono Single Edit)\n16. Sloop John B (Mono)\n17. Wouldn't It Be Nice (Mono)\n18. God Only Knows (Mono)\n19. Good Vibrations (Mono)\n20. Kokomo (Stereo)"
+          }
+        }
+      ]
+    },
+    {
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "MusicAlbum",
+        "albumProductionType": "CompilationAlbum",
+        "uniqueId": "perfect-harmony",
+        "name": "Perfect Harmony",
+        "sameAs": "",
+        "image": "img/compilations/1997-perfect-harmony/perfect-harmony-cover.jpg",
+        "backCover": "",
+        "publisher": "Capitol",
+        "catalogNumber": "7243 8 21277 27",
+        "datePublished": "10-07-1997",
+        "releaseDay": 7,
+        "releaseMonth": 10,
+        "releaseYear": 1997,
+        "recordingStartDay": 1,
+        "recordingStartMonth": 1,
+        "recordingStartYear": 1,
+        "recordingEndDay": 1,
+        "recordingEndMonth": 1,
+        "recordingEndYear": 1,
+        "byArtist": "The Beach Boys",
+        "producer": "",
+        "duration": "",
+        "numberOfDiscs": 1,
+        "country": "US",
+        "billboardPosition": "Did not chart",
+        "unitsSold": 0,
+        "riaa": "",
+        "aggregateRating": 4.5,
+        "relevance": 1,
+        "backgroundColor": "#74AAAC",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": true,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": false,
+          "book": false
+        },
+        "track": {
+          "@type": "ItemList",
+          "numberofItems": 15,
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "The Warmth Of The Sun (Mono)",
+                "duration": "",
+                "composer": "B.Wilson/Love",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 1,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "God Only Knows",
+                "duration": "",
+                "composer": "B.Wilson/Asher",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 2,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Hushabye (Vocals)",
+                "duration": "",
+                "composer": "Pomus/Shuman",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 3,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "When I Grow Up (To Be A Man) (Vocals)",
+                "duration": "",
+                "composer": "B.Wilson/Love",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 4,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Wouldn't It Be Nice (Stack-O-Vocals)",
+                "duration": "",
+                "composer": "B.Wilson/Asher/Love",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 5,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Surfer Girl (Mono)",
+                "duration": "",
+                "composer": "B.Wilson",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 6,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 7,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Sloop John B",
+                "duration": "",
+                "composer": "Traditional/Arranged by B.Wilson",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 7,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 8,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "In My Room (Demo)",
+                "duration": "",
+                "composer": "B.Wilson/Usher",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 8,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 9,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "And Your Dream Comes True",
+                "duration": "",
+                "composer": "B.Wilson/Love",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 9,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 10,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Don't Worry, Baby (Mono)",
+                "duration": "",
+                "composer": "B.Wilson/Christian",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 10,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 11,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "I Can Hear Music",
+                "duration": "",
+                "composer": "Greenwich/Barry/Spector",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 11,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 12,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "California Girls (Stereo)",
+                "duration": "",
+                "composer": "B.Wilson/Love",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 12,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 13,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Do It Again",
+                "duration": "",
+                "composer": "B.Wilson/Love",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 13,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 14,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Our Prayer",
+                "duration": "",
+                "composer": "B.Wilson",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 14,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 15,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Good Vibrations (Mono Version)",
+                "duration": "",
+                "composer": "B.Wilson/Love",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 15,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            }
+          ]
+        }
+      },
+      "editions": [
+        {
+          "albumRelease": {
+            "@type": "MusicRelease",
+            "name": "Perfect Harmony",
+            "sameAs": "",
+            "image": "img/compilations/1997-perfect-harmony/perfect-harmony-cover.jpg",
+            "backCover": "",
+            "recordLabel": "Capitol",
+            "catalogNumber": "7243 8 21277 27",
+            "datePublished": "10-07-1997",
+            "releaseDay": 7,
+            "releaseMonth": 10,
+            "releaseYear": 1997,
+            "category": "compilation",
+            "musicReleaseFormat": "CD",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "US",
+            "asin": "B000002TLO",
+            "amazonUs": "http://amzn.to/1TGXvQ8",
+            "amazonUk": "http://amzn.to/2aGricL",
+            "amazonCa": "http://amzn.to/2aldMXD",
+            "amazonEs": "http://amzn.to/2aieadU",
+            "amazonFr": "http://amzn.to/2aSAzOM",
+            "amazonIt": "http://amzn.to/2aFSzsi",
+            "amazonDe": "http://amzn.to/2aG8mqZ",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": ""
+          }
+        }
+      ]
+    },
+    {
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "MusicAlbum",
         "albumProductionType": "StudioAlbum",
         "uniqueId": "the-pet-sounds-sessions",
         "name": "The Pet Sounds Sessions",
@@ -69332,860 +70674,6 @@
         "@context": "http://schema.org",
         "@type": "MusicAlbum",
         "albumProductionType": "CompilationAlbum",
-        "uniqueId": "20-good-vibrations-the-greatest-hits",
-        "name": "Greatest Hits: 20 Good Vibrations",
-        "sameAs": "https://en.wikipedia.org/wiki/The_Greatest_Hits_%E2%80%93_Volume_1:_20_Good_Vibrations",
-        "image": "img/compilations/1995-20-good-vibrations-the-greatest-hits/20-good-vibrations-the-greatest-hits-cover.jpg",
-        "backCover": "",
-        "publisher": "Capitol",
-        "catalogNumber": "72438 29418 28",
-        "datePublished": "04-04-1995",
-        "releaseDay": 4,
-        "releaseMonth": 4,
-        "releaseYear": 1995,
-        "recordingStartDay": 1,
-        "recordingStartMonth": 1,
-        "recordingStartYear": 1,
-        "recordingEndDay": 1,
-        "recordingEndMonth": 1,
-        "recordingEndYear": 1,
-        "byArtist": "The Beach Boys",
-        "producer": "",
-        "duration": "",
-        "numberOfDiscs": 1,
-        "country": "US",
-        "billboardPosition": 95,
-        "unitsSold": 0,
-        "riaa": "",
-        "aggregateRating": 4.5,
-        "relevance": 1,
-        "backgroundColor": "#626A8E",
-        "notes": "",
-        "review": "",
-        "category": {
-          "trending": false,
-          "album": false,
-          "studio": false,
-          "live": false,
-          "compilation": true,
-          "boxset": false,
-          "single": false,
-          "solo": false,
-          "digital": false,
-          "christmas": false,
-          "variousArtists": false,
-          "collaboration": false,
-          "bootleg": false,
-          "production": false,
-          "tribute": false,
-          "video": false,
-          "book": false
-        },
-        "track": {
-          "@type": "ItemList",
-          "numberofItems": 20,
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Surfin' Safari",
-                "duration": "",
-                "composer": "B.Wilson/Love",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 1,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Surfin' U.S.A.",
-                "duration": "",
-                "composer": "Berry/B.Wilson",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 2,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Surfer Girl",
-                "duration": "",
-                "composer": "B.Wilson",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 3,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 4,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Little Deuce Coupe",
-                "duration": "",
-                "composer": "B.Wilson/Christian",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 4,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 5,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Be True To Your School",
-                "duration": "",
-                "composer": "B.Wilson/Love",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 5,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 6,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Fun, Fun, Fun",
-                "duration": "",
-                "composer": "B.Wilson/Love",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 6,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 7,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "I Get Around",
-                "duration": "",
-                "composer": "B.Wilson/Love",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 7,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 8,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Shut Down",
-                "duration": "",
-                "composer": "B.Wilson/Christian",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 8,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 9,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Dance, Dance, Dance",
-                "duration": "",
-                "composer": "B.Wilson/C.Wilson/Love",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 9,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 10,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Do You Wanna Dance?",
-                "duration": "",
-                "composer": "Freeman",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 10,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 11,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Help Me, Rhonda",
-                "duration": "",
-                "composer": "B.Wilson/Love",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 11,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 12,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "California Girls",
-                "duration": "",
-                "composer": "B.Wilson/Love",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 12,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 13,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Barbara Ann",
-                "duration": "",
-                "composer": "Fassert",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 13,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 14,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Sloop John B",
-                "duration": "",
-                "composer": "Traditional/Arranged by B.Wilson",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 14,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 15,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Wouldn't It Be Nice",
-                "duration": "",
-                "composer": "B.Wilson/Asher/Love",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 15,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 16,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Good Vibrations",
-                "duration": "",
-                "composer": "B.Wilson/Love",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 16,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 17,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "409",
-                "duration": "",
-                "composer": "B.Wilson/Usher/Love",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 17,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 18,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "God Only Knows",
-                "duration": "",
-                "composer": "B.Wilson/Asher",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 18,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 19,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Catch A Wave",
-                "duration": "",
-                "composer": "B.Wilson/Love",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 19,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 20,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Kokomo",
-                "duration": "",
-                "composer": "Phillips/Mackenzie/Love/Melcher",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 20,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            }
-          ]
-        }
-      },
-      "editions": [
-        {
-          "albumRelease": {
-            "@type": "MusicRelease",
-            "name": "20 Good Vibrations - The Greatest Hits",
-            "sameAs": "https://en.wikipedia.org/wiki/The_Greatest_Hits_%E2%80%93_Volume_1:_20_Good_Vibrations",
-            "image": "img/compilations/1995-20-good-vibrations-the-greatest-hits/20-good-vibrations-the-greatest-hits-cover.jpg",
-            "backCover": "",
-            "recordLabel": "Capitol",
-            "catalogNumber": "72438 29418 28",
-            "datePublished": "04-04-1995",
-            "releaseDay": 4,
-            "releaseMonth": 4,
-            "releaseYear": 1995,
-            "category": "compilation",
-            "musicReleaseFormat": "CD",
-            "duration": "",
-            "numberOfDiscs": 1,
-            "country": "US",
-            "asin": "B013Q7N9DS",
-            "amazonUs": "http://amzn.to/1VwDr4X",
-            "amazonUk": "http://amzn.to/2aXdHuw",
-            "amazonCa": "http://amzn.to/2aN5ICG",
-            "amazonEs": "http://amzn.to/2aidXrg",
-            "amazonFr": "http://amzn.to/2b5okLW",
-            "amazonIt": "http://amzn.to/2awtxN5",
-            "amazonDe": "http://amzn.to/2aG7B1g",
-            "amazonJp": "",
-            "notes": "",
-            "review": "",
-            "tracklist": ""
-          }
-        },
-        {
-          "albumRelease": {
-            "@type": "MusicRelease",
-            "name": "20 Good Vibrations - The Greatest Hits Volume 1",
-            "sameAs": "https://en.wikipedia.org/wiki/The_Greatest_Hits_%E2%80%93_Volume_1:_20_Good_Vibrations",
-            "image": "img/compilations/1995-20-good-vibrations-the-greatest-hits/20-good-vibrations-the-greatest-hits-1999.jpg",
-            "backCover": "",
-            "recordLabel": "Capitol",
-            "catalogNumber": "72438 29418 28",
-            "datePublished": "09-21-1999",
-            "releaseDay": 21,
-            "releaseMonth": 9,
-            "releaseYear": 1999,
-            "category": "compilation",
-            "musicReleaseFormat": "CD",
-            "duration": "",
-            "numberOfDiscs": 1,
-            "country": "US",
-            "asin": "B00001IVJY",
-            "amazonUs": "http://amzn.to/1SStPL5",
-            "amazonUk": "http://amzn.to/2aGrmZR",
-            "amazonCa": "http://amzn.to/2axB3Jj",
-            "amazonEs": "http://amzn.to/2at8niU",
-            "amazonFr": "http://amzn.to/2aw6G44",
-            "amazonIt": "http://amzn.to/2al6wQ5",
-            "amazonDe": "http://amzn.to/2alji10",
-            "amazonJp": "",
-            "notes": "",
-            "review": "",
-            "tracklist": ""
-          }
-        }
-      ]
-    },
-    {
-      "parent": {
-        "@context": "http://schema.org",
-        "@type": "MusicAlbum",
-        "albumProductionType": "CompilationAlbum",
-        "uniqueId": "perfect-harmony",
-        "name": "Perfect Harmony",
-        "sameAs": "",
-        "image": "img/compilations/1997-perfect-harmony/perfect-harmony-cover.jpg",
-        "backCover": "",
-        "publisher": "Capitol",
-        "catalogNumber": "7243 8 21277 27",
-        "datePublished": "10-07-1997",
-        "releaseDay": 7,
-        "releaseMonth": 10,
-        "releaseYear": 1997,
-        "recordingStartDay": 1,
-        "recordingStartMonth": 1,
-        "recordingStartYear": 1,
-        "recordingEndDay": 1,
-        "recordingEndMonth": 1,
-        "recordingEndYear": 1,
-        "byArtist": "The Beach Boys",
-        "producer": "",
-        "duration": "",
-        "numberOfDiscs": 1,
-        "country": "US",
-        "billboardPosition": "Did not chart",
-        "unitsSold": 0,
-        "riaa": "",
-        "aggregateRating": 4.5,
-        "relevance": 1,
-        "backgroundColor": "#74AAAC",
-        "notes": "",
-        "review": "",
-        "category": {
-          "trending": false,
-          "album": false,
-          "studio": false,
-          "live": false,
-          "compilation": true,
-          "boxset": false,
-          "single": false,
-          "solo": false,
-          "digital": false,
-          "christmas": false,
-          "variousArtists": false,
-          "collaboration": false,
-          "bootleg": false,
-          "production": false,
-          "tribute": false,
-          "video": false,
-          "book": false
-        },
-        "track": {
-          "@type": "ItemList",
-          "numberofItems": 15,
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "The Warmth Of The Sun (Mono)",
-                "duration": "",
-                "composer": "B.Wilson/Love",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 1,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "God Only Knows",
-                "duration": "",
-                "composer": "B.Wilson/Asher",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 2,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Hushabye (Vocals)",
-                "duration": "",
-                "composer": "Pomus/Shuman",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 3,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 4,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "When I Grow Up (To Be A Man) (Vocals)",
-                "duration": "",
-                "composer": "B.Wilson/Love",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 4,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 5,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Wouldn't It Be Nice (Stack-O-Vocals)",
-                "duration": "",
-                "composer": "B.Wilson/Asher/Love",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 5,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 6,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Surfer Girl (Mono)",
-                "duration": "",
-                "composer": "B.Wilson",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 6,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 7,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Sloop John B",
-                "duration": "",
-                "composer": "Traditional/Arranged by B.Wilson",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 7,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 8,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "In My Room (Demo)",
-                "duration": "",
-                "composer": "B.Wilson/Usher",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 8,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 9,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "And Your Dream Comes True",
-                "duration": "",
-                "composer": "B.Wilson/Love",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 9,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 10,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Don't Worry, Baby (Mono)",
-                "duration": "",
-                "composer": "B.Wilson/Christian",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 10,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 11,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "I Can Hear Music",
-                "duration": "",
-                "composer": "Greenwich/Barry/Spector",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 11,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 12,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "California Girls (Stereo)",
-                "duration": "",
-                "composer": "B.Wilson/Love",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 12,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 13,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Do It Again",
-                "duration": "",
-                "composer": "B.Wilson/Love",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 13,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 14,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Our Prayer",
-                "duration": "",
-                "composer": "B.Wilson",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 14,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 15,
-              "item": {
-                "@type": "MusicRecording",
-                "name": "Good Vibrations (Mono Version)",
-                "duration": "",
-                "composer": "B.Wilson/Love",
-                "producer": "",
-                "leadVocal": "",
-                "disc": 1,
-                "trackNumber": 15,
-                "trackLink": "",
-                "hit": false,
-                "inthit": false,
-                "gem": false
-              }
-            }
-          ]
-        }
-      },
-      "editions": [
-        {
-          "albumRelease": {
-            "@type": "MusicRelease",
-            "name": "Perfect Harmony",
-            "sameAs": "",
-            "image": "img/compilations/1997-perfect-harmony/perfect-harmony-cover.jpg",
-            "backCover": "",
-            "recordLabel": "Capitol",
-            "catalogNumber": "7243 8 21277 27",
-            "datePublished": "10-07-1997",
-            "releaseDay": 7,
-            "releaseMonth": 10,
-            "releaseYear": 1997,
-            "category": "compilation",
-            "musicReleaseFormat": "CD",
-            "duration": "",
-            "numberOfDiscs": 1,
-            "country": "US",
-            "asin": "B000002TLO",
-            "amazonUs": "http://amzn.to/1TGXvQ8",
-            "amazonUk": "http://amzn.to/2aGricL",
-            "amazonCa": "http://amzn.to/2aldMXD",
-            "amazonEs": "http://amzn.to/2aieadU",
-            "amazonFr": "http://amzn.to/2aSAzOM",
-            "amazonIt": "http://amzn.to/2aFSzsi",
-            "amazonDe": "http://amzn.to/2aG8mqZ",
-            "amazonJp": "",
-            "notes": "",
-            "review": "",
-            "tracklist": ""
-          }
-        }
-      ]
-    },
-    {
-      "parent": {
-        "@context": "http://schema.org",
-        "@type": "MusicAlbum",
-        "albumProductionType": "CompilationAlbum",
         "uniqueId": "endless-harmony-soundtrack",
         "name": "Endless Harmony",
         "sameAs": "https://en.wikipedia.org/wiki/Endless_Harmony_Soundtrack",
@@ -70815,7 +71303,7 @@
               "position": 1,
               "item": {
                 "@type": "MusicRecording",
-                "name": "In My Room",
+                "name": "In My Room (Mono Single Version)",
                 "duration": "",
                 "composer": "B.Wilson/Usher",
                 "producer": "",
@@ -70833,7 +71321,7 @@
               "position": 2,
               "item": {
                 "@type": "MusicRecording",
-                "name": "The Warmth Of The Sun",
+                "name": "The Warmth Of The Sun (Mono Single Version)",
                 "duration": "",
                 "composer": "B.Wilson/Love",
                 "producer": "",
@@ -70851,7 +71339,7 @@
               "position": 3,
               "item": {
                 "@type": "MusicRecording",
-                "name": "Don't Worry, Baby",
+                "name": "Don't Worry, Baby (Mono Single Version)",
                 "duration": "",
                 "composer": "B.Wilson/Christian",
                 "producer": "",
@@ -70869,7 +71357,7 @@
               "position": 4,
               "item": {
                 "@type": "MusicRecording",
-                "name": "All Summer Long",
+                "name": "All Summer Long (Mono Album Version)",
                 "duration": "",
                 "composer": "B.Wilson/Love",
                 "producer": "",
@@ -70887,7 +71375,7 @@
               "position": 5,
               "item": {
                 "@type": "MusicRecording",
-                "name": "Wendy",
+                "name": "Wendy (Mono EP Version)",
                 "duration": "",
                 "composer": "B.Wilson/Love",
                 "producer": "",
@@ -70905,7 +71393,7 @@
               "position": 6,
               "item": {
                 "@type": "MusicRecording",
-                "name": "Little Honda",
+                "name": "Little Honda (Mono EP Version)",
                 "duration": "",
                 "composer": "B.Wilson/Love",
                 "producer": "",
@@ -70923,7 +71411,7 @@
               "position": 7,
               "item": {
                 "@type": "MusicRecording",
-                "name": "When I Grow Up (To Be A Man)",
+                "name": "When I Grow Up (To Be A Man) (Mono Single Version)",
                 "duration": "",
                 "composer": "B.Wilson/Love",
                 "producer": "",
@@ -70941,7 +71429,7 @@
               "position": 8,
               "item": {
                 "@type": "MusicRecording",
-                "name": "Please Let Me Wonder",
+                "name": "Please Let Me Wonder (Mono Single Version)",
                 "duration": "",
                 "composer": "B.Wilson/Love",
                 "producer": "",
@@ -70959,7 +71447,7 @@
               "position": 9,
               "item": {
                 "@type": "MusicRecording",
-                "name": "You're So Good To Me",
+                "name": "You're So Good To Me (Mono Single Version)",
                 "duration": "",
                 "composer": "B.Wilson/Love",
                 "producer": "",
@@ -70977,7 +71465,7 @@
               "position": 10,
               "item": {
                 "@type": "MusicRecording",
-                "name": "The Little Girl I Once Knew",
+                "name": "The Little Girl I Once Knew (Mono Single Version)",
                 "duration": "",
                 "composer": "B.Wilson",
                 "producer": "",
@@ -70995,7 +71483,7 @@
               "position": 11,
               "item": {
                 "@type": "MusicRecording",
-                "name": "Caroline, No",
+                "name": "Caroline, No (Mono Single Version)",
                 "duration": "",
                 "composer": "B.Wilson/Asher",
                 "producer": "",
@@ -71013,7 +71501,7 @@
               "position": 12,
               "item": {
                 "@type": "MusicRecording",
-                "name": "Heroes And Villains",
+                "name": "Heroes And Villains (Mono Single Version)",
                 "duration": "",
                 "composer": "B.Wilson/Parks",
                 "producer": "",
@@ -71031,7 +71519,7 @@
               "position": 13,
               "item": {
                 "@type": "MusicRecording",
-                "name": "Wild Honey",
+                "name": "Wild Honey (Mono Single Version)",
                 "duration": "",
                 "composer": "B. Wilson/Love",
                 "producer": "",
@@ -71049,7 +71537,7 @@
               "position": 14,
               "item": {
                 "@type": "MusicRecording",
-                "name": "Darlin'",
+                "name": "Darlin' (Mono Single Version)",
                 "duration": "",
                 "composer": "B.Wilson/Love",
                 "producer": "",
@@ -71067,7 +71555,7 @@
               "position": 15,
               "item": {
                 "@type": "MusicRecording",
-                "name": "Friends",
+                "name": "Friends (Mono Single Version)",
                 "duration": "",
                 "composer": "B.Wilson/D.Wilson/C.Wilson/Jardine",
                 "producer": "",
@@ -71085,7 +71573,7 @@
               "position": 16,
               "item": {
                 "@type": "MusicRecording",
-                "name": "Do It Again",
+                "name": "Do It Again (Mono Single Edit)",
                 "duration": "",
                 "composer": "B.Wilson/Love",
                 "producer": "",
@@ -71103,7 +71591,7 @@
               "position": 17,
               "item": {
                 "@type": "MusicRecording",
-                "name": "Bluebirds Over The Mountain",
+                "name": "Bluebirds Over The Mountain (Mono Single Version)",
                 "duration": "",
                 "composer": "Hickey",
                 "producer": "",
@@ -71121,7 +71609,7 @@
               "position": 18,
               "item": {
                 "@type": "MusicRecording",
-                "name": "I Can Hear Music",
+                "name": "I Can Hear Music (Stereo Single Version)",
                 "duration": "",
                 "composer": "Greenwich/Barry/Spector",
                 "producer": "",
@@ -71139,7 +71627,7 @@
               "position": 19,
               "item": {
                 "@type": "MusicRecording",
-                "name": "Break Away",
+                "name": "Break Away (Stereo Single Version)",
                 "duration": "",
                 "composer": "B.Wilson/Dunbar",
                 "producer": "",
@@ -71157,7 +71645,7 @@
               "position": 20,
               "item": {
                 "@type": "MusicRecording",
-                "name": "Cottonfields",
+                "name": "Cottonfields (Mono Single Version)",
                 "duration": "",
                 "composer": "Ledbetter",
                 "producer": "",
@@ -71487,7 +71975,7 @@
               "position": 13,
               "item": {
                 "@type": "MusicRecording",
-                "name": "It's OK (Single Version)",
+                "name": "It's OK (Sped Up Single Version)",
                 "duration": "",
                 "composer": "B.Wilson/Love",
                 "producer": "",
@@ -74816,7 +75304,7 @@
               "position": 21,
               "item": {
                 "@type": "MusicRecording",
-                "name": "Barbara Ann (Mono Single Version)",
+                "name": "Barbara Ann (Mono Single Edit)",
                 "duration": "",
                 "composer": "Fassert",
                 "producer": "",
@@ -74906,7 +75394,7 @@
               "position": 26,
               "item": {
                 "@type": "MusicRecording",
-                "name": "Do It Again (Mono Single Version)",
+                "name": "Do It Again (Mono Single Edit)",
                 "duration": "",
                 "composer": "B.Wilson/Love",
                 "producer": "",
@@ -81477,7 +81965,7 @@
         "image": "img/compilations/2013-made-in-california/made-in-california-cover.jpg",
         "backCover": "",
         "publisher": "Capitol",
-        "catalogNumber": "509992 31345 29",
+        "catalogNumber": "B0018509-02",
         "datePublished": "08-27-2013",
         "releaseDay": 27,
         "releaseMonth": 8,
@@ -84640,7 +85128,7 @@
             "image": "img/compilations/2013-made-in-california/made-in-california-cover.jpg",
             "backCover": "",
             "recordLabel": "Capitol",
-            "catalogNumber": "509992 31345 29",
+            "catalogNumber": "B0018509-02",
             "datePublished": "08-27-2013",
             "releaseDay": 27,
             "releaseMonth": 8,
@@ -90563,7 +91051,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": "Alternate cover"
+            "tracklist": "9. Luau (Master Take 'B' Side Of X-301)"
           }
         },
         {
@@ -90595,7 +91083,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": "Original recordings produced by Hite and Dorinda Morgan\nDigital remastering by Steve Hoffman"
+            "tracklist": "2. Luau (Master Take - Recorded October 3rd, 1961)"
           }
         },
 		        {
@@ -90627,7 +91115,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "3. Luau"
           }
         },
         {
@@ -90659,7 +91147,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "9. Luau (Master Take)"
           }
         },
 		{
@@ -90691,7 +91179,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "Disc 1\n18. Luau (Master)"
           }
         }
       ]
@@ -90707,7 +91195,7 @@
         "image": "img/singles/1962-surfin-safari-ariola/surfin-safari-ariola-cover.png",
         "backCover": "",
         "publisher": "Ariola",
-        "catalogNumber": "45441",
+        "catalogNumber": "45 441",
         "datePublished": "12-01-1962",
         "releaseDay": 0,
         "releaseMonth": 12,
@@ -90827,7 +91315,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": "Alternate cover"
+            "tracklist": "20. Surfin' Safari (Attempt At Overdubbing, Unissued '61 Demo In Stereo)"
           }
         },
         {
@@ -90859,7 +91347,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": "Original recordings produced by Hite and Dorinda Morgan\nDigital remastering by Steve Hoffman"
+            "tracklist": "12. Surfin' Safari (Previously Unissued Stereo Overdub Attempt - Recorded February 8th, 1962)"
           }
         },
         {
@@ -90891,7 +91379,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "9. Surfin' Safari (Alternate Version)"
           }
         },
         {
@@ -90923,7 +91411,39 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "20. Surfin' Safari (An Attempt At Overdubbing/Previously Unissued)"
+          }
+        },
+		{
+          "albumRelease": {
+            "@type": "MusicRelease",
+            "name": "Becoming The Beach Boys - The Complete Hite & Dorinda Morgan Sessions",
+            "sameAs": "",
+            "image": "img/compilations/2016-becoming-the-beach-boys/becoming-the-beach-boys-cover.jpg",
+            "backCover": "",
+            "recordLabel": "Omnivore Recordings",
+            "catalogNumber": "",
+            "datePublished": "08-26-2016",
+            "releaseDay": 26,
+            "releaseMonth": 8,
+            "releaseYear": 2016,
+            "category": "compilation",
+            "musicReleaseFormat": "CD",
+            "duration": "",
+            "numberOfDiscs": 2,
+            "country": "US",
+            "asin": "B01HRENTOU",
+            "amazonUs": "http://amzn.to/29F0RAM",
+            "amazonUk": "http://amzn.to/2aXeYSr",
+            "amazonCa": "http://amzn.to/2avvwCx",
+            "amazonEs": "http://amzn.to/2aO2JKG",
+            "amazonFr": "http://amzn.to/2akNsBw",
+            "amazonIt": "http://amzn.to/2al75JK",
+            "amazonDe": "http://amzn.to/2aLGEuR",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": "Disc 1\n30. Surfin' Safari (Stereo Overdub)"
           }
         }
       ]
@@ -91030,6 +91550,70 @@
         }
       },
       "editions": [
+	    {
+          "albumRelease": {
+            "@type": "MusicRelease",
+            "name": "Good Vibrations - 30 Years Of The Beach Boys [5CD]",
+            "sameAs": "https://en.wikipedia.org/wiki/Good_Vibrations:_Thirty_Years_of_The_Beach_Boys",
+            "image": "img/compilations/1993-good-vibrations-thirty-years-of-the-beach-boys/good-vibrations-thirty-years-of-the-beach-boys-cover.jpg",
+            "backCover": "",
+            "recordLabel": "Capitol",
+            "catalogNumber": "C2 0777 7 81294 24",
+            "datePublished": "06-29-1993",
+            "releaseDay": 29,
+            "releaseMonth": 6,
+            "releaseYear": 1993,
+            "category": "compilation",
+            "musicReleaseFormat": "CD",
+            "duration": "",
+            "numberOfDiscs": 5,
+            "country": "US",
+            "asin": "B000002UR4",
+            "amazonUs": "http://amzn.to/1VwDmy0",
+            "amazonUk": "http://amzn.to/2acFg61",
+            "amazonCa": "http://amzn.to/2aleaW8",
+            "amazonEs": "http://amzn.to/2aidxRv",
+            "amazonFr": "http://amzn.to/2aFqOA6",
+            "amazonIt": "http://amzn.to/2al6A2i",
+            "amazonDe": "http://amzn.to/2aliWY1",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": "Disc 1\n16. Be True To Your School (Mono Single Version)"
+          }
+        },
+        {
+          "albumRelease": {
+            "@type": "MusicRelease",
+            "name": "20 Good Vibrations - The Greatest Hits Volume 1",
+            "sameAs": "https://en.wikipedia.org/wiki/The_Greatest_Hits_%E2%80%93_Volume_1:_20_Good_Vibrations",
+            "image": "img/compilations/1995-20-good-vibrations-the-greatest-hits/20-good-vibrations-the-greatest-hits-1999.jpg",
+            "backCover": "",
+            "recordLabel": "Capitol",
+            "catalogNumber": "72438 29418 28",
+            "datePublished": "09-21-1999",
+            "releaseDay": 21,
+            "releaseMonth": 9,
+            "releaseYear": 1999,
+            "category": "compilation",
+            "musicReleaseFormat": "CD",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "US",
+            "asin": "B00001IVJY",
+            "amazonUs": "http://amzn.to/1SStPL5",
+            "amazonUk": "http://amzn.to/2aGrmZR",
+            "amazonCa": "http://amzn.to/2axB3Jj",
+            "amazonEs": "http://amzn.to/2at8niU",
+            "amazonFr": "http://amzn.to/2aw6G44",
+            "amazonIt": "http://amzn.to/2al6wQ5",
+            "amazonDe": "http://amzn.to/2alji10",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": "8. Be True To Your School (Mono Single Version)"
+          }
+        },
         {
           "albumRelease": {
             "@type": "MusicRelease",
@@ -91059,7 +91643,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "11. Be True To Your School (Mono Single Version)"
           }
         },
         {
@@ -91091,7 +91675,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "Disc 5\n1. Be True To Your School (Mono Single Version)"
           }
         },
         {
@@ -91123,39 +91707,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
-          }
-        },
-        {
-          "albumRelease": {
-            "@type": "MusicRelease",
-            "name": "Fifty Big Ones - Greatest Hits",
-            "sameAs": "https://en.wikipedia.org/wiki/Fifty_Big_Ones",
-            "image": "img/compilations/2012-greatest-hits/fifty-big-ones-greatest-hits-cover.jpg",
-            "backCover": "",
-            "recordLabel": "Capitol",
-            "catalogNumber": "509999 73744 28",
-            "datePublished": "09-25-2012",
-            "releaseDay": 25,
-            "releaseMonth": 9,
-            "releaseYear": 2012,
-            "category": "compilation",
-            "musicReleaseFormat": "CD",
-            "duration": "",
-            "numberOfDiscs": 2,
-            "country": "US",
-            "asin": "B008LA7RH0",
-            "amazonUs": "http://amzn.to/1Wy81tV",
-            "amazonUk": "http://amzn.to/2aDmx1P",
-            "amazonCa": "http://amzn.to/2axDviO",
-            "amazonEs": "http://amzn.to/2aIOdCx",
-            "amazonFr": "http://amzn.to/2aw8KJk",
-            "amazonIt": "http://amzn.to/2awuTY8",
-            "amazonDe": "http://amzn.to/2aljpt7",
-            "amazonJp": "",
-            "notes": "",
-            "review": "",
-            "tracklist": ""
+            "tracklist": "13. Be True To Your School (Mono Single Version)"
           }
         },
 		{
@@ -91166,7 +91718,7 @@
             "image": "img/compilations/2013-made-in-california/made-in-california-cover.jpg",
             "backCover": "",
             "recordLabel": "Capitol",
-            "catalogNumber": "509992 31345 29",
+            "catalogNumber": "B0018509-02",
             "datePublished": "08-27-2013",
             "releaseDay": 27,
             "releaseMonth": 8,
@@ -91187,7 +91739,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "Disc 1\n16. Be True To Your School (Mono Single Version)"
           }
         }
       ]
@@ -91294,68 +91846,36 @@
         }
       },
       "editions": [
-        {
+	    {
           "albumRelease": {
             "@type": "MusicRelease",
-            "name": "Ultimate Christmas",
-            "sameAs": "https://en.wikipedia.org/wiki/Ultimate_Christmas",
-            "image": "img/albums/the-beach-boys/studio/1998-ultimate-christmas/ultimate-christmas-cover.jpg",
+            "name": "Good Vibrations - 30 Years Of The Beach Boys [5CD]",
+            "sameAs": "https://en.wikipedia.org/wiki/Good_Vibrations:_Thirty_Years_of_The_Beach_Boys",
+            "image": "img/compilations/1993-good-vibrations-thirty-years-of-the-beach-boys/good-vibrations-thirty-years-of-the-beach-boys-cover.jpg",
             "backCover": "",
             "recordLabel": "Capitol",
-            "catalogNumber": "",
-            "datePublished": "09-22-1998",
-            "releaseDay": 22,
-            "releaseMonth": 9,
-            "releaseYear": 1998,
-            "category": "studio",
+            "catalogNumber": "C2 0777 7 81294 24",
+            "datePublished": "06-29-1993",
+            "releaseDay": 29,
+            "releaseMonth": 6,
+            "releaseYear": 1993,
+            "category": "compilation",
             "musicReleaseFormat": "CD",
             "duration": "",
-            "numberOfDiscs": 1,
+            "numberOfDiscs": 5,
             "country": "US",
-            "asin": "B000009RVB",
-            "amazonUs": "http://amzn.to/1MjFh5U",
-            "amazonUk": "http://amzn.to/2aWVptu",
-            "amazonCa": "http://amzn.to/2aui1zW",
-            "amazonEs": "http://amzn.to/2aNOQfx",
-            "amazonFr": "http://amzn.to/2aFdls3",
-            "amazonIt": "http://amzn.to/2aSEpYi",
-            "amazonDe": "http://amzn.to/2aG0lSX",
+            "asin": "B000002UR4",
+            "amazonUs": "http://amzn.to/1VwDmy0",
+            "amazonUk": "http://amzn.to/2acFg61",
+            "amazonCa": "http://amzn.to/2aleaW8",
+            "amazonEs": "http://amzn.to/2aidxRv",
+            "amazonFr": "http://amzn.to/2aFqOA6",
+            "amazonIt": "http://amzn.to/2al6A2i",
+            "amazonDe": "http://amzn.to/2aliWY1",
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
-          }
-        },
-		        {
-          "albumRelease": {
-            "@type": "MusicRelease",
-            "name": "Christmas With the Beach Boys",
-            "sameAs": "https://en.wikipedia.org/wiki/The_Beach_Boys%27_Christmas_Album",
-            "image": "img/compilations/2004-christmas-with-the-beach-boys/christmas-with-the-beach-boys-cover.jpg",
-            "backCover": "",
-            "recordLabel": "Capitol",
-            "catalogNumber": "",
-            "datePublished": "10-05-2004",
-            "releaseDay": 5,
-            "releaseMonth": 10,
-            "releaseYear": 2004,
-            "category": "studio",
-            "musicReleaseFormat": "CD",
-            "duration": "",
-            "numberOfDiscs": 1,
-            "country": "US",
-            "asin": "B0002Y4TY2",
-            "amazonUs": "http://amzn.to/1V1Cr8B",
-            "amazonUk": "http://amzn.to/2aGar9E",
-            "amazonCa": "http://amzn.to/2avm6Xx",
-            "amazonEs": "http://amzn.to/2auD3o0",
-            "amazonFr": "http://amzn.to/2aSlywv",
-            "amazonIt": "http://amzn.to/2akOqxx",
-            "amazonDe": "http://amzn.to/2aLzHcY",
-            "amazonJp": "",
-            "notes": "",
-            "review": "",
-            "tracklist": ""
+            "tracklist": "Disc 1\n18. Little Saint Nick (Mono Single Version)"
           }
         },
         {
@@ -91387,39 +91907,39 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "Disc 6\n1. Little Saint Nick (Mono Single Version)\n2. The Lord's Prayer (Mono Single Version)"
           }
         },
-		{
+        {
           "albumRelease": {
             "@type": "MusicRelease",
-            "name": "Made In California",
-            "sameAs": "https://en.wikipedia.org/wiki/Made_in_California",
-            "image": "img/compilations/2013-made-in-california/made-in-california-cover.jpg",
+            "name": "Christmas Harmonies (Stereo Remaster)",
+            "sameAs": "https://en.wikipedia.org/wiki/The_Beach_Boys%27_Christmas_Album",
+            "image": "img/compilations/2009-christmas-harmonies/christmas-harmonies-cover.jpg",
             "backCover": "",
             "recordLabel": "Capitol",
-            "catalogNumber": "509992 31345 29",
-            "datePublished": "08-27-2013",
-            "releaseDay": 27,
+            "catalogNumber": "",
+            "datePublished": "08-25-2009",
+            "releaseDay": 25,
             "releaseMonth": 8,
-            "releaseYear": 2013,
-            "category": "compilation",
+            "releaseYear": 2009,
+            "category": "studio",
             "musicReleaseFormat": "CD",
             "duration": "",
-            "numberOfDiscs": 5,
+            "numberOfDiscs": 1,
             "country": "US",
-            "asin": "B008XZKSRY",
-            "amazonUs": "http://amzn.to/267WzJu",
-            "amazonUk": "http://amzn.to/2aGsRXP",
-            "amazonCa": "http://amzn.to/2aIye7u",
-            "amazonEs": "http://amzn.to/2aO3wey",
-            "amazonFr": "http://amzn.to/2akMtRy",
-            "amazonIt": "http://amzn.to/2al70FH",
-            "amazonDe": "http://amzn.to/2aljkGb",
+            "asin": "B008ULRY8C",
+            "amazonUs": "http://amzn.to/1Xl5e5o",
+            "amazonUk": "http://amzn.to/2aWVIV6",
+            "amazonCa": "http://amzn.to/2aR5NH8",
+            "amazonEs": "http://amzn.to/2asVFkj",
+            "amazonFr": "http://amzn.to/2akB7xc",
+            "amazonIt": "http://amzn.to/2aSEQSi",
+            "amazonDe": "http://amzn.to/2aTd8VL",
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "4. Little Saint Nick (Mono Single Version)"
           }
         }
       ]
@@ -91526,7 +92046,71 @@
         }
       },
       "editions": [
+	    {
+          "albumRelease": {
+            "@type": "MusicRelease",
+            "name": "Good Vibrations - 30 Years Of The Beach Boys [5CD]",
+            "sameAs": "https://en.wikipedia.org/wiki/Good_Vibrations:_Thirty_Years_of_The_Beach_Boys",
+            "image": "img/compilations/1993-good-vibrations-thirty-years-of-the-beach-boys/good-vibrations-thirty-years-of-the-beach-boys-cover.jpg",
+            "backCover": "",
+            "recordLabel": "Capitol",
+            "catalogNumber": "C2 0777 7 81294 24",
+            "datePublished": "06-29-1993",
+            "releaseDay": 29,
+            "releaseMonth": 6,
+            "releaseYear": 1993,
+            "category": "compilation",
+            "musicReleaseFormat": "CD",
+            "duration": "",
+            "numberOfDiscs": 5,
+            "country": "US",
+            "asin": "B000002UR4",
+            "amazonUs": "http://amzn.to/1VwDmy0",
+            "amazonUk": "http://amzn.to/2acFg61",
+            "amazonCa": "http://amzn.to/2aleaW8",
+            "amazonEs": "http://amzn.to/2aidxRv",
+            "amazonFr": "http://amzn.to/2aFqOA6",
+            "amazonIt": "http://amzn.to/2al6A2i",
+            "amazonDe": "http://amzn.to/2aliWY1",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": "Disc 1\n20. Fun, Fun, Fun (Mono Single Version)"
+          }
+        },
         {
+          "albumRelease": {
+            "@type": "MusicRelease",
+            "name": "20 Good Vibrations - The Greatest Hits Volume 1",
+            "sameAs": "https://en.wikipedia.org/wiki/The_Greatest_Hits_%E2%80%93_Volume_1:_20_Good_Vibrations",
+            "image": "img/compilations/1995-20-good-vibrations-the-greatest-hits/20-good-vibrations-the-greatest-hits-1999.jpg",
+            "backCover": "",
+            "recordLabel": "Capitol",
+            "catalogNumber": "72438 29418 28",
+            "datePublished": "09-21-1999",
+            "releaseDay": 21,
+            "releaseMonth": 9,
+            "releaseYear": 1999,
+            "category": "compilation",
+            "musicReleaseFormat": "CD",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "US",
+            "asin": "B00001IVJY",
+            "amazonUs": "http://amzn.to/1SStPL5",
+            "amazonUk": "http://amzn.to/2aGrmZR",
+            "amazonCa": "http://amzn.to/2axB3Jj",
+            "amazonEs": "http://amzn.to/2at8niU",
+            "amazonFr": "http://amzn.to/2aw6G44",
+            "amazonIt": "http://amzn.to/2al6wQ5",
+            "amazonDe": "http://amzn.to/2alji10",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": "9. Fun, Fun, Fun (Mono Single Version)"
+          }
+        },
+	  {
           "albumRelease": {
             "@type": "MusicRelease",
             "name": "Sounds Of Summer - The Very Best Of The Beach Boys",
@@ -91555,10 +92139,10 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "5. Fun, Fun, Fun (Mono Single Version)"
           }
         },
-		        {
+        {
           "albumRelease": {
             "@type": "MusicRelease",
             "name": "The Warmth Of The Sun",
@@ -91587,7 +92171,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "18. Why Do Fools Fall In Love (Original 1964 Mono Single Mix)"
           }
         },
 		{
@@ -91619,7 +92203,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "Disc 7\n1. Fun, Fun, Fun (Mono Single Version)\n2. Why Do Fools Fall In Love? (Mono Single Version)"
           }
         },
 		{
@@ -91630,7 +92214,7 @@
             "image": "img/compilations/2013-made-in-california/made-in-california-cover.jpg",
             "backCover": "",
             "recordLabel": "Capitol",
-            "catalogNumber": "509992 31345 29",
+            "catalogNumber": "B0018509-02",
             "datePublished": "08-27-2013",
             "releaseDay": 27,
             "releaseMonth": 8,
@@ -91651,7 +92235,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "19. Fun, Fun, Fun (Mono Single Version)"
           }
         }
       ]
@@ -91758,6 +92342,102 @@
         }
       },
       "editions": [
+	    {
+          "albumRelease": {
+            "@type": "MusicRelease",
+            "name": "Good Vibrations - 30 Years Of The Beach Boys [5CD]",
+            "sameAs": "https://en.wikipedia.org/wiki/Good_Vibrations:_Thirty_Years_of_The_Beach_Boys",
+            "image": "img/compilations/1993-good-vibrations-thirty-years-of-the-beach-boys/good-vibrations-thirty-years-of-the-beach-boys-cover.jpg",
+            "backCover": "",
+            "recordLabel": "Capitol",
+            "catalogNumber": "C2 0777 7 81294 24",
+            "datePublished": "06-29-1993",
+            "releaseDay": 29,
+            "releaseMonth": 6,
+            "releaseYear": 1993,
+            "category": "compilation",
+            "musicReleaseFormat": "CD",
+            "duration": "",
+            "numberOfDiscs": 5,
+            "country": "US",
+            "asin": "B000002UR4",
+            "amazonUs": "http://amzn.to/1VwDmy0",
+            "amazonUk": "http://amzn.to/2acFg61",
+            "amazonCa": "http://amzn.to/2aleaW8",
+            "amazonEs": "http://amzn.to/2aidxRv",
+            "amazonFr": "http://amzn.to/2aFqOA6",
+            "amazonIt": "http://amzn.to/2al6A2i",
+            "amazonDe": "http://amzn.to/2aliWY1",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": "Disc 2\n5. The Little Girl I Once Knew (Mono Single Version)"
+          }
+        },
+        {
+          "albumRelease": {
+            "@type": "MusicRelease",
+            "name": "The Greatest Hits Vol. 2: 20 More Good Vibrations",
+            "sameAs": "https://en.wikipedia.org/wiki/The_Greatest_Hits_%E2%80%93_Volume_2:_20_More_Good_Vibrations",
+            "image": "img/compilations/1999-20-more-good-vibrations-the-greatest-hits-vol-2/20-more-good-vibrations-the-greatest-hits-vol-2-cover.jpg",
+            "backCover": "",
+            "recordLabel": "Capitol",
+            "catalogNumber": "72435 20238 20",
+            "datePublished": "09-21-1999",
+            "releaseDay": 21,
+            "releaseMonth": 9,
+            "releaseYear": 1999,
+            "category": "compilation",
+            "musicReleaseFormat": "CD",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "US",
+            "asin": "B00001IVJW",
+            "amazonUs": "http://amzn.to/1Wy6Lai",
+            "amazonUk": "http://amzn.to/2aXd7x4",
+            "amazonCa": "http://amzn.to/2auoKcU",
+            "amazonEs": "http://amzn.to/2at8ta9",
+            "amazonFr": "http://amzn.to/2aSzQ05",
+            "amazonIt": "http://amzn.to/2aT5JFQ",
+            "amazonDe": "http://amzn.to/2aLGzah",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": "10. The Little Girl I Once Knew (Mono Single Version)"
+          }
+        },
+        {
+          "albumRelease": {
+            "@type": "MusicRelease",
+            "name": "The Warmth Of The Sun",
+            "sameAs": "https://en.wikipedia.org/wiki/The_Warmth_of_the_Sun_(album)",
+            "image": "img/compilations/2007-the-warmth-of-the-sun/the-warmth-of-the-sun-cover.jpg",
+            "backCover": "",
+            "recordLabel": "Capitol",
+            "catalogNumber": "09463 44964 21",
+            "datePublished": "05-22-2007",
+            "releaseDay": 22,
+            "releaseMonth": 5,
+            "releaseYear": 2007,
+            "category": "compilation",
+            "musicReleaseFormat": "CD",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "US",
+            "asin": "B000P288L6",
+            "amazonUs": "http://amzn.to/2awQaig",
+            "amazonUk": "http://amzn.to/2aGsfS2",
+            "amazonCa": "http://amzn.to/2auoY3K",
+            "amazonEs": "http://amzn.to/2aIOK7f",
+            "amazonFr": "http://amzn.to/2b5pqr1",
+            "amazonIt": "http://amzn.to/2awuqFj",
+            "amazonDe": "http://amzn.to/2aTRp0D",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": "12. The Little Girl I Once Knew (Original 1965 Mono Mix)"
+          }
+        },
 		{
           "albumRelease": {
             "@type": "MusicRelease",
@@ -91787,7 +92467,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "Disc 1\n16. The Little Girl I Once Knew (Mono Single Version)"
           }
         },
 		{
@@ -91798,7 +92478,7 @@
             "image": "img/compilations/2013-made-in-california/made-in-california-cover.jpg",
             "backCover": "",
             "recordLabel": "Capitol",
-            "catalogNumber": "509992 31345 29",
+            "catalogNumber": "B0018509-02",
             "datePublished": "08-27-2013",
             "releaseDay": 27,
             "releaseMonth": 8,
@@ -91819,7 +92499,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "Disc 2\n8. The Little Girl I Once Knew (Mono Single Version)"
           }
         }
       ]
@@ -91892,7 +92572,7 @@
               "item": {
                 "@type": "MusicRecording",
                 "name": "Barbara Ann",
-                "duration": "",
+                "duration": "2:05",
                 "composer": "Fassert",
                 "producer": "",
                 "leadVocal": "",
@@ -91926,36 +92606,404 @@
         }
       },
       "editions": [
-        {
+	    {
           "albumRelease": {
             "@type": "MusicRelease",
-            "name": "Made In U.S.A.",
-            "sameAs": "https://en.wikipedia.org/wiki/Made_in_U.S.A._(The_Beach_Boys_album)",
-            "image": "img/compilations/1986-made-in-usa/made-in-usa-cover.jpg",
+            "name": "Good Vibrations - 30 Years Of The Beach Boys [5CD]",
+            "sameAs": "https://en.wikipedia.org/wiki/Good_Vibrations:_Thirty_Years_of_The_Beach_Boys",
+            "image": "img/compilations/1993-good-vibrations-thirty-years-of-the-beach-boys/good-vibrations-thirty-years-of-the-beach-boys-cover.jpg",
             "backCover": "",
             "recordLabel": "Capitol",
-            "catalogNumber": "STBK-12396",
-            "datePublished": "07-07-1986",
-            "releaseDay": 7,
-            "releaseMonth": 7,
-            "releaseYear": 1986,
+            "catalogNumber": "C2 0777 7 81294 24",
+            "datePublished": "06-29-1993",
+            "releaseDay": 29,
+            "releaseMonth": 6,
+            "releaseYear": 1993,
             "category": "compilation",
-            "musicReleaseFormat": "LP",
+            "musicReleaseFormat": "CD",
             "duration": "",
-            "numberOfDiscs": 2,
+            "numberOfDiscs": 5,
             "country": "US",
-            "asin": "B000M7S6SO",
-            "amazonUs": "http://amzn.to/2auFQHS",
-            "amazonUk": "http://amzn.to/2ap4zmM",
-            "amazonCa": "http://amzn.to/2aldO1B",
-            "amazonEs": "http://amzn.to/2aidk0V",
-            "amazonFr": "http://amzn.to/2aSA9b0",
-            "amazonIt": "http://amzn.to/2aLtHBi",
-            "amazonDe": "http://amzn.to/2aTQoWb",
+            "asin": "B000002UR4",
+            "amazonUs": "http://amzn.to/1VwDmy0",
+            "amazonUk": "http://amzn.to/2acFg61",
+            "amazonCa": "http://amzn.to/2aleaW8",
+            "amazonEs": "http://amzn.to/2aidxRv",
+            "amazonFr": "http://amzn.to/2aFqOA6",
+            "amazonIt": "http://amzn.to/2al6A2i",
+            "amazonDe": "http://amzn.to/2aliWY1",
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "Disc 2\n6. Barbara Ann (Mono Single Edit)"
+          }
+        },
+        {
+          "albumRelease": {
+            "@type": "MusicRelease",
+            "name": "20 Good Vibrations - The Greatest Hits Volume 1",
+            "sameAs": "https://en.wikipedia.org/wiki/The_Greatest_Hits_%E2%80%93_Volume_1:_20_Good_Vibrations",
+            "image": "img/compilations/1995-20-good-vibrations-the-greatest-hits/20-good-vibrations-the-greatest-hits-1999.jpg",
+            "backCover": "",
+            "recordLabel": "Capitol",
+            "catalogNumber": "72438 29418 28",
+            "datePublished": "09-21-1999",
+            "releaseDay": 21,
+            "releaseMonth": 9,
+            "releaseYear": 1999,
+            "category": "compilation",
+            "musicReleaseFormat": "CD",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "US",
+            "asin": "B00001IVJY",
+            "amazonUs": "http://amzn.to/1SStPL5",
+            "amazonUk": "http://amzn.to/2aGrmZR",
+            "amazonCa": "http://amzn.to/2axB3Jj",
+            "amazonEs": "http://amzn.to/2at8niU",
+            "amazonFr": "http://amzn.to/2aw6G44",
+            "amazonIt": "http://amzn.to/2al6wQ5",
+            "amazonDe": "http://amzn.to/2alji10",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": "15. Barbara Ann (Mono Single Edit)"
+          }
+        },
+        {
+          "albumRelease": {
+            "@type": "MusicRelease",
+            "name": "Sounds Of Summer - The Very Best Of The Beach Boys",
+            "sameAs": "https://en.wikipedia.org/wiki/Sounds_of_Summer:_The_Very_Best_of_The_Beach_Boys",
+            "image": "img/compilations/2003-sounds-of-summer/sounds-of-summer-cover.jpg",
+            "backCover": "",
+            "recordLabel": "Capitol",
+            "catalogNumber": "72435 82710 27",
+            "datePublished": "06-10-2003",
+            "releaseDay": 10,
+            "releaseMonth": 6,
+            "releaseYear": 2003,
+            "category": "compilation",
+            "musicReleaseFormat": "CD",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "US",
+            "asin": "B000093BDX",
+            "amazonUs": "http://amzn.to/22DnM2a",
+            "amazonUk": "http://amzn.to/2acGoXh",
+            "amazonCa": "http://amzn.to/2aIvqaw",
+            "amazonEs": "http://amzn.to/2at8Rpi",
+            "amazonFr": "http://amzn.to/2b5oovt",
+            "amazonIt": "http://amzn.to/2aT6i2s",
+            "amazonDe": "http://amzn.to/2aG8Cq9",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": "21. Barbara Ann (Mono Single Edit)"
+          }
+        },
+		{
+          "albumRelease": {
+            "@type": "MusicRelease",
+            "name": "Fifty Big Ones - Greatest Hits",
+            "sameAs": "https://en.wikipedia.org/wiki/Fifty_Big_Ones",
+            "image": "img/compilations/2012-greatest-hits/fifty-big-ones-greatest-hits-cover.jpg",
+            "backCover": "",
+            "recordLabel": "Capitol",
+            "catalogNumber": "509999 73744 28",
+            "datePublished": "09-25-2012",
+            "releaseDay": 25,
+            "releaseMonth": 9,
+            "releaseYear": 2012,
+            "category": "compilation",
+            "musicReleaseFormat": "CD",
+            "duration": "",
+            "numberOfDiscs": 2,
+            "country": "US",
+            "asin": "B008LA7RH0",
+            "amazonUs": "http://amzn.to/1Wy81tV",
+            "amazonUk": "http://amzn.to/2aDmx1P",
+            "amazonCa": "http://amzn.to/2axDviO",
+            "amazonEs": "http://amzn.to/2aIOdCx",
+            "amazonFr": "http://amzn.to/2aw8KJk",
+            "amazonIt": "http://amzn.to/2awuTY8",
+            "amazonDe": "http://amzn.to/2aljpt7",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": "Disc 1\n22. Barbara Ann (Mono Single Edit)"
+          }
+        }
+      ]
+    },
+    {
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "MusicAlbum",
+        "albumProductionType": "StudioAlbum",
+        "uniqueId": "caroline-no",
+        "name": "Caroline, No",
+        "sameAs": "https://en.wikipedia.org/wiki/Caroline,_No",
+        "image": "img/singles/1966-caroline-no/caroline-no-cover.png",
+        "backCover": "",
+        "publisher": "Capitol",
+        "catalogNumber": "5610",
+        "datePublished": "03-07-1966",
+        "releaseDay": 7,
+        "releaseMonth": 3,
+        "releaseYear": 1966,
+        "recordingStartDay": 1,
+        "recordingStartMonth": 1,
+        "recordingStartYear": 1,
+        "recordingEndDay": 1,
+        "recordingEndMonth": 1,
+        "recordingEndYear": 1,
+        "byArtist": "Brian Wilson",
+        "producer": "B.Wilson",
+        "duration": "",
+        "numberOfDiscs": 1,
+        "country": "US",
+        "billboardPosition": "32 - A side / Did not chart - B side",
+        "unitsSold": 0,
+        "riaa": "",
+        "aggregateRating": 3,
+        "relevance": 1,
+        "backgroundColor": "#6D6D6D",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": true,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": false,
+          "book": false
+        },
+        "subcategory": {
+          "albumSingle": false,
+          "nonAlbumSingle": true
+        },
+        "track": {
+          "@type": "ItemList",
+          "numberofItems": 2,
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Caroline, No",
+                "duration": "2:15",
+                "composer": "B.Wilson/Asher",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 1,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Summer Means New Love",
+                "duration": "1:58",
+                "composer": "B.Wilson",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 2,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            }
+          ]
+        }
+      },
+      "editions": [
+        {
+          "albumRelease": {
+            "@type": "MusicRelease",
+            "name": "The Greatest Hits Vol. 2: 20 More Good Vibrations",
+            "sameAs": "https://en.wikipedia.org/wiki/The_Greatest_Hits_%E2%80%93_Volume_2:_20_More_Good_Vibrations",
+            "image": "img/compilations/1999-20-more-good-vibrations-the-greatest-hits-vol-2/20-more-good-vibrations-the-greatest-hits-vol-2-cover.jpg",
+            "backCover": "",
+            "recordLabel": "Capitol",
+            "catalogNumber": "72435 20238 20",
+            "datePublished": "09-21-1999",
+            "releaseDay": 21,
+            "releaseMonth": 9,
+            "releaseYear": 1999,
+            "category": "compilation",
+            "musicReleaseFormat": "CD",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "US",
+            "asin": "B00001IVJW",
+            "amazonUs": "http://amzn.to/1Wy6Lai",
+            "amazonUk": "http://amzn.to/2aXd7x4",
+            "amazonCa": "http://amzn.to/2auoKcU",
+            "amazonEs": "http://amzn.to/2at8ta9",
+            "amazonFr": "http://amzn.to/2aSzQ05",
+            "amazonIt": "http://amzn.to/2aT5JFQ",
+            "amazonDe": "http://amzn.to/2aLGzah",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": "11. Caroline, No (Mono Single Version)\n\nWithout passing train/barking dogs coda"
+          }
+        }
+      ]
+    },
+    {
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "MusicAlbum",
+        "albumProductionType": "StudioAlbum",
+        "uniqueId": "surfer-girl-binaural",
+        "name": "Surfer Girl",
+        "sameAs": "https://en.wikipedia.org/wiki/Surfer_Girl_(song)",
+        "image": "img/singles/1967-surfer-girl-binaural/surfer-girl-binaural-cover.png",
+        "backCover": "",
+        "publisher": "Capitol-Starline",
+        "catalogNumber": "6107",
+        "datePublished": "06-05-1967",
+        "releaseDay": 5,
+        "releaseMonth": 6,
+        "releaseYear": 1967,
+        "recordingStartDay": 1,
+        "recordingStartMonth": 1,
+        "recordingStartYear": 1,
+        "recordingEndDay": 1,
+        "recordingEndMonth": 1,
+        "recordingEndYear": 1,
+        "byArtist": "The Beach Boys",
+        "producer": "B.Wilson",
+        "duration": "",
+        "numberOfDiscs": 1,
+        "country": "US",
+        "billboardPosition": "Did not chart - A side / Did not chart - B side",
+        "unitsSold": 0,
+        "riaa": "",
+        "aggregateRating": 3,
+        "relevance": 1,
+        "backgroundColor": "#6D6D6D",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": true,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": false,
+          "production": false,
+          "tribute": false,
+          "video": false,
+          "book": false
+        },
+        "subcategory": {
+          "albumSingle": false,
+          "nonAlbumSingle": true
+        },
+        "track": {
+          "@type": "ItemList",
+          "numberofItems": 2,
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Surfer Girl",
+                "duration": "2:25",
+                "composer": "B.Wilson",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 1,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "MusicRecording",
+                "name": "Little Deuce Coupe",
+                "duration": "1:40",
+                "composer": "B.Wilson/Christian",
+                "producer": "",
+                "leadVocal": "",
+                "disc": 1,
+                "trackNumber": 2,
+                "trackLink": "",
+                "hit": false,
+                "inthit": false,
+                "gem": false
+              }
+            }
+          ]
+        }
+      },
+      "editions": [
+        {
+          "albumRelease": {
+            "@type": "MusicRelease",
+            "name": "Endless Harmony",
+            "sameAs": "https://en.wikipedia.org/wiki/Endless_Harmony_Soundtrack",
+            "image": "img/compilations/1998-endless-harmony-soundtrack/endless-harmony-soundtrack-cover.jpg",
+            "backCover": "",
+            "recordLabel": "Capitol",
+            "catalogNumber": "72434 96391 2 6",
+            "datePublished": "08-11-1998",
+            "releaseDay": 11,
+            "releaseMonth": 8,
+            "releaseYear": 1998,
+            "category": "compilation",
+            "musicReleaseFormat": "CD",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "US",
+            "asin": "B0000561QV",
+            "amazonUs": "http://amzn.to/2kHFMOp",
+            "amazonUk": "http://amzn.to/2acGsGD",
+            "amazonCa": "http://amzn.to/2aN4RSH",
+            "amazonEs": "http://amzn.to/2aidVzs",
+            "amazonFr": "http://amzn.to/2b5oMdk",
+            "amazonIt": "http://amzn.to/2aLurGr",
+            "amazonDe": "http://amzn.to/2aTR12g",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": "5. Surfer Girl (Binaural Mix)"
           }
         }
       ]
@@ -92062,102 +93110,6 @@
         }
       },
       "editions": [
-        {
-          "albumRelease": {
-            "@type": "MusicRelease",
-            "name": "Brian Wilson Rarities: Beach Boys",
-            "sameAs": "",
-            "image": "img/various-artists/1981-brian-wilson-rarities-beach-boys/brian-wilson-rarities-beach-boys-cover.jpg",
-            "backCover": "",
-            "recordLabel": "Capitol",
-            "catalogNumber": "ST 26463",
-            "datePublished": "09-01-1981",
-            "releaseDay": 1,
-            "releaseMonth": 9,
-            "releaseYear": 1981,
-            "category": "variousArtists",
-            "musicReleaseFormat": "LP",
-            "duration": "",
-            "numberOfDiscs": 1,
-            "country": "AU",
-            "asin": "B00QEGCWQO",
-            "amazonUs": "http://amzn.to/2ba1emf",
-            "amazonUk": "http://amzn.to/2b8ODEs",
-            "amazonCa": "http://amzn.to/2ba1emf",
-            "amazonEs": "http://amzn.to/2b8ODEs",
-            "amazonFr": "http://amzn.to/2b8ODEs",
-            "amazonIt": "http://amzn.to/2b8ODEs",
-            "amazonDe": "http://amzn.to/2b8ODEs",
-            "amazonJp": "",
-            "notes": "",
-            "review": "",
-            "tracklist": ""
-          }
-        },
-	  {
-          "albumRelease": {
-            "@type": "MusicRelease",
-            "name": "The Capitol Years",
-            "sameAs": "https://en.wikipedia.org/wiki/The_Capitol_Years_(The_Beach_Boys_album)",
-            "image": "img/compilations/1980-the-capitol-years/the-capitol-years-1990.jpg",
-            "backCover": "",
-            "recordLabel": "Capitol",
-            "catalogNumber": "TOCP-6151-57",
-            "datePublished": "05-23-1990",
-            "releaseDay": 23,
-            "releaseMonth": 5,
-            "releaseYear": 1990,
-            "category": "compilation",
-            "musicReleaseFormat": "CD",
-            "duration": "",
-            "numberOfDiscs": 7,
-            "country": "JP",
-            "asin": "B0082MQD9K",
-            "amazonUs": "http://amzn.to/1Whgh2j",
-            "amazonUk": "http://amzn.to/2aGpYX2",
-            "amazonCa": "http://amzn.to/1Whgh2j",
-            "amazonEs": "http://amzn.to/2aibJrC",
-            "amazonFr": "http://amzn.to/2b5o9Ay",
-            "amazonIt": "http://amzn.to/2aT4tCE",
-            "amazonDe": "http://amzn.to/2ali45K",
-            "amazonJp": "",
-            "notes": "",
-            "review": "",
-            "tracklist": "First appearance on an album:\nYou're Welcome"
-          }
-        },
-	    {
-          "albumRelease": {
-            "@type": "MusicRelease",
-            "name": "Rarities & Beach Boys Medley",
-            "sameAs": "https://en.wikipedia.org/wiki/Rarities_(The_Beach_Boys_album)",
-            "image": "img/compilations/1983-the-beach-boys-rarities/rarities-beach-boys-medley-cover.jpg",
-            "backCover": "",
-            "recordLabel": "Capitol",
-            "catalogNumber": "TOCP-3329",
-            "datePublished": "10-16-1997",
-            "releaseDay": 16,
-            "releaseMonth": 10,
-            "releaseYear": 1997,
-            "category": "compilation",
-            "musicReleaseFormat": "CD",
-            "duration": "",
-            "numberOfDiscs": 1,
-            "country": "JP",
-            "asin": "B000007VXS",
-            "amazonUs": "http://amzn.to/1SK9YgM",
-            "amazonUk": "http://amzn.to/2acEpCi",
-            "amazonCa": "http://amzn.to/2aN4448",
-            "amazonEs": "http://amzn.to/2aibTzp",
-            "amazonFr": "http://amzn.to/2aw5Gxc",
-            "amazonIt": "http://amzn.to/2al6BTJ",
-            "amazonDe": "http://amzn.to/2aG7nr2",
-            "amazonJp": "",
-            "notes": "",
-            "review": "",
-            "tracklist": ""
-          }
-        },
 	  {
           "albumRelease": {
             "@type": "MusicRelease",
@@ -92187,7 +93139,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": "Bonus Track:\nYou're Welcome"
+            "tracklist": "Bonus Track\n26. You're Welcome"
           }
         },
 	  {
@@ -92219,7 +93171,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": "You're Welcome 12/15/66"
+            "tracklist": "Disc 4\n16. You're Welcome 12/15/66"
           }
         },
 	        {
@@ -92251,7 +93203,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "Disc 1\n20. You're Welcome"
           }
         },
         {
@@ -92283,7 +93235,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": "You’re Welcome – Stereo Mix"
+            "tracklist": "Disc 2\n8. You're Welcome (Stereo Mix)"
           }
         }
       ]
@@ -92393,6 +93345,38 @@
         {
           "albumRelease": {
             "@type": "MusicRelease",
+            "name": "The Greatest Hits Vol. 2: 20 More Good Vibrations",
+            "sameAs": "https://en.wikipedia.org/wiki/The_Greatest_Hits_%E2%80%93_Volume_2:_20_More_Good_Vibrations",
+            "image": "img/compilations/1999-20-more-good-vibrations-the-greatest-hits-vol-2/20-more-good-vibrations-the-greatest-hits-vol-2-cover.jpg",
+            "backCover": "",
+            "recordLabel": "Capitol",
+            "catalogNumber": "72435 20238 20",
+            "datePublished": "09-21-1999",
+            "releaseDay": 21,
+            "releaseMonth": 9,
+            "releaseYear": 1999,
+            "category": "compilation",
+            "musicReleaseFormat": "CD",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "US",
+            "asin": "B00001IVJW",
+            "amazonUs": "http://amzn.to/1Wy6Lai",
+            "amazonUk": "http://amzn.to/2aXd7x4",
+            "amazonCa": "http://amzn.to/2auoKcU",
+            "amazonEs": "http://amzn.to/2at8ta9",
+            "amazonFr": "http://amzn.to/2aSzQ05",
+            "amazonIt": "http://amzn.to/2aT5JFQ",
+            "amazonDe": "http://amzn.to/2aLGzah",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": "16. Do It Again (Mono Single Edit)\n\nWithout workshop effects coda"
+          }
+        },
+        {
+          "albumRelease": {
+            "@type": "MusicRelease",
             "name": "Sounds Of Summer - The Very Best Of The Beach Boys",
             "sameAs": "https://en.wikipedia.org/wiki/Sounds_of_Summer:_The_Very_Best_of_The_Beach_Boys",
             "image": "img/compilations/2003-sounds-of-summer/sounds-of-summer-cover.jpg",
@@ -92419,7 +93403,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "26. Do It Again (Mono Single Edit)\n\nWithout workshop effects coda"
           }
         },
         {
@@ -92451,7 +93435,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "6. Do It Again (Mono Single Edit)\n\nWithout workshop effects coda"
           }
         },
         {
@@ -92483,39 +93467,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
-          }
-        },
-		{
-          "albumRelease": {
-            "@type": "MusicRelease",
-            "name": "Made In California",
-            "sameAs": "https://en.wikipedia.org/wiki/Made_in_California",
-            "image": "img/compilations/2013-made-in-california/made-in-california-cover.jpg",
-            "backCover": "",
-            "recordLabel": "Capitol",
-            "catalogNumber": "509992 31345 29",
-            "datePublished": "08-27-2013",
-            "releaseDay": 27,
-            "releaseMonth": 8,
-            "releaseYear": 2013,
-            "category": "compilation",
-            "musicReleaseFormat": "CD",
-            "duration": "",
-            "numberOfDiscs": 5,
-            "country": "US",
-            "asin": "B008XZKSRY",
-            "amazonUs": "http://amzn.to/267WzJu",
-            "amazonUk": "http://amzn.to/2aGsRXP",
-            "amazonCa": "http://amzn.to/2aIye7u",
-            "amazonEs": "http://amzn.to/2aO3wey",
-            "amazonFr": "http://amzn.to/2akMtRy",
-            "amazonIt": "http://amzn.to/2al70FH",
-            "amazonDe": "http://amzn.to/2aljkGb",
-            "amazonJp": "",
-            "notes": "",
-            "review": "",
-            "tracklist": ""
+            "tracklist": "Disc 1\n2. Do It Again (Mono Single Edit)\n\nWithout workshop effects coda"
           }
         }
       ]
@@ -92651,7 +93603,39 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "17. Bluebirds Over The Mountain (Mono Single Version)"
+          }
+        },
+        {
+          "albumRelease": {
+            "@type": "MusicRelease",
+            "name": "The Beach Boys US Single Collection",
+            "sameAs": "",
+            "image": "img/singles/1968-bluebirds-over-the-mountain/us-singles-collection-cover.jpg",
+            "backCover": "",
+            "recordLabel": "Toshiba EMI",
+            "catalogNumber": "UICY-77353",
+            "datePublished": "07-31-2015",
+            "releaseDay": 31,
+            "releaseMonth": 7,
+            "releaseYear": 2015,
+            "category": "compilation",
+            "musicReleaseFormat": "CD",
+            "duration": "",
+            "numberOfDiscs": 3,
+            "country": "JP",
+            "asin": "B00XIIJC50",
+            "amazonUs": "http://amzn.to/2k6rSlU",
+            "amazonUk": "http://amzn.to/2k6bJg5",
+            "amazonCa": "http://amzn.to/2k6jW3U",
+            "amazonEs": "http://amzn.to/2kgUSJx",
+            "amazonFr": "http://amzn.to/2kCoxLd",
+            "amazonIt": "http://amzn.to/2jLbeag",
+            "amazonDe": "http://amzn.to/2kgUXgj",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": "Disc 3\n7. Bluebirds Over The Mountain (Mono Single Version)\n8. Never Learn Not To Love (Mono Single Edit)"
           }
         }
       ]
@@ -92758,103 +93742,71 @@
         }
       },
       "editions": [
-        {
+	    {
           "albumRelease": {
             "@type": "MusicRelease",
-            "name": "Brian Wilson Rarities: Beach Boys",
-            "sameAs": "",
-            "image": "img/various-artists/1981-brian-wilson-rarities-beach-boys/brian-wilson-rarities-beach-boys-cover.jpg",
+            "name": "Good Vibrations - 30 Years Of The Beach Boys [5CD]",
+            "sameAs": "https://en.wikipedia.org/wiki/Good_Vibrations:_Thirty_Years_of_The_Beach_Boys",
+            "image": "img/compilations/1993-good-vibrations-thirty-years-of-the-beach-boys/good-vibrations-thirty-years-of-the-beach-boys-cover.jpg",
             "backCover": "",
             "recordLabel": "Capitol",
-            "catalogNumber": "ST 26463",
-            "datePublished": "09-01-1981",
-            "releaseDay": 1,
-            "releaseMonth": 9,
-            "releaseYear": 1981,
-            "category": "variousArtists",
-            "musicReleaseFormat": "LP",
+            "catalogNumber": "C2 0777 7 81294 24",
+            "datePublished": "06-29-1993",
+            "releaseDay": 29,
+            "releaseMonth": 6,
+            "releaseYear": 1993,
+            "category": "compilation",
+            "musicReleaseFormat": "CD",
             "duration": "",
-            "numberOfDiscs": 1,
-            "country": "AU",
-            "asin": "B00QEGCWQO",
-            "amazonUs": "http://amzn.to/2ba1emf",
-            "amazonUk": "http://amzn.to/2b8ODEs",
-            "amazonCa": "http://amzn.to/2ba1emf",
-            "amazonEs": "http://amzn.to/2b8ODEs",
-            "amazonFr": "http://amzn.to/2b8ODEs",
-            "amazonIt": "http://amzn.to/2b8ODEs",
-            "amazonDe": "http://amzn.to/2b8ODEs",
+            "numberOfDiscs": 5,
+            "country": "US",
+            "asin": "B000002UR4",
+            "amazonUs": "http://amzn.to/1VwDmy0",
+            "amazonUk": "http://amzn.to/2acFg61",
+            "amazonCa": "http://amzn.to/2aleaW8",
+            "amazonEs": "http://amzn.to/2aidxRv",
+            "amazonFr": "http://amzn.to/2aFqOA6",
+            "amazonIt": "http://amzn.to/2al6A2i",
+            "amazonDe": "http://amzn.to/2aliWY1",
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": "Celebrate The News"
+            "tracklist": "Disc 3\n15. Break Away (Stereo Single Version)"
           }
         },
-		{
+        {
           "albumRelease": {
             "@type": "MusicRelease",
-            "name": "Spirit Of America",
-            "sameAs": "https://en.wikipedia.org/wiki/Spirit_of_America_(The_Beach_Boys_album)",
-            "image": "img/compilations/1975-spirit-of-america/spirit-of-america-cover.jpg",
+            "name": "The Greatest Hits Vol. 2: 20 More Good Vibrations",
+            "sameAs": "https://en.wikipedia.org/wiki/The_Greatest_Hits_%E2%80%93_Volume_2:_20_More_Good_Vibrations",
+            "image": "img/compilations/1999-20-more-good-vibrations-the-greatest-hits-vol-2/20-more-good-vibrations-the-greatest-hits-vol-2-cover.jpg",
             "backCover": "",
             "recordLabel": "Capitol",
-            "catalogNumber": "CDP 7 46618 2",
-            "datePublished": "04-17-1987",
-            "releaseDay": 17,
-            "releaseMonth": 4,
-            "releaseYear": 1987,
+            "catalogNumber": "72435 20238 20",
+            "datePublished": "09-21-1999",
+            "releaseDay": 21,
+            "releaseMonth": 9,
+            "releaseYear": 1999,
             "category": "compilation",
             "musicReleaseFormat": "CD",
             "duration": "",
             "numberOfDiscs": 1,
             "country": "US",
-            "asin": "B000008DAJ",
-            "amazonUs": "http://amzn.to/1SSsJz9",
-            "amazonUk": "http://amzn.to/2aGpZdG",
-            "amazonCa": "http://amzn.to/2axAaQZ",
-            "amazonEs": "http://amzn.to/2at5EpP",
-            "amazonFr": "http://amzn.to/2aFpWeT",
-            "amazonIt": "http://amzn.to/2aT4IxC",
-            "amazonDe": "http://amzn.to/2ali0TK",
+            "asin": "B00001IVJW",
+            "amazonUs": "http://amzn.to/1Wy6Lai",
+            "amazonUk": "http://amzn.to/2aXd7x4",
+            "amazonCa": "http://amzn.to/2auoKcU",
+            "amazonEs": "http://amzn.to/2at8ta9",
+            "amazonFr": "http://amzn.to/2aSzQ05",
+            "amazonIt": "http://amzn.to/2aT5JFQ",
+            "amazonDe": "http://amzn.to/2aLGzah",
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "19. Break Away (Stereo Single Version)"
           }
         },
-	    {
-          "albumRelease": {
-            "@type": "MusicRelease",
-            "name": "Rarities & Beach Boys Medley",
-            "sameAs": "https://en.wikipedia.org/wiki/Rarities_(The_Beach_Boys_album)",
-            "image": "img/compilations/1983-the-beach-boys-rarities/rarities-beach-boys-medley-cover.jpg",
-            "backCover": "",
-            "recordLabel": "Capitol",
-            "catalogNumber": "TOCP-3329",
-            "datePublished": "10-16-1997",
-            "releaseDay": 16,
-            "releaseMonth": 10,
-            "releaseYear": 1997,
-            "category": "compilation",
-            "musicReleaseFormat": "CD",
-            "duration": "",
-            "numberOfDiscs": 1,
-            "country": "JP",
-            "asin": "B000007VXS",
-            "amazonUs": "http://amzn.to/1SK9YgM",
-            "amazonUk": "http://amzn.to/2acEpCi",
-            "amazonCa": "http://amzn.to/2aN4448",
-            "amazonEs": "http://amzn.to/2aibTzp",
-            "amazonFr": "http://amzn.to/2aw5Gxc",
-            "amazonIt": "http://amzn.to/2al6BTJ",
-            "amazonDe": "http://amzn.to/2aG7nr2",
-            "amazonJp": "",
-            "notes": "",
-            "review": "",
-            "tracklist": "Celebrate The News"
-          }
-        },
-		{
+	  {
           "albumRelease": {
             "@type": "MusicRelease",
             "name": "Friends / 20/20",
@@ -92883,7 +93835,39 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": "Bonus Tracks:\n\nBreak Away\nCelebrate The News"
+            "tracklist": "Bonus Tracks:\n25. Break Away (Stereo Single Version)\n26. Celebrate The News (Stereo Single Version)"
+          }
+        },
+        {
+          "albumRelease": {
+            "@type": "MusicRelease",
+            "name": "The Platinum Collection - Sounds of Summer Edition",
+            "sameAs": "https://en.wikipedia.org/wiki/The_Platinum_Collection_(Sounds_of_Summer_Edition)",
+            "image": "img/compilations/2003-sounds-of-summer/the-platinum-collection-cover.jpg",
+            "backCover": "",
+            "recordLabel": "EMI",
+            "catalogNumber": "72435 71345 21",
+            "datePublished": "12-01-2005",
+            "releaseDay": 1,
+            "releaseMonth": 12,
+            "releaseYear": 2005,
+            "category": "compilation",
+            "musicReleaseFormat": "CD",
+            "duration": "",
+            "numberOfDiscs": 3,
+            "country": "UK",
+            "asin": "B00023XWIW",
+            "amazonUs": "http://amzn.to/1SSuGLT",
+            "amazonUk": "http://amzn.to/2acGq1D",
+            "amazonCa": "http://amzn.to/2aRg3zn",
+            "amazonEs": "http://amzn.to/2aIO5mf",
+            "amazonFr": "http://amzn.to/2aSAMSg",
+            "amazonIt": "http://amzn.to/2aFSKE6",
+            "amazonDe": "http://amzn.to/2aTnHrD",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": "Disc 2\n18. Breakaway (Stereo Single Version)"
           }
         },
 	    {
@@ -92894,7 +93878,7 @@
             "image": "img/compilations/2013-made-in-california/made-in-california-cover.jpg",
             "backCover": "",
             "recordLabel": "Capitol",
-            "catalogNumber": "509992 31345 29",
+            "catalogNumber": "B0018509-02",
             "datePublished": "08-27-2013",
             "releaseDay": 27,
             "releaseMonth": 8,
@@ -92915,7 +93899,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": "Celebrate The News"
+            "tracklist": "Disc 3\n18. Celebrate The News (Digital Remaster/2013)"
           }
         }
       ]
@@ -92988,7 +93972,7 @@
               "item": {
                 "@type": "MusicRecording",
                 "name": "Surfer Girl",
-                "duration": "",
+                "duration": "2:12",
                 "composer": "B.Wilson",
                 "producer": "",
                 "leadVocal": "",
@@ -93005,9 +93989,9 @@
               "position": 2,
               "item": {
                 "@type": "MusicRecording",
-                "name": "other artist B side",
-                "duration": "",
-                "composer": "",
+                "name": "Tony and Jo - The Freeze",
+                "duration": "2:16",
+                "composer": "Saraceno/Savonne",
                 "producer": "",
                 "leadVocal": "",
                 "disc": 1,
@@ -93051,7 +94035,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": "Alternate cover"
+            "tracklist": "16. Surfer Girl (Take Approved As Master)"
           }
         },
         {
@@ -93083,7 +94067,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": "Original recordings produced by Hite and Dorinda Morgan\nDigital remastering by Steve Hoffman"
+            "tracklist": "4. Surfer Girl (Master Take - Recorded February 8th, 1962)"
           }
         },
 				        {
@@ -93115,7 +94099,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "6. Surfer Girl"
           }
         },
         {
@@ -93147,7 +94131,39 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "16. Surfer Girl (Take Approved As Master)"
+          }
+        },
+        {
+          "albumRelease": {
+            "@type": "MusicRelease",
+            "name": "Becoming The Beach Boys - The Complete Hite & Dorinda Morgan Sessions",
+            "sameAs": "",
+            "image": "img/compilations/2016-becoming-the-beach-boys/becoming-the-beach-boys-cover.jpg",
+            "backCover": "",
+            "recordLabel": "Omnivore Recordings",
+            "catalogNumber": "",
+            "datePublished": "08-26-2016",
+            "releaseDay": 26,
+            "releaseMonth": 8,
+            "releaseYear": 2016,
+            "category": "compilation",
+            "musicReleaseFormat": "CD",
+            "duration": "",
+            "numberOfDiscs": 2,
+            "country": "US",
+            "asin": "B01HRENTOU",
+            "amazonUs": "http://amzn.to/29F0RAM",
+            "amazonUk": "http://amzn.to/2aXeYSr",
+            "amazonCa": "http://amzn.to/2avvwCx",
+            "amazonEs": "http://amzn.to/2aO2JKG",
+            "amazonFr": "http://amzn.to/2akNsBw",
+            "amazonIt": "http://amzn.to/2al75JK",
+            "amazonDe": "http://amzn.to/2aLGEuR",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": "Disc 2\n7. Surfer Girl (Master)"
           }
         }
       ]
@@ -93283,7 +94299,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": "Alternate cover"
+            "tracklist": "14. Surfin' Safari (Take Approved Aas Master)"
           }
         },
         {
@@ -93315,7 +94331,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": "Original recordings produced by Hite and Dorinda Morgan\nDigital remastering by Steve Hoffman"
+            "tracklist": "6. Surfin' Safari (Master Take - Recorded Februrary 8th, 1962)"
           }
         },
         {
@@ -93347,7 +94363,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "2. Surfin' Safari"
           }
         },
         {
@@ -93379,7 +94395,39 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "14. Surfin' Safari (Take Approved As Master)"
+          }
+        },
+        {
+          "albumRelease": {
+            "@type": "MusicRelease",
+            "name": "Becoming The Beach Boys - The Complete Hite & Dorinda Morgan Sessions",
+            "sameAs": "",
+            "image": "img/compilations/2016-becoming-the-beach-boys/becoming-the-beach-boys-cover.jpg",
+            "backCover": "",
+            "recordLabel": "Omnivore Recordings",
+            "catalogNumber": "",
+            "datePublished": "08-26-2016",
+            "releaseDay": 26,
+            "releaseMonth": 8,
+            "releaseYear": 2016,
+            "category": "compilation",
+            "musicReleaseFormat": "CD",
+            "duration": "",
+            "numberOfDiscs": 2,
+            "country": "US",
+            "asin": "B01HRENTOU",
+            "amazonUs": "http://amzn.to/29F0RAM",
+            "amazonUk": "http://amzn.to/2aXeYSr",
+            "amazonCa": "http://amzn.to/2avvwCx",
+            "amazonEs": "http://amzn.to/2aO2JKG",
+            "amazonFr": "http://amzn.to/2akNsBw",
+            "amazonIt": "http://amzn.to/2al75JK",
+            "amazonDe": "http://amzn.to/2aLGEuR",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": "Disc 1\n31. Surfin' Safari (Master)"
           }
         }
       ]
@@ -93489,7 +94537,7 @@
         {
           "albumRelease": {
             "@type": "MusicRelease",
-            "name": "Appetizers",
+            "name": "Various Artists - Appetizers",
             "sameAs": "",
             "image": "img/singles/1970-susie-cincinnati/appetizers-cover.jpg",
             "backCover": "",
@@ -93515,39 +94563,7 @@
             "amazonJp": "http://amzn.to/2gO54bt",
             "notes": "",
             "review": "",
-            "tracklist": "Includes de single mono version."
-          }
-        },
-        {
-          "albumRelease": {
-            "@type": "MusicRelease",
-            "name": "Made In California",
-            "sameAs": "https://en.wikipedia.org/wiki/Made_in_California",
-            "image": "img/compilations/2013-made-in-california/made-in-california-cover.jpg",
-            "backCover": "",
-            "recordLabel": "Capitol",
-            "catalogNumber": "509992 31345 29",
-            "datePublished": "08-27-2013",
-            "releaseDay": 27,
-            "releaseMonth": 8,
-            "releaseYear": 2013,
-            "category": "variousArtists",
-            "musicReleaseFormat": "CD",
-            "duration": "",
-            "numberOfDiscs": 5,
-            "country": "US",
-            "asin": "B008XZKSRY",
-            "amazonUs": "http://amzn.to/267WzJu",
-            "amazonUk": "http://amzn.to/2aGsRXP",
-            "amazonCa": "http://amzn.to/2aIye7u",
-            "amazonEs": "http://amzn.to/2aO3wey",
-            "amazonFr": "http://amzn.to/2akMtRy",
-            "amazonIt": "http://amzn.to/2al70FH",
-            "amazonDe": "http://amzn.to/2aljkGb",
-            "amazonJp": "",
-            "notes": "",
-            "review": "",
-            "tracklist": ""
+            "tracklist": "Disc 2\n12. Susie Cincinnati (Mono Single Version)"
           }
         }
       ]
@@ -93657,38 +94673,6 @@
 	    {
           "albumRelease": {
             "@type": "MusicRelease",
-            "name": "Rarities & Beach Boys Medley",
-            "sameAs": "https://en.wikipedia.org/wiki/Rarities_(The_Beach_Boys_album)",
-            "image": "img/compilations/1983-the-beach-boys-rarities/rarities-beach-boys-medley-cover.jpg",
-            "backCover": "",
-            "recordLabel": "Capitol",
-            "catalogNumber": "TOCP-3329",
-            "datePublished": "10-16-1997",
-            "releaseDay": 16,
-            "releaseMonth": 10,
-            "releaseYear": 1997,
-            "category": "compilation",
-            "musicReleaseFormat": "CD",
-            "duration": "",
-            "numberOfDiscs": 1,
-            "country": "JP",
-            "asin": "B000007VXS",
-            "amazonUs": "http://amzn.to/1SK9YgM",
-            "amazonUk": "http://amzn.to/2acEpCi",
-            "amazonCa": "http://amzn.to/2aN4448",
-            "amazonEs": "http://amzn.to/2aibTzp",
-            "amazonFr": "http://amzn.to/2aw5Gxc",
-            "amazonIt": "http://amzn.to/2al6BTJ",
-            "amazonDe": "http://amzn.to/2aG7nr2",
-            "amazonJp": "",
-            "notes": "",
-            "review": "",
-            "tracklist": ""
-          }
-        },
-        {
-          "albumRelease": {
-            "@type": "MusicRelease",
             "name": "Good Vibrations - 30 Years Of The Beach Boys [5CD]",
             "sameAs": "https://en.wikipedia.org/wiki/Good_Vibrations:_Thirty_Years_of_The_Beach_Boys",
             "image": "img/compilations/1993-good-vibrations-thirty-years-of-the-beach-boys/good-vibrations-thirty-years-of-the-beach-boys-cover.jpg",
@@ -93715,7 +94699,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "Disc 3\n16. Cotton Fields (The Cotton Song) (Mono Single Version)"
           }
         },
         {
@@ -93747,7 +94731,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "20. Cottonfields (Mono Single Version)"
           }
         }
       ]
@@ -93763,7 +94747,7 @@
         "image": "img/singles/1970-sound-of-free-lady/sound-of-free-lady-cover.jpg",
         "backCover": "",
         "publisher": "Stateside",
-        "catalogNumber": "SS 2184",
+        "catalogNumber": "2C006-92147 M",
         "datePublished": "12-04-1970",
         "releaseDay": 4,
         "releaseMonth": 12,
@@ -93778,7 +94762,7 @@
         "producer": "",
         "duration": "",
         "numberOfDiscs": 1,
-        "country": "UK",
+        "country": "FR",
         "billboardPosition": "Did Not Chart - A side / Did not chart - B side",
         "unitsSold": 0,
         "riaa": "",
@@ -93857,44 +94841,12 @@
         {
           "albumRelease": {
             "@type": "MusicRelease",
-            "name": "Summer Love Songs",
-            "sameAs": "https://en.wikipedia.org/wiki/Summer_Love_Songs",
-            "image": "img/compilations/2009-summer-love-songs/summer-love-songs-cover.jpg",
-            "backCover": "",
-            "recordLabel": "Capitol",
-            "catalogNumber": "509996 99299 22",
-            "datePublished": "05-19-2009",
-            "releaseDay": 19,
-            "releaseMonth": 5,
-            "releaseYear": 2009,
-            "category": "compilation",
-            "musicReleaseFormat": "CD",
-            "duration": "",
-            "numberOfDiscs": 1,
-            "country": "US",
-            "asin": "B001XJNZ7M",
-            "amazonUs": "http://amzn.to/1Se2mE1",
-            "amazonUk": "http://amzn.to/2aGsHQy",
-            "amazonCa": "http://amzn.to/2aur4k8",
-            "amazonEs": "http://amzn.to/2aieSI6",
-            "amazonFr": "http://amzn.to/2aw70zN",
-            "amazonIt": "http://amzn.to/2awuk0E",
-            "amazonDe": "http://amzn.to/2aG8pDc",
-            "amazonJp": "",
-            "notes": "",
-            "review": "",
-            "tracklist": ""
-          }
-        },
-        {
-          "albumRelease": {
-            "@type": "MusicRelease",
             "name": "Made In California",
             "sameAs": "https://en.wikipedia.org/wiki/Made_in_California",
             "image": "img/compilations/2013-made-in-california/made-in-california-cover.jpg",
             "backCover": "",
             "recordLabel": "Capitol",
-            "catalogNumber": "509992 31345 29",
+            "catalogNumber": "B0018509-02",
             "datePublished": "08-27-2013",
             "releaseDay": 27,
             "releaseMonth": 8,
@@ -93915,7 +94867,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "Disc 3\n29. Sound Of Free (Mono Single Version)"
           }
         }
       ]
@@ -94030,7 +94982,7 @@
             "image": "img/compilations/1981-ten-years-of-harmony/ten-years-of-harmony-eu-1991.jpg",
             "backCover": "",
             "recordLabel": "Caribou",
-            "catalogNumber": "465670 2",
+            "catalogNumber": "Z2K 37445",
             "datePublished": "03-26-1991",
             "releaseDay": 26,
             "releaseMonth": 3,
@@ -94051,7 +95003,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "Disc 1\n11. Cool Cool Water (45 Edit)"
           }
         },
         {
@@ -94083,7 +95035,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "24. Cool, Cool Water (1970 Single Version)"
           }
         }
       ]
@@ -94219,7 +95171,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": "Recorded live at the Big Sur Music Festival, Monterey, CA. October 3, 1970"
+            "tracklist": "7. Wouldn't It Be Nice\n\nRecorded live at the Big Sur Music Festival, Monterey, CA. October 3, 1970"
           }
         }
       ]
@@ -94433,38 +95385,6 @@
         {
           "albumRelease": {
             "@type": "MusicRelease",
-            "name": "Ten Years Of Harmony",
-            "sameAs": "https://en.wikipedia.org/wiki/Ten_Years_of_Harmony",
-            "image": "img/compilations/1981-ten-years-of-harmony/ten-years-of-harmony-eu-1991.jpg",
-            "backCover": "",
-            "recordLabel": "Caribou",
-            "catalogNumber": "465670 2",
-            "datePublished": "03-26-1991",
-            "releaseDay": 26,
-            "releaseMonth": 3,
-            "releaseYear": 1991,
-            "category": "compilation",
-            "musicReleaseFormat": "CD",
-            "duration": "",
-            "numberOfDiscs": 2,
-            "country": "US",
-            "asin": "B000008D9Y",
-            "amazonUs": "http://amzn.to/1Se0ATs",
-            "amazonUk": "http://amzn.to/2acEdTW",
-            "amazonCa": "http://amzn.to/2alduQr",
-            "amazonEs": "http://amzn.to/2aO0hnz",
-            "amazonFr": "http://amzn.to/2aL8yXY",
-            "amazonIt": "http://amzn.to/2al5cg7",
-            "amazonDe": "http://amzn.to/2alibhC",
-            "amazonJp": "",
-            "notes": "",
-            "review": "",
-            "tracklist": ""
-          }
-        },
-        {
-          "albumRelease": {
-            "@type": "MusicRelease",
             "name": "Best Of The Brother Years 1970-1986 - Greatest Hits Volume Three",
             "sameAs": "https://en.wikipedia.org/wiki/Greatest_Hits_Volume_Three:_Best_of_the_Brother_Years_1970%E2%80%931986",
             "image": "img/compilations/2000-best-of-the-brother-years/best-of-the-brother-years-1970-1986-greatest-hits-vol-3-cover.jpg",
@@ -94491,7 +95411,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "11. California Saga (On My Way To Sunny Californ-i-a) (Single Version)"
           }
         },
         {
@@ -94523,7 +95443,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "11. California Saga (On My Way To Sunny Californ-i-a) (Single Version)"
           }
         }
       ]
@@ -94659,7 +95579,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": "Bonus Track:\n\nChild Of Winter (Christmas Song)"
+            "tracklist": "Bonus Track:\n16. Child Of Winter (Christmas Song)"
           }
         },
         {
@@ -94691,7 +95611,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": "Bonus Track:\n\nChild Of Winter (Christmas Song)"
+            "tracklist": "Bonus Track:\n16. Child Of Winter (Christmas Song)"
           }
         }
       ]
@@ -94827,7 +95747,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "12. Rock And Roll Music (Single Version)"
           }
         },
         {
@@ -94859,7 +95779,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "12. Rock And Roll Music (Single Version)"
           }
         }
       ]
@@ -94966,38 +95886,6 @@
         }
       },
       "editions": [
-        {
-          "albumRelease": {
-            "@type": "MusicRelease",
-            "name": "Ten Years Of Harmony",
-            "sameAs": "https://en.wikipedia.org/wiki/Ten_Years_of_Harmony",
-            "image": "img/compilations/1981-ten-years-of-harmony/ten-years-of-harmony-eu-1991.jpg",
-            "backCover": "",
-            "recordLabel": "Caribou",
-            "catalogNumber": "465670 2",
-            "datePublished": "03-26-1991",
-            "releaseDay": 26,
-            "releaseMonth": 3,
-            "releaseYear": 1991,
-            "category": "compilation",
-            "musicReleaseFormat": "CD",
-            "duration": "",
-            "numberOfDiscs": 2,
-            "country": "US",
-            "asin": "B000008D9Y",
-            "amazonUs": "http://amzn.to/1Se0ATs",
-            "amazonUk": "http://amzn.to/2acEdTW",
-            "amazonCa": "http://amzn.to/2alduQr",
-            "amazonEs": "http://amzn.to/2aO0hnz",
-            "amazonFr": "http://amzn.to/2aL8yXY",
-            "amazonIt": "http://amzn.to/2al5cg7",
-            "amazonDe": "http://amzn.to/2alibhC",
-            "amazonJp": "",
-            "notes": "",
-            "review": "",
-            "tracklist": ""
-          }
-        },
 	  {
           "albumRelease": {
             "@type": "MusicRelease",
@@ -95027,7 +95915,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "13. It's OK (Sped Up Single Version)"
           }
         },
         {
@@ -95059,7 +95947,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "13. It's OK (Sped Up Single Version)"
           }
         }
       ]
@@ -95174,7 +96062,7 @@
             "image": "img/albums/bruce-johnston/1977-going-public/going-public-cover.jpg",
             "backCover": "",
             "recordLabel": "Sony",
-            "catalogNumber": "",
+            "catalogNumber": "MHCP-973",
             "datePublished": "07-10-2012",
             "releaseDay": 10,
             "releaseMonth": 7,
@@ -95195,7 +96083,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": "Bonus Tracks\n\nPipeline (Single Version)\nPipeline (12'' Disco Version)"
+            "tracklist": "Bonus Tracks\n10. Pipeline (Single Version) 3:49\n11. Pipeline (12'' Disco Version) 6:30"
           }
         }
       ]
@@ -95406,38 +96294,6 @@
         }
       },
       "editions": [
-	  {
-          "albumRelease": {
-            "@type": "MusicRelease",
-            "name": "Best Of The Brother Years 1970-1986 - Greatest Hits Volume Three",
-            "sameAs": "https://en.wikipedia.org/wiki/Greatest_Hits_Volume_Three:_Best_of_the_Brother_Years_1970%E2%80%931986",
-            "image": "img/compilations/2000-best-of-the-brother-years/best-of-the-brother-years-1970-1986-greatest-hits-vol-3-cover.jpg",
-            "backCover": "",
-            "recordLabel": "Capitol",
-            "catalogNumber": "72435 24511 28",
-            "datePublished": "02-02-2000",
-            "releaseDay": 2,
-            "releaseMonth": 2,
-            "releaseYear": 2000,
-            "category": "compilation",
-            "musicReleaseFormat": "CD",
-            "duration": "",
-            "numberOfDiscs": 1,
-            "country": "US",
-            "asin": "B000040OVX",
-            "amazonUs": "http://amzn.to/1W7XCVc",
-            "amazonUk": "http://amzn.to/2aGrw3B",
-            "amazonCa": "http://amzn.to/2aldT5v",
-            "amazonEs": "http://amzn.to/2aie3ii",
-            "amazonFr": "http://amzn.to/2akMbds",
-            "amazonIt": "http://amzn.to/2al6aJ6",
-            "amazonDe": "http://amzn.to/2aTRi5h",
-            "amazonJp": "",
-            "notes": "",
-            "review": "",
-            "tracklist": ""
-          }
-        },
         {
           "albumRelease": {
             "@type": "MusicRelease",
@@ -95467,7 +96323,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "16. Here Comes The Night (Single Version)"
           }
         },
         {
@@ -95499,7 +96355,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": "Disc Three\n\n17 Here Comes The Night (Single Version)"
+            "tracklist": "Disc 3\n17. Here Comes The Night (Single Version)"
           }
         }
       ]
@@ -95926,7 +96782,7 @@
             "image": "img/compilations/1981-ten-years-of-harmony/ten-years-of-harmony-eu-1991.jpg",
             "backCover": "",
             "recordLabel": "Caribou",
-            "catalogNumber": "465670 2",
+            "catalogNumber": "Z2K 37445",
             "datePublished": "03-26-1991",
             "releaseDay": 26,
             "releaseMonth": 3,
@@ -95947,7 +96803,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": "Disc 1\nTrack 4\n\nIt's A Beautiful Day (45 Edit)"
+            "tracklist": "Disc 1\n4. It's A Beautiful Day (45 Edit)"
           }
         },
         {
@@ -95979,7 +96835,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": "This edition includes the single version longer edit of Sumahama"
+            "tracklist": "18. Sumahama (Single Version Longer Edit) 4:32"
           }
         },
         {
@@ -95990,7 +96846,7 @@
             "image": "img/compilations/2013-made-in-california/made-in-california-cover.jpg",
             "backCover": "",
             "recordLabel": "Capitol",
-            "catalogNumber": "509992 31345 29",
+            "catalogNumber": "B0018509-02",
             "datePublished": "08-27-2013",
             "releaseDay": 27,
             "releaseMonth": 8,
@@ -96011,7 +96867,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": "Disc 4\nTrack 24\n\nIt's A Beautiful Day (Single Edit) (2012 Mix)"
+            "tracklist": "Disc 4\n24. It's A Beautiful Day (Single Edit) (2012 Mix)"
           }
         }
       ]
@@ -96123,31 +96979,31 @@
             "@type": "MusicRelease",
             "name": "Ten Years Of Harmony",
             "sameAs": "https://en.wikipedia.org/wiki/Ten_Years_of_Harmony",
-            "image": "img/compilations/1981-ten-years-of-harmony/ten-years-of-harmony-eu-1991.jpg",
+            "image": "img/compilations/1981-ten-years-of-harmony/ten-years-of-harmony-cover.jpg",
             "backCover": "",
             "recordLabel": "Caribou",
-            "catalogNumber": "465670 2",
-            "datePublished": "03-26-1991",
-            "releaseDay": 26,
-            "releaseMonth": 3,
-            "releaseYear": 1991,
+            "catalogNumber": "Z2X 37445",
+            "datePublished": "12-07-1981",
+            "releaseDay": 7,
+            "releaseMonth": 12,
+            "releaseYear": 1981,
             "category": "compilation",
-            "musicReleaseFormat": "CD",
+            "musicReleaseFormat": "LP",
             "duration": "",
             "numberOfDiscs": 2,
             "country": "US",
-            "asin": "B000008D9Y",
-            "amazonUs": "http://amzn.to/1Se0ATs",
-            "amazonUk": "http://amzn.to/2acEdTW",
-            "amazonCa": "http://amzn.to/2alduQr",
-            "amazonEs": "http://amzn.to/2aO0hnz",
-            "amazonFr": "http://amzn.to/2aL8yXY",
-            "amazonIt": "http://amzn.to/2al5cg7",
-            "amazonDe": "http://amzn.to/2alibhC",
+            "asin": "B007TNLEFG",
+            "amazonUs": "http://amzn.to/2kKI62T",
+            "amazonUk": "http://amzn.to/2jJeiGp",
+            "amazonCa": "http://amzn.to/2kKzuJC",
+            "amazonEs": "http://amzn.to/2jJfXM5",
+            "amazonFr": "http://amzn.to/2jJeSEc",
+            "amazonIt": "http://amzn.to/2k8j9j6",
+            "amazonDe": "http://amzn.to/2jlOLV4",
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": "Disc 1\nTrack 13\n\nSchool Day (Ring! Ring! Goes The Bell) (Previously Unreleased 45 Mix)"
+            "tracklist": "Disc 1\n13. School Day (Ring! Ring! Goes The Bell) (Previously Unreleased 45 Mix)"
           }
         }
       ]
@@ -96569,38 +97425,6 @@
         {
           "albumRelease": {
             "@type": "MusicRelease",
-            "name": "Sunshine Dream [LP]",
-            "sameAs": "https://en.wikipedia.org/wiki/Sunshine_Dream",
-            "image": "img/compilations/1982-sunshine-dream/sunshine-dream-cover.jpg",
-            "backCover": "",
-            "recordLabel": "Capitol",
-            "catalogNumber": "SVBB-12220",
-            "datePublished": "06-01-1982",
-            "releaseDay": 1,
-            "releaseMonth": 6,
-            "releaseYear": 1982,
-            "category": "compilation",
-            "musicReleaseFormat": "LP",
-            "duration": "",
-            "numberOfDiscs": 2,
-            "country": "US",
-            "asin": "B000LZSRKO",
-            "amazonUs": "http://amzn.to/1Wy5D6k",
-            "amazonUk": "http://amzn.to/2aGq1lV",
-            "amazonCa": "http://amzn.to/1Wy5D6k",
-            "amazonEs": "http://amzn.to/2at6Qcw",
-            "amazonFr": "http://amzn.to/2aSz6Iu",
-            "amazonIt": "http://amzn.to/2aT4DK0",
-            "amazonDe": "http://amzn.to/2aTQ35S",
-            "amazonJp": "",
-            "notes": "",
-            "review": "",
-            "tracklist": "Disc Two. Track 12\n\nBeach Boys Medley"
-          }
-        },
-        {
-          "albumRelease": {
-            "@type": "MusicRelease",
             "name": "Rarities & Beach Boys Medley",
             "sameAs": "https://en.wikipedia.org/wiki/Rarities_(The_Beach_Boys_album)",
             "image": "img/compilations/1983-the-beach-boys-rarities/rarities-beach-boys-medley-cover.jpg",
@@ -96627,7 +97451,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": "Bonus Track:\n\n- The Beach Boys Medley (Good Vibrations, Help Me, Rhonda, I Get Around, Shut Down, Surfin Safari, Barbara Ann, Surfin U.S.A., Fun Fun Fun)"
+            "tracklist": "Bonus Track:\n16. The Beach Boys Medley (Good Vibrations, Help Me, Rhonda, I Get Around, Shut Down, Surfin Safari, Barbara Ann, Surfin U.S.A., Fun Fun Fun)"
           }
         },
 	  {
@@ -96659,7 +97483,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": "Disc Two. Track 19\n\nBeach Boys Medley"
+            "tracklist": "Disc 2\n19. Beach Boys Medley"
           }
         }
       ]
@@ -96795,7 +97619,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": "Bonus Track:\n\nGivin' You Up (Single Edit)"
+            "tracklist": "Bonus Track:\n12. Givin' You Up (Single Edit)"
           }
         }
       ]
@@ -97035,7 +97859,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "Disc 3\n19. East Meets West"
           }
         }
       ]
@@ -97171,7 +97995,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "1. Rock 'N' Roll To The Rescue"
           }
         },
 	  {
@@ -97203,7 +98027,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "Disc 2\n11. Rock 'N' Roll To The Rescue"
           }
         },
         {
@@ -97235,7 +98059,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "24. Rock 'N' Roll To The Rescue"
           }
         }
       ]
@@ -97425,7 +98249,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "3. Rock 'N' Roll To The Rescue (Beach Party Mix - Extended Dance Version)"
           }
         }
       ]
@@ -97532,38 +98356,6 @@
         }
       },
       "editions": [
-                {
-          "albumRelease": {
-            "@type": "MusicRelease",
-            "name": "Made In U.S.A.",
-            "sameAs": "https://en.wikipedia.org/wiki/Made_in_U.S.A._(The_Beach_Boys_album)",
-            "image": "img/compilations/1986-made-in-usa/made-in-usa-cover.jpg",
-            "backCover": "",
-            "recordLabel": "Capitol",
-            "catalogNumber": "CDP 7 46324 2",
-            "datePublished": "07-07-1986",
-            "releaseDay": 7,
-            "releaseMonth": 7,
-            "releaseYear": 1986,
-            "category": "compilation",
-            "musicReleaseFormat": "CD",
-            "duration": "",
-            "numberOfDiscs": 1,
-            "country": "US",
-            "asin": "B000008DAI",
-            "amazonUs": "http://amzn.to/1Wy5UWQ",
-            "amazonUk": "",
-            "amazonCa": "",
-            "amazonEs": "",
-            "amazonFr": "",
-            "amazonIt": "",
-            "amazonDe": "",
-            "amazonJp": "",
-            "notes": "",
-            "review": "",
-            "tracklist": ""
-          }
-		},
         {
           "albumRelease": {
             "@type": "MusicRelease",
@@ -97593,7 +98385,71 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "4. Lady Liberty"
+          }
+        },
+        {
+          "albumRelease": {
+            "@type": "MusicRelease",
+            "name": "Best Of The Brother Years 1970-1986 - Greatest Hits Volume Three",
+            "sameAs": "https://en.wikipedia.org/wiki/Greatest_Hits_Volume_Three:_Best_of_the_Brother_Years_1970%E2%80%931986",
+            "image": "img/compilations/2000-best-of-the-brother-years/best-of-the-brother-years-1970-1986-greatest-hits-vol-3-cover.jpg",
+            "backCover": "",
+            "recordLabel": "Capitol",
+            "catalogNumber": "72435 24511 28",
+            "datePublished": "02-02-2000",
+            "releaseDay": 2,
+            "releaseMonth": 2,
+            "releaseYear": 2000,
+            "category": "compilation",
+            "musicReleaseFormat": "CD",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "US",
+            "asin": "B000040OVX",
+            "amazonUs": "http://amzn.to/1W7XCVc",
+            "amazonUk": "http://amzn.to/2aGrw3B",
+            "amazonCa": "http://amzn.to/2aldT5v",
+            "amazonEs": "http://amzn.to/2aie3ii",
+            "amazonFr": "http://amzn.to/2akMbds",
+            "amazonIt": "http://amzn.to/2al6aJ6",
+            "amazonDe": "http://amzn.to/2aTRi5h",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": "20. California Dreamin'"
+          }
+        },
+        {
+          "albumRelease": {
+            "@type": "MusicRelease",
+            "name": "The Best Of The Beach Boys 1970-1986 - The Brother Years",
+            "sameAs": "https://en.wikipedia.org/wiki/Greatest_Hits_Volume_Three:_Best_of_the_Brother_Years_1970%E2%80%931986",
+            "image": "img/compilations/2000-best-of-the-brother-years/best-of-the-brother-years-1970-1986-cover.jpg",
+            "backCover": "",
+            "recordLabel": "Capitol",
+            "catalogNumber": "72435 25000 24",
+            "datePublished": "02-02-2000",
+            "releaseDay": 2,
+            "releaseMonth": 2,
+            "releaseYear": 2000,
+            "category": "compilation",
+            "musicReleaseFormat": "CD",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "EU",
+            "asin": "B000040OXE",
+            "amazonUs": "http://amzn.to/1VYmdxi",
+            "amazonUk": "http://amzn.to/2ap5ljL",
+            "amazonCa": "http://amzn.to/2alelR2",
+            "amazonEs": "http://amzn.to/2aie2Lk",
+            "amazonFr": "http://amzn.to/2aw6TEE",
+            "amazonIt": "http://amzn.to/2al6PdI",
+            "amazonDe": "http://amzn.to/2aljltH",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": "22. California Dreamin'"
           }
         },
         {
@@ -97604,7 +98460,7 @@
             "image": "img/compilations/2013-made-in-california/made-in-california-cover.jpg",
             "backCover": "",
             "recordLabel": "Capitol",
-            "catalogNumber": "509992 31345 29",
+            "catalogNumber": "B0018509-02",
             "datePublished": "08-27-2013",
             "releaseDay": 27,
             "releaseMonth": 8,
@@ -97625,7 +98481,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "Disc 5\n5. California Dreamin'"
           }
         }
       ]
@@ -97761,7 +98617,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": "Bonus tracks\n\nLet's Go To Heaven In My Car\nToo Much Sugar"
+            "tracklist": "Bonus Tracks\n15. Let's Go To Heaven In My Car\n16. Too Much Sugar"
           }
         }
       ]
@@ -98037,7 +98893,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": "Includes a single vocal edit of Happy Endings (3:58)"
+            "tracklist": "2. Happy Endings (Single Vocal Edit) 3:58"
           }
         },
         {
@@ -98069,7 +98925,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": "Includes a single vocal edit of Happy Endings (4:03)"
+            "tracklist": "2. Happy Endings (Single Vocal Edit) 4:03"
           }
         }
       ]
@@ -98291,7 +99147,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": "Bonus track\n\nHe Couldn't Get His Poor Old Body To Move"
+            "tracklist": "Bonus Track\n13. He Couldn't Get His Poor Old Body To Move"
           }
         }
       ]
@@ -98427,7 +99283,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "5. Don't Worry Baby 3:16"
           }
         },
         {
@@ -98459,7 +99315,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "3. Don't Worry Baby 3:16"
           }
         }
       ]
@@ -98595,7 +99451,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": "Bonus tracks\n\nBeing With The One You Love"
+            "tracklist": "Bonus Tracks\n14. Being With The One You Love"
           }
         }
       ]
@@ -98731,7 +99587,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "1. Somewhere Near Japan (Edit)"
           }
         }
       ]
@@ -98867,7 +99723,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "3. Kokomo (Spanish Version)"
           }
         }
       ]
@@ -99175,7 +100031,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "5. Crocodile Rock"
           }
         }
       ]
@@ -99433,7 +100289,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "18. Summer In Paradise (Wembley, 1993)"
           }
         },
 		{
@@ -99444,7 +100300,7 @@
             "image": "img/compilations/2013-made-in-california/made-in-california-cover.jpg",
             "backCover": "",
             "recordLabel": "Capitol",
-            "catalogNumber": "509992 31345 29",
+            "catalogNumber": "B0018509-02",
             "datePublished": "08-27-2013",
             "releaseDay": 27,
             "releaseMonth": 8,
@@ -99465,7 +100321,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "Disc 5\n25. Summer In Paradise (Wembley, 1993)"
           }
         }
       ]
@@ -99741,7 +100597,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": "Disc 3. Track 21\n\nFun, Fun, Fun (With Status Quo)"
+            "tracklist": "Disc 3\n21. Fun, Fun, Fun (With Status Quo)"
           }
         }
       ]
@@ -99895,7 +100751,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "2. Your Imagination (A Cappella)"
           }
         }
       ]
@@ -100049,7 +100905,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "11. PT Cruiser"
           }
         }
       ]
@@ -100185,7 +101041,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "2. In Blue Hawaii (Track)"
           }
         }
       ]
@@ -100339,7 +101195,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "2. Our Prayer (live)\n3. Good Vibrations (live)"
           }
         }
       ]
@@ -100457,7 +101313,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "1. Our Prayer (Freeform Reform)"
           }
         }
       ]
@@ -100697,7 +101553,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "3. Brian's Christmas Message"
           }
         },
         {
@@ -100729,7 +101585,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "3. Brian's Christmas Message"
           }
         }
       ]
@@ -100847,7 +101703,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "6. Santa's Going To Kokomo"
           }
         }
       ]
@@ -101087,7 +101943,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "2. That's Why God Made The Radio (Instrumental)"
           }
         }
       ]
@@ -101259,7 +102115,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": "Disc 2. Track 18\n\nIsn't It Time (Single Version)"
+            "tracklist": "Disc 2\n18. Isn't It Time (Single Version)"
           }
         },
         {
@@ -101291,7 +102147,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": "Tracklist:\n\nSurfin' Safari (Mono) 2:08\n409 (Mono) 2:02\nIsn't It Time (Single Mix) 3:38\nFrom There To Back Again 3:23"
+            "tracklist": "3. Isn't It Time (Single Mix)"
           }
         },
 		{
@@ -101302,7 +102158,7 @@
             "image": "img/compilations/2013-made-in-california/made-in-california-cover.jpg",
             "backCover": "",
             "recordLabel": "Capitol",
-            "catalogNumber": "509992 31345 29",
+            "catalogNumber": "B0018509-02",
             "datePublished": "08-27-2013",
             "releaseDay": 27,
             "releaseMonth": 8,
@@ -101323,7 +102179,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": "Disc 5. Track 10\n\nIsn't It Time (Single Version)"
+            "tracklist": "Disc 5\n10. Isn't It Time (Single Version)"
           }
         }
       ]
@@ -101563,7 +102419,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": "BBC Music version (with The Impossible Orchestra)"
+            "tracklist": "1. God Only Knows\n2. God Only Knows (Instrumental)\n\nBBC Music version (with The Impossible Orchestra)"
           }
         }
       ]
@@ -101681,7 +102537,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "1. Beach With Ya Baby"
           }
         }
       ]
@@ -101799,7 +102655,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "1. (You'll Never Be) Alone On Christmas Day"
           }
         }
       ]
@@ -101917,7 +102773,7 @@
             "amazonJp": "",
             "notes": "",
             "review": "",
-            "tracklist": ""
+            "tracklist": "1. Hurry Up, Hurry Up, Santa Claus"
           }
         }
       ]
