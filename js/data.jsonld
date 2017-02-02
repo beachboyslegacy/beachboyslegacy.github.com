@@ -39072,8 +39072,8 @@
           "book": false
         },
         "subcategory":{
-          "live": false,
-          "documentary": true,
+          "live": true,
+          "documentary": false,
           "movie": false
         }
       },
@@ -43298,8 +43298,8 @@
           "book": false
         },
         "subcategory":{
-          "live": false,
-          "documentary": true,
+          "live": true,
+          "documentary": false,
           "movie": false
         }
       },
@@ -104331,6 +104331,10 @@
           "video": false,
           "book": false
         },
+        "subcategory": {
+          "vinylBootleg": true,
+          "cdBootleg": false
+        },
         "track": {
           "@type": "ItemList",
           "numberofItems": 10,
@@ -104733,6 +104737,10 @@
           "video": false,
           "book": false
         },
+        "subcategory": {
+          "vinylBootleg": true,
+          "cdBootleg": false
+        },
         "track": {
           "@type": "ItemList",
           "numberofItems": 9,
@@ -104990,6 +104998,10 @@
           "tribute": false,
           "video": false,
           "book": false
+        },
+        "subcategory": {
+          "vinylBootleg": true,
+          "cdBootleg": false
         },
         "track": {
           "@type": "ItemList",
@@ -105429,6 +105441,10 @@
           "video": false,
           "book": false
         },
+        "subcategory": {
+          "vinylBootleg": true,
+          "cdBootleg": false
+        },
         "track": {
           "@type": "ItemList",
           "numberofItems": 13,
@@ -105759,6 +105775,10 @@
           "video": false,
           "book": false
         },
+        "subcategory": {
+          "vinylBootleg": true,
+          "cdBootleg": false
+        },
         "track": {
           "@type": "ItemList",
           "numberofItems": 17,
@@ -105890,6 +105910,10 @@
           "tribute": false,
           "video": false,
           "book": false
+        },
+        "subcategory": {
+          "vinylBootleg": true,
+          "cdBootleg": false
         },
         "track": {
           "@type": "ItemList",
@@ -106400,6 +106424,10 @@
           "tribute": false,
           "video": false,
           "book": false
+        },
+        "subcategory": {
+          "vinylBootleg": true,
+          "cdBootleg": false
         },
         "track": {
           "@type": "ItemList",
@@ -107001,6 +107029,10 @@
           "video": false,
           "book": false
         },
+        "subcategory": {
+          "vinylBootleg": false,
+          "cdBootleg": true
+        },
         "track": {
           "@type": "ItemList",
           "numberofItems": 16,
@@ -107383,6 +107415,10 @@
           "tribute": false,
           "video": false,
           "book": false
+        },
+        "subcategory": {
+          "vinylBootleg": false,
+          "cdBootleg": true
         },
         "track": {
           "@type": "ItemList",
