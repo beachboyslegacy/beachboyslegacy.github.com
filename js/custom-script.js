@@ -800,6 +800,8 @@ $(function(){
     //Loads child items for a given parent
     function loadChildren(){
 
+
+
       var i,j=0;
 
       $('.item__btn').on( 'click', function() {
@@ -960,6 +962,10 @@ $(function(){
             $thisChild = $($thisChild); //convers string to DOM element
             $('#'+itemId).find('.item__body').find('.child-items').append($thisChild);
 
+            // Removes amazon button for items with no amazon link
+            if( $thisChild.find('.child-item__buy').attr('href') == "" ){
+              $thisChild.find('.child-item__buy').remove();
+            }
 
             $('.child-item__tracklist').each(function(){
               $(this).shorten({
