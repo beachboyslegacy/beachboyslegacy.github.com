@@ -11,6 +11,7 @@ $(function(){
     var currentArtist = initialArtist;
     var currentCategory = initialCategory;
     var amazonLink = 'amazonUs';
+    var amazonBtnTxt = 'Buy on amazon.com';
 
 
     function loadItems(artist, category){
@@ -868,7 +869,7 @@ $(function(){
                                   '<div class="child-item__sidebar">'+
                                     '<div class="sticky-content">'+
                                       '<a href="'+data.items[requestedItemNumber].editions[j][amazonLink]+'" target="_blank"><img class="child-item__cover" src="'+data.items[requestedItemNumber].editions[j].image+'" alt="'+data.items[requestedItemNumber].editions[j].name+'"></a>'+
-                                      '<a class="child-item__buy" href="'+data.items[requestedItemNumber].editions[j][amazonLink]+'" target="_blank" onClick="ga(\x27send\x27, \x27event\x27, \x27Amazon\x27, \x27click\x27, \x27Item\x27)">Buy on amazon.com</a>'+  // \x27 is a scaped quote '
+                                      '<a class="child-item__buy" href="'+data.items[requestedItemNumber].editions[j][amazonLink]+'" target="_blank" onClick="ga(\x27send\x27, \x27event\x27, \x27Amazon\x27, \x27click\x27, \x27Item\x27)">'+amazonBtnTxt+'</a>'+  // \x27 is a scaped quote '
                                     '</div>'+
                                   '</div>'+
                                   '<div class="child-item__book-review">'+
@@ -908,7 +909,7 @@ $(function(){
                                   '<div class="child-item__sidebar">'+
                                     '<div class="sticky-content">'+
                                       '<a href="'+data.items[requestedItemNumber].editions[j].albumRelease[amazonLink]+'" target="_blank"><img class="child-item__cover" src="'+data.items[requestedItemNumber].editions[j].albumRelease.image+'" alt="'+data.items[requestedItemNumber].editions[j].albumRelease.name+'"></a>'+
-                                      '<a class="child-item__buy" href="'+data.items[requestedItemNumber].editions[j].albumRelease[amazonLink]+'" target="_blank" onClick="ga(\x27send\x27, \x27event\x27, \x27Amazon\x27, \x27click\x27, \x27Item\x27)">Buy on amazon.com</a>'+  // \x27 is a scaped quote '
+                                      '<a class="child-item__buy" href="'+data.items[requestedItemNumber].editions[j].albumRelease[amazonLink]+'" target="_blank" onClick="ga(\x27send\x27, \x27event\x27, \x27Amazon\x27, \x27click\x27, \x27Item\x27)">'+amazonBtnTxt+'</a>'+  // \x27 is a scaped quote '
                                     '</div>'+
                                   '</div>'+
                                   '<div class="child-item__tracklist">'+
@@ -952,7 +953,7 @@ $(function(){
                                   '<div class="child-item__sidebar">'+
                                     '<div class="sticky-content">'+
                                       '<a href="'+data.items[requestedItemNumber].editions[j].albumRelease[amazonLink]+'" target="_blank"><img class="child-item__cover" src="'+data.items[requestedItemNumber].editions[j].albumRelease.image+'" alt="'+data.items[requestedItemNumber].editions[j].albumRelease.name+'"></a>'+
-                                      '<a class="child-item__buy" href="'+data.items[requestedItemNumber].editions[j].albumRelease[amazonLink]+'" target="_blank" onClick="ga(\x27send\x27, \x27event\x27, \x27Amazon\x27, \x27click\x27, \x27Item\x27)">Buy on amazon.com</a>'+  // \x27 is a scaped quote '
+                                      '<a class="child-item__buy" href="'+data.items[requestedItemNumber].editions[j].albumRelease[amazonLink]+'" target="_blank" onClick="ga(\x27send\x27, \x27event\x27, \x27Amazon\x27, \x27click\x27, \x27Item\x27)">'+amazonBtnTxt+'</a>'+  // \x27 is a scaped quote '
                                     '</div>'+
                                   '</div>'+
                                   '<div class="child-item__tracklist">'+
@@ -996,28 +997,36 @@ $(function(){
 
       $.get("http://getcitydetails.geobytes.com/GetCityDetails?callback=?", function (response) {
         var country = response.geobytesinternet;
-        console.log("country"+country);
+        console.log('country'+country);
 
-        if (country == 'ES' || country == 'es'){
-          amazonLink = "amazonEs"
+        if (country == 'GB' || country == 'gb' || country == 'UK' || country == 'uk'){
+          amazonLink = 'amazonUk';
+          amazonBtnTxt = 'Buy on amazon.co.uk';
+        }
+        else if (country == 'ES' || country == 'es'){
+          amazonLink = 'amazonEs';
+          amazonBtnTxt = 'Comprar en amazon.es';
         }
         else if (country == 'CA' || country == 'ca') {
-          amazonLink = "amazonCa"
+          amazonLink = 'amazonCa';
+          amazonBtnTxt = 'Buy on amazon.ca';
         }
         else if (country == 'DE' || country == 'de') {
-          amazonLink = "amazonDe"
+          amazonLink = 'amazonDe';
+          amazonBtnTxt = 'Kaufen bei amazon.de';
         }
         else if (country == 'FR' || country == 'fr') {
-          amazonLink = "amazonFr"
+          amazonLink = 'amazonFr';
+          amazonBtnTxt = 'Acheter sur amazon.fr';
         }
         else if (country == 'IT' || country == 'it') {
-          amazonLink = "amazonIt"
+          amazonLink = 'amazonIt';
+          amazonBtnTxt = 'Compra su amazon.it';
         }
         else{
-          amazonLink = "amazonUs";
+          amazonLink = 'amazonUs';
+          amazonBtnTxt = 'Buy on amazon.com';
         }
-
-        return amazonLink;
 
 
       }, "jsonp");
