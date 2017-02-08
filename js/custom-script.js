@@ -10,6 +10,8 @@ $(function(){
     var initialCategory = 'album'
     var currentArtist = initialArtist;
     var currentCategory = initialCategory;
+    var amazonLink = 'amazonUs';
+
 
     function loadItems(artist, category){
 
@@ -826,6 +828,7 @@ $(function(){
           var childrenNumber = data.items[requestedItemNumber].editions.length;
 
 
+
           for (j=childrenNumber-1; j>=0; j--){
 
             // BOOKS
@@ -864,8 +867,8 @@ $(function(){
                                 '<div class="child-item__body">'+
                                   '<div class="child-item__sidebar">'+
                                     '<div class="sticky-content">'+
-                                      '<a href="'+data.items[requestedItemNumber].editions[j].amazonUs+'" target="_blank"><img class="child-item__cover" src="'+data.items[requestedItemNumber].editions[j].image+'" alt="'+data.items[requestedItemNumber].editions[j].name+'"></a>'+
-                                      '<a class="child-item__buy" href="'+data.items[requestedItemNumber].editions[j].amazonUs+'" target="_blank" onClick="ga(\x27send\x27, \x27event\x27, \x27Amazon\x27, \x27click\x27, \x27Item\x27)">Buy on amazon.com</a>'+  // \x27 is a scaped quote '
+                                      '<a href="'+data.items[requestedItemNumber].editions[j][amazonLink]+'" target="_blank"><img class="child-item__cover" src="'+data.items[requestedItemNumber].editions[j].image+'" alt="'+data.items[requestedItemNumber].editions[j].name+'"></a>'+
+                                      '<a class="child-item__buy" href="'+data.items[requestedItemNumber].editions[j][amazonLink]+'" target="_blank" onClick="ga(\x27send\x27, \x27event\x27, \x27Amazon\x27, \x27click\x27, \x27Item\x27)">Buy on amazon.com</a>'+  // \x27 is a scaped quote '
                                     '</div>'+
                                   '</div>'+
                                   '<div class="child-item__book-review">'+
@@ -904,8 +907,8 @@ $(function(){
                                 '<div class="child-item__body">'+
                                   '<div class="child-item__sidebar">'+
                                     '<div class="sticky-content">'+
-                                      '<a href="'+data.items[requestedItemNumber].editions[j].albumRelease.amazonUs+'" target="_blank"><img class="child-item__cover" src="'+data.items[requestedItemNumber].editions[j].albumRelease.image+'" alt="'+data.items[requestedItemNumber].editions[j].albumRelease.name+'"></a>'+
-                                      '<a class="child-item__buy" href="'+data.items[requestedItemNumber].editions[j].albumRelease.amazonUs+'" target="_blank" onClick="ga(\x27send\x27, \x27event\x27, \x27Amazon\x27, \x27click\x27, \x27Item\x27)">Buy on amazon.com</a>'+  // \x27 is a scaped quote '
+                                      '<a href="'+data.items[requestedItemNumber].editions[j].albumRelease[amazonLink]+'" target="_blank"><img class="child-item__cover" src="'+data.items[requestedItemNumber].editions[j].albumRelease.image+'" alt="'+data.items[requestedItemNumber].editions[j].albumRelease.name+'"></a>'+
+                                      '<a class="child-item__buy" href="'+data.items[requestedItemNumber].editions[j].albumRelease[amazonLink]+'" target="_blank" onClick="ga(\x27send\x27, \x27event\x27, \x27Amazon\x27, \x27click\x27, \x27Item\x27)">Buy on amazon.com</a>'+  // \x27 is a scaped quote '
                                     '</div>'+
                                   '</div>'+
                                   '<div class="child-item__tracklist">'+
@@ -948,8 +951,8 @@ $(function(){
                                 '<div class="child-item__body">'+
                                   '<div class="child-item__sidebar">'+
                                     '<div class="sticky-content">'+
-                                      '<a href="'+data.items[requestedItemNumber].editions[j].albumRelease.amazonUs+'" target="_blank"><img class="child-item__cover" src="'+data.items[requestedItemNumber].editions[j].albumRelease.image+'" alt="'+data.items[requestedItemNumber].editions[j].albumRelease.name+'"></a>'+
-                                      '<a class="child-item__buy" href="'+data.items[requestedItemNumber].editions[j].albumRelease.amazonUs+'" target="_blank" onClick="ga(\x27send\x27, \x27event\x27, \x27Amazon\x27, \x27click\x27, \x27Item\x27)">Buy on amazon.com</a>'+  // \x27 is a scaped quote '
+                                      '<a href="'+data.items[requestedItemNumber].editions[j].albumRelease[amazonLink]+'" target="_blank"><img class="child-item__cover" src="'+data.items[requestedItemNumber].editions[j].albumRelease.image+'" alt="'+data.items[requestedItemNumber].editions[j].albumRelease.name+'"></a>'+
+                                      '<a class="child-item__buy" href="'+data.items[requestedItemNumber].editions[j].albumRelease[amazonLink]+'" target="_blank" onClick="ga(\x27send\x27, \x27event\x27, \x27Amazon\x27, \x27click\x27, \x27Item\x27)">Buy on amazon.com</a>'+  // \x27 is a scaped quote '
                                     '</div>'+
                                   '</div>'+
                                   '<div class="child-item__tracklist">'+
@@ -988,9 +991,46 @@ $(function(){
     } // /loadChildren
 
 
+
+    function getCountry(){
+
+      $.get("http://getcitydetails.geobytes.com/GetCityDetails?callback=?", function (response) {
+        var country = response.geobytesinternet;
+        console.log("country"+country);
+
+        if (country == 'ES' || country == 'es'){
+          amazonLink = "amazonEs"
+        }
+        else if (country == 'CA' || country == 'ca') {
+          amazonLink = "amazonCa"
+        }
+        else if (country == 'DE' || country == 'de') {
+          amazonLink = "amazonDe"
+        }
+        else if (country == 'FR' || country == 'fr') {
+          amazonLink = "amazonFr"
+        }
+        else if (country == 'IT' || country == 'it') {
+          amazonLink = "amazonIt"
+        }
+        else{
+          amazonLink = "amazonUs";
+        }
+
+        return amazonLink;
+
+
+      }, "jsonp");
+
+    }
+
+
     // Initial load of items
     loadItems(initialArtist, initialCategory);
+    getCountry();
     loadChildren();
+
+
 
 
 
