@@ -112705,7 +112705,7 @@
         "recordingEndDay": 1,
         "recordingEndMonth": 1,
         "recordingEndYear": 1,
-        "byArtist": "The Beach Boys",
+        "byArtist": "Dennis Wilson",
         "producer": "",
         "duration": "",
         "numberOfDiscs": 1,
@@ -124294,10 +124294,2110 @@
         "@context": "http://schema.org",
         "@type": "MusicAlbum",
         "albumProductionType": "LiveAlbum",
-        "uniqueId": "live-in-japan-66-lp",
+        "uniqueId": "surf-killers",
+        "name": "Surf Killers",
+        "sameAs": "",
+        "image": "img/bootlegs/the-beach-boys/1991-surf-killers/surf-killers-cover.jpg",
+        "backCover": "",
+        "publisher": "Live Life",
+        "catalogNumber": "LL CD 9105",
+        "datePublished": "01-01-1991",
+        "releaseDay": 0,
+        "releaseMonth": 0,
+        "releaseYear": 1991,
+        "recordingStartDay": 1,
+        "recordingStartMonth": 1,
+        "recordingStartYear": 1,
+        "recordingEndDay": 1,
+        "recordingEndMonth": 1,
+        "recordingEndYear": 1,
+        "byArtist": "The Beach Boys",
+        "producer": "",
+        "duration": "",
+        "numberOfDiscs": 1,
+        "country": "",
+        "billboardPosition": "No chart",
+        "unitsSold": 0,
+        "riaa": "",
+        "aggregateRating": 3,
+        "relevance": 1,
+        "backgroundColor": "#faaf4e",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": true,
+          "production": false,
+          "tribute": false,
+          "video": false,
+          "book": false
+        },
+        "subcategory": {
+          "vinylBootleg": false,
+          "cdBootleg": true
+        },
+        "track": {
+          "@type": "ItemList",
+          "numberofItems": 22,
+          "itemListElement": [
+            {
+              "@type" : "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "California Girls",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 1,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Sloop John B",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 2,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Darlin'",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 3,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 4,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Schooldays",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 4,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 5,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "In My Room",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 5,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 6,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Do It Again",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 6,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 7,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Little Deuce Coupe",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 7,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 8,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Keepin' The Summer Alive",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 8,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 9,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "God Only Knows",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 9,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 10,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Good Timin'",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 10,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 11,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Some Of Your Love",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 11,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 12,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Surfer Girl",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 12,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 13,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Goin' On",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 13,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 14,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Be True To Your School",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 14,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 15,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Livin' With A Heartache",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 15,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 16,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Lady Lynda",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 16,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 17,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Disney Girls",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 17,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 18,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Long Tall Texan",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 18,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 19,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Help Me, Rhonda",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 19,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 20,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Surfin' U.S.A.",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 20,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 21,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Good Vibrations",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 21,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 22,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Fun Fun Fun",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 22,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            }
+		  ]
+        }
+      },
+      "editions": [
+        {
+          "albumRelease": {
+            "@type": "MusicRelease",
+            "name": "Surf Killers - Live Philadelphia 18.05.1980",
+            "sameAs": "",
+            "image": "img/bootlegs/the-beach-boys/1991-surf-killers/surf-killers-cover.jpg",
+            "backCover": "",
+            "recordLabel": "Live Life",
+            "catalogNumber": "LL CD 9105",
+            "datePublished": "01-01-1991",
+            "releaseDay": 0,
+            "releaseMonth": 0,
+            "releaseYear": 1991,
+            "category": "live",
+            "musicReleaseFormat": "CD",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "",
+            "asin": "",
+            "amazonUs": "",
+            "amazonUk": "",
+            "amazonCa": "",
+            "amazonEs": "",
+            "amazonFr": "",
+            "amazonIt": "",
+            "amazonDe": "",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": "Recorded live at the Spectrum, Philadelphia, April 18, 1980"
+          }
+        }
+	  ]
+    },
+    {
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "MusicAlbum",
+        "albumProductionType": "LiveAlbum",
+        "uniqueId": "surfing-the-surface",
+        "name": "Surfing The Surface",
+        "sameAs": "",
+        "image": "img/bootlegs/the-beach-boys/1991-surfing-the-surface/surfing-the-surface-cover.jpg",
+        "backCover": "",
+        "publisher": "Aulica",
+        "catalogNumber": "A.2-116",
+        "datePublished": "01-01-1991",
+        "releaseDay": 0,
+        "releaseMonth": 0,
+        "releaseYear": 1991,
+        "recordingStartDay": 1,
+        "recordingStartMonth": 1,
+        "recordingStartYear": 1,
+        "recordingEndDay": 1,
+        "recordingEndMonth": 1,
+        "recordingEndYear": 1,
+        "byArtist": "The Beach Boys",
+        "producer": "",
+        "duration": "",
+        "numberOfDiscs": 2,
+        "country": "IT",
+        "billboardPosition": "No chart",
+        "unitsSold": 0,
+        "riaa": "",
+        "aggregateRating": 3,
+        "relevance": 1,
+        "backgroundColor": "#faaf4e",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": true,
+          "production": false,
+          "tribute": false,
+          "video": false,
+          "book": false
+        },
+        "subcategory": {
+          "vinylBootleg": false,
+          "cdBootleg": true
+        },
+        "track": {
+          "@type": "ItemList",
+          "numberofItems": 48,
+          "itemListElement": [
+            {
+              "@type" : "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Fun, Fun, Fun",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 1,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Long Tall Texan",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 2,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "In My Room",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 3,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 4,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Graduation Day",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 4,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 5,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Papa-Oom-Mow-Mow",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 5,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 6,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Little Deuce Coupe",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 6,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 7,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Surfer Girl",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 7,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 8,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Monster Mash",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 8,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 9,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Louie, Louie",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 9,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 10,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Surfin' U.S.A.",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 10,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 11,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Don't Worry Baby",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 11,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 12,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "I Get Around",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 12,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 13,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Johnny B. Goode",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 13,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 14,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Darlin'",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 14,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 15,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Shortenin' Bread",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 15,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 16,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Do It Again",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 16,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 17,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Little Deuce Coupe",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 17,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 18,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Skating U.S.A. (Roller Skating Child)",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 18,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 19,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Peggy Sue",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 19,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 20,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "In My Room",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 20,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 21,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Riot In Cell Block #9",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 21,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 22,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Good Vibrations",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 22,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 23,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "I Get Around",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 23,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 24,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Help Me, Rhonda",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 24,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 25,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Okie From Muskogee",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 25,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 26,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Johnny B. Goode",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 26,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 27,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Barbara Ann",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 2,
+                "trackNumber" : 1,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 28,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Their Hearts Were Full Of Spring",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 2,
+                "trackNumber" : 2,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 29,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Heroes And Villains",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 2,
+                "trackNumber" : 3,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 30,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Do It Again",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 2,
+                "trackNumber" : 4,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 31,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Darlin'",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 2,
+                "trackNumber" : 5,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 32,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Aren't You Glad",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 2,
+                "trackNumber" : 6,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 33,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Cotton Fields",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 2,
+                "trackNumber" : 7,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 34,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Vegetables",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 2,
+                "trackNumber" : 8,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 35,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Okie From Muskogee",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 2,
+                "trackNumber" : 9,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 36,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Cool, Cool Water",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 2,
+                "trackNumber" : 10,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 37,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Help Me, Rhonda",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 2,
+                "trackNumber" : 11,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 38,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Student Demonstration Time",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 2,
+                "trackNumber" : 12,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 39,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Caroline, No",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 2,
+                "trackNumber" : 13,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 40,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "You Still Believe In Me",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 2,
+                "trackNumber" : 14,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 41,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Sloop John B",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 2,
+                "trackNumber" : 15,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 42,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Wouldn't It Be Nice",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 2,
+                "trackNumber" : 16,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 43,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "God Only Knows",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 2,
+                "trackNumber" : 17,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 44,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Good Vibrations",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 2,
+                "trackNumber" : 18,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 45,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "California Girls",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 2,
+                "trackNumber" : 19,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 46,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Surfer Girl",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 2,
+                "trackNumber" : 20,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 47,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "I Get Around",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 2,
+                "trackNumber" : 21,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 48,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "It's About Time",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 2,
+                "trackNumber" : 22,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            }
+		  ]
+        }
+      },
+      "editions": [
+        {
+          "albumRelease": {
+            "@type": "MusicRelease",
+            "name": "Surfing The Surface",
+            "sameAs": "",
+            "image": "img/bootlegs/the-beach-boys/1991-surfing-the-surface/surfing-the-surface-cover.jpg",
+            "backCover": "",
+            "recordLabel": "Aulica",
+            "catalogNumber": "A.2-116",
+            "datePublished": "01-01-1991",
+            "releaseDay": 0,
+            "releaseMonth": 0,
+            "releaseYear": 1991,
+            "category": "live",
+            "musicReleaseFormat": "CD",
+            "duration": "",
+            "numberOfDiscs": 2,
+            "country": "",
+            "asin": "",
+            "amazonUs": "",
+            "amazonUk": "",
+            "amazonCa": "",
+            "amazonEs": "",
+            "amazonFr": "",
+            "amazonIt": "",
+            "amazonDe": "",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": "Disc 1. Tracks 1-4\nFrom Beach Boys Concert album\n\nDisc 1. Tracks 5-13\nRecorded live at the Konserthuset, Stockholm, November 21, 1964\n\nDisc 1. Tracks 14-20\nRecorded live at the Civic Center, Springfield, May 15, 1979\n\nDisc 1. Tracks 21-26\nRecorded live at the Fillmore East, New York, April 27, 1971\n\nDisc 2. Tracks 1-2\nRecorded live at the Finsbury Park Astoria, London, December 8, 1968\n\nDisc 2. Tracks 3-22\nRecorded live at the Manley Field House, Syracuse, May 11, 1971"
+          }
+        }
+	  ]
+    },
+    {
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "MusicAlbum",
+        "albumProductionType": "LiveAlbum",
+        "uniqueId": "in-concert-64-71",
+        "name": "In Concert 64/71",
+        "sameAs": "",
+        "image": "img/bootlegs/the-beach-boys/1991-in-concert-64-71/in-concert-64-71-cover.jpg",
+        "backCover": "",
+        "publisher": "No Label",
+        "catalogNumber": "7105/6411",
+        "datePublished": "01-01-1991",
+        "releaseDay": 0,
+        "releaseMonth": 0,
+        "releaseYear": 1991,
+        "recordingStartDay": 1,
+        "recordingStartMonth": 1,
+        "recordingStartYear": 1,
+        "recordingEndDay": 1,
+        "recordingEndMonth": 1,
+        "recordingEndYear": 1,
+        "byArtist": "The Beach Boys",
+        "producer": "",
+        "duration": "",
+        "numberOfDiscs": 2,
+        "country": "JP",
+        "billboardPosition": "No chart",
+        "unitsSold": 0,
+        "riaa": "",
+        "aggregateRating": 3,
+        "relevance": 1,
+        "backgroundColor": "#faaf4e",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": true,
+          "production": false,
+          "tribute": false,
+          "video": false,
+          "book": false
+        },
+        "subcategory": {
+          "vinylBootleg": false,
+          "cdBootleg": true
+        },
+        "track": {
+          "@type": "ItemList",
+          "numberofItems": 30,
+          "itemListElement": [
+            {
+              "@type" : "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Heroes And Villains",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 1,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Do It Again",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 2,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Darlin'",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 3,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 4,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Aren't You Glad",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 4,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 5,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Cotton Fields",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 5,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 6,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Vegetables",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 6,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 7,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Okie From Muskogee",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 7,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 8,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Cool, Cool Water",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 8,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 9,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Help Me, Rhonda",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 9,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 10,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Student Demonstration Time",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 10,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 11,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Caroline, No",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 11,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 12,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "You Still Believe In Me",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 12,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 13,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Sloop John B",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 13,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 14,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Wouldn't It Be Nice",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 14,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 15,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "God Only Knows",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 15,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 16,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Good Vibrations",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 16,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 17,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "California Girls",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 17,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 18,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Surfer Girl",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 18,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 19,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "I Get Around",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 19,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 20,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "It's About Time",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 20,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 5,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Papa-Oom-Mow-Mow",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 2,
+                "trackNumber" : 1,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 6,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Little Deuce Coupe",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 2,
+                "trackNumber" : 2,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 7,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Surfer Girl",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 2,
+                "trackNumber" : 3,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 8,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Monster Mash",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 2,
+                "trackNumber" : 4,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 9,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Louie, Louie",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 2,
+                "trackNumber" : 5,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 10,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Surfin' U.S.A.",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 2,
+                "trackNumber" : 6,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 11,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Don't Worry Baby",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 2,
+                "trackNumber" : 7,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 12,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "I Get Around",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 2,
+                "trackNumber" : 8,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 13,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Johnny B. Goode",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 2,
+                "trackNumber" : 9,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 14,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Interview",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 2,
+                "trackNumber" : 10,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            }
+		  ]
+        }
+      },
+      "editions": [
+        {
+          "albumRelease": {
+            "@type": "MusicRelease",
+            "name": "In Concert 64/71",
+            "sameAs": "",
+            "image": "img/bootlegs/the-beach-boys/1991-in-concert-64-71/in-concert-64-71-cover.jpg",
+            "backCover": "",
+            "recordLabel": "No Label",
+            "catalogNumber": "7105/6411",
+            "datePublished": "01-01-1991",
+            "releaseDay": 0,
+            "releaseMonth": 0,
+            "releaseYear": 1991,
+            "category": "live",
+            "musicReleaseFormat": "CD",
+            "duration": "",
+            "numberOfDiscs": 2,
+            "country": "",
+            "asin": "",
+            "amazonUs": "",
+            "amazonUk": "",
+            "amazonCa": "",
+            "amazonEs": "",
+            "amazonFr": "",
+            "amazonIt": "",
+            "amazonDe": "",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": "Disc 1\nRecorded live at the Manley Field House, Syracuse, May 11, 1971\n\nDisc 2\nRecorded live at the Konserthuset, Stockholm, November 21, 1964"
+          }
+        }
+	  ]
+    },
+    {
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "MusicAlbum",
+        "albumProductionType": "LiveAlbum",
+        "uniqueId": "live-in-japan-66",
         "name": "Live In Japan '66",
         "sameAs": "",
-        "image": "img/bootlegs/the-beach-boys/2016-live-in-japan-66-lp/live-in-japan-66-lp-cover.jpg",
+        "image": "img/bootlegs/the-beach-boys/2016-live-in-japan-66/live-in-japan-66-cover.jpg",
         "backCover": "",
         "publisher": "RoxVox",
         "catalogNumber": "",
@@ -124612,7 +126712,7 @@
             "@type": "MusicRelease",
             "name": "Live In Japan '66",
             "sameAs": "",
-            "image": "img/bootlegs/the-beach-boys/2016-live-in-japan-66-lp/live-in-japan-66-lp-cover.jpg",
+            "image": "img/bootlegs/the-beach-boys/2016-live-in-japan-66/live-in-japan-66-cover.jpg",
             "backCover": "",
             "recordLabel": "RoxVox",
             "catalogNumber": "",
