@@ -124782,6 +124782,38 @@
             "review": "",
             "tracklist": "Recorded live at the Spectrum, Philadelphia, April 18, 1980"
           }
+        },
+        {
+          "albumRelease": {
+            "@type": "MusicRelease",
+            "name": "Live USA",
+            "sameAs": "",
+            "image": "img/bootlegs/the-beach-boys/1991-live-usa-imm/live-usa-imm-cover.jpg",
+            "backCover": "",
+            "recordLabel": "Imtrat Medienvertrieb Music",
+            "catalogNumber": "imm 40.90160",
+            "datePublished": "01-01-1991",
+            "releaseDay": 0,
+            "releaseMonth": 0,
+            "releaseYear": 1991,
+            "category": "live",
+            "musicReleaseFormat": "CD",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "",
+            "asin": "",
+            "amazonUs": "",
+            "amazonUk": "",
+            "amazonCa": "",
+            "amazonEs": "",
+            "amazonFr": "",
+            "amazonIt": "",
+            "amazonDe": "",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": "Recorded live at the Spectrum, Philadelphia, April 18, 1980"
+          }
         }
 	  ]
     },
@@ -126385,6 +126417,1378 @@
             "notes": "",
             "review": "",
             "tracklist": "Disc 1\nRecorded live at the Manley Field House, Syracuse, May 11, 1971\n\nDisc 2\nRecorded live at the Konserthuset, Stockholm, November 21, 1964"
+          }
+        }
+	  ]
+    },
+    {
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "MusicAlbum",
+        "albumProductionType": "LiveAlbum",
+        "uniqueId": "together-live-at-the-rock-hall",
+        "name": "Together Live At The Rock And Roll Hall Of Fame",
+        "sameAs": "",
+        "image": "img/bootlegs/the-beach-boys/1991-together-live-at-the-rock-hall/together-live-at-the-rock-hall-cover.jpg",
+        "backCover": "",
+        "publisher": "Living Legend",
+        "catalogNumber": "LLRCD 101",
+        "datePublished": "01-01-1991",
+        "releaseDay": 0,
+        "releaseMonth": 0,
+        "releaseYear": 1991,
+        "recordingStartDay": 1,
+        "recordingStartMonth": 1,
+        "recordingStartYear": 1,
+        "recordingEndDay": 1,
+        "recordingEndMonth": 1,
+        "recordingEndYear": 1,
+        "byArtist": "The Beach Boys",
+        "producer": "",
+        "duration": "",
+        "numberOfDiscs": 1,
+        "country": "IT",
+        "billboardPosition": "No chart",
+        "unitsSold": 0,
+        "riaa": "",
+        "aggregateRating": 3,
+        "relevance": 1,
+        "backgroundColor": "#faaf4e",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": true,
+          "production": false,
+          "tribute": false,
+          "video": false,
+          "book": false
+        },
+        "subcategory": {
+          "vinylBootleg": false,
+          "cdBootleg": true
+        },
+        "track": {
+          "@type": "ItemList",
+          "numberofItems": 12,
+          "itemListElement": [
+            {
+              "@type" : "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Bruce Springsteen Talks",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 1,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Bob Dylan Talks",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 2,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Twist And Shout - Bruce Springsteen & Bob Dylan & George Harrison",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 3,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 4,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "All Along The Watchtower - Bob Dylan & George Harrison",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 4,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 5,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "I Saw Her Standing There - Billy Joel & Bruce Springsteen & George Harrison & Mick Jagger",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 5,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 6,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Stand By Me - Ben E. King & Julian Lennon",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 6,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 7,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Stop In The Name Of Love - Mary Wilson",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 7,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 8,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Whole Lotta Shakin' Goin' On/Hound Dog/Hi Ho Silver - Elton John",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 8,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 9,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Barbara Ann - The Beach Boys",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 9,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 10,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Born On The Bayou - John Fogerty & Bruce Springsteen",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 10,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 11,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Like A Rolling Stone - Bob Dylan & Bruce Springsteen",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 11,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 12,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Satisfaction - Mick Jagger & Bruce Springsteen",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 12,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            }
+		  ]
+        }
+      },
+      "editions": [
+        {
+          "albumRelease": {
+            "@type": "MusicRelease",
+            "name": "Together Live At The Rock And Roll Hall Of Fame",
+            "sameAs": "",
+            "image": "img/bootlegs/the-beach-boys/1991-together-live-at-the-rock-hall/together-live-at-the-rock-hall-cover.jpg",
+            "backCover": "",
+            "recordLabel": "Living Legend",
+            "catalogNumber": "LLRCD 101",
+            "datePublished": "01-01-1991",
+            "releaseDay": 0,
+            "releaseMonth": 0,
+            "releaseYear": 1991,
+            "category": "live",
+            "musicReleaseFormat": "CD",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "",
+            "asin": "",
+            "amazonUs": "",
+            "amazonUk": "",
+            "amazonCa": "",
+            "amazonEs": "",
+            "amazonFr": "",
+            "amazonIt": "",
+            "amazonDe": "",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": "Recorded live at the Rock'n'Roll Hall Of Fame, New York, January 20, 1988\n\n9. Barbara Ann"
+          }
+        }
+	  ]
+    },
+    {
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "MusicAlbum",
+        "albumProductionType": "LiveAlbum",
+        "uniqueId": "fillmore-east-wild-bird",
+        "name": "Fillmore East - June 26-27, 1971",
+        "sameAs": "",
+        "image": "img/bootlegs/the-beach-boys/1991-fillmore-east-wild-bird/fillmore-east-wild-bird-cover.jpg",
+        "backCover": "",
+        "publisher": "Wild Bird Records",
+        "catalogNumber": "WBR CD 9119/20",
+        "datePublished": "01-01-1991",
+        "releaseDay": 0,
+        "releaseMonth": 0,
+        "releaseYear": 1991,
+        "recordingStartDay": 1,
+        "recordingStartMonth": 1,
+        "recordingStartYear": 1,
+        "recordingEndDay": 1,
+        "recordingEndMonth": 1,
+        "recordingEndYear": 1,
+        "byArtist": "The Beach Boys",
+        "producer": "",
+        "duration": "",
+        "numberOfDiscs": 2,
+        "country": "IT",
+        "billboardPosition": "No chart",
+        "unitsSold": 0,
+        "riaa": "",
+        "aggregateRating": 3,
+        "relevance": 1,
+        "backgroundColor": "#faaf4e",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": true,
+          "production": false,
+          "tribute": false,
+          "video": false,
+          "book": false
+        },
+        "subcategory": {
+          "vinylBootleg": false,
+          "cdBootleg": true
+        },
+        "track": {
+          "@type": "ItemList",
+          "numberofItems": 3,
+          "itemListElement": [
+            {
+              "@type" : "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Cotton Fields",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 2,
+                "trackNumber" : 6,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Good Vibrations",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 2,
+                "trackNumber" : 7,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "California Girls",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 2,
+                "trackNumber" : 8,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            }
+		  ]
+        }
+      },
+      "editions": [
+        {
+          "albumRelease": {
+            "@type": "MusicRelease",
+            "name": "Fillmore East - June 26-27, 1971",
+            "sameAs": "",
+            "image": "img/bootlegs/the-beach-boys/1991-fillmore-east-wild-bird/fillmore-east-wild-bird-cover.jpg",
+            "backCover": "",
+            "recordLabel": "Wild Bird Records",
+            "catalogNumber": "WBR CD 9119/20",
+            "datePublished": "01-01-1991",
+            "releaseDay": 0,
+            "releaseMonth": 0,
+            "releaseYear": 1991,
+            "category": "live",
+            "musicReleaseFormat": "CD",
+            "duration": "",
+            "numberOfDiscs": 2,
+            "country": "",
+            "asin": "",
+            "amazonUs": "",
+            "amazonUk": "",
+            "amazonCa": "",
+            "amazonEs": "",
+            "amazonFr": "",
+            "amazonIt": "",
+            "amazonDe": "",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": "Recorded live at the Fillmore East, New York, June 27, 1971"
+          }
+        }
+	  ]
+    },
+    {
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "MusicAlbum",
+        "albumProductionType": "LiveAlbum",
+        "uniqueId": "beach-boys-vol-1-live-usa",
+        "name": "Beach Boys Vol. 1 Live USA",
+        "sameAs": "",
+        "image": "img/bootlegs/the-beach-boys/1991-beach-boys-vol-1-live-usa/beach-boys-vol-1-live-usa-cover.jpg",
+        "backCover": "",
+        "publisher": "LSD Records",
+        "catalogNumber": "CD 152.022",
+        "datePublished": "01-01-1991",
+        "releaseDay": 0,
+        "releaseMonth": 0,
+        "releaseYear": 1991,
+        "recordingStartDay": 1,
+        "recordingStartMonth": 1,
+        "recordingStartYear": 1,
+        "recordingEndDay": 1,
+        "recordingEndMonth": 1,
+        "recordingEndYear": 1,
+        "byArtist": "The Beach Boys",
+        "producer": "",
+        "duration": "",
+        "numberOfDiscs": 1,
+        "country": "",
+        "billboardPosition": "No chart",
+        "unitsSold": 0,
+        "riaa": "",
+        "aggregateRating": 3,
+        "relevance": 1,
+        "backgroundColor": "#faaf4e",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": true,
+          "production": false,
+          "tribute": false,
+          "video": false,
+          "book": false
+        },
+        "subcategory": {
+          "vinylBootleg": false,
+          "cdBootleg": true
+        },
+        "track": {
+          "@type": "ItemList",
+          "numberofItems": 18,
+          "itemListElement": [
+            {
+              "@type" : "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "California Girls",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 1,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Sloop John B",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 2,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Darlin'",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 3,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 4,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Medley: Schooldays",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 4,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 5,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Long Live Rock'n'Roll (Schooldays)",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 5,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 6,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "In My Room",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 6,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 7,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Good Timin'",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 7,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 8,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "God Only Knows",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 8,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 9,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Do It Again",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 9,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 10,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Little Deuce Coupe",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 10,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 11,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Catch A Wave",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 11,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 12,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Hawaii",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 12,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 13,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Iran Song (Merry Minuet)",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 13,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 14,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Santa Ana Winds",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 14,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 15,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Some Of Your Love",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 15,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 16,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Keepin' The Summer Alive",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 16,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 17,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Medley: a. Good Time - b. Back Home (Lady Lynda/Cotton Fields)",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 17,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 18,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Be True To Your School",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 18,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            }
+		  ]
+        }
+      },
+      "editions": [
+        {
+          "albumRelease": {
+            "@type": "MusicRelease",
+            "name": "Beach Boys Vol. 1 Live USA",
+            "sameAs": "",
+            "image": "img/bootlegs/the-beach-boys/1991-beach-boys-vol-1-live-usa/beach-boys-vol-1-live-usa-cover.jpg",
+            "backCover": "",
+            "recordLabel": "LSD Records",
+            "catalogNumber": "CD 152.022",
+            "datePublished": "01-01-1991",
+            "releaseDay": 0,
+            "releaseMonth": 0,
+            "releaseYear": 1991,
+            "category": "live",
+            "musicReleaseFormat": "CD",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "",
+            "asin": "",
+            "amazonUs": "",
+            "amazonUk": "",
+            "amazonCa": "",
+            "amazonEs": "",
+            "amazonFr": "",
+            "amazonIt": "",
+            "amazonDe": "",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": "Recorded live at the Mall, Washington DC, July 4, 1980"
+          }
+        }
+	  ]
+    },
+    {
+      "parent": {
+        "@context": "http://schema.org",
+        "@type": "MusicAlbum",
+        "albumProductionType": "LiveAlbum",
+        "uniqueId": "beach-boys-vol-2-live-usa",
+        "name": "Beach Boys Vol. 2 Live USA",
+        "sameAs": "",
+        "image": "img/bootlegs/the-beach-boys/1991-beach-boys-vol-2-live-usa/beach-boys-vol-2-live-usa-cover.jpg",
+        "backCover": "",
+        "publisher": "LSD Records",
+        "catalogNumber": "CD 152.023",
+        "datePublished": "01-01-1991",
+        "releaseDay": 0,
+        "releaseMonth": 0,
+        "releaseYear": 1991,
+        "recordingStartDay": 1,
+        "recordingStartMonth": 1,
+        "recordingStartYear": 1,
+        "recordingEndDay": 1,
+        "recordingEndMonth": 1,
+        "recordingEndYear": 1,
+        "byArtist": "The Beach Boys",
+        "producer": "",
+        "duration": "",
+        "numberOfDiscs": 1,
+        "country": "",
+        "billboardPosition": "No chart",
+        "unitsSold": 0,
+        "riaa": "",
+        "aggregateRating": 3,
+        "relevance": 1,
+        "backgroundColor": "#faaf4e",
+        "notes": "",
+        "review": "",
+        "category": {
+          "trending": false,
+          "album": false,
+          "studio": false,
+          "live": false,
+          "compilation": false,
+          "boxset": false,
+          "single": false,
+          "solo": false,
+          "digital": false,
+          "christmas": false,
+          "variousArtists": false,
+          "collaboration": false,
+          "bootleg": true,
+          "production": false,
+          "tribute": false,
+          "video": false,
+          "book": false
+        },
+        "subcategory": {
+          "vinylBootleg": false,
+          "cdBootleg": true
+        },
+        "track": {
+          "@type": "ItemList",
+          "numberofItems": 21,
+          "itemListElement": [
+            {
+              "@type" : "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Dance, Dance, Dance",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 1,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Wouldn't It Be nice",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 2,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Don't Worry Baby",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 3,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 4,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "The Little Old Lady From Pasadena",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 4,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 5,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Shut Down",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 5,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 6,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Little 409 (409)",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 6,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 7,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "G.T.O. (Little G.T.O.)",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 7,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 8,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "I Get Around",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 8,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 9,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Surfer Girl",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 9,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 10,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "I Really Do Write The Songs (I Write The Songs)",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 10,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 11,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Do It Again (Getcha Back)",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 11,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 12,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "California Dreamin'",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 12,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 13,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "I Really Need You (Come Go With Me)",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 13,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 14,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Good Vibrations",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 14,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 15,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Rock And Roll Music",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 15,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 16,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Barbara Ann",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 16,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 17,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Wipe Out",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 17,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 18,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Surf's Up (Surfin' Safari)",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 18,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 19,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Surf City",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 19,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 20,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Surfin' U.S.A.",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 20,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            },
+            {
+              "@type" : "ListItem",
+              "position": 21,
+              "item": {
+                "@type": "MusicRecording",
+                "name" : "Fun, Fun, Fun",
+                "duration" : "",
+                "composer" : "",
+                "producer" : "",
+                "leadVocal" : "",
+                "disc" : 1,
+                "trackNumber" : 21,
+                "trackLink" : "",
+                "hit" : false,
+                "inthit" : false,
+                "gem" : false
+              }
+            }
+		  ]
+        }
+      },
+      "editions": [
+        {
+          "albumRelease": {
+            "@type": "MusicRelease",
+            "name": "Beach Boys Vol. 2 Live USA",
+            "sameAs": "",
+            "image": "img/bootlegs/the-beach-boys/1991-beach-boys-vol-2-live-usa/beach-boys-vol-2-live-usa-cover.jpg",
+            "backCover": "",
+            "recordLabel": "LSD Records",
+            "catalogNumber": "CD 152.023",
+            "datePublished": "01-01-1991",
+            "releaseDay": 0,
+            "releaseMonth": 0,
+            "releaseYear": 1991,
+            "category": "live",
+            "musicReleaseFormat": "CD",
+            "duration": "",
+            "numberOfDiscs": 1,
+            "country": "",
+            "asin": "",
+            "amazonUs": "",
+            "amazonUk": "",
+            "amazonCa": "",
+            "amazonEs": "",
+            "amazonFr": "",
+            "amazonIt": "",
+            "amazonDe": "",
+            "amazonJp": "",
+            "notes": "",
+            "review": "",
+            "tracklist": "Recorded live at the Starwood Amphitheater, Nashville, June 6, 1987"
           }
         }
 	  ]
