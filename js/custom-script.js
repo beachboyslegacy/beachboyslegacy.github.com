@@ -983,7 +983,7 @@ $(function(){
                                   '<h3 class="child-item__title">'+data.items[requestedItemNumber].editions[j].albumRelease.name+'</h3>'+
                                   '<ul class="child-item__info">'+
                                     '<li>'+thisChildReleaseMonthName+' '+thisChildReleaseDayNumber+' '+data.items[requestedItemNumber].editions[j].albumRelease.releaseYear+'</li>'+
-                                    '<li>'+data.items[requestedItemNumber].editions[j].albumRelease.recordLabel+' ('+data.items[requestedItemNumber].editions[j].albumRelease.country+')</li>'+
+                                    '<li>'+data.items[requestedItemNumber].editions[j].albumRelease.recordLabel+' ('+data.items[requestedItemNumber].editions[j].albumRelease.country+') '+data.items[requestedItemNumber].editions[j].albumRelease.catalogNumber+'</li>'+
                                     '<li>'+data.items[requestedItemNumber].editions[j].albumRelease.musicReleaseFormat+'</li>'+
                                   '</ul>'+
                                 '</div>'+
