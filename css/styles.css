@@ -1451,6 +1451,7 @@ a {
 }
 .twitter-share-button {
   margin-left: 4px;
+  margin-top: 6px;
   vertical-align: bottom;
   font-size: 10px;
   display: inline-block;
