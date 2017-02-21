@@ -1031,51 +1031,53 @@ $(function(){
 
 
 
-    // function getCountry(){
-    //
-    //   $.get("http://getcitydetails.geobytes.com/GetCityDetails?callback=?", function (response) {
-    //
-    //     var country = response.geobytesinternet;
-    //     console.log('country'+country);
-    //           alert(country);
-    //
-    //     if (country == 'GB' || country == 'gb' || country == 'UK' || country == 'uk'){
-    //       amazonLink = 'amazonUk';
-    //       amazonBtnTxt = 'Buy on amazon.co.uk';
-    //     }
-    //     else if (country == 'ES' || country == 'es'){
-    //       amazonLink = 'amazonEs';
-    //       amazonBtnTxt = 'Comprar en amazon.es';
-    //     }
-    //     else if (country == 'CA' || country == 'ca') {
-    //       amazonLink = 'amazonCa';
-    //       amazonBtnTxt = 'Buy on amazon.ca';
-    //     }
-    //     else if (country == 'DE' || country == 'de') {
-    //       amazonLink = 'amazonDe';
-    //       amazonBtnTxt = 'Kaufen bei amazon.de';
-    //     }
-    //     else if (country == 'FR' || country == 'fr') {
-    //       amazonLink = 'amazonFr';
-    //       amazonBtnTxt = 'Acheter sur amazon.fr';
-    //     }
-    //     else if (country == 'IT' || country == 'it') {
-    //       amazonLink = 'amazonIt';
-    //       amazonBtnTxt = 'Compra su amazon.it';
-    //     }
-    //     else{
-    //       amazonLink = 'amazonUs';
-    //       amazonBtnTxt = 'Buy on amazon.com';
-    //     }
-    //
-    //   }, "jsonp");
-    //
-    // }
+
+
+    function getCountry(){
+
+      $.get("http://ipinfo.io", function (response) {
+
+        var country = response.country;
+        console.log('country'+country);
+
+        if (country == 'GB' || country == 'gb' || country == 'UK' || country == 'uk'){
+          amazonLink = 'amazonUk';
+          amazonBtnTxt = 'Buy on amazon.co.uk';
+        }
+        else if (country == 'ES' || country == 'es'){
+          amazonLink = 'amazonEs';
+          amazonBtnTxt = 'Comprar en amazon.es';
+        }
+        else if (country == 'CA' || country == 'ca') {
+          amazonLink = 'amazonCa';
+          amazonBtnTxt = 'Buy on amazon.ca';
+        }
+        else if (country == 'DE' || country == 'de') {
+          amazonLink = 'amazonDe';
+          amazonBtnTxt = 'Kaufen bei amazon.de';
+        }
+        else if (country == 'FR' || country == 'fr') {
+          amazonLink = 'amazonFr';
+          amazonBtnTxt = 'Acheter sur amazon.fr';
+        }
+        else if (country == 'IT' || country == 'it') {
+          amazonLink = 'amazonIt';
+          amazonBtnTxt = 'Compra su amazon.it';
+        }
+        else{
+          amazonLink = 'amazonUs';
+          amazonBtnTxt = 'Buy on amazon.com';
+        }
+
+      }, "jsonp");
+
+    }
+
 
 
     // Initial load of items
     loadItems(initialArtist, initialCategory);
-    // getCountry();
+    getCountry();
     loadChildren();
 
 
