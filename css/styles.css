@@ -760,6 +760,10 @@ a {
   }
 }
 .items {
+  background-color: #fff;
+  background-image: url(../assets/preloader.gif);
+  background-repeat: no-repeat;
+  background-position: center 100px;
   min-height: calc(100vh - 106px);
 }
 .items > li {
