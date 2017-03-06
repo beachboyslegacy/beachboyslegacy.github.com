@@ -760,10 +760,6 @@ a {
   }
 }
 .items {
-  background-color: #fff;
-  background-image: url(../assets/preloader.gif);
-  background-repeat: no-repeat;
-  background-position: center 100px;
   min-height: calc(100vh - 106px);
 }
 .items > li {
@@ -830,10 +826,6 @@ a {
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  background-color: #fff;
-  background-image: url(../assets/preloader.gif);
-  background-repeat: no-repeat;
-  background-position: center;
 }
 .single.single {
   background: transparent;

@@ -57,7 +57,7 @@ $(function(){
             // SOLO
             $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-rating="'+data.items[i].parent.aggregateRating+'" data-date="'+data.items[i].parent.releaseYear+'">'+
                               '<div class="item__header" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
-                                '<img class="item__cover" src="'+data.items[i].parent.image+'" alt="">'+
+                                '<img class="item__cover lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
                                 '<div class="item__info">'+
                                   '<h2 class="item__title">'+data.items[i].parent.name+'</h2>'+
                                   '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
@@ -195,7 +195,7 @@ $(function(){
 
             $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-rating="'+data.items[i].parent.aggregateRating+'" data-date="'+data.items[i].parent.releaseYear+'">'+
                               '<div class="item__header" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
-                                '<img class="item__cover" src="'+data.items[i].parent.image+'" alt="">'+
+                                '<img class="item__cover lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
                                 '<div class="item__info">'+
                                   '<h2 class="item__title">'+data.items[i].parent.name+'</h2>'+
                                   '<h3 class="item__subtitle">'+data.items[i].parent.alternateName+'</h3>'+
@@ -247,7 +247,7 @@ $(function(){
 
             $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-rating="'+data.items[i].parent.aggregateRating+'" data-date="'+data.items[i].parent.releaseYear+'">'+
                               '<div class="item__header" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
-                                '<img class="item__cover" src="'+data.items[i].parent.image+'" alt="">'+
+                                '<img class="item__cover lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
                                 '<div class="item__info">'+
                                   '<h2 class="item__title">'+data.items[i].parent.name+'</h2>'+
                                   '<h3 class="item__year">'+data.items[i].parent.alternateName+'</h3>'+
@@ -338,7 +338,7 @@ $(function(){
 
                 $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-rating="'+data.items[i].parent.aggregateRating+'" data-date="'+data.items[i].parent.releaseYear+'">'+
                                   '<div class="item__header" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
-                                    '<img class="item__cover" src="'+data.items[i].parent.image+'" alt="">'+
+                                    '<img class="item__cover lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
                                     '<div class="item__info">'+
                                       '<h2 class="item__title">'+data.items[i].parent.name+'</h2>'+
                                       '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
@@ -396,7 +396,7 @@ $(function(){
 
                 $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-rating="'+data.items[i].parent.aggregateRating+'" data-date="'+data.items[i].parent.releaseYear+'">'+
                                   '<div class="item__header" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
-                                    '<img class="item__cover" src="'+data.items[i].parent.image+'" alt="">'+
+                                    '<img class="item__cover lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
                                     '<div class="item__info">'+
                                       '<h2 class="item__title">'+data.items[i].parent.name+'</h2>'+
                                       '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
@@ -547,7 +547,7 @@ $(function(){
             if(data.items[i].parent.category.compilation){
               $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-rating="'+data.items[i].parent.aggregateRating+'" data-date="'+data.items[i].parent.releaseYear+'">'+
                                 '<div class="item__header" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
-                                  '<img class="item__cover" src="'+data.items[i].parent.image+'" alt="">'+
+                                  '<img class="item__cover lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
                                   '<div class="item__info">'+
                                     '<h2 class="item__title">'+data.items[i].parent.name+'</h2>'+
                                     '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
@@ -585,7 +585,7 @@ $(function(){
             else if(data.items[i].parent.category.single){
               $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-rating="'+data.items[i].parent.aggregateRating+'" data-date="'+data.items[i].parent.releaseYear+'">'+
                                 '<div class="item__header" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
-                                  '<img class="item__cover single" src="'+data.items[i].parent.image+'" alt="">'+
+                                  '<img class="item__cover single lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
                                   '<div class="item__info">'+
                                     '<h2 class="item__title">'+data.items[i].parent.name+'</h2>'+
                                     '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
@@ -623,7 +623,7 @@ $(function(){
             else if(data.items[i].parent.category.bootleg){
               $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-rating="'+data.items[i].parent.aggregateRating+'" data-date="'+data.items[i].parent.releaseYear+'">'+
                                 '<div class="item__header" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
-                                  '<img class="item__cover" src="'+data.items[i].parent.image+'" alt="">'+
+                                  '<img class="item__cover lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
                                   '<div class="item__info">'+
                                     '<h2 class="item__title">'+data.items[i].parent.name+'</h2>'+
                                     '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
@@ -659,7 +659,7 @@ $(function(){
             else if(data.items[i].parent.category.production){
               $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-rating="'+data.items[i].parent.aggregateRating+'" data-date="'+data.items[i].parent.releaseYear+'">'+
                                 '<div class="item__header" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
-                                  '<img class="item__cover single" src="'+data.items[i].parent.image+'" alt="">'+
+                                  '<img class="item__cover single lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
                                   '<div class="item__info">'+
                                     '<h2 class="item__title">'+data.items[i].parent.name+'</h2>'+
                                     '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
@@ -698,7 +698,7 @@ $(function(){
             else{
               $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-rating="'+data.items[i].parent.aggregateRating+'" data-date="'+data.items[i].parent.releaseYear+'">'+
                                 '<div class="item__header" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
-                                  '<img class="item__cover" src="'+data.items[i].parent.image+'" alt="">'+
+                                  '<img class="item__cover lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
                                   '<div class="item__info">'+
                                     '<h2 class="item__title">'+data.items[i].parent.name+'</h2>'+
                                     '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
@@ -865,6 +865,7 @@ $(function(){
         }
       });
 
+
     } // /toggleChildren function
 
 
@@ -948,7 +949,7 @@ $(function(){
                                 '<div class="child-item__body">'+
                                   '<div class="child-item__sidebar">'+
                                     '<div class="sticky-content">'+
-                                      '<a href="'+data.items[requestedItemNumber].editions[j][amazonLink]+'" target="_blank"><img class="child-item__cover" src="'+data.items[requestedItemNumber].editions[j].image+'" alt="'+data.items[requestedItemNumber].editions[j].name+'"></a>'+
+                                      '<a href="'+data.items[requestedItemNumber].editions[j][amazonLink]+'" target="_blank"><img class="child-item__cover" src="'+data.items[requestedItemNumber].editions[j].image+'" alt="'+data.items[requestedItemNumber].editions[j].name+' cover"></a>'+
                                       '<a class="child-item__buy" href="'+data.items[requestedItemNumber].editions[j][amazonLink]+'" target="_blank" onClick="ga(\x27send\x27, \x27event\x27, \x27Amazon\x27, \x27click\x27, \x27Item\x27)">'+amazonBtnTxt+'</a>'+  // \x27 is a scaped quote '
                                     '</div>'+
                                   '</div>'+
@@ -988,7 +989,7 @@ $(function(){
                                 '<div class="child-item__body">'+
                                   '<div class="child-item__sidebar">'+
                                     '<div class="sticky-content">'+
-                                      '<a href="'+data.items[requestedItemNumber].editions[j].albumRelease[amazonLink]+'" target="_blank"><img class="child-item__cover" src="'+data.items[requestedItemNumber].editions[j].albumRelease.image+'" alt="'+data.items[requestedItemNumber].editions[j].albumRelease.name+'"></a>'+
+                                      '<a href="'+data.items[requestedItemNumber].editions[j].albumRelease[amazonLink]+'" target="_blank"><img class="child-item__cover" src="'+data.items[requestedItemNumber].editions[j].albumRelease.image+'" alt="'+data.items[requestedItemNumber].editions[j].albumRelease.name+' cover"></a>'+
                                       '<a class="child-item__buy" href="'+data.items[requestedItemNumber].editions[j].albumRelease[amazonLink]+'" target="_blank" onClick="ga(\x27send\x27, \x27event\x27, \x27Amazon\x27, \x27click\x27, \x27Item\x27)">'+amazonBtnTxt+'</a>'+  // \x27 is a scaped quote '
                                     '</div>'+
                                   '</div>'+
@@ -1032,7 +1033,7 @@ $(function(){
                                 '<div class="child-item__body">'+
                                   '<div class="child-item__sidebar">'+
                                     '<div class="sticky-content">'+
-                                      '<a href="'+data.items[requestedItemNumber].editions[j].albumRelease[amazonLink]+'" target="_blank"><img class="child-item__cover" src="'+data.items[requestedItemNumber].editions[j].albumRelease.image+'" alt="'+data.items[requestedItemNumber].editions[j].albumRelease.name+'"></a>'+
+                                      '<a href="'+data.items[requestedItemNumber].editions[j].albumRelease[amazonLink]+'" target="_blank"><img class="child-item__cover" src="'+data.items[requestedItemNumber].editions[j].albumRelease.image+'" alt="'+data.items[requestedItemNumber].editions[j].albumRelease.name+' cover"></a>'+
                                       '<a class="child-item__buy" href="'+data.items[requestedItemNumber].editions[j].albumRelease[amazonLink]+'" target="_blank" onClick="ga(\x27send\x27, \x27event\x27, \x27Amazon\x27, \x27click\x27, \x27Item\x27)">'+amazonBtnTxt+'</a>'+  // \x27 is a scaped quote '
                                     '</div>'+
                                   '</div>'+
@@ -1121,7 +1122,7 @@ $(function(){
     loadItems(initialArtist, initialCategory);
     getCountry();
     loadChildren();
-
+    lazyLoad();
 
 
 
@@ -1167,6 +1168,15 @@ $(function(){
     }
 
 
+    function lazyLoad(){
+      $("img.lazy").lazyload({
+        threshold : 500,
+        effect : "fadeIn",
+        placeholder: 'assets/preloader.svg'
+      });
+    }
+
+
 
     // Loads another artist's items and filters categories based on selected artist
     $('#artist li').on( 'click', function() {
@@ -1194,7 +1204,7 @@ $(function(){
         currentArtist = selectedArtist;
         loadItems(selectedArtist,initialCategory);
         loadChildren();
-
+        lazyLoad();
         resetSorting();
 
       } // /else
@@ -1225,7 +1235,7 @@ $(function(){
         currentCategory = selectedCategory;
         loadItems(currentArtist,selectedCategory);
         loadChildren();
-
+        lazyLoad();
         resetSorting();
 
       } // /else
