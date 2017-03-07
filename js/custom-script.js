@@ -1266,6 +1266,8 @@ $(function(){
         }
       }
 
+      lazyLoad();
+
     });
 
 
