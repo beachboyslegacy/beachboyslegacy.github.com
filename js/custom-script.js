@@ -769,11 +769,11 @@ $(function(){
                                     '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
                                     '<td>'+data.items[i].parent.track.itemListElement[k].item.producer+'</td>'+
                                   '</tr>'
-
-
+                                  
+                  $thisItem.find('.parent-item__tracklist tbody').append(thisTrack);
                 }
 
-                $thisItem.find('.parent-item__tracklist tbody').append(thisTrack);
+
 
               }
               else{
@@ -820,7 +820,7 @@ $(function(){
                 } //for
 
 
-              }
+              } // else
 
               $('.scroll-to-anchor').smoothScroll({
                  offset: -44
