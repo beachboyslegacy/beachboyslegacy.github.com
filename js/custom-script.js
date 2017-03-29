@@ -683,6 +683,7 @@ $(function(){
                                           '<td>Title</td>'+
                                           '<td></td>'+
                                           '<td>Composer</td>'+
+                                          '<td>Producer</td>'+
                                         '</tr>'+
                                       '</tbody>'+
                                     '</table>'+
@@ -757,47 +758,69 @@ $(function(){
 
               tracks = data.items[i].parent.track.itemListElement.length;
 
-              for (k=0; k<tracks; k++){
+              // productions are separate because we add the producer to the tracklist
+              if(data.items[i].parent.category.production){
 
-                if (data.items[i].parent.numberOfDiscs > 1) {
-                  if( data.items[i].parent.track.itemListElement[k].item.trackNumber == 1){
-                    $thisItem.find('.parent-item__tracklist tbody tr:last-child').after(
-                      '<tr class="discnumber"><td colspan="3">Disc '+data.items[i].parent.track.itemListElement[k].item.disc+'</td></tr>'
-                    );
-                  }
-                }
+                for (k=0; k<tracks; k++){
 
-
-                if( data.items[i].parent.track.itemListElement[k].item.hit == true ){
-                  thisTrack = '<tr>'+
-                                    '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
-                                    '<td class="hit-or-gem"><img src="assets/star.svg" /> HIT</td>'+
-                                    '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
-                                  '</tr>'
-                }else if( data.items[i].parent.track.itemListElement[k].item.inthit == true ){
-                  thisTrack = '<tr>'+
-                                    '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
-                                    '<td class="hit-or-gem"><img src="assets/inthit.svg" /> HIT</td>'+
-                                    '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
-                                  '</tr>'
-                }else if( data.items[i].parent.track.itemListElement[k].item.gem == true ){
-                  thisTrack = '<tr>'+
-                                    '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
-                                    '<td class="hit-or-gem"><img src="assets/gem.svg" /> GEM</td>'+
-                                    '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
-                                  '</tr>'
-                }else{
                   thisTrack = '<tr>'+
                                     '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
                                     '<td></td>'+
                                     '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
+                                    '<td>'+data.items[i].parent.track.itemListElement[k].item.producer+'</td>'+
                                   '</tr>'
+
+
                 }
 
                 $thisItem.find('.parent-item__tracklist tbody').append(thisTrack);
 
               }
+              else{
 
+                for (k=0; k<tracks; k++){
+
+                  if (data.items[i].parent.numberOfDiscs > 1) {
+                    if( data.items[i].parent.track.itemListElement[k].item.trackNumber == 1){
+                      $thisItem.find('.parent-item__tracklist tbody tr:last-child').after(
+                        '<tr class="discnumber"><td colspan="3">Disc '+data.items[i].parent.track.itemListElement[k].item.disc+'</td></tr>'
+                      );
+                    }
+                  }
+
+
+                  if( data.items[i].parent.track.itemListElement[k].item.hit == true ){
+                    thisTrack = '<tr>'+
+                                      '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
+                                      '<td class="hit-or-gem"><img src="assets/star.svg" /> HIT</td>'+
+                                      '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
+                                    '</tr>'
+                  }else if( data.items[i].parent.track.itemListElement[k].item.inthit == true ){
+                    thisTrack = '<tr>'+
+                                      '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
+                                      '<td class="hit-or-gem"><img src="assets/inthit.svg" /> HIT</td>'+
+                                      '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
+                                    '</tr>'
+                  }else if( data.items[i].parent.track.itemListElement[k].item.gem == true ){
+                    thisTrack = '<tr>'+
+                                      '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
+                                      '<td class="hit-or-gem"><img src="assets/gem.svg" /> GEM</td>'+
+                                      '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
+                                    '</tr>'
+                  }else{
+                    thisTrack = '<tr>'+
+                                      '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
+                                      '<td></td>'+
+                                      '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
+                                    '</tr>'
+                  }
+
+                  $thisItem.find('.parent-item__tracklist tbody').append(thisTrack);
+
+                } //for
+
+
+              }
 
               $('.scroll-to-anchor').smoothScroll({
                  offset: -44
