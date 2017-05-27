@@ -7,7 +7,7 @@ $(function(){
 
     var months = [ 'January' , 'February' , 'March' , 'April' , 'May' , 'June' , 'July' , 'August' , 'September' , 'October' , 'November' , 'December' ]
     var initialArtist = 'The Beach Boys';
-    var initialCategory = 'album'
+    var initialCategory = 'new'
     var currentArtist = initialArtist;
     var currentCategory = initialCategory;
     var amazonLink = 'amazonUs';
@@ -32,7 +32,133 @@ $(function(){
       $('.items').empty();
       $('#backToTop').remove();
 
-      if( selectedCategory == 'solo' ){
+
+
+      if( selectedCategory == 'new' ){
+
+        for(i=0; i<totalItems; i++){
+
+          if( data.items[i].parent.category.new == true ){
+
+            loadedItems++;
+
+            thisReleaseMonthNumber = data.items[i].parent.releaseMonth;
+            if ( thisReleaseMonthNumber == 0 ){
+              thisReleaseMonthName = "";
+            }else{
+              thisReleaseMonthName = months[thisReleaseMonthNumber - 1];
+            }
+
+            thisReleaseDayNumber = data.items[i].parent.releaseDay;
+            if ( thisReleaseDayNumber == 0 ){
+              thisReleaseDayNumber = "";
+            }else{
+              thisReleaseDayNumber = thisReleaseDayNumber;
+            }
+
+            // NEW
+            $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-rating="'+data.items[i].parent.aggregateRating+'" data-date="'+data.items[i].parent.releaseYear+'">'+
+                              '<div class="item__header" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
+                                '<img class="item__cover lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
+                                '<div class="item__info">'+
+                                  '<h2 class="item__title">'+data.items[i].parent.name+'</h2>'+
+                                  '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
+                                  // '<ul class="item__rating"></ul>'+
+                                  '<div class="wpac-rating-ajax" data-wpac-chan="'+data.items[i].parent.uniqueId+'"></div>'+
+                                  '<a href="#'+data.items[i].parent.uniqueId+'" class="item__btn scroll-to-anchor" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Solo\x27)">See details and editions</a>'+
+                                '</div>'+
+                              '</div>'+
+                              '<div class="item__body">'+
+                                '<div class="parent-item__info">'+
+                                  '<p>Released on '+thisReleaseMonthName+' '+thisReleaseDayNumber+', '+data.items[i].parent.releaseYear+'</p>'+
+                                  // '<p>'+data.items[i].parent.publisher+' ('+data.items[i].parent.country+') '+data.items[i].parent.catalogNumber+'</p>'+
+                                  // '<p>Produced by '+data.items[i].parent.producer+'</p>'+
+                                  // '<p>Chart position: #'+data.items[i].parent.billboardPosition+'</p>'+
+                                  // '<p>'+data.items[i].parent.notes+'</p>'+
+                                '</div>'+
+                                // '<div class="parent-item__tracklist">'+
+                                //   '<table>'+
+                                //     '<tbody>'+
+                                //       '<tr>'+
+                                //         '<td>Title</td>'+
+                                //         '<td></td>'+
+                                //         '<td>Composer</td>'+
+                                //       '</tr>'+
+                                //     '</tbody>'+
+                                //   '</table>'+
+                                // '</div>'+
+                                '<ul class="child-items"></ul>'+
+                                '<div class="item__footer">'+
+                                  '<a href="#'+data.items[i].parent.uniqueId+'" class="item__close-btn scroll-to-anchor">Close "'+data.items[i].parent.name+'"</a>'+
+                                '</div>'+
+                              '</div>'+
+                            '</li>';
+
+
+              $thisItem = $($thisItem); //convers string to DOM element
+              $('.items').append($thisItem);
+
+
+              // tracks = data.items[i].parent.track.itemListElement.length;
+              //
+              // for (k=0; k<tracks; k++){
+              //
+              //   if (data.items[i].parent.numberOfDiscs > 1) {
+              //     if( data.items[i].parent.track.itemListElement[k].item.trackNumber == 1){
+              //       $thisItem.find('.parent-item__tracklist tbody tr:last-child').after(
+              //         '<tr class="discnumber"><td colspan="3">Disc '+data.items[i].parent.track.itemListElement[k].item.disc+'</td></tr>'
+              //       );
+              //     }
+              //   }
+              //
+              //
+              //   if( data.items[i].parent.track.itemListElement[k].item.hit == true ){
+              //     thisTrack = '<tr>'+
+              //                       '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
+              //                       '<td class="hit-or-gem"><img src="assets/star.svg" /> HIT</td>'+
+              //                       '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
+              //                     '</tr>'
+              //   }else if( data.items[i].parent.track.itemListElement[k].item.inthit == true ){
+              //     thisTrack = '<tr>'+
+              //                       '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
+              //                       '<td class="hit-or-gem"><img src="assets/inthit.svg" /> HIT</td>'+
+              //                       '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
+              //                     '</tr>'
+              //   }else if( data.items[i].parent.track.itemListElement[k].item.gem == true ){
+              //     thisTrack = '<tr>'+
+              //                       '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
+              //                       '<td class="hit-or-gem"><img src="assets/gem.svg" /> GEM</td>'+
+              //                       '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
+              //                     '</tr>'
+              //   }else{
+              //     thisTrack = '<tr>'+
+              //                       '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
+              //                       '<td></td>'+
+              //                       '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
+              //                     '</tr>'
+              //   }
+              //
+              //   $thisItem.find('.parent-item__tracklist tbody').append(thisTrack);
+              //
+              // }
+
+              $('.scroll-to-anchor').smoothScroll({
+                 offset: -44
+              });
+
+          }
+
+        } //end of main for loop
+
+        sortByRelease();
+        reverseOrder();
+
+      // end of NEW
+      }
+
+
+
+      else if( selectedCategory == 'solo' ){
 
         for(i=0; i<totalItems; i++){
 
@@ -168,8 +294,11 @@ $(function(){
 
       // end of solo album
       }
+
+
+
       // BOOK
-      else if( selectedCategory == 'book' ){
+      else if( selectedCategory == 'book'){
 
         for(i=0; i<totalItems; i++){
 
@@ -519,6 +648,7 @@ $(function(){
 
 
 
+
       else{ //Everything but solo albums, books, videos or bootlegs
 
         for(i=0; i<totalItems; i++){
@@ -738,22 +868,6 @@ $(function(){
               $thisItem = $($thisItem); //converts string to DOM element
               $('.items').append($thisItem);
 
-              // rating = data.items[i].parent.aggregateRating;
-              //
-              // for (j=0; j<rating; j++){
-              //   $thisItem.find('.item__rating').append(
-              //     '<li><img alt="star" src="assets/hit.svg" /></li>'
-              //     // '<li><img alt="star" src="../assets/star.svg"; this.onerror=null;" /></li>'
-              //   );
-              // }
-              // if (rating === 0.5 || rating === 1.5 || rating === 2.5 || rating === 3.5 || rating === 4.5){
-              //
-              //   $thisItem.find('.item__rating').children('li:last-child').remove();
-              //   $thisItem.find('.item__rating').append(
-              //     '<li alt="half star" class="item-rating__half-star"><img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjUxMnB4IiBoZWlnaHQ9IjUxMnB4IiB2aWV3Qm94PSIwIDAgNDUzLjA5OCA0NTMuMDk4IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0NTMuMDk4IDQ1My4wOTg7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGc+Cgk8cGF0aCBkPSJNMzMxLjMyMywxMS43MDhMMjY3LjA5LDE0MS42MTNsLTE0My4zMjIsMjAuODM5Yy0xMC42NTYsMS43MTQtMTUuOTg2LDYuMDkxLTE1Ljk4NiwxMy4xMzQgICBjMCwzLjk5OSwyLjM4LDguNTY3LDcuMTM1LDEzLjcwNmwxMDMuOTIzLDEwMS4wNjRsLTI0LjU1MSwxNDIuNzUyYy0wLjM4MSwyLjY3LTAuNTcxLDQuNTcyLTAuNTcxLDUuNzE2ICAgYzAsMy45OTcsMC45OTksNy4zNzEsMi45OTYsMTAuMTM2YzEuOTk5LDIuNzU5LDQuOTk1LDQuMTM4LDguOTkzLDQuMTM4YzMuNDI2LDAsNy4yMzMtMS4xMzMsMTEuNDItMy40MjZsMTI4LjE5LTY3LjM4MlYwICAgQzMzOS42MDgsMCwzMzQuOTQ3LDMuOSwzMzEuMzIzLDExLjcwOHoiIGZpbGw9IiMwMDAwMDAiLz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K" /></li>'
-              //     // '<li alt="half star" class="item-rating__half-star"><img src="../assets/half-star.svg"; this.onerror=null;"></li>'
-              //   );
-              // }
 
 
               tracks = data.items[i].parent.track.itemListElement.length;
@@ -769,7 +883,7 @@ $(function(){
                                     '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
                                     '<td>'+data.items[i].parent.track.itemListElement[k].item.producer+'</td>'+
                                   '</tr>'
-                                  
+
                   $thisItem.find('.parent-item__tracklist tbody').append(thisTrack);
                 }
 
@@ -1220,15 +1334,26 @@ $(function(){
 
         $('#current-category span').html('Albums');
         $('#category li').removeClass('selector__options__current');
-        $('#category li:first-child').addClass('selector__options__current');
 
         //loads new items
+
         selectedArtist = $(this).attr('data-artist');
         currentArtist = selectedArtist;
-        loadItems(selectedArtist,initialCategory);
+
+        if( selectedArtist == 'The Beach Boys'){
+          loadItems(selectedArtist,initialCategory); //new
+          $('#new').addClass('selector__options__current');
+        }
+        else{
+          loadItems(selectedArtist,'album');   //only Beach Boys have a latest (new) category. The others default to 'album'.
+          $('#album').addClass('selector__options__current');
+        }
+
         loadChildren();
         lazyLoad();
         resetSorting();
+
+
 
       } // /else
 
