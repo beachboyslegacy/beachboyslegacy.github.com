@@ -1332,7 +1332,6 @@ $(function(){
         $('#category li.'+selectedArtistClass).removeClass('hide-category');
         $('#category li').not('.'+selectedArtistClass).addClass('hide-category');
 
-        $('#current-category span').html('Albums');
         $('#category li').removeClass('selector__options__current');
 
         //loads new items
@@ -1343,10 +1342,12 @@ $(function(){
         if( selectedArtist == 'The Beach Boys'){
           loadItems(selectedArtist,initialCategory); //new
           $('#new').addClass('selector__options__current');
+          $('#current-category span').html('Latest');
         }
         else{
           loadItems(selectedArtist,'album');   //only Beach Boys have a latest (new) category. The others default to 'album'.
           $('#album').addClass('selector__options__current');
+          $('#current-category span').html('Albums');
         }
 
         loadChildren();
