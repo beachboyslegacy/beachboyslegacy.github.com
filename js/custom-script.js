@@ -151,7 +151,6 @@ $(function(){
         } //end of main for loop
 
         sortByRelease();
-        reverseOrder();
 
       // end of NEW
       }
@@ -429,7 +428,6 @@ $(function(){
         } //end of main for loop
 
         sortByRelease();
-        reverseOrder();
 
       // end of book
       }
@@ -641,7 +639,6 @@ $(function(){
 
         } //end of main for loop
 
-        reverseOrder();
 
       } // /else   /end of video
 
@@ -1257,6 +1254,7 @@ $(function(){
 
     // Initial load of items
     loadItems(initialArtist, initialCategory);
+    sortByRelease();
     getCountry();
     loadChildren();
     lazyLoad();
@@ -1295,7 +1293,7 @@ $(function(){
 
       listItems.sort(sortList).appendTo(list);
       function sortList(a, b){
-          return ($(b).data('date')) < ($(a).data('date')) ? 1 : -1;
+          return ($(b).data('date')) > ($(a).data('date')) ? 1 : -1;
       }
     }
 
@@ -1350,6 +1348,7 @@ $(function(){
           $('#current-category span').html('Albums');
         }
 
+        sortByRelease();
         loadChildren();
         lazyLoad();
         resetSorting();
@@ -1383,6 +1382,7 @@ $(function(){
 
         currentCategory = selectedCategory;
         loadItems(currentArtist,selectedCategory);
+        sortByRelease();
         loadChildren();
         lazyLoad();
         resetSorting();
