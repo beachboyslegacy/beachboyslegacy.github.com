@@ -790,7 +790,7 @@ $(function(){
                               '</li>';
             }
             // Productions
-            else if(data.items[i].parent.category.production){
+            else if(data.items[i].parent.category.production || data.items[i].parent.category.collaboration){
               $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-rating="'+data.items[i].parent.aggregateRating+'" data-date="'+data.items[i].parent.releaseYear+'">'+
                                 '<div class="item__header" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
                                   '<img class="item__cover single lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
