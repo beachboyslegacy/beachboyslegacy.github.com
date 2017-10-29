@@ -62,6 +62,7 @@ $(function(){
                                 '<img class="item__cover lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
                                 '<div class="item__info">'+
                                   '<h2 class="item__title">'+data.items[i].parent.name+'</h2>'+
+                                  '<h3 class="item__subtitle">'+data.items[i].parent.alternateName+'</h3>'+
                                   '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
                                   // '<ul class="item__rating"></ul>'+
                                   '<div class="wpac-rating-ajax" data-wpac-chan="'+data.items[i].parent.uniqueId+'"></div>'+
@@ -185,6 +186,7 @@ $(function(){
                                 '<img class="item__cover lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
                                 '<div class="item__info">'+
                                   '<h2 class="item__title">'+data.items[i].parent.name+'</h2>'+
+                                  '<h3 class="item__subtitle">'+data.items[i].parent.alternateName+'</h3>'+
                                   '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
                                   // '<ul class="item__rating"></ul>'+
                                   '<div class="wpac-rating-ajax" data-wpac-chan="'+data.items[i].parent.uniqueId+'"></div>'+
@@ -378,7 +380,7 @@ $(function(){
                                 '<img class="item__cover lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
                                 '<div class="item__info">'+
                                   '<h2 class="item__title">'+data.items[i].parent.name+'</h2>'+
-                                  '<h3 class="item__year">'+data.items[i].parent.alternateName+'</h3>'+
+                                  '<h3 class="item__subtitle">'+data.items[i].parent.alternateName+'</h3>'+
                                   '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
                                   // '<ul class="item__rating"></ul>'+
                                   '<div class="wpac-rating-ajax" data-wpac-chan="'+data.items[i].parent.uniqueId+'"></div>'+
@@ -468,6 +470,7 @@ $(function(){
                                     '<img class="item__cover lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
                                     '<div class="item__info">'+
                                       '<h2 class="item__title">'+data.items[i].parent.name+'</h2>'+
+                                      '<h3 class="item__subtitle">'+data.items[i].parent.alternateName+'</h3>'+
                                       '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
                                       // '<ul class="item__rating"></ul>'+
                                       '<div class="wpac-rating-ajax" data-wpac-chan="'+data.items[i].parent.uniqueId+'"></div>'+
@@ -526,6 +529,7 @@ $(function(){
                                     '<img class="item__cover lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
                                     '<div class="item__info">'+
                                       '<h2 class="item__title">'+data.items[i].parent.name+'</h2>'+
+                                      '<h3 class="item__subtitle">'+data.items[i].parent.alternateName+'</h3>'+
                                       '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
                                       // '<ul class="item__rating"></ul>'+
                                       '<div class="wpac-rating-ajax" data-wpac-chan="'+data.items[i].parent.uniqueId+'"></div>'+
@@ -677,6 +681,7 @@ $(function(){
                                   '<img class="item__cover lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
                                   '<div class="item__info">'+
                                     '<h2 class="item__title">'+data.items[i].parent.name+'</h2>'+
+                                    '<h3 class="item__subtitle">'+data.items[i].parent.alternateName+'</h3>'+
                                     '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
                                     // '<ul class="item__rating"></ul>'+
                                     '<div class="wpac-rating-ajax" data-wpac-chan="'+data.items[i].parent.uniqueId+'"></div>'+
@@ -715,6 +720,7 @@ $(function(){
                                   '<img class="item__cover single lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
                                   '<div class="item__info">'+
                                     '<h2 class="item__title">'+data.items[i].parent.name+'</h2>'+
+                                    '<h3 class="item__subtitle">'+data.items[i].parent.alternateName+'</h3>'+
                                     '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
                                     // '<ul class="item__rating"></ul>'+
                                     '<div class="wpac-rating-ajax" data-wpac-chan="'+data.items[i].parent.uniqueId+'"></div>'+
@@ -753,6 +759,7 @@ $(function(){
                                   '<img class="item__cover lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
                                   '<div class="item__info">'+
                                     '<h2 class="item__title">'+data.items[i].parent.name+'</h2>'+
+                                    '<h3 class="item__subtitle">'+data.items[i].parent.alternateName+'</h3>'+
                                     '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
                                     // '<ul class="item__rating"></ul>'+
                                     '<div class="wpac-rating-ajax" data-wpac-chan="'+data.items[i].parent.uniqueId+'"></div>'+
@@ -789,6 +796,7 @@ $(function(){
                                   '<img class="item__cover single lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
                                   '<div class="item__info">'+
                                     '<h2 class="item__title">'+data.items[i].parent.name+'</h2>'+
+                                    '<h3 class="item__subtitle">'+data.items[i].parent.alternateName+'</h3>'+
                                     '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
                                     // '<ul class="item__rating"></ul>'+
                                     '<div class="wpac-rating-ajax" data-wpac-chan="'+data.items[i].parent.uniqueId+'"></div>'+
@@ -829,6 +837,7 @@ $(function(){
                                   '<img class="item__cover lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
                                   '<div class="item__info">'+
                                     '<h2 class="item__title">'+data.items[i].parent.name+'</h2>'+
+                                    '<h3 class="item__subtitle">'+data.items[i].parent.alternateName+'</h3>'+
                                     '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
                                     // '<ul class="item__rating"></ul>'+
                                     '<div class="wpac-rating-ajax" data-wpac-chan="'+data.items[i].parent.uniqueId+'"></div>'+
