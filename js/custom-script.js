@@ -790,7 +790,7 @@ $(function(){
                               '</li>';
             }
             // Productions
-            else if(data.items[i].parent.category.production || data.items[i].parent.category.collaboration){
+            else if(data.items[i].parent.category.production){
               $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-rating="'+data.items[i].parent.aggregateRating+'" data-date="'+data.items[i].parent.releaseYear+'">'+
                                 '<div class="item__header" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
                                   '<img class="item__cover single lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
@@ -819,6 +819,46 @@ $(function(){
                                           '<td></td>'+
                                           '<td>Composer</td>'+
                                           '<td>Producer</td>'+
+                                        '</tr>'+
+                                      '</tbody>'+
+                                    '</table>'+
+                                  '</div>'+
+                                  '<ul class="child-items"></ul>'+
+                                  '<div class="item__footer">'+
+                                    '<a href="#'+data.items[i].parent.uniqueId+'" class="item__close-btn scroll-to-anchor">Close "'+data.items[i].parent.name+'"</a>'+
+                                  '</div>'+
+                                '</div>'+
+                              '</li>';
+            }
+            // Collaborations
+            else if(data.items[i].parent.category.collaboration){
+              $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-rating="'+data.items[i].parent.aggregateRating+'" data-date="'+data.items[i].parent.releaseYear+'">'+
+                                '<div class="item__header" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
+                                  '<img class="item__cover single lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
+                                  '<div class="item__info">'+
+                                    '<h2 class="item__title">'+data.items[i].parent.name+'</h2>'+
+                                    '<h3 class="item__subtitle">'+data.items[i].parent.alternateName+'</h3>'+
+                                    '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
+                                    // '<ul class="item__rating"></ul>'+
+                                    '<div class="wpac-rating-ajax" data-wpac-chan="'+data.items[i].parent.uniqueId+'"></div>'+
+                                    '<a href="#'+data.items[i].parent.uniqueId+'" class="item__btn scroll-to-anchor" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Album\x27)">See details and editions</a>'+
+                                  '</div>'+
+                                '</div>'+
+                                '<div class="item__body">'+
+                                  '<div class="parent-item__info">'+
+                                    '<p>Released on '+thisReleaseMonthName+' '+thisReleaseDayNumber+', '+data.items[i].parent.releaseYear+'</p>'+
+                                    '<p>'+data.items[i].parent.publisher+' ('+data.items[i].parent.country+') '+data.items[i].parent.catalogNumber+'</p>'+
+                                    '<p>Produced by '+data.items[i].parent.producer+'</p>'+
+                                    '<p>Chart position: #'+data.items[i].parent.billboardPosition+'</p>'+
+                                    // '<p>'+data.items[i].parent.notes+'</p>'+
+                                  '</div>'+
+                                  '<div class="parent-item__tracklist">'+
+                                    '<table>'+
+                                      '<tbody>'+
+                                        '<tr>'+
+                                          '<td>Title</td>'+
+                                          '<td></td>'+
+                                          '<td>Composer</td>'+
                                         '</tr>'+
                                       '</tbody>'+
                                     '</table>'+
