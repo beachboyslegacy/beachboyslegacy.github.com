@@ -12780,16 +12780,6 @@
 		"sC": 0,
 		"tS": 0
 		},
-	"\/js\/custom-script.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "\/js\/custom-script.min-min.js",
-		"oF": 1,
-		"sC": 3,
-		"tS": 0
-		},
 	"\/js\/data.jsonld": {
 		"cB": 0,
 		"ft": 8192,
