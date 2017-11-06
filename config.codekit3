@@ -12778,7 +12778,7 @@
 		"oAP": "\/js\/custom-script-min.js",
 		"oF": 1,
 		"sC": 0,
-		"tS": 1
+		"tS": 0
 		},
 	"\/js\/custom-script.min.js": {
 		"ft": 64,
@@ -12793,9 +12793,19 @@
 	"\/js\/data.jsonld": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/js\/data.jsonld",
-		"oF": 0
+		"oF": 1
+		},
+	"\/js\/jquery-webicon.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/js\/jquery-webicon-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"\/js\/jquery.3.0.0.js": {
 		"ft": 64,
@@ -12807,13 +12817,23 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"\/js\/jquery.lazyload.min.js": {
+	"\/js\/jquery.lazyload.1.9.7.min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/js\/jquery.lazyload.min-min.js",
+		"oAP": "\/js\/jquery.lazyload.1.9.7.min-min.js",
 		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/jquery.shorten.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/js\/jquery.shorten-min.js",
+		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
@@ -12827,22 +12847,22 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/js\/jquery.smooth-scroll.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/js\/jquery.smooth-scroll-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/js\/jquery.smooth-scroll.min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/js\/jquery.smooth-scroll.min-min.js",
-		"oF": 1,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/js\/lazyload.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "\/js\/lazyload-min.js",
 		"oF": 1,
 		"sC": 3,
 		"tS": 0

@@ -1,4 +1,7 @@
-
+// @codekit-prepend 'jquery.lazyload.1.9.7.min.js'
+// @codekit-prepend 'jquery.smooth-scroll.js'
+// @codekit-prepend 'jquery.shorten.js'
+// @codekit-append 'jquery-webicon.js'
 
 $(function(){
 
