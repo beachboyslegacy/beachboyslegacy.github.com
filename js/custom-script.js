@@ -1434,7 +1434,7 @@ $(function(){
 
     function getCountry(){
 
-      $.get("http://ipinfo.io", function (response) {
+      $.get("https://ipinfo.io", function (response) {
 
         var country = response.country;
         console.log('country'+country);
