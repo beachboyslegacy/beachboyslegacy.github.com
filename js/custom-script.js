@@ -5,7 +5,10 @@
 
 $(function(){
 
-  $.getJSON('js/data.jsonld', function(data) {
+  // var jsonFile = 'js/data.json';
+  var jsonFile = 'js/data-min.jsonld';
+
+  $.getJSON(jsonFile, function(data) {
 
 
     var totalItems = data.items.length;
@@ -65,7 +68,7 @@ $(function(){
             // NEW BOOKS
             if ( data.items[i].parent.category.book == true ) {
 
-              $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-rating="'+data.items[i].parent.aggregateRating+'" data-date="'+data.items[i].parent.releaseYear+'">'+
+              $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-date="'+data.items[i].parent.releaseYear+'">'+
                                 '<div class="item__header" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
                                   '<img class="item__cover lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
                                   '<div class="item__info">'+
@@ -103,7 +106,7 @@ $(function(){
               // DOCUMENTARIES AND MOVIES
               if( (data.items[i].parent.subcategory.documentary) ||  (data.items[i].parent.subcategory.movie) ){
 
-                $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-rating="'+data.items[i].parent.aggregateRating+'" data-date="'+data.items[i].parent.releaseYear+'">'+
+                $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-date="'+data.items[i].parent.releaseYear+'">'+
                                   '<div class="item__header" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
                                     '<img class="item__cover lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
                                     '<div class="item__info">'+
@@ -143,7 +146,7 @@ $(function(){
               // NEW ALBUM OR NEW BOXSET
               if(data.items[i].parent.category.album == true || data.items[i].parent.category.boxset == true){
 
-                $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-rating="'+data.items[i].parent.aggregateRating+'" data-date="'+data.items[i].parent.releaseYear+'">'+
+                $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-date="'+data.items[i].parent.releaseYear+'">'+
                                   '<div class="item__header" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
                                     '<img class="item__cover lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
                                     '<div class="item__info">'+
@@ -186,7 +189,7 @@ $(function(){
                 // NEW COMPILATION
                 else if(data.items[i].parent.category.compilation == true){
 
-                  $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-rating="'+data.items[i].parent.aggregateRating+'" data-date="'+data.items[i].parent.releaseYear+'">'+
+                  $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-date="'+data.items[i].parent.releaseYear+'">'+
                                     '<div class="item__header" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
                                       '<img class="item__cover lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
                                       '<div class="item__info">'+
@@ -315,7 +318,7 @@ $(function(){
             }
 
             // SOLO
-            $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-rating="'+data.items[i].parent.aggregateRating+'" data-date="'+data.items[i].parent.releaseYear+'">'+
+            $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-date="'+data.items[i].parent.releaseYear+'">'+
                               '<div class="item__header" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
                                 '<img class="item__cover lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
                                 '<div class="item__info">'+
@@ -457,7 +460,7 @@ $(function(){
 
             loadedItems++;
 
-            $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-rating="'+data.items[i].parent.aggregateRating+'" data-date="'+data.items[i].parent.releaseYear+'">'+
+            $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-date="'+data.items[i].parent.releaseYear+'">'+
                               '<div class="item__header" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
                                 '<img class="item__cover lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
                                 '<div class="item__info">'+
@@ -509,7 +512,7 @@ $(function(){
 
             loadedItems++;
 
-            $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-rating="'+data.items[i].parent.aggregateRating+'" data-date="'+data.items[i].parent.releaseYear+'">'+
+            $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-date="'+data.items[i].parent.releaseYear+'">'+
                               '<div class="item__header" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
                                 '<img class="item__cover lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
                                 '<div class="item__info">'+
@@ -599,7 +602,7 @@ $(function(){
               // DOCUMENTARIES AND MOVIES
               if( (data.items[i].parent.subcategory.documentary) ||  (data.items[i].parent.subcategory.movie) ){
 
-                $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-rating="'+data.items[i].parent.aggregateRating+'" data-date="'+data.items[i].parent.releaseYear+'">'+
+                $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-date="'+data.items[i].parent.releaseYear+'">'+
                                   '<div class="item__header" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
                                     '<img class="item__cover lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
                                     '<div class="item__info">'+
@@ -658,7 +661,7 @@ $(function(){
               // LIVE CONCERTS
               else if( (data.items[i].parent.subcategory.live) ){
 
-                $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-rating="'+data.items[i].parent.aggregateRating+'" data-date="'+data.items[i].parent.releaseYear+'">'+
+                $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-date="'+data.items[i].parent.releaseYear+'">'+
                                   '<div class="item__header" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
                                     '<img class="item__cover lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
                                     '<div class="item__info">'+
@@ -810,7 +813,7 @@ $(function(){
 
             // COMPILATION
             if(data.items[i].parent.category.compilation){
-              $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-rating="'+data.items[i].parent.aggregateRating+'" data-date="'+data.items[i].parent.releaseYear+'">'+
+              $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-date="'+data.items[i].parent.releaseYear+'">'+
                                 '<div class="item__header" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
                                   '<img class="item__cover lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
                                   '<div class="item__info">'+
@@ -849,7 +852,7 @@ $(function(){
             }
             // SINGLES
             else if(data.items[i].parent.category.single){
-              $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-rating="'+data.items[i].parent.aggregateRating+'" data-date="'+data.items[i].parent.releaseYear+'">'+
+              $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-date="'+data.items[i].parent.releaseYear+'">'+
                                 '<div class="item__header" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
                                   '<img class="item__cover single lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
                                   '<div class="item__info">'+
@@ -888,7 +891,7 @@ $(function(){
             }
             // BOOTLEG
             else if(data.items[i].parent.category.bootleg){
-              $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-rating="'+data.items[i].parent.aggregateRating+'" data-date="'+data.items[i].parent.releaseYear+'">'+
+              $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-date="'+data.items[i].parent.releaseYear+'">'+
                                 '<div class="item__header" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
                                   '<img class="item__cover lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
                                   '<div class="item__info">'+
@@ -925,7 +928,7 @@ $(function(){
             }
             // Productions
             else if(data.items[i].parent.category.production){
-              $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-rating="'+data.items[i].parent.aggregateRating+'" data-date="'+data.items[i].parent.releaseYear+'">'+
+              $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-date="'+data.items[i].parent.releaseYear+'">'+
                                 '<div class="item__header" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
                                   '<img class="item__cover single lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
                                   '<div class="item__info">'+
@@ -966,7 +969,7 @@ $(function(){
             }
             // Collaborations
             else if(data.items[i].parent.category.collaboration){
-              $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-rating="'+data.items[i].parent.aggregateRating+'" data-date="'+data.items[i].parent.releaseYear+'">'+
+              $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-date="'+data.items[i].parent.releaseYear+'">'+
                                 '<div class="item__header" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
                                   '<img class="item__cover single lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
                                   '<div class="item__info">'+
@@ -1006,7 +1009,7 @@ $(function(){
             }
             // Concert
             else if(data.items[i].parent.category.concert){
-              $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-rating="'+data.items[i].parent.aggregateRating+'" data-date="'+data.items[i].parent.releaseYear+'">'+
+              $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-date="'+data.items[i].parent.releaseYear+'">'+
                                 '<div class="item__header" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
                                   '<img class="item__cover single lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
                                   '<div class="item__info">'+
@@ -1045,7 +1048,7 @@ $(function(){
             }
             // ALBUM
             else{
-              $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-rating="'+data.items[i].parent.aggregateRating+'" data-date="'+data.items[i].parent.releaseYear+'">'+
+              $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-date="'+data.items[i].parent.releaseYear+'">'+
                                 '<div class="item__header" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
                                   '<img class="item__cover lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
                                   '<div class="item__info">'+

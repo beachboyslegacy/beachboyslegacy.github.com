@@ -412,12 +412,22 @@
 		},
 	"\/img\/albums\/brian-wilson\/2016-brian-wilson-and-friends\/brian-wilson-and-friends-salvo.jpg": {
 		"ft": 16384,
-		"iS": 289264,
+		"iS": 85113,
 		"oA": 0,
 		"oAP": "\/img\/albums\/brian-wilson\/2016-brian-wilson-and-friends\/brian-wilson-and-friends-salvo.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/albums\/brian-wilson\/2016-brian-wilson-and-friends\/brian-wilson-and-friends-salvo_hd.jpg": {
+		"ft": 16384,
+		"iS": 289264,
+		"oA": 0,
+		"oAP": "\/img\/albums\/brian-wilson\/2016-brian-wilson-and-friends\/brian-wilson-and-friends-salvo_hd.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/img\/albums\/brian-wilson\/2017-playback-the-brian-wilson-anthology\/playback-the-brian-wilson-anthology-cover.jpg": {
@@ -428,6 +438,16 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"\/img\/albums\/brian-wilson\/2017-playback-the-brian-wilson-anthology\/playback-the-brian-wilson-anthology-cover_hd.jpg": {
+		"ft": 16384,
+		"iS": 170924,
+		"oA": 0,
+		"oAP": "\/img\/albums\/brian-wilson\/2017-playback-the-brian-wilson-anthology\/playback-the-brian-wilson-anthology-cover_hd.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/img\/albums\/bruce-johnston\/1962-do-the-surfer-stomp-part-1\/do-the-surfer-stomp-part-1-cover.png": {
@@ -941,6 +961,16 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"\/img\/albums\/dennis-wilson\/2017-dennis-wilson-bambu-the-caribou-sessions\/dennis-wilson-bambu-the-caribou-sessions-cover_hd.jpg": {
+		"ft": 16384,
+		"iS": 245646,
+		"oA": 0,
+		"oAP": "\/img\/albums\/dennis-wilson\/2017-dennis-wilson-bambu-the-caribou-sessions\/dennis-wilson-bambu-the-caribou-sessions-cover_hd.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/img\/albums\/mike-love\/1978-celebration-almost-summer\/celebration-almost-summer-cover.jpg": {
@@ -1611,6 +1641,16 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"\/img\/albums\/the-beach-boys\/studio\/1966-pet-sounds\/pet-sounds-50-anniversary-deluxe-edition_hd.jpg": {
+		"ft": 16384,
+		"iS": 327785,
+		"oA": 0,
+		"oAP": "\/img\/albums\/the-beach-boys\/studio\/1966-pet-sounds\/pet-sounds-50-anniversary-deluxe-edition_hd.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/img\/albums\/the-beach-boys\/studio\/1966-pet-sounds\/pet-sounds-cover.jpg": {
@@ -3463,6 +3503,16 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/img\/books\/2016-brian-wilson-ben-greenman-i-am-brian-wilson\/brian-wilson-ben-greenman-i-am-brian-wilson-cover_hd.jpg": {
+		"ft": 16384,
+		"iS": 204010,
+		"oA": 0,
+		"oAP": "\/img\/books\/2016-brian-wilson-ben-greenman-i-am-brian-wilson\/brian-wilson-ben-greenman-i-am-brian-wilson-cover_hd.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/img\/books\/2016-mike-love-james-hirsch-good-vibrations\/mike-love-james-hirsch-good-vibrations-cd-cover.jpg": {
 		"ft": 16384,
 		"iS": 39763,
@@ -3523,6 +3573,16 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/img\/books\/2016-philip-lambert-good-vibrations\/philip-lambert-good-vibrations-cover_hd.jpg": {
+		"ft": 16384,
+		"iS": 250951,
+		"oA": 0,
+		"oAP": "\/img\/books\/2016-philip-lambert-good-vibrations\/philip-lambert-good-vibrations-cover_hd.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/img\/books\/2016-torrence-berry-gary-zenker-archives-vol-6\/torrence-berry-gary-zenker-archives-vol-6-cover.jpg": {
 		"ft": 16384,
 		"iS": 114444,
@@ -3543,6 +3603,16 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/img\/books\/2017-andrew-hickey-the-beach-boys-on-cd-vol-3\/andrew-hickey-the-beach-boys-on-cd-vol-3-cover_hd.jpg": {
+		"ft": 16384,
+		"iS": 127480,
+		"oA": 0,
+		"oAP": "\/img\/books\/2017-andrew-hickey-the-beach-boys-on-cd-vol-3\/andrew-hickey-the-beach-boys-on-cd-vol-3-cover_hd.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/img\/books\/2017-christian-matijas-mecca-words-and-music\/christian-matijas-mecca-words-and-music-cover.jpg": {
 		"ft": 16384,
 		"iS": 174542,
@@ -3551,6 +3621,16 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"\/img\/books\/2017-christian-matijas-mecca-words-and-music\/christian-matijas-mecca-words-and-music-cover_hd.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/img\/books\/2017-christian-matijas-mecca-words-and-music\/christian-matijas-mecca-words-and-music-cover_hd.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/img\/bootlegs\/brian-wilson\/1991-brian-wilson-smile\/brian-wilson-smile-cover.jpg": {
@@ -9249,6 +9329,16 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/img\/compilations\/2016-becoming-the-beach-boys\/becoming-the-beach-boys-cover_hd.jpg": {
+		"ft": 16384,
+		"iS": 199070,
+		"oA": 0,
+		"oAP": "\/img\/compilations\/2016-becoming-the-beach-boys\/becoming-the-beach-boys-cover_hd.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/img\/compilations\/2016-becoming-the-beach-boys\/becoming-the-beach-boys-highlights-cover.jpg": {
 		"ft": 16384,
 		"iS": 115350,
@@ -9267,6 +9357,16 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"\/img\/compilations\/2017-sunshine-tomorrow\/sunshine-tomorrow-cover_hd.jpg": {
+		"ft": 16384,
+		"iS": 354045,
+		"oA": 0,
+		"oAP": "\/img\/compilations\/2017-sunshine-tomorrow\/sunshine-tomorrow-cover_hd.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/img\/concerts\/brian-wilson\/1990-07-28-san-diego\/1990-07-28-san-diego-cover.jpg": {
@@ -12753,6 +12853,16 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/img\/videos\/2016-pet-sounds-classic-album\/pet-sounds-classic-album-cover_hd.jpg": {
+		"ft": 16384,
+		"iS": 235081,
+		"oA": 0,
+		"oAP": "\/img\/videos\/2016-pet-sounds-classic-album\/pet-sounds-classic-album-cover_hd.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -12780,11 +12890,26 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"\/js\/data-min.jsonld": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/data-min-min.jsonld",
+		"oF": 0
+		},
+	"\/js\/data.json": {
+		"ft": 524288,
+		"oA": 0,
+		"oAP": "\/js\/data-min.jsonld",
+		"oF": 3,
+		"oO": 0,
+		"oS": 1
+		},
 	"\/js\/data.jsonld": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/js\/data.jsonld",
+		"oAP": "\/js\/data-min.jsonld",
 		"oF": 1
 		},
 	"\/js\/jquery-webicon.js": {
@@ -13087,7 +13212,7 @@
 		"ie": 1,
 		"iI": 0,
 		"ma": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/styles\/spinner.css",
 		"oF": 0,
 		"oS": 1,
@@ -13122,6 +13247,15 @@
 		}
 	},
 "hooks": [
+	{
+		"enabled": 1,
+		"name": "Hook #1",
+		"predicateDataBase64Encoded": "YnBsaXN0MDDUAQIDBAUGZGVYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8QFgcIDxQcJicqMTU6Oz5CRktMT1dbX2FVJG51bGzTCQoLDA0OXxAXTlNDb21wb3VuZFByZWRpY2F0ZVR5cGVfEA9OU1N1YnByZWRpY2F0ZXNWJGNsYXNzEAKAAoAV0hALERNaTlMub2JqZWN0c6ESgAOAFNQLFRYXGBkaG18QEU5TUmlnaHRFeHByZXNzaW9uXxAQTlNMZWZ0RXhwcmVzc2lvbl8QE05TUHJlZGljYXRlT3BlcmF0b3KAE4AOgASAEdUdHh8gCyEiIyQlWU5TT3BlcmFuZF5OU1NlbGVjdG9yTmFtZV8QEE5TRXhwcmVzc2lvblR5cGVbTlNBcmd1bWVudHOABoAFEAOACIANXHZhbHVlRm9yS2V5OtIfCygpEAGAB9IrLC0uWiRjbGFzc25hbWVYJGNsYXNzZXNfEBBOU1NlbGZFeHByZXNzaW9uoy0vMFxOU0V4cHJlc3Npb25YTlNPYmplY3TSEAsyNKEzgAmADNMLHzY3ODlZTlNLZXlQYXRogAsQCoAKXWlucHV0RnVsbFBhdGjSKyw8PV8QHE5TS2V5UGF0aFNwZWNpZmllckV4cHJlc3Npb26jPC8w0issP0BeTlNNdXRhYmxlQXJyYXmjP0EwV05TQXJyYXnSKyxDRF8QE05TS2V5UGF0aEV4cHJlc3Npb26kQ0UvMF8QFE5TRnVuY3Rpb25FeHByZXNzaW9u00cfC0hJSl8QD05TQ29uc3RhbnRWYWx1ZYAPEACAEF5qcy9kYXRhLmpzb25sZNIrLE1OXxAZTlNDb25zdGFudFZhbHVlRXhwcmVzc2lvbqNNLzDVC1BRUlNUSVUjVlpOU01vZGlmaWVyWE5TTmVnYXRlWU5TT3B0aW9uc15OU09wZXJhdG9yVHlwZYASCBAE0issWFlfEBtOU0VxdWFsaXR5UHJlZGljYXRlT3BlcmF0b3KjWFowXxATTlNQcmVkaWNhdGVPcGVyYXRvctIrLFxdXxAVTlNDb21wYXJpc29uUHJlZGljYXRlo1xeMFtOU1ByZWRpY2F0ZdIrLEFgokEw0issYmNfEBNOU0NvbXBvdW5kUHJlZGljYXRlo2JeMF8QD05TS2V5ZWRBcmNoaXZlctFmZ1Ryb290gAEACAARABoAIwAtADIANwBQAFYAXQB3AIkAkACSAJQAlgCbAKYAqACqAKwAtQDJANwA8gD0APYA+AD6AQUBDwEeATEBPQE\/AUEBQwFFAUcBVAFZAVsBXQFiAW0BdgGJAY0BmgGjAagBqgGsAa4BtQG\/AcEBwwHFAdMB2AH3AfsCAAIPAhMCGwIgAjYCOwJSAlkCawJtAm8CcQKAAoUCoQKlArACuwLEAs4C3QLfAuAC4gLnAwUDCQMfAyQDPANAA0wDUQNUA1kDbwNzA4UDiAONAAAAAAAAAgEAAAAAAAAAaAAAAAAAAAAAAAAAAAAAA48=",
+		"runOrder": 0,
+		"scriptSourceString": "",
+		"scriptType": 1,
+		"uuidString": "444AC27E-B30F-4A0A-B3A4-65186D403511"
+		}
 	],
 "manualImportLinks": {
 	},
@@ -15103,6 +15237,16 @@
 		"targetECMAVersion": 0
 		},
 	"languageDefaultsUserDefined": [
+		{
+			"autoOutputAction": 0,
+			"autoOutputPathFilenamePattern": "*-min.jsonld",
+			"autoOutputPathRelativePath": "",
+			"autoOutputPathReplace1": "",
+			"autoOutputPathReplace2": "",
+			"autoOutputPathStyle": 0,
+			"fileExtension": "jsonld",
+			"shouldRunCacheBuster": 0
+			}
 		],
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",

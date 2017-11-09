@@ -73,7 +73,7 @@ function wpac_ajax_init() {
     window.cookieconsent_options = {"message":"This website uses cookies to ensure you get the best experience. ","dismiss":"Got it!","learnMore":"More info","link":"cookies-policy.html","theme":"dark-bottom","target":"_blank"};
 </script>
 
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.10/cookieconsent.min.js"></script>
+<script async type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.10/cookieconsent.min.js"></script>
 <!-- End Cookie Consent plugin -->
 
 <script>
@@ -86,6 +86,10 @@ function wpac_ajax_init() {
   ga('send', 'pageview');
   setTimeout("ga('send','event','User explores the site','time on page more than one minute')",60000);
 </script>
+
+<style>
+
+</style>
 
 </head>
 
@@ -232,6 +236,17 @@ function wpac_ajax_init() {
   </div>
 
   <ul class="items"></ul>
+
+  <!-- <ul class="items">
+    <li id="sunshine-tomorrow" data-date="2017"><div class="item__header" style="background-color:#F16C35">
+      <img class="item__cover lazy" data-original="img/compilations/2017-sunshine-tomorrow/sunshine-tomorrow-cover.jpg" alt="1967 - Sunshine Tomorrow cover" src="img/compilations/2017-sunshine-tomorrow/sunshine-tomorrow-cover.jpg">
+      <div class="item__info">
+        <h2 class="item__title">1967 - Sunshine Tomorrow</h2>
+        <h3 class="item__subtitle"></h3>
+        <h3 class="item__year">2017</h3>
+      </div>
+    </li>
+  </ul> -->
 
 
   <div class="mobile-footer">
