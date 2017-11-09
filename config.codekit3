@@ -9949,7 +9949,7 @@
 		"opt": 1,
 		"q": 100
 		},
-	"\/img\/concerts\/the-beach-boys\/1978-the-summit-houston\/ticket.JPG": {
+	"\/img\/concerts\/the-beach-boys\/1978-the-summit-houston\/ticket.jpg": {
 		"ft": 16384,
 		"iS": 23183,
 		"oA": 0,
@@ -12904,13 +12904,6 @@
 		"oF": 3,
 		"oO": 0,
 		"oS": 1
-		},
-	"\/js\/data.jsonld": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/js\/data-min.jsonld",
-		"oF": 1
 		},
 	"\/js\/jquery-webicon.js": {
 		"ft": 64,
