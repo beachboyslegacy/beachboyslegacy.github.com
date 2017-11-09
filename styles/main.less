@@ -961,6 +961,7 @@ display: none !important;
   }
 }
 
+
 .overlay-menu__content{
   padding: 0 4% 1em;
   line-height: 1.61;
@@ -973,7 +974,7 @@ display: none !important;
   }
 }
 
-#about-the-authors, #contact{
+#contact{
   display: none;
 }
 
@@ -1071,21 +1072,28 @@ display: none !important;
   }
 }
 
+.team-member-card__icon--img{
+  height: 20px;
+  vertical-align: middle;
+}
+
 @media screen and (min-width: 600px){
   .team-member-card{
     max-width: 100%;
     margin: 1em 0 2em;
     padding: 4%;
-    img{
-      float: left;
-      width: 40%;
-    }
+
   }
   .team-member-card__data{
     float: left;
     width: 60%;
     padding: .5em 4% 0;
   }
+}
+
+.team-member-card__pic{
+    float: left;
+    width: 40%;
 }
 
 .social-widget{

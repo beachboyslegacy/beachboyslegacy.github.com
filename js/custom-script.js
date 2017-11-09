@@ -1713,9 +1713,9 @@ $(function(){
   $('#about-this-site-tab').click(function(){
     $('#about-this-site').show();
   });
-
+ 
   $('#about-the-authors-tab').click(function(){
-    $('#about-the-authors').show();
+    $('#about-the-authors').load('authors.html').show();
   });
 
   $('#contact-tab').click(function(){
