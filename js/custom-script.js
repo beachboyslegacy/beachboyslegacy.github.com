@@ -1,3 +1,4 @@
+// @codekit-prepend 'jquery.3.2.1.js'
 // @codekit-prepend 'jquery.lazyload.1.9.7.min.js'
 // @codekit-prepend 'jquery.smooth-scroll.js'
 // @codekit-prepend 'jquery.shorten.js'
@@ -1713,7 +1714,7 @@ $(function(){
   $('#about-this-site-tab').click(function(){
     $('#about-this-site').show();
   });
- 
+
   $('#about-the-authors-tab').click(function(){
     $('#about-the-authors').load('authors.html').show();
   });
