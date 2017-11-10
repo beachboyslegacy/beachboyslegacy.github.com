@@ -444,7 +444,7 @@
 		"oAP": "\/img\/albums\/brian-wilson\/2016-brian-wilson-and-friends\/brian-wilson-and-friends-salvo.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/albums\/brian-wilson\/2016-brian-wilson-and-friends\/brian-wilson-and-friends-salvo_hd.jpg": {
@@ -454,7 +454,7 @@
 		"oAP": "\/img\/albums\/brian-wilson\/2016-brian-wilson-and-friends\/brian-wilson-and-friends-salvo_hd.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/albums\/brian-wilson\/2017-playback-the-brian-wilson-anthology\/playback-the-brian-wilson-anthology-cover.jpg": {
@@ -474,7 +474,7 @@
 		"oAP": "\/img\/albums\/brian-wilson\/2017-playback-the-brian-wilson-anthology\/playback-the-brian-wilson-anthology-cover_hd.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/albums\/bruce-johnston\/1962-do-the-surfer-stomp-part-1\/do-the-surfer-stomp-part-1-cover.png": {
@@ -997,7 +997,7 @@
 		"oAP": "\/img\/albums\/dennis-wilson\/2017-dennis-wilson-bambu-the-caribou-sessions\/dennis-wilson-bambu-the-caribou-sessions-cover_hd.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/albums\/mike-love\/1978-celebration-almost-summer\/celebration-almost-summer-cover.jpg": {
@@ -1677,7 +1677,7 @@
 		"oAP": "\/img\/albums\/the-beach-boys\/studio\/1966-pet-sounds\/pet-sounds-50-anniversary-deluxe-edition_hd.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/albums\/the-beach-boys\/studio\/1966-pet-sounds\/pet-sounds-cover.jpg": {
@@ -3537,7 +3537,7 @@
 		"oAP": "\/img\/books\/2016-brian-wilson-ben-greenman-i-am-brian-wilson\/brian-wilson-ben-greenman-i-am-brian-wilson-cover_hd.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/books\/2016-mike-love-james-hirsch-good-vibrations\/mike-love-james-hirsch-good-vibrations-cd-cover.jpg": {
@@ -3607,7 +3607,7 @@
 		"oAP": "\/img\/books\/2016-philip-lambert-good-vibrations\/philip-lambert-good-vibrations-cover_hd.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/books\/2016-torrence-berry-gary-zenker-archives-vol-6\/torrence-berry-gary-zenker-archives-vol-6-cover.jpg": {
@@ -3637,7 +3637,7 @@
 		"oAP": "\/img\/books\/2017-andrew-hickey-the-beach-boys-on-cd-vol-3\/andrew-hickey-the-beach-boys-on-cd-vol-3-cover_hd.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/books\/2017-christian-matijas-mecca-words-and-music\/christian-matijas-mecca-words-and-music-cover.jpg": {
@@ -3657,7 +3657,7 @@
 		"oAP": "\/img\/books\/2017-christian-matijas-mecca-words-and-music\/christian-matijas-mecca-words-and-music-cover_hd.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/bootlegs\/brian-wilson\/1991-brian-wilson-smile\/brian-wilson-smile-cover.jpg": {
@@ -9363,7 +9363,7 @@
 		"oAP": "\/img\/compilations\/2016-becoming-the-beach-boys\/becoming-the-beach-boys-cover_hd.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/compilations\/2016-becoming-the-beach-boys\/becoming-the-beach-boys-highlights-cover.jpg": {
@@ -9393,7 +9393,7 @@
 		"oAP": "\/img\/compilations\/2017-sunshine-tomorrow\/sunshine-tomorrow-cover_hd.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/concerts\/brian-wilson\/1990-07-28-san-diego\/1990-07-28-san-diego-cover.jpg": {
@@ -12887,7 +12887,7 @@
 		"oAP": "\/img\/videos\/2016-pet-sounds-classic-album\/pet-sounds-classic-album-cover_hd.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/index.html": {
@@ -13187,16 +13187,6 @@
 		"sM": 0,
 		"sU": 0
 		},
-	"\/styles\/ratings.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/styles\/ratings-min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"\/styles\/ratings.less": {
 		"aP": 0,
 		"bl": 0,
@@ -13207,33 +13197,6 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "\/styles\/ratings.css",
-		"oF": 0,
-		"oS": 1,
-		"rU": 0,
-		"sI": 0,
-		"sM": 0,
-		"sU": 0
-		},
-	"\/styles\/spinner.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/styles\/spinner-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/styles\/spinner.less": {
-		"aP": 0,
-		"bl": 0,
-		"dJ": 0,
-		"ft": 1,
-		"ie": 1,
-		"iI": 0,
-		"ma": 1,
-		"oA": 0,
-		"oAP": "\/styles\/spinner.css",
 		"oF": 0,
 		"oS": 1,
 		"rU": 0,
@@ -13284,7 +13247,7 @@
 	"displayValue": "beachboyslegacy.github.com",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-soon",
-	"lastBuiltDate": 531613832
+	"lastBuiltDate": 532001579
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
