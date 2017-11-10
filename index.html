@@ -192,22 +192,18 @@ function wpac_ajax_init() {
       </div> -->
 
 
-      <div class="newsletter-signup desktop">
-        <!-- Begin MailChimp Signup Form -->
-        <!-- <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css"> -->
-        <h3><!--<div class="newsletter-icon"><webicon icon="material:mail"/></div>-->Don't miss any Beach Boys releases!</h3>
+      <!-- <div class="newsletter-signup desktop">
+        <h3>Don't miss any Beach Boys releases!</h3>
         <div id="mc_embed_signup">
         <form action="//beachboyslegacy.us13.list-manage.com/subscribe/post?u=cc2c9d8e411b575274dd6edbf&amp;id=f43fc38f2e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
             <div id="mc_embed_signup_scroll">
               <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="your email address" required>
-              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
               <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_cc2c9d8e411b575274dd6edbf_f43fc38f2e" tabindex="-1" value=""></div>
               <input type="submit" value="Subscribe to the newsletter" name="subscribe" id="mc-embedded-subscribe" class="button">
             </div>
         </form>
         </div>
-        <!--End mc_embed_signup-->
-      </div>
+      </div> -->
 
 
 
@@ -226,7 +222,6 @@ function wpac_ajax_init() {
   <div class="main-container__header clearfix">
 
     <ul class="sorting clearfix" id="sorting">
-      <!-- <li id="sorting-latest">Latest Release<div class="sorting__icon"><webicon icon="entypo:select-arrows"/></div></li> -->
       <li id="sorting-release" class="sorting__current">Release Date<div class="sorting__icon"><webicon icon="entypo:select-arrows"/></div></li>
       <!-- <li id="sorting-rating">Rating<div class="sorting__icon"><webicon icon="entypo:select-arrows"/></div></li> -->
     </ul>
@@ -235,18 +230,38 @@ function wpac_ajax_init() {
 
   </div>
 
-  <ul class="items"></ul>
+  <!-- <ul class="items"></ul> -->
 
-  <!-- <ul class="items">
+  <ul class="items">
+
     <li id="sunshine-tomorrow" data-date="2017"><div class="item__header" style="background-color:#F16C35">
-      <img class="item__cover lazy" data-original="img/compilations/2017-sunshine-tomorrow/sunshine-tomorrow-cover.jpg" alt="1967 - Sunshine Tomorrow cover" src="img/compilations/2017-sunshine-tomorrow/sunshine-tomorrow-cover.jpg">
+      <img class="item__cover lazy" data-original="img/compilations/2017-sunshine-tomorrow/sunshine-tomorrow-cover.jpg" alt="1967 - Sunshine Tomorrow cover">
       <div class="item__info">
         <h2 class="item__title">1967 - Sunshine Tomorrow</h2>
         <h3 class="item__subtitle"></h3>
         <h3 class="item__year">2017</h3>
       </div>
     </li>
-  </ul> -->
+
+    <li id="christian-matijas-mecca-words-and-music" data-date="2017"><div class="item__header" style="background-color:#6CA7D8">
+      <img class="item__cover lazy" data-original="img/books/2017-christian-matijas-mecca-words-and-music/christian-matijas-mecca-words-and-music-cover.jpg" alt="The Words and Music of Brian Wilson cover">
+      <div class="item__info">
+        <h2 class="item__title">The Words and Music of Brian Wilson</h2>
+        <h3 class="item__subtitle"></h3>
+        <h3 class="item__year">2017</h3>
+      </div>
+    </li>
+
+    <li id="dennis-wilson-bambu-the-caribou-sessions" data-date="2017"><div class="item__header" style="background-color:#73A365">
+      <img class="item__cover lazy" data-original="img/albums/dennis-wilson/2017-dennis-wilson-bambu-the-caribou-sessions/dennis-wilson-bambu-the-caribou-sessions-cover.jpg" alt="Bambu cover">
+      <div class="item__info">
+        <h2 class="item__title">Bambu</h2>
+        <h3 class="item__subtitle">The Caribou Sessions</h3>
+        <h3 class="item__year">2017</h3>
+      </div>
+    </li>
+
+  </ul>
 
 
   <div class="mobile-footer">
@@ -359,49 +374,7 @@ function wpac_ajax_init() {
       </div>
 
       <div id="about-the-authors" class="overlay-menu__content__section">
-
-        <!-- <div class="team-member-card">
-          <img class="lazy" data-original="assets/team/carlos-sanchez.jpg" alt="Carlos Sanchez" />
-          <div class="team-member-card__data">
-            <h3>Carlos Sánchez</h3>
-            <h4>Design and Development</h4>
-            <a class="team-member-card__link" href="https://twitter.com/chocotuits" target="_blank">
-              <div class="team-member-card__icon">
-                <webicon icon="entypo:twitter"></webicon>
-              </div>
-              @chocotuits
-            </a>
-            <a class="team-member-card__link" href="http://carlossanchez.me" target="_blank">
-              <div class="team-member-card__icon">
-                <webicon icon="material:web"></webicon>
-              </div>
-              carlossanchez.me
-            </a>
-            <p>Beach Boys fan since 1996</p>
-          </div>
-        </div>
-
-        <div class="team-member-card">
-          <img class="lazy" data-original="assets/team/julio-pelayo.jpg" alt="Julio Pelayo" />
-          <div class="team-member-card__data">
-            <h3>Julio Pelayo</h3>
-            <h4>Content and Information Architecture</h4>
-            <a class="team-member-card__link" href="https://twitter.com/juliopelayo1" target="_blank">
-              <div class="team-member-card__icon">
-                <webicon icon="entypo:twitter"></webicon>
-              </div>
-              @juliopelayo1
-            </a>
-            <a class="team-member-card__link" href="http://juliopelayo.com" target="_blank">
-              <div class="team-member-card__icon">
-                <webicon icon="material:web"></webicon>
-              </div>
-              juliopelayo.com
-            </a>
-            <p>Beach Boys fan since 1990</p>
-          </div>
-        </div> -->
-
+        <!-- loads content from authors.html -->
       </div>
 
       <div id="contact" class="overlay-menu__content__section">
@@ -430,7 +403,6 @@ function wpac_ajax_init() {
 <!-- <script src="js/jquery.shorten.min.js"></script> -->
 <!-- <script src="js/jquery.lazyload.1.9.7.min.js"></script> -->
 <!-- <script src="js/jquery.smooth-scroll.min.js"></script> -->
-<!-- <script src="js/custom-script.min.js"></script> OLD -->
 <script src="js/custom-script-min.js"></script>
 <!-- <script async type="text/javascript" src="//cdn.rawgit.com/icons8/bower-webicon/v0.10.7/jquery-webicon.min.js"></script> -->
 
