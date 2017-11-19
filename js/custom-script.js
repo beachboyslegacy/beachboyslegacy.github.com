@@ -6,7 +6,7 @@
 $(function(){
 
   // var jsonFile = 'js/data.json';
-  var jsonFile = 'js/data-min.jsonld';
+  var jsonFile = 'js/data-min.json';
 
   $.getJSON(jsonFile, function(data) {
 
