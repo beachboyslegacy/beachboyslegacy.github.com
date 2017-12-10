@@ -1443,31 +1443,31 @@ $(function(){
         console.log('country'+country);
 
         if (country == 'GB' || country == 'gb' || country == 'UK' || country == 'uk'){
-          // amazonLink = 'amazonUk';
+          amazonLink = 'amazonUk';
           amazonBtnTxt = 'Buy on amazon.co.uk';
         }
         else if (country == 'ES' || country == 'es'){
-          // amazonLink = 'amazonEs';
+          amazonLink = 'amazonEs';
           amazonBtnTxt = 'Comprar en amazon.es';
         }
         else if (country == 'CA' || country == 'ca') {
-          // amazonLink = 'amazonCa';
+          amazonLink = 'amazonCa';
           amazonBtnTxt = 'Buy on amazon.ca';
         }
         else if (country == 'DE' || country == 'de') {
-          // amazonLink = 'amazonDe';
+          amazonLink = 'amazonDe';
           amazonBtnTxt = 'Kaufen bei amazon.de';
         }
         else if (country == 'FR' || country == 'fr') {
-          // amazonLink = 'amazonFr';
+          amazonLink = 'amazonFr';
           amazonBtnTxt = 'Acheter sur amazon.fr';
         }
         else if (country == 'IT' || country == 'it') {
-          // amazonLink = 'amazonIt';
+          amazonLink = 'amazonIt';
           amazonBtnTxt = 'Compra su amazon.it';
         }
         else{
-          // amazonLink = 'amazonUs';
+          amazonLink = 'amazonUs';
           amazonBtnTxt = 'Buy on amazon.com';
         }
 
