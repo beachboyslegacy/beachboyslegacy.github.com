@@ -140,7 +140,7 @@ $(function(){
             }
 
 
-            // NEW ALBUM OR NEW COMPILATION OR NEW BOOTLEG
+            // NEW ALBUM OR NEW COMPILATION OR NEW BOOTLEG OR NEW LIVE ALBUM
             else {
 
               // NEW ALBUM OR NEW BOXSET
