@@ -144,7 +144,7 @@ $(function(){
             else {
 
               // NEW ALBUM OR NEW BOXSET
-              if(data.items[i].parent.category.album == true || data.items[i].parent.category.boxset == true){
+              if(data.items[i].parent.category.album == true || data.items[i].parent.category.boxset == true || data.items[i].parent.category.live == true){
 
                 $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-date="'+data.items[i].parent.releaseYear+'">'+
                                   '<div class="item__header" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
