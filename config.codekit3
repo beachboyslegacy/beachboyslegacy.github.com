@@ -12965,14 +12965,6 @@
 		"oO": 0,
 		"oS": 1
 		},
-	"\/js\/data.json": {
-		"ft": 524288,
-		"oA": 0,
-		"oAP": "\/js\/data-min.json",
-		"oF": 3,
-		"oO": 0,
-		"oS": 1
-		},
 	"\/js\/jquery-webicon.js": {
 		"ft": 64,
 		"ma": 0,
