@@ -3680,6 +3680,36 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/img\/books\/2017-price-and-reference-guide\/price-and-reference-guide-back_hd.jpg": {
+		"ft": 16384,
+		"iS": 530872,
+		"oA": 0,
+		"oAP": "\/img\/books\/2017-price-and-reference-guide\/price-and-reference-guide-back_hd.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/books\/2017-price-and-reference-guide\/price-and-reference-guide-cover.jpg": {
+		"ft": 16384,
+		"iS": 149792,
+		"oA": 0,
+		"oAP": "\/img\/books\/2017-price-and-reference-guide\/price-and-reference-guide-cover.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/books\/2017-price-and-reference-guide\/price-and-reference-guide-cover_hd.jpg": {
+		"ft": 16384,
+		"iS": 768222,
+		"oA": 0,
+		"oAP": "\/img\/books\/2017-price-and-reference-guide\/price-and-reference-guide-cover_hd.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/img\/bootlegs\/brian-wilson\/1991-brian-wilson-smile\/brian-wilson-smile-cover.jpg": {
 		"ft": 16384,
 		"iS": 131916,
@@ -11750,6 +11780,26 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/img\/singles\/2017-sunshine-to-snowflakes\/sunshine-to-snowflakes-cover.jpg": {
+		"ft": 16384,
+		"iS": 46989,
+		"oA": 0,
+		"oAP": "\/img\/singles\/2017-sunshine-to-snowflakes\/sunshine-to-snowflakes-cover.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/singles\/2017-sunshine-to-snowflakes\/sunshine-to-snowflakes-cover_hd.jpg": {
+		"ft": 16384,
+		"iS": 240448,
+		"oA": 0,
+		"oAP": "\/img\/singles\/2017-sunshine-to-snowflakes\/sunshine-to-snowflakes-cover_hd.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/img\/various-artists\/1971-celebration-big-sur-folk-festival-monterey-1970\/celebration-big-sur-folk-festival-monterey-1970-cover.jpg": {
 		"ft": 16384,
 		"iS": 57061,
@@ -12962,6 +13012,14 @@
 		"oA": 1,
 		"oAP": "\/js\/data-min-min.json",
 		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/js\/data.json": {
+		"ft": 524288,
+		"oA": 0,
+		"oAP": "\/js\/data-min.json",
+		"oF": 1,
 		"oO": 0,
 		"oS": 1
 		},
