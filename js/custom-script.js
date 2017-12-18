@@ -186,8 +186,8 @@ $(function(){
 
                 }
 
-                // NEW COMPILATION
-                else if(data.items[i].parent.category.compilation == true){
+                // NEW COMPILATION OR SINGLE
+                else if(data.items[i].parent.category.compilation == true || data.items[i].parent.category.single == true){
 
                   $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-date="'+data.items[i].parent.releaseYear+'">'+
                                     '<div class="item__header" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
