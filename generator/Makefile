@@ -1,6 +1,10 @@
+.PHONY: all
+all:
+	python -m pip install -r requirements.txt
+
 .PHONY: dev
 dev:
-	python -m pip install -r requirements.txt
+	python -m pip install -r dev_requirements.txt
 
 .PHONY: venv
 venv:
