@@ -121,14 +121,15 @@ window.cookieconsent.initialise({
         <div class="selector__title">Artist</div>
         <div class="selector__current" id="current-artist"><span>The Beach Boys</span><div class="selector__icon"><webicon icon="material:arrow-drop-down"/></div></div>
         <ul id="artist" class="selector__options clearfix">
-          <li class="selector__options__current" data-artist="The Beach Boys" data-artistclass="bb">The Beach Boys</li>
-          <li data-artist="Brian Wilson" data-artistclass="bw">Brian Wilson</li>
-          <li data-artist="Dennis Wilson" data-artistclass="dw">Dennis Wilson</li>
-          <li data-artist="Carl Wilson" data-artistclass="cw">Carl Wilson</li>
-          <li data-artist="Mike Love" data-artistclass="ml">Mike Love</li>
-		  <li data-artist="Al Jardine" data-artistclass="aj">Al Jardine</li>
-          <li data-artist="David Marks" data-artistclass="dm">David Marks</li>
-          <li data-artist="Bruce Johnston" data-artistclass="bj">Bruce Johnston</li>
+            {% for artist in artists %}
+            <li
+                data-artist="{{artist["artist"]}}"
+                data-artistclass="{{artist["artistclass"]}}"
+                class={{ "selector__options__current" if artist["artist"] == "The Beach Boys" }}
+            >
+                {{artist["artist"]}}
+            </li>
+            {% endfor %}
         </ul>
       </div>
 
