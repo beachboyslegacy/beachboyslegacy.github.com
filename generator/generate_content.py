@@ -1,28 +1,38 @@
 from argparse import ArgumentParser
 from argparse import Namespace
 from json import loads
-from os.path import join
+from os import listdir
+from os import path
+from shutil import copytree
+from shutil import rmtree
 
 parser: ArgumentParser = ArgumentParser(
-    description="Grab JSOND and generate content for Pelican.",
+    description="Grab JSOND and generate a static website.",
 )
 
 parser.add_argument("jsond_data_filepath")
-parser.add_argument("output_content_dir")
+parser.add_argument("static_resources_dir")
+parser.add_argument("output_dir")
 
 args: Namespace = parser.parse_args()
 
+jsond_data_filepath: str = args.jsond_data_filepath
+static_resources_dir: str = args.static_resources_dir
+output_dir: str = args.output_dir
+
+# Load data into memmory.
 data: dict
 with open(args.jsond_data_filepath, "r") as jsond_data:
     data = loads(jsond_data.read())
 
-for item in data["items"]:
-    unique_id: str = item["parent"]["uniqueId"]
+# Let's remove the output directory and re-create it.
+rmtree(output_dir)
 
-    output_filename: str = join(
-        args.output_content_dir,
-        f"{unique_id}.markdown"
+# Move static resources into place first.
+for static_resource in listdir(static_resources_dir):
+    static_resource_path: str = path.join(
+        static_resources_dir,
+        static_resource,
     )
 
-    with open(output_filename, "w") as content_file:
-        content_file.write(f"title: #{unique_id}")
+    copytree(static_resource_path, output_dir)
