@@ -3,6 +3,7 @@ all:
 	python -m pip install -r requirements.txt
 
 .PHONY: dev
+dev: all
 dev:
 	python -m pip install -r dev_requirements.txt
 
