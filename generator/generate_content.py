@@ -5,7 +5,7 @@ from json import loads
 from os import path
 from shutil import copytree
 from shutil import rmtree
-from typing import Set
+from typing import List
 
 parser: ArgumentParser = ArgumentParser(
     description="Grab JSOND and generate a static website.",
@@ -39,10 +39,34 @@ index_template_path: str = path.join(templates_dir, "index.html.jinja2")
 with open(index_template_path, "r") as index_template:
     template: Template = Template(index_template.read())
 
-# Let's get a list of unique artists.
-artists: Set = sorted(set([
-    item["parent"].get("byArtist", "The Beach Boys") for item in data["items"]
-]))
+# The artists list is prefixed.
+# TODO: Grab dynamically from data?
+artists: List = [
+    {"artist": "The Beach Boys", "artistclass": "bb"},
+    {"artist": "Brian Wilson", "artistclass": "bw"},
+    {"artist": "Dennis Wilson", "artistclass": "dw"},
+    {"artist": "Carl Wilson", "artistclass": "cw"},
+    {"artist": "Mike Love", "artistclass": "ml"},
+    {"artist": "Al Jardine", "artistclass": "aj"},
+    {"artist": "David Marks", "artistclass": "dm"},
+    {"artist": "Bruce Johnston", "artistclass": "bj"},
+]
+
+# The category list is prefixed.
+# TODO: Grab dynamically from data?
+categories: List = [
+    "The Beach Boys",
+    "Brian Wilson",
+    "Dennis Wilson",
+    "Carl Wilson",
+    "Mike Love",
+    "Al Jardine",
+    "David Marks",
+    "Bruce Johnston",
+]
 
 with open(path.join(output_dir, "index.html"), "w") as index_file:
-    index_file.write(template.render(artists=artists))
+    index_file.write(template.render(
+        artists=artists,
+        categories=categories,
+    ))
