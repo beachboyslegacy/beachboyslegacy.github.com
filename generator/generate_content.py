@@ -29,10 +29,4 @@ with open(args.jsond_data_filepath, "r") as jsond_data:
 rmtree(output_dir)
 
 # Move static resources into place first.
-for static_resource in listdir(static_resources_dir):
-    static_resource_path: str = path.join(
-        static_resources_dir,
-        static_resource,
-    )
-
-    copytree(static_resource_path, output_dir)
+copytree(static_resources_dir, output_dir)
