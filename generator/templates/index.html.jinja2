@@ -177,11 +177,11 @@ window.cookieconsent.initialise({
 
   </div>
 
-  <ul class="items">
+  <ul class="items" id="items">
         {% for parent in parents: %}
             <li
                 id="{{parent["uniqueId"]}}"
-                data-date="{{parent["releaseDate"]}}"
+                data-date="{{parent["releaseYear"]}}"
                 {% if not parent["category"]["new"] %}
                     style="display: none"
                 {% endif %}
