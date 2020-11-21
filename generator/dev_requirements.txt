@@ -1,2 +1,1 @@
 flake8>=3.8.4
-simple-http-server>=0.3.1
