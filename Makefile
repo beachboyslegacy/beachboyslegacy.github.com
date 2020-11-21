@@ -13,4 +13,9 @@ venv:
 
 .PHONY: devserver
 devserver:
-	python -m http.server --directory www
+	python -m http.server --directory .
+
+.PHONY: build
+build: all
+build:
+	python generate.py ./js/data.json --output-dir . --templates ./templates
