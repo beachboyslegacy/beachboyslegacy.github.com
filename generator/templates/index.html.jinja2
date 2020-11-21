@@ -55,12 +55,6 @@
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 
-
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<!-- <script src="js/jquery.3.2.1.js"></script> -->
-
-
-
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -236,41 +230,40 @@ window.cookieconsent.initialise({
   <!-- <ul class="items"></ul> -->
 
   <ul class="items">
+        {% for parent in parents: %}
+            <li
+                id="{{parent["uniqueId"]}}"
+                data-date="{{parent["releaseDate"]}}"
+                {% if not parent["category"]["new"] %}
+                    hidden
+                {% endif %}
+            >
+                <div
+                    class="item__header"
+                    style="background-color:{{parent["backgroundColor"]}}"
+                >
+                    <img
+                        class="item__cover lazy"
+                        alt="{{parent["name"]}}"
+                        data-original="{{parent["image"]}}"
+                        src="{{parent["image"]}}"
+                        style=""
+                    >
 
-    <li id="sunshine-tomorrow" data-date="2017"><div class="item__header" style="background-color:#F16C35">
-      <img class="item__cover lazy" data-original="img/compilations/2017-sunshine-tomorrow/sunshine-tomorrow-cover.jpg" alt="1967 - Sunshine Tomorrow cover">
-      <div class="item__info">
-        <h2 class="item__title">1967 - Sunshine Tomorrow</h2>
-        <h3 class="item__subtitle"></h3>
-        <h3 class="item__year">2017</h3>
-        <img class="item__preloader" src="assets/preloader-item.svg" alt="preloader" />
-      </div>
-    </li>
-
-    <li id="christian-matijas-mecca-words-and-music" data-date="2017"><div class="item__header" style="background-color:#6CA7D8">
-      <img class="item__cover lazy" data-original="img/books/2017-christian-matijas-mecca-words-and-music/christian-matijas-mecca-words-and-music-cover.jpg" alt="The Words and Music of Brian Wilson cover">
-      <div class="item__info">
-        <h2 class="item__title">The Words and Music of Brian Wilson</h2>
-        <h3 class="item__subtitle"></h3>
-        <h3 class="item__year">2017</h3>
-        <img class="item__preloader" src="assets/preloader-item.svg" alt="preloader" />
-      </div>
-    </li>
-
-    <li id="dennis-wilson-bambu-the-caribou-sessions" data-date="2017"><div class="item__header" style="background-color:#73A365">
-      <img class="item__cover lazy" data-original="img/albums/dennis-wilson/2017-dennis-wilson-bambu-the-caribou-sessions/dennis-wilson-bambu-the-caribou-sessions-cover.jpg" alt="Bambu cover">
-      <div class="item__info">
-        <h2 class="item__title">Bambu</h2>
-        <h3 class="item__subtitle">The Caribou Sessions</h3>
-        <h3 class="item__year">2017</h3>
-        <img class="item__preloader" src="assets/preloader-item.svg" alt="preloader" />
-      </div>
-    </li>
-
-    <li style="background:#d5dbe5; text-align:center;">
-      <img class="item__preloader" src="assets/preloader-item.svg" alt="preloader" />
-    </li>
-
+                <div class="item__info">
+                    <h2 class="item__title">{{parent["name"]}}</h2>
+                    <h3 class="item__subtitle">{{parent["alternateName"]}}</h3>
+                    <h3 class="item__year">{{parent["releaseYear"]}}</h3>
+                    <div class="wpac-rating-ajax" data-wpac-chan="{{parent["uniqueId"]}}"></div>
+                    <a
+                        href="/items/{{parent["uniqueId"]}}"
+                        class="item__btn scroll-to-anchor"
+                    >
+                        See details and editions
+                    </a>
+                </div>
+            </li>
+        {% endfor %}
   </ul>
 
 
@@ -419,20 +412,6 @@ window.cookieconsent.initialise({
 <script async type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.10/cookieconsent.min.js"></script>
 <!-- End Cookie Consent plugin -->
 
-
-<!-- Uncomment the following four lines in local -->
-<!-- <script src="js/jquery.lazyload.1.9.7.min.js"></script>
-<script src="js/jquery.smooth-scroll.min.js"></script>
-<script src="js/jquery.shorten.min.js"></script>
-<script src="js/custom-script.js"></script> -->
-
-
-<!-- Uncomment the following line in production -->
-<script src="js/custom-script-min.js"></script>
-
-
-
-
 <!-- loads images 500px before they appear in the viewport -->
 <script>
   $("img.lazy").lazyload({
@@ -453,8 +432,6 @@ function wpac_ajax_init() {
 </script>
 
 
-
-<!-- <script async type="text/javascript" src="//cdn.rawgit.com/icons8/bower-webicon/v0.10.7/jquery-webicon.min.js"></script> -->
 
 
 
