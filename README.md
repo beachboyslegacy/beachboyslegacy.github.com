@@ -8,6 +8,8 @@ We use Jinja2 templates to generate the item views. When you change the template
 2. Add the changes `git add ./items`
 3. From this point on commit at discretion and remember to deploy the new `./items` dir.
 
+TIP: You might want to use `make devserver` to view your changes before commiting them.
+
 ### Dev environment
 
 We use Virtual Enviroments to separate the packages and Python version from the system's defaults.
