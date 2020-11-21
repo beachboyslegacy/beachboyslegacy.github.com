@@ -15,7 +15,10 @@ venv:
 devserver:
 	python -m http.server --directory .
 
+.PHONY: template
+template:
+	python generate.py ./js/data.json --output-dir . --templates ./templates
+
 .PHONY: build
 build: all
-build:
-	python generate.py ./js/data.json --output-dir . --templates ./templates
+build: template

@@ -4,7 +4,7 @@
 
 We use Jinja2 templates to generate the item views. When you change the template to format the item view in a different way, you should follow the next steps to commit them:
 
-1. Generate the view from the templates with `make build`
+1. Generate the view from the templates with `make template`
 2. Add the changes `git add ./items`
 3. From this point on commit at discretion and remember to deploy the new `./items` dir.
 
