@@ -34,40 +34,42 @@ rmtree(output_dir)
 # Move static resources into place first.
 copytree(static_resources_dir, output_dir)
 
-# Process index template.
-index_template_path: str = path.join(templates_dir, "index.html.jinja2")
-with open(index_template_path, "r") as index_template:
-    template: Template = Template(index_template.read())
+# We're not doing the index yet (maybe ever).
+if False:
+    # Process index template.
+    index_template_path: str = path.join(templates_dir, "index.html.jinja2")
+    with open(index_template_path, "r") as index_template:
+        template: Template = Template(index_template.read())
 
-# The artists list is prefixed.
-# TODO: Grab dynamically from data?
-artists: List = [
-    {"artist": "The Beach Boys", "artistclass": "bb"},
-    {"artist": "Brian Wilson", "artistclass": "bw"},
-    {"artist": "Dennis Wilson", "artistclass": "dw"},
-    {"artist": "Carl Wilson", "artistclass": "cw"},
-    {"artist": "Mike Love", "artistclass": "ml"},
-    {"artist": "Al Jardine", "artistclass": "aj"},
-    {"artist": "David Marks", "artistclass": "dm"},
-    {"artist": "Bruce Johnston", "artistclass": "bj"},
-]
+    # The artists list is prefixed.
+    # TODO: Grab dynamically from data?
+    artists: List = [
+        {"artist": "The Beach Boys", "artistclass": "bb"},
+        {"artist": "Brian Wilson", "artistclass": "bw"},
+        {"artist": "Dennis Wilson", "artistclass": "dw"},
+        {"artist": "Carl Wilson", "artistclass": "cw"},
+        {"artist": "Mike Love", "artistclass": "ml"},
+        {"artist": "Al Jardine", "artistclass": "aj"},
+        {"artist": "David Marks", "artistclass": "dm"},
+        {"artist": "Bruce Johnston", "artistclass": "bj"},
+    ]
 
-# The category list is prefixed.
-# TODO: Grab dynamically from data?
-categories: List = [
-    "The Beach Boys",
-    "Brian Wilson",
-    "Dennis Wilson",
-    "Carl Wilson",
-    "Mike Love",
-    "Al Jardine",
-    "David Marks",
-    "Bruce Johnston",
-]
+    # The category list is prefixed.
+    # TODO: Grab dynamically from data?
+    categories: List = [
+        "The Beach Boys",
+        "Brian Wilson",
+        "Dennis Wilson",
+        "Carl Wilson",
+        "Mike Love",
+        "Al Jardine",
+        "David Marks",
+        "Bruce Johnston",
+    ]
 
-with open(path.join(output_dir, "index.html"), "w") as index_file:
-    index_file.write(template.render(
-        artists=artists,
-        categories=categories,
-        parents=[item["parent"] for item in data["items"]],
-    ))
+    with open(path.join(output_dir, "index.html"), "w") as index_file:
+        index_file.write(template.render(
+            artists=artists,
+            categories=categories,
+            parents=[item["parent"] for item in data["items"]],
+        ))
