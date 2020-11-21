@@ -69,4 +69,5 @@ with open(path.join(output_dir, "index.html"), "w") as index_file:
     index_file.write(template.render(
         artists=artists,
         categories=categories,
+        parents=[item["parent"] for item in data["items"]],
     ))
