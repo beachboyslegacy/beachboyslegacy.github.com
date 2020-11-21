@@ -2,6 +2,7 @@ from argparse import ArgumentParser
 from argparse import Namespace
 from jinja2 import Template
 from json import loads
+from os import makedirs
 from os import path
 from shutil import copytree
 from shutil import rmtree
@@ -33,6 +34,24 @@ rmtree(output_dir)
 
 # Move static resources into place first.
 copytree(static_resources_dir, output_dir)
+
+# Process item templates.
+makedirs(path.join(output_dir, "items"), exist_ok=True)
+
+index_template_path: str = path.join(templates_dir, "item_view.html.jinja2")
+with open(index_template_path, "r") as index_template:
+    template: Template = Template(index_template.read())
+
+# For each item we'll generate an item view.
+for item in data["items"]:
+    output_template_path: str = path.join(
+        output_dir,
+        "items",
+        f"{item['parent']['uniqueId']}.html",
+    )
+
+    with open(output_template_path, "w") as template_file:
+        template_file.write(template.render(item=item))
 
 # We're not doing the index yet (maybe ever).
 if False:
