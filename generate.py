@@ -8,6 +8,7 @@ from shutil import copytree
 from shutil import rmtree
 from typing import List
 
+# Create a command line interface for the generator.
 parser: ArgumentParser = ArgumentParser(
     description="Grab JSOND and generate a static website.",
 )
@@ -20,7 +21,7 @@ parser.add_argument("--templates-dir")
 args: Namespace = parser.parse_args()
 
 jsond_data_filepath: str = args.jsond_data_filepath
-static_resources_dir: str = args.static_resources_dir or "./static_resources"
+static_resources_dir: str = args.static_resources_dir
 output_dir: str = args.output_dir or "./www"
 templates_dir: str = args.templates_dir or "./templates"
 
@@ -29,14 +30,14 @@ data: dict
 with open(args.jsond_data_filepath, "r") as jsond_data:
     data = loads(jsond_data.read())
 
-# Let's remove the output directory and re-create it.
-rmtree(output_dir)
+# Move static resources if specified.
+if static_resources_dir:
+    copytree(static_resources_dir, output_dir)
 
-# Move static resources into place first.
-copytree(static_resources_dir, output_dir)
-
-# Process item templates.
-makedirs(path.join(output_dir, "items"), exist_ok=True)
+# Process item templates. We'll start by removing old item contents.
+items_path: str = path.join(output_dir, "items")
+rmtree(items_path, ignore_errors=True)
+makedirs(items_path)
 
 index_template_path: str = path.join(templates_dir, "item_view.html.jinja2")
 with open(index_template_path, "r") as index_template:
