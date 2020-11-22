@@ -17,7 +17,7 @@ devserver:
 
 .PHONY: templates
 templates:
-	python generate.py ./js/data.json --output-dir . --templatess ./templatess
+	python generate.py ./js/data.json --output-dir . --templatess ./templates
 
 .PHONY: build
 build: all
