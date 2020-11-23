@@ -8,6 +8,9 @@ from shutil import copytree
 from shutil import rmtree
 from typing import List
 
+class CategoryException(Exception):
+    pass
+
 # Create a command line interface for the generator.
 parser: ArgumentParser = ArgumentParser(
     description="Grab JSOND and generate a static website.",
@@ -39,16 +42,77 @@ items_path: str = path.join(output_dir, "items")
 rmtree(items_path, ignore_errors=True)
 makedirs(items_path)
 
-index_template_path: str = path.join(templates_dir, "item_view.html.jinja2")
-with open(index_template_path, "r") as index_template:
-    template: Template = Template(index_template.read())
+# For each item we'll generate an item view. There are various types of items,
+# and for each we have a template. We must determine the category to which
+# each template belongs and render the right type of template for it.
 
-# For each item we'll generate an item view.
+album_cats: List = [
+    "album",
+    "collaboration",
+    "concert",
+    "live",
+    "production",
+    "sideProject",
+]
+compilation_cats: List = [
+    "compilation",
+    "boxset",
+    "single",
+    "variousArtists",
+]
+book_cats: List = ["book"]
+bootleg_cats: List = ["bootleg"]
+video_cats: List = ["video"]
+
 for item in data["items"]:
+    parent: dict = item["parent"]
+
+    # Grab all the "true" categories.
+    item_cats: List = {
+        k:v for k,v in parent["category"].items() if v
+    }.keys()
+
+    # We determine the template name by looking at the item's categories.
+    template_name: str
+    if [category for category in item_cats if category in album_cats]:
+        template_name = "album.html.jinja2"
+    elif [category for category in item_cats if category in compilation_cats]:
+        template_name = "compilation.html.jinja2"
+    elif [category for category in item_cats if category in book_cats]:
+        template_name = "book.html.jinja2"
+    elif [category for category in item_cats if category in bootleg_cats]:
+        template_name = "bootleg.html.jinja2"
+    elif [category for category in item_cats if category in video_cats]:
+        # Grab all the "true" subcats.
+        item_subcats: List = {
+            k:v for k,v in parent.get("subcategory", {}).items() if v
+        }.keys()
+
+        if "live" in item_subcats:
+            template_name = "video_live.html.jinja2"
+        elif "documentary" in item_subcats:
+            template_name = "video_documentary.html.jinja2"
+        elif "movie" in item_subcats:
+            template_name = "video_movie.html.jinja2"
+        else:
+            raise CategoryException(
+                f"Ivalid video subcategories for {parent['uniqueId']}"
+            )
+    else:
+        raise CategoryException(
+            f"Ivalid categories for {parent['uniqueId']}"
+        )
+
+    # Generate the template.
+    index_template_path: str = path.join(templates_dir, template_name)
+    with open(index_template_path, "r") as index_template:
+        template: Template = Template(index_template.read())
+
+    # Wirte the generated template to the its item file.
     output_template_path: str = path.join(
         output_dir,
         "items",
-        f"{item['parent']['uniqueId']}.html",
+        f"{parent['uniqueId']}.html",
     )
 
     with open(output_template_path, "w") as template_file:
