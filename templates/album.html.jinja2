@@ -245,20 +245,25 @@ window.cookieconsent.initialise({
 
 
     <li id="{{item["parent"]["uniqueId"]}}" data-date="{{item["parent"]["releaseYear"]}}">
+
       <div class="item__header" style="background-color:{{item["parent"]["backgroundColor"]}}">
-        <img class="item__cover lazy" data-original="{{item["parent"]["image"]}}" alt="{{item["parent"]["name"]}} cover">
+        <img class="item__cover--details" src="../../{{item["parent"]["image"]}}" alt="{{item["parent"]["name"]}} cover">
         <div class="item__info">
           <h2 class="item__title">{{item["parent"]["name"]}}</h2>
           <h3 class="item__subtitle">{{item["parent"]["alternateName"]}}</h3>
-          <h3 class="item__year">{{item["parent"]["releaseYear"]}}</h3>
+          <!-- <h3 class="item__year">{{item["parent"]["releaseYear"]}}</h3> -->
           <ul class="item__rating"></ul>
           <div class="wpac-rating-ajax" data-wpac-chan="{{item["parent"]["uniqueId"]}}"></div>
-
+          <p>Released on {{item["parent"]["releaseMonth"]}} {{item["parent"]["releaseDay"]}}, {{item["parent"]["releaseYear"]}}</p>
+          <p>{{item["parent"]["publisher"]}} {{item["parent"]["country"]}} {{item["parent"]["catalogNumber"]}}</p>
+          <p>Produced by {{item["parent"]["producer"]}}</p>
+          <p>Chart position: #{{item["parent"]["billboardPosition"]}}</p>
+          <p>{{item["parent"]["notes"]}}</p>
         </div>
       </div>
-      <div class="item__body">
+      <div class="item__body--details">
         <div class="parent-item__info">
-          <p>Released on '+thisReleaseMonthName+' '+thisReleaseDayNumber+', {{item["parent"]["releaseYear"]}}</p>
+          <p>Released on {{item["parent"]["releaseMonth"]}} {{item["parent"]["releaseDay"]}}, {{item["parent"]["releaseYear"]}}</p>
           <p>{{item["parent"]["publisher"]}} {{item["parent"]["country"]}} {{item["parent"]["catalogNumber"]}}</p>
           <p>Produced by {{item["parent"]["producer"]}}</p>
           <p>Chart position: #{{item["parent"]["billboardPosition"]}}</p>
@@ -272,11 +277,31 @@ window.cookieconsent.initialise({
                 <td></td>
                 <td>Composer</td>
               </tr>
+
+<!--
+              <tr>
+                <td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>
+                <td class="hit-or-gem"><img src="assets/star.svg" /> HIT</td>
+                <td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>
+              </tr> -->
+<!--
+              {% for user in users %}
+                <li>{{ user.username|e }}</li>
+
+                <tr>
+                  <td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>
+                  <td class="hit-or-gem"><img src="assets/star.svg" /> HIT</td>
+                  <td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>
+                </tr>
+
+              {% endfor %} -->
+
             </tbody>
           </table>
         </div>
 
         <ul class="child-items">
+
         </ul>
 
         <div class="item__footer">
@@ -287,9 +312,9 @@ window.cookieconsent.initialise({
     </li>
 
 
-    <li style="background:#d5dbe5; text-align:center;">
+    <!-- <li style="background:#d5dbe5; text-align:center;">
       <img class="item__preloader" src="../../assets/preloader-item.svg" alt="preloader" />
-    </li>
+    </li> -->
 
   </ul>
 
@@ -423,7 +448,6 @@ window.cookieconsent.initialise({
 <script src="../../js/jquery.smooth-scroll.min.js"></script>
 <script src="../../js/jquery.shorten.min.js"></script>
 <script src="../../js/custom-script.js"></script> -->
-
 
 <!-- Uncomment the following line in production -->
 <script src="../../js/custom-script-min.js"></script>
