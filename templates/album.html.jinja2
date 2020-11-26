@@ -280,23 +280,26 @@ window.cookieconsent.initialise({
                 <td>Composer</td>
               </tr>
 
+
+              {% for element in item["parent"]["track"]["itemListElement"] %}
+                  <tr>
+                    <td>{{element["item"]["trackNumber"]}}</td>
+                    <td>{{element["item"]["name"]}}</td>
+                    <td>{{element["item"]["composer"]}}</td>
+                    <td></td>
+                  </tr>
+
+              {% endfor %}
+
+
+
 <!--
               <tr>
                 <td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>
                 <td class="hit-or-gem"><img src="assets/star.svg" /> HIT</td>
                 <td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>
               </tr> -->
-<!--
-              {% for user in users %}
-                <li>{{ user.username|e }}</li>
 
-                <tr>
-                  <td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>
-                  <td class="hit-or-gem"><img src="assets/star.svg" /> HIT</td>
-                  <td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>
-                </tr>
-
-              {% endfor %} -->
 
             </tbody>
           </table>
@@ -434,11 +437,6 @@ window.cookieconsent.initialise({
   <div class="overlay-menu-bg closeOverlayMenu"></div>
 
 </div>
-
-
-{% for element in item["parent"]["track"]["itemListElement"] %}
-    <h1>{{element["item"]["name"]}}</h1>
-{% endfor %}
 
 
 <script async type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.10/cookieconsent.min.js"></script>
