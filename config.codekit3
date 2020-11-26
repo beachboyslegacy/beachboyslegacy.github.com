@@ -17172,14 +17172,6 @@
 		"sI": 0,
 		"sU": 0
 		},
-	"/templates/album.html.jinja2": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/templates/album.html.jinja2",
-		"oF": 0
-		},
 	"/templates/book.html.jinja2": {
 		"cB": 0,
 		"ft": 8192,
