@@ -316,6 +316,14 @@
 		"oAP": "/favicon.ico",
 		"oF": 1
 		},
+	"/generate.py": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/generate.py",
+		"oF": 0
+		},
 	"/icon.png": {
 		"ft": 32768,
 		"iS": 7786,
@@ -14470,78 +14478,6 @@
 		"oAP": "/index.html",
 		"oF": 0
 		},
-	"/items/12-songs-neil-diamond.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/12-songs-neil-diamond.html",
-		"oF": 0
-		},
-	"/items/15-big-ones.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/15-big-ones.html",
-		"oF": 0
-		},
-	"/items/1963-10-19-hollywood.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/1963-10-19-hollywood.html",
-		"oF": 0
-		},
-	"/items/1964-08-01-sacramento-01.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/1964-08-01-sacramento-01.html",
-		"oF": 0
-		},
-	"/items/1964-08-01-sacramento-02.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/1964-08-01-sacramento-02.html",
-		"oF": 0
-		},
-	"/items/1974-on-the-road-with-the-beach-boys.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/1974-on-the-road-with-the-beach-boys.html",
-		"oF": 0
-		},
-	"/items/1994-sweet-insanity-outtakes.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/1994-sweet-insanity-outtakes.html",
-		"oF": 0
-		},
-	"/items/20-christmas-stars-iii.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/20-christmas-stars-iii.html",
-		"oF": 0
-		},
-	"/items/20-golden-greats.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/20-golden-greats.html",
-		"oF": 0
-		},
 	"/items/20-good-vibrations-the-greatest-hits.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -14558,84 +14494,12 @@
 		"oAP": "/items/20-more-good-vibrations-the-greatest-hits-vol-2.html",
 		"oF": 0
 		},
-	"/items/21-little-ones.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/21-little-ones.html",
-		"oF": 0
-		},
-	"/items/25-years-of-good-vibrations.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/25-years-of-good-vibrations.html",
-		"oF": 0
-		},
-	"/items/26-big-ones.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/26-big-ones.html",
-		"oF": 0
-		},
 	"/items/30th-anniversary-show.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/30th-anniversary-show.html",
-		"oF": 0
-		},
-	"/items/50th-anniversary-in-london.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/50th-anniversary-in-london.html",
-		"oF": 0
-		},
-	"/items/a-cork-in-the-ocean.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/a-cork-in-the-ocean.html",
-		"oF": 0
-		},
-	"/items/a-dream-come-true.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/a-dream-come-true.html",
-		"oF": 0
-		},
-	"/items/a-long-promised-road.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/a-long-promised-road.html",
-		"oF": 0
-		},
-	"/items/a-mothers-gift-carnie-wilson.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/a-mothers-gift-carnie-wilson.html",
-		"oF": 0
-		},
-	"/items/a-pocket-symphony.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/a-pocket-symphony.html",
 		"oF": 0
 		},
 	"/items/a-postcard-from-california.html": {
@@ -14646,132 +14510,12 @@
 		"oAP": "/items/a-postcard-from-california.html",
 		"oF": 0
 		},
-	"/items/a-tribute-to-garth-brooks-new-friends-in-low-places.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/a-tribute-to-garth-brooks-new-friends-in-low-places.html",
-		"oF": 0
-		},
-	"/items/a-vocal-element.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/a-vocal-element.html",
-		"oF": 0
-		},
-	"/items/a-woman-and-a-man-belinda-carlisle.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/a-woman-and-a-man-belinda-carlisle.html",
-		"oF": 0
-		},
-	"/items/a-world-of-peace-must-come.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/a-world-of-peace-must-come.html",
-		"oF": 0
-		},
-	"/items/abba-a-tribute-the-25th-anniversary-celebration.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/abba-a-tribute-the-25th-anniversary-celebration.html",
-		"oF": 0
-		},
-	"/items/acapulco-girls-sol-de-mexico.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/acapulco-girls-sol-de-mexico.html",
-		"oF": 0
-		},
 	"/items/adam-webb-dumb-angel.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/adam-webb-dumb-angel.html",
-		"oF": 0
-		},
-	"/items/adult-child-cs.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/adult-child-cs.html",
-		"oF": 0
-		},
-	"/items/adult-child-millennium-edition.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/adult-child-millennium-edition.html",
-		"oF": 0
-		},
-	"/items/adult-child-updated.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/adult-child-updated.html",
-		"oF": 0
-		},
-	"/items/aj-1100-bel-air-place.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/aj-1100-bel-air-place.html",
-		"oF": 0
-		},
-	"/items/aj-acoustic-vibrations-surf-city-allstars.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/aj-acoustic-vibrations-surf-city-allstars.html",
-		"oF": 0
-		},
-	"/items/aj-barbie.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/aj-barbie.html",
-		"oF": 0
-		},
-	"/items/aj-chicago-vii.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/aj-chicago-vii.html",
-		"oF": 0
-		},
-	"/items/aj-christmas-the-gift-collin-raye.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/aj-christmas-the-gift-collin-raye.html",
-		"oF": 0
-		},
-	"/items/aj-county-line-southern-pacific.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/aj-county-line-southern-pacific.html",
 		"oF": 0
 		},
 	"/items/aj-drag-city-jan-and-dean.html": {
@@ -14790,52 +14534,12 @@
 		"oAP": "/items/aj-eye-contact-bob-welch.html",
 		"oF": 0
 		},
-	"/items/aj-good-music-joan-jett.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/aj-good-music-joan-jett.html",
-		"oF": 0
-		},
 	"/items/aj-hey-santa-carnie-and-wendy.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/aj-hey-santa-carnie-and-wendy.html",
-		"oF": 0
-		},
-	"/items/aj-mixed-messages-billy-hinsche.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/aj-mixed-messages-billy-hinsche.html",
-		"oF": 0
-		},
-	"/items/aj-scene-of-the-crime-killer-joe.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/aj-scene-of-the-crime-killer-joe.html",
-		"oF": 0
-		},
-	"/items/aj-spring-spring.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/aj-spring-spring.html",
-		"oF": 0
-		},
-	"/items/aj-the-monkeys-uncle.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/aj-the-monkeys-uncle.html",
 		"oF": 0
 		},
 	"/items/aj-warm-waters-charles-lloyd.html": {
@@ -14854,36 +14558,12 @@
 		"oAP": "/items/aj-waves-charles-lloyd.html",
 		"oF": 0
 		},
-	"/items/aj-we-are-the-world-25-for-haiti.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/aj-we-are-the-world-25-for-haiti.html",
-		"oF": 0
-		},
 	"/items/al-jardine-jimmy-pickering-sloop-john-b.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/al-jardine-jimmy-pickering-sloop-john-b.html",
-		"oF": 0
-		},
-	"/items/al-jardine-live-in-las-vegas.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/al-jardine-live-in-las-vegas.html",
-		"oF": 0
-		},
-	"/items/alex-farquharson-brian-wilson-an-art-book.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/alex-farquharson-brian-wilson-an-art-book.html",
 		"oF": 0
 		},
 	"/items/alive-and-smiling.html": {
@@ -14894,68 +14574,12 @@
 		"oAP": "/items/alive-and-smiling.html",
 		"oF": 0
 		},
-	"/items/all-summer-long-triangle.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/all-summer-long-triangle.html",
-		"oF": 0
-		},
-	"/items/all-summer-long.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/all-summer-long.html",
-		"oF": 0
-		},
-	"/items/all-the-hits-from-surf-city-to-drag-city.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/all-the-hits-from-surf-city-to-drag-city.html",
-		"oF": 0
-		},
-	"/items/all-this-is-that-sea-of-tunes.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/all-this-is-that-sea-of-tunes.html",
-		"oF": 0
-		},
-	"/items/aloha-from-hawaii-and-hollywood.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/aloha-from-hawaii-and-hollywood.html",
-		"oF": 0
-		},
-	"/items/alone-on-christmas-day.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/alone-on-christmas-day.html",
-		"oF": 0
-		},
 	"/items/alternative-pet-sounds.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/alternative-pet-sounds.html",
-		"oF": 0
-		},
-	"/items/amazing-kathy-dalton.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/amazing-kathy-dalton.html",
 		"oF": 0
 		},
 	"/items/american-birthday-party.html": {
@@ -14966,52 +14590,12 @@
 		"oAP": "/items/american-birthday-party.html",
 		"oF": 0
 		},
-	"/items/american-girls-myfair.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/american-girls-myfair.html",
-		"oF": 0
-		},
 	"/items/americathon.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/americathon.html",
-		"oF": 0
-		},
-	"/items/an-all-star-tribute-to-brian-wilson.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/an-all-star-tribute-to-brian-wilson.html",
-		"oF": 0
-		},
-	"/items/an-american-band.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/an-american-band.html",
-		"oF": 0
-		},
-	"/items/an-evening-with-pet-sounds.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/an-evening-with-pet-sounds.html",
-		"oF": 0
-		},
-	"/items/anaheim-76.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/anaheim-76.html",
 		"oF": 0
 		},
 	"/items/andrew-doe-john-tobler-complete-guide.html": {
@@ -15022,132 +14606,12 @@
 		"oAP": "/items/andrew-doe-john-tobler-complete-guide.html",
 		"oF": 0
 		},
-	"/items/andrew-hickey-the-beach-boys-on-cd-vol-1.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/andrew-hickey-the-beach-boys-on-cd-vol-1.html",
-		"oF": 0
-		},
-	"/items/andrew-hickey-the-beach-boys-on-cd-vol-2.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/andrew-hickey-the-beach-boys-on-cd-vol-2.html",
-		"oF": 0
-		},
-	"/items/andrew-hickey-the-beach-boys-on-cd-vol-3.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/andrew-hickey-the-beach-boys-on-cd-vol-3.html",
-		"oF": 0
-		},
-	"/items/andrew-lewand-concert-chronicles.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/andrew-lewand-concert-chronicles.html",
-		"oF": 0
-		},
-	"/items/andy-paley-sessions-volume-2.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/andy-paley-sessions-volume-2.html",
-		"oF": 0
-		},
-	"/items/angelo-angelo.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/angelo-angelo.html",
-		"oF": 0
-		},
-	"/items/another-page-christopher-cross.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/another-page-christopher-cross.html",
-		"oF": 0
-		},
-	"/items/any-emotions-mini-mansions.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/any-emotions-mini-mansions.html",
-		"oF": 0
-		},
-	"/items/apache-maitreya-kali.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/apache-maitreya-kali.html",
-		"oF": 0
-		},
-	"/items/archaeology.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/archaeology.html",
-		"oF": 0
-		},
-	"/items/arctic-tale.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/arctic-tale.html",
-		"oF": 0
-		},
-	"/items/bamboo-bell-bottom.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/bamboo-bell-bottom.html",
-		"oF": 0
-		},
-	"/items/bamboo.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/bamboo.html",
-		"oF": 0
-		},
 	"/items/barbara-ann.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/barbara-ann.html",
-		"oF": 0
-		},
-	"/items/barefoot-adventure-pendletones.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/barefoot-adventure-pendletones.html",
-		"oF": 0
-		},
-	"/items/bb-the-other-sides-of-the-beach-boys.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/bb-the-other-sides-of-the-beach-boys.html",
 		"oF": 0
 		},
 	"/items/bbcs-1.html": {
@@ -15158,44 +14622,12 @@
 		"oAP": "/items/bbcs-1.html",
 		"oF": 0
 		},
-	"/items/bbcs-2.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/bbcs-2.html",
-		"oF": 0
-		},
-	"/items/bbcs-3.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/bbcs-3.html",
-		"oF": 0
-		},
-	"/items/bbcs-4.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/bbcs-4.html",
-		"oF": 0
-		},
 	"/items/be-true-to-your-school.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/be-true-to-your-school.html",
-		"oF": 0
-		},
-	"/items/beach-boys-69.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/beach-boys-69.html",
 		"oF": 0
 		},
 	"/items/beach-boys-concert.html": {
@@ -15238,30 +14670,6 @@
 		"oAP": "/items/beach-boys-smile.html",
 		"oF": 0
 		},
-	"/items/beach-boys-vol-1-live-usa.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/beach-boys-vol-1-live-usa.html",
-		"oF": 0
-		},
-	"/items/beach-boys-vol-2-live-usa.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/beach-boys-vol-2-live-usa.html",
-		"oF": 0
-		},
-	"/items/beach-music-classics.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/beach-music-classics.html",
-		"oF": 0
-		},
 	"/items/beach-party.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -15270,84 +14678,12 @@
 		"oAP": "/items/beach-party.html",
 		"oF": 0
 		},
-	"/items/beach-with-ya-baby.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/beach-with-ya-baby.html",
-		"oF": 0
-		},
-	"/items/beached-ricci-martin.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/beached-ricci-martin.html",
-		"oF": 0
-		},
-	"/items/beauty-ryuichi-sakamoto.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/beauty-ryuichi-sakamoto.html",
-		"oF": 0
-		},
-	"/items/beckley-lamm-wilson-like-a-brother.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/beckley-lamm-wilson-like-a-brother.html",
-		"oF": 0
-		},
-	"/items/becoming-the-beach-boys.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/becoming-the-beach-boys.html",
-		"oF": 0
-		},
 	"/items/being-with-the-one-you-love.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/being-with-the-one-you-love.html",
-		"oF": 0
-		},
-	"/items/best-of-the-beach-boys-vol-2.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/best-of-the-beach-boys-vol-2.html",
-		"oF": 0
-		},
-	"/items/best-of-the-beach-boys-vol-3.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/best-of-the-beach-boys-vol-3.html",
-		"oF": 0
-		},
-	"/items/best-of-the-beach-boys.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/best-of-the-beach-boys.html",
-		"oF": 0
-		},
-	"/items/best-of-the-brother-years.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/best-of-the-brother-years.html",
 		"oF": 0
 		},
 	"/items/best-unsurpassed-masters.html": {
@@ -15374,28 +14710,12 @@
 		"oAP": "/items/bill-yerkes-surfboards-stratocasters-striped-shirts.html",
 		"oF": 0
 		},
-	"/items/bj-1100-bel-air-place.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/bj-1100-bel-air-place.html",
-		"oF": 0
-		},
 	"/items/bj-boats-against-the-current.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/bj-boats-against-the-current.html",
-		"oF": 0
-		},
-	"/items/bj-caribou-elton-john.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/bj-caribou-elton-john.html",
 		"oF": 0
 		},
 	"/items/bj-cass-elliot-mama-cass.html": {
@@ -15414,28 +14734,12 @@
 		"oAP": "/items/bj-change-of-heart-eric-carmen.html",
 		"oF": 0
 		},
-	"/items/bj-christmas-the-gift-collin-raye.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/bj-christmas-the-gift-collin-raye.html",
-		"oF": 0
-		},
 	"/items/bj-county-line-southern-pacific.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/bj-county-line-southern-pacific.html",
-		"oF": 0
-		},
-	"/items/bj-good-music-joan-jett.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/bj-good-music-joan-jett.html",
 		"oF": 0
 		},
 	"/items/bj-hat-trick-america.html": {
@@ -15454,46 +14758,6 @@
 		"oAP": "/items/bj-mixed-messages-billy-hinsche.html",
 		"oF": 0
 		},
-	"/items/bj-reg-strikes-back-elton-john.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/bj-reg-strikes-back-elton-john.html",
-		"oF": 0
-		},
-	"/items/bj-spirit-voices-the-kings-singers.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/bj-spirit-voices-the-kings-singers.html",
-		"oF": 0
-		},
-	"/items/bj-spring-spring.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/bj-spring-spring.html",
-		"oF": 0
-		},
-	"/items/bj-surfin-pirates-pink-lady.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/bj-surfin-pirates-pink-lady.html",
-		"oF": 0
-		},
-	"/items/bj-symphonic-sounds-music-of-the-beach-boys.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/bj-symphonic-sounds-music-of-the-beach-boys.html",
-		"oF": 0
-		},
 	"/items/blue-moo.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -15502,124 +14766,12 @@
 		"oAP": "/items/blue-moo.html",
 		"oF": 0
 		},
-	"/items/bluebirds-over-the-mountain.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/bluebirds-over-the-mountain.html",
-		"oF": 0
-		},
-	"/items/bo-diddleys-all-star-jam.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/bo-diddleys-all-star-jam.html",
-		"oF": 0
-		},
 	"/items/boogie-bands-and-one-night-stands.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/boogie-bands-and-one-night-stands.html",
-		"oF": 0
-		},
-	"/items/brad-elliot-surfs-up.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/brad-elliot-surfs-up.html",
-		"oF": 0
-		},
-	"/items/break-away-celebrate-the-news.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/break-away-celebrate-the-news.html",
-		"oF": 0
-		},
-	"/items/brian-chidester-domenic-priore-all-summer-long.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/brian-chidester-domenic-priore-all-summer-long.html",
-		"oF": 0
-		},
-	"/items/brian-is-back-first-solo-concert.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/brian-is-back-first-solo-concert.html",
-		"oF": 0
-		},
-	"/items/brian-loves-you.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/brian-loves-you.html",
-		"oF": 0
-		},
-	"/items/brian-wilson-1988.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/brian-wilson-1988.html",
-		"oF": 0
-		},
-	"/items/brian-wilson-a-beach-boys-tale.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/brian-wilson-a-beach-boys-tale.html",
-		"oF": 0
-		},
-	"/items/brian-wilson-and-andy-paley-sessions-1996.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/brian-wilson-and-andy-paley-sessions-1996.html",
-		"oF": 0
-		},
-	"/items/brian-wilson-and-friends-bluray.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/brian-wilson-and-friends-bluray.html",
-		"oF": 0
-		},
-	"/items/brian-wilson-and-friends.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/brian-wilson-and-friends.html",
-		"oF": 0
-		},
-	"/items/brian-wilson-and-the-beach-boys-solos.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/brian-wilson-and-the-beach-boys-solos.html",
-		"oF": 0
-		},
-	"/items/brian-wilson-andy-paley-sessions-1994-1996.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/brian-wilson-andy-paley-sessions-1994-1996.html",
 		"oF": 0
 		},
 	"/items/brian-wilson-ben-greenman-i-am-brian-wilson.html": {
@@ -15638,44 +14790,12 @@
 		"oAP": "/items/brian-wilson-imagination-documentary.html",
 		"oF": 0
 		},
-	"/items/brian-wilson-imagination.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/brian-wilson-imagination.html",
-		"oF": 0
-		},
-	"/items/brian-wilson-in-the-key-of-disney.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/brian-wilson-in-the-key-of-disney.html",
-		"oF": 0
-		},
 	"/items/brian-wilson-on-tour.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/brian-wilson-on-tour.html",
-		"oF": 0
-		},
-	"/items/brian-wilson-party.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/brian-wilson-party.html",
-		"oF": 0
-		},
-	"/items/brian-wilson-performs-smile.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/brian-wilson-performs-smile.html",
 		"oF": 0
 		},
 	"/items/brian-wilson-presents-pet-sounds-live.html": {
@@ -15694,62 +14814,6 @@
 		"oAP": "/items/brian-wilson-presents-smile-dvd.html",
 		"oF": 0
 		},
-	"/items/brian-wilson-presents-smile.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/brian-wilson-presents-smile.html",
-		"oF": 0
-		},
-	"/items/brian-wilson-rarities-beach-boys.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/brian-wilson-rarities-beach-boys.html",
-		"oF": 0
-		},
-	"/items/brian-wilson-reimagines-gershwin.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/brian-wilson-reimagines-gershwin.html",
-		"oF": 0
-		},
-	"/items/brian-wilson-sessions.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/brian-wilson-sessions.html",
-		"oF": 0
-		},
-	"/items/brian-wilson-smile.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/brian-wilson-smile.html",
-		"oF": 0
-		},
-	"/items/brian-wilson-songwriter-1962-1969.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/brian-wilson-songwriter-1962-1969.html",
-		"oF": 0
-		},
-	"/items/brian-wilson-songwriter-1969-1982.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/brian-wilson-songwriter-1969-1982.html",
-		"oF": 0
-		},
 	"/items/brian-wilson-that-lucky-old-sun.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -15758,148 +14822,12 @@
 		"oAP": "/items/brian-wilson-that-lucky-old-sun.html",
 		"oF": 0
 		},
-	"/items/brians-back-he-loves-you.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/brians-back-he-loves-you.html",
-		"oF": 0
-		},
-	"/items/brians-birthday-party.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/brians-birthday-party.html",
-		"oF": 0
-		},
-	"/items/brians-christmas-message.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/brians-christmas-message.html",
-		"oF": 0
-		},
-	"/items/bridge-benefit-1999.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/bridge-benefit-1999.html",
-		"oF": 0
-		},
-	"/items/bridge-benefit-unplugged.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/bridge-benefit-unplugged.html",
-		"oF": 0
-		},
-	"/items/bruce-and-terry-rare-masters.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/bruce-and-terry-rare-masters.html",
-		"oF": 0
-		},
 	"/items/bruce-golden-southern-california-pastoral.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/bruce-golden-southern-california-pastoral.html",
-		"oF": 0
-		},
-	"/items/buried-treasure-sailor.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/buried-treasure-sailor.html",
-		"oF": 0
-		},
-	"/items/bw-1100-bel-air-place.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/bw-1100-bel-air-place.html",
-		"oF": 0
-		},
-	"/items/bw-a-postcard-from-california.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/bw-a-postcard-from-california.html",
-		"oF": 0
-		},
-	"/items/bw-a-world-of-peace-must-come.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/bw-a-world-of-peace-must-come.html",
-		"oF": 0
-		},
-	"/items/bw-barbie-what-is-a-young-girl-made-of.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/bw-barbie-what-is-a-young-girl-made-of.html",
-		"oF": 0
-		},
-	"/items/bw-boats-against-the-current.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/bw-boats-against-the-current.html",
-		"oF": 0
-		},
-	"/items/bw-celebration-almost-summer.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/bw-celebration-almost-summer.html",
-		"oF": 0
-		},
-	"/items/bw-change-of-heart-eric-carmen.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/bw-change-of-heart-eric-carmen.html",
-		"oF": 0
-		},
-	"/items/bw-christmas-the-gift-collin-raye.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/bw-christmas-the-gift-collin-raye.html",
-		"oF": 0
-		},
-	"/items/bw-drag-city-jan-and-dean.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/bw-drag-city-jan-and-dean.html",
-		"oF": 0
-		},
-	"/items/bw-guess-im-dumb-glen-campbell.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/bw-guess-im-dumb-glen-campbell.html",
 		"oF": 0
 		},
 	"/items/bw-hey-santa-carnie-and-wendy.html": {
@@ -15926,22 +14854,6 @@
 		"oAP": "/items/bw-jan-and-dean-take-linda-surfin.html",
 		"oF": 0
 		},
-	"/items/bw-looking-back-with-love.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/bw-looking-back-with-love.html",
-		"oF": 0
-		},
-	"/items/bw-pamela-jean-after-the-game.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/bw-pamela-jean-after-the-game.html",
-		"oF": 0
-		},
 	"/items/bw-pulp-surfin.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -15956,14 +14868,6 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/bw-run-around-lover-summertime.html",
-		"oF": 0
-		},
-	"/items/bw-she-rides-with-me-paul-petersen.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/bw-she-rides-with-me-paul-petersen.html",
 		"oF": 0
 		},
 	"/items/bw-sound-of-free.html": {
@@ -15982,36 +14886,12 @@
 		"oAP": "/items/bw-spring-spring.html",
 		"oF": 0
 		},
-	"/items/bw-surfin-down-the-swanee-river.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/bw-surfin-down-the-swanee-river.html",
-		"oF": 0
-		},
-	"/items/bw-surfin-pirates-pink-lady.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/bw-surfin-pirates-pink-lady.html",
-		"oF": 0
-		},
 	"/items/bw-the-monkeys-uncle.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/bw-the-monkeys-uncle.html",
-		"oF": 0
-		},
-	"/items/bw-the-one-you-cant-have.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/bw-the-one-you-cant-have.html",
 		"oF": 0
 		},
 	"/items/bw-the-wilsons.html": {
@@ -16022,28 +14902,12 @@
 		"oAP": "/items/bw-the-wilsons.html",
 		"oF": 0
 		},
-	"/items/bw-vegetables-jan-and-dean.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/bw-vegetables-jan-and-dean.html",
-		"oF": 0
-		},
 	"/items/bw-warm-waters-charles-lloyd.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/bw-warm-waters-charles-lloyd.html",
-		"oF": 0
-		},
-	"/items/bw-we-are-the-world-25-for-haiti.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/bw-we-are-the-world-25-for-haiti.html",
 		"oF": 0
 		},
 	"/items/bw-why-do-fools-fall-in-love-california-music.html": {
@@ -16054,38 +14918,6 @@
 		"oAP": "/items/bw-why-do-fools-fall-in-love-california-music.html",
 		"oF": 0
 		},
-	"/items/byron-preiss-the-authorized-biography.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/byron-preiss-the-authorized-biography.html",
-		"oF": 0
-		},
-	"/items/california-dreamin-lady-liberty.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/california-dreamin-lady-liberty.html",
-		"oF": 0
-		},
-	"/items/california-easter-album.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/california-easter-album.html",
-		"oF": 0
-		},
-	"/items/california-feeling-cs.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/california-feeling-cs.html",
-		"oF": 0
-		},
 	"/items/california-feeling-updated.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -16094,116 +14926,12 @@
 		"oAP": "/items/california-feeling-updated.html",
 		"oF": 0
 		},
-	"/items/california-feeling.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/california-feeling.html",
-		"oF": 0
-		},
-	"/items/california-girl-nancy-sinatra.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/california-girl-nancy-sinatra.html",
-		"oF": 0
-		},
-	"/items/california-music-and-disney-girls.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/california-music-and-disney-girls.html",
-		"oF": 0
-		},
-	"/items/california-music-curt-boettcher.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/california-music-curt-boettcher.html",
-		"oF": 0
-		},
-	"/items/california-project.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/california-project.html",
-		"oF": 0
-		},
-	"/items/california-saga.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/california-saga.html",
-		"oF": 0
-		},
-	"/items/california-wilson-phillips.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/california-wilson-phillips.html",
-		"oF": 0
-		},
-	"/items/capitol-collectors-series-honeys.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/capitol-collectors-series-honeys.html",
-		"oF": 0
-		},
-	"/items/capitol-punishment.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/capitol-punishment.html",
-		"oF": 0
-		},
 	"/items/carl-and-the-passions-so-tough.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/carl-and-the-passions-so-tough.html",
-		"oF": 0
-		},
-	"/items/carl-wilson-here-and-now.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/carl-wilson-here-and-now.html",
-		"oF": 0
-		},
-	"/items/carl-wilson-under-god.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/carl-wilson-under-god.html",
-		"oF": 0
-		},
-	"/items/carl-wilson-youngblood.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/carl-wilson-youngblood.html",
-		"oF": 0
-		},
-	"/items/carl-wilson.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/carl-wilson.html",
 		"oF": 0
 		},
 	"/items/carnegie-hall-1972.html": {
@@ -16220,54 +14948,6 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/caroline-no.html",
-		"oF": 0
-		},
-	"/items/catch-a-wave-meleco.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/catch-a-wave-meleco.html",
-		"oF": 0
-		},
-	"/items/ccs-vol-1.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/ccs-vol-1.html",
-		"oF": 0
-		},
-	"/items/ccs-vol-2.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/ccs-vol-2.html",
-		"oF": 0
-		},
-	"/items/ccs-vol-3.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/ccs-vol-3.html",
-		"oF": 0
-		},
-	"/items/ccs-vol-4.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/ccs-vol-4.html",
-		"oF": 0
-		},
-	"/items/ccs-vol-5.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/ccs-vol-5.html",
 		"oF": 0
 		},
 	"/items/ccs-vol-6.html": {
@@ -16294,60 +14974,12 @@
 		"oAP": "/items/celebration-almost-summer.html",
 		"oF": 0
 		},
-	"/items/celebration-big-sur-folk-festival-monterey-1970.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/celebration-big-sur-folk-festival-monterey-1970.html",
-		"oF": 0
-		},
 	"/items/celebration.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/celebration.html",
-		"oF": 0
-		},
-	"/items/chapel-of-love.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/chapel-of-love.html",
-		"oF": 0
-		},
-	"/items/charles-granata-wouldnt-it-be-nice.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/charles-granata-wouldnt-it-be-nice.html",
-		"oF": 0
-		},
-	"/items/chicago-2000.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/chicago-2000.html",
-		"oF": 0
-		},
-	"/items/chicago-xi.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/chicago-xi.html",
-		"oF": 0
-		},
-	"/items/child-of-winter.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/child-of-winter.html",
 		"oF": 0
 		},
 	"/items/chocabeck-zucchero.html": {
@@ -16366,116 +14998,12 @@
 		"oAP": "/items/christian-matijas-mecca-words-and-music.html",
 		"oF": 0
 		},
-	"/items/christmas-album.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/christmas-album.html",
-		"oF": 0
-		},
-	"/items/christmas-party.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/christmas-party.html",
-		"oF": 0
-		},
-	"/items/christmas-sessions.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/christmas-sessions.html",
-		"oF": 0
-		},
-	"/items/christmas-spirit.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/christmas-spirit.html",
-		"oF": 0
-		},
-	"/items/classic-airwaves.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/classic-airwaves.html",
-		"oF": 0
-		},
 	"/items/classics-selected-by-brian-wilson.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/classics-selected-by-brian-wilson.html",
-		"oF": 0
-		},
-	"/items/coast-to-coast-paul-shaffer.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/coast-to-coast-paul-shaffer.html",
-		"oF": 0
-		},
-	"/items/come-back-brian.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/come-back-brian.html",
-		"oF": 0
-		},
-	"/items/cool-cool-water.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/cool-cool-water.html",
-		"oF": 0
-		},
-	"/items/cottonfields.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/cottonfields.html",
-		"oF": 0
-		},
-	"/items/cowabunga-the-surf-box.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/cowabunga-the-surf-box.html",
-		"oF": 0
-		},
-	"/items/crank-it-up-jeff-foxworthy.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/crank-it-up-jeff-foxworthy.html",
-		"oF": 0
-		},
-	"/items/crazy-from-the-heat.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/crazy-from-the-heat.html",
-		"oF": 0
-		},
-	"/items/crocodile-rock.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/crocodile-rock.html",
 		"oF": 0
 		},
 	"/items/cry-like-a-rainstorm-linda-rondstadt.html": {
@@ -16502,52 +15030,12 @@
 		"oAP": "/items/curious-george-2-follow-that-monkey.html",
 		"oF": 0
 		},
-	"/items/cw-1100-bel-air-place.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/cw-1100-bel-air-place.html",
-		"oF": 0
-		},
 	"/items/cw-a-postcard-from-california.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/cw-a-postcard-from-california.html",
-		"oF": 0
-		},
-	"/items/cw-barbie.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/cw-barbie.html",
-		"oF": 0
-		},
-	"/items/cw-beached-ricci-martin.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/cw-beached-ricci-martin.html",
-		"oF": 0
-		},
-	"/items/cw-caribou-elton-john.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/cw-caribou-elton-john.html",
-		"oF": 0
-		},
-	"/items/cw-cass-elliot-mama-cass.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/cw-cass-elliot-mama-cass.html",
 		"oF": 0
 		},
 	"/items/cw-chicago-vii.html": {
@@ -16566,14 +15054,6 @@
 		"oAP": "/items/cw-christmas-the-gift-collin-raye.html",
 		"oF": 0
 		},
-	"/items/cw-come-and-get-it-like-chop.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/cw-come-and-get-it-like-chop.html",
-		"oF": 0
-		},
 	"/items/cw-county-line-southern-pacific.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -16590,52 +15070,12 @@
 		"oAP": "/items/cw-dazzle-em-with-footwork.html",
 		"oF": 0
 		},
-	"/items/cw-dennis-wilson-pacific-ocean-blue.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/cw-dennis-wilson-pacific-ocean-blue.html",
-		"oF": 0
-		},
-	"/items/cw-drag-city-jan-and-dean.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/cw-drag-city-jan-and-dean.html",
-		"oF": 0
-		},
-	"/items/cw-eye-contact-bob-welch.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/cw-eye-contact-bob-welch.html",
-		"oF": 0
-		},
-	"/items/cw-good-music-joan-jett.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/cw-good-music-joan-jett.html",
-		"oF": 0
-		},
 	"/items/cw-hat-trick-america.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/cw-hat-trick-america.html",
-		"oF": 0
-		},
-	"/items/cw-hey-santa-carnie-and-wendy.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/cw-hey-santa-carnie-and-wendy.html",
 		"oF": 0
 		},
 	"/items/cw-jan-and-dean-take-linda-surfin.html": {
@@ -16670,14 +15110,6 @@
 		"oAP": "/items/cw-reg-strikes-back-elton-john.html",
 		"oF": 0
 		},
-	"/items/cw-scene-of-the-crime-killer-joe.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/cw-scene-of-the-crime-killer-joe.html",
-		"oF": 0
-		},
 	"/items/cw-sound-of-free.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -16694,30 +15126,6 @@
 		"oAP": "/items/cw-spring-spring.html",
 		"oF": 0
 		},
-	"/items/cw-surfin-pirates-pink-lady.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/cw-surfin-pirates-pink-lady.html",
-		"oF": 0
-		},
-	"/items/cw-the-monkeys-uncle.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/cw-the-monkeys-uncle.html",
-		"oF": 0
-		},
-	"/items/cw-warm-waters-charles-lloyd.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/cw-warm-waters-charles-lloyd.html",
-		"oF": 0
-		},
 	"/items/cw-waves-charles-lloyd.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -16726,44 +15134,12 @@
 		"oAP": "/items/cw-waves-charles-lloyd.html",
 		"oF": 0
 		},
-	"/items/cyclorama-styx.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/cyclorama-styx.html",
-		"oF": 0
-		},
 	"/items/damn-near-righteous-bill-medley.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/damn-near-righteous-bill-medley.html",
-		"oF": 0
-		},
-	"/items/david-leaf-the-beach-boys-and-the-california-myth.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/david-leaf-the-beach-boys-and-the-california-myth.html",
-		"oF": 0
-		},
-	"/items/david-marks-and-friends-live-on-sunset-2010.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/david-marks-and-friends-live-on-sunset-2010.html",
-		"oF": 0
-		},
-	"/items/david-marks-back-in-the-garage.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/david-marks-back-in-the-garage.html",
 		"oF": 0
 		},
 	"/items/david-marks-the-lost-years.html": {
@@ -16782,22 +15158,6 @@
 		"oAP": "/items/david-marks-the-ultimate-collectors-edition-1963-1965.html",
 		"oF": 0
 		},
-	"/items/david-marks-work-tapes.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/david-marks-work-tapes.html",
-		"oF": 0
-		},
-	"/items/dead-mans-curve-the-new-girl-in-school.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/dead-mans-curve-the-new-girl-in-school.html",
-		"oF": 0
-		},
 	"/items/dean-anthony-the-beach-boys.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -16814,76 +15174,12 @@
 		"oAP": "/items/deep-sea-treasures-vol-1.html",
 		"oF": 0
 		},
-	"/items/deep-sea-treasures-vol-2.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/deep-sea-treasures-vol-2.html",
-		"oF": 0
-		},
-	"/items/dennis-wilson-bambu-the-caribou-sessions.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/dennis-wilson-bambu-the-caribou-sessions.html",
-		"oF": 0
-		},
-	"/items/dennis-wilson-forever.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/dennis-wilson-forever.html",
-		"oF": 0
-		},
-	"/items/dennis-wilson-only-with-you.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/dennis-wilson-only-with-you.html",
-		"oF": 0
-		},
-	"/items/dennis-wilson-pacific-ocean-blue-legacy-edition.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/dennis-wilson-pacific-ocean-blue-legacy-edition.html",
-		"oF": 0
-		},
-	"/items/dennis-wilson-pacific-ocean-blue.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/dennis-wilson-pacific-ocean-blue.html",
-		"oF": 0
-		},
-	"/items/denny-remembered-vol-1.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/denny-remembered-vol-1.html",
-		"oF": 0
-		},
 	"/items/denny-remembered-vol-2.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/denny-remembered-vol-2.html",
-		"oF": 0
-		},
-	"/items/dirty-computer.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/dirty-computer.html",
 		"oF": 0
 		},
 	"/items/disco-celebration.html": {
@@ -16902,140 +15198,12 @@
 		"oAP": "/items/dm-acoustic-vibrations-surf-city-allstars.html",
 		"oF": 0
 		},
-	"/items/dm-jan-and-dean-take-linda-surfin.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/dm-jan-and-dean-take-linda-surfin.html",
-		"oF": 0
-		},
-	"/items/do-it-again-triangle.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/do-it-again-triangle.html",
-		"oF": 0
-		},
-	"/items/do-it-again.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/do-it-again.html",
-		"oF": 0
-		},
-	"/items/do-the-surfer-stomp-part-1.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/do-the-surfer-stomp-part-1.html",
-		"oF": 0
-		},
 	"/items/doin-it-again-symphony-hall.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/doin-it-again-symphony-hall.html",
-		"oF": 0
-		},
-	"/items/domenic-priore-look-listen-vibrate-smile.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/domenic-priore-look-listen-vibrate-smile.html",
-		"oF": 0
-		},
-	"/items/domenic-priore-pop-surf-culture.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/domenic-priore-pop-surf-culture.html",
-		"oF": 0
-		},
-	"/items/domenic-priore-smile.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/domenic-priore-smile.html",
-		"oF": 0
-		},
-	"/items/domenic-priore-the-dumb-angel-gazette-potpourri.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/domenic-priore-the-dumb-angel-gazette-potpourri.html",
-		"oF": 0
-		},
-	"/items/domenic-priore-the-dumb-angel-gazette.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/domenic-priore-the-dumb-angel-gazette.html",
-		"oF": 0
-		},
-	"/items/don-cunningham-jeff-bleiel-add-some-music.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/don-cunningham-jeff-bleiel-add-some-music.html",
-		"oF": 0
-		},
-	"/items/donovan-live-in-la-at-the-kodak-theatre.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/donovan-live-in-la-at-the-kodak-theatre.html",
-		"oF": 0
-		},
-	"/items/dont-run-away.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/dont-run-away.html",
-		"oF": 0
-		},
-	"/items/dont-worry-baby-everly-brothers.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/dont-worry-baby-everly-brothers.html",
-		"oF": 0
-		},
-	"/items/dont-you-just-know-it.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/dont-you-just-know-it.html",
-		"oF": 0
-		},
-	"/items/drag-city-jan-and-dean-single.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/drag-city-jan-and-dean-single.html",
-		"oF": 0
-		},
-	"/items/dream-comes-true.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/dream-comes-true.html",
 		"oF": 0
 		},
 	"/items/dw-beached-ricci-martin.html": {
@@ -17086,62 +15254,6 @@
 		"oAP": "/items/dw-spring-spring.html",
 		"oF": 0
 		},
-	"/items/dw-the-monkeys-uncle.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/dw-the-monkeys-uncle.html",
-		"oF": 0
-		},
-	"/items/east-coast-pipeline.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/east-coast-pipeline.html",
-		"oF": 0
-		},
-	"/items/east-meets-west.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/east-meets-west.html",
-		"oF": 0
-		},
-	"/items/edward-wincentsen-denny-remembered.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/edward-wincentsen-denny-remembered.html",
-		"oF": 0
-		},
-	"/items/endless-harmony-soundtrack.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/endless-harmony-soundtrack.html",
-		"oF": 0
-		},
-	"/items/endless-harmony-the-beach-boys-story.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/endless-harmony-the-beach-boys-story.html",
-		"oF": 0
-		},
-	"/items/endless-summer.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/endless-summer.html",
-		"oF": 0
-		},
 	"/items/everly-brothers-some-hearts.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -17158,62 +15270,6 @@
 		"oAP": "/items/everyones-in-love-with-you-harvest.html",
 		"oF": 0
 		},
-	"/items/falling-apart-emile-haynie.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/falling-apart-emile-haynie.html",
-		"oF": 0
-		},
-	"/items/farm-aid-volume-one-live.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/farm-aid-volume-one-live.html",
-		"oF": 0
-		},
-	"/items/fifty-big-ones-greatest-hits.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/fifty-big-ones-greatest-hits.html",
-		"oF": 0
-		},
-	"/items/figments-anton-fig.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/figments-anton-fig.html",
-		"oF": 0
-		},
-	"/items/filet-of-soul-a-live-one.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/filet-of-soul-a-live-one.html",
-		"oF": 0
-		},
-	"/items/fillmore-east-final-concert.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/fillmore-east-final-concert.html",
-		"oF": 0
-		},
-	"/items/fillmore-east-wild-bird.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/fillmore-east-wild-bird.html",
-		"oF": 0
-		},
 	"/items/first-love-country-love.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -17222,68 +15278,12 @@
 		"oAP": "/items/first-love-country-love.html",
 		"oF": 0
 		},
-	"/items/folkways-a-vision-shared.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/folkways-a-vision-shared.html",
-		"oF": 0
-		},
 	"/items/for-collectors-only.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/for-collectors-only.html",
-		"oF": 0
-		},
-	"/items/for-our-children.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/for-our-children.html",
-		"oF": 0
-		},
-	"/items/for-the-love-of-harry-everybody-sings-nilsson.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/for-the-love-of-harry-everybody-sings-nilsson.html",
-		"oF": 0
-		},
-	"/items/forever-john-stamos.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/forever-john-stamos.html",
-		"oF": 0
-		},
-	"/items/fourth-of-july.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/fourth-of-july.html",
-		"oF": 0
-		},
-	"/items/frankie-valli-and-the-four-seasons-jersey-beat.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/frankie-valli-and-the-four-seasons-jersey-beat.html",
-		"oF": 0
-		},
-	"/items/friends-a-capella.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/friends-a-capella.html",
 		"oF": 0
 		},
 	"/items/friends.html": {
@@ -17302,52 +15302,12 @@
 		"oAP": "/items/from-the-vaults-audiofon.html",
 		"oF": 0
 		},
-	"/items/from-the-vaults-dumb-angel.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/from-the-vaults-dumb-angel.html",
-		"oF": 0
-		},
-	"/items/fun-fun-fun-status-quo.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/fun-fun-fun-status-quo.html",
-		"oF": 0
-		},
-	"/items/fun-fun-fun-why-do-fools-fall-in-love.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/fun-fun-fun-why-do-fools-fall-in-love.html",
-		"oF": 0
-		},
-	"/items/fun-fun-fun-with-jimmy-page.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/fun-fun-fun-with-jimmy-page.html",
-		"oF": 0
-		},
 	"/items/g-a-de-forest-beach-boys-vs-beatlemania.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/g-a-de-forest-beach-boys-vs-beatlemania.html",
-		"oF": 0
-		},
-	"/items/gael-tynevez-lachevement-de-brian-wilson.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/gael-tynevez-lachevement-de-brian-wilson.html",
 		"oF": 0
 		},
 	"/items/gael-tynevez-lenfance-pour-leternite.html": {
@@ -17358,62 +15318,6 @@
 		"oAP": "/items/gael-tynevez-lenfance-pour-leternite.html",
 		"oF": 0
 		},
-	"/items/george-fest-the-music-of-george-harrison.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/george-fest-the-music-of-george-harrison.html",
-		"oF": 0
-		},
-	"/items/gettin-in-over-my-head.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/gettin-in-over-my-head.html",
-		"oF": 0
-		},
-	"/items/givin-you-up.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/givin-you-up.html",
-		"oF": 0
-		},
-	"/items/god-only-knows-bbc.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/god-only-knows-bbc.html",
-		"oF": 0
-		},
-	"/items/going-public.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/going-public.html",
-		"oF": 0
-		},
-	"/items/good-elaboration.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/good-elaboration.html",
-		"oF": 0
-		},
-	"/items/good-time.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/good-time.html",
-		"oF": 0
-		},
 	"/items/good-timin-live-at-knebworth-1980-dvd.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -17422,108 +15326,12 @@
 		"oAP": "/items/good-timin-live-at-knebworth-1980-dvd.html",
 		"oF": 0
 		},
-	"/items/good-timin-live-at-knebworth-1980.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/good-timin-live-at-knebworth-1980.html",
-		"oF": 0
-		},
-	"/items/good-vibrations-ep.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/good-vibrations-ep.html",
-		"oF": 0
-		},
-	"/items/good-vibrations-i-miti-del-rock.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/good-vibrations-i-miti-del-rock.html",
-		"oF": 0
-		},
-	"/items/good-vibrations-smile-sphinx.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/good-vibrations-smile-sphinx.html",
-		"oF": 0
-		},
-	"/items/good-vibrations-thirty-years-of-the-beach-boys.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/good-vibrations-thirty-years-of-the-beach-boys.html",
-		"oF": 0
-		},
-	"/items/goodbye-surfing-hello-god.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/goodbye-surfing-hello-god.html",
-		"oF": 0
-		},
-	"/items/goodnight-my-love-honeys.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/goodnight-my-love-honeys.html",
-		"oF": 0
-		},
 	"/items/graduation-day-1966.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/graduation-day-1966.html",
-		"oF": 0
-		},
-	"/items/grateful-dead-meets-the-beach-boys.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/grateful-dead-meets-the-beach-boys.html",
-		"oF": 0
-		},
-	"/items/greatest-hits-live.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/greatest-hits-live.html",
-		"oF": 0
-		},
-	"/items/grief-never-grows-old.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/grief-never-grows-old.html",
-		"oF": 0
-		},
-	"/items/guess-im-dumb-glen-campbell.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/guess-im-dumb-glen-campbell.html",
-		"oF": 0
-		},
-	"/items/happy-birthday-america-scorpio.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/happy-birthday-america-scorpio.html",
 		"oF": 0
 		},
 	"/items/happy-endings.html": {
@@ -17542,92 +15350,12 @@
 		"oAP": "/items/harmony-friends.html",
 		"oF": 0
 		},
-	"/items/hawthorne-ca-birthplace-of-a-musical-legacy.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/hawthorne-ca-birthplace-of-a-musical-legacy.html",
-		"oF": 0
-		},
-	"/items/he-couldnt-get-his-poor-old-body-to-move.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/he-couldnt-get-his-poor-old-body-to-move.html",
-		"oF": 0
-		},
-	"/items/heart-burton-cummings.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/heart-burton-cummings.html",
-		"oF": 0
-		},
-	"/items/heaven.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/heaven.html",
-		"oF": 0
-		},
 	"/items/help-me-rhonda-johnny-rivers.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/help-me-rhonda-johnny-rivers.html",
-		"oF": 0
-		},
-	"/items/help-me-tampa.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/help-me-tampa.html",
-		"oF": 0
-		},
-	"/items/here-and-now-is-forever-michael-angeloff.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/here-and-now-is-forever-michael-angeloff.html",
-		"oF": 0
-		},
-	"/items/here-comes-the-night-instrumental.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/here-comes-the-night-instrumental.html",
-		"oF": 0
-		},
-	"/items/here-comes-the-night-short.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/here-comes-the-night-short.html",
-		"oF": 0
-		},
-	"/items/here-comes-the-night.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/here-comes-the-night.html",
-		"oF": 0
-		},
-	"/items/heroes-and-vibrations.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/heroes-and-vibrations.html",
 		"oF": 0
 		},
 	"/items/heroes-and-villains-sessions-parts-1-2.html": {
@@ -17638,44 +15366,12 @@
 		"oAP": "/items/heroes-and-villains-sessions-parts-1-2.html",
 		"oF": 0
 		},
-	"/items/hes-a-doll-honeys.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/hes-a-doll-honeys.html",
-		"oF": 0
-		},
 	"/items/hey-little-tomboy.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/hey-little-tomboy.html",
-		"oF": 0
-		},
-	"/items/hold-me.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/hold-me.html",
-		"oF": 0
-		},
-	"/items/hold-on-brothers.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/hold-on-brothers.html",
-		"oF": 0
-		},
-	"/items/holland.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/holland.html",
 		"oF": 0
 		},
 	"/items/hourglass-america.html": {
@@ -17686,68 +15382,12 @@
 		"oAP": "/items/hourglass-america.html",
 		"oF": 0
 		},
-	"/items/human-conditions-richard-ashcroft.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/human-conditions-richard-ashcroft.html",
-		"oF": 0
-		},
-	"/items/human-nature-america.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/human-nature-america.html",
-		"oF": 0
-		},
-	"/items/hurricane-relief-come-together-now.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/hurricane-relief-come-together-now.html",
-		"oF": 0
-		},
-	"/items/hurry-up-hurry-up-santa-claus.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/hurry-up-hurry-up-santa-claus.html",
-		"oF": 0
-		},
-	"/items/i-can-hear-music-20-20-sessions.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/i-can-hear-music-20-20-sessions.html",
-		"oF": 0
-		},
 	"/items/i-can-hear-music-carl-wilson.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/i-can-hear-music-carl-wilson.html",
-		"oF": 0
-		},
-	"/items/i-do-castells.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/i-do-castells.html",
-		"oF": 0
-		},
-	"/items/i-just-wasnt-made-for-these-times-documentary.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/i-just-wasnt-made-for-these-times-documentary.html",
 		"oF": 0
 		},
 	"/items/i-just-wasnt-made-for-these-times.html": {
@@ -17766,38 +15406,6 @@
 		"oAP": "/items/i-think-about-you-often.html",
 		"oF": 0
 		},
-	"/items/ill-keep-on-loving-you-as-tears-go-by.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/ill-keep-on-loving-you-as-tears-go-by.html",
-		"oF": 0
-		},
-	"/items/in-blue-hawaii.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/in-blue-hawaii.html",
-		"oF": 0
-		},
-	"/items/in-concert-64-71.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/in-concert-64-71.html",
-		"oF": 0
-		},
-	"/items/in-my-head-robert-lamm.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/in-my-head-robert-lamm.html",
-		"oF": 0
-		},
 	"/items/in-my-room-iu.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -17814,100 +15422,12 @@
 		"oAP": "/items/in-the-beginning-the-garage-tapes.html",
 		"oF": 0
 		},
-	"/items/independence-day-party-1981.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/independence-day-party-1981.html",
-		"oF": 0
-		},
-	"/items/instrumental-hits.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/instrumental-hits.html",
-		"oF": 0
-		},
-	"/items/isnt-it-time-instrumental.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/isnt-it-time-instrumental.html",
-		"oF": 0
-		},
-	"/items/isnt-it-time-single.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/isnt-it-time-single.html",
-		"oF": 0
-		},
-	"/items/italia-murry-wilson.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/italia-murry-wilson.html",
-		"oF": 0
-		},
-	"/items/its-a-beautiful-day.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/its-a-beautiful-day.html",
-		"oF": 0
-		},
-	"/items/its-about-time-capricorn.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/its-about-time-capricorn.html",
-		"oF": 0
-		},
-	"/items/its-about-time-scorpio.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/its-about-time-scorpio.html",
-		"oF": 0
-		},
-	"/items/its-like-heaven-honeys.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/its-like-heaven-honeys.html",
-		"oF": 0
-		},
-	"/items/its-ok-hanson.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/its-ok-hanson.html",
-		"oF": 0
-		},
 	"/items/its-ok.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/its-ok.html",
-		"oF": 0
-		},
-	"/items/ive-loved-these-days-monica-mancini.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/ive-loved-these-days-monica-mancini.html",
 		"oF": 0
 		},
 	"/items/jack-hunter-surfin-with-satan.html": {
@@ -17934,92 +15454,12 @@
 		"oAP": "/items/james-murphy-becoming-the-beach-boys.html",
 		"oF": 0
 		},
-	"/items/japan-jam-79.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/japan-jam-79.html",
-		"oF": 0
-		},
-	"/items/jdrf-hope-for-the-holidays.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/jdrf-hope-for-the-holidays.html",
-		"oF": 0
-		},
-	"/items/jeff-sellars-god-only-knows.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/jeff-sellars-god-only-knows.html",
-		"oF": 0
-		},
-	"/items/jim-fusilli-pet-sounds.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/jim-fusilli-pet-sounds.html",
-		"oF": 0
-		},
 	"/items/jingle-bell-rock-lets-party.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/jingle-bell-rock-lets-party.html",
-		"oF": 0
-		},
-	"/items/joe-thomas-kie-miskelly-brian-wilson-solo.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/joe-thomas-kie-miskelly-brian-wilson-solo.html",
-		"oF": 0
-		},
-	"/items/joe-thomas-the-beach-boys-on-cd.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/joe-thomas-the-beach-boys-on-cd.html",
-		"oF": 0
-		},
-	"/items/joe-thomas-the-japanese-cd-releases.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/joe-thomas-the-japanese-cd-releases.html",
-		"oF": 0
-		},
-	"/items/john-luerssen-the-essential-interviews.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/john-luerssen-the-essential-interviews.html",
-		"oF": 0
-		},
-	"/items/john-milward-the-beach-boys-silver-anniversary.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/john-milward-the-beach-boys-silver-anniversary.html",
-		"oF": 0
-		},
-	"/items/john-stebbins-david-marks-the-lost-beach-boy.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/john-stebbins-david-marks-the-lost-beach-boy.html",
 		"oF": 0
 		},
 	"/items/john-stebbins-dennis-wilson-the-real-beach-boy.html": {
@@ -18030,14 +15470,6 @@
 		"oAP": "/items/john-stebbins-dennis-wilson-the-real-beach-boy.html",
 		"oF": 0
 		},
-	"/items/john-stebbins-the-beach-boys-faq.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/john-stebbins-the-beach-boys-faq.html",
-		"oF": 0
-		},
 	"/items/john-tobler-the-beach-boys.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -18046,36 +15478,12 @@
 		"oAP": "/items/john-tobler-the-beach-boys.html",
 		"oF": 0
 		},
-	"/items/johnny-morgan-the-beach-boys-americas-band.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/johnny-morgan-the-beach-boys-americas-band.html",
-		"oF": 0
-		},
-	"/items/jon-stebbins-ian-rusten-in-concert.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/jon-stebbins-ian-rusten-in-concert.html",
-		"oF": 0
-		},
 	"/items/jose-angel-gonzalez-bendita-locura.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/jose-angel-gonzalez-bendita-locura.html",
-		"oF": 0
-		},
-	"/items/journals-part-1.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/journals-part-1.html",
 		"oF": 0
 		},
 	"/items/journals-part-2.html": {
@@ -18094,22 +15502,6 @@
 		"oAP": "/items/juan-vitoria-the-beach-boys-surf-trip.html",
 		"oF": 0
 		},
-	"/items/just-14-tim-curry.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/just-14-tim-curry.html",
-		"oF": 0
-		},
-	"/items/just-the-way-i-feel.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/just-the-way-i-feel.html",
-		"oF": 0
-		},
 	"/items/karen-lesley-powell-scott-wilson-son-of-a-beach-boy.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -18118,52 +15510,12 @@
 		"oAP": "/items/karen-lesley-powell-scott-wilson-son-of-a-beach-boy.html",
 		"oF": 0
 		},
-	"/items/keep-an-eye-on-summer-sessions-1964.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/keep-an-eye-on-summer-sessions-1964.html",
-		"oF": 0
-		},
 	"/items/keepin-the-summer-alive.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/keepin-the-summer-alive.html",
-		"oF": 0
-		},
-	"/items/keepin-the-summer-live.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/keepin-the-summer-live.html",
-		"oF": 0
-		},
-	"/items/keith-badman-the-definitive-diary.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/keith-badman-the-definitive-diary.html",
-		"oF": 0
-		},
-	"/items/ken-barnes-a-biography-in-words-and-pictures.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/ken-barnes-a-biography-in-words-and-pictures.html",
-		"oF": 0
-		},
-	"/items/ken-sharp-dreamer.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/ken-sharp-dreamer.html",
 		"oF": 0
 		},
 	"/items/kent-crowley-long-promised-road.html": {
@@ -18182,52 +15534,12 @@
 		"oAP": "/items/kingsley-abbott-back-to-the-beach.html",
 		"oF": 0
 		},
-	"/items/kingsley-abbott-the-beach-boys-pet-sounds.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/kingsley-abbott-the-beach-boys-pet-sounds.html",
-		"oF": 0
-		},
-	"/items/kirk-curnutt-icons-of-pop-music-brian-wilson.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/kirk-curnutt-icons-of-pop-music-brian-wilson.html",
-		"oF": 0
-		},
-	"/items/knebworth-1980-mistral.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/knebworth-1980-mistral.html",
-		"oF": 0
-		},
-	"/items/knebworth-the-concert.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/knebworth-the-concert.html",
-		"oF": 0
-		},
 	"/items/knebworth-the-rehearsals.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/knebworth-the-rehearsals.html",
-		"oF": 0
-		},
-	"/items/kokomo-spanish-version.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/kokomo-spanish-version.html",
 		"oF": 0
 		},
 	"/items/kunihiko-sano-the-beach-boys-complete.html": {
@@ -18246,28 +15558,12 @@
 		"oAP": "/items/la-light-album.html",
 		"oF": 0
 		},
-	"/items/lady-lynda.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/lady-lynda.html",
-		"oF": 0
-		},
 	"/items/lake-ii.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/lake-ii.html",
-		"oF": 0
-		},
-	"/items/landlocked-9009.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/landlocked-9009.html",
 		"oF": 0
 		},
 	"/items/landlocked-adult-child-frontline.html": {
@@ -18278,76 +15574,12 @@
 		"oAP": "/items/landlocked-adult-child-frontline.html",
 		"oF": 0
 		},
-	"/items/landlocked-adult-child-pegboy.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/landlocked-adult-child-pegboy.html",
-		"oF": 0
-		},
-	"/items/landlocked-brother.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/landlocked-brother.html",
-		"oF": 0
-		},
-	"/items/landlocked-polyphone.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/landlocked-polyphone.html",
-		"oF": 0
-		},
-	"/items/landlocked-the-last-capitol-album.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/landlocked-the-last-capitol-album.html",
-		"oF": 0
-		},
 	"/items/landlocked-the-unreleased-1970-album-capital.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/landlocked-the-unreleased-1970-album-capital.html",
-		"oF": 0
-		},
-	"/items/landylocked.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/landylocked.html",
-		"oF": 0
-		},
-	"/items/leggo-my-ego.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/leggo-my-ego.html",
-		"oF": 0
-		},
-	"/items/leid-in-hawaii-rehearsal.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/leid-in-hawaii-rehearsal.html",
-		"oF": 0
-		},
-	"/items/lets-go-to-heaven-in-my-car-too-much-sugar.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/lets-go-to-heaven-in-my-car-too-much-sugar.html",
 		"oF": 0
 		},
 	"/items/lets-go-trippin-rockcartoon.html": {
@@ -18366,36 +15598,12 @@
 		"oAP": "/items/liberty-bell.html",
 		"oF": 0
 		},
-	"/items/listen-to-me-buddy-holly.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/listen-to-me-buddy-holly.html",
-		"oF": 0
-		},
 	"/items/little-deuce-coupe.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/little-deuce-coupe.html",
-		"oF": 0
-		},
-	"/items/little-saint-nick-the-lords-prayer.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/little-saint-nick-the-lords-prayer.html",
-		"oF": 0
-		},
-	"/items/live-aid-live-1985.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/live-aid-live-1985.html",
 		"oF": 0
 		},
 	"/items/live-at-madison-square-garden.html": {
@@ -18406,28 +15614,12 @@
 		"oAP": "/items/live-at-madison-square-garden.html",
 		"oF": 0
 		},
-	"/items/live-at-syracuse-1971.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/live-at-syracuse-1971.html",
-		"oF": 0
-		},
 	"/items/live-at-the-cbs-convention.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/live-at-the-cbs-convention.html",
-		"oF": 0
-		},
-	"/items/live-at-the-fillmore-east-1971.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/live-at-the-fillmore-east-1971.html",
 		"oF": 0
 		},
 	"/items/live-at-the-fillmore-east-moonlight.html": {
@@ -18462,22 +15654,6 @@
 		"oAP": "/items/live-from-michigan-state-university.html",
 		"oF": 0
 		},
-	"/items/live-from-the-bottom-line-1981.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/live-from-the-bottom-line-1981.html",
-		"oF": 0
-		},
-	"/items/live-imagination.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/live-imagination.html",
-		"oF": 0
-		},
 	"/items/live-in-belgium-1987.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -18486,164 +15662,12 @@
 		"oAP": "/items/live-in-belgium-1987.html",
 		"oF": 0
 		},
-	"/items/live-in-chicago-1965.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/live-in-chicago-1965.html",
-		"oF": 0
-		},
 	"/items/live-in-concert-the-surf-city-allstar-band.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/live-in-concert-the-surf-city-allstar-band.html",
-		"oF": 0
-		},
-	"/items/live-in-japan-1966.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/live-in-japan-1966.html",
-		"oF": 0
-		},
-	"/items/live-in-japan-66.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/live-in-japan-66.html",
-		"oF": 0
-		},
-	"/items/live-in-london-hmc.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/live-in-london-hmc.html",
-		"oF": 0
-		},
-	"/items/live-in-sacramento-1964-first-show.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/live-in-sacramento-1964-first-show.html",
-		"oF": 0
-		},
-	"/items/live-in-sacramento-1964-second-show.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/live-in-sacramento-1964-second-show.html",
-		"oF": 0
-		},
-	"/items/live-in-sacramento-1964.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/live-in-sacramento-1964.html",
-		"oF": 0
-		},
-	"/items/live-in-the-eighties.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/live-in-the-eighties.html",
-		"oF": 0
-		},
-	"/items/live-listen-smile-vibration.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/live-listen-smile-vibration.html",
-		"oF": 0
-		},
-	"/items/live-sunshine.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/live-sunshine.html",
-		"oF": 0
-		},
-	"/items/live-the-50th-anniversary-tour.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/live-the-50th-anniversary-tour.html",
-		"oF": 0
-		},
-	"/items/lived-1993.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/lived-1993.html",
-		"oF": 0
-		},
-	"/items/livin-with-a-heartache.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/livin-with-a-heartache.html",
-		"oF": 0
-		},
-	"/items/living-doll.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/living-doll.html",
-		"oF": 0
-		},
-	"/items/long-lost-surf-songs-vol-1.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/long-lost-surf-songs-vol-1.html",
-		"oF": 0
-		},
-	"/items/long-lost-surf-songs-vol-2.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/long-lost-surf-songs-vol-2.html",
-		"oF": 0
-		},
-	"/items/long-lost-surf-songs-vol-3.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/long-lost-surf-songs-vol-3.html",
-		"oF": 0
-		},
-	"/items/long-lost-surf-songs-vol-4.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/long-lost-surf-songs-vol-4.html",
-		"oF": 0
-		},
-	"/items/long-lost-surf-songs-vol-5.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/long-lost-surf-songs-vol-5.html",
 		"oF": 0
 		},
 	"/items/long-lost-surf-songs-vol-6.html": {
@@ -18662,54 +15686,6 @@
 		"oAP": "/items/looking-back-with-love-be-my-baby.html",
 		"oF": 0
 		},
-	"/items/looking-back-with-love.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/looking-back-with-love.html",
-		"oF": 0
-		},
-	"/items/lora-greene-the-good-vibrations-of-brian-wilson.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/lora-greene-the-good-vibrations-of-brian-wilson.html",
-		"oF": 0
-		},
-	"/items/lost-and-found.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/lost-and-found.html",
-		"oF": 0
-		},
-	"/items/love-and-mercy.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/love-and-mercy.html",
-		"oF": 0
-		},
-	"/items/love-you-and-more.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/love-you-and-more.html",
-		"oF": 0
-		},
-	"/items/luau.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/luau.html",
-		"oF": 0
-		},
 	"/items/luis-bradshaw-everything-you-need-to-know.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -18718,60 +15694,12 @@
 		"oAP": "/items/luis-bradshaw-everything-you-need-to-know.html",
 		"oF": 0
 		},
-	"/items/luis-sanchez-33-1-3-smile.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/luis-sanchez-33-1-3-smile.html",
-		"oF": 0
-		},
-	"/items/lullagoodbye-taylor-mills.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/lullagoodbye-taylor-mills.html",
-		"oF": 0
-		},
-	"/items/made-in-california.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/made-in-california.html",
-		"oF": 0
-		},
-	"/items/made-in-usa-brother.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/made-in-usa-brother.html",
-		"oF": 0
-		},
 	"/items/made-in-usa.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/made-in-usa.html",
-		"oF": 0
-		},
-	"/items/mai-tai-roa-ae-steve-dahl.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/mai-tai-roa-ae-steve-dahl.html",
-		"oF": 0
-		},
-	"/items/make-a-smile.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/make-a-smile.html",
 		"oF": 0
 		},
 	"/items/manfred-schmidt-christian-haschke-this-whole-world.html": {
@@ -18788,38 +15716,6 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/marc-schuster-tired-of-california.html",
-		"oF": 0
-		},
-	"/items/mark-dillon-fifty-sides-of-the-beach-boys.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/mark-dillon-fifty-sides-of-the-beach-boys.html",
-		"oF": 0
-		},
-	"/items/mark-holcomb-rock-and-roll-hall-of-famers.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/mark-holcomb-rock-and-roll-hall-of-famers.html",
-		"oF": 0
-		},
-	"/items/marks-clifford-band-live-blue-dolphin.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/marks-clifford-band-live-blue-dolphin.html",
-		"oF": 0
-		},
-	"/items/masterpiece-vol-1.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/masterpiece-vol-1.html",
 		"oF": 0
 		},
 	"/items/max-harrick-shenk-meeting-dennis-wilson.html": {
@@ -18846,100 +15742,12 @@
 		"oAP": "/items/mayor-of-the-sunset-strip.html",
 		"oF": 0
 		},
-	"/items/meet-the-grateful-dead.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/meet-the-grateful-dead.html",
-		"oF": 0
-		},
-	"/items/merry-christmas-from-the-beach-boys.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/merry-christmas-from-the-beach-boys.html",
-		"oF": 0
-		},
-	"/items/merry-xmas-cs.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/merry-xmas-cs.html",
-		"oF": 0
-		},
-	"/items/mike-love-and-dean-torrence-listen-to-the-air.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/mike-love-and-dean-torrence-listen-to-the-air.html",
-		"oF": 0
-		},
-	"/items/mike-love-dean-torrence-rock-and-roll-city.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/mike-love-dean-torrence-rock-and-roll-city.html",
-		"oF": 0
-		},
-	"/items/mike-love-james-hirsch-good-vibrations.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/mike-love-james-hirsch-good-vibrations.html",
-		"oF": 0
-		},
 	"/items/mike-love-not-war-spank.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/mike-love-not-war-spank.html",
-		"oF": 0
-		},
-	"/items/mind-if-we-make-love-to-you.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/mind-if-we-make-love-to-you.html",
-		"oF": 0
-		},
-	"/items/miu-album.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/miu-album.html",
-		"oF": 0
-		},
-	"/items/ml-1100-bel-air-place.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/ml-1100-bel-air-place.html",
-		"oF": 0
-		},
-	"/items/ml-a-postcard-from-california.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/ml-a-postcard-from-california.html",
-		"oF": 0
-		},
-	"/items/ml-christmas-the-gift-collin-raye.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/ml-christmas-the-gift-collin-raye.html",
 		"oF": 0
 		},
 	"/items/ml-county-line-southern-pacific.html": {
@@ -18950,68 +15758,12 @@
 		"oAP": "/items/ml-county-line-southern-pacific.html",
 		"oF": 0
 		},
-	"/items/ml-drag-city-jan-and-dean.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/ml-drag-city-jan-and-dean.html",
-		"oF": 0
-		},
-	"/items/ml-fourth-of-july.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/ml-fourth-of-july.html",
-		"oF": 0
-		},
 	"/items/ml-good-music-joan-jett.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/ml-good-music-joan-jett.html",
-		"oF": 0
-		},
-	"/items/ml-hey-santa-carnie-and-wendy.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/ml-hey-santa-carnie-and-wendy.html",
-		"oF": 0
-		},
-	"/items/ml-jan-and-dean-take-linda-surfin.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/ml-jan-and-dean-take-linda-surfin.html",
-		"oF": 0
-		},
-	"/items/ml-jdrf-hope-for-the-holidays.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/ml-jdrf-hope-for-the-holidays.html",
-		"oF": 0
-		},
-	"/items/ml-king-harvest-vaea.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/ml-king-harvest-vaea.html",
-		"oF": 0
-		},
-	"/items/ml-legendary-masked-surfer-unmasked.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/ml-legendary-masked-surfer-unmasked.html",
 		"oF": 0
 		},
 	"/items/ml-mixed-messages-billy-hinsche.html": {
@@ -19030,22 +15782,6 @@
 		"oAP": "/items/ml-run-around-lover-summertime.html",
 		"oF": 0
 		},
-	"/items/ml-spirit-voices-the-kings-singers.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/ml-spirit-voices-the-kings-singers.html",
-		"oF": 0
-		},
-	"/items/ml-spring-spring.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/ml-spring-spring.html",
-		"oF": 0
-		},
 	"/items/ml-surfin-pirates-pink-lady.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -19054,92 +15790,12 @@
 		"oAP": "/items/ml-surfin-pirates-pink-lady.html",
 		"oF": 0
 		},
-	"/items/ml-symphonic-sounds-music-of-the-beach-boys.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/ml-symphonic-sounds-music-of-the-beach-boys.html",
-		"oF": 0
-		},
-	"/items/ml-the-monkeys-uncle.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/ml-the-monkeys-uncle.html",
-		"oF": 0
-		},
 	"/items/ml-the-other-sides-of-the-beach-boys.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/ml-the-other-sides-of-the-beach-boys.html",
-		"oF": 0
-		},
-	"/items/ml-warm-waters-charles-lloyd.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/ml-warm-waters-charles-lloyd.html",
-		"oF": 0
-		},
-	"/items/ml-waves-charles-lloyd.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/ml-waves-charles-lloyd.html",
-		"oF": 0
-		},
-	"/items/mom-3-music-for-our-mother-ocean.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/mom-3-music-for-our-mother-ocean.html",
-		"oF": 0
-		},
-	"/items/monster-mash-oil-well.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/monster-mash-oil-well.html",
-		"oF": 0
-		},
-	"/items/more-andy-paley-sessions.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/more-andy-paley-sessions.html",
-		"oF": 0
-		},
-	"/items/music-for-our-mother-ocean-ii.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/music-for-our-mother-ocean-ii.html",
-		"oF": 0
-		},
-	"/items/musicares-a-tribute-to-brian-wilson.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/musicares-a-tribute-to-brian-wilson.html",
-		"oF": 0
-		},
-	"/items/mutual-admiration.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/mutual-admiration.html",
 		"oF": 0
 		},
 	"/items/my-buddy-seat.html": {
@@ -19190,14 +15846,6 @@
 		"oAP": "/items/no-go-showboat-timers.html",
 		"oF": 0
 		},
-	"/items/no-pier-pressure.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/no-pier-pressure.html",
-		"oF": 0
-		},
 	"/items/old-vibrations.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -19206,52 +15854,12 @@
 		"oAP": "/items/old-vibrations.html",
 		"oF": 0
 		},
-	"/items/on-the-beach.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/on-the-beach.html",
-		"oF": 0
-		},
 	"/items/on-the-road.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/on-the-road.html",
-		"oF": 0
-		},
-	"/items/on-tour-1968.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/on-tour-1968.html",
-		"oF": 0
-		},
-	"/items/one-beach-boys-original-album.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/one-beach-boys-original-album.html",
-		"oF": 0
-		},
-	"/items/one-in-a-million.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/one-in-a-million.html",
-		"oF": 0
-		},
-	"/items/open-hearts-clear-mines.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/open-hearts-clear-mines.html",
 		"oF": 0
 		},
 	"/items/orange-crate-art.html": {
@@ -19286,68 +15894,12 @@
 		"oAP": "/items/our-prayer-freeform-reform.html",
 		"oF": 0
 		},
-	"/items/our-prayer-good-vibrations-live.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/our-prayer-good-vibrations-live.html",
-		"oF": 0
-		},
-	"/items/pacific-ocean-blue-bamboo-delux-edition.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/pacific-ocean-blue-bamboo-delux-edition.html",
-		"oF": 0
-		},
-	"/items/pacific-ocean-blue-bamboo-hen.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/pacific-ocean-blue-bamboo-hen.html",
-		"oF": 0
-		},
 	"/items/pajama-party.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/pajama-party.html",
-		"oF": 0
-		},
-	"/items/pamela-jean-after-the-game.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/pamela-jean-after-the-game.html",
-		"oF": 0
-		},
-	"/items/party-at-the-palace-dvd.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/party-at-the-palace-dvd.html",
-		"oF": 0
-		},
-	"/items/party-at-the-palace.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/party-at-the-palace.html",
-		"oF": 0
-		},
-	"/items/passionfruit-california.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/passionfruit-california.html",
 		"oF": 0
 		},
 	"/items/paul-williams-how-deep-is-the-ocean.html": {
@@ -19374,52 +15926,12 @@
 		"oAP": "/items/pet-bowl.html",
 		"oF": 0
 		},
-	"/items/pet-projects-the-brian-wilson-productions.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/pet-projects-the-brian-wilson-productions.html",
-		"oF": 0
-		},
-	"/items/pet-sounds-50th-anniversary.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/pet-sounds-50th-anniversary.html",
-		"oF": 0
-		},
-	"/items/pet-sounds-classic-album.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/pet-sounds-classic-album.html",
-		"oF": 0
-		},
 	"/items/pet-sounds-live-in-london.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/pet-sounds-live-in-london.html",
-		"oF": 0
-		},
-	"/items/pet-sounds-live-stash.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/pet-sounds-live-stash.html",
-		"oF": 0
-		},
-	"/items/pet-sounds-millennium-edition.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/pet-sounds-millennium-edition.html",
 		"oF": 0
 		},
 	"/items/pet-sounds-rehearsals.html": {
@@ -19438,28 +15950,12 @@
 		"oAP": "/items/pet-sounds-sessions-hawthorne.html",
 		"oF": 0
 		},
-	"/items/pet-sounds.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/pet-sounds.html",
-		"oF": 0
-		},
 	"/items/pet-theory-in-the-summer.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/pet-theory-in-the-summer.html",
-		"oF": 0
-		},
-	"/items/peter-ames-carlin-catch-a-wave.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/peter-ames-carlin-catch-a-wave.html",
 		"oF": 0
 		},
 	"/items/peter-cetera-i-can-feel-it.html": {
@@ -19470,86 +15966,6 @@
 		"oAP": "/items/peter-cetera-i-can-feel-it.html",
 		"oF": 0
 		},
-	"/items/peter-hollens-our-special-love.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/peter-hollens-our-special-love.html",
-		"oF": 0
-		},
-	"/items/philip-lambert-good-vibrations.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/philip-lambert-good-vibrations.html",
-		"oF": 0
-		},
-	"/items/philip-lambert-inside-the-music-of-brian-wilson.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/philip-lambert-inside-the-music-of-brian-wilson.html",
-		"oF": 0
-		},
-	"/items/pipeline-disco.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/pipeline-disco.html",
-		"oF": 0
-		},
-	"/items/pipeline.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/pipeline.html",
-		"oF": 0
-		},
-	"/items/playback-the-brian-wilson-anthology.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/playback-the-brian-wilson-anthology.html",
-		"oF": 0
-		},
-	"/items/playin-it-cool-timothy-b-schmit.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/playin-it-cool-timothy-b-schmit.html",
-		"oF": 0
-		},
-	"/items/plug-me-into-something.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/plug-me-into-something.html",
-		"oF": 0
-		},
-	"/items/pray-for-surf-hide-go-seek.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/pray-for-surf-hide-go-seek.html",
-		"oF": 0
-		},
-	"/items/pre-show-jitters.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/pre-show-jitters.html",
-		"oF": 0
-		},
 	"/items/presents-smile.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -19558,100 +15974,12 @@
 		"oAP": "/items/presents-smile.html",
 		"oF": 0
 		},
-	"/items/price-and-reference-guide.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/price-and-reference-guide.html",
-		"oF": 0
-		},
-	"/items/problem-child-radio-edit.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/problem-child-radio-edit.html",
-		"oF": 0
-		},
-	"/items/problem-child.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/problem-child.html",
-		"oF": 0
-		},
-	"/items/project-wilson-darkside.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/project-wilson-darkside.html",
-		"oF": 0
-		},
-	"/items/pt-cruiser.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/pt-cruiser.html",
-		"oF": 0
-		},
-	"/items/pulp-surfin.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/pulp-surfin.html",
-		"oF": 0
-		},
-	"/items/rare-gems.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/rare-gems.html",
-		"oF": 0
-		},
-	"/items/rarities-on-compact-disc-vol-1.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/rarities-on-compact-disc-vol-1.html",
-		"oF": 0
-		},
 	"/items/rarities-on-compact-disc-vol-2.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/rarities-on-compact-disc-vol-2.html",
-		"oF": 0
-		},
-	"/items/rarities-vol-1.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/rarities-vol-1.html",
-		"oF": 0
-		},
-	"/items/rarities-vol-10.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/rarities-vol-10.html",
-		"oF": 0
-		},
-	"/items/rarities-vol-11.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/rarities-vol-11.html",
 		"oF": 0
 		},
 	"/items/rarities-vol-12.html": {
@@ -19678,46 +16006,6 @@
 		"oAP": "/items/rarities-vol-14.html",
 		"oF": 0
 		},
-	"/items/rarities-vol-15.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/rarities-vol-15.html",
-		"oF": 0
-		},
-	"/items/rarities-vol-16.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/rarities-vol-16.html",
-		"oF": 0
-		},
-	"/items/rarities-vol-17.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/rarities-vol-17.html",
-		"oF": 0
-		},
-	"/items/rarities-vol-18.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/rarities-vol-18.html",
-		"oF": 0
-		},
-	"/items/rarities-vol-2.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/rarities-vol-2.html",
-		"oF": 0
-		},
 	"/items/rarities-vol-3.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -19742,22 +16030,6 @@
 		"oAP": "/items/rarities-vol-5.html",
 		"oF": 0
 		},
-	"/items/rarities-vol-6.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/rarities-vol-6.html",
-		"oF": 0
-		},
-	"/items/rarities-vol-7.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/rarities-vol-7.html",
-		"oF": 0
-		},
 	"/items/rarities-vol-8.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -19774,148 +16046,12 @@
 		"oAP": "/items/rarities-vol-9.html",
 		"oF": 0
 		},
-	"/items/reason-for-the-season.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/reason-for-the-season.html",
-		"oF": 0
-		},
-	"/items/refined-texas-crude.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/refined-texas-crude.html",
-		"oF": 0
-		},
-	"/items/reincarnation.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/reincarnation.html",
-		"oF": 0
-		},
-	"/items/rene-hulz-hans-christian-skotte-the-rainbow-files.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/rene-hulz-hans-christian-skotte-the-rainbow-files.html",
-		"oF": 0
-		},
-	"/items/rick-swan-all-the-songs.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/rick-swan-all-the-songs.html",
-		"oF": 0
-		},
-	"/items/ride-the-wild-surf.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/ride-the-wild-surf.html",
-		"oF": 0
-		},
-	"/items/ringing-the-liberty-bell.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/ringing-the-liberty-bell.html",
-		"oF": 0
-		},
-	"/items/robert-anstey-the-musical-evolution.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/robert-anstey-the-musical-evolution.html",
-		"oF": 0
-		},
-	"/items/robert-haagsma-the-beach-boys.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/robert-haagsma-the-beach-boys.html",
-		"oF": 0
-		},
-	"/items/rock-and-other-four-letter-words.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/rock-and-other-four-letter-words.html",
-		"oF": 0
-		},
-	"/items/rock-and-roll-music.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/rock-and-roll-music.html",
-		"oF": 0
-		},
 	"/items/rock-n-roll-to-the-rescue-beach-party.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/rock-n-roll-to-the-rescue-beach-party.html",
-		"oF": 0
-		},
-	"/items/rock-n-roll-to-the-rescue.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/rock-n-roll-to-the-rescue.html",
-		"oF": 0
-		},
-	"/items/rockin-rarities.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/rockin-rarities.html",
-		"oF": 0
-		},
-	"/items/rocky-pamplin-endless-wave.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/rocky-pamplin-endless-wave.html",
-		"oF": 0
-		},
-	"/items/rooted-in-peace.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/rooted-in-peace.html",
-		"oF": 0
-		},
-	"/items/royal-philharmonic-orchestra.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/royal-philharmonic-orchestra.html",
-		"oF": 0
-		},
-	"/items/run-around-lover-summertime.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/run-around-lover-summertime.html",
 		"oF": 0
 		},
 	"/items/sacramento-just-the-way-i-feel.html": {
@@ -19926,36 +16062,12 @@
 		"oAP": "/items/sacramento-just-the-way-i-feel.html",
 		"oF": 0
 		},
-	"/items/salute-nascar.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/salute-nascar.html",
-		"oF": 0
-		},
-	"/items/sam-night-the-celebrity-411-spotlight-on-brian-wilson.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/sam-night-the-celebrity-411-spotlight-on-brian-wilson.html",
-		"oF": 0
-		},
 	"/items/santas-goin-to-kokomo.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/santas-goin-to-kokomo.html",
-		"oF": 0
-		},
-	"/items/saratoga-2001.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/saratoga-2001.html",
 		"oF": 0
 		},
 	"/items/school-day.html": {
@@ -19990,68 +16102,12 @@
 		"oAP": "/items/shoot-the-curl-surfin-down-the-swannee-river.html",
 		"oF": 0
 		},
-	"/items/shut-down-vol-2.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/shut-down-vol-2.html",
-		"oF": 0
-		},
 	"/items/shyin-away-fallin-in-love.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/shyin-away-fallin-in-love.html",
-		"oF": 0
-		},
-	"/items/silver-summer-jan-and-dean.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/silver-summer-jan-and-dean.html",
-		"oF": 0
-		},
-	"/items/simone-caltabellota-note-parallele.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/simone-caltabellota-note-parallele.html",
-		"oF": 0
-		},
-	"/items/slightly-american-music.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/slightly-american-music.html",
-		"oF": 0
-		},
-	"/items/smile-2cd-vigotone.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/smile-2cd-vigotone.html",
-		"oF": 0
-		},
-	"/items/smile-3lp-vigotone.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/smile-3lp-vigotone.html",
-		"oF": 0
-		},
-	"/items/smile-alive.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/smile-alive.html",
 		"oF": 0
 		},
 	"/items/smile-and-smiley.html": {
@@ -20062,36 +16118,12 @@
 		"oAP": "/items/smile-and-smiley.html",
 		"oF": 0
 		},
-	"/items/smile-bb5-528.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/smile-bb5-528.html",
-		"oF": 0
-		},
-	"/items/smile-bits-and-pieces.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/smile-bits-and-pieces.html",
-		"oF": 0
-		},
 	"/items/smile-brother.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/smile-brother.html",
-		"oF": 0
-		},
-	"/items/smile-deepsix.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/smile-deepsix.html",
 		"oF": 0
 		},
 	"/items/smile-magik-unikorn.html": {
@@ -20102,30 +16134,6 @@
 		"oAP": "/items/smile-magik-unikorn.html",
 		"oF": 0
 		},
-	"/items/smile-millennium-edition.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/smile-millennium-edition.html",
-		"oF": 0
-		},
-	"/items/smile-odeon.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/smile-odeon.html",
-		"oF": 0
-		},
-	"/items/smile-purple-chick-millenium.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/smile-purple-chick-millenium.html",
-		"oF": 0
-		},
 	"/items/smile-sea-of-tunes.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -20134,84 +16142,12 @@
 		"oAP": "/items/smile-sea-of-tunes.html",
 		"oF": 0
 		},
-	"/items/smile-second-edition.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/smile-second-edition.html",
-		"oF": 0
-		},
-	"/items/smile-t2580.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/smile-t2580.html",
-		"oF": 0
-		},
-	"/items/smile-the-early-years.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/smile-the-early-years.html",
-		"oF": 0
-		},
-	"/items/smile-tour-2004.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/smile-tour-2004.html",
-		"oF": 0
-		},
-	"/items/smile-wilson-records.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/smile-wilson-records.html",
-		"oF": 0
-		},
-	"/items/smiley-smile.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/smiley-smile.html",
-		"oF": 0
-		},
-	"/items/something-funny-goin-on.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/something-funny-goin-on.html",
-		"oF": 0
-		},
-	"/items/somewhere-near-japan-edit.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/somewhere-near-japan-edit.html",
-		"oF": 0
-		},
 	"/items/songs-and-music-from-shes-the-one.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/songs-and-music-from-shes-the-one.html",
-		"oF": 0
-		},
-	"/items/songs-from-here-and-back.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/songs-from-here-and-back.html",
 		"oF": 0
 		},
 	"/items/songs-without-words.html": {
@@ -20246,30 +16182,6 @@
 		"oAP": "/items/sound-of-free-lady.html",
 		"oF": 0
 		},
-	"/items/sounds-of-summer.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/sounds-of-summer.html",
-		"oF": 0
-		},
-	"/items/soupy-shuffle-stomp.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/soupy-shuffle-stomp.html",
-		"oF": 0
-		},
-	"/items/spirit-of-america.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/spirit-of-america.html",
-		"oF": 0
-		},
 	"/items/spirit-of-the-forest-va.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -20284,54 +16196,6 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/spring-spring.html",
-		"oF": 0
-		},
-	"/items/stack-o-tracks-dkao.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/stack-o-tracks-dkao.html",
-		"oF": 0
-		},
-	"/items/stack-o-tracks.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/stack-o-tracks.html",
-		"oF": 0
-		},
-	"/items/stars-and-stripes-vol-1.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/stars-and-stripes-vol-1.html",
-		"oF": 0
-		},
-	"/items/stephen-mcparland-inception-and-conception.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/stephen-mcparland-inception-and-conception.html",
-		"oF": 0
-		},
-	"/items/stephen-mcparland-our-favorite-recording-sessions.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/stephen-mcparland-our-favorite-recording-sessions.html",
-		"oF": 0
-		},
-	"/items/stephen-mcparland-smile-sun-pet-sounds.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/stephen-mcparland-smile-sun-pet-sounds.html",
 		"oF": 0
 		},
 	"/items/stephen-mcparland-the-wilson-project.html": {
@@ -20350,68 +16214,12 @@
 		"oAP": "/items/steven-gaines-heroes-and-villains.html",
 		"oF": 0
 		},
-	"/items/still-cruisin.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/still-cruisin.html",
-		"oF": 0
-		},
-	"/items/still-i-dream-of-you-rare-works.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/still-i-dream-of-you-rare-works.html",
-		"oF": 0
-		},
-	"/items/still-surfing-in-atlantic-city.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/still-surfing-in-atlantic-city.html",
-		"oF": 0
-		},
-	"/items/still-within-the-sound-of-my-voice-jimmy-webb.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/still-within-the-sound-of-my-voice-jimmy-webb.html",
-		"oF": 0
-		},
-	"/items/summer-days.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/summer-days.html",
-		"oF": 0
-		},
-	"/items/summer-dreams-the-story-of-the-beach-boys.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/summer-dreams-the-story-of-the-beach-boys.html",
-		"oF": 0
-		},
 	"/items/summer-dreams.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/summer-dreams.html",
-		"oF": 0
-		},
-	"/items/summer-in-paradise-live.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/summer-in-paradise-live.html",
 		"oF": 0
 		},
 	"/items/summer-in-paradise.html": {
@@ -20430,38 +16238,6 @@
 		"oAP": "/items/summer-love-songs.html",
 		"oF": 0
 		},
-	"/items/summer-sounds-and-pet-sessions.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/summer-sounds-and-pet-sessions.html",
-		"oF": 0
-		},
-	"/items/summertime-blues-adrian-baker.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/summertime-blues-adrian-baker.html",
-		"oF": 0
-		},
-	"/items/summertime-cruisin.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/summertime-cruisin.html",
-		"oF": 0
-		},
-	"/items/sun-surf-and-balloons.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/sun-surf-and-balloons.html",
-		"oF": 0
-		},
 	"/items/sunflower-and-more.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -20478,44 +16254,12 @@
 		"oAP": "/items/sunflower.html",
 		"oF": 0
 		},
-	"/items/sunshine-dream.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/sunshine-dream.html",
-		"oF": 0
-		},
 	"/items/sunshine-to-snowflakes.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/sunshine-to-snowflakes.html",
-		"oF": 0
-		},
-	"/items/sunshine-tomorrow-2.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/sunshine-tomorrow-2.html",
-		"oF": 0
-		},
-	"/items/sunshine-tomorrow.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/sunshine-tomorrow.html",
-		"oF": 0
-		},
-	"/items/surf-and-drag-vol-1.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/surf-and-drag-vol-1.html",
 		"oF": 0
 		},
 	"/items/surf-city-jan-and-dean.html": {
@@ -20542,52 +16286,12 @@
 		"oAP": "/items/surfer-girl-binaural.html",
 		"oF": 0
 		},
-	"/items/surfer-girl-era.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/surfer-girl-era.html",
-		"oF": 0
-		},
-	"/items/surfer-girl.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/surfer-girl.html",
-		"oF": 0
-		},
 	"/items/surfers-nightmare.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/surfers-nightmare.html",
-		"oF": 0
-		},
-	"/items/surfers-pajama-party.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/surfers-pajama-party.html",
-		"oF": 0
-		},
-	"/items/surfin-down-under.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/surfin-down-under.html",
-		"oF": 0
-		},
-	"/items/surfin-rarities-vol-1.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/surfin-rarities-vol-1.html",
 		"oF": 0
 		},
 	"/items/surfin-rarities-vol-2.html": {
@@ -20606,54 +16310,6 @@
 		"oAP": "/items/surfin-rarities-vol-3.html",
 		"oF": 0
 		},
-	"/items/surfin-rarities-vol-4.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/surfin-rarities-vol-4.html",
-		"oF": 0
-		},
-	"/items/surfin-rarities-vol-5.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/surfin-rarities-vol-5.html",
-		"oF": 0
-		},
-	"/items/surfin-rarities-vol-6.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/surfin-rarities-vol-6.html",
-		"oF": 0
-		},
-	"/items/surfin-round-the-world.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/surfin-round-the-world.html",
-		"oF": 0
-		},
-	"/items/surfin-safari-ariola.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/surfin-safari-ariola.html",
-		"oF": 0
-		},
-	"/items/surfin-safari-trip.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/surfin-safari-trip.html",
-		"oF": 0
-		},
 	"/items/surfin-safari.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -20662,108 +16318,12 @@
 		"oAP": "/items/surfin-safari.html",
 		"oF": 0
 		},
-	"/items/surfin-usa.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/surfin-usa.html",
-		"oF": 0
-		},
-	"/items/surfing-the-surface.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/surfing-the-surface.html",
-		"oF": 0
-		},
-	"/items/surfing-usa-featuring-the-hits-of-the-beach-boys.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/surfing-usa-featuring-the-hits-of-the-beach-boys.html",
-		"oF": 0
-		},
-	"/items/surfs-down.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/surfs-down.html",
-		"oF": 0
-		},
-	"/items/surfs-up-in-prinston.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/surfs-up-in-prinston.html",
-		"oF": 0
-		},
-	"/items/surfs-up.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/surfs-up.html",
-		"oF": 0
-		},
-	"/items/susie-cincinnati.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/susie-cincinnati.html",
-		"oF": 0
-		},
-	"/items/sweet-insanity-b-sides.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/sweet-insanity-b-sides.html",
-		"oF": 0
-		},
-	"/items/sweet-insanity-iu.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/sweet-insanity-iu.html",
-		"oF": 0
-		},
 	"/items/sweet-insanity-millennium-edition.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/sweet-insanity-millennium-edition.html",
-		"oF": 0
-		},
-	"/items/sweet-insanity-ocean-records.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/sweet-insanity-ocean-records.html",
-		"oF": 0
-		},
-	"/items/sweet-insanity-promotional-tape.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/sweet-insanity-promotional-tape.html",
-		"oF": 0
-		},
-	"/items/sweet-insanity-sessions-ever-green.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/sweet-insanity-sessions-ever-green.html",
 		"oF": 0
 		},
 	"/items/sweet-insanity-vigotone.html": {
@@ -20782,60 +16342,12 @@
 		"oAP": "/items/tammy-wynette-remembered.html",
 		"oF": 0
 		},
-	"/items/televisions-greatest-hits-black-and-white-classics-vol-4.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/televisions-greatest-hits-black-and-white-classics-vol-4.html",
-		"oF": 0
-		},
 	"/items/tell-me-why-blue-ocean.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/tell-me-why-blue-ocean.html",
-		"oF": 0
-		},
-	"/items/ten-years-of-harmony.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/ten-years-of-harmony.html",
-		"oF": 0
-		},
-	"/items/that-lucky-old-sun-live.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/that-lucky-old-sun-live.html",
-		"oF": 0
-		},
-	"/items/that-lucky-old-sun.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/that-lucky-old-sun.html",
-		"oF": 0
-		},
-	"/items/thats-why-god-made-the-radio-instrumental.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/thats-why-god-made-the-radio-instrumental.html",
-		"oF": 0
-		},
-	"/items/thats-why-god-made-the-radio.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/thats-why-god-made-the-radio.html",
 		"oF": 0
 		},
 	"/items/the-absolute-best-vol-1.html": {
@@ -20846,52 +16358,12 @@
 		"oAP": "/items/the-absolute-best-vol-1.html",
 		"oF": 0
 		},
-	"/items/the-absolute-best-vol-2.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/the-absolute-best-vol-2.html",
-		"oF": 0
-		},
 	"/items/the-alternative-smile-collection.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/the-alternative-smile-collection.html",
-		"oF": 0
-		},
-	"/items/the-art-of-mccartney.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/the-art-of-mccartney.html",
-		"oF": 0
-		},
-	"/items/the-association-new-memories.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/the-association-new-memories.html",
-		"oF": 0
-		},
-	"/items/the-beach-boys-20-20.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/the-beach-boys-20-20.html",
-		"oF": 0
-		},
-	"/items/the-beach-boys-50-live-in-concert.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/the-beach-boys-50-live-in-concert.html",
 		"oF": 0
 		},
 	"/items/the-beach-boys-50.html": {
@@ -20918,30 +16390,6 @@
 		"oAP": "/items/the-beach-boys-an-american-family.html",
 		"oF": 0
 		},
-	"/items/the-beach-boys-and-friends.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/the-beach-boys-and-friends.html",
-		"oF": 0
-		},
-	"/items/the-beach-boys-and-the-satan.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/the-beach-boys-and-the-satan.html",
-		"oF": 0
-		},
-	"/items/the-beach-boys-back-to-the-beach.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/the-beach-boys-back-to-the-beach.html",
-		"oF": 0
-		},
 	"/items/the-beach-boys-doin-it-again.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -20966,68 +16414,12 @@
 		"oAP": "/items/the-beach-boys-good-vibrations-tour.html",
 		"oF": 0
 		},
-	"/items/the-beach-boys-in-concert.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/the-beach-boys-in-concert.html",
-		"oF": 0
-		},
 	"/items/the-beach-boys-love-you.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/the-beach-boys-love-you.html",
-		"oF": 0
-		},
-	"/items/the-beach-boys-medley.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/the-beach-boys-medley.html",
-		"oF": 0
-		},
-	"/items/the-beach-boys-meet-the-grateful-dead.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/the-beach-boys-meet-the-grateful-dead.html",
-		"oF": 0
-		},
-	"/items/the-beach-boys-meets-grateful-dead.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/the-beach-boys-meets-grateful-dead.html",
-		"oF": 0
-		},
-	"/items/the-beach-boys-nashville-sounds.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/the-beach-boys-nashville-sounds.html",
-		"oF": 0
-		},
-	"/items/the-beach-boys-rarities.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/the-beach-boys-rarities.html",
-		"oF": 0
-		},
-	"/items/the-beach-boys-special-edition-ep.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/the-beach-boys-special-edition-ep.html",
 		"oF": 0
 		},
 	"/items/the-beach-boys-the-lost-concert.html": {
@@ -21054,54 +16446,6 @@
 		"oAP": "/items/the-best-day-ever-spongebob.html",
 		"oF": 0
 		},
-	"/items/the-best-of-bruce-and-terry.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/the-best-of-bruce-and-terry.html",
-		"oF": 0
-		},
-	"/items/the-big-beat-1963.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/the-big-beat-1963.html",
-		"oF": 0
-		},
-	"/items/the-big-beat-surf-city.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/the-big-beat-surf-city.html",
-		"oF": 0
-		},
-	"/items/the-boys-of-summer.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/the-boys-of-summer.html",
-		"oF": 0
-		},
-	"/items/the-bridge-collection.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/the-bridge-collection.html",
-		"oF": 0
-		},
-	"/items/the-bridge-school-concerts-25th-anniversary-edition.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/the-bridge-school-concerts-25th-anniversary-edition.html",
-		"oF": 0
-		},
 	"/items/the-bridge-school-concerts.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -21118,28 +16462,12 @@
 		"oAP": "/items/the-capitol-years.html",
 		"oF": 0
 		},
-	"/items/the-catalinas-fun-fun-fun.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/the-catalinas-fun-fun-fun.html",
-		"oF": 0
-		},
 	"/items/the-circle-continues.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/the-circle-continues.html",
-		"oF": 0
-		},
-	"/items/the-complete-collection-of-california-music.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/the-complete-collection-of-california-music.html",
 		"oF": 0
 		},
 	"/items/the-document-today.html": {
@@ -21158,28 +16486,12 @@
 		"oAP": "/items/the-dotted-line.html",
 		"oF": 0
 		},
-	"/items/the-flame.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/the-flame.html",
-		"oF": 0
-		},
 	"/items/the-girls-on-the-beach.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/the-girls-on-the-beach.html",
-		"oF": 0
-		},
-	"/items/the-golden-collection.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/the-golden-collection.html",
 		"oF": 0
 		},
 	"/items/the-higher-they-climb-the-harder-they-fall.html": {
@@ -21190,36 +16502,12 @@
 		"oAP": "/items/the-higher-they-climb-the-harder-they-fall.html",
 		"oF": 0
 		},
-	"/items/the-honeys-collection.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/the-honeys-collection.html",
-		"oF": 0
-		},
 	"/items/the-hot-doggers-surfin-usa.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/the-hot-doggers-surfin-usa.html",
-		"oF": 0
-		},
-	"/items/the-kustom-kings-kustom-city-usa.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/the-kustom-kings-kustom-city-usa.html",
-		"oF": 0
-		},
-	"/items/the-little-girl-i-once-knew.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/the-little-girl-i-once-knew.html",
 		"oF": 0
 		},
 	"/items/the-live-box.html": {
@@ -21238,14 +16526,6 @@
 		"oAP": "/items/the-love-of-a-boy-and-girl.html",
 		"oF": 0
 		},
-	"/items/the-monkeys-uncle.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/the-monkeys-uncle.html",
-		"oF": 0
-		},
 	"/items/the-moon-without-earth.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -21262,108 +16542,12 @@
 		"oAP": "/items/the-moon.html",
 		"oF": 0
 		},
-	"/items/the-new-album-cs.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/the-new-album-cs.html",
-		"oF": 0
-		},
-	"/items/the-one-you-cant-have.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/the-one-you-cant-have.html",
-		"oF": 0
-		},
-	"/items/the-paley-brothers-the-complete-recordings.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/the-paley-brothers-the-complete-recordings.html",
-		"oF": 0
-		},
-	"/items/the-pet-sounds-sessions.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/the-pet-sounds-sessions.html",
-		"oF": 0
-		},
-	"/items/the-pet-sounds-symphonic-tour.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/the-pet-sounds-symphonic-tour.html",
-		"oF": 0
-		},
-	"/items/the-revo-lution-number-one.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/the-revo-lution-number-one.html",
-		"oF": 0
-		},
-	"/items/the-rip-chords-hey-little-cobra.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/the-rip-chords-hey-little-cobra.html",
-		"oF": 0
-		},
-	"/items/the-rip-chords-three-window-coupe.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/the-rip-chords-three-window-coupe.html",
-		"oF": 0
-		},
-	"/items/the-search-for-everything-wave-two-john-mayer.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/the-search-for-everything-wave-two-john-mayer.html",
-		"oF": 0
-		},
 	"/items/the-smile-era-outtakes.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/the-smile-era-outtakes.html",
-		"oF": 0
-		},
-	"/items/the-smile-sessions-box.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/the-smile-sessions-box.html",
-		"oF": 0
-		},
-	"/items/the-smile-sessions.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/the-smile-sessions.html",
-		"oF": 0
-		},
-	"/items/the-surfer-moon-humpty-dumpty.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/the-surfer-moon-humpty-dumpty.html",
 		"oF": 0
 		},
 	"/items/the-sweet-insanity-sessions-scorpio.html": {
@@ -21390,14 +16574,6 @@
 		"oAP": "/items/the-union-elton-john.html",
 		"oF": 0
 		},
-	"/items/the-very-best-of-the-beach-boys.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/the-very-best-of-the-beach-boys.html",
-		"oF": 0
-		},
 	"/items/the-vettes-rev-up.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -21414,68 +16590,12 @@
 		"oAP": "/items/the-warmth-of-the-sun.html",
 		"oF": 0
 		},
-	"/items/the-wilson-project-iu.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/the-wilson-project-iu.html",
-		"oF": 0
-		},
-	"/items/the-wilsons.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/the-wilsons.html",
-		"oF": 0
-		},
-	"/items/the-world-is-getting-colder-old-sand-mill.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/the-world-is-getting-colder-old-sand-mill.html",
-		"oF": 0
-		},
-	"/items/things-are-changing.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/things-are-changing.html",
-		"oF": 0
-		},
-	"/items/thinkin-bout-you-baby-story-of-my-life.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/thinkin-bout-you-baby-story-of-my-life.html",
-		"oF": 0
-		},
-	"/items/this-song-wants-to-sleep-with-you-tonight.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/this-song-wants-to-sleep-with-you-tonight.html",
-		"oF": 0
-		},
 	"/items/till-the-night-is-gone-a-tribute-to-doc-pomus.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/till-the-night-is-gone-a-tribute-to-doc-pomus.html",
-		"oF": 0
-		},
-	"/items/time-takes-time-ringo-starr.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/time-takes-time-ringo-starr.html",
 		"oF": 0
 		},
 	"/items/time-to-get-alone-silver.html": {
@@ -21486,68 +16606,12 @@
 		"oAP": "/items/time-to-get-alone-silver.html",
 		"oF": 0
 		},
-	"/items/timothy-white-the-nearest-faraway-place.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/timothy-white-the-nearest-faraway-place.html",
-		"oF": 0
-		},
 	"/items/todd-gold-woudnt-it-be-nice.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/todd-gold-woudnt-it-be-nice.html",
-		"oF": 0
-		},
-	"/items/together-live-at-the-rock-hall.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/together-live-at-the-rock-hall.html",
-		"oF": 0
-		},
-	"/items/tokyo-2-days-complete.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/tokyo-2-days-complete.html",
-		"oF": 0
-		},
-	"/items/tom-smucker-why-matter.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/tom-smucker-why-matter.html",
-		"oF": 0
-		},
-	"/items/tonight-you-belong-to-me-goodnight-my-love.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/tonight-you-belong-to-me-goodnight-my-love.html",
-		"oF": 0
-		},
-	"/items/too-early-to-tell.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/too-early-to-tell.html",
-		"oF": 0
-		},
-	"/items/torrence-berry-gary-zenker-archives-vol-1.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/torrence-berry-gary-zenker-archives-vol-1.html",
 		"oF": 0
 		},
 	"/items/torrence-berry-gary-zenker-archives-vol-2.html": {
@@ -21574,30 +16638,6 @@
 		"oAP": "/items/torrence-berry-gary-zenker-archives-vol-4.html",
 		"oF": 0
 		},
-	"/items/torrence-berry-gary-zenker-archives-vol-5.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/torrence-berry-gary-zenker-archives-vol-5.html",
-		"oF": 0
-		},
-	"/items/torrence-berry-gary-zenker-archives-vol-6.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/torrence-berry-gary-zenker-archives-vol-6.html",
-		"oF": 0
-		},
-	"/items/torrence-berry-gary-zenker-archives-vol-7.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/torrence-berry-gary-zenker-archives-vol-7.html",
-		"oF": 0
-		},
 	"/items/tough-themes-the-del-fi-donna-years.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -21614,36 +16654,12 @@
 		"oAP": "/items/trader-goes-to-nassau.html",
 		"oF": 0
 		},
-	"/items/tribute-to-bruce-springsteen-made-in-the-usa.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/tribute-to-bruce-springsteen-made-in-the-usa.html",
-		"oF": 0
-		},
-	"/items/trios-rob-wasserman.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/trios-rob-wasserman.html",
-		"oF": 0
-		},
 	"/items/twelve-and-twelve-jeff-foskett.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/twelve-and-twelve-jeff-foskett.html",
-		"oF": 0
-		},
-	"/items/twelve-o-four-baby-what-you-want-me-to-do.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/twelve-o-four-baby-what-you-want-me-to-do.html",
 		"oF": 0
 		},
 	"/items/two-lane-blacktop.html": {
@@ -21660,14 +16676,6 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/two-rooms.html",
-		"oF": 0
-		},
-	"/items/ultimate-christmas.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/ultimate-christmas.html",
 		"oF": 0
 		},
 	"/items/unleash-the-love.html": {
@@ -21694,22 +16702,6 @@
 		"oAP": "/items/unsurpassed-masters-vol-1.html",
 		"oF": 0
 		},
-	"/items/unsurpassed-masters-vol-10.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/unsurpassed-masters-vol-10.html",
-		"oF": 0
-		},
-	"/items/unsurpassed-masters-vol-11.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/unsurpassed-masters-vol-11.html",
-		"oF": 0
-		},
 	"/items/unsurpassed-masters-vol-12.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -21726,100 +16718,12 @@
 		"oAP": "/items/unsurpassed-masters-vol-13.html",
 		"oF": 0
 		},
-	"/items/unsurpassed-masters-vol-14.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/unsurpassed-masters-vol-14.html",
-		"oF": 0
-		},
-	"/items/unsurpassed-masters-vol-15.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/unsurpassed-masters-vol-15.html",
-		"oF": 0
-		},
-	"/items/unsurpassed-masters-vol-16.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/unsurpassed-masters-vol-16.html",
-		"oF": 0
-		},
-	"/items/unsurpassed-masters-vol-17.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/unsurpassed-masters-vol-17.html",
-		"oF": 0
-		},
 	"/items/unsurpassed-masters-vol-18.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/unsurpassed-masters-vol-18.html",
-		"oF": 0
-		},
-	"/items/unsurpassed-masters-vol-19.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/unsurpassed-masters-vol-19.html",
-		"oF": 0
-		},
-	"/items/unsurpassed-masters-vol-2.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/unsurpassed-masters-vol-2.html",
-		"oF": 0
-		},
-	"/items/unsurpassed-masters-vol-20.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/unsurpassed-masters-vol-20.html",
-		"oF": 0
-		},
-	"/items/unsurpassed-masters-vol-21.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/unsurpassed-masters-vol-21.html",
-		"oF": 0
-		},
-	"/items/unsurpassed-masters-vol-3.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/unsurpassed-masters-vol-3.html",
-		"oF": 0
-		},
-	"/items/unsurpassed-masters-vol-4.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/unsurpassed-masters-vol-4.html",
-		"oF": 0
-		},
-	"/items/unsurpassed-masters-vol-5.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/unsurpassed-masters-vol-5.html",
 		"oF": 0
 		},
 	"/items/unsurpassed-masters-vol-6.html": {
@@ -21838,108 +16742,12 @@
 		"oAP": "/items/unsurpassed-masters-vol-7.html",
 		"oF": 0
 		},
-	"/items/unsurpassed-masters-vol-8.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/unsurpassed-masters-vol-8.html",
-		"oF": 0
-		},
-	"/items/unsurpassed-masters-vol-9.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/unsurpassed-masters-vol-9.html",
-		"oF": 0
-		},
-	"/items/up-the-creek-soundtrack.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/up-the-creek-soundtrack.html",
-		"oF": 0
-		},
-	"/items/us-singles-collection-the-capitol-years-1962-1965.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/us-singles-collection-the-capitol-years-1962-1965.html",
-		"oF": 0
-		},
-	"/items/van-go-gan-gerry-beckley.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/van-go-gan-gerry-beckley.html",
-		"oF": 0
-		},
-	"/items/vegetables-jan-and-dean.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/vegetables-jan-and-dean.html",
-		"oF": 0
-		},
-	"/items/vertical-man-ringo-starr.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/vertical-man-ringo-starr.html",
-		"oF": 0
-		},
-	"/items/view-from-the-ground-america.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/view-from-the-ground-america.html",
-		"oF": 0
-		},
-	"/items/vintage-rays-sunrays.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/vintage-rays-sunrays.html",
-		"oF": 0
-		},
-	"/items/wake-the-world-friends-sessions.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/wake-the-world-friends-sessions.html",
-		"oF": 0
-		},
-	"/items/walking-down-the-path-of-life.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/walking-down-the-path-of-life.html",
-		"oF": 0
-		},
 	"/items/warren-zeavon-desperadoes.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/warren-zeavon-desperadoes.html",
-		"oF": 0
-		},
-	"/items/we-got-love-archivio.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/we-got-love-archivio.html",
 		"oF": 0
 		},
 	"/items/what-i-really-want-for-christmas.html": {
@@ -21958,52 +16766,12 @@
 		"oAP": "/items/why-do-fools-fall-in-love-california-music.html",
 		"oF": 0
 		},
-	"/items/wiki-editors-the-complete-history.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/wiki-editors-the-complete-history.html",
-		"oF": 0
-		},
 	"/items/wild-honey.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/wild-honey.html",
-		"oF": 0
-		},
-	"/items/wildflowers-tom-petty.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/wildflowers-tom-petty.html",
-		"oF": 0
-		},
-	"/items/william-sanford-beach-boys-center-stage.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/william-sanford-beach-boys-center-stage.html",
-		"oF": 0
-		},
-	"/items/wipe-out-wave.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/wipe-out-wave.html",
-		"oF": 0
-		},
-	"/items/wonderful-vibrations.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/wonderful-vibrations.html",
 		"oF": 0
 		},
 	"/items/wouldnt-he-be-nice-guy.html": {
@@ -22052,14 +16820,6 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/your-imagination-acapella.html",
-		"oF": 0
-		},
-	"/items/youre-welcome.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/items/youre-welcome.html",
 		"oF": 0
 		},
 	"/js/custom-script-min.js": {

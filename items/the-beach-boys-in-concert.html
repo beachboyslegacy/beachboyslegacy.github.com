@@ -443,14 +443,41 @@ window.cookieconsent.initialise({
 
               
 
-
-
 <!--
-              <tr>
-                <td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>
-                <td class="hit-or-gem"><img src="assets/star.svg" /> HIT</td>
-                <td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>
-              </tr> -->
+              if (data.items[i].parent.numberOfDiscs > 1) {
+                if( data.items[i].parent.track.itemListElement[k].item.trackNumber == 1){
+                  $thisItem.find('.parent-item__tracklist tbody tr:last-child').after(
+                    '<tr class="discnumber"><td colspan="3">Disc '+data.items[i].parent.track.itemListElement[k].item.disc+'</td></tr>'
+                  );
+                }
+              }
+
+
+              if( data.items[i].parent.track.itemListElement[k].item.hit == true ){
+                thisTrack = '<tr>'+
+                                  '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
+                                  '<td class="hit-or-gem"><img src="assets/star.svg" /> HIT</td>'+
+                                  '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
+                                '</tr>'
+              }else if( data.items[i].parent.track.itemListElement[k].item.inthit == true ){
+                thisTrack = '<tr>'+
+                                  '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
+                                  '<td class="hit-or-gem"><img src="assets/inthit.svg" /> HIT</td>'+
+                                  '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
+                                '</tr>'
+              }else if( data.items[i].parent.track.itemListElement[k].item.gem == true ){
+                thisTrack = '<tr>'+
+                                  '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
+                                  '<td class="hit-or-gem"><img src="assets/gem.svg" /> GEM</td>'+
+                                  '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
+                                '</tr>'
+              }else{
+                thisTrack = '<tr>'+
+                                  '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
+                                  '<td></td>'+
+                                  '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
+                                '</tr>'
+              } -->
 
 
             </tbody>
@@ -458,6 +485,93 @@ window.cookieconsent.initialise({
         </div>
 
         <ul class="child-items">
+
+
+          
+
+            <li>
+              <div class="child-item__header">
+                <h3 class="child-item__title">The Beach Boys In Concert</h3>
+                <ul class="child-item__info">
+                  <li>7 18 2000</li>
+                  <li>Capitol US </li>
+                  <li>CD</li>
+                </ul>
+              </div>
+              <div class="child-item__body">
+                <div class="child-item__sidebar">
+                  <div class="sticky-content">
+                    <a href="" target="_blank"><img class="child-item__cover" src="../../img/albums/the-beach-boys/live/1973-the-beach-boys-in-concert/the-beach-boys-in-concert-2000.jpg" alt="The Beach Boys In Concert cover"></a>
+                    <a class="child-item__buy" href="" target="_blank" onClick="ga(\x27send\x27, \x27event\x27, \x27Amazon\x27, \x27click\x27, \x27Item\x27)">Buy on Amazon</a>  <!-- \x27 is a scaped quote ' -->
+                  </div>
+                </div>
+                <div class="child-item__tracklist">
+                  <pre>Recorded winter 1972 & summer 1973
+
+Capitol Theater, Passaic NJ, November 19, 1972
+Marcella
+Let the Wind Blow
+Wouldn't It Be Nice
+Don't Worry, Baby
+Good Vibrations
+
+The Mosque, Richmond VA, August 18, 1973
+Caroline, No
+Heroes and Villains
+
+Nassau Coliseum, Uniondale NY, August 19, 1973
+Sloop John B
+California Girls
+Leaving This Town
+Help Me, Rhonda
+We Got Love
+
+Syria Mosque, Pittsburgh PA, August 31, 1973
+You Still Believe In Me
+Funky Pretty
+Surfin' U.S.A.
+
+Century Theater, Buffalo NY, September 1, 1973
+Darlin'
+
+Pine Knob, Clarkston MI, September 3, 1973
+Sail On, Sailor
+The Trader
+Surfer Girl
+
+Unknown Venue
+Fun, Fun, Fun</pre>
+                </div>
+              </div>
+            </li>
+
+          
+
+            <li>
+              <div class="child-item__header">
+                <h3 class="child-item__title">The Beach Boys In Concert [2 LP]</h3>
+                <ul class="child-item__info">
+                  <li>9 16 2014</li>
+                  <li>Capitol US </li>
+                  <li>LP</li>
+                </ul>
+              </div>
+              <div class="child-item__body">
+                <div class="child-item__sidebar">
+                  <div class="sticky-content">
+                    <a href="" target="_blank"><img class="child-item__cover" src="../../img/albums/the-beach-boys/live/1973-the-beach-boys-in-concert/the-beach-boys-in-concert-cover.jpg" alt="The Beach Boys In Concert [2 LP] cover"></a>
+                    <a class="child-item__buy" href="" target="_blank" onClick="ga(\x27send\x27, \x27event\x27, \x27Amazon\x27, \x27click\x27, \x27Item\x27)">Buy on Amazon</a>  <!-- \x27 is a scaped quote ' -->
+                  </div>
+                </div>
+                <div class="child-item__tracklist">
+                  <pre></pre>
+                </div>
+              </div>
+            </li>
+
+          
+
+
 
         </ul>
 

@@ -379,14 +379,41 @@ window.cookieconsent.initialise({
 
               
 
-
-
 <!--
-              <tr>
-                <td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>
-                <td class="hit-or-gem"><img src="assets/star.svg" /> HIT</td>
-                <td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>
-              </tr> -->
+              if (data.items[i].parent.numberOfDiscs > 1) {
+                if( data.items[i].parent.track.itemListElement[k].item.trackNumber == 1){
+                  $thisItem.find('.parent-item__tracklist tbody tr:last-child').after(
+                    '<tr class="discnumber"><td colspan="3">Disc '+data.items[i].parent.track.itemListElement[k].item.disc+'</td></tr>'
+                  );
+                }
+              }
+
+
+              if( data.items[i].parent.track.itemListElement[k].item.hit == true ){
+                thisTrack = '<tr>'+
+                                  '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
+                                  '<td class="hit-or-gem"><img src="assets/star.svg" /> HIT</td>'+
+                                  '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
+                                '</tr>'
+              }else if( data.items[i].parent.track.itemListElement[k].item.inthit == true ){
+                thisTrack = '<tr>'+
+                                  '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
+                                  '<td class="hit-or-gem"><img src="assets/inthit.svg" /> HIT</td>'+
+                                  '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
+                                '</tr>'
+              }else if( data.items[i].parent.track.itemListElement[k].item.gem == true ){
+                thisTrack = '<tr>'+
+                                  '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
+                                  '<td class="hit-or-gem"><img src="assets/gem.svg" /> GEM</td>'+
+                                  '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
+                                '</tr>'
+              }else{
+                thisTrack = '<tr>'+
+                                  '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
+                                  '<td></td>'+
+                                  '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
+                                '</tr>'
+              } -->
 
 
             </tbody>
@@ -394,6 +421,66 @@ window.cookieconsent.initialise({
         </div>
 
         <ul class="child-items">
+
+
+          
+
+            <li>
+              <div class="child-item__header">
+                <h3 class="child-item__title">Summer In Paradise (US Version)</h3>
+                <ul class="child-item__info">
+                  <li>8 3 1992</li>
+                  <li>Brother Entertainment US BBR 727-2</li>
+                  <li>CD</li>
+                </ul>
+              </div>
+              <div class="child-item__body">
+                <div class="child-item__sidebar">
+                  <div class="sticky-content">
+                    <a href="" target="_blank"><img class="child-item__cover" src="../../img/albums/the-beach-boys/studio/1992-summer-in-paradise/summer-in-paradise-cover.jpg" alt="Summer In Paradise (US Version) cover"></a>
+                    <a class="child-item__buy" href="" target="_blank" onClick="ga(\x27send\x27, \x27event\x27, \x27Amazon\x27, \x27click\x27, \x27Item\x27)">Buy on Amazon</a>  <!-- \x27 is a scaped quote ' -->
+                  </div>
+                </div>
+                <div class="child-item__tracklist">
+                  <pre></pre>
+                </div>
+              </div>
+            </li>
+
+          
+
+            <li>
+              <div class="child-item__header">
+                <h3 class="child-item__title">Summer In Paradise (UK Version)</h3>
+                <ul class="child-item__info">
+                  <li>6 21 1993</li>
+                  <li>EMI UK 0777 7 81036 2 2</li>
+                  <li>CD</li>
+                </ul>
+              </div>
+              <div class="child-item__body">
+                <div class="child-item__sidebar">
+                  <div class="sticky-content">
+                    <a href="" target="_blank"><img class="child-item__cover" src="../../img/albums/the-beach-boys/studio/1992-summer-in-paradise/summer-in-paradise-1993.jpg" alt="Summer In Paradise (UK Version) cover"></a>
+                    <a class="child-item__buy" href="" target="_blank" onClick="ga(\x27send\x27, \x27event\x27, \x27Amazon\x27, \x27click\x27, \x27Item\x27)">Buy on Amazon</a>  <!-- \x27 is a scaped quote ' -->
+                  </div>
+                </div>
+                <div class="child-item__tracklist">
+                  <pre>Re-recorded and/or remixed in 1993
+
+Island Fever (Melcher/Love)
+Strange Things Happen (Melcher/Love)
+Remember 'Walkin' In The Sand' (Morton)
+Under The Boardwalk (Resnick/Young/Love)
+Summer In Paradise (Love/Melcher/Fall) (With Roger McGuinn)
+Forever (D.Wilson/Jakobsen)</pre>
+                </div>
+              </div>
+            </li>
+
+          
+
+
 
         </ul>
 

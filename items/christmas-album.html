@@ -379,14 +379,41 @@ window.cookieconsent.initialise({
 
               
 
-
-
 <!--
-              <tr>
-                <td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>
-                <td class="hit-or-gem"><img src="assets/star.svg" /> HIT</td>
-                <td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>
-              </tr> -->
+              if (data.items[i].parent.numberOfDiscs > 1) {
+                if( data.items[i].parent.track.itemListElement[k].item.trackNumber == 1){
+                  $thisItem.find('.parent-item__tracklist tbody tr:last-child').after(
+                    '<tr class="discnumber"><td colspan="3">Disc '+data.items[i].parent.track.itemListElement[k].item.disc+'</td></tr>'
+                  );
+                }
+              }
+
+
+              if( data.items[i].parent.track.itemListElement[k].item.hit == true ){
+                thisTrack = '<tr>'+
+                                  '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
+                                  '<td class="hit-or-gem"><img src="assets/star.svg" /> HIT</td>'+
+                                  '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
+                                '</tr>'
+              }else if( data.items[i].parent.track.itemListElement[k].item.inthit == true ){
+                thisTrack = '<tr>'+
+                                  '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
+                                  '<td class="hit-or-gem"><img src="assets/inthit.svg" /> HIT</td>'+
+                                  '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
+                                '</tr>'
+              }else if( data.items[i].parent.track.itemListElement[k].item.gem == true ){
+                thisTrack = '<tr>'+
+                                  '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
+                                  '<td class="hit-or-gem"><img src="assets/gem.svg" /> GEM</td>'+
+                                  '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
+                                '</tr>'
+              }else{
+                thisTrack = '<tr>'+
+                                  '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
+                                  '<td></td>'+
+                                  '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
+                                '</tr>'
+              } -->
 
 
             </tbody>
@@ -394,6 +421,188 @@ window.cookieconsent.initialise({
         </div>
 
         <ul class="child-items">
+
+
+          
+
+            <li>
+              <div class="child-item__header">
+                <h3 class="child-item__title">The Beach Boys' Christmas Album</h3>
+                <ul class="child-item__info">
+                  <li>9 3 1991</li>
+                  <li>Capitol US </li>
+                  <li>CD</li>
+                </ul>
+              </div>
+              <div class="child-item__body">
+                <div class="child-item__sidebar">
+                  <div class="sticky-content">
+                    <a href="" target="_blank"><img class="child-item__cover" src="../../img/albums/the-beach-boys/studio/1964-christmas-album/christmas-album-1991.jpg" alt="The Beach Boys' Christmas Album cover"></a>
+                    <a class="child-item__buy" href="" target="_blank" onClick="ga(\x27send\x27, \x27event\x27, \x27Amazon\x27, \x27click\x27, \x27Item\x27)">Buy on Amazon</a>  <!-- \x27 is a scaped quote ' -->
+                  </div>
+                </div>
+                <div class="child-item__tracklist">
+                  <pre>Bonus Tracks:
+
+Little Saint Nick (Single Version) (B.Wilson/Love)
+The Lord's Prayer (Malotte)
+Little Saint Nick (Alternate Take) (B.Wilson/Love)
+Auld Lang Syne (Alternate Take) (Traditional)</pre>
+                </div>
+              </div>
+            </li>
+
+          
+
+            <li>
+              <div class="child-item__header">
+                <h3 class="child-item__title">Ultimate Christmas</h3>
+                <ul class="child-item__info">
+                  <li>9 22 1998</li>
+                  <li>Capitol US 72434 95734 2 0</li>
+                  <li>CD</li>
+                </ul>
+              </div>
+              <div class="child-item__body">
+                <div class="child-item__sidebar">
+                  <div class="sticky-content">
+                    <a href="" target="_blank"><img class="child-item__cover" src="../../img/albums/the-beach-boys/studio/1998-ultimate-christmas/ultimate-christmas-cover.jpg" alt="Ultimate Christmas cover"></a>
+                    <a class="child-item__buy" href="" target="_blank" onClick="ga(\x27send\x27, \x27event\x27, \x27Amazon\x27, \x27click\x27, \x27Item\x27)">Buy on Amazon</a>  <!-- \x27 is a scaped quote ' -->
+                  </div>
+                </div>
+                <div class="child-item__tracklist">
+                  <pre>Bonus Tracks new to this edition:
+
+Child Of Winter (Christmas Song) (B.Wilson/Kalinich)
+Santa's Got An Airplane (B.Wilson/Jardine/Love)
+Christmas Time Is Here Again (Holly/Allison/Petty/Jardine)
+Winter Symphony (B.Wilson)
+(I Saw Santa) Rockin' Around The Christmas Tree (B.Wilson/Jardine)
+Melekalikimaka (Jardine/Love)
+Bells Of Christmas (Jardine/Altbach/Love)
+Morning Christmas (D.Wilson)
+Toy Drive Public Service Announcement (B.Wilson/Love)
+Dennis Wilson Christmas Message
+Brian Wilson Christmas Interview</pre>
+                </div>
+              </div>
+            </li>
+
+          
+
+            <li>
+              <div class="child-item__header">
+                <h3 class="child-item__title">Christmas With the Beach Boys</h3>
+                <ul class="child-item__info">
+                  <li>10 5 2004</li>
+                  <li>Capitol US </li>
+                  <li>CD</li>
+                </ul>
+              </div>
+              <div class="child-item__body">
+                <div class="child-item__sidebar">
+                  <div class="sticky-content">
+                    <a href="" target="_blank"><img class="child-item__cover" src="../../img/compilations/2004-christmas-with-the-beach-boys/christmas-with-the-beach-boys-cover.jpg" alt="Christmas With the Beach Boys cover"></a>
+                    <a class="child-item__buy" href="" target="_blank" onClick="ga(\x27send\x27, \x27event\x27, \x27Amazon\x27, \x27click\x27, \x27Item\x27)">Buy on Amazon</a>  <!-- \x27 is a scaped quote ' -->
+                  </div>
+                </div>
+                <div class="child-item__tracklist">
+                  <pre>1. Little Saint Nick (Stereo)
+2. The Man With All The Toys (Stereo)
+3. Santa's Beard (Stereo)
+4. Merry Christmas, Baby (Stereo)
+5. Christmas Day (Stereo)
+6. Frosty The Snowman (Stereo)
+7. We Three Kings Of Orient Are (Stereo)
+8. Blue Christmas (Stereo)
+9. Santa Claus Is Coming To Town (Stereo)
+10. White Christmas (Stereo)
+11. I'll Be Home For Christmas (Stereo)
+12. Auld Lang Syne (Stereo)
+
+Bonus Tracks:
+13. Little Saint Nick (Stereo Single Version) (B.Wilson/Love)
+14. Auld Lang Syne (Stereo Alternate Mix) (Traditional)
+15. Little Saint Nick (Stereo Alternate Version) (B.Wilson/Love)
+16. Child Of Winter (Christmas Song) (B.Wilson/Kalinich)
+17. Santa's Got An Airplane (B.Wilson/Jardine/Love)
+18. Winter Symphony (B.Wilson)
+19. (I Saw Santa) Rockin' Around The Christmas Tree (B.Wilson/Jardine)
+20. Melekalikimaka (Jardine/Love)
+21. Bells Of Christmas (Jardine/Altbach/Love)
+22. Morning Christmas (D.Wilson)
+23. Toy Drive Public Service Announcement (B.Wilson/Love)
+24. Dennis Wilson Christmas Message
+25. Brian Wilson Christmas Interview</pre>
+                </div>
+              </div>
+            </li>
+
+          
+
+            <li>
+              <div class="child-item__header">
+                <h3 class="child-item__title">Christmas Harmonies (Stereo Remaster)</h3>
+                <ul class="child-item__info">
+                  <li>8 25 2009</li>
+                  <li>Capitol US </li>
+                  <li>CD</li>
+                </ul>
+              </div>
+              <div class="child-item__body">
+                <div class="child-item__sidebar">
+                  <div class="sticky-content">
+                    <a href="" target="_blank"><img class="child-item__cover" src="../../img/compilations/2009-christmas-harmonies/christmas-harmonies-cover.jpg" alt="Christmas Harmonies (Stereo Remaster) cover"></a>
+                    <a class="child-item__buy" href="" target="_blank" onClick="ga(\x27send\x27, \x27event\x27, \x27Amazon\x27, \x27click\x27, \x27Item\x27)">Buy on Amazon</a>  <!-- \x27 is a scaped quote ' -->
+                  </div>
+                </div>
+                <div class="child-item__tracklist">
+                  <pre>1. Santa Claus Is Comin' To Town (Stereo)
+2. Frosty The Snowman (Stereo)
+3. White Christmas (Stereo)
+4. Little Saint Nick (Mono)
+5. Christmas Day (Mono)
+6. I'll Be Home For Christmas (Stereo)
+7. Santa's Beard (Mono)
+8. Child Of Winter (Christmas Song)
+9. Merry Christmas, Baby (Mono)
+10. Blue Christmas (Stereo)
+11. Melekalikimaka
+12. (I Saw Santa) Rockin' Around The Christmas Tree
+13. The Man With All The Toys (Mono)
+14. We Three Kings Of Orient Are (Stereo)
+15. Auld Lang Syne (Stereo Alternate Take)</pre>
+                </div>
+              </div>
+            </li>
+
+          
+
+            <li>
+              <div class="child-item__header">
+                <h3 class="child-item__title">Christmas Album-Paper Sleeve-CD Deluxe Vinyl Replica</h3>
+                <ul class="child-item__info">
+                  <li>11 24 2015</li>
+                  <li>Capitol FR </li>
+                  <li>CD</li>
+                </ul>
+              </div>
+              <div class="child-item__body">
+                <div class="child-item__sidebar">
+                  <div class="sticky-content">
+                    <a href="" target="_blank"><img class="child-item__cover" src="../../img/albums/the-beach-boys/studio/1964-christmas-album/christmas-album-2015.jpg" alt="Christmas Album-Paper Sleeve-CD Deluxe Vinyl Replica cover"></a>
+                    <a class="child-item__buy" href="" target="_blank" onClick="ga(\x27send\x27, \x27event\x27, \x27Amazon\x27, \x27click\x27, \x27Item\x27)">Buy on Amazon</a>  <!-- \x27 is a scaped quote ' -->
+                  </div>
+                </div>
+                <div class="child-item__tracklist">
+                  <pre></pre>
+                </div>
+              </div>
+            </li>
+
+          
+
+
 
         </ul>
 

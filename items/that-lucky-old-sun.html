@@ -419,14 +419,41 @@ window.cookieconsent.initialise({
 
               
 
-
-
 <!--
-              <tr>
-                <td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>
-                <td class="hit-or-gem"><img src="assets/star.svg" /> HIT</td>
-                <td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>
-              </tr> -->
+              if (data.items[i].parent.numberOfDiscs > 1) {
+                if( data.items[i].parent.track.itemListElement[k].item.trackNumber == 1){
+                  $thisItem.find('.parent-item__tracklist tbody tr:last-child').after(
+                    '<tr class="discnumber"><td colspan="3">Disc '+data.items[i].parent.track.itemListElement[k].item.disc+'</td></tr>'
+                  );
+                }
+              }
+
+
+              if( data.items[i].parent.track.itemListElement[k].item.hit == true ){
+                thisTrack = '<tr>'+
+                                  '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
+                                  '<td class="hit-or-gem"><img src="assets/star.svg" /> HIT</td>'+
+                                  '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
+                                '</tr>'
+              }else if( data.items[i].parent.track.itemListElement[k].item.inthit == true ){
+                thisTrack = '<tr>'+
+                                  '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
+                                  '<td class="hit-or-gem"><img src="assets/inthit.svg" /> HIT</td>'+
+                                  '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
+                                '</tr>'
+              }else if( data.items[i].parent.track.itemListElement[k].item.gem == true ){
+                thisTrack = '<tr>'+
+                                  '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
+                                  '<td class="hit-or-gem"><img src="assets/gem.svg" /> GEM</td>'+
+                                  '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
+                                '</tr>'
+              }else{
+                thisTrack = '<tr>'+
+                                  '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
+                                  '<td></td>'+
+                                  '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
+                                '</tr>'
+              } -->
 
 
             </tbody>
@@ -434,6 +461,120 @@ window.cookieconsent.initialise({
         </div>
 
         <ul class="child-items">
+
+
+          
+
+            <li>
+              <div class="child-item__header">
+                <h3 class="child-item__title">That Lucky Old Sun</h3>
+                <ul class="child-item__info">
+                  <li>9 2 2008</li>
+                  <li>Capitol US 509992 34147 23</li>
+                  <li>CD</li>
+                </ul>
+              </div>
+              <div class="child-item__body">
+                <div class="child-item__sidebar">
+                  <div class="sticky-content">
+                    <a href="" target="_blank"><img class="child-item__cover" src="../../img/albums/brian-wilson/2008-that-lucky-old-sun/that-lucky-old-sun-cover.jpg" alt="That Lucky Old Sun cover"></a>
+                    <a class="child-item__buy" href="" target="_blank" onClick="ga(\x27send\x27, \x27event\x27, \x27Amazon\x27, \x27click\x27, \x27Item\x27)">Buy on Amazon</a>  <!-- \x27 is a scaped quote ' -->
+                  </div>
+                </div>
+                <div class="child-item__tracklist">
+                  <pre></pre>
+                </div>
+              </div>
+            </li>
+
+          
+
+            <li>
+              <div class="child-item__header">
+                <h3 class="child-item__title">That Lucky Old Sun (Best Buy Exclusive Edition)</h3>
+                <ul class="child-item__info">
+                  <li>9 2 2008</li>
+                  <li>Capitol US 509992 36161 27</li>
+                  <li>CD</li>
+                </ul>
+              </div>
+              <div class="child-item__body">
+                <div class="child-item__sidebar">
+                  <div class="sticky-content">
+                    <a href="" target="_blank"><img class="child-item__cover" src="../../img/albums/brian-wilson/2008-that-lucky-old-sun/that-lucky-old-sun-cover.jpg" alt="That Lucky Old Sun (Best Buy Exclusive Edition) cover"></a>
+                    <a class="child-item__buy" href="" target="_blank" onClick="ga(\x27send\x27, \x27event\x27, \x27Amazon\x27, \x27click\x27, \x27Item\x27)">Buy on Amazon</a>  <!-- \x27 is a scaped quote ' -->
+                  </div>
+                </div>
+                <div class="child-item__tracklist">
+                  <pre>Bonus Tracks:
+
+Good Kind Of Love (Featuring Carole King) (B.Wilson)
+I'm Into Something Good (Featuring Carole King) (Goffin/King)
+Just Like Me And You (B.Wilson/Parks)</pre>
+                </div>
+              </div>
+            </li>
+
+          
+
+            <li>
+              <div class="child-item__header">
+                <h3 class="child-item__title">That Lucky Old Sun (CD + DVD)</h3>
+                <ul class="child-item__info">
+                  <li>9 2 2008</li>
+                  <li>Capitol US 509992 34142 28</li>
+                  <li>CD/DVD</li>
+                </ul>
+              </div>
+              <div class="child-item__body">
+                <div class="child-item__sidebar">
+                  <div class="sticky-content">
+                    <a href="" target="_blank"><img class="child-item__cover" src="../../img/albums/brian-wilson/2008-that-lucky-old-sun/that-lucky-old-sun-cover.jpg" alt="That Lucky Old Sun (CD + DVD) cover"></a>
+                    <a class="child-item__buy" href="" target="_blank" onClick="ga(\x27send\x27, \x27event\x27, \x27Amazon\x27, \x27click\x27, \x27Item\x27)">Buy on Amazon</a>  <!-- \x27 is a scaped quote ' -->
+                  </div>
+                </div>
+                <div class="child-item__tracklist">
+                  <pre>DVD includes:
+
+Making Of The Album (19 minutes)
+Live Performances (Filmed at Capitol Studio A, Los Angeles, 2008): Good Kind Of Love, Forever She'll Be My Surfer Girl</pre>
+                </div>
+              </div>
+            </li>
+
+          
+
+            <li>
+              <div class="child-item__header">
+                <h3 class="child-item__title">That Lucky Old Sun: AOL Sessions</h3>
+                <ul class="child-item__info">
+                  <li>5 19 2009</li>
+                  <li>Capitol US </li>
+                  <li>DIGITAL</li>
+                </ul>
+              </div>
+              <div class="child-item__body">
+                <div class="child-item__sidebar">
+                  <div class="sticky-content">
+                    <a href="" target="_blank"><img class="child-item__cover" src="../../img/albums/brian-wilson/2008-that-lucky-old-sun/that-lucky-old-sun-aol.jpg" alt="That Lucky Old Sun: AOL Sessions cover"></a>
+                    <a class="child-item__buy" href="" target="_blank" onClick="ga(\x27send\x27, \x27event\x27, \x27Amazon\x27, \x27click\x27, \x27Item\x27)">Buy on Amazon</a>  <!-- \x27 is a scaped quote ' -->
+                  </div>
+                </div>
+                <div class="child-item__tracklist">
+                  <pre>Tracklist:
+
+Morning Beat (Live At The AOL Studios)
+Forever She'll Be My Surfer Girl (Live At The AOL Studios)
+Can't Wait Too Long/Midnight's Another Day (Medley) (Live At The AOL Studios)
+Going Home (Live At The AOL Studios)
+Southern California (Live At The AOL Studios)</pre>
+                </div>
+              </div>
+            </li>
+
+          
+
+
 
         </ul>
 

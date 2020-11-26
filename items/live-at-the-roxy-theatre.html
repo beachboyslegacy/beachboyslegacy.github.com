@@ -507,14 +507,41 @@ window.cookieconsent.initialise({
 
               
 
-
-
 <!--
-              <tr>
-                <td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>
-                <td class="hit-or-gem"><img src="assets/star.svg" /> HIT</td>
-                <td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>
-              </tr> -->
+              if (data.items[i].parent.numberOfDiscs > 1) {
+                if( data.items[i].parent.track.itemListElement[k].item.trackNumber == 1){
+                  $thisItem.find('.parent-item__tracklist tbody tr:last-child').after(
+                    '<tr class="discnumber"><td colspan="3">Disc '+data.items[i].parent.track.itemListElement[k].item.disc+'</td></tr>'
+                  );
+                }
+              }
+
+
+              if( data.items[i].parent.track.itemListElement[k].item.hit == true ){
+                thisTrack = '<tr>'+
+                                  '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
+                                  '<td class="hit-or-gem"><img src="assets/star.svg" /> HIT</td>'+
+                                  '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
+                                '</tr>'
+              }else if( data.items[i].parent.track.itemListElement[k].item.inthit == true ){
+                thisTrack = '<tr>'+
+                                  '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
+                                  '<td class="hit-or-gem"><img src="assets/inthit.svg" /> HIT</td>'+
+                                  '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
+                                '</tr>'
+              }else if( data.items[i].parent.track.itemListElement[k].item.gem == true ){
+                thisTrack = '<tr>'+
+                                  '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
+                                  '<td class="hit-or-gem"><img src="assets/gem.svg" /> GEM</td>'+
+                                  '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
+                                '</tr>'
+              }else{
+                thisTrack = '<tr>'+
+                                  '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
+                                  '<td></td>'+
+                                  '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
+                                '</tr>'
+              } -->
 
 
             </tbody>
@@ -522,6 +549,121 @@ window.cookieconsent.initialise({
         </div>
 
         <ul class="child-items">
+
+
+          
+
+            <li>
+              <div class="child-item__header">
+                <h3 class="child-item__title">Live At The Roxy Theatre</h3>
+                <ul class="child-item__info">
+                  <li>6 1 2000</li>
+                  <li>BriMel Records US 1001</li>
+                  <li>CD</li>
+                </ul>
+              </div>
+              <div class="child-item__body">
+                <div class="child-item__sidebar">
+                  <div class="sticky-content">
+                    <a href="" target="_blank"><img class="child-item__cover" src="../../img/albums/brian-wilson/2000-live-at-the-roxy-theatre/live-at-the-roxy-theatre-cover.jpg" alt="Live At The Roxy Theatre cover"></a>
+                    <a class="child-item__buy" href="" target="_blank" onClick="ga(\x27send\x27, \x27event\x27, \x27Amazon\x27, \x27click\x27, \x27Item\x27)">Buy on Amazon</a>  <!-- \x27 is a scaped quote ' -->
+                  </div>
+                </div>
+                <div class="child-item__tracklist">
+                  <pre></pre>
+                </div>
+              </div>
+            </li>
+
+          
+
+            <li>
+              <div class="child-item__header">
+                <h3 class="child-item__title">Live At The Roxy Theatre</h3>
+                <ul class="child-item__info">
+                  <li>6 19 2001</li>
+                  <li>Oglio Records US OGL 82012</li>
+                  <li>CD</li>
+                </ul>
+              </div>
+              <div class="child-item__body">
+                <div class="child-item__sidebar">
+                  <div class="sticky-content">
+                    <a href="" target="_blank"><img class="child-item__cover" src="../../img/albums/brian-wilson/2000-live-at-the-roxy-theatre/live-at-the-roxy-theatre-cover.jpg" alt="Live At The Roxy Theatre cover"></a>
+                    <a class="child-item__buy" href="" target="_blank" onClick="ga(\x27send\x27, \x27event\x27, \x27Amazon\x27, \x27click\x27, \x27Item\x27)">Buy on Amazon</a>  <!-- \x27 is a scaped quote ' -->
+                  </div>
+                </div>
+                <div class="child-item__tracklist">
+                  <pre>Bonus Tracks:
+
+Sloop John B (Traditional, Arranged by B.Wilson)
+Barbara Ann (Fassert)
+Interview</pre>
+                </div>
+              </div>
+            </li>
+
+          
+
+            <li>
+              <div class="child-item__header">
+                <h3 class="child-item__title">Live At The Roxy Theatre</h3>
+                <ul class="child-item__info">
+                  <li>1 21 2002</li>
+                  <li>Sanctuary Records EU SANDD 107</li>
+                  <li>CD</li>
+                </ul>
+              </div>
+              <div class="child-item__body">
+                <div class="child-item__sidebar">
+                  <div class="sticky-content">
+                    <a href="" target="_blank"><img class="child-item__cover" src="../../img/albums/brian-wilson/2000-live-at-the-roxy-theatre/live-at-the-roxy-theatre-cover.jpg" alt="Live At The Roxy Theatre cover"></a>
+                    <a class="child-item__buy" href="" target="_blank" onClick="ga(\x27send\x27, \x27event\x27, \x27Amazon\x27, \x27click\x27, \x27Item\x27)">Buy on Amazon</a>  <!-- \x27 is a scaped quote ' -->
+                  </div>
+                </div>
+                <div class="child-item__tracklist">
+                  <pre>Bonus Tracks:
+
+Help Me, Rhonda (B.Wilson/Love)
+Wouldn't It Be Nice (B.Wilson/Asher/Love)</pre>
+                </div>
+              </div>
+            </li>
+
+          
+
+            <li>
+              <div class="child-item__header">
+                <h3 class="child-item__title">Live at the Roxy Theatre DVD Audio</h3>
+                <ul class="child-item__info">
+                  <li>1 13 2004</li>
+                  <li>Rhino Records US </li>
+                  <li>DVD-A</li>
+                </ul>
+              </div>
+              <div class="child-item__body">
+                <div class="child-item__sidebar">
+                  <div class="sticky-content">
+                    <a href="" target="_blank"><img class="child-item__cover" src="../../img/albums/brian-wilson/2000-live-at-the-roxy-theatre/live-at-the-roxy-theatre-dvda.jpg" alt="Live at the Roxy Theatre DVD Audio cover"></a>
+                    <a class="child-item__buy" href="" target="_blank" onClick="ga(\x27send\x27, \x27event\x27, \x27Amazon\x27, \x27click\x27, \x27Item\x27)">Buy on Amazon</a>  <!-- \x27 is a scaped quote ' -->
+                  </div>
+                </div>
+                <div class="child-item__tracklist">
+                  <pre>DVD-Audio players:
+
+Advanced Resolution Surround Sound (96kHz/24-bit)
+Advanced Resolution Stereo (96kHz/24-bit)
+
+All DVD players:
+Dolby Digital 5.1 Surround
+Audio Interview with Brian Wilson</pre>
+                </div>
+              </div>
+            </li>
+
+          
+
+
 
         </ul>
 

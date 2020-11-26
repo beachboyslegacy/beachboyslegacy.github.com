@@ -507,14 +507,41 @@ window.cookieconsent.initialise({
 
               
 
-
-
 <!--
-              <tr>
-                <td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>
-                <td class="hit-or-gem"><img src="assets/star.svg" /> HIT</td>
-                <td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>
-              </tr> -->
+              if (data.items[i].parent.numberOfDiscs > 1) {
+                if( data.items[i].parent.track.itemListElement[k].item.trackNumber == 1){
+                  $thisItem.find('.parent-item__tracklist tbody tr:last-child').after(
+                    '<tr class="discnumber"><td colspan="3">Disc '+data.items[i].parent.track.itemListElement[k].item.disc+'</td></tr>'
+                  );
+                }
+              }
+
+
+              if( data.items[i].parent.track.itemListElement[k].item.hit == true ){
+                thisTrack = '<tr>'+
+                                  '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
+                                  '<td class="hit-or-gem"><img src="assets/star.svg" /> HIT</td>'+
+                                  '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
+                                '</tr>'
+              }else if( data.items[i].parent.track.itemListElement[k].item.inthit == true ){
+                thisTrack = '<tr>'+
+                                  '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
+                                  '<td class="hit-or-gem"><img src="assets/inthit.svg" /> HIT</td>'+
+                                  '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
+                                '</tr>'
+              }else if( data.items[i].parent.track.itemListElement[k].item.gem == true ){
+                thisTrack = '<tr>'+
+                                  '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
+                                  '<td class="hit-or-gem"><img src="assets/gem.svg" /> GEM</td>'+
+                                  '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
+                                '</tr>'
+              }else{
+                thisTrack = '<tr>'+
+                                  '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
+                                  '<td></td>'+
+                                  '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
+                                '</tr>'
+              } -->
 
 
             </tbody>
@@ -522,6 +549,219 @@ window.cookieconsent.initialise({
         </div>
 
         <ul class="child-items">
+
+
+          
+
+            <li>
+              <div class="child-item__header">
+                <h3 class="child-item__title">Smile Collectors Box</h3>
+                <ul class="child-item__info">
+                  <li>11 1 2011</li>
+                  <li>Capitol US </li>
+                  <li>CD/LP/7''</li>
+                </ul>
+              </div>
+              <div class="child-item__body">
+                <div class="child-item__sidebar">
+                  <div class="sticky-content">
+                    <a href="" target="_blank"><img class="child-item__cover" src="../../img/albums/the-beach-boys/studio/2011-the-smile-sessions/the-smile-sessions-boxset.jpg" alt="Smile Collectors Box cover"></a>
+                    <a class="child-item__buy" href="" target="_blank" onClick="ga(\x27send\x27, \x27event\x27, \x27Amazon\x27, \x27click\x27, \x27Item\x27)">Buy on Amazon</a>  <!-- \x27 is a scaped quote ' -->
+                  </div>
+                </div>
+                <div class="child-item__tracklist">
+                  <pre>CD 2:
+
+1 Our Prayer 'Dialog' 9/19/66
+2 Our Prayer 10/4/66
+3 Heroes And Villains: Verse (Master Take)
+4 Heroes And Villains: Barnyard (Master Take)
+5 Heroes And Villains: I'm In Great Shape 10/27/66
+6 Heroes And Villains: Intro (Early Version) Circa 12/66
+7 Heroes And Villains: Do A Lot
+8 Heroes And Villains: Bag Of Tricks
+9 Heroes And Villains: Mission Pak
+10 Heroes And Villains: Bridge To Indians
+11 Heroes And Villains: Part 1 Tag
+12 Heroes And Villains: Pickup To 3rd Verse
+13 Heroes And Villains: Children Were Raised
+14 Heroes And Villains: Part 2 (Cantina Track)
+15 Heroes And Villains: Whistling Bridge
+16 Heroes And Villains: Cantina
+17 Heroes And Villains: All Day
+18 Heroes And Villains: Verse Edit Experiment
+19 Heroes And Villains: Prelude To Fade
+20 Heroes And Villains: Piano Theme
+21 Heroes And Villains: Part 2
+22 Heroes And Villains: Part 2 (Gee) (Master Take)
+23 Heroes And Villains: Part 2 Revised
+24 Heroes And Villains: Part 2 Revised (Master Take)
+25 Heroes And Villains: Part 3 (Animals) (Master Take)
+26 Heroes And Villains: Part 4
+27 Heroes And Villains: Part Two (Master Take) 2/27/67
+28 Heroes And Villains: Fade 2/28/67
+29 Heroes And Villains: Verse Remake
+30 Heroes And Villains: Organ Waltz/Intro
+31 Heroes And Villains: Chorus Vocals
+32 Heroes And Villains: Barbershop
+33 Heroes And Villains: Children Were Raised (Remake)
+34 Heroes And Villains: Children Were Raised (Master Take Overdubs Mix 1)
+35 Heroes And Villains: Children Were Raised (Master Take A Capella)
+36 Heroes And Villains: Piano Demo
+37 Psycodelic Sounds: Brian Falls Into A Microphone 11/4/6
+
+CD 3:
+
+1 Do You Like Worms: Part 1
+2 Do You Like Worms: Part 2 (Bicycle Rider)
+3 Do You Like Worms: Part 3
+4 Do You Like Worms: Part 4 (Bicycle Rider)
+5 Do You Like Worms: Bicycle Rider Overdubs (Heroes And Villains Part 2) 1/5/67
+6 You Are My Sunshine: Parts 1 & 2 11/14/66
+7 You Are My Sunshine: Part 2 (Master Take With Vocal Overdubs) 2/10/67
+8 Cabin Essence: Verse
+9 Cabin Essence: Chorus
+10 Cabin Essence: Tag
+11 Wonderful (Version 1) 8/25/66
+12 Wonderful (Version 2)
+13 Wonderful (Version 2 Tag)
+14 Wonderful (Version 3) 4/10/67 ?
+15 Look 8/12/66
+16 Child Is Father Of The Man (Version 1) 10/7/66
+17 Child Is Father Of The Man (Version 2) 10/11/66
+18 Surf's Up: 1st Movement 11/4/66
+19 Surf's Up: Talking Horns 11/7/66
+20 Surf's Up: Piano Demo (Master Take) 12/15/66
+21 I Wanna Be Around 11/29/66
+22 Vegetables: Verse (Master Take Track) 4/4 - 4/11/67
+23 Vegetables: Sleep A Lot (Chorus)
+24 Vegetables: Chorus 1 (Master Take)
+25 Vegetables: 2nd Chorus (Master Take And Backing Vocals)
+26 Vegetables: Insert (Part 4) (Master Take)
+27 Vega-Tables Chomping Sounds (Hidden Track)
+28 Workshop Sounds [Hidden Track]
+
+CD 4:
+
+1 Vegetables: Fade 4/12/67
+2 Vegetables: Ballad Insert 4/14/67
+3 Holidays 9/8/66
+4 Wind Chimes (Version 1) 8/3/66
+5 Wind Chimes (Version 2)
+6 Wind Chimes (Version 2 Tag)
+7 The Elements: Fire 11/28/66
+8 Da Da (Taped Piano Strings)
+9 Da Da (Fender Rhodes)
+10 Love To Say Dada: Part 1 5/16/67
+11 Love To Say Dada: Part 2 5/17/67
+12 Love To Say Dada: Part 2 (Master Take) 5/17/67
+13 Love To Say Dada: Part 2 (Second Day) 5/18/67
+14 Cool, Cool Water (Version 1) 6/7/67
+15 Cool, Cool Water (Version 2) 10/26/67 & 10/29/67
+16 You're Welcome 12/15/66
+17 You're With Me Tonight 6/6 - 6/7/67
+18 Tune X (Carl Wilson) 3/3/67 - 3/31/67
+19 I Don't Know (Dennis Wilson) 1/12/67
+20 Three Blind Mice 10/15/65
+21 Teeter Totter Love (Jasper Dailey) 1/25/67 & 2/9/67
+22 Psycodelic Sounds - Underwater Chant 11/4/66
+23 Hal Blaine Vega-Tables Promo Session 11/11/66
+24 Heroes And Villains: Early Version Outtake Sections 1/67 - 2/67
+25 Fire Crackling Sounds [Hidden Track]
+
+CD 5:
+
+1 Good Vibrations: Gold Star 2/18/66 (The Pet Sounds Session)
+2 Good Vibrations: Gold Star 4/9/66
+3 Good Vibrations: Western 5/4/66 (First Chorus)
+4 Good Vibrations: 5/4/66 (Second Chorus & Fade)
+5 Good Vibrations: Sunset Sound 5/24/66 (Part 1)
+6 Good Vibrations: Sunset Sound 5/24/66 (Parts 2 & 3)
+7 Good Vibrations: Sunset Sound 5/24/66 (Part 4)
+8 Good Vibrations: Western 5/27/66 (Part C)
+9 Good Vibrations: Western 5/27/66 (Chorus)
+10 Good Vibrations: Western 5/27/66 (Fade Sequence)
+11 Good Vibrations (Inspiration): Western 6/2/66 (Part 1)
+12 Good Vibrations (Inspiration): Western 6/2/66 (Part 3)
+13 Good Vibrations (Inspiration): Western 6/2/66 (Part 4)
+14 Good Vibrations: Western 6/16/66 (Part 1)
+15 Good Vibrations: Western 6/16/66 (Part 2 & Verse)
+16 Good Vibrations: Western 6/16/66 (Part 2 Continued)
+17 Good Vibrations: Western 6/18/66 (Part 1)
+18 Good Vibrations: Western 6/18/66 (Part 2)
+19 Good Vibrations (Persuasion): Western 9/1/66
+20 Good Vibrations: Western 9/1/66 (New Bridge)
+21 Good Vibrations: Session Masters
+22 Good Vibrations: Single Version Stereo Track
+23 Good Good Good Vibrations (First Version With Overdubs) 3/66
+24 Good Vibrations: Alternate Edit 8/24/66
+25 Good Vibrations Tape Rewind [Hidden Track]</pre>
+                </div>
+              </div>
+            </li>
+
+          
+
+            <li>
+              <div class="child-item__header">
+                <h3 class="child-item__title">The Smile Sessions [2 CD]</h3>
+                <ul class="child-item__info">
+                  <li>11 1 2011</li>
+                  <li>Capitol US T-27664</li>
+                  <li>CD</li>
+                </ul>
+              </div>
+              <div class="child-item__body">
+                <div class="child-item__sidebar">
+                  <div class="sticky-content">
+                    <a href="" target="_blank"><img class="child-item__cover" src="../../img/albums/the-beach-boys/studio/2011-the-smile-sessions/the-smile-sessions-lp-cover.jpg" alt="The Smile Sessions [2 CD] cover"></a>
+                    <a class="child-item__buy" href="" target="_blank" onClick="ga(\x27send\x27, \x27event\x27, \x27Amazon\x27, \x27click\x27, \x27Item\x27)">Buy on Amazon</a>  <!-- \x27 is a scaped quote ' -->
+                  </div>
+                </div>
+                <div class="child-item__tracklist">
+                  <pre>Exclusive to this edition:
+
+Heroes And Villains: Part 1 (3:08)
+Heroes And Villains: Part 2 (4:18)
+Cabin Essence (10/3/66) (5:19)
+Good Vibrations Session Highlights (8:20)</pre>
+                </div>
+              </div>
+            </li>
+
+          
+
+            <li>
+              <div class="child-item__header">
+                <h3 class="child-item__title">The Smile Sessions [2 LP]</h3>
+                <ul class="child-item__info">
+                  <li>11 1 2011</li>
+                  <li>Capitol US T 2580</li>
+                  <li>LP</li>
+                </ul>
+              </div>
+              <div class="child-item__body">
+                <div class="child-item__sidebar">
+                  <div class="sticky-content">
+                    <a href="" target="_blank"><img class="child-item__cover" src="../../img/albums/the-beach-boys/studio/2011-the-smile-sessions/the-smile-sessions-lp-cover.jpg" alt="The Smile Sessions [2 LP] cover"></a>
+                    <a class="child-item__buy" href="" target="_blank" onClick="ga(\x27send\x27, \x27event\x27, \x27Amazon\x27, \x27click\x27, \x27Item\x27)">Buy on Amazon</a>  <!-- \x27 is a scaped quote ' -->
+                  </div>
+                </div>
+                <div class="child-item__tracklist">
+                  <pre>Exclusive to this edition:
+
+You’re Welcome – Stereo Mix
+Vega-Tables – Stereo Mix
+Wind Chimes – Stereo Mix
+Cabin Essence – Session Highlights and Stereo Backing Track
+Surf’s Up – Session Excerpt and Stereo Mix</pre>
+                </div>
+              </div>
+            </li>
+
+          
+
+
 
         </ul>
 

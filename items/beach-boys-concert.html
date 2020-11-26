@@ -387,14 +387,41 @@ window.cookieconsent.initialise({
 
               
 
-
-
 <!--
-              <tr>
-                <td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>
-                <td class="hit-or-gem"><img src="assets/star.svg" /> HIT</td>
-                <td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>
-              </tr> -->
+              if (data.items[i].parent.numberOfDiscs > 1) {
+                if( data.items[i].parent.track.itemListElement[k].item.trackNumber == 1){
+                  $thisItem.find('.parent-item__tracklist tbody tr:last-child').after(
+                    '<tr class="discnumber"><td colspan="3">Disc '+data.items[i].parent.track.itemListElement[k].item.disc+'</td></tr>'
+                  );
+                }
+              }
+
+
+              if( data.items[i].parent.track.itemListElement[k].item.hit == true ){
+                thisTrack = '<tr>'+
+                                  '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
+                                  '<td class="hit-or-gem"><img src="assets/star.svg" /> HIT</td>'+
+                                  '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
+                                '</tr>'
+              }else if( data.items[i].parent.track.itemListElement[k].item.inthit == true ){
+                thisTrack = '<tr>'+
+                                  '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
+                                  '<td class="hit-or-gem"><img src="assets/inthit.svg" /> HIT</td>'+
+                                  '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
+                                '</tr>'
+              }else if( data.items[i].parent.track.itemListElement[k].item.gem == true ){
+                thisTrack = '<tr>'+
+                                  '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
+                                  '<td class="hit-or-gem"><img src="assets/gem.svg" /> GEM</td>'+
+                                  '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
+                                '</tr>'
+              }else{
+                thisTrack = '<tr>'+
+                                  '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
+                                  '<td></td>'+
+                                  '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
+                                '</tr>'
+              } -->
 
 
             </tbody>
@@ -402,6 +429,155 @@ window.cookieconsent.initialise({
         </div>
 
         <ul class="child-items">
+
+
+          
+
+            <li>
+              <div class="child-item__header">
+                <h3 class="child-item__title">Beach Boys Concert / Live In London</h3>
+                <ul class="child-item__info">
+                  <li>4 10 2001</li>
+                  <li>Capitol US </li>
+                  <li>CD</li>
+                </ul>
+              </div>
+              <div class="child-item__body">
+                <div class="child-item__sidebar">
+                  <div class="sticky-content">
+                    <a href="" target="_blank"><img class="child-item__cover" src="../../img/albums/the-beach-boys/live/1964-beach-boys-concert/beach-boys-concert-2001.jpg" alt="Beach Boys Concert / Live In London cover"></a>
+                    <a class="child-item__buy" href="" target="_blank" onClick="ga(\x27send\x27, \x27event\x27, \x27Amazon\x27, \x27click\x27, \x27Item\x27)">Buy on Amazon</a>  <!-- \x27 is a scaped quote ' -->
+                  </div>
+                </div>
+                <div class="child-item__tracklist">
+                  <pre>1. Fred Vail Intro
+Recorded at the Memorial Auditorium, Sacramento, CA. December 21, 1963
+
+2. Fun, Fun, Fun
+Vocals recorded at a sweetening session at Western Studio. August 31, 1964
+
+3. The Little Old Lady From Pasadena
+Track recorded at the Memorial Auditorium, Sacramento, CA, Second Show. August 1, 1964.
+Vocals recorded at a sweetening session at Western Studio. August 31, 1964
+
+4. Little Deuce Coupe
+Recorded at the Memorial Auditorium, Sacramento, CA. December 21, 1963
+
+5. Long Tall Texan
+Recorded at the Memorial Auditorium, Sacramento, CA. December 21, 1963
+
+6. In My Room
+Recorded at the Memorial Auditorium, Sacramento, CA. December 21, 1963
+
+7. Monster Mash
+Recorded at the Memorial Auditorium, Sacramento, CA. December 21, 1963
+
+8. Let's Go Trippin'
+Recorded at the Memorial Auditorium, Sacramento, CA, Second Show. August 1, 1964
+
+9. Papa-Oom-Mow-Mow
+Recorded at the Memorial Auditorium, Sacramento, CA. December 21, 1963
+
+10. The Wanderer
+Recorded at the Memorial Auditorium, Sacramento, CA, Second Show. August 1, 1964
+
+11. Hawaii
+Track recorded at the Memorial Auditorium, Sacramento, CA, First Show. August 1, 1964.
+Vocals recorded at a sweetening session at Western Studio. August 31, 1964
+
+12. Graduation Day
+Recorded at the Memorial Auditorium, Sacramento, CA, Second Show. August 1, 1964
+
+13. I Get Around
+Intro recorded at the Memorial Auditorium, Sacramento, CA, First Show. August 1, 1964.
+Vocals recorded at a sweetening session at Western Studio. August 31, 1964
+
+14. Johnny B. Goode
+Intro recorded at the Memorial Auditorium, Sacramento, CA, Second Show. August 1, 1964.
+Track recorded at the Memorial Auditorium, Sacramento, CA. December 21, 1963.
+Vocals recorded at a sweetening session at Western Studio. August 31, 1964
+
+
+Bonus Tracks:
+
+Don't Worry, Baby
+Recorded at the Memorial Auditorium, Sacramento, CA, Second Show. August 1, 1964</pre>
+                </div>
+              </div>
+            </li>
+
+          
+
+            <li>
+              <div class="child-item__header">
+                <h3 class="child-item__title">Beach Boys Concert [LP]</h3>
+                <ul class="child-item__info">
+                  <li>9 16 2014</li>
+                  <li>Capitol US </li>
+                  <li>LP</li>
+                </ul>
+              </div>
+              <div class="child-item__body">
+                <div class="child-item__sidebar">
+                  <div class="sticky-content">
+                    <a href="" target="_blank"><img class="child-item__cover" src="../../img/albums/the-beach-boys/live/1964-beach-boys-concert/beach-boys-concert-2014.jpg" alt="Beach Boys Concert [LP] cover"></a>
+                    <a class="child-item__buy" href="" target="_blank" onClick="ga(\x27send\x27, \x27event\x27, \x27Amazon\x27, \x27click\x27, \x27Item\x27)">Buy on Amazon</a>  <!-- \x27 is a scaped quote ' -->
+                  </div>
+                </div>
+                <div class="child-item__tracklist">
+                  <pre>1. Fred Vail Intro
+Recorded at the Memorial Auditorium, Sacramento, CA. December 21, 1963
+
+2. Fun, Fun, Fun
+Vocals recorded at a sweetening session at Western Studio. August 31, 1964
+
+3. The Little Old Lady From Pasadena
+Track recorded at the Memorial Auditorium, Sacramento, CA, Second Show. August 1, 1964.
+Vocals recorded at a sweetening session at Western Studio. August 31, 1964
+
+4. Little Deuce Coupe
+Recorded at the Memorial Auditorium, Sacramento, CA. December 21, 1963
+
+5. Long Tall Texan
+Recorded at the Memorial Auditorium, Sacramento, CA. December 21, 1963
+
+6. In My Room
+Recorded at the Memorial Auditorium, Sacramento, CA. December 21, 1963
+
+7. Monster Mash
+Recorded at the Memorial Auditorium, Sacramento, CA. December 21, 1963
+
+8. Let's Go Trippin'
+Recorded at the Memorial Auditorium, Sacramento, CA, Second Show. August 1, 1964
+
+9. Papa-Oom-Mow-Mow
+Recorded at the Memorial Auditorium, Sacramento, CA. December 21, 1963
+
+10. The Wanderer
+Recorded at the Memorial Auditorium, Sacramento, CA, Second Show. August 1, 1964
+
+11. Hawaii
+Track recorded at the Memorial Auditorium, Sacramento, CA, First Show. August 1, 1964.
+Vocals recorded at a sweetening session at Western Studio. August 31, 1964
+
+12. Graduation Day
+Recorded at the Memorial Auditorium, Sacramento, CA, Second Show. August 1, 1964
+
+13. I Get Around
+Intro recorded at the Memorial Auditorium, Sacramento, CA, First Show. August 1, 1964.
+Vocals recorded at a sweetening session at Western Studio. August 31, 1964
+
+14. Johnny B. Goode
+Intro recorded at the Memorial Auditorium, Sacramento, CA, Second Show. August 1, 1964.
+Track recorded at the Memorial Auditorium, Sacramento, CA. December 21, 1963.
+Vocals recorded at a sweetening session at Western Studio. August 31, 1964</pre>
+                </div>
+              </div>
+            </li>
+
+          
+
+
 
         </ul>
 

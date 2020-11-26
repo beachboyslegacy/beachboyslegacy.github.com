@@ -379,14 +379,41 @@ window.cookieconsent.initialise({
 
               
 
-
-
 <!--
-              <tr>
-                <td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>
-                <td class="hit-or-gem"><img src="assets/star.svg" /> HIT</td>
-                <td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>
-              </tr> -->
+              if (data.items[i].parent.numberOfDiscs > 1) {
+                if( data.items[i].parent.track.itemListElement[k].item.trackNumber == 1){
+                  $thisItem.find('.parent-item__tracklist tbody tr:last-child').after(
+                    '<tr class="discnumber"><td colspan="3">Disc '+data.items[i].parent.track.itemListElement[k].item.disc+'</td></tr>'
+                  );
+                }
+              }
+
+
+              if( data.items[i].parent.track.itemListElement[k].item.hit == true ){
+                thisTrack = '<tr>'+
+                                  '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
+                                  '<td class="hit-or-gem"><img src="assets/star.svg" /> HIT</td>'+
+                                  '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
+                                '</tr>'
+              }else if( data.items[i].parent.track.itemListElement[k].item.inthit == true ){
+                thisTrack = '<tr>'+
+                                  '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
+                                  '<td class="hit-or-gem"><img src="assets/inthit.svg" /> HIT</td>'+
+                                  '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
+                                '</tr>'
+              }else if( data.items[i].parent.track.itemListElement[k].item.gem == true ){
+                thisTrack = '<tr>'+
+                                  '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
+                                  '<td class="hit-or-gem"><img src="assets/gem.svg" /> GEM</td>'+
+                                  '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
+                                '</tr>'
+              }else{
+                thisTrack = '<tr>'+
+                                  '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
+                                  '<td></td>'+
+                                  '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
+                                '</tr>'
+              } -->
 
 
             </tbody>
@@ -394,6 +421,160 @@ window.cookieconsent.initialise({
         </div>
 
         <ul class="child-items">
+
+
+          
+
+            <li>
+              <div class="child-item__header">
+                <h3 class="child-item__title">The Rip Chords: Hey Little Cobra</h3>
+                <ul class="child-item__info">
+                  <li>0 0 1989</li>
+                  <li>Sound Of Yesterday UK/EU CD-13501</li>
+                  <li>CD</li>
+                </ul>
+              </div>
+              <div class="child-item__body">
+                <div class="child-item__sidebar">
+                  <div class="sticky-content">
+                    <a href="" target="_blank"><img class="child-item__cover" src="../../img/albums/bruce-johnston/1964-the-rip-chords-hey-little-cobra/the-rip-chords-hey-little-cobra-1989-cover.jpg" alt="The Rip Chords: Hey Little Cobra cover"></a>
+                    <a class="child-item__buy" href="" target="_blank" onClick="ga(\x27send\x27, \x27event\x27, \x27Amazon\x27, \x27click\x27, \x27Item\x27)">Buy on Amazon</a>  <!-- \x27 is a scaped quote ' -->
+                  </div>
+                </div>
+                <div class="child-item__tracklist">
+                  <pre>1. Hey Little Cobra
+2. Here I Stand
+3. The Queen
+4. 409
+5. Trophy Machine
+6. Gone
+7. She Thinks I Still Care
+8. Shut Down
+9. Ding Dong
+10. Three Window Coupe
+11. Bonneville Bonnie
+12. Gas Money
+13. This Little Woodie
+14. Hot Rod U.S.A.
+15. Surfin' Craze
+16. Beach Girl
+17. My Big Gun Board
+18. Summer U.S.A.</pre>
+                </div>
+              </div>
+            </li>
+
+          
+
+            <li>
+              <div class="child-item__header">
+                <h3 class="child-item__title">The Rip Chords: Hey Little Cobra</h3>
+                <ul class="child-item__info">
+                  <li>8 20 1996</li>
+                  <li>Sundazed US SC 6098</li>
+                  <li>CD</li>
+                </ul>
+              </div>
+              <div class="child-item__body">
+                <div class="child-item__sidebar">
+                  <div class="sticky-content">
+                    <a href="" target="_blank"><img class="child-item__cover" src="../../img/albums/bruce-johnston/1964-the-rip-chords-hey-little-cobra/the-rip-chords-hey-little-cobra-cd-cover.jpg" alt="The Rip Chords: Hey Little Cobra cover"></a>
+                    <a class="child-item__buy" href="" target="_blank" onClick="ga(\x27send\x27, \x27event\x27, \x27Amazon\x27, \x27click\x27, \x27Item\x27)">Buy on Amazon</a>  <!-- \x27 is a scaped quote ' -->
+                  </div>
+                </div>
+                <div class="child-item__tracklist">
+                  <pre>Bonus Tracks:
+
+13. Karen (Stewart/Stewart/Bringas)
+14. Bunny Hill (Johnston/Melcher/Stewart/Stewart)
+15. Don't Be Scared (Melcher/Webster)</pre>
+                </div>
+              </div>
+            </li>
+
+          
+
+            <li>
+              <div class="child-item__header">
+                <h3 class="child-item__title">The Rip Chords: Hey Little Cobra And Other Hot Rod Hits</h3>
+                <ul class="child-item__info">
+                  <li>5 24 2006</li>
+                  <li>Sony Records Int'l JP MHCP-1044</li>
+                  <li>CD</li>
+                </ul>
+              </div>
+              <div class="child-item__body">
+                <div class="child-item__sidebar">
+                  <div class="sticky-content">
+                    <a href="" target="_blank"><img class="child-item__cover" src="../../img/albums/bruce-johnston/1964-the-rip-chords-hey-little-cobra/the-rip-chords-hey-little-cobra-cd-cover.jpg" alt="The Rip Chords: Hey Little Cobra And Other Hot Rod Hits cover"></a>
+                    <a class="child-item__buy" href="" target="_blank" onClick="ga(\x27send\x27, \x27event\x27, \x27Amazon\x27, \x27click\x27, \x27Item\x27)">Buy on Amazon</a>  <!-- \x27 is a scaped quote ' -->
+                  </div>
+                </div>
+                <div class="child-item__tracklist">
+                  <pre>13. Karen (Mono Single Version) (Stewart/Stewart/Bringas)
+14. Ding Dong (Mono Single Version) (Bringas/Stewart)
+15. Bunny Hill (Mono Single Version)(Johnston/Melcher/Stewart/Stewart)
+16. Don't Be Scared (Mono Single Version) (Melcher/Webster)</pre>
+                </div>
+              </div>
+            </li>
+
+          
+
+            <li>
+              <div class="child-item__header">
+                <h3 class="child-item__title">The Rip Chords: Hey Little Cobra And Other Hot Rod Hits & Three Window Coupe</h3>
+                <ul class="child-item__info">
+                  <li>3 23 2010</li>
+                  <li>T-Bird Records US TBIRD 0012CD</li>
+                  <li>CD</li>
+                </ul>
+              </div>
+              <div class="child-item__body">
+                <div class="child-item__sidebar">
+                  <div class="sticky-content">
+                    <a href="" target="_blank"><img class="child-item__cover" src="../../img/albums/bruce-johnston/1964-the-rip-chords-hey-little-cobra/hey-little-cobra-three-window-coupe-cover.jpg" alt="The Rip Chords: Hey Little Cobra And Other Hot Rod Hits & Three Window Coupe cover"></a>
+                    <a class="child-item__buy" href="" target="_blank" onClick="ga(\x27send\x27, \x27event\x27, \x27Amazon\x27, \x27click\x27, \x27Item\x27)">Buy on Amazon</a>  <!-- \x27 is a scaped quote ' -->
+                  </div>
+                </div>
+                <div class="child-item__tracklist">
+                  <pre>1. Hey Little Cobra
+2. Here I Stand
+3. The Queen
+4. 409
+5. Trophy Machine
+6. Gone
+7. Little Deuce Coupe
+8. '40 Ford Time
+9. She Thinks I Still Care
+10. Shut Down
+11. Drag City
+12. Ding Dong
+13. Karen
+14. Bunny Hill
+15. Don't Be Scared
+16. Three Window Coupe
+17. Bonneville Bonnie
+18. Gas Money
+19. This Little Woodie
+ 20. Hot Rod U.S.A.
+21. Old Car Made In '52
+22. Surfin' Craze
+23. Beach Girl
+24. My Big Gun Board
+25. Surf City
+26. Summer U.S.A.
+27. Big Wednesday
+28. One Piece Topless Bathing Suit
+29. Wah-Wahini
+30. Red Hot Roadster</pre>
+                </div>
+              </div>
+            </li>
+
+          
+
+
 
         </ul>
 

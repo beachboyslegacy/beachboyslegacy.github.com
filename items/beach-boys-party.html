@@ -379,14 +379,41 @@ window.cookieconsent.initialise({
 
               
 
-
-
 <!--
-              <tr>
-                <td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>
-                <td class="hit-or-gem"><img src="assets/star.svg" /> HIT</td>
-                <td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>
-              </tr> -->
+              if (data.items[i].parent.numberOfDiscs > 1) {
+                if( data.items[i].parent.track.itemListElement[k].item.trackNumber == 1){
+                  $thisItem.find('.parent-item__tracklist tbody tr:last-child').after(
+                    '<tr class="discnumber"><td colspan="3">Disc '+data.items[i].parent.track.itemListElement[k].item.disc+'</td></tr>'
+                  );
+                }
+              }
+
+
+              if( data.items[i].parent.track.itemListElement[k].item.hit == true ){
+                thisTrack = '<tr>'+
+                                  '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
+                                  '<td class="hit-or-gem"><img src="assets/star.svg" /> HIT</td>'+
+                                  '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
+                                '</tr>'
+              }else if( data.items[i].parent.track.itemListElement[k].item.inthit == true ){
+                thisTrack = '<tr>'+
+                                  '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
+                                  '<td class="hit-or-gem"><img src="assets/inthit.svg" /> HIT</td>'+
+                                  '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
+                                '</tr>'
+              }else if( data.items[i].parent.track.itemListElement[k].item.gem == true ){
+                thisTrack = '<tr>'+
+                                  '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
+                                  '<td class="hit-or-gem"><img src="assets/gem.svg" /> GEM</td>'+
+                                  '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
+                                '</tr>'
+              }else{
+                thisTrack = '<tr>'+
+                                  '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
+                                  '<td></td>'+
+                                  '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
+                                '</tr>'
+              } -->
 
 
             </tbody>
@@ -394,6 +421,172 @@ window.cookieconsent.initialise({
         </div>
 
         <ul class="child-items">
+
+
+          
+
+            <li>
+              <div class="child-item__header">
+                <h3 class="child-item__title">Party / Stack-O-Tracks</h3>
+                <ul class="child-item__info">
+                  <li>4 10 2001</li>
+                  <li>Capitol US </li>
+                  <li>CD</li>
+                </ul>
+              </div>
+              <div class="child-item__body">
+                <div class="child-item__sidebar">
+                  <div class="sticky-content">
+                    <a href="" target="_blank"><img class="child-item__cover" src="../../img/albums/the-beach-boys/studio/1965-beach-boys-party/beach-boys-party-2001.jpg" alt="Party / Stack-O-Tracks cover"></a>
+                    <a class="child-item__buy" href="" target="_blank" onClick="ga(\x27send\x27, \x27event\x27, \x27Amazon\x27, \x27click\x27, \x27Item\x27)">Buy on Amazon</a>  <!-- \x27 is a scaped quote ' -->
+                  </div>
+                </div>
+                <div class="child-item__tracklist">
+                  <pre></pre>
+                </div>
+              </div>
+            </li>
+
+          
+
+            <li>
+              <div class="child-item__header">
+                <h3 class="child-item__title">Party (Mono & Stereo Remasters)</h3>
+                <ul class="child-item__info">
+                  <li>10 9 2012</li>
+                  <li>Capitol US </li>
+                  <li>CD</li>
+                </ul>
+              </div>
+              <div class="child-item__body">
+                <div class="child-item__sidebar">
+                  <div class="sticky-content">
+                    <a href="" target="_blank"><img class="child-item__cover" src="../../img/albums/the-beach-boys/studio/1965-beach-boys-party/beach-boys-party-2012.jpg" alt="Party (Mono & Stereo Remasters) cover"></a>
+                    <a class="child-item__buy" href="" target="_blank" onClick="ga(\x27send\x27, \x27event\x27, \x27Amazon\x27, \x27click\x27, \x27Item\x27)">Buy on Amazon</a>  <!-- \x27 is a scaped quote ' -->
+                  </div>
+                </div>
+                <div class="child-item__tracklist">
+                  <pre>New to this edition:
+
+Stereo album remix previously unreleased</pre>
+                </div>
+              </div>
+            </li>
+
+          
+
+            <li>
+              <div class="child-item__header">
+                <h3 class="child-item__title">Beach Boys' Party! Uncovered And Unplugged [2 CD]</h3>
+                <ul class="child-item__info">
+                  <li>11 20 2015</li>
+                  <li>Capitol US B0023853-02</li>
+                  <li>CD</li>
+                </ul>
+              </div>
+              <div class="child-item__body">
+                <div class="child-item__sidebar">
+                  <div class="sticky-content">
+                    <a href="" target="_blank"><img class="child-item__cover" src="../../img/albums/the-beach-boys/studio/1965-beach-boys-party/beach-boys-party-uncovered-and-unplugged-cover.jpg" alt="Beach Boys' Party! Uncovered And Unplugged [2 CD] cover"></a>
+                    <a class="child-item__buy" href="" target="_blank" onClick="ga(\x27send\x27, \x27event\x27, \x27Amazon\x27, \x27click\x27, \x27Item\x27)">Buy on Amazon</a>  <!-- \x27 is a scaped quote ' -->
+                  </div>
+                </div>
+                <div class="child-item__tracklist">
+                  <pre>Tracklist
+
+Disc 1
+
+1 Hully Gully (Party! Sessions Mix)
+2 I Should Have Known Better (Party! Sessions Mix)
+3 Tell Me Why (Party! Sessions Mix)
+4 Papa-Oom-Mow-Mow (Party! Sessions Mix)
+5 Mountain Of Love (Party! Sessions Mix)
+6 You've Got To Hide Your Love Away (Party! Sessions Mix)
+7 Devoted To You (Party! Sessions Mix)
+8 Alley Oop (Party! Sessions Mix)
+9 There's No Other (Like My Baby) (Party! Sessions Mix)
+10 I Get Around/Little Deuce Coupe (Party! Sessions Mix)
+11 The Times They Are A-Changin' (Party! Sessions Mix)
+12 Barbara Ann (Party! Sessions Mix)
+13 Let's Get This Party Rolling (Party! Sessions Mix / Session #2)
+14 I Should Have Known Better (Party! Sessions Mix/Take 1/Session #1)
+15 Ruby Baby (Party! Sessions Mix/Take 1/Session #1)
+16 (I Can't Get No) Satisfaction (Party! Sessions Mix/Take 1/Session #1)
+17 Hully Gully (Party! Sessions Mix/Take 1/Session #1)
+18 Blowin' In The Wind (Party! Sessions Mix/Session #1)
+19 Dialog: The Sunrays (Party! Sessions Mix/Session #1)
+20 Ruby Baby (Party! Sessions Mix/Take 2/Session #2)
+21 Dialog: The Masked Phantom (Party! Sessions Mix/Session #2)
+22 Hully Gully (Party! Sessions Mix/Take 2/Session #2)
+23 Dialog: Carl, Go Get Your Bass (Party! Sessions Mix/Session #2)
+24 Hully Gully (Party! Sessions Mix/Take 3/Session #2)
+25 (I Can't Get No) Satisfaction (Party! Sessions Mix/Take 2/Session #2)
+26 Dialog: That's A Bad Guitar (Party! Sessions Mix/Session #2)
+27 Ruby Baby (Party! Sessions Mix/Take 3/Session #2)
+28 Dialog: What's The Matter Carl (Party! Sessions Mix/Session #2)
+29 Ruby Baby (Party! Sessions Mix/Take 4/Session #2)
+30 Dialog: Carl's Tires (Party! Sessions Mix/Session #2)
+31 I Should Have Known Better (Party! Sessions Mix/Take 2/Session #2)
+32 I Should Have Known Better (Party! Sessions Mix/Take 3/Session #2)
+33 Dialog: Wasn't That Great Folks? (Party! Sessions Mix/Session #2)
+34 Tell Me Why (Party! Sessions Mix/Take 1/Session #2)
+35 Don't Worry, Baby (Party! Sessions Mix/Session #2)
+36 You've Got To Hide Your Love Away (Party! Sessions Mix/Take 1/Session #2)
+37 Little Deuce Coupe (Party! Sessions Mix/Take 1/Session #2)
+38 California Girls (Party! Sessions Mix/Session #2)
+
+Disc 2
+
+1 She Belongs To Me / The Artist (Laugh At Me) (Party! Sessions Mix/Take 1/Session #2)
+2 Fooling Around: Hang On Sloopy / You've Lost That Lovin' Feeling / Twist And Shout (Party! Sessions Mix/Session #2)
+3 Riot In Cell Block No. 9 (Party! Sessions Mix/Take 1/Session #2)
+4 Fooling Around: The Diary (Party! Sessions Mix/Session #2)
+5 Dialog: I Think We Better Do This Next Week (Party! Sessions Mix/Session #2)
+6 Dialog: Let's Cook Now And Eat Later (Party! Sessions Mix/Session #3)
+7 Tell Me Why (Party! Sessions Mix/Take 2/Session #3)
+8 I Should Have Known Better (Party! Sessions Mix/Take 4/Session #3)
+9 Dialog: What I Want To Do (Party! Sessions Mix/Session #3)
+10 Dialog: Are We Still In The Party? (Party! Sessions Mix/Session #3)
+11 Mountain Of Love (Party! Sessions Mix/Take 1/Session #3)
+12 Dialog: Where's Denny? (Party! Sessions Mix/Session #3)
+13 Devoted To You (Party! Sessions Mix/Take 1/Session #3)
+14 Dialog: What Are You Doing Now (Party! Sessions Mix/Session #3)
+15 You've Got To Hide Your Love Away (Party! Sessions Mix/Take 2/Session #3)
+16 Dialog: This Phony Party / Ticket To Ride (Party! Sessions Mix/Session #3)
+17 Alley Oop (Party! Sessions Mix/Take 1/Session #3)
+18 Alley Oop (Party! Sessions Mix/Take 2/Session #3)
+19 Dialog: Tune It Like This (Party! Sessions Mix/Session #3)
+20 There's No Other (Like My Baby) (Party! Sessions Mix/Take 1/Session #3)
+21 There's No Other (Like My Baby) (Party! Sessions Mix/Take 2/Session #3)
+22 Dialog: Do The Splits (Party! Sessions Mix/Session #3)
+23 Devoted To You (Party! Sessions Mix/Take 2/Session #3)
+24 Devoted To You (Party! Sessions Mix/Take 3/Session #3)
+25 You've Got To Hide Your Love Away (Party! Sessions Mix/Take 3/Session #4)
+26 I Get Around (Party! Sessions Mix/Session #4)
+27 Little Deuce Coupe (Party! Sessions Mix/Take 2/Session #4)
+28 Mountain Of Love (Party! Sessions Mix/Take 2/Session #4)
+29 Ticket To Ride (Party! Sessions Mix/Session #4)
+30 Riot In Cell Block No. 9 (Party! Sessions Mix/Take 2/Session #4)
+31 The Artist (Laugh At Me) (Party! Sessions Mix/Take 2/Session #4)
+32 One Kiss Led To Another (Party! Sessions Mix/Session #4)
+33 You've Got To Hide Your Love Away (Party! Sessions Mix/Take 4/Session #5)
+34 You've Got To Hide Your Love Away (Party! Sessions Mix/Take 5/Session #5)
+35 Dialog: What Did You Stop Us For Chuck? (Party! Sessions Mix/Session #5)
+36 The Times They Are A-Changin' (Party! Sessions Mix/Session #5)
+37 Fooling Around: Heart And Soul / Long Tall Sally (Party! Sessions Mix/Session #5)
+38 Fooling Around: The Boy From New York City (Party! Sessions Mix/Session #5)
+39 Smokey Joe's Café (Party! Sessions Mix/Session #5)
+40 Dialog: I Got One More (Party! Sessions Mix/Session #5)
+41 Barbara Ann (Party! Sessions Mix/Take 1/Session #5)
+42 Barbara Ann (Party! Sessions Mix/Take 2 /Session #5)
+43 Barbara Ann (Party! Sessions Mix/Take 3/Session #5)</pre>
+                </div>
+              </div>
+            </li>
+
+          
+
+
 
         </ul>
 

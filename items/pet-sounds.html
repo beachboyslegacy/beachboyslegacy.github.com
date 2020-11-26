@@ -387,14 +387,41 @@ window.cookieconsent.initialise({
 
               
 
-
-
 <!--
-              <tr>
-                <td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>
-                <td class="hit-or-gem"><img src="assets/star.svg" /> HIT</td>
-                <td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>
-              </tr> -->
+              if (data.items[i].parent.numberOfDiscs > 1) {
+                if( data.items[i].parent.track.itemListElement[k].item.trackNumber == 1){
+                  $thisItem.find('.parent-item__tracklist tbody tr:last-child').after(
+                    '<tr class="discnumber"><td colspan="3">Disc '+data.items[i].parent.track.itemListElement[k].item.disc+'</td></tr>'
+                  );
+                }
+              }
+
+
+              if( data.items[i].parent.track.itemListElement[k].item.hit == true ){
+                thisTrack = '<tr>'+
+                                  '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
+                                  '<td class="hit-or-gem"><img src="assets/star.svg" /> HIT</td>'+
+                                  '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
+                                '</tr>'
+              }else if( data.items[i].parent.track.itemListElement[k].item.inthit == true ){
+                thisTrack = '<tr>'+
+                                  '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
+                                  '<td class="hit-or-gem"><img src="assets/inthit.svg" /> HIT</td>'+
+                                  '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
+                                '</tr>'
+              }else if( data.items[i].parent.track.itemListElement[k].item.gem == true ){
+                thisTrack = '<tr>'+
+                                  '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
+                                  '<td class="hit-or-gem"><img src="assets/gem.svg" /> GEM</td>'+
+                                  '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
+                                '</tr>'
+              }else{
+                thisTrack = '<tr>'+
+                                  '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
+                                  '<td></td>'+
+                                  '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
+                                '</tr>'
+              } -->
 
 
             </tbody>
@@ -402,6 +429,348 @@ window.cookieconsent.initialise({
         </div>
 
         <ul class="child-items">
+
+
+          
+
+            <li>
+              <div class="child-item__header">
+                <h3 class="child-item__title">The Pet Sounds Sessions</h3>
+                <ul class="child-item__info">
+                  <li>11 4 1997</li>
+                  <li>Capitol US </li>
+                  <li>CD</li>
+                </ul>
+              </div>
+              <div class="child-item__body">
+                <div class="child-item__sidebar">
+                  <div class="sticky-content">
+                    <a href="" target="_blank"><img class="child-item__cover" src="../../img/albums/the-beach-boys/studio/1966-pet-sounds/the-pet-sounds-sessions-cover.jpg" alt="The Pet Sounds Sessions cover"></a>
+                    <a class="child-item__buy" href="" target="_blank" onClick="ga(\x27send\x27, \x27event\x27, \x27Amazon\x27, \x27click\x27, \x27Item\x27)">Buy on Amazon</a>  <!-- \x27 is a scaped quote ' -->
+                  </div>
+                </div>
+                <div class="child-item__tracklist">
+                  <pre>Tracklist:
+
+Disc 1
+
+1 Wouldn't It Be Nice (The Stereo Mix)
+2 You Still Believe In Me (The Stereo Mix)
+3 That's Not Me (The Stereo Mix)
+4 Don't Talk (Put Your Head On My Shoulder) (The Stereo Mix)
+5 I'm Waiting For The Day (The Stereo Mix)
+6 Let's Go Away For Awhile (The Stereo Mix)
+7 Sloop John B (The Stereo Mix)
+8 God Only Knows (The Stereo Mix)
+9 I Know There's An Answer (The Stereo Mix)
+10 Here Today (The Stereo Mix)
+11 I Just Wasn't Made For These Times (The Stereo Mix)
+12 Pet Sounds (The Stereo Mix)
+13 Caroline, No (The Stereo Mix)
+14 Sloop John B (Highlights From Tracking Date)
+15 Sloop John B (Stereo Backing Track)
+16 Trombone Dixie (Highlights From Tracking Date)
+17 Trombone Dixie (Stereo Backing Track)
+18 Pet Sounds (Highlights From Tracking Date)
+19 Pet Sounds (Stereo Track Without Guitar Overdub)
+20 Let's Go Away For Awhile (Highlights From Tracking Date)
+21 Let's Go Away For Awhile (Stereo Track Without String Overdub)
+22 Wouldn't It Be Nice (Highlights From Tracking Date)
+23 Wouldn't It Be Nice (Stereo Backing Track)
+24 Wouldn't It Be Nice (Stereo Track With Background Vocals)
+25 You Still Believe In Me (Intro - Session)
+26 You Still Believe In Me (Intro - Master Take)
+27 You Still Believe In Me (Highlights From Tracking Date)
+28 You Still Believe In Me (Stereo Backing Track)
+
+Disc 2
+
+1 Caroline, No (Highlights From Tracking Date)
+2 Caroline, No (Stereo Backing Track)
+3 Hang On To Your Ego (Highlights From Tracking Date)
+4 Hang On To Your Ego (Stereo Backing Track)
+5 Don't Talk (Put Your Head On My Shoulder) (Brian's Instrumental Demo)
+6 Don't Talk (Put Your Head On My Shoulder) (Stereo Backing Track)
+7 Don't Talk (Put Your Head On My Shoulder) (String Overdub)
+8 I Just Wasn't Made For These Times (Highlights From Tracking Date)
+9 I Just Wasn't Made For These Times (Stereo Backing Track)
+10 That's Not Me (Highlights From Tracking Date)
+11 That's Not Me (Stereo Backing Track)
+12 Good Vibrations (Highlights From Tracking Date)
+13 Good Vibrations (Stereo Backing Track)
+14 I'm Waiting For The Day (Highlights From Tracking Date)
+15 I'm Waiting For The Day (Stereo Backing Track)
+16 God Only Knows (Highlights From Tracking Date)
+17 God Only Knows (Stereo Backing Track)
+18 Here Today (Highlights From Tracking Date)
+19 Here Today (Stereo Backing Track)
+
+Disc 3
+
+1 Wouldn't It Be Nice (Stack-O-Vocals)
+2 You Still Believe In Me (Stack-O-Vocals)
+3 That's Not Me (Stack-O-Vocals)
+4 Don't Talk (Put Your Head On My Shoulder) (Stack-O-Vocals)
+5 I'm Waiting For The Day (Stack-O-Vocals)
+6 Sloop John B (Stack-O-Vocals)
+7 God Only Knows (Stack-O-Vocals)
+8 I Know There's An Answer (Stack-O-Vocals)
+9 Here Today (Stack-O-Vocals)
+10 I Just Wasn't Made For These Times (Stack-O-Vocals)
+11 Caroline, No (Stack-O-Vocals)
+12 Caroline, No (Promotional Spot #1)
+13 Wouldn't It Be Nice (Alternate Version #1)
+14 You Still Believe In Me (Alternate Version)
+15 Don't Talk (Put Your Head On My Shoulder) (Vocal Snippet)
+16 I'm Waiting For The Day (Mike Sings Lead)
+17 Sloop John B (Carl Sings First Verse)
+18 God Only Knows (Sax Solo)
+19 Hang On To Your Ego (1996 Digital Remaster)
+20 Here Today (Alternate Version)
+21 I Just Wasn't Made For These Times (Alternate Version)
+22 Banana & Louie
+23 Caroline, No (Original Speed/Stereo Mix)
+24 Dog Barking Session (Outtakes)
+25 Caroline, No (Promotional Spot #2)
+26 God Only Knows (With A Capella Tag)
+27 Wouldn't It Be Nice (Alternate Version #2)
+28 Sloop John B (Brian Sings Lead Throughout)
+29 God Only Knows (Brian Sings Lead)
+30 Caroline, No (Original Speed/Mono Mix)
+
+Disc 4
+
+Pet Sounds album (Digitally Remastered 96)</pre>
+                </div>
+              </div>
+            </li>
+
+          
+
+            <li>
+              <div class="child-item__header">
+                <h3 class="child-item__title">Pet Sounds DVD Audio</h3>
+                <ul class="child-item__info">
+                  <li>7 22 2003</li>
+                  <li>Capitol US </li>
+                  <li>DVD AUDIO</li>
+                </ul>
+              </div>
+              <div class="child-item__body">
+                <div class="child-item__sidebar">
+                  <div class="sticky-content">
+                    <a href="" target="_blank"><img class="child-item__cover" src="../../img/albums/the-beach-boys/studio/1966-pet-sounds/pet-sounds-dvda-2003.jpg" alt="Pet Sounds DVD Audio cover"></a>
+                    <a class="child-item__buy" href="" target="_blank" onClick="ga(\x27send\x27, \x27event\x27, \x27Amazon\x27, \x27click\x27, \x27Item\x27)">Buy on Amazon</a>  <!-- \x27 is a scaped quote ' -->
+                  </div>
+                </div>
+                <div class="child-item__tracklist">
+                  <pre>Bonus Audio Tracks:
+
+Unreleased Backgrounds
+Wouldn't It Be Nice (Sessions Highlights)
+Wouldn't It Be Nice (Alternative Mix Without Lead Vocal)
+God Only Knows (Session Highlights)
+God Only Knows (Master Track Mix With A Cappella Tag)
+I Just Wasn't Made For These Times (A Cappella Mix)
+Summer Means New Love
+
+This disc plays five ways:
+
+Advanced Resolution Surround
+Advanced Resolution Stereo
+Advanced Resolution Mono
+DTS 5.1 Surround Sound
+DVD-Video Compatible Dolby Digital 5.1
+
+Bonus Materials:
+
+Pet Sounds Videos
+
+The Pet Sounds Sessions Documentary - 1997 14:16
+Sloop John B Promo Video - 1966/1997 3:00
+Sloop John B Original Promo Film - 1966 2:55
+PET SOUNDS LP Original Promo Film - 1966 5:07
+
+Photo Gallery
+Brian Wilson's Message
+Liner Notes
+The Making Of Pet Sounds
+Track Notes
+Sessionography
+Technical Notes
+Discography
+EMI DVD-Audio names
+Weblinks
+Credits</pre>
+                </div>
+              </div>
+            </li>
+
+          
+
+            <li>
+              <div class="child-item__header">
+                <h3 class="child-item__title">Pet Sounds 40th Anniversary CD+DVD (Limited Edition Fuzzy Package)</h3>
+                <ul class="child-item__info">
+                  <li>8 29 2006</li>
+                  <li>Capitol US </li>
+                  <li>CD/DVD</li>
+                </ul>
+              </div>
+              <div class="child-item__body">
+                <div class="child-item__sidebar">
+                  <div class="sticky-content">
+                    <a href="" target="_blank"><img class="child-item__cover" src="../../img/albums/the-beach-boys/studio/1966-pet-sounds/pet-sounds-2006.jpg" alt="Pet Sounds 40th Anniversary CD+DVD (Limited Edition Fuzzy Package) cover"></a>
+                    <a class="child-item__buy" href="" target="_blank" onClick="ga(\x27send\x27, \x27event\x27, \x27Amazon\x27, \x27click\x27, \x27Item\x27)">Buy on Amazon</a>  <!-- \x27 is a scaped quote ' -->
+                  </div>
+                </div>
+                <div class="child-item__tracklist">
+                  <pre>CD:
+
+Original Mono Program
+Original Program In Stereo
+
+Bonus DVD:
+
+The Making Of Pet Sounds
+Pet Stories
+Rhythm Of Life: Sir George Martin & Brian Wilson In The Studio
+Original 1966 Promotional Films
+Good Vibrations
+Sloop John B
+Pet Sounds
+God Only Knows (Photo Gallery)
+
+Audio:
+
+Album Program In Hi-Res 96 KHZ/24-bit PCM Stereo
+Album Program In Dolby 5.1 Surround Sound
+Hang On To Your Ego In Hi-Res 96 KHZ/24-bit PCM Mono</pre>
+                </div>
+              </div>
+            </li>
+
+          
+
+            <li>
+              <div class="child-item__header">
+                <h3 class="child-item__title">Pet Sounds (Mono & Stereo Remasters)</h3>
+                <ul class="child-item__info">
+                  <li>9 25 2012</li>
+                  <li>Capitol US </li>
+                  <li>CD</li>
+                </ul>
+              </div>
+              <div class="child-item__body">
+                <div class="child-item__sidebar">
+                  <div class="sticky-content">
+                    <a href="" target="_blank"><img class="child-item__cover" src="../../img/albums/the-beach-boys/studio/1966-pet-sounds/pet-sounds-2012.jpg" alt="Pet Sounds (Mono & Stereo Remasters) cover"></a>
+                    <a class="child-item__buy" href="" target="_blank" onClick="ga(\x27send\x27, \x27event\x27, \x27Amazon\x27, \x27click\x27, \x27Item\x27)">Buy on Amazon</a>  <!-- \x27 is a scaped quote ' -->
+                  </div>
+                </div>
+                <div class="child-item__tracklist">
+                  <pre></pre>
+                </div>
+              </div>
+            </li>
+
+          
+
+            <li>
+              <div class="child-item__header">
+                <h3 class="child-item__title">Pet Sounds (50th Anniversary Deluxe Edition) 4CD/Blu-ray Audio</h3>
+                <ul class="child-item__info">
+                  <li>6 10 2016</li>
+                  <li>Capitol US B0024731-00</li>
+                  <li>CD/Blu-ray</li>
+                </ul>
+              </div>
+              <div class="child-item__body">
+                <div class="child-item__sidebar">
+                  <div class="sticky-content">
+                    <a href="" target="_blank"><img class="child-item__cover" src="../../img/albums/the-beach-boys/studio/1966-pet-sounds/pet-sounds-50-anniversary-deluxe-edition-4cd.jpg" alt="Pet Sounds (50th Anniversary Deluxe Edition) 4CD/Blu-ray Audio cover"></a>
+                    <a class="child-item__buy" href="" target="_blank" onClick="ga(\x27send\x27, \x27event\x27, \x27Amazon\x27, \x27click\x27, \x27Item\x27)">Buy on Amazon</a>  <!-- \x27 is a scaped quote ' -->
+                  </div>
+                </div>
+                <div class="child-item__tracklist">
+                  <pre>Previously Unreleased:
+
+I Know There's An Answer (Vocal Session)
+I Know There's An Answer (Alternate Mix)
+
+Live Recordings:
+
+Michigan State University. October 22, 1966
+- Wouldn't It Be Nice
+- Sloop John B
+- God Only Knows
+
+Daughters Of The American Revolution Constitution Hall, Washington DC. November 19, 1967
+- Good Vibrations
+- God Only Knows
+- Wouldn't It Be Nice
+
+Carnegie Hall, New York. November 23, 1972 (Second Show)
+- God Only Knows
+
+Jamaican World Music Festival, Montego Bay, Jamaica. November 26, 1982
+- God Only Knows
+
+Universal Studios, Universal City, California. May 30, 1989
+- Sloop John B
+
+Paramount Theater, New York City. November 26, 1993
+- Caroline, No
+- You Still Believe In Me
+
+Bonus Track:
+
+Good Vibrations (Master Track with Partial Vocal)
+
+Blu-ray Pure Audio Disc:
+
+5.1 Surround Sound: 96kHz/24-bit
+Mono; Stereo; Stereo Instrumental (new to hi res): 192kHz/24-bit
+Additional Material in 5.1 Surround and Stereo</pre>
+                </div>
+              </div>
+            </li>
+
+          
+
+            <li>
+              <div class="child-item__header">
+                <h3 class="child-item__title">Pet Sounds (50th Anniversary Deluxe Edition) 2CD</h3>
+                <ul class="child-item__info">
+                  <li>6 10 2016</li>
+                  <li>Capitol US </li>
+                  <li>CD</li>
+                </ul>
+              </div>
+              <div class="child-item__body">
+                <div class="child-item__sidebar">
+                  <div class="sticky-content">
+                    <a href="" target="_blank"><img class="child-item__cover" src="../../img/albums/the-beach-boys/studio/1966-pet-sounds/pet-sounds-50-anniversary-deluxe-edition-2cd.jpg" alt="Pet Sounds (50th Anniversary Deluxe Edition) 2CD cover"></a>
+                    <a class="child-item__buy" href="" target="_blank" onClick="ga(\x27send\x27, \x27event\x27, \x27Amazon\x27, \x27click\x27, \x27Item\x27)">Buy on Amazon</a>  <!-- \x27 is a scaped quote ' -->
+                  </div>
+                </div>
+                <div class="child-item__tracklist">
+                  <pre>Disc 1:
+
+Pet Sounds (Mono)
+Pet Sounds (Stereo)
+
+Disc 2:
+
+Pet Sounds (Instrumental Album)
+Live Recordings</pre>
+                </div>
+              </div>
+            </li>
+
+          
+
+
 
         </ul>
 
