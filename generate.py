@@ -2,10 +2,12 @@ from argparse import ArgumentParser
 from argparse import Namespace
 from jinja2 import Template
 from json import loads
+from os import listdir
 from os import makedirs
 from os import path
 from shutil import copytree
 from shutil import rmtree
+from typing import Dict
 from typing import List
 
 class CategoryException(Exception):
@@ -64,6 +66,13 @@ book_cats: List = ["book"]
 bootleg_cats: List = ["bootleg"]
 video_cats: List = ["video"]
 
+# We'll preload all the templates so we don't have to do it every time.
+template_map: Dict = {}
+for template_name in listdir(templates_dir):
+    with open(path.join(templates_dir, template_name), "r") as template:
+        template_map[template_name] = Template(template.read())
+
+# Now, for each category object in the data, we must choose the riht template.
 for item in data["items"]:
     parent: dict = item["parent"]
 
@@ -73,15 +82,15 @@ for item in data["items"]:
     }.keys()
 
     # We determine the template name by looking at the item's categories.
-    template_name: str
+    template: str
     if [category for category in item_cats if category in album_cats]:
-        template_name = "album.html.jinja2"
+        template = template_map["album.html.jinja2"]
     elif [category for category in item_cats if category in compilation_cats]:
-        template_name = "compilation.html.jinja2"
+        template = template_map["compilation.html.jinja2"]
     elif [category for category in item_cats if category in book_cats]:
-        template_name = "book.html.jinja2"
+        template = template_map["book.html.jinja2"]
     elif [category for category in item_cats if category in bootleg_cats]:
-        template_name = "bootleg.html.jinja2"
+        template = template_map["bootleg.html.jinja2"]
     elif [category for category in item_cats if category in video_cats]:
         # Grab all the "true" subcats.
         item_subcats: List = {
@@ -89,11 +98,11 @@ for item in data["items"]:
         }.keys()
 
         if "live" in item_subcats:
-            template_name = "video_live.html.jinja2"
+            template = template_map["video_live.html.jinja2"]
         elif "documentary" in item_subcats:
-            template_name = "video_documentary.html.jinja2"
+            template = template_map["video_documentary.html.jinja2"]
         elif "movie" in item_subcats:
-            template_name = "video_movie.html.jinja2"
+            template = template_map["video_movie.html.jinja2"]
         else:
             raise CategoryException(
                 f"Ivalid video subcategories for {parent['uniqueId']}"
@@ -102,11 +111,6 @@ for item in data["items"]:
         raise CategoryException(
             f"Ivalid categories for {parent['uniqueId']}"
         )
-
-    # Generate the template.
-    index_template_path: str = path.join(templates_dir, template_name)
-    with open(index_template_path, "r") as index_template:
-        template: Template = Template(index_template.read())
 
     # Wirte the generated template to the its item file.
     output_template_path: str = path.join(
