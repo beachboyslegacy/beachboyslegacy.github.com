@@ -248,27 +248,29 @@ window.cookieconsent.initialise({
 
       <div class="item__header" style="background-color:{{item["parent"]["backgroundColor"]}}">
         <img class="item__cover--details" src="../../{{item["parent"]["image"]}}" alt="{{item["parent"]["name"]}} cover">
-        <div class="item__info">
+        <div class="item__info--details">
           <h2 class="item__title">{{item["parent"]["name"]}}</h2>
           <h3 class="item__subtitle">{{item["parent"]["alternateName"]}}</h3>
           <!-- <h3 class="item__year">{{item["parent"]["releaseYear"]}}</h3> -->
           <ul class="item__rating"></ul>
           <div class="wpac-rating-ajax" data-wpac-chan="{{item["parent"]["uniqueId"]}}"></div>
-          <p>Released on {{item["parent"]["releaseMonth"]}} {{item["parent"]["releaseDay"]}}, {{item["parent"]["releaseYear"]}}</p>
-          <p>{{item["parent"]["publisher"]}} {{item["parent"]["country"]}} {{item["parent"]["catalogNumber"]}}</p>
-          <p>Produced by {{item["parent"]["producer"]}}</p>
-          <p>Chart position: #{{item["parent"]["billboardPosition"]}}</p>
-          <p>{{item["parent"]["notes"]}}</p>
+          <div class="parent-item__info">
+            <p>Released on {{item["parent"]["releaseMonth"]}} {{item["parent"]["releaseDay"]}}, {{item["parent"]["releaseYear"]}}</p>
+            <p>{{item["parent"]["publisher"]}} {{item["parent"]["country"]}} {{item["parent"]["catalogNumber"]}}</p>
+            <p>Produced by {{item["parent"]["producer"]}}</p>
+            <p>Chart position: #{{item["parent"]["billboardPosition"]}}</p>
+            <p>{{item["parent"]["notes"]}}</p>
+          </div>
         </div>
       </div>
       <div class="item__body--details">
-        <div class="parent-item__info">
+        <!-- <div class="parent-item__info">
           <p>Released on {{item["parent"]["releaseMonth"]}} {{item["parent"]["releaseDay"]}}, {{item["parent"]["releaseYear"]}}</p>
           <p>{{item["parent"]["publisher"]}} {{item["parent"]["country"]}} {{item["parent"]["catalogNumber"]}}</p>
           <p>Produced by {{item["parent"]["producer"]}}</p>
           <p>Chart position: #{{item["parent"]["billboardPosition"]}}</p>
           <p>{{item["parent"]["notes"]}}</p>
-        </div>
+        </div> -->
         <div class="parent-item__tracklist">
           <table>
             <tbody>
