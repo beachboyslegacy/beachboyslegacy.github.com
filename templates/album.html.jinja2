@@ -156,17 +156,6 @@ window.cookieconsent.initialise({
               </tr>
 
 
-              <!-- {% for element in item["parent"]["track"]["itemListElement"] %}
-                  <tr>
-                    <td>{{element["item"]["trackNumber"]}}</td>
-                    <td>{{element["item"]["name"]}}</td>
-                    <td>{{element["item"]["composer"]}}</td>
-                    <td></td>
-                  </tr>
-
-              {% endfor %} -->
-
-
 
               {% for element in item["parent"]["track"]["itemListElement"] %}
                 {% if element.item.hit %}
