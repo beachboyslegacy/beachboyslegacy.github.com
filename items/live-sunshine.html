@@ -73,6 +73,14 @@
   setTimeout("ga('send','event','User explores the site','time on page more than one minute')",60000);
 </script>
 
+<script src="https://embed.widgetpack.com/widget.js"></script>
+<script type="text/javascript">
+  function wpac_ajax_init() {
+      WPac.init({widget: 'Rating', id: 2265, el: 'wpac-rating-ajax'});
+  }
+</script>
+
+
 
 <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
 <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
@@ -102,16 +110,12 @@ window.cookieconsent.initialise({
 
 <div class="item-details-header">
   <!-- <a id="open-overlay-menu" class="header__menu-icon" href="javascript:void(0)" onClick="ga('send', 'event', 'Navigation', 'click', 'Overlay Menu')"><webicon icon="material:menu"/></a> -->
-  <div class="logo">
-    <h1>← HOME</h1>
-  </div>
+
+  <a class="item-details-header__back-btn" href="../../index.html">← Back Home <span>♫ I'll Spend My Summer</span></a>
+
   <ul class="header__nav">
     <li><a href="http://twitter.com/beachboyslegacy" target="_blank"><webicon icon="entypo:twitter"></webicon> <span>Follow Beach Boys Legacy on twitter</span></a></li>
   </ul>
-  <!-- <div class="header__search">
-    <div class="header__search__icon" href="javascript:void(0)"><webicon icon="fa:search"/></div>
-    <input class="header__search__input" type="search" name="search" placeholder="Search any item...">
-  </div> -->
 </div>
 
 
@@ -125,10 +129,8 @@ window.cookieconsent.initialise({
       <div class="item-details__sidebar" style="background-color:#EF76AE">
         <img class="item-details__sidebar__cover" src="../../img/albums/the-beach-boys/live/2017-live-sunshine/live-sunshine-cover.jpg" alt="Live Sunshine cover">
         <div class="item-details__sidebar__info">
-          <h2 class="item-details__sidebar__info__title">Live Sunshine by The Beach Boys</h2>
+          <h1 class="item-details__sidebar__info__title">Live Sunshine by The Beach Boys</h1>
           <h3 class="item__subtitle"></h3>
-          <!-- <h3 class="item__year">2017</h3> -->
-          <ul class="item__rating"></ul>
           <div class="wpac-rating-ajax" data-wpac-chan="live-sunshine"></div>
           <div class="parent-item__info">
             <p>Released on 12 8, 2017</p>
@@ -143,24 +145,18 @@ window.cookieconsent.initialise({
 
 
       <div class="item-details__body">
-        <!-- <div class="parent-item__info">
-          <p>Released on 12 8, 2017</p>
-          <p>Capitol US </p>
-          <p>Produced by Alan Boyd, Mark Linett</p>
-          <p>Chart position: #Did not chart</p>
-          <p></p>
-        </div> -->
+
         <div class="parent-item__tracklist">
           <table>
             <tbody>
               <tr>
-                <td>Track #</td>
                 <td>Title</td>
+                <td></td>
                 <td>Composer</td>
               </tr>
 
 
-              
+              <!-- 
                   <tr>
                     <td>1</td>
                     <td>Heroes And Villains (Rehearsal / Live In Hawaii / 8/25/67)</td>
@@ -1032,7 +1028,997 @@ window.cookieconsent.initialise({
                     <td></td>
                   </tr>
 
+               -->
+
+
+
               
+                
+                  <tr>
+                    <td><div class="tracknumber">1</div>Heroes And Villains (Rehearsal / Live In Hawaii / 8/25/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Parks</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">2</div>God Only Knows (Rehearsal / Live In Hawaii / 8/25/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Asher</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">3</div>Good Vibrations (Rehearsal / Live In Hawaii / 8/25/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">4</div>The Letter (Rehearsal / Live In Hawaii / 8/25/67)</td>
+                    <td></td>
+                    <td>Carson</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">5</div>You're So Good To Me (Rehearsal / Live In Hawaii / 8/25/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">6</div>Hawaii (Rehearsal / Live In Hawaii / 8/25/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">7</div>All Day All Night (Rehearsal / Live In Hawaii / 8/25/67)</td>
+                    <td></td>
+                    <td>B.Wilson</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">8</div>California Girls (Rehearsal Take 1 / Live In Hawaii / 8/25/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">9</div>Surfin' (Rehearsal / Live In Hawaii / 8/25/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">10</div>Sloop John B (Rehearsal / Live In Hawaii / 8/25/67)</td>
+                    <td></td>
+                    <td>Traditional/Arranged by B.Wilson</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">11</div>Wouldn't It Be Nice (Rehearsal / Live In Hawaii / 8/25/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Asher/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">12</div>California Girls (Rehearsal Take 2 / Live In Hawaii / 8/25/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">13</div>The Letter (Rehearsal Take 2 / Live In Hawaii / 8/25/67)</td>
+                    <td></td>
+                    <td>Carson</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">14</div>Hawaii (Live In Hawaii / 8/25/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">15</div>You're So Good To Me (Live In Hawaii / 8/25/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">16</div>Surfer Girl (Live In Hawaii / 8/25/67)</td>
+                    <td></td>
+                    <td>B.Wilson</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">17</div>Surfin' (Live In Hawaii / 8/25/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">18</div>Gettin' Hungry (Live In Hawaii / 8/25/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">19</div>Sloop John B (Live In Hawaii / 8/25/67)</td>
+                    <td></td>
+                    <td>Traditional/Arranged by B.Wilson</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">20</div>California Girls (Live In Hawaii / 8/25/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">21</div>Wouldn't It Be Nice (Live In Hawaii / 8/25/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Asher/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">22</div>Heroes And Villains (Live In Hawaii / 8/25/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Parks</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">23</div>God Only Knows (Live In Hawaii / 8/25/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Asher</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">24</div>Good Vibrations (Live In Hawaii / 8/25/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">25</div>Barbara Ann (Live In Hawaii / 8/25/67)</td>
+                    <td></td>
+                    <td>Fassert</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">26</div>The Letter (Rehearsal / Live In Hawaii / 8/26/67)</td>
+                    <td></td>
+                    <td>Carson</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">27</div>Hawaii (Rehearsal / Live In Hawaii / 8/26/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">28</div>You're So Good To Me (Rehearsal / Live In Hawaii / 8/26/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">29</div>God Only Knows (Rehearsal / Live In Hawaii / 8/26/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Asher</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">30</div>Help Me Rhonda (Rehearsal / Live In Hawaii / 8/26/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">31</div>California Girls (Rehearsal / Live In Hawaii / 8/26/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">32</div>Good Vibrations (Rehearsal / Live In Hawaii / 8/26/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">33</div>Heroes And Villains (Rehearsal / Live In Hawaii / 8/26/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Parks</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">34</div>Their Hearts Were Full Of Spring (Rehearsal / Live In Hawaii / 8/26/67)</td>
+                    <td></td>
+                    <td>Troup</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">35</div>The Lord's Prayer (Rehearsal / Live In Hawaii / 8/26/67)</td>
+                    <td></td>
+                    <td>Malotte</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">36</div>Hawthorne Boulevard (Live In Hawaii / 8/26/67)</td>
+                    <td></td>
+                    <td>B.Wilson</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">37</div>Hawaii (Live In Hawaii / 8/26/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">38</div>You're So Good To Me (Live In Hawaii / 8/26/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">39</div>Help Me Rhonda (Live In Hawaii / 8/26/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">40</div>California Girls (Live In Hawaii / 8/26/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">41</div>Wouldn't It Be Nice (Live In Hawaii / 8/26/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Asher/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">42</div>Gettin' Hungry (Live In Hawaii / 8/26/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">43</div>Surfer Girl (Live In Hawaii / 8/26/67)</td>
+                    <td></td>
+                    <td>B.Wilson</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">44</div>Surfin' (Live In Hawaii / 8/26/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">45</div>Sloop John B (Live In Hawaii / 8/26/67)</td>
+                    <td></td>
+                    <td>Traditional/Arranged by B.Wilson</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">46</div>The Letter (Live In Hawaii / 8/26/67)</td>
+                    <td></td>
+                    <td>Carson</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">47</div>God Only Knows (Live In Hawaii / 8/26/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Asher</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">48</div>Good Vibrations (Live In Hawaii / 8/26/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">49</div>Heroes And Villains (Live In Hawaii / 8/26/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Parks</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">50</div>Barbara Ann (Live In Hawaii / 8/26/67)</td>
+                    <td></td>
+                    <td>Fassert</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">51</div>Barbara Ann (Live In Detroit / 11/17/67)</td>
+                    <td></td>
+                    <td>Fassert</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">52</div>Darlin' (Live In Detroit / 11/17/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">53</div>Country Air (Live In Detroit / 11/17/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">54</div>I Get Around (Live In Detroit / 11/17/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">55</div>How She Boogalooed It (Live In Detroit / 11/17/67)</td>
+                    <td></td>
+                    <td>Love/Johnston/Jardine/C.Wilson</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">56</div>Wouldn't It Be Nice (Live In Detroit / 11/17/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Asher/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">57</div>God Only Knows (Live In Detroit / 11/17/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Asher</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">58</div>California Girls (Live In Detroit / 11/17/67)</td>
+                    <td></td>
+                    <td>B.Wilson</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">59</div>Wild Honey (Live In Detroit / 11/17/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">60</div>Graduation Day (Live In Detroit / 11/17/67)</td>
+                    <td></td>
+                    <td>Traditional/Arranged by B.Wilson</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">61</div>Good Vibrations (Live In Detroit / 11/17/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">62</div>Johnny B. Goode (Live In Detroit / 11/17/67)</td>
+                    <td></td>
+                    <td>Berry</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">63</div>Barbara Ann (Live In Washington, D.C. / 11/19/67)</td>
+                    <td></td>
+                    <td>Fassert</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">64</div>Darlin' (Live In Washington, D.C. / 11/19/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">65</div>I Get Around (Live In Washington, D.C. / 11/19/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">66</div>Surfer Girl (Live In Washington, D.C. / 11/19/67)</td>
+                    <td></td>
+                    <td>B.Wilson</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">67</div>Wouldn't It Be Nice (Live In Washington, D.C. / 11/19/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Asher/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">68</div>God Only Knows (Live In Washington, D.C. / 11/19/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Asher</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">69</div>California Girls (Live In Washington, D.C. / 11/19/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">70</div>Wild Honey (Live In Washington, D.C. / 11/19/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">71</div>Good Vibrations (Live In Washington, D.C. / 11/19/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">72</div>Graduation Day (Live In Washington, D.C. / 11/19/67)</td>
+                    <td></td>
+                    <td>Sherman/Sherman</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">73</div>Johnny B. Goode (Live In Washington, D.C. / 11/19/67)</td>
+                    <td></td>
+                    <td>Berry</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">74</div>Help Me Rhonda (Live In White Plains, NY / 11/21/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">75</div>Barbara Ann (Live In White Plains, NY / 11/21/67)</td>
+                    <td></td>
+                    <td>Fassert</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">76</div>Darlin' (Live In White Plains, NY / 11/21/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">77</div>Surfer Girl (Live In White Plains, NY / 11/21/67)</td>
+                    <td></td>
+                    <td>B.Wilson</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">78</div>Wouldn't It Be Nice (Live In White Plains, NY / 11/21/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Asher/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">79</div>God Only Knows (Live In White Plains, NY / 11/21/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Asher</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">80</div>California Girls (Live In White Plains, NY / 11/21/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">81</div>Wild Honey (Live In White Plains, NY / 11/21/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">82</div>Graduation Day (Live In White Plains, NY / 11/21/67)</td>
+                    <td></td>
+                    <td>Sherman/Sherman</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">83</div>Good Vibrations (Live In White Plains, NY / 11/21/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">84</div>Help Me Rhonda (Live In Pittsburgh / 11/22/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">85</div>Barbara Ann (Live In Pittsburgh / 11/22/67)</td>
+                    <td></td>
+                    <td>Fassert</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">86</div>I Get Around (Live In Pittsburgh / 11/22/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">87</div>Darlin' (Live In Pittsburgh / 11/22/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">88</div>Surfer Girl (Live In Pittsburgh / 11/22/67)</td>
+                    <td></td>
+                    <td>B.Wilson</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">89</div>Wouldn't It Be Nice (Live In Pittsburgh / 11/22/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Asher/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">90</div>God Only Knows (Live In Pittsburgh / 11/22/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Asher</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">91</div>California Girls (Live In Pittsburgh / 11/22/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">92</div>Wild Honey (Live In Pittsburgh / 11/22/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">93</div>Good Vibrations (Live In Pittsburgh / 11/22/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">94</div>Johnny B. Goode (Live In Pittsburgh / 11/22/67)</td>
+                    <td></td>
+                    <td>Berry</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">95</div>Graduation Day (Live In Pittsburgh / 11/22/67)</td>
+                    <td></td>
+                    <td>Sherman/Sherman</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">96</div>Sloop John B (Live In Pittsburgh / 11/22/67)</td>
+                    <td></td>
+                    <td>Traditional/Arranged by B.Wilson</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">97</div>Help Me Rhonda (Live In Boston / 11/23/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">98</div>Barbara Ann (Live In Boston / 11/23/67)</td>
+                    <td></td>
+                    <td>Fassert</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">99</div>Darlin' (Live In Boston / 11/23/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">100</div>Surfer Girl (Live In Boston / 11/23/67)</td>
+                    <td></td>
+                    <td>B.Wilson</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">101</div>Wouldn't It Be Nice (Live In Boston / 11/23/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Asher/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">102</div>God Only Knows (Live In Boston / 11/23/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Asher</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">103</div>California Girls (Live In Boston / 11/23/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">104</div>Wild Honey (Live In Boston / 11/23/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">105</div>Good Vibrations (Live In Boston / 11/23/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">106</div>I Get Around (Live In Boston / 11/23/67)</td>
+                    <td></td>
+                    <td>B.Wilson/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">107</div>Sloop John B (Live In Boston / 11/23/67)</td>
+                    <td></td>
+                    <td>Traditional/Arranged by B.Wilson</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">108</div>Graduation Day (Live In Boston / 11/23/67)</td>
+                    <td></td>
+                    <td>Sherman/Sherman</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">109</div>Johnny B. Goode (Live In Boston / 11/23/67)</td>
+                    <td></td>
+                    <td>Berry</td>
+                  </tr>
+                
+
+              
+
+
+
+
+
 
 <!--
               if (data.items[i].parent.numberOfDiscs > 1) {
@@ -1262,27 +2248,16 @@ window.cookieconsent.initialise({
 
 
 
-<!-- loads images 500px before they appear in the viewport -->
-<script>
-  $("img.lazy").lazyload({
-    threshold : 500,
-    effect : "fadeIn",
-    placeholder: 'assets/preloader.svg'
-  });
-</script>
 
 <!-- Amazon universal link doesnt work -->
 <!-- <script src="https://z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=5af50dea-b060-4387-b1de-aecb74adf6af" async></script> -->
 
-<script src="https://embed.widgetpack.com/widget.js" async></script>
-<script type="text/javascript">
-function wpac_ajax_init() {
-    WPac.init({widget: 'Rating', id: 2265, el: 'wpac-rating-ajax'});
-}
+
+<script>
+$(function(){
+  wpac_ajax_init();
+});
 </script>
-
-
-
 <!-- <script async type="text/javascript" src="//cdn.rawgit.com/icons8/bower-webicon/v0.10.7/jquery-webicon.min.js"></script> -->
 
 

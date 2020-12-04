@@ -73,6 +73,14 @@
   setTimeout("ga('send','event','User explores the site','time on page more than one minute')",60000);
 </script>
 
+<script src="https://embed.widgetpack.com/widget.js"></script>
+<script type="text/javascript">
+  function wpac_ajax_init() {
+      WPac.init({widget: 'Rating', id: 2265, el: 'wpac-rating-ajax'});
+  }
+</script>
+
+
 
 <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
 <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
@@ -102,16 +110,12 @@ window.cookieconsent.initialise({
 
 <div class="item-details-header">
   <!-- <a id="open-overlay-menu" class="header__menu-icon" href="javascript:void(0)" onClick="ga('send', 'event', 'Navigation', 'click', 'Overlay Menu')"><webicon icon="material:menu"/></a> -->
-  <div class="logo">
-    <h1>← HOME</h1>
-  </div>
+
+  <a class="item-details-header__back-btn" href="../../index.html">← Back Home <span>♫ I'll Spend My Summer</span></a>
+
   <ul class="header__nav">
     <li><a href="http://twitter.com/beachboyslegacy" target="_blank"><webicon icon="entypo:twitter"></webicon> <span>Follow Beach Boys Legacy on twitter</span></a></li>
   </ul>
-  <!-- <div class="header__search">
-    <div class="header__search__icon" href="javascript:void(0)"><webicon icon="fa:search"/></div>
-    <input class="header__search__input" type="search" name="search" placeholder="Search any item...">
-  </div> -->
 </div>
 
 
@@ -125,10 +129,8 @@ window.cookieconsent.initialise({
       <div class="item-details__sidebar" style="background-color:#4077A1">
         <img class="item-details__sidebar__cover" src="../../img/albums/the-beach-boys/studio/1992-summer-in-paradise/summer-in-paradise-cover.jpg" alt="Summer In Paradise cover">
         <div class="item-details__sidebar__info">
-          <h2 class="item-details__sidebar__info__title">Summer In Paradise by The Beach Boys</h2>
+          <h1 class="item-details__sidebar__info__title">Summer In Paradise by The Beach Boys</h1>
           <h3 class="item__subtitle"></h3>
-          <!-- <h3 class="item__year">1992</h3> -->
-          <ul class="item__rating"></ul>
           <div class="wpac-rating-ajax" data-wpac-chan="summer-in-paradise"></div>
           <div class="parent-item__info">
             <p>Released on 8 3, 1992</p>
@@ -143,24 +145,18 @@ window.cookieconsent.initialise({
 
 
       <div class="item-details__body">
-        <!-- <div class="parent-item__info">
-          <p>Released on 8 3, 1992</p>
-          <p>Brother Entertainment US BBR 727-2</p>
-          <p>Produced by Terry Melcher. John Stamos, Gary Griffin & Lanny Cordola</p>
-          <p>Chart position: #Did not chart</p>
-          <p></p>
-        </div> -->
+
         <div class="parent-item__tracklist">
           <table>
             <tbody>
               <tr>
-                <td>Track #</td>
                 <td>Title</td>
+                <td></td>
                 <td>Composer</td>
               </tr>
 
 
-              
+              <!-- 
                   <tr>
                     <td>1</td>
                     <td>Hot Fun In The Summer Time</td>
@@ -256,7 +252,124 @@ window.cookieconsent.initialise({
                     <td></td>
                   </tr>
 
+               -->
+
+
+
               
+                
+                  <tr>
+                    <td><div class="tracknumber">1</div>Hot Fun In The Summer Time</td>
+                    <td class="hit-or-gem"><img src="../../assets/inthit.svg" /> HIT</td>
+                    <td>Stewart</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">2</div>Surfin'</td>
+                    <td></td>
+                    <td>B.Wilson/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">3</div>Summer Of Love</td>
+                    <td></td>
+                    <td>Love/Melcher</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">4</div>Island Fever</td>
+                    <td></td>
+                    <td>Melcher/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">5</div>Still Surfin'</td>
+                    <td></td>
+                    <td>Love/Melcher</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">6</div>Slow Summer Dancin' (One Summer Night)</td>
+                    <td></td>
+                    <td>Johnston-Webb</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">7</div>Strange Things Happen</td>
+                    <td></td>
+                    <td>Melcher/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">8</div>Remember ''Walkin' In The Sand''</td>
+                    <td></td>
+                    <td>Morton</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">9</div>Lahaina Aloha</td>
+                    <td class="hit-or-gem"><img src="../../assets/gem.svg" /> GEM</td>
+                    <td>Melcher/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">10</div>Under The Boardwalk</td>
+                    <td></td>
+                    <td>Resnick/Young/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">11</div>Summer In Paradise</td>
+                    <td></td>
+                    <td>Love/Melcher/Fall</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">12</div>Forever</td>
+                    <td></td>
+                    <td>D.Wilson/Jakobson</td>
+                  </tr>
+                
+
+              
+
+
+
+
+
 
 <!--
               if (data.items[i].parent.numberOfDiscs > 1) {
@@ -508,27 +621,16 @@ Forever (D.Wilson/Jakobsen)</pre>
 
 
 
-<!-- loads images 500px before they appear in the viewport -->
-<script>
-  $("img.lazy").lazyload({
-    threshold : 500,
-    effect : "fadeIn",
-    placeholder: 'assets/preloader.svg'
-  });
-</script>
 
 <!-- Amazon universal link doesnt work -->
 <!-- <script src="https://z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=5af50dea-b060-4387-b1de-aecb74adf6af" async></script> -->
 
-<script src="https://embed.widgetpack.com/widget.js" async></script>
-<script type="text/javascript">
-function wpac_ajax_init() {
-    WPac.init({widget: 'Rating', id: 2265, el: 'wpac-rating-ajax'});
-}
+
+<script>
+$(function(){
+  wpac_ajax_init();
+});
 </script>
-
-
-
 <!-- <script async type="text/javascript" src="//cdn.rawgit.com/icons8/bower-webicon/v0.10.7/jquery-webicon.min.js"></script> -->
 
 

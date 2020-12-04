@@ -73,6 +73,14 @@
   setTimeout("ga('send','event','User explores the site','time on page more than one minute')",60000);
 </script>
 
+<script src="https://embed.widgetpack.com/widget.js"></script>
+<script type="text/javascript">
+  function wpac_ajax_init() {
+      WPac.init({widget: 'Rating', id: 2265, el: 'wpac-rating-ajax'});
+  }
+</script>
+
+
 
 <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
 <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
@@ -102,16 +110,12 @@ window.cookieconsent.initialise({
 
 <div class="item-details-header">
   <!-- <a id="open-overlay-menu" class="header__menu-icon" href="javascript:void(0)" onClick="ga('send', 'event', 'Navigation', 'click', 'Overlay Menu')"><webicon icon="material:menu"/></a> -->
-  <div class="logo">
-    <h1>← HOME</h1>
-  </div>
+
+  <a class="item-details-header__back-btn" href="../../index.html">← Back Home <span>♫ I'll Spend My Summer</span></a>
+
   <ul class="header__nav">
     <li><a href="http://twitter.com/beachboyslegacy" target="_blank"><webicon icon="entypo:twitter"></webicon> <span>Follow Beach Boys Legacy on twitter</span></a></li>
   </ul>
-  <!-- <div class="header__search">
-    <div class="header__search__icon" href="javascript:void(0)"><webicon icon="fa:search"/></div>
-    <input class="header__search__input" type="search" name="search" placeholder="Search any item...">
-  </div> -->
 </div>
 
 
@@ -125,10 +129,8 @@ window.cookieconsent.initialise({
       <div class="item-details__sidebar" style="background-color:#afa297">
         <img class="item-details__sidebar__cover" src="../../img/collaborations/1984-1100-bel-air-place/1100-bel-air-place-cover.jpg" alt="1100 Bel Air Place cover">
         <div class="item-details__sidebar__info">
-          <h2 class="item-details__sidebar__info__title">1100 Bel Air Place by Al Jardine</h2>
+          <h1 class="item-details__sidebar__info__title">1100 Bel Air Place by Al Jardine</h1>
           <h3 class="item__subtitle">Julio Iglesias</h3>
-          <!-- <h3 class="item__year">1984</h3> -->
-          <ul class="item__rating"></ul>
           <div class="wpac-rating-ajax" data-wpac-chan="aj-1100-bel-air-place"></div>
           <div class="parent-item__info">
             <p>Released on 10 24, 1984</p>
@@ -143,24 +145,18 @@ window.cookieconsent.initialise({
 
 
       <div class="item-details__body">
-        <!-- <div class="parent-item__info">
-          <p>Released on 10 24, 1984</p>
-          <p>Columbia US QC 39157</p>
-          <p>Produced by Richard Perry and Ramon Arcusa</p>
-          <p>Chart position: #6</p>
-          <p></p>
-        </div> -->
+
         <div class="parent-item__tracklist">
           <table>
             <tbody>
               <tr>
-                <td>Track #</td>
                 <td>Title</td>
+                <td></td>
                 <td>Composer</td>
               </tr>
 
 
-              
+              <!-- 
                   <tr>
                     <td>4</td>
                     <td>The Air That I Breathe</td>
@@ -168,7 +164,25 @@ window.cookieconsent.initialise({
                     <td></td>
                   </tr>
 
+               -->
+
+
+
               
+                
+                  <tr>
+                    <td><div class="tracknumber">4</div>The Air That I Breathe</td>
+                    <td></td>
+                    <td>Hammond/Hazlewood</td>
+                  </tr>
+                
+
+              
+
+
+
+
+
 
 <!--
               if (data.items[i].parent.numberOfDiscs > 1) {
@@ -389,27 +403,16 @@ window.cookieconsent.initialise({
 
 
 
-<!-- loads images 500px before they appear in the viewport -->
-<script>
-  $("img.lazy").lazyload({
-    threshold : 500,
-    effect : "fadeIn",
-    placeholder: 'assets/preloader.svg'
-  });
-</script>
 
 <!-- Amazon universal link doesnt work -->
 <!-- <script src="https://z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=5af50dea-b060-4387-b1de-aecb74adf6af" async></script> -->
 
-<script src="https://embed.widgetpack.com/widget.js" async></script>
-<script type="text/javascript">
-function wpac_ajax_init() {
-    WPac.init({widget: 'Rating', id: 2265, el: 'wpac-rating-ajax'});
-}
+
+<script>
+$(function(){
+  wpac_ajax_init();
+});
 </script>
-
-
-
 <!-- <script async type="text/javascript" src="//cdn.rawgit.com/icons8/bower-webicon/v0.10.7/jquery-webicon.min.js"></script> -->
 
 

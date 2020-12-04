@@ -73,6 +73,14 @@
   setTimeout("ga('send','event','User explores the site','time on page more than one minute')",60000);
 </script>
 
+<script src="https://embed.widgetpack.com/widget.js"></script>
+<script type="text/javascript">
+  function wpac_ajax_init() {
+      WPac.init({widget: 'Rating', id: 2265, el: 'wpac-rating-ajax'});
+  }
+</script>
+
+
 
 <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
 <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
@@ -102,16 +110,12 @@ window.cookieconsent.initialise({
 
 <div class="item-details-header">
   <!-- <a id="open-overlay-menu" class="header__menu-icon" href="javascript:void(0)" onClick="ga('send', 'event', 'Navigation', 'click', 'Overlay Menu')"><webicon icon="material:menu"/></a> -->
-  <div class="logo">
-    <h1>← HOME</h1>
-  </div>
+
+  <a class="item-details-header__back-btn" href="../../index.html">← Back Home <span>♫ I'll Spend My Summer</span></a>
+
   <ul class="header__nav">
     <li><a href="http://twitter.com/beachboyslegacy" target="_blank"><webicon icon="entypo:twitter"></webicon> <span>Follow Beach Boys Legacy on twitter</span></a></li>
   </ul>
-  <!-- <div class="header__search">
-    <div class="header__search__icon" href="javascript:void(0)"><webicon icon="fa:search"/></div>
-    <input class="header__search__input" type="search" name="search" placeholder="Search any item...">
-  </div> -->
 </div>
 
 
@@ -125,10 +129,8 @@ window.cookieconsent.initialise({
       <div class="item-details__sidebar" style="background-color:#D94840">
         <img class="item-details__sidebar__cover" src="../../img/albums/the-beach-boys/live/1973-the-beach-boys-in-concert/the-beach-boys-in-concert-cover.jpg" alt="The Beach Boys In Concert cover">
         <div class="item-details__sidebar__info">
-          <h2 class="item-details__sidebar__info__title">The Beach Boys In Concert by The Beach Boys</h2>
+          <h1 class="item-details__sidebar__info__title">The Beach Boys In Concert by The Beach Boys</h1>
           <h3 class="item__subtitle"></h3>
-          <!-- <h3 class="item__year">1973</h3> -->
-          <ul class="item__rating"></ul>
           <div class="wpac-rating-ajax" data-wpac-chan="the-beach-boys-in-concert"></div>
           <div class="parent-item__info">
             <p>Released on 11 19, 1973</p>
@@ -143,24 +145,18 @@ window.cookieconsent.initialise({
 
 
       <div class="item-details__body">
-        <!-- <div class="parent-item__info">
-          <p>Released on 11 19, 1973</p>
-          <p>Brother-Reprise US 2RS 6484</p>
-          <p>Produced by The Beach Boys</p>
-          <p>Chart position: #25</p>
-          <p></p>
-        </div> -->
+
         <div class="parent-item__tracklist">
           <table>
             <tbody>
               <tr>
-                <td>Track #</td>
                 <td>Title</td>
+                <td></td>
                 <td>Composer</td>
               </tr>
 
 
-              
+              <!-- 
                   <tr>
                     <td>1</td>
                     <td>Sail On, Sailor</td>
@@ -320,7 +316,196 @@ window.cookieconsent.initialise({
                     <td></td>
                   </tr>
 
+               -->
+
+
+
               
+                
+                  <tr>
+                    <td><div class="tracknumber">1</div>Sail On, Sailor</td>
+                    <td></td>
+                    <td>B.Wilson/Parks/Almer/Kennedy/Rieley</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">2</div>Sloop John B</td>
+                    <td></td>
+                    <td>Traditional/Arranged by B.Wilson</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">3</div>The Trader</td>
+                    <td></td>
+                    <td>C.Wilson/Rieley</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">4</div>You Still Believe In Me</td>
+                    <td></td>
+                    <td>B.Wilson/Asher</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">5</div>California Girls</td>
+                    <td></td>
+                    <td>B.Wilson/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">6</div>Darlin'</td>
+                    <td></td>
+                    <td>B.Wilson/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">7</div>Marcella</td>
+                    <td></td>
+                    <td>B.Wilson/Rieley</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">8</div>Caroline, No</td>
+                    <td class="hit-or-gem"><img src="../../assets/gem.svg" /> GEM</td>
+                    <td>B.Wilson/Asher</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">9</div>Leaving This Town</td>
+                    <td></td>
+                    <td>Fataar/C.Wilson/Chaplin/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">10</div>Heroes & Villains</td>
+                    <td></td>
+                    <td>B.Wilson/Parks</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">1</div>Funky Pretty</td>
+                    <td></td>
+                    <td>B.Wilson/Love/Rieley</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">2</div>Let The Wind Blow</td>
+                    <td class="hit-or-gem"><img src="../../assets/gem.svg" /> GEM</td>
+                    <td>B.Wilson/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">3</div>Help Me, Rhonda</td>
+                    <td></td>
+                    <td>B.Wilson/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">4</div>Surfer Girl</td>
+                    <td></td>
+                    <td>B.Wilson</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">5</div>Wouldn't It Be Nice</td>
+                    <td></td>
+                    <td>B.Wilson/Asher/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">6</div>We Got Love</td>
+                    <td class="hit-or-gem"><img src="../../assets/gem.svg" /> GEM</td>
+                    <td>Chaplin/Fataar/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">7</div>Don't Worry, Baby</td>
+                    <td></td>
+                    <td>B.Wilson/Christian</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">8</div>Surfin' U.S.A.</td>
+                    <td></td>
+                    <td>Berry/B.Wilson</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">9</div>Good Vibrations</td>
+                    <td></td>
+                    <td>B.Wilson/Love</td>
+                  </tr>
+                
+
+              
+                
+                  <tr>
+                    <td><div class="tracknumber">10</div>Fun, Fun, Fun</td>
+                    <td></td>
+                    <td>B.Wilson/Love</td>
+                  </tr>
+                
+
+              
+
+
+
+
+
 
 <!--
               if (data.items[i].parent.numberOfDiscs > 1) {
@@ -599,27 +784,16 @@ Fun, Fun, Fun</pre>
 
 
 
-<!-- loads images 500px before they appear in the viewport -->
-<script>
-  $("img.lazy").lazyload({
-    threshold : 500,
-    effect : "fadeIn",
-    placeholder: 'assets/preloader.svg'
-  });
-</script>
 
 <!-- Amazon universal link doesnt work -->
 <!-- <script src="https://z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=5af50dea-b060-4387-b1de-aecb74adf6af" async></script> -->
 
-<script src="https://embed.widgetpack.com/widget.js" async></script>
-<script type="text/javascript">
-function wpac_ajax_init() {
-    WPac.init({widget: 'Rating', id: 2265, el: 'wpac-rating-ajax'});
-}
+
+<script>
+$(function(){
+  wpac_ajax_init();
+});
 </script>
-
-
-
 <!-- <script async type="text/javascript" src="//cdn.rawgit.com/icons8/bower-webicon/v0.10.7/jquery-webicon.min.js"></script> -->
 
 

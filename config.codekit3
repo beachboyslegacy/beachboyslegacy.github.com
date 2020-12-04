@@ -46,9 +46,20 @@
 		},
 	"/assets/beachboyslegacy-logo.png": {
 		"ft": 32768,
-		"iS": 15235,
+		"iS": 53715,
 		"oA": 0,
 		"oAP": "/assets/beachboyslegacy-logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/beachboyslegacy-logo_old.png": {
+		"ft": 32768,
+		"iS": 15235,
+		"oA": 0,
+		"oAP": "/assets/beachboyslegacy-logo_old.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
@@ -14478,6 +14489,14 @@
 		"oAP": "/index.html",
 		"oF": 0
 		},
+	"/items/1963-10-19-hollywood.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/items/1963-10-19-hollywood.html",
+		"oF": 0
+		},
 	"/items/20-good-vibrations-the-greatest-hits.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -14492,6 +14511,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/20-more-good-vibrations-the-greatest-hits-vol-2.html",
+		"oF": 0
+		},
+	"/items/25-years-of-good-vibrations.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/items/25-years-of-good-vibrations.html",
 		"oF": 0
 		},
 	"/items/30th-anniversary-show.html": {
@@ -14596,6 +14623,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/americathon.html",
+		"oF": 0
+		},
+	"/items/an-american-band.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/items/an-american-band.html",
 		"oF": 0
 		},
 	"/items/andrew-doe-john-tobler-complete-guide.html": {
@@ -14774,6 +14809,14 @@
 		"oAP": "/items/boogie-bands-and-one-night-stands.html",
 		"oF": 0
 		},
+	"/items/brian-wilson-and-the-beach-boys-solos.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/items/brian-wilson-and-the-beach-boys-solos.html",
+		"oF": 0
+		},
 	"/items/brian-wilson-ben-greenman-i-am-brian-wilson.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -14828,6 +14871,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/bruce-golden-southern-california-pastoral.html",
+		"oF": 0
+		},
+	"/items/bw-drag-city-jan-and-dean.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/items/bw-drag-city-jan-and-dean.html",
 		"oF": 0
 		},
 	"/items/bw-hey-santa-carnie-and-wendy.html": {
@@ -14926,6 +14977,14 @@
 		"oAP": "/items/california-feeling-updated.html",
 		"oF": 0
 		},
+	"/items/california-girl-nancy-sinatra.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/items/california-girl-nancy-sinatra.html",
+		"oF": 0
+		},
 	"/items/carl-and-the-passions-so-tough.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -14980,6 +15039,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/celebration.html",
+		"oF": 0
+		},
+	"/items/charles-granata-wouldnt-it-be-nice.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/items/charles-granata-wouldnt-it-be-nice.html",
 		"oF": 0
 		},
 	"/items/chocabeck-zucchero.html": {
@@ -15174,6 +15241,14 @@
 		"oAP": "/items/deep-sea-treasures-vol-1.html",
 		"oF": 0
 		},
+	"/items/dennis-wilson-pacific-ocean-blue-legacy-edition.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/items/dennis-wilson-pacific-ocean-blue-legacy-edition.html",
+		"oF": 0
+		},
 	"/items/denny-remembered-vol-2.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -15204,6 +15279,22 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/doin-it-again-symphony-hall.html",
+		"oF": 0
+		},
+	"/items/domenic-priore-the-dumb-angel-gazette.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/items/domenic-priore-the-dumb-angel-gazette.html",
+		"oF": 0
+		},
+	"/items/dont-worry-baby-everly-brothers.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/items/dont-worry-baby-everly-brothers.html",
 		"oF": 0
 		},
 	"/items/dw-beached-ricci-martin.html": {
@@ -15302,6 +15393,14 @@
 		"oAP": "/items/from-the-vaults-audiofon.html",
 		"oF": 0
 		},
+	"/items/fun-fun-fun-status-quo.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/items/fun-fun-fun-status-quo.html",
+		"oF": 0
+		},
 	"/items/g-a-de-forest-beach-boys-vs-beatlemania.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -15316,6 +15415,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/gael-tynevez-lenfance-pour-leternite.html",
+		"oF": 0
+		},
+	"/items/givin-you-up.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/items/givin-you-up.html",
 		"oF": 0
 		},
 	"/items/good-timin-live-at-knebworth-1980-dvd.html": {
@@ -15382,6 +15489,14 @@
 		"oAP": "/items/hourglass-america.html",
 		"oF": 0
 		},
+	"/items/i-can-hear-music-20-20-sessions.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/items/i-can-hear-music-20-20-sessions.html",
+		"oF": 0
+		},
 	"/items/i-can-hear-music-carl-wilson.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -15420,6 +15535,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/in-the-beginning-the-garage-tapes.html",
+		"oF": 0
+		},
+	"/items/its-about-time-capricorn.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/items/its-about-time-capricorn.html",
 		"oF": 0
 		},
 	"/items/its-ok.html": {
@@ -15518,6 +15641,22 @@
 		"oAP": "/items/keepin-the-summer-alive.html",
 		"oF": 0
 		},
+	"/items/keith-badman-the-definitive-diary.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/items/keith-badman-the-definitive-diary.html",
+		"oF": 0
+		},
+	"/items/ken-sharp-dreamer.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/items/ken-sharp-dreamer.html",
+		"oF": 0
+		},
 	"/items/kent-crowley-long-promised-road.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -15572,6 +15711,22 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/landlocked-adult-child-frontline.html",
+		"oF": 0
+		},
+	"/items/landlocked-brother.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/items/landlocked-brother.html",
+		"oF": 0
+		},
+	"/items/landlocked-polyphone.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/items/landlocked-polyphone.html",
 		"oF": 0
 		},
 	"/items/landlocked-the-unreleased-1970-album-capital.html": {
@@ -16006,6 +16161,14 @@
 		"oAP": "/items/rarities-vol-14.html",
 		"oF": 0
 		},
+	"/items/rarities-vol-18.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/items/rarities-vol-18.html",
+		"oF": 0
+		},
 	"/items/rarities-vol-3.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -16142,6 +16305,14 @@
 		"oAP": "/items/smile-sea-of-tunes.html",
 		"oF": 0
 		},
+	"/items/something-funny-goin-on.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/items/something-funny-goin-on.html",
+		"oF": 0
+		},
 	"/items/songs-and-music-from-shes-the-one.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -16212,6 +16383,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/steven-gaines-heroes-and-villains.html",
+		"oF": 0
+		},
+	"/items/summer-days.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/items/summer-days.html",
 		"oF": 0
 		},
 	"/items/summer-dreams.html": {
@@ -16446,6 +16625,14 @@
 		"oAP": "/items/the-best-day-ever-spongebob.html",
 		"oF": 0
 		},
+	"/items/the-best-of-bruce-and-terry.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/items/the-best-of-bruce-and-terry.html",
+		"oF": 0
+		},
 	"/items/the-bridge-school-concerts.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -16540,6 +16727,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/the-moon.html",
+		"oF": 0
+		},
+	"/items/the-pet-sounds-symphonic-tour.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/items/the-pet-sounds-symphonic-tour.html",
 		"oF": 0
 		},
 	"/items/the-smile-era-outtakes.html": {
@@ -16716,6 +16911,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/unsurpassed-masters-vol-13.html",
+		"oF": 0
+		},
+	"/items/unsurpassed-masters-vol-14.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/items/unsurpassed-masters-vol-14.html",
 		"oF": 0
 		},
 	"/items/unsurpassed-masters-vol-18.html": {
