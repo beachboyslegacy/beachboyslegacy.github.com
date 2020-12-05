@@ -69,18 +69,19 @@ $(function(){
             if ( data.items[i].parent.category.book == true ) {
 
               $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-date="'+data.items[i].parent.releaseYear+'">'+
-                                '<div class="item__header" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
+                                '<a class="item__header" href="items/'+data.items[i].parent.uniqueId+'.html" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
+
                                   '<img class="item__cover lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
                                   '<div class="item__info">'+
                                     '<h2 class="item__title">'+data.items[i].parent.name+'</h2>'+
                                     '<h3 class="item__subtitle">'+data.items[i].parent.alternateName+'</h3>'+
                                     '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
-                                    // '<ul class="item__rating"></ul>'+
+
                                     '<div class="wpac-rating-ajax" data-wpac-chan="'+data.items[i].parent.uniqueId+'"></div>'+
-                                    // '<a href="#'+data.items[i].parent.uniqueId+'" class="item__btn scroll-to-anchor" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Book\x27)">See details and editions</a>'+
-                                    '<a href="items/'+data.items[i].parent.uniqueId+'.html" class="item__btn" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Book\x27)">See details and editions</a>'+
+                                    '<div class="item__btn">See details and editions</div>'+
+                                    // '<a href="items/'+data.items[i].parent.uniqueId+'.html" class="item__btn" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Book\x27)">See details and editions</a>'+
                                   '</div>'+
-                                '</div>'+
+                                '</a>'+
                                 '<div class="item__body">'+
                                   '<div class="parent-item__info">'+
                                     '<p>Release date: '+thisReleaseMonthName+' '+thisReleaseDayNumber+' '+data.items[i].parent.releaseYear+'</p>'+
@@ -108,18 +109,19 @@ $(function(){
               if( (data.items[i].parent.subcategory.documentary) ||  (data.items[i].parent.subcategory.movie) ){
 
                 $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-date="'+data.items[i].parent.releaseYear+'">'+
-                                  '<div class="item__header" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
+                                  '<a class="item__header" href="items/'+data.items[i].parent.uniqueId+'.html" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
+
                                     '<img class="item__cover lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
                                     '<div class="item__info">'+
                                       '<h2 class="item__title">'+data.items[i].parent.name+'</h2>'+
                                       '<h3 class="item__subtitle">'+data.items[i].parent.alternateName+'</h3>'+
                                       '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
-                                      // '<ul class="item__rating"></ul>'+
+
                                       '<div class="wpac-rating-ajax" data-wpac-chan="'+data.items[i].parent.uniqueId+'"></div>'+
-                                      // '<a href="#'+data.items[i].parent.uniqueId+'" class="item__btn scroll-to-anchor" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Video\x27)">See details and editions</a>'+
-                                      '<a href="items/'+data.items[i].parent.uniqueId+'.html" class="item__btn" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Video\x27)">See details and editions</a>'+
+                                      '<div class="item__btn">See details and editions</div>'+
+                                      // '<a href="items/'+data.items[i].parent.uniqueId+'.html" class="item__btn" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Video\x27)">See details and editions</a>'+
                                     '</div>'+
-                                  '</div>'+
+                                  '</a>'+
                                   '<div class="item__body">'+
                                     '<div class="parent-item__info">'+
                                       '<p>Released on '+thisReleaseMonthName+' '+thisReleaseDayNumber+', '+data.items[i].parent.releaseYear+'</p>'+
@@ -149,18 +151,17 @@ $(function(){
               if(data.items[i].parent.category.album == true || data.items[i].parent.category.boxset == true || data.items[i].parent.category.live == true){
 
                 $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-date="'+data.items[i].parent.releaseYear+'">'+
-                                  '<div class="item__header" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
+                                  '<a class="item__header" href="items/'+data.items[i].parent.uniqueId+'.html" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
+
                                     '<img class="item__cover lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
                                     '<div class="item__info">'+
                                       '<h2 class="item__title">'+data.items[i].parent.name+'</h2>'+
                                       '<h3 class="item__subtitle">'+data.items[i].parent.alternateName+'</h3>'+
                                       '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
-                                      // '<ul class="item__rating"></ul>'+
                                       '<div class="wpac-rating-ajax" data-wpac-chan="'+data.items[i].parent.uniqueId+'"></div>'+
-                                      // '<a href="#'+data.items[i].parent.uniqueId+'" class="item__btn scroll-to-anchor" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Solo\x27)">See details and editions</a>'+
-                                      '<a href="items/'+data.items[i].parent.uniqueId+'.html" class="item__btn" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Solo\x27)">See details and editions</a>'+
+                                      '<div class="item__btn">See details and editions</div>'+
                                     '</div>'+
-                                  '</div>'+
+                                  '</a>'+
                                   '<div class="item__body">'+
                                     '<div class="parent-item__info">'+
                                       '<p>Released on '+thisReleaseMonthName+' '+thisReleaseDayNumber+', '+data.items[i].parent.releaseYear+'</p>'+
@@ -193,18 +194,19 @@ $(function(){
                 else if(data.items[i].parent.category.compilation == true || data.items[i].parent.category.single == true){
 
                   $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-date="'+data.items[i].parent.releaseYear+'">'+
-                                    '<div class="item__header" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
+                                    '<a class="item__header" href="items/'+data.items[i].parent.uniqueId+'.html" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
+
                                       '<img class="item__cover lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
                                       '<div class="item__info">'+
                                         '<h2 class="item__title">'+data.items[i].parent.name+'</h2>'+
                                         '<h3 class="item__subtitle">'+data.items[i].parent.alternateName+'</h3>'+
                                         '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
-                                        // '<ul class="item__rating"></ul>'+
+
                                         '<div class="wpac-rating-ajax" data-wpac-chan="'+data.items[i].parent.uniqueId+'"></div>'+
-                                        // '<a href="#'+data.items[i].parent.uniqueId+'" class="item__btn scroll-to-anchor" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Solo\x27)">See details and editions</a>'+
-                                        '<a href="items/'+data.items[i].parent.uniqueId+'.html" class="item__btn" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Solo\x27)">See details and editions</a>'+
+                                        '<div class="item__btn">See details and editions</div>'+
+                                        // '<a href="items/'+data.items[i].parent.uniqueId+'.html" class="item__btn" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Solo\x27)">See details and editions</a>'+
                                       '</div>'+
-                                    '</div>'+
+                                    '</a>'+
                                     '<div class="item__body">'+
                                       '<div class="parent-item__info">'+
                                         '<p>Released on '+thisReleaseMonthName+' '+thisReleaseDayNumber+', '+data.items[i].parent.releaseYear+'</p>'+
@@ -323,18 +325,19 @@ $(function(){
 
             // SOLO
             $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-date="'+data.items[i].parent.releaseYear+'">'+
-                              '<div class="item__header" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
+                              '<a class="item__header" href="items/'+data.items[i].parent.uniqueId+'.html" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
+
                                 '<img class="item__cover lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
                                 '<div class="item__info">'+
                                   '<h2 class="item__title">'+data.items[i].parent.name+'</h2>'+
                                   '<h3 class="item__subtitle">'+data.items[i].parent.alternateName+'</h3>'+
                                   '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
-                                  // '<ul class="item__rating"></ul>'+
+
                                   '<div class="wpac-rating-ajax" data-wpac-chan="'+data.items[i].parent.uniqueId+'"></div>'+
-                                  // '<a href="#'+data.items[i].parent.uniqueId+'" class="item__btn scroll-to-anchor" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Solo\x27)">See details and editions</a>'+
-                                  '<a href="items/'+data.items[i].parent.uniqueId+'.html" class="item__btn" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Solo\x27)">See details and editions</a>'+
+                                  '<div class="item__btn">See details and editions</div>'+
+                                  // '<a href="items/'+data.items[i].parent.uniqueId+'.html" class="item__btn" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Solo\x27)">See details and editions</a>'+
                                 '</div>'+
-                              '</div>'+
+                              '</a>'+
                               '<div class="item__body">'+
                                 '<div class="parent-item__info">'+
                                   '<p>Released on '+thisReleaseMonthName+' '+thisReleaseDayNumber+', '+data.items[i].parent.releaseYear+'</p>'+
@@ -466,18 +469,19 @@ $(function(){
             loadedItems++;
 
             $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-date="'+data.items[i].parent.releaseYear+'">'+
-                              '<div class="item__header" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
+                              '<a class="item__header" href="items/'+data.items[i].parent.uniqueId+'.html" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
+
                                 '<img class="item__cover lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
                                 '<div class="item__info">'+
                                   '<h2 class="item__title">'+data.items[i].parent.name+'</h2>'+
                                   '<h3 class="item__subtitle">'+data.items[i].parent.alternateName+'</h3>'+
                                   '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
-                                  // '<ul class="item__rating"></ul>'+
+
                                   '<div class="wpac-rating-ajax" data-wpac-chan="'+data.items[i].parent.uniqueId+'"></div>'+
-                                  // '<a href="#'+data.items[i].parent.uniqueId+'" class="item__btn scroll-to-anchor" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Book\x27)">See details and editions</a>'+
-                                  '<a href="items/'+data.items[i].parent.uniqueId+'.html" class="item__btn" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Book\x27)">See details and editions</a>'+
+                                  '<div class="item__btn">See details and editions</div>'+
+                                  // '<a href="items/'+data.items[i].parent.uniqueId+'.html" class="item__btn" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Book\x27)">See details and editions</a>'+
                                   '</div>'+
-                              '</div>'+
+                              '</a>'+
                               '<div class="item__body">'+
                                 '<div class="parent-item__info">'+
                                   '<p>Release date: '+thisReleaseMonthName+' '+thisReleaseDayNumber+' '+data.items[i].parent.releaseYear+'</p>'+
@@ -519,18 +523,19 @@ $(function(){
             loadedItems++;
 
             $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-date="'+data.items[i].parent.releaseYear+'">'+
-                              '<div class="item__header" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
+                              '<a class="item__header" href="items/'+data.items[i].parent.uniqueId+'.html" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
+
                                 '<img class="item__cover lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
                                 '<div class="item__info">'+
                                   '<h2 class="item__title">'+data.items[i].parent.name+'</h2>'+
                                   '<h3 class="item__subtitle">'+data.items[i].parent.alternateName+'</h3>'+
                                   '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
-                                  // '<ul class="item__rating"></ul>'+
+
                                   '<div class="wpac-rating-ajax" data-wpac-chan="'+data.items[i].parent.uniqueId+'"></div>'+
-                                  // '<a href="#'+data.items[i].parent.uniqueId+'" class="item__btn scroll-to-anchor" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Book\x27)">See details and editions</a>'+
-                                  '<a href="items/'+data.items[i].parent.uniqueId+'.html" class="item__btn" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Book\x27)">See details and editions</a>'+
+                                  '<div class="item__btn">See details and editions</div>'+
+                                  // '<a href="items/'+data.items[i].parent.uniqueId+'.html" class="item__btn" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Book\x27)">See details and editions</a>'+
                                 '</div>'+
-                              '</div>'+
+                              '</a>'+
                               '<div class="item__body">'+
                                 '<div class="parent-item__info">'+
                                   '<p>Release date: '+thisReleaseMonthName+' '+thisReleaseDayNumber+' '+data.items[i].parent.releaseYear+'</p>'+
@@ -610,18 +615,19 @@ $(function(){
               if( (data.items[i].parent.subcategory.documentary) ||  (data.items[i].parent.subcategory.movie) ){
 
                 $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-date="'+data.items[i].parent.releaseYear+'">'+
-                                  '<div class="item__header" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
+                                  '<a class="item__header" href="items/'+data.items[i].parent.uniqueId+'.html" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
+
                                     '<img class="item__cover lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
                                     '<div class="item__info">'+
                                       '<h2 class="item__title">'+data.items[i].parent.name+'</h2>'+
                                       '<h3 class="item__subtitle">'+data.items[i].parent.alternateName+'</h3>'+
                                       '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
-                                      // '<ul class="item__rating"></ul>'+
+
                                       '<div class="wpac-rating-ajax" data-wpac-chan="'+data.items[i].parent.uniqueId+'"></div>'+
-                                      // '<a href="#'+data.items[i].parent.uniqueId+'" class="item__btn scroll-to-anchor" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Video\x27)">See details and editions</a>'+
-                                      '<a href="items/'+data.items[i].parent.uniqueId+'.html" class="item__btn" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Video\x27)">See details and editions</a>'+
+                                      '<div class="item__btn">See details and editions</div>'+
+                                      // '<a href="items/'+data.items[i].parent.uniqueId+'.html" class="item__btn" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Video\x27)">See details and editions</a>'+
                                     '</div>'+
-                                  '</div>'+
+                                  '</a>'+
                                   '<div class="item__body">'+
                                     '<div class="parent-item__info">'+
                                       '<p>Released on '+thisReleaseMonthName+' '+thisReleaseDayNumber+', '+data.items[i].parent.releaseYear+'</p>'+
@@ -670,18 +676,19 @@ $(function(){
               else if( (data.items[i].parent.subcategory.live) ){
 
                 $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-date="'+data.items[i].parent.releaseYear+'">'+
-                                  '<div class="item__header" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
+                                  '<a class="item__header" href="items/'+data.items[i].parent.uniqueId+'.html" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
+
                                     '<img class="item__cover lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
                                     '<div class="item__info">'+
                                       '<h2 class="item__title">'+data.items[i].parent.name+'</h2>'+
                                       '<h3 class="item__subtitle">'+data.items[i].parent.alternateName+'</h3>'+
                                       '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
-                                      // '<ul class="item__rating"></ul>'+
+
                                       '<div class="wpac-rating-ajax" data-wpac-chan="'+data.items[i].parent.uniqueId+'"></div>'+
-                                      // '<a href="#'+data.items[i].parent.uniqueId+'" class="item__btn scroll-to-anchor" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Video\x27)">See details and editions</a>'+
-                                      '<a href="items/'+data.items[i].parent.uniqueId+'.html" class="item__btn" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Video\x27)">See details and editions</a>'+
+                                      '<div class="item__btn">See details and editions</div>'+
+                                      // '<a href="items/'+data.items[i].parent.uniqueId+'.html" class="item__btn" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Video\x27)">See details and editions</a>'+
                                     '</div>'+
-                                  '</div>'+
+                                  '</a>'+
                                   '<div class="item__body">'+
                                     '<div class="parent-item__info">'+
                                       '<p>Released on '+thisReleaseMonthName+' '+thisReleaseDayNumber+', '+data.items[i].parent.releaseYear+'</p>'+
@@ -823,18 +830,19 @@ $(function(){
             // COMPILATION
             if(data.items[i].parent.category.compilation){
               $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-date="'+data.items[i].parent.releaseYear+'">'+
-                                '<div class="item__header" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
+                                '<a class="item__header" href="items/'+data.items[i].parent.uniqueId+'.html" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
+
                                   '<img class="item__cover lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
                                   '<div class="item__info">'+
                                     '<h2 class="item__title">'+data.items[i].parent.name+'</h2>'+
                                     '<h3 class="item__subtitle">'+data.items[i].parent.alternateName+'</h3>'+
                                     '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
-                                    // '<ul class="item__rating"></ul>'+
+                                    
                                     '<div class="wpac-rating-ajax" data-wpac-chan="'+data.items[i].parent.uniqueId+'"></div>'+
-                                    // '<a href="#'+data.items[i].parent.uniqueId+'" class="item__btn scroll-to-anchor" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Compilation\x27)">See details and editions</a>'+
-                                    '<a href="items/'+data.items[i].parent.uniqueId+'.html" class="item__btn" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Compilation\x27)">See details and editions</a>'+
+                                    '<div class="item__btn">See details and editions</div>'+
+                                    // '<a href="items/'+data.items[i].parent.uniqueId+'.html" class="item__btn" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Compilation\x27)">See details and editions</a>'+
                                   '</div>'+
-                                '</div>'+
+                                '</a>'+
                                 '<div class="item__body">'+
                                   '<div class="parent-item__info">'+
                                     '<p>Released on '+thisReleaseMonthName+' '+thisReleaseDayNumber+', '+data.items[i].parent.releaseYear+'</p>'+
@@ -863,18 +871,19 @@ $(function(){
             // SINGLES
             else if(data.items[i].parent.category.single){
               $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-date="'+data.items[i].parent.releaseYear+'">'+
-                                '<div class="item__header" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
+                                '<a class="item__header" href="items/'+data.items[i].parent.uniqueId+'.html" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
+
                                   '<img class="item__cover single lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
                                   '<div class="item__info">'+
                                     '<h2 class="item__title">'+data.items[i].parent.name+'</h2>'+
                                     '<h3 class="item__subtitle">'+data.items[i].parent.alternateName+'</h3>'+
                                     '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
-                                    // '<ul class="item__rating"></ul>'+
+
                                     '<div class="wpac-rating-ajax" data-wpac-chan="'+data.items[i].parent.uniqueId+'"></div>'+
-                                    // '<a href="#'+data.items[i].parent.uniqueId+'" class="item__btn scroll-to-anchor" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Compilation\x27)">See details and editions</a>'+
-                                    '<a href="items/'+data.items[i].parent.uniqueId+'.html" class="item__btn" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Compilation\x27)">See details and editions</a>'+
+                                    '<div class="item__btn">See details and editions</div>'+
+                                    // '<a href="items/'+data.items[i].parent.uniqueId+'.html" class="item__btn" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Compilation\x27)">See details and editions</a>'+
                                   '</div>'+
-                                '</div>'+
+                                '</a>'+
                                 '<div class="item__body">'+
                                   '<div class="parent-item__info">'+
                                     '<p>Released on '+thisReleaseMonthName+' '+thisReleaseDayNumber+', '+data.items[i].parent.releaseYear+'</p>'+
@@ -903,18 +912,19 @@ $(function(){
             // BOOTLEG
             else if(data.items[i].parent.category.bootleg){
               $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-date="'+data.items[i].parent.releaseYear+'">'+
-                                '<div class="item__header" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
+                                '<a class="item__header" href="items/'+data.items[i].parent.uniqueId+'.html" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
+
                                   '<img class="item__cover lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
                                   '<div class="item__info">'+
                                     '<h2 class="item__title">'+data.items[i].parent.name+'</h2>'+
                                     '<h3 class="item__subtitle">'+data.items[i].parent.alternateName+'</h3>'+
                                     '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
-                                    // '<ul class="item__rating"></ul>'+
+
                                     '<div class="wpac-rating-ajax" data-wpac-chan="'+data.items[i].parent.uniqueId+'"></div>'+
-                                    // '<a href="#'+data.items[i].parent.uniqueId+'" class="item__btn scroll-to-anchor" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Album\x27)">See details and editions</a>'+
-                                    '<a href="items/'+data.items[i].parent.uniqueId+'.html" class="item__btn" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Album\x27)">See details and editions</a>'+
+                                    '<div class="item__btn">See details and editions</div>'+
+                                    // '<a href="items/'+data.items[i].parent.uniqueId+'.html" class="item__btn" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Album\x27)">See details and editions</a>'+
                                   '</div>'+
-                                '</div>'+
+                                '</a>'+
                                 '<div class="item__body">'+
                                   '<div class="parent-item__info">'+
                                     '<p>'+data.items[i].parent.publisher+' ('+data.items[i].parent.country+') '+data.items[i].parent.catalogNumber+'</p>'+
@@ -941,18 +951,19 @@ $(function(){
             // Productions
             else if(data.items[i].parent.category.production){
               $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-date="'+data.items[i].parent.releaseYear+'">'+
-                                '<div class="item__header" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
+                                '<a class="item__header" href="items/'+data.items[i].parent.uniqueId+'.html" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
+
                                   '<img class="item__cover single lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
                                   '<div class="item__info">'+
                                     '<h2 class="item__title">'+data.items[i].parent.name+'</h2>'+
                                     '<h3 class="item__subtitle">'+data.items[i].parent.alternateName+'</h3>'+
                                     '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
-                                    // '<ul class="item__rating"></ul>'+
+
                                     '<div class="wpac-rating-ajax" data-wpac-chan="'+data.items[i].parent.uniqueId+'"></div>'+
-                                    // '<a href="#'+data.items[i].parent.uniqueId+'" class="item__btn scroll-to-anchor" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Album\x27)">See details and editions</a>'+
-                                    '<a href="items/'+data.items[i].parent.uniqueId+'.html" class="item__btn" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Album\x27)">See details and editions</a>'+
+                                    '<div class="item__btn">See details and editions</div>'+
+                                    // '<a href="items/'+data.items[i].parent.uniqueId+'.html" class="item__btn" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Album\x27)">See details and editions</a>'+
                                   '</div>'+
-                                '</div>'+
+                                '</a>'+
                                 '<div class="item__body">'+
                                   '<div class="parent-item__info">'+
                                     '<p>Released on '+thisReleaseMonthName+' '+thisReleaseDayNumber+', '+data.items[i].parent.releaseYear+'</p>'+
@@ -983,18 +994,19 @@ $(function(){
             // Collaborations
             else if(data.items[i].parent.category.collaboration){
               $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-date="'+data.items[i].parent.releaseYear+'">'+
-                                '<div class="item__header" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
+                                '<a class="item__header" href="items/'+data.items[i].parent.uniqueId+'.html" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
+
                                   '<img class="item__cover single lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
                                   '<div class="item__info">'+
                                     '<h2 class="item__title">'+data.items[i].parent.name+'</h2>'+
                                     '<h3 class="item__subtitle">'+data.items[i].parent.alternateName+'</h3>'+
                                     '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
-                                    // '<ul class="item__rating"></ul>'+
+
                                     '<div class="wpac-rating-ajax" data-wpac-chan="'+data.items[i].parent.uniqueId+'"></div>'+
-                                    // '<a href="#'+data.items[i].parent.uniqueId+'" class="item__btn scroll-to-anchor" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Album\x27)">See details and editions</a>'+
-                                    '<a href="items/'+data.items[i].parent.uniqueId+'.html" class="item__btn" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Album\x27)">See details and editions</a>'+
+                                    '<div class="item__btn">See details and editions</div>'+
+                                    // '<a href="items/'+data.items[i].parent.uniqueId+'.html" class="item__btn" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Album\x27)">See details and editions</a>'+
                                   '</div>'+
-                                '</div>'+
+                                '</a>'+
                                 '<div class="item__body">'+
                                   '<div class="parent-item__info">'+
                                     '<p>Released on '+thisReleaseMonthName+' '+thisReleaseDayNumber+', '+data.items[i].parent.releaseYear+'</p>'+
@@ -1024,18 +1036,19 @@ $(function(){
             // Concert
             else if(data.items[i].parent.category.concert){
               $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-date="'+data.items[i].parent.releaseYear+'">'+
-                                '<div class="item__header" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
+                                '<a class="item__header" href="items/'+data.items[i].parent.uniqueId+'.html" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
+
                                   '<img class="item__cover single lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
                                   '<div class="item__info">'+
                                     '<h2 class="item__title">'+data.items[i].parent.name+'</h2>'+
                                     '<h3 class="item__subtitle">'+data.items[i].parent.alternateName+'</h3>'+
                                     '<h3 class="item__year">'+thisReleaseMonthName+' '+thisReleaseDayNumber+', '+data.items[i].parent.releaseYear+'</h3>'+
-                                    // '<ul class="item__rating"></ul>'+
+
                                     '<div class="wpac-rating-ajax" data-wpac-chan="'+data.items[i].parent.uniqueId+'"></div>'+
-                                    // '<a href="#'+data.items[i].parent.uniqueId+'" class="item__btn scroll-to-anchor" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Album\x27)">See details and editions</a>'+
-                                    '<a href="items/'+data.items[i].parent.uniqueId+'.html" class="item__btn" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Album\x27)">See details and editions</a>'+
+                                    '<div class="item__btn">See details and editions</div>'+
+                                    // '<a href="items/'+data.items[i].parent.uniqueId+'.html" class="item__btn" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Album\x27)">See details and editions</a>'+
                                   '</div>'+
-                                '</div>'+
+                                '</a>'+
                                 '<div class="item__body">'+
                                   '<div class="parent-item__info">'+
                                     '<p> Venue: '+data.items[i].parent.location+'</p>'+
@@ -1064,18 +1077,19 @@ $(function(){
             // ALBUM
             else{
               $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-date="'+data.items[i].parent.releaseYear+'">'+
-                                '<div class="item__header" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
+                                '<a class="item__header" href="items/'+data.items[i].parent.uniqueId+'.html" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
+
                                   '<img class="item__cover lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
                                   '<div class="item__info">'+
                                     '<h2 class="item__title">'+data.items[i].parent.name+'</h2>'+
                                     '<h3 class="item__subtitle">'+data.items[i].parent.alternateName+'</h3>'+
                                     '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
-                                    // '<ul class="item__rating"></ul>'+
+
                                     '<div class="wpac-rating-ajax" data-wpac-chan="'+data.items[i].parent.uniqueId+'"></div>'+
-                                    // '<a href="#'+data.items[i].parent.uniqueId+'" class="item__btn scroll-to-anchor" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Album\x27)">See details and editions</a>'+
-                                    '<a href="items/'+data.items[i].parent.uniqueId+'.html" class="item__btn" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Album\x27)">See details and editions</a>'+
+                                    '<div class="item__btn">See details and editions</div>'+
+                                    // '<a href="items/'+data.items[i].parent.uniqueId+'.html" class="item__btn" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Album\x27)">See details and editions</a>'+
                                   '</div>'+
-                                '</div>'+
+                                '</a>'+
                                 '<div class="item__body">'+
                                   '<div class="parent-item__info">'+
                                     '<p>Released on '+thisReleaseMonthName+' '+thisReleaseDayNumber+', '+data.items[i].parent.releaseYear+'</p>'+
