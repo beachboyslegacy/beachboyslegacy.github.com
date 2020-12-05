@@ -89,6 +89,7 @@
 .header__nav{
   float: right;
   .clearfix;
+  overflow: hidden;
   li{
     float: left;
     margin-left: 5px;
@@ -108,10 +109,25 @@
       span{
         line-height: @v-unit;
         vertical-align: top;
-
         font-size: .875em;
       }
     }
+  }
+}
+
+.header__nav__patreon-link{
+  display: inline-block;
+  background: @red;
+  color: #fff;
+  height: 28px !important;
+  line-height: 28px;
+  border-radius: 14px;
+  padding: 0 20px !important;
+  margin-top: 8px;
+  font-size: .875em;
+  &:hover{
+    color: #fff !important;
+    background: #cc454e;
   }
 }
 
@@ -442,6 +458,7 @@
   span{
     opacity: .5;
     margin-left: 5px;
+    display: none;
   }
   &:hover{
     color: @blue-lighter;
@@ -497,8 +514,15 @@
 }
 
 
+@media screen and (min-width: @tablet-bp){
+  .item-details-header__back-btn span{
+    display: inline-block;
+  }
+}
+
 
 @media screen and (min-width: @mobile-bp){
+
   .item-details-wrapper{
     margin-top: 44px;
   }
@@ -521,7 +545,7 @@
   .item-details__body{
     width: 70%;
     float: right;
-    padding: 1rem 4%;
+    padding: 1rem 2%;
   }
 
 }
@@ -1173,7 +1197,7 @@ display: none !important;
     display: block;
     color: @blue-light;
     &:hover{
-      color: @yellow;
+      color: @blue-dark;
     }
   }
 }
@@ -1196,7 +1220,7 @@ display: none !important;
 }
 
 .team-member-card__icon--img{
-  height: 20px;
+  height: 16px;
   vertical-align: middle;
 }
 

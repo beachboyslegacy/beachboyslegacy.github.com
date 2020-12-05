@@ -77,7 +77,8 @@ $(function(){
                                     '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
                                     // '<ul class="item__rating"></ul>'+
                                     '<div class="wpac-rating-ajax" data-wpac-chan="'+data.items[i].parent.uniqueId+'"></div>'+
-                                    '<a href="#'+data.items[i].parent.uniqueId+'" class="item__btn scroll-to-anchor" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Book\x27)">See details and editions</a>'+
+                                    // '<a href="#'+data.items[i].parent.uniqueId+'" class="item__btn scroll-to-anchor" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Book\x27)">See details and editions</a>'+
+                                    '<a href="items/'+data.items[i].parent.uniqueId+'.html" class="item__btn" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Book\x27)">See details and editions</a>'+
                                   '</div>'+
                                 '</div>'+
                                 '<div class="item__body">'+
@@ -115,7 +116,8 @@ $(function(){
                                       '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
                                       // '<ul class="item__rating"></ul>'+
                                       '<div class="wpac-rating-ajax" data-wpac-chan="'+data.items[i].parent.uniqueId+'"></div>'+
-                                      '<a href="#'+data.items[i].parent.uniqueId+'" class="item__btn scroll-to-anchor" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Video\x27)">See details and editions</a>'+
+                                      // '<a href="#'+data.items[i].parent.uniqueId+'" class="item__btn scroll-to-anchor" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Video\x27)">See details and editions</a>'+
+                                      '<a href="items/'+data.items[i].parent.uniqueId+'.html" class="item__btn" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Video\x27)">See details and editions</a>'+
                                     '</div>'+
                                   '</div>'+
                                   '<div class="item__body">'+
@@ -155,7 +157,8 @@ $(function(){
                                       '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
                                       // '<ul class="item__rating"></ul>'+
                                       '<div class="wpac-rating-ajax" data-wpac-chan="'+data.items[i].parent.uniqueId+'"></div>'+
-                                      '<a href="#'+data.items[i].parent.uniqueId+'" class="item__btn scroll-to-anchor" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Solo\x27)">See details and editions</a>'+
+                                      // '<a href="#'+data.items[i].parent.uniqueId+'" class="item__btn scroll-to-anchor" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Solo\x27)">See details and editions</a>'+
+                                      '<a href="items/'+data.items[i].parent.uniqueId+'.html" class="item__btn" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Solo\x27)">See details and editions</a>'+
                                     '</div>'+
                                   '</div>'+
                                   '<div class="item__body">'+
@@ -198,7 +201,8 @@ $(function(){
                                         '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
                                         // '<ul class="item__rating"></ul>'+
                                         '<div class="wpac-rating-ajax" data-wpac-chan="'+data.items[i].parent.uniqueId+'"></div>'+
-                                        '<a href="#'+data.items[i].parent.uniqueId+'" class="item__btn scroll-to-anchor" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Solo\x27)">See details and editions</a>'+
+                                        // '<a href="#'+data.items[i].parent.uniqueId+'" class="item__btn scroll-to-anchor" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Solo\x27)">See details and editions</a>'+
+                                        '<a href="items/'+data.items[i].parent.uniqueId+'.html" class="item__btn" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Solo\x27)">See details and editions</a>'+
                                       '</div>'+
                                     '</div>'+
                                     '<div class="item__body">'+
@@ -327,7 +331,8 @@ $(function(){
                                   '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
                                   // '<ul class="item__rating"></ul>'+
                                   '<div class="wpac-rating-ajax" data-wpac-chan="'+data.items[i].parent.uniqueId+'"></div>'+
-                                  '<a href="#'+data.items[i].parent.uniqueId+'" class="item__btn scroll-to-anchor" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Solo\x27)">See details and editions</a>'+
+                                  // '<a href="#'+data.items[i].parent.uniqueId+'" class="item__btn scroll-to-anchor" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Solo\x27)">See details and editions</a>'+
+                                  '<a href="items/'+data.items[i].parent.uniqueId+'.html" class="item__btn" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Solo\x27)">See details and editions</a>'+
                                 '</div>'+
                               '</div>'+
                               '<div class="item__body">'+
@@ -469,8 +474,9 @@ $(function(){
                                   '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
                                   // '<ul class="item__rating"></ul>'+
                                   '<div class="wpac-rating-ajax" data-wpac-chan="'+data.items[i].parent.uniqueId+'"></div>'+
-                                  '<a href="#'+data.items[i].parent.uniqueId+'" class="item__btn scroll-to-anchor" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Book\x27)">See details and editions</a>'+
-                                '</div>'+
+                                  // '<a href="#'+data.items[i].parent.uniqueId+'" class="item__btn scroll-to-anchor" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Book\x27)">See details and editions</a>'+
+                                  '<a href="items/'+data.items[i].parent.uniqueId+'.html" class="item__btn" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Book\x27)">See details and editions</a>'+
+                                  '</div>'+
                               '</div>'+
                               '<div class="item__body">'+
                                 '<div class="parent-item__info">'+
@@ -521,7 +527,8 @@ $(function(){
                                   '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
                                   // '<ul class="item__rating"></ul>'+
                                   '<div class="wpac-rating-ajax" data-wpac-chan="'+data.items[i].parent.uniqueId+'"></div>'+
-                                  '<a href="#'+data.items[i].parent.uniqueId+'" class="item__btn scroll-to-anchor" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Book\x27)">See details and editions</a>'+
+                                  // '<a href="#'+data.items[i].parent.uniqueId+'" class="item__btn scroll-to-anchor" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Book\x27)">See details and editions</a>'+
+                                  '<a href="items/'+data.items[i].parent.uniqueId+'.html" class="item__btn" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Book\x27)">See details and editions</a>'+
                                 '</div>'+
                               '</div>'+
                               '<div class="item__body">'+
@@ -611,7 +618,8 @@ $(function(){
                                       '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
                                       // '<ul class="item__rating"></ul>'+
                                       '<div class="wpac-rating-ajax" data-wpac-chan="'+data.items[i].parent.uniqueId+'"></div>'+
-                                      '<a href="#'+data.items[i].parent.uniqueId+'" class="item__btn scroll-to-anchor" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Video\x27)">See details and editions</a>'+
+                                      // '<a href="#'+data.items[i].parent.uniqueId+'" class="item__btn scroll-to-anchor" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Video\x27)">See details and editions</a>'+
+                                      '<a href="items/'+data.items[i].parent.uniqueId+'.html" class="item__btn" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Video\x27)">See details and editions</a>'+
                                     '</div>'+
                                   '</div>'+
                                   '<div class="item__body">'+
@@ -670,7 +678,8 @@ $(function(){
                                       '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
                                       // '<ul class="item__rating"></ul>'+
                                       '<div class="wpac-rating-ajax" data-wpac-chan="'+data.items[i].parent.uniqueId+'"></div>'+
-                                      '<a href="#'+data.items[i].parent.uniqueId+'" class="item__btn scroll-to-anchor" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Video\x27)">See details and editions</a>'+
+                                      // '<a href="#'+data.items[i].parent.uniqueId+'" class="item__btn scroll-to-anchor" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Video\x27)">See details and editions</a>'+
+                                      '<a href="items/'+data.items[i].parent.uniqueId+'.html" class="item__btn" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Video\x27)">See details and editions</a>'+
                                     '</div>'+
                                   '</div>'+
                                   '<div class="item__body">'+
@@ -822,7 +831,8 @@ $(function(){
                                     '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
                                     // '<ul class="item__rating"></ul>'+
                                     '<div class="wpac-rating-ajax" data-wpac-chan="'+data.items[i].parent.uniqueId+'"></div>'+
-                                    '<a href="#'+data.items[i].parent.uniqueId+'" class="item__btn scroll-to-anchor" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Compilation\x27)">See details and editions</a>'+
+                                    // '<a href="#'+data.items[i].parent.uniqueId+'" class="item__btn scroll-to-anchor" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Compilation\x27)">See details and editions</a>'+
+                                    '<a href="items/'+data.items[i].parent.uniqueId+'.html" class="item__btn" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Compilation\x27)">See details and editions</a>'+
                                   '</div>'+
                                 '</div>'+
                                 '<div class="item__body">'+
@@ -861,7 +871,8 @@ $(function(){
                                     '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
                                     // '<ul class="item__rating"></ul>'+
                                     '<div class="wpac-rating-ajax" data-wpac-chan="'+data.items[i].parent.uniqueId+'"></div>'+
-                                    '<a href="#'+data.items[i].parent.uniqueId+'" class="item__btn scroll-to-anchor" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Compilation\x27)">See details and editions</a>'+
+                                    // '<a href="#'+data.items[i].parent.uniqueId+'" class="item__btn scroll-to-anchor" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Compilation\x27)">See details and editions</a>'+
+                                    '<a href="items/'+data.items[i].parent.uniqueId+'.html" class="item__btn" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Compilation\x27)">See details and editions</a>'+
                                   '</div>'+
                                 '</div>'+
                                 '<div class="item__body">'+
@@ -900,7 +911,8 @@ $(function(){
                                     '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
                                     // '<ul class="item__rating"></ul>'+
                                     '<div class="wpac-rating-ajax" data-wpac-chan="'+data.items[i].parent.uniqueId+'"></div>'+
-                                    '<a href="#'+data.items[i].parent.uniqueId+'" class="item__btn scroll-to-anchor" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Album\x27)">See details and editions</a>'+
+                                    // '<a href="#'+data.items[i].parent.uniqueId+'" class="item__btn scroll-to-anchor" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Album\x27)">See details and editions</a>'+
+                                    '<a href="items/'+data.items[i].parent.uniqueId+'.html" class="item__btn" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Album\x27)">See details and editions</a>'+
                                   '</div>'+
                                 '</div>'+
                                 '<div class="item__body">'+
@@ -937,7 +949,8 @@ $(function(){
                                     '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
                                     // '<ul class="item__rating"></ul>'+
                                     '<div class="wpac-rating-ajax" data-wpac-chan="'+data.items[i].parent.uniqueId+'"></div>'+
-                                    '<a href="#'+data.items[i].parent.uniqueId+'" class="item__btn scroll-to-anchor" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Album\x27)">See details and editions</a>'+
+                                    // '<a href="#'+data.items[i].parent.uniqueId+'" class="item__btn scroll-to-anchor" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Album\x27)">See details and editions</a>'+
+                                    '<a href="items/'+data.items[i].parent.uniqueId+'.html" class="item__btn" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Album\x27)">See details and editions</a>'+
                                   '</div>'+
                                 '</div>'+
                                 '<div class="item__body">'+
@@ -978,7 +991,8 @@ $(function(){
                                     '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
                                     // '<ul class="item__rating"></ul>'+
                                     '<div class="wpac-rating-ajax" data-wpac-chan="'+data.items[i].parent.uniqueId+'"></div>'+
-                                    '<a href="#'+data.items[i].parent.uniqueId+'" class="item__btn scroll-to-anchor" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Album\x27)">See details and editions</a>'+
+                                    // '<a href="#'+data.items[i].parent.uniqueId+'" class="item__btn scroll-to-anchor" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Album\x27)">See details and editions</a>'+
+                                    '<a href="items/'+data.items[i].parent.uniqueId+'.html" class="item__btn" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Album\x27)">See details and editions</a>'+
                                   '</div>'+
                                 '</div>'+
                                 '<div class="item__body">'+
@@ -1018,7 +1032,8 @@ $(function(){
                                     '<h3 class="item__year">'+thisReleaseMonthName+' '+thisReleaseDayNumber+', '+data.items[i].parent.releaseYear+'</h3>'+
                                     // '<ul class="item__rating"></ul>'+
                                     '<div class="wpac-rating-ajax" data-wpac-chan="'+data.items[i].parent.uniqueId+'"></div>'+
-                                    '<a href="#'+data.items[i].parent.uniqueId+'" class="item__btn scroll-to-anchor" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Album\x27)">See details and editions</a>'+
+                                    // '<a href="#'+data.items[i].parent.uniqueId+'" class="item__btn scroll-to-anchor" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Album\x27)">See details and editions</a>'+
+                                    '<a href="items/'+data.items[i].parent.uniqueId+'.html" class="item__btn" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Album\x27)">See details and editions</a>'+
                                   '</div>'+
                                 '</div>'+
                                 '<div class="item__body">'+
@@ -1057,7 +1072,8 @@ $(function(){
                                     '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
                                     // '<ul class="item__rating"></ul>'+
                                     '<div class="wpac-rating-ajax" data-wpac-chan="'+data.items[i].parent.uniqueId+'"></div>'+
-                                    '<a href="#'+data.items[i].parent.uniqueId+'" class="item__btn scroll-to-anchor" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Album\x27)">See details and editions</a>'+
+                                    // '<a href="#'+data.items[i].parent.uniqueId+'" class="item__btn scroll-to-anchor" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Album\x27)">See details and editions</a>'+
+                                    '<a href="items/'+data.items[i].parent.uniqueId+'.html" class="item__btn" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Album\x27)">See details and editions</a>'+
                                   '</div>'+
                                 '</div>'+
                                 '<div class="item__body">'+
@@ -1192,52 +1208,7 @@ $(function(){
 
     } // /loadItems function
 
-    // Toggles item body and item button text for open/closed states
-    function toggleChildren(){
 
-      $('.item__btn, .item__title, .item__year').on( 'click', function() {
-        $(this).parent('.item__info').parent('.item__header').next('.item__body').slideToggle(200);
-
-        var thisBtn = $(this).parent('.item__info').find('.item__btn');
-
-        thisBtn.toggleClass('itemOpened');
-        if( thisBtn.hasClass('itemOpened') ){
-          thisBtn.html('Hide details and editions');
-        }
-        else{
-          thisBtn.html('See details and editions');
-        }
-      });
-
-
-      $('.item__cover').on( 'click', function() {
-        $(this).next('.item__info').parent('.item__header').next('.item__body').slideToggle(200);
-
-        var thisBtn = $(this).next('.item__info').find('.item__btn');
-
-        thisBtn.toggleClass('itemOpened');
-        if( thisBtn.hasClass('itemOpened') ){
-          thisBtn.html('Hide details and editions');
-        }
-        else{
-          thisBtn.html('See details and editions');
-        }
-      });
-
-
-    } // /toggleChildren function
-
-
-    //Closes item from the bottom
-    function closeChildren(){
-
-      $('.item__close-btn').on( 'click', function() {
-        $(this).parent('.item__footer').parent('.item__body').slideToggle(50);
-        var thisBtn = $(this).parent('.item__footer').parent('.item__body').prev('.item__header').find('.item__info').find('.item__btn');
-        thisBtn.html('See details and editions').toggleClass('itemOpened');
-
-      });
-    } // /closeChildren function
 
 
     //Loads child items for a given parent
@@ -1424,8 +1395,6 @@ $(function(){
       });
 
 
-      toggleChildren();
-      closeChildren();  // Is this the best way to do it?
 
 
 

@@ -55,8 +55,6 @@ album_cats: List = [
     "live",
     "production",
     "sideProject",
-]
-compilation_cats: List = [
     "compilation",
     "boxset",
     "single",
@@ -85,8 +83,6 @@ for item in data["items"]:
     template: str
     if [category for category in item_cats if category in album_cats]:
         template = template_map["album.html.jinja2"]
-    elif [category for category in item_cats if category in compilation_cats]:
-        template = template_map["compilation.html.jinja2"]
     elif [category for category in item_cats if category in book_cats]:
         template = template_map["book.html.jinja2"]
     elif [category for category in item_cats if category in bootleg_cats]:

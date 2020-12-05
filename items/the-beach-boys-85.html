@@ -101,6 +101,7 @@ window.cookieconsent.initialise({
 })});
 </script>
 
+
 </head>
 
 
@@ -114,6 +115,7 @@ window.cookieconsent.initialise({
   <a class="item-details-header__back-btn" href="../../index.html">← Back Home <span>♫ I'll Spend My Summer</span></a>
 
   <ul class="header__nav">
+    <li><a class="header__nav__patreon-link" href="https://www.patreon.com/beachboyslegacy">Become a Patron</a></li>
     <li><a href="http://twitter.com/beachboyslegacy" target="_blank"><webicon icon="entypo:twitter"></webicon> <span>Follow Beach Boys Legacy on twitter</span></a></li>
   </ul>
 </div>
@@ -135,7 +137,9 @@ window.cookieconsent.initialise({
           <div class="parent-item__info">
             <p>Released on 6 10, 1985</p>
             <p>Caribou US BFZ 39946</p>
-            <p>Produced by Steve Levine</p>
+            
+              <p>Produced by Steve Levine</p>
+            
             <p>Chart position: #52</p>
             <p></p>
           </div>
@@ -149,6 +153,7 @@ window.cookieconsent.initialise({
         <div class="parent-item__tracklist">
           <table>
             <tbody>
+
               <tr>
                 <td>Title</td>
                 <td></td>
@@ -158,6 +163,11 @@ window.cookieconsent.initialise({
 
 
               
+
+
+              
+
+
                 
                   <tr>
                     <td><div class="tracknumber">1</div>Getcha Back</td>
@@ -167,6 +177,11 @@ window.cookieconsent.initialise({
                 
 
               
+
+
+              
+
+
                 
                   <tr>
                     <td><div class="tracknumber">2</div>It's Gettin' Late</td>
@@ -176,6 +191,11 @@ window.cookieconsent.initialise({
                 
 
               
+
+
+              
+
+
                 
                   <tr>
                     <td><div class="tracknumber">3</div>Crack At Your Love</td>
@@ -185,6 +205,11 @@ window.cookieconsent.initialise({
                 
 
               
+
+
+              
+
+
                 
                   <tr>
                     <td><div class="tracknumber">4</div>Maybe I Don't Know</td>
@@ -194,6 +219,11 @@ window.cookieconsent.initialise({
                 
 
               
+
+
+              
+
+
                 
                   <tr>
                     <td><div class="tracknumber">5</div>She Believes In Love Again</td>
@@ -203,6 +233,11 @@ window.cookieconsent.initialise({
                 
 
               
+
+
+              
+
+
                 
                   <tr>
                     <td><div class="tracknumber">6</div>California Calling</td>
@@ -212,6 +247,11 @@ window.cookieconsent.initialise({
                 
 
               
+
+
+              
+
+
                 
                   <tr>
                     <td><div class="tracknumber">7</div>Passing Friend</td>
@@ -221,6 +261,11 @@ window.cookieconsent.initialise({
                 
 
               
+
+
+              
+
+
                 
                   <tr>
                     <td><div class="tracknumber">8</div>I'm So Lonely</td>
@@ -230,6 +275,11 @@ window.cookieconsent.initialise({
                 
 
               
+
+
+              
+
+
                 
                   <tr>
                     <td><div class="tracknumber">9</div>Where I Belong</td>
@@ -239,6 +289,11 @@ window.cookieconsent.initialise({
                 
 
               
+
+
+              
+
+
                 
                   <tr>
                     <td><div class="tracknumber">10</div>I Do Love You</td>
@@ -248,6 +303,11 @@ window.cookieconsent.initialise({
                 
 
               
+
+
+              
+
+
                 
                   <tr>
                     <td><div class="tracknumber">11</div>It's Just A Matter Of Time</td>
@@ -258,46 +318,6 @@ window.cookieconsent.initialise({
 
               
 
-
-
-
-
-
-<!--
-              if (data.items[i].parent.numberOfDiscs > 1) {
-                if( data.items[i].parent.track.itemListElement[k].item.trackNumber == 1){
-                  $thisItem.find('.parent-item__tracklist tbody tr:last-child').after(
-                    '<tr class="discnumber"><td colspan="3">Disc '+data.items[i].parent.track.itemListElement[k].item.disc+'</td></tr>'
-                  );
-                }
-              }
-
-
-              if( data.items[i].parent.track.itemListElement[k].item.hit == true ){
-                thisTrack = '<tr>'+
-                                  '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
-                                  '<td class="hit-or-gem"><img src="assets/star.svg" /> HIT</td>'+
-                                  '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
-                                '</tr>'
-              }else if( data.items[i].parent.track.itemListElement[k].item.inthit == true ){
-                thisTrack = '<tr>'+
-                                  '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
-                                  '<td class="hit-or-gem"><img src="assets/inthit.svg" /> HIT</td>'+
-                                  '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
-                                '</tr>'
-              }else if( data.items[i].parent.track.itemListElement[k].item.gem == true ){
-                thisTrack = '<tr>'+
-                                  '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
-                                  '<td class="hit-or-gem"><img src="assets/gem.svg" /> GEM</td>'+
-                                  '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
-                                '</tr>'
-              }else{
-                thisTrack = '<tr>'+
-                                  '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
-                                  '<td></td>'+
-                                  '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
-                                '</tr>'
-              } -->
 
 
             </tbody>
@@ -321,8 +341,8 @@ window.cookieconsent.initialise({
               <div class="child-item__body">
                 <div class="child-item__sidebar">
                   <div class="sticky-content">
-                    <a href="" target="_blank"><img class="child-item__cover" src="../../img/albums/the-beach-boys/studio/1985-the-beach-boys-85/the-beach-boys-85-2000.jpg" alt="Keepin' The Summer Alive / The Beach Boys cover"></a>
-                    <a class="child-item__buy" href="" target="_blank" onClick="ga(\x27send\x27, \x27event\x27, \x27Amazon\x27, \x27click\x27, \x27Item\x27)">Buy on Amazon</a>  <!-- \x27 is a scaped quote ' -->
+                    <a href="http://amzn.to/1r3JOzT" target="_blank"><img class="child-item__cover" src="../../img/albums/the-beach-boys/studio/1985-the-beach-boys-85/the-beach-boys-85-2000.jpg" alt="Keepin' The Summer Alive / The Beach Boys cover"></a>
+                    <a class="child-item__buy" href="http://amzn.to/1r3JOzT" target="_blank" onClick="ga(\x27send\x27, \x27event\x27, \x27Amazon\x27, \x27click\x27, \x27Item\x27)">Buy on Amazon</a>  <!-- \x27 is a scaped quote ' -->
                   </div>
                 </div>
                 <div class="child-item__tracklist">
@@ -347,8 +367,8 @@ Male Ego (B.Wilson/Love/Landy)</pre>
               <div class="child-item__body">
                 <div class="child-item__sidebar">
                   <div class="sticky-content">
-                    <a href="" target="_blank"><img class="child-item__cover" src="../../img/albums/the-beach-boys/studio/1985-the-beach-boys-85/the-beach-boys-85-cover.jpg" alt="The Beach Boys [LP] cover"></a>
-                    <a class="child-item__buy" href="" target="_blank" onClick="ga(\x27send\x27, \x27event\x27, \x27Amazon\x27, \x27click\x27, \x27Item\x27)">Buy on Amazon</a>  <!-- \x27 is a scaped quote ' -->
+                    <a href="http://amzn.to/1TbwzGg" target="_blank"><img class="child-item__cover" src="../../img/albums/the-beach-boys/studio/1985-the-beach-boys-85/the-beach-boys-85-cover.jpg" alt="The Beach Boys [LP] cover"></a>
+                    <a class="child-item__buy" href="http://amzn.to/1TbwzGg" target="_blank" onClick="ga(\x27send\x27, \x27event\x27, \x27Amazon\x27, \x27click\x27, \x27Item\x27)">Buy on Amazon</a>  <!-- \x27 is a scaped quote ' -->
                   </div>
                 </div>
                 <div class="child-item__tracklist">
@@ -371,21 +391,12 @@ Male Ego (B.Wilson/Love/Landy)</pre>
   </div> <!-- /item__details__wrapper -->
 
 
-    <!-- <li style="background:#d5dbe5; text-align:center;">
-      <img class="item__preloader" src="../../assets/preloader-item.svg" alt="preloader" />
-    </li> -->
 
 
 
   <div class="mobile-footer">
 
   <div class="mobile-footer__social">
-        <h3>Become a patron to support Beach Boys Legacy</h3>
-        <!-- <script type='text/javascript' src='https://ko-fi.com/widgets/widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Buy us a coffee', '#46b798', 'Y8Y8Q7DB');kofiwidget2.draw();</script> -->
-        <a href="https://www.patreon.com/bePatron?u=11609084" style="margin: 10px;" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
-        <br><br>
-
-
     <a class="policy-link" href="../../cookies-policy.html" target="_blank">Cookies Policy</a>
     <a class="policy-link" href="../../privacy-policy.html" target="_blank">Privacy Policy</a>
   </div>
@@ -500,7 +511,9 @@ Male Ego (B.Wilson/Love/Landy)</pre>
 <!-- <script src="../../js/jquery.lazyload.1.9.7.min.js"></script>
 <script src="../../js/jquery.smooth-scroll.min.js"></script>
 <script src="../../js/jquery.shorten.min.js"></script>
-<script src="../../js/custom-script.js"></script> -->
+<script src="../../js/custom-script.js"></script>
+-->
+
 
 <!-- Uncomment the following line in production -->
 <script src="../../js/custom-script-min.js"></script>
@@ -512,15 +525,12 @@ Male Ego (B.Wilson/Love/Landy)</pre>
 <!-- Amazon universal link doesnt work -->
 <!-- <script src="https://z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=5af50dea-b060-4387-b1de-aecb74adf6af" async></script> -->
 
-
+<!-- Launches rating script -->
 <script>
 $(function(){
   wpac_ajax_init();
 });
 </script>
-<!-- <script async type="text/javascript" src="//cdn.rawgit.com/icons8/bower-webicon/v0.10.7/jquery-webicon.min.js"></script> -->
-
-
 
 
 
