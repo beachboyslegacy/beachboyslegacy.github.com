@@ -59,9 +59,9 @@ album_cats: List = [
     "boxset",
     "single",
     "variousArtists",
+    "bootleg",
 ]
 book_cats: List = ["book"]
-bootleg_cats: List = ["bootleg"]
 video_cats: List = ["video"]
 
 # We'll preload all the templates so we don't have to do it every time.
@@ -85,8 +85,6 @@ for item in data["items"]:
         template = template_map["album.html.jinja2"]
     elif [category for category in item_cats if category in book_cats]:
         template = template_map["book.html.jinja2"]
-    elif [category for category in item_cats if category in bootleg_cats]:
-        template = template_map["bootleg.html.jinja2"]
     elif [category for category in item_cats if category in video_cats]:
         # Grab all the "true" subcats.
         item_subcats: List = {

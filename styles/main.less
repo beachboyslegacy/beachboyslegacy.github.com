@@ -207,8 +207,9 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  color: @grey;
   &:hover{
-    color: @grey;
+    color: @grey-dark;
   }
 }
 
@@ -224,6 +225,7 @@
     color: @grey;
     float: left;
     line-height: 32px;
+    height: 32px;
     font-size: .9em;
     margin: 0;
     padding: 0 4%;
@@ -239,8 +241,8 @@
 .selector__options__current.selector__options__current{
   background: @red;
   color: #fff;
-  border-radius: 5px;
-  font-weight: 700;
+  border-radius: 17px;
+  font-weight: 400;
   .transition(background 0.2s ease);
   &:hover{
     color: #fff;
@@ -253,8 +255,8 @@
   text-transform: uppercase;
   padding: 0 2%;
   font-family: @sans-serif-font;
-  border-bottom: 1px solid #ccc;
-  color: #aaa;
+  border-bottom: 2px dotted rgba(0,0,0,.1);
+  color: @grey;
   margin-bottom: .5em;
 }
 
@@ -503,7 +505,9 @@
   .box-shadow(0 0 10px rgba(0,0,0,.5));
 }
 
-
+.item-details__sidebar__cover--portrait{
+  max-width: 300px !important;
+}
 
 
 .item-details__sidebar__info{
@@ -515,8 +519,32 @@
   font-size: 2rem;
   font-weight: 700;
   line-height: 1.2;
+  font-family: @serif-font;
 }
 
+
+.item-details__sidebar__info__subtitle{
+  font-size: 1.7rem;
+  font-weight: 400;
+  line-height: 1.2;
+  margin: .2rem 0;
+  font-family: @sans-serif-font;
+}
+
+.item-details__sidebar__info__facts{
+  font-family: @sans-serif-font;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+  p{
+    margin: 0;
+    padding: .5em 0;
+    border-bottom: 2px dotted rgba(0,0,0,.1);
+    &:last-child{
+      border-bottom: none;
+    }
+  }
+}
 
 
 .item-details__body{
@@ -568,8 +596,9 @@
 
 .item__title{
   font-size: 2rem;
-  font-weight: 700;
   line-height: 1.2;
+  font-family: @serif-font;
+  font-weight: 700;
 }
 
 .item__subtitle{
@@ -577,14 +606,17 @@
   font-weight: 400;
   line-height: 1.2;
   margin: .2rem 0;
-  font-family: @serif-font;
+  font-family: @sans-serif-font;
+  opacity: .7;
+  font-weight: 300;
 }
 
 .item__year{
   font-size: 1.5rem;
-  font-weight: 700;
   line-height: 1.2;
   margin: .5rem 0;
+  font-weight: 400;
+  font-family: @serif-font;
 }
 
 .item__cover{
@@ -637,7 +669,6 @@
   color: #fff;
   line-height: 2rem;
   padding: 0 4%;
-  font-weight: 700;
   cursor: pointer;
   .transition(all 0.2s ease-in);
   &:hover{
@@ -685,9 +716,12 @@
     font-size: 3.2vw;
     cursor: pointer;
   }
+  .item__subtitle{
+    font-size: 1.5vw;
+  }
   .item__year{
     font-size: 2rem;
-    font-size: 2vw;
+    font-size: 1.5vw;
     cursor: pointer;
   }
   .item__cover{
@@ -738,6 +772,7 @@
   width: 100%;
   overflow-x: auto;
   margin-bottom: 2em;
+  color: @grey-dark;
   table{
     border-spacing: 0;
     border-collapse: collapse;
@@ -752,7 +787,7 @@
         text-overflow: ellipsis;
         padding: 1em 2%;
         &:first-child{
-          color: @grey;
+          color: @grey-dark;
         }
         &:last-child{
           overflow: hidden;
@@ -788,9 +823,9 @@
   color: #aaa;
   min-width: 70px;
   img{
-    height: 16px;
+    height: 12px;
     opacity: .2;
-    vertical-align: text-top;;
+    vertical-align: baseline;
   }
 }
 
@@ -813,6 +848,8 @@
   font-size: 1.5rem;
   line-height: 1.2;
   font-weight: 700;
+  color: @grey-dark;
+  font-family: @serif-font;
 }
 
 .child-item__subtitle{
@@ -823,14 +860,14 @@
 
 .child-item__info{
   margin-top: .5rem;
-  color: #999;
+  color: @grey;
   li{
     display: inline-block;
     margin-right: 6px;
     &::after{
       content: '|';
       padding-left: 6px;
-      color: #ccc;
+      color: @grey-light;
     }
     &:last-child{
       margin-right: 0;
@@ -881,7 +918,6 @@
   padding: 15px 30px;
   border-radius: 50px;
   color: #fff;
-  font-weight: 700;
   text-align: center;
   margin-bottom: 2em;
   &:hover{

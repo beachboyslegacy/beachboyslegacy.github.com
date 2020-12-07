@@ -132,15 +132,51 @@ window.cookieconsent.initialise({
         <img class="item-details__sidebar__cover" src="../../{{item["parent"]["image"]}}" alt="{{item["parent"]["name"]}} cover">
         <div class="item-details__sidebar__info">
           <h1 class="item-details__sidebar__info__title">{{item["parent"]["name"]}} by {{item["parent"]["byArtist"]}}</h1>
-          <h3 class="item__subtitle">{{item["parent"]["alternateName"]}}</h3>
+          <h3 class="item-details__sidebar__info__subtitle">{{item["parent"]["alternateName"]}}</h3>
           <div class="wpac-rating-ajax" data-wpac-chan="{{item["parent"]["uniqueId"]}}"></div>
-          <div class="parent-item__info">
-            <p>Released on {{item["parent"]["releaseMonth"]}} {{item["parent"]["releaseDay"]}}, {{item["parent"]["releaseYear"]}}</p>
+          <div class="item-details__sidebar__info__facts">
+            <p>Released on
+              {% if item.parent.releaseMonth == 1 %}
+                January
+              {% elif item.parent.releaseMonth == 2 %}
+                February
+              {% elif item.parent.releaseMonth == 3 %}
+                March
+              {% elif item.parent.releaseMonth == 4 %}
+                April
+              {% elif item.parent.releaseMonth == 5 %}
+                May
+              {% elif item.parent.releaseMonth == 6 %}
+                June
+              {% elif item.parent.releaseMonth == 7 %}
+                July
+              {% elif item.parent.releaseMonth == 8 %}
+                August
+              {% elif item.parent.releaseMonth == 9 %}
+                September
+              {% elif item.parent.releaseMonth == 10 %}
+                October
+              {% elif item.parent.releaseMonth == 11 %}
+                November
+              {% elif item.parent.releaseMonth == 12 %}
+                December
+              {% else %}
+
+              {% endif %}
+              {% if item.parent.releaseDay == 0 %}
+
+              {% else %}
+                {{item["parent"]["releaseDay"]}},
+              {% endif %}
+               {{item["parent"]["releaseYear"]}}</p>
             <p>{{item["parent"]["publisher"]}} {{item["parent"]["country"]}} {{item["parent"]["catalogNumber"]}}</p>
             {% if item.parent.producer %}
               <p>Produced by {{item["parent"]["producer"]}}</p>
             {% endif %}
-            <p>Chart position: #{{item["parent"]["billboardPosition"]}}</p>
+            {% if item.parent.billboardPosition %}
+              <p>Chart position: #{{item["parent"]["billboardPosition"]}}</p>
+            {% endif %}
+
             <p>{{item["parent"]["notes"]}}</p>
           </div>
         </div>
@@ -161,45 +197,45 @@ window.cookieconsent.initialise({
               </tr>
 
 
+              {% if item.parent.track %}
+                {% for element in item["parent"]["track"]["itemListElement"] %}
 
-              {% for element in item["parent"]["track"]["itemListElement"] %}
 
-
-              {% if item.parent.numberOfDiscs and item.parent.numberOfDiscs > 1 %}
-                {% if element.item.trackNumber == 1 %}
-                   <tr class="discnumber"><td colspan="3">Disc {{element["item"]["disc"]}}</td></tr>
+                {% if item.parent.numberOfDiscs and item.parent.numberOfDiscs > 1 %}
+                  {% if element.item.trackNumber == 1 %}
+                     <tr class="discnumber"><td colspan="3">Disc {{element["item"]["disc"]}}</td></tr>
+                  {% endif %}
                 {% endif %}
+
+
+                  {% if element.item.hit %}
+                    <tr>
+                      <td><div class="tracknumber">{{element["item"]["trackNumber"]}}</div>{{element["item"]["name"]}}</td>
+                      <td class="hit-or-gem"><img src="../../assets/star.svg" /> HIT</td>
+                      <td>{{element["item"]["composer"]}}</td>
+                    </tr>
+                  {% elif element.item.inthit %}
+                    <tr>
+                      <td><div class="tracknumber">{{element["item"]["trackNumber"]}}</div>{{element["item"]["name"]}}</td>
+                      <td class="hit-or-gem"><img src="../../assets/inthit.svg" /> HIT</td>
+                      <td>{{element["item"]["composer"]}}</td>
+                    </tr>
+                  {% elif element.item.gem %}
+                    <tr>
+                      <td><div class="tracknumber">{{element["item"]["trackNumber"]}}</div>{{element["item"]["name"]}}</td>
+                      <td class="hit-or-gem"><img src="../../assets/gem.svg" /> GEM</td>
+                      <td>{{element["item"]["composer"]}}</td>
+                    </tr>
+                  {% else %}
+                    <tr>
+                      <td><div class="tracknumber">{{element["item"]["trackNumber"]}}</div>{{element["item"]["name"]}}</td>
+                      <td></td>
+                      <td>{{element["item"]["composer"]}}</td>
+                    </tr>
+                  {% endif %}
+
+                {% endfor %}
               {% endif %}
-
-
-                {% if element.item.hit %}
-                  <tr>
-                    <td><div class="tracknumber">{{element["item"]["trackNumber"]}}</div>{{element["item"]["name"]}}</td>
-                    <td class="hit-or-gem"><img src="../../assets/star.svg" /> HIT</td>
-                    <td>{{element["item"]["composer"]}}</td>
-                  </tr>
-                {% elif element.item.inthit %}
-                  <tr>
-                    <td><div class="tracknumber">{{element["item"]["trackNumber"]}}</div>{{element["item"]["name"]}}</td>
-                    <td class="hit-or-gem"><img src="../../assets/inthit.svg" /> HIT</td>
-                    <td>{{element["item"]["composer"]}}</td>
-                  </tr>
-                {% elif element.item.gem %}
-                  <tr>
-                    <td><div class="tracknumber">{{element["item"]["trackNumber"]}}</div>{{element["item"]["name"]}}</td>
-                    <td class="hit-or-gem"><img src="../../assets/gem.svg" /> GEM</td>
-                    <td>{{element["item"]["composer"]}}</td>
-                  </tr>
-                {% else %}
-                  <tr>
-                    <td><div class="tracknumber">{{element["item"]["trackNumber"]}}</div>{{element["item"]["name"]}}</td>
-                    <td></td>
-                    <td>{{element["item"]["composer"]}}</td>
-                  </tr>
-                {% endif %}
-
-              {% endfor %}
-
 
 
             </tbody>
@@ -215,7 +251,42 @@ window.cookieconsent.initialise({
               <div class="child-item__header">
                 <h3 class="child-item__title">{{element["albumRelease"]["name"]}}</h3>
                 <ul class="child-item__info">
-                  <li>{{element["albumRelease"]["releaseMonth"]}} {{element["albumRelease"]["releaseDay"]}} {{element["albumRelease"]["releaseYear"]}}</li>
+                  <li>
+                    {% if element.albumRelease.releaseMonth == 1 %}
+                      January
+                    {% elif element.albumRelease.releaseMonth == 2 %}
+                      February
+                    {% elif element.albumRelease.releaseMonth == 3 %}
+                      March
+                    {% elif element.albumRelease.releaseMonth == 4 %}
+                      April
+                    {% elif element.albumRelease.releaseMonth == 5 %}
+                      May
+                    {% elif element.albumRelease.releaseMonth == 6 %}
+                      June
+                    {% elif element.albumRelease.releaseMonth == 7 %}
+                      July
+                    {% elif element.albumRelease.releaseMonth == 8 %}
+                      August
+                    {% elif element.albumRelease.releaseMonth == 9 %}
+                      September
+                    {% elif element.albumRelease.releaseMonth == 10 %}
+                      October
+                    {% elif element.albumRelease.releaseMonth == 11 %}
+                      November
+                    {% elif element.albumRelease.releaseMonth == 12 %}
+                      December
+                    {% else %}
+
+                    {% endif %}
+
+                    {% if element.albumRelease.releaseDay == 0 %}
+
+                    {% else %}
+                      {{element["albumRelease"]["releaseDay"]}},
+                    {% endif %}
+                    {{element["albumRelease"]["releaseYear"]}}
+                  </li>
                   <li>{{element["albumRelease"]["recordLabel"]}} {{element["albumRelease"]["country"]}} {{element["albumRelease"]["catalogNumber"]}}</li>
                   <li>{{element["albumRelease"]["musicReleaseFormat"]}}</li>
                 </ul>
@@ -224,7 +295,9 @@ window.cookieconsent.initialise({
                 <div class="child-item__sidebar">
                   <div class="sticky-content">
                     <a href="{{element["albumRelease"]["amazonUs"]}}" target="_blank"><img class="child-item__cover" src="../../{{element["albumRelease"]["image"]}}" alt="{{element["albumRelease"]["name"]}} cover"></a>
+                    {% if element.albumRelease.amazonUs %}
                     <a class="child-item__buy" href="{{element["albumRelease"]["amazonUs"]}}" target="_blank" onClick="ga(\x27send\x27, \x27event\x27, \x27Amazon\x27, \x27click\x27, \x27Item\x27)">Buy on Amazon</a>  <!-- \x27 is a scaped quote ' -->
+                    {% endif %}
                   </div>
                 </div>
                 <div class="child-item__tracklist">
@@ -398,4 +471,5 @@ $(function(){
 
 
 <!-- /nonessential stylesheets -->
-<link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700|Oswald|Roboto+Slab" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
