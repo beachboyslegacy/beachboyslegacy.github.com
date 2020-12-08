@@ -13,7 +13,6 @@ $(function(){
 
     var totalItems = data.items.length;
 
-    var months = [ 'January' , 'February' , 'March' , 'April' , 'May' , 'June' , 'July' , 'August' , 'September' , 'October' , 'November' , 'December' ]
     var initialArtist = 'The Beach Boys';
     var initialCategory = 'new'
     var currentArtist = initialArtist;
@@ -34,8 +33,7 @@ $(function(){
       var thisReleaseDayNumber = 0;
       var $thisItem = '<li></li>';
       var rating = 0;
-      var tracks = 0;
-      var thisTrack = '<tr></tr>'
+
 
       $('.items').empty();
       $('#backToTop').remove();
@@ -51,239 +49,24 @@ $(function(){
             loadedItems++;
 
             thisReleaseMonthNumber = data.items[i].parent.releaseMonth;
-            if ( thisReleaseMonthNumber == 0 ){
-              thisReleaseMonthName = "";
-            }else{
-              thisReleaseMonthName = months[thisReleaseMonthNumber - 1];
-            }
-
-            thisReleaseDayNumber = data.items[i].parent.releaseDay;
-            if ( thisReleaseDayNumber == 0 ){
-              thisReleaseDayNumber = "";
-            }else{
-              thisReleaseDayNumber = thisReleaseDayNumber;
-            }
 
 
-            // NEW BOOKS
-            if ( data.items[i].parent.category.book == true ) {
-
-              $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-date="'+data.items[i].parent.releaseYear+'">'+
-                                '<a class="item__header" href="items/'+data.items[i].parent.uniqueId+'.html" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
-
-                                  '<img class="item__cover lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
-                                  '<div class="item__info">'+
-                                    '<h2 class="item__title">'+data.items[i].parent.name+'</h2>'+
-                                    '<h3 class="item__subtitle">'+data.items[i].parent.alternateName+'</h3>'+
-                                    '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
-
-                                    '<div class="wpac-rating-ajax" data-wpac-chan="'+data.items[i].parent.uniqueId+'"></div>'+
-                                    '<div class="item__btn">See details and editions</div>'+
-                                    // '<a href="items/'+data.items[i].parent.uniqueId+'.html" class="item__btn" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Book\x27)">See details and editions</a>'+
-                                  '</div>'+
-                                '</a>'+
-                                '<div class="item__body">'+
-                                  '<div class="parent-item__info">'+
-                                    '<p>Release date: '+thisReleaseMonthName+' '+thisReleaseDayNumber+' '+data.items[i].parent.releaseYear+'</p>'+
-                                    '<p>Author: '+data.items[i].parent.author.name+'</p>'+
-                                    // '<p>'+data.items[i].parent.notes+'</p>'+
-                                  '</div>'+
-                                  '<ul class="child-items"></ul>'+
-                                  '<div class="item__footer">'+
-                                    '<a href="#'+data.items[i].parent.uniqueId+'" class="item__close-btn scroll-to-anchor">Close "'+data.items[i].parent.name+'"</a>'+
-                                  '</div>'+
+            $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-date="'+data.items[i].parent.releaseYear+'">'+
+                              '<a class="item__header" href="items/'+data.items[i].parent.uniqueId+'.html" style="background-color:'+data.items[i].parent.backgroundColor+'" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Latest\x27)">'+
+                                '<img class="item__cover lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
+                                '<div class="item__info">'+
+                                  '<h2 class="item__title">'+data.items[i].parent.name+'</h2>'+
+                                  '<h3 class="item__subtitle">'+data.items[i].parent.alternateName+'</h3>'+
+                                  '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
+                                  '<div class="wpac-rating-ajax" data-wpac-chan="'+data.items[i].parent.uniqueId+'"></div>'+
+                                  '<div class="item__btn">See details and editions</div>'+
                                 '</div>'+
-                              '</li>';
+                              '</a>'+
+                            '</li>';
 
 
-                $thisItem = $($thisItem); //convers string to DOM element
-                $('.items').append($thisItem);
-
-            }
-
-
-            // VIDEO
-            else if( (data.items[i].parent.category.video) ){
-
-              // DOCUMENTARIES AND MOVIES
-              if( (data.items[i].parent.subcategory.documentary) ||  (data.items[i].parent.subcategory.movie) ){
-
-                $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-date="'+data.items[i].parent.releaseYear+'">'+
-                                  '<a class="item__header" href="items/'+data.items[i].parent.uniqueId+'.html" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
-
-                                    '<img class="item__cover lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
-                                    '<div class="item__info">'+
-                                      '<h2 class="item__title">'+data.items[i].parent.name+'</h2>'+
-                                      '<h3 class="item__subtitle">'+data.items[i].parent.alternateName+'</h3>'+
-                                      '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
-
-                                      '<div class="wpac-rating-ajax" data-wpac-chan="'+data.items[i].parent.uniqueId+'"></div>'+
-                                      '<div class="item__btn">See details and editions</div>'+
-                                      // '<a href="items/'+data.items[i].parent.uniqueId+'.html" class="item__btn" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Video\x27)">See details and editions</a>'+
-                                    '</div>'+
-                                  '</a>'+
-                                  '<div class="item__body">'+
-                                    '<div class="parent-item__info">'+
-                                      '<p>Released on '+thisReleaseMonthName+' '+thisReleaseDayNumber+', '+data.items[i].parent.releaseYear+'</p>'+
-									  '<p>'+data.items[i].parent.producer+'</p>'+
-									  '<p>Duration: '+data.items[i].parent.duration+'</p>'+
-									  // '<p>'+data.items[i].parent.notes+'</p>'+
-                                    '</div>'+
-                                    '<ul class="child-items"></ul>'+
-                                    '<div class="item__footer">'+
-                                      '<a href="#'+data.items[i].parent.uniqueId+'" class="item__close-btn scroll-to-anchor">Close "'+data.items[i].parent.name+'"</a>'+
-                                    '</div>'+
-                                  '</div>'+
-                                '</li>';
-
-
-
-                $thisItem = $($thisItem); //convers string to DOM element
-                $('.items').append($thisItem);
-              }
-            }
-
-
-            // NEW ALBUM OR NEW COMPILATION OR NEW BOOTLEG OR NEW LIVE ALBUM
-            else {
-
-              // NEW ALBUM OR NEW BOXSET
-              if(data.items[i].parent.category.album == true || data.items[i].parent.category.boxset == true || data.items[i].parent.category.live == true){
-
-                $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-date="'+data.items[i].parent.releaseYear+'">'+
-                                  '<a class="item__header" href="items/'+data.items[i].parent.uniqueId+'.html" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
-
-                                    '<img class="item__cover lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
-                                    '<div class="item__info">'+
-                                      '<h2 class="item__title">'+data.items[i].parent.name+'</h2>'+
-                                      '<h3 class="item__subtitle">'+data.items[i].parent.alternateName+'</h3>'+
-                                      '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
-                                      '<div class="wpac-rating-ajax" data-wpac-chan="'+data.items[i].parent.uniqueId+'"></div>'+
-                                      '<div class="item__btn">See details and editions</div>'+
-                                    '</div>'+
-                                  '</a>'+
-                                  '<div class="item__body">'+
-                                    '<div class="parent-item__info">'+
-                                      '<p>Released on '+thisReleaseMonthName+' '+thisReleaseDayNumber+', '+data.items[i].parent.releaseYear+'</p>'+
-                                      '<p>'+data.items[i].parent.publisher+' ('+data.items[i].parent.country+') '+data.items[i].parent.catalogNumber+'</p>'+
-                                      '<p>Produced by '+data.items[i].parent.producer+'</p>'+
-                                      '<p>Chart position: #'+data.items[i].parent.billboardPosition+'</p>'+
-                                      '<p>'+data.items[i].parent.notes+'</p>'+
-                                    '</div>'+
-                                    '<div class="parent-item__tracklist">'+
-                                      '<table>'+
-                                        '<tbody>'+
-                                          '<tr>'+
-                                            '<td>Title</td>'+
-                                            '<td></td>'+
-                                            '<td>Composer</td>'+
-                                          '</tr>'+
-                                        '</tbody>'+
-                                      '</table>'+
-                                    '</div>'+
-                                    '<ul class="child-items"></ul>'+
-                                    '<div class="item__footer">'+
-                                      '<a href="#'+data.items[i].parent.uniqueId+'" class="item__close-btn scroll-to-anchor">Close "'+data.items[i].parent.name+'"</a>'+
-                                    '</div>'+
-                                  '</div>'+
-                                '</li>';
-
-                }
-
-                // NEW COMPILATION OR SINGLE
-                else if(data.items[i].parent.category.compilation == true || data.items[i].parent.category.single == true){
-
-                  $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-date="'+data.items[i].parent.releaseYear+'">'+
-                                    '<a class="item__header" href="items/'+data.items[i].parent.uniqueId+'.html" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
-
-                                      '<img class="item__cover lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
-                                      '<div class="item__info">'+
-                                        '<h2 class="item__title">'+data.items[i].parent.name+'</h2>'+
-                                        '<h3 class="item__subtitle">'+data.items[i].parent.alternateName+'</h3>'+
-                                        '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
-
-                                        '<div class="wpac-rating-ajax" data-wpac-chan="'+data.items[i].parent.uniqueId+'"></div>'+
-                                        '<div class="item__btn">See details and editions</div>'+
-                                        // '<a href="items/'+data.items[i].parent.uniqueId+'.html" class="item__btn" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Solo\x27)">See details and editions</a>'+
-                                      '</div>'+
-                                    '</a>'+
-                                    '<div class="item__body">'+
-                                      '<div class="parent-item__info">'+
-                                        '<p>Released on '+thisReleaseMonthName+' '+thisReleaseDayNumber+', '+data.items[i].parent.releaseYear+'</p>'+
-                                        '<p>'+data.items[i].parent.publisher+' ('+data.items[i].parent.country+') '+data.items[i].parent.catalogNumber+'</p>'+
-                                        // '<p>Produced by '+data.items[i].parent.producer+'</p>'+
-                                        '<p>Chart position: #'+data.items[i].parent.billboardPosition+'</p>'+
-                                        '<p>'+data.items[i].parent.notes+'</p>'+
-                                      '</div>'+
-                                      '<div class="parent-item__tracklist">'+
-                                        '<table>'+
-                                          '<tbody>'+
-                                            '<tr>'+
-                                              '<td>Title</td>'+
-                                              '<td></td>'+
-                                              '<td>Composer</td>'+
-                                            '</tr>'+
-                                          '</tbody>'+
-                                        '</table>'+
-                                      '</div>'+
-                                      '<ul class="child-items"></ul>'+
-                                      '<div class="item__footer">'+
-                                        '<a href="#'+data.items[i].parent.uniqueId+'" class="item__close-btn scroll-to-anchor">Close "'+data.items[i].parent.name+'"</a>'+
-                                      '</div>'+
-                                    '</div>'+
-                                  '</li>';
-
-                  }
-
-
-                $thisItem = $($thisItem); //convers string to DOM element
-                $('.items').append($thisItem);
-
-
-                tracks = data.items[i].parent.track.itemListElement.length;
-
-                for (k=0; k<tracks; k++){
-
-                  if (data.items[i].parent.numberOfDiscs > 1) {
-                    if( data.items[i].parent.track.itemListElement[k].item.trackNumber == 1){
-                      $thisItem.find('.parent-item__tracklist tbody tr:last-child').after(
-                        '<tr class="discnumber"><td colspan="3">Disc '+data.items[i].parent.track.itemListElement[k].item.disc+'</td></tr>'
-                      );
-                    }
-                  }
-
-
-                  if( data.items[i].parent.track.itemListElement[k].item.hit == true ){
-                    thisTrack = '<tr>'+
-                                      '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
-                                      '<td class="hit-or-gem"><img src="assets/star.svg" /> HIT</td>'+
-                                      '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
-                                    '</tr>'
-                  }else if( data.items[i].parent.track.itemListElement[k].item.inthit == true ){
-                    thisTrack = '<tr>'+
-                                      '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
-                                      '<td class="hit-or-gem"><img src="assets/inthit.svg" /> HIT</td>'+
-                                      '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
-                                    '</tr>'
-                  }else if( data.items[i].parent.track.itemListElement[k].item.gem == true ){
-                    thisTrack = '<tr>'+
-                                      '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
-                                      '<td class="hit-or-gem"><img src="assets/gem.svg" /> GEM</td>'+
-                                      '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
-                                    '</tr>'
-                  }else{
-                    thisTrack = '<tr>'+
-                                      '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
-                                      '<td></td>'+
-                                      '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
-                                    '</tr>'
-                  }
-
-                  $thisItem.find('.parent-item__tracklist tbody').append(thisTrack);
-
-                }
-
-              }
+              $thisItem = $($thisItem); //convers string to DOM element
+              $('.items').append($thisItem);
 
 
               $('.scroll-to-anchor').smoothScroll({
@@ -296,8 +79,7 @@ $(function(){
 
         sortByRelease();
 
-      // end of NEW
-      }
+      } // end of NEW
 
 
 
@@ -309,124 +91,24 @@ $(function(){
 
             loadedItems++;
 
-            thisReleaseMonthNumber = data.items[i].parent.releaseMonth;
-            if ( thisReleaseMonthNumber == 0 ){
-              thisReleaseMonthName = "";
-            }else{
-              thisReleaseMonthName = months[thisReleaseMonthNumber - 1];
-            }
-
-            thisReleaseDayNumber = data.items[i].parent.releaseDay;
-            if ( thisReleaseDayNumber == 0 ){
-              thisReleaseDayNumber = "";
-            }else{
-              thisReleaseDayNumber = thisReleaseDayNumber;
-            }
-
             // SOLO
             $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-date="'+data.items[i].parent.releaseYear+'">'+
-                              '<a class="item__header" href="items/'+data.items[i].parent.uniqueId+'.html" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
-
+                              '<a class="item__header" href="items/'+data.items[i].parent.uniqueId+'.html" style="background-color:'+data.items[i].parent.backgroundColor+'" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Solo\x27)">'+
                                 '<img class="item__cover lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
                                 '<div class="item__info">'+
                                   '<h2 class="item__title">'+data.items[i].parent.name+'</h2>'+
                                   '<h3 class="item__subtitle">'+data.items[i].parent.alternateName+'</h3>'+
                                   '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
-
                                   '<div class="wpac-rating-ajax" data-wpac-chan="'+data.items[i].parent.uniqueId+'"></div>'+
                                   '<div class="item__btn">See details and editions</div>'+
-                                  // '<a href="items/'+data.items[i].parent.uniqueId+'.html" class="item__btn" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Solo\x27)">See details and editions</a>'+
                                 '</div>'+
                               '</a>'+
-                              '<div class="item__body">'+
-                                '<div class="parent-item__info">'+
-                                  '<p>Released on '+thisReleaseMonthName+' '+thisReleaseDayNumber+', '+data.items[i].parent.releaseYear+'</p>'+
-                                  '<p>'+data.items[i].parent.publisher+' ('+data.items[i].parent.country+') '+data.items[i].parent.catalogNumber+'</p>'+
-                                  '<p>Produced by '+data.items[i].parent.producer+'</p>'+
-                                  '<p>Chart position: #'+data.items[i].parent.billboardPosition+'</p>'+
-                                  // '<p>'+data.items[i].parent.notes+'</p>'+
-                                '</div>'+
-                                '<div class="parent-item__tracklist">'+
-                                  '<table>'+
-                                    '<tbody>'+
-                                      '<tr>'+
-                                        '<td>Title</td>'+
-                                        '<td></td>'+
-                                        '<td>Composer</td>'+
-                                      '</tr>'+
-                                    '</tbody>'+
-                                  '</table>'+
-                                '</div>'+
-                                '<ul class="child-items"></ul>'+
-                                '<div class="item__footer">'+
-                                  '<a href="#'+data.items[i].parent.uniqueId+'" class="item__close-btn scroll-to-anchor">Close "'+data.items[i].parent.name+'"</a>'+
-                                '</div>'+
-                              '</div>'+
                             '</li>';
 
 
               $thisItem = $($thisItem); //convers string to DOM element
               $('.items').append($thisItem);
 
-              // rating = data.items[i].parent.aggregateRating;
-              //
-              // for (j=0; j<rating; j++){
-              //   $thisItem.find('.item__rating').append(
-              //     '<li><img alt="star" src="assets/hit.svg" /></li>'
-              //     // '<li><img alt="star" src="../assets/star.svg"; this.onerror=null;" /></li>'
-              //   );
-              // }
-              // if (rating === 0.5 || rating === 1.5 || rating === 2.5 || rating === 3.5 || rating === 4.5){
-              //
-              //   $thisItem.find('.item__rating').children('li:last-child').remove();
-              //   $thisItem.find('.item__rating').append(
-              //     '<li alt="half star" class="item-rating__half-star"><img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjUxMnB4IiBoZWlnaHQ9IjUxMnB4IiB2aWV3Qm94PSIwIDAgNDUzLjA5OCA0NTMuMDk4IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0NTMuMDk4IDQ1My4wOTg7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGc+Cgk8cGF0aCBkPSJNMzMxLjMyMywxMS43MDhMMjY3LjA5LDE0MS42MTNsLTE0My4zMjIsMjAuODM5Yy0xMC42NTYsMS43MTQtMTUuOTg2LDYuMDkxLTE1Ljk4NiwxMy4xMzQgICBjMCwzLjk5OSwyLjM4LDguNTY3LDcuMTM1LDEzLjcwNmwxMDMuOTIzLDEwMS4wNjRsLTI0LjU1MSwxNDIuNzUyYy0wLjM4MSwyLjY3LTAuNTcxLDQuNTcyLTAuNTcxLDUuNzE2ICAgYzAsMy45OTcsMC45OTksNy4zNzEsMi45OTYsMTAuMTM2YzEuOTk5LDIuNzU5LDQuOTk1LDQuMTM4LDguOTkzLDQuMTM4YzMuNDI2LDAsNy4yMzMtMS4xMzMsMTEuNDItMy40MjZsMTI4LjE5LTY3LjM4MlYwICAgQzMzOS42MDgsMCwzMzQuOTQ3LDMuOSwzMzEuMzIzLDExLjcwOHoiIGZpbGw9IiMwMDAwMDAiLz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K" /></li>'
-              //     // '<li alt="half star" class="item-rating__half-star"><img src="../assets/half-star.svg"; this.onerror=null;"></li>'
-              //   );
-              // }
-
-              tracks = data.items[i].parent.track.itemListElement.length;
-
-              for (k=0; k<tracks; k++){
-
-                if (data.items[i].parent.numberOfDiscs > 1) {
-                  if( data.items[i].parent.track.itemListElement[k].item.trackNumber == 1){
-                    $thisItem.find('.parent-item__tracklist tbody tr:last-child').after(
-                      '<tr class="discnumber"><td colspan="3">Disc '+data.items[i].parent.track.itemListElement[k].item.disc+'</td></tr>'
-                    );
-                  }
-                }
-
-
-                if( data.items[i].parent.track.itemListElement[k].item.hit == true ){
-                  thisTrack = '<tr>'+
-                                    '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
-                                    '<td class="hit-or-gem"><img src="assets/star.svg" /> HIT</td>'+
-                                    '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
-                                  '</tr>'
-                }else if( data.items[i].parent.track.itemListElement[k].item.inthit == true ){
-                  thisTrack = '<tr>'+
-                                    '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
-                                    '<td class="hit-or-gem"><img src="assets/inthit.svg" /> HIT</td>'+
-                                    '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
-                                  '</tr>'
-                }else if( data.items[i].parent.track.itemListElement[k].item.gem == true ){
-                  thisTrack = '<tr>'+
-                                    '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
-                                    '<td class="hit-or-gem"><img src="assets/gem.svg" /> GEM</td>'+
-                                    '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
-                                  '</tr>'
-                }else{
-                  thisTrack = '<tr>'+
-                                    '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
-                                    '<td></td>'+
-                                    '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
-                                  '</tr>'
-                }
-
-                $thisItem.find('.parent-item__tracklist tbody').append(thisTrack);
-
-              }
 
               $('.scroll-to-anchor').smoothScroll({
                  offset: -44
@@ -438,8 +120,7 @@ $(function(){
 
         sortByRelease();
 
-      // end of solo album
-      }
+      } // end of solo album
 
 
 
@@ -448,20 +129,6 @@ $(function(){
 
         for(i=0; i<totalItems; i++){
 
-          thisReleaseMonthNumber = data.items[i].parent.releaseMonth;
-          if ( thisReleaseMonthNumber == 0 ){
-            thisReleaseMonthName = "";
-          }else{
-            thisReleaseMonthName = months[thisReleaseMonthNumber - 1];
-          }
-
-          thisReleaseDayNumber = data.items[i].parent.releaseDay;
-          if ( thisReleaseDayNumber == 0 ){
-            thisReleaseDayNumber = "";
-          }else{
-            thisReleaseDayNumber = thisReleaseDayNumber;
-          }
-
 
           // If selected artist is The Beach Boys, then load all the books
           if( data.items[i].parent.category.book == true && selectedArtist == 'The Beach Boys'){
@@ -469,106 +136,48 @@ $(function(){
             loadedItems++;
 
             $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-date="'+data.items[i].parent.releaseYear+'">'+
-                              '<a class="item__header" href="items/'+data.items[i].parent.uniqueId+'.html" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
-
+                              '<a class="item__header" href="items/'+data.items[i].parent.uniqueId+'.html" style="background-color:'+data.items[i].parent.backgroundColor+'" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Book\x27)">'+
                                 '<img class="item__cover lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
                                 '<div class="item__info">'+
                                   '<h2 class="item__title">'+data.items[i].parent.name+'</h2>'+
                                   '<h3 class="item__subtitle">'+data.items[i].parent.alternateName+'</h3>'+
                                   '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
-
                                   '<div class="wpac-rating-ajax" data-wpac-chan="'+data.items[i].parent.uniqueId+'"></div>'+
                                   '<div class="item__btn">See details and editions</div>'+
-                                  // '<a href="items/'+data.items[i].parent.uniqueId+'.html" class="item__btn" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Book\x27)">See details and editions</a>'+
                                   '</div>'+
                               '</a>'+
-                              '<div class="item__body">'+
-                                '<div class="parent-item__info">'+
-                                  '<p>Release date: '+thisReleaseMonthName+' '+thisReleaseDayNumber+' '+data.items[i].parent.releaseYear+'</p>'+
-                                  '<p>Author: '+data.items[i].parent.author.name+'</p>'+
-                                  // '<p>'+data.items[i].parent.notes+'</p>'+
-                                '</div>'+
-                                '<ul class="child-items"></ul>'+
-                                '<div class="item__footer">'+
-                                  '<a href="#'+data.items[i].parent.uniqueId+'" class="item__close-btn scroll-to-anchor">Close "'+data.items[i].parent.name+'"</a>'+
-                                '</div>'+
-                              '</div>'+
                             '</li>';
 
 
               $thisItem = $($thisItem); //convers string to DOM element
               $('.items').append($thisItem);
 
-              rating = data.items[i].parent.aggregateRating;
 
-              // for (j=0; j<rating; j++){
-              //   $thisItem.find('.item__rating').append(
-              //     '<li><img alt="star" src="assets/hit.svg" /></li>'
-              //     // '<li><img alt="star" src="../assets/star.svg"; this.onerror=null;" /></li>'
-              //   );
-              // }
-              // if (rating === 0.5 || rating === 1.5 || rating === 2.5 || rating === 3.5 || rating === 4.5){
-              //
-              //   $thisItem.find('.item__rating').children('li:last-child').remove();
-              //   $thisItem.find('.item__rating').append(
-              //     '<li alt="half star" class="item-rating__half-star"><img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjUxMnB4IiBoZWlnaHQ9IjUxMnB4IiB2aWV3Qm94PSIwIDAgNDUzLjA5OCA0NTMuMDk4IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0NTMuMDk4IDQ1My4wOTg7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGc+Cgk8cGF0aCBkPSJNMzMxLjMyMywxMS43MDhMMjY3LjA5LDE0MS42MTNsLTE0My4zMjIsMjAuODM5Yy0xMC42NTYsMS43MTQtMTUuOTg2LDYuMDkxLTE1Ljk4NiwxMy4xMzQgICBjMCwzLjk5OSwyLjM4LDguNTY3LDcuMTM1LDEzLjcwNmwxMDMuOTIzLDEwMS4wNjRsLTI0LjU1MSwxNDIuNzUyYy0wLjM4MSwyLjY3LTAuNTcxLDQuNTcyLTAuNTcxLDUuNzE2ICAgYzAsMy45OTcsMC45OTksNy4zNzEsMi45OTYsMTAuMTM2YzEuOTk5LDIuNzU5LDQuOTk1LDQuMTM4LDguOTkzLDQuMTM4YzMuNDI2LDAsNy4yMzMtMS4xMzMsMTEuNDItMy40MjZsMTI4LjE5LTY3LjM4MlYwICAgQzMzOS42MDgsMCwzMzQuOTQ3LDMuOSwzMzEuMzIzLDExLjcwOHoiIGZpbGw9IiMwMDAwMDAiLz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K" /></li>'
-              //     // '<li alt="half star" class="item-rating__half-star"><img src="../assets/half-star.svg"; this.onerror=null;"></li>'
-              //   );
-              // }
 
           }
 
+          // else list books for the selected member
           else if( (data.items[i].parent.aboutArtist === selectedArtist) && (data.items[i].parent.category[selectedCategory] == true) ){
 
             loadedItems++;
 
             $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-date="'+data.items[i].parent.releaseYear+'">'+
-                              '<a class="item__header" href="items/'+data.items[i].parent.uniqueId+'.html" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
-
+                              '<a class="item__header" href="items/'+data.items[i].parent.uniqueId+'.html" style="background-color:'+data.items[i].parent.backgroundColor+'" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Book\x27)">'+
                                 '<img class="item__cover lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
                                 '<div class="item__info">'+
                                   '<h2 class="item__title">'+data.items[i].parent.name+'</h2>'+
                                   '<h3 class="item__subtitle">'+data.items[i].parent.alternateName+'</h3>'+
                                   '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
-
                                   '<div class="wpac-rating-ajax" data-wpac-chan="'+data.items[i].parent.uniqueId+'"></div>'+
                                   '<div class="item__btn">See details and editions</div>'+
-                                  // '<a href="items/'+data.items[i].parent.uniqueId+'.html" class="item__btn" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Book\x27)">See details and editions</a>'+
                                 '</div>'+
                               '</a>'+
-                              '<div class="item__body">'+
-                                '<div class="parent-item__info">'+
-                                  '<p>Release date: '+thisReleaseMonthName+' '+thisReleaseDayNumber+' '+data.items[i].parent.releaseYear+'</p>'+
-                                  '<p>Author: '+data.items[i].parent.author.name+'</p>'+
-                                  // '<p>'+data.items[i].parent.notes+'</p>'+
-                                '</div>'+
-                                '<ul class="child-items"></ul>'+
-                                '<div class="item__footer">'+
-                                  '<a href="#'+data.items[i].parent.uniqueId+'" class="item__close-btn scroll-to-anchor">Close "'+data.items[i].parent.name+'"</a>'+
-                                '</div>'+
-                              '</div>'+
                             '</li>';
 
 
               $thisItem = $($thisItem); //convers string to DOM element
               $('.items').append($thisItem);
 
-              // rating = data.items[i].parent.aggregateRating;
-              //
-              // for (j=0; j<rating; j++){
-              //   $thisItem.find('.item__rating').append(
-              //     '<li><img alt="star" src="assets/hit.svg" /></li>'
-              //     // '<li><img alt="star" src="../assets/star.svg"; this.onerror=null;" /></li>'
-              //   );
-              // }
-              // if (rating === 0.5 || rating === 1.5 || rating === 2.5 || rating === 3.5 || rating === 4.5){
-              //
-              //   $thisItem.find('.item__rating').children('li:last-child').remove();
-              //   $thisItem.find('.item__rating').append(
-              //     '<li alt="half star" class="item-rating__half-star"><img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjUxMnB4IiBoZWlnaHQ9IjUxMnB4IiB2aWV3Qm94PSIwIDAgNDUzLjA5OCA0NTMuMDk4IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0NTMuMDk4IDQ1My4wOTg7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGc+Cgk8cGF0aCBkPSJNMzMxLjMyMywxMS43MDhMMjY3LjA5LDE0MS42MTNsLTE0My4zMjIsMjAuODM5Yy0xMC42NTYsMS43MTQtMTUuOTg2LDYuMDkxLTE1Ljk4NiwxMy4xMzQgICBjMCwzLjk5OSwyLjM4LDguNTY3LDcuMTM1LDEzLjcwNmwxMDMuOTIzLDEwMS4wNjRsLTI0LjU1MSwxNDIuNzUyYy0wLjM4MSwyLjY3LTAuNTcxLDQuNTcyLTAuNTcxLDUuNzE2ICAgYzAsMy45OTcsMC45OTksNy4zNzEsMi45OTYsMTAuMTM2YzEuOTk5LDIuNzU5LDQuOTk1LDQuMTM4LDguOTkzLDQuMTM4YzMuNDI2LDAsNy4yMzMtMS4xMzMsMTEuNDItMy40MjZsMTI4LjE5LTY3LjM4MlYwICAgQzMzOS42MDgsMCwzMzQuOTQ3LDMuOSwzMzEuMzIzLDExLjcwOHoiIGZpbGw9IiMwMDAwMDAiLz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K" /></li>'
-              //     // '<li alt="half star" class="item-rating__half-star"><img src="../assets/half-star.svg"; this.onerror=null;"></li>'
-              //   );
-              // }
 
           }// /if
 
@@ -580,230 +189,13 @@ $(function(){
 
         sortByRelease();
 
-      // end of book
-      }
 
-
-      // VIDEO
-      else if( selectedCategory == 'video' ){
-
-        for(i=0; i<totalItems; i++){
-
-
-          if( (data.items[i].parent.byArtist === selectedArtist) && (data.items[i].parent.category[selectedCategory] == true) ){
-
-            loadedItems++;
-
-            thisReleaseMonthNumber = data.items[i].parent.releaseMonth;
-            if ( thisReleaseMonthNumber == 0 ){
-              thisReleaseMonthName = "";
-            }else{
-              thisReleaseMonthName = months[thisReleaseMonthNumber - 1];
-            }
-
-            thisReleaseDayNumber = data.items[i].parent.releaseDay;
-            if ( thisReleaseDayNumber == 0 ){
-              thisReleaseDayNumber = "";
-            }else{
-              thisReleaseDayNumber = thisReleaseDayNumber;
-            }
-
-            // VIDEO
-            if( (data.items[i].parent.category.video) ){
-
-              // DOCUMENTARIES AND MOVIES
-              if( (data.items[i].parent.subcategory.documentary) ||  (data.items[i].parent.subcategory.movie) ){
-
-                $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-date="'+data.items[i].parent.releaseYear+'">'+
-                                  '<a class="item__header" href="items/'+data.items[i].parent.uniqueId+'.html" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
-
-                                    '<img class="item__cover lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
-                                    '<div class="item__info">'+
-                                      '<h2 class="item__title">'+data.items[i].parent.name+'</h2>'+
-                                      '<h3 class="item__subtitle">'+data.items[i].parent.alternateName+'</h3>'+
-                                      '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
-
-                                      '<div class="wpac-rating-ajax" data-wpac-chan="'+data.items[i].parent.uniqueId+'"></div>'+
-                                      '<div class="item__btn">See details and editions</div>'+
-                                      // '<a href="items/'+data.items[i].parent.uniqueId+'.html" class="item__btn" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Video\x27)">See details and editions</a>'+
-                                    '</div>'+
-                                  '</a>'+
-                                  '<div class="item__body">'+
-                                    '<div class="parent-item__info">'+
-                                      '<p>Released on '+thisReleaseMonthName+' '+thisReleaseDayNumber+', '+data.items[i].parent.releaseYear+'</p>'+
-									  '<p>'+data.items[i].parent.producer+'</p>'+
-									  '<p>Duration: '+data.items[i].parent.duration+'</p>'+
-									  // '<p>'+data.items[i].parent.notes+'</p>'+
-                                    '</div>'+
-                                    '<ul class="child-items"></ul>'+
-                                    '<div class="item__footer">'+
-                                      '<a href="#'+data.items[i].parent.uniqueId+'" class="item__close-btn scroll-to-anchor">Close "'+data.items[i].parent.name+'"</a>'+
-                                    '</div>'+
-                                  '</div>'+
-                                '</li>';
-
-
-
-                $thisItem = $($thisItem); //convers string to DOM element
-                $('.items').append($thisItem);
-
-                // rating = data.items[i].parent.aggregateRating;
-                //
-                // for (j=0; j<rating; j++){
-                //   $thisItem.find('.item__rating').append(
-                //     '<li><img alt="star" src="assets/hit.svg" /></li>'
-                //     // '<li><img alt="star" src="../assets/star.svg"; this.onerror=null;" /></li>'
-                //   );
-                // }
-                // if (rating === 0.5 || rating === 1.5 || rating === 2.5 || rating === 3.5 || rating === 4.5){
-                //
-                //   $thisItem.find('.item__rating').children('li:last-child').remove();
-                //   $thisItem.find('.item__rating').append(
-                //     '<li alt="half star" class="item-rating__half-star"><img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjUxMnB4IiBoZWlnaHQ9IjUxMnB4IiB2aWV3Qm94PSIwIDAgNDUzLjA5OCA0NTMuMDk4IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0NTMuMDk4IDQ1My4wOTg7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGc+Cgk8cGF0aCBkPSJNMzMxLjMyMywxMS43MDhMMjY3LjA5LDE0MS42MTNsLTE0My4zMjIsMjAuODM5Yy0xMC42NTYsMS43MTQtMTUuOTg2LDYuMDkxLTE1Ljk4NiwxMy4xMzQgICBjMCwzLjk5OSwyLjM4LDguNTY3LDcuMTM1LDEzLjcwNmwxMDMuOTIzLDEwMS4wNjRsLTI0LjU1MSwxNDIuNzUyYy0wLjM4MSwyLjY3LTAuNTcxLDQuNTcyLTAuNTcxLDUuNzE2ICAgYzAsMy45OTcsMC45OTksNy4zNzEsMi45OTYsMTAuMTM2YzEuOTk5LDIuNzU5LDQuOTk1LDQuMTM4LDguOTkzLDQuMTM4YzMuNDI2LDAsNy4yMzMtMS4xMzMsMTEuNDItMy40MjZsMTI4LjE5LTY3LjM4MlYwICAgQzMzOS42MDgsMCwzMzQuOTQ3LDMuOSwzMzEuMzIzLDExLjcwOHoiIGZpbGw9IiMwMDAwMDAiLz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K" /></li>'
-                //     // '<li alt="half star" class="item-rating__half-star"><img src="../assets/half-star.svg"; this.onerror=null;"></li>'
-                //   );
-                // }
-
-
-                $('.scroll-to-anchor').smoothScroll({
-                   offset: -44
-                });
-
-              } // /if
-
-
-              // LIVE CONCERTS
-              else if( (data.items[i].parent.subcategory.live) ){
-
-                $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-date="'+data.items[i].parent.releaseYear+'">'+
-                                  '<a class="item__header" href="items/'+data.items[i].parent.uniqueId+'.html" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
-
-                                    '<img class="item__cover lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
-                                    '<div class="item__info">'+
-                                      '<h2 class="item__title">'+data.items[i].parent.name+'</h2>'+
-                                      '<h3 class="item__subtitle">'+data.items[i].parent.alternateName+'</h3>'+
-                                      '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
-
-                                      '<div class="wpac-rating-ajax" data-wpac-chan="'+data.items[i].parent.uniqueId+'"></div>'+
-                                      '<div class="item__btn">See details and editions</div>'+
-                                      // '<a href="items/'+data.items[i].parent.uniqueId+'.html" class="item__btn" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Video\x27)">See details and editions</a>'+
-                                    '</div>'+
-                                  '</a>'+
-                                  '<div class="item__body">'+
-                                    '<div class="parent-item__info">'+
-                                      '<p>Released on '+thisReleaseMonthName+' '+thisReleaseDayNumber+', '+data.items[i].parent.releaseYear+'</p>'+
-									  '<p>'+data.items[i].parent.producer+'</p>'+
-									  '<p>Duration: '+data.items[i].parent.duration+'</p>'+
-									  // '<p>'+data.items[i].parent.notes+'</p>'+
-                                    '</div>'+
-                                    '<div class="parent-item__tracklist">'+
-                                      '<table>'+
-                                        '<tbody>'+
-                                          '<tr>'+
-                                            '<td>Title</td>'+
-                                            '<td></td>'+
-                                            '<td>Composer</td>'+
-                                          '</tr>'+
-                                        '</tbody>'+
-                                      '</table>'+
-                                    '</div>'+
-                                    '<ul class="child-items"></ul>'+
-                                    '<div class="item__footer">'+
-                                      '<a href="#'+data.items[i].parent.uniqueId+'" class="item__close-btn scroll-to-anchor">Close "'+data.items[i].parent.name+'"</a>'+
-                                    '</div>'+
-                                  '</div>'+
-                                '</li>';
+      } // end of book
 
 
 
 
-                $thisItem = $($thisItem); //convers string to DOM element
-                $('.items').append($thisItem);
-
-                // rating = data.items[i].parent.aggregateRating;
-                //
-                // for (j=0; j<rating; j++){
-                //   $thisItem.find('.item__rating').append(
-                //     '<li><img alt="star" src="assets/hit.svg" /></li>'
-                //     // '<li><img alt="star" src="../assets/star.svg"; this.onerror=null;" /></li>'
-                //   );
-                // }
-                // if (rating === 0.5 || rating === 1.5 || rating === 2.5 || rating === 3.5 || rating === 4.5){
-                //
-                //   $thisItem.find('.item__rating').children('li:last-child').remove();
-                //   $thisItem.find('.item__rating').append(
-                //     '<li alt="half star" class="item-rating__half-star"><img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjUxMnB4IiBoZWlnaHQ9IjUxMnB4IiB2aWV3Qm94PSIwIDAgNDUzLjA5OCA0NTMuMDk4IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0NTMuMDk4IDQ1My4wOTg7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGc+Cgk8cGF0aCBkPSJNMzMxLjMyMywxMS43MDhMMjY3LjA5LDE0MS42MTNsLTE0My4zMjIsMjAuODM5Yy0xMC42NTYsMS43MTQtMTUuOTg2LDYuMDkxLTE1Ljk4NiwxMy4xMzQgICBjMCwzLjk5OSwyLjM4LDguNTY3LDcuMTM1LDEzLjcwNmwxMDMuOTIzLDEwMS4wNjRsLTI0LjU1MSwxNDIuNzUyYy0wLjM4MSwyLjY3LTAuNTcxLDQuNTcyLTAuNTcxLDUuNzE2ICAgYzAsMy45OTcsMC45OTksNy4zNzEsMi45OTYsMTAuMTM2YzEuOTk5LDIuNzU5LDQuOTk1LDQuMTM4LDguOTkzLDQuMTM4YzMuNDI2LDAsNy4yMzMtMS4xMzMsMTEuNDItMy40MjZsMTI4LjE5LTY3LjM4MlYwICAgQzMzOS42MDgsMCwzMzQuOTQ3LDMuOSwzMzEuMzIzLDExLjcwOHoiIGZpbGw9IiMwMDAwMDAiLz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K" /></li>'
-                //     // '<li alt="half star" class="item-rating__half-star"><img src="../assets/half-star.svg"; this.onerror=null;"></li>'
-                //   );
-                // }
-
-
-                tracks = data.items[i].parent.track.itemListElement.length;
-
-                for (k=0; k<tracks; k++){
-
-                  if (data.items[i].parent.numberOfDiscs > 1) {
-                    if( data.items[i].parent.track.itemListElement[k].item.trackNumber == 1){
-                      $thisItem.find('.parent-item__tracklist tbody tr:last-child').after(
-                        '<tr class="discnumber"><td colspan="3">Disc '+data.items[i].parent.track.itemListElement[k].item.disc+'</td></tr>'
-                      );
-                    }
-                  }
-
-
-                  if( data.items[i].parent.track.itemListElement[k].item.hit == true ){
-                    thisTrack = '<tr>'+
-                                      '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
-                                      '<td class="hit-or-gem"><img src="assets/star.svg" /> HIT</td>'+
-                                      '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
-                                    '</tr>'
-                  }else if( data.items[i].parent.track.itemListElement[k].item.inthit == true ){
-                    thisTrack = '<tr>'+
-                                      '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
-                                      '<td class="hit-or-gem"><img src="assets/inthit.svg" /> HIT</td>'+
-                                      '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
-                                    '</tr>'
-                  }else if( data.items[i].parent.track.itemListElement[k].item.gem == true ){
-                    thisTrack = '<tr>'+
-                                      '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
-                                      '<td class="hit-or-gem"><img src="assets/gem.svg" /> GEM</td>'+
-                                      '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
-                                    '</tr>'
-                  }else{
-                    thisTrack = '<tr>'+
-                                      '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
-                                      '<td></td>'+
-                                      '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
-                                    '</tr>'
-                  }
-
-                  $thisItem.find('.parent-item__tracklist tbody').append(thisTrack);
-
-                }
-
-
-                $('.scroll-to-anchor').smoothScroll({
-                   offset: -44
-                });
-
-
-              } // /else
-
-            } // /if
-
-
-          }// /if
-
-        } //end of main for loop
-
-
-      } // /else   /end of video
-
-
-
-
-
-      else{ //Everything but solo albums, books, videos or bootlegs
+      else{ //Everything but latest, solo albums, books or videos
 
         for(i=0; i<totalItems; i++){
 
@@ -812,381 +204,23 @@ $(function(){
 
             loadedItems++;
 
-            thisReleaseMonthNumber = data.items[i].parent.releaseMonth;
-            if ( thisReleaseMonthNumber == 0 ){
-              thisReleaseMonthName = "";
-            }else{
-              thisReleaseMonthName = months[thisReleaseMonthNumber - 1];
-            }
-
-            thisReleaseDayNumber = data.items[i].parent.releaseDay;
-            if ( thisReleaseDayNumber == 0 ){
-              thisReleaseDayNumber = "";
-            }else{
-              thisReleaseDayNumber = thisReleaseDayNumber;
-            }
-
-
-            // COMPILATION
-            if(data.items[i].parent.category.compilation){
-              $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-date="'+data.items[i].parent.releaseYear+'">'+
-                                '<a class="item__header" href="items/'+data.items[i].parent.uniqueId+'.html" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
-
-                                  '<img class="item__cover lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
-                                  '<div class="item__info">'+
-                                    '<h2 class="item__title">'+data.items[i].parent.name+'</h2>'+
-                                    '<h3 class="item__subtitle">'+data.items[i].parent.alternateName+'</h3>'+
-                                    '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
-                                    
-                                    '<div class="wpac-rating-ajax" data-wpac-chan="'+data.items[i].parent.uniqueId+'"></div>'+
-                                    '<div class="item__btn">See details and editions</div>'+
-                                    // '<a href="items/'+data.items[i].parent.uniqueId+'.html" class="item__btn" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Compilation\x27)">See details and editions</a>'+
-                                  '</div>'+
-                                '</a>'+
-                                '<div class="item__body">'+
-                                  '<div class="parent-item__info">'+
-                                    '<p>Released on '+thisReleaseMonthName+' '+thisReleaseDayNumber+', '+data.items[i].parent.releaseYear+'</p>'+
-                                    '<p>'+data.items[i].parent.publisher+' ('+data.items[i].parent.country+') '+data.items[i].parent.catalogNumber+'</p>'+
-                                    '<p>Chart position: #'+data.items[i].parent.billboardPosition+'</p>'+
-                                    // '<p>'+data.items[i].parent.notes+'</p>'+
-                                  '</div>'+
-                                  '<div class="parent-item__tracklist">'+
-                                    '<table>'+
-                                      '<tbody>'+
-                                        '<tr>'+
-                                          '<td>Title</td>'+
-                                          '<td></td>'+
-                                          '<td>Composer</td>'+
-                                        '</tr>'+
-                                      '</tbody>'+
-                                    '</table>'+
-                                  '</div>'+
-                                  '<ul class="child-items"></ul>'+
-                                  '<div class="item__footer">'+
-                                    '<a href="#'+data.items[i].parent.uniqueId+'" class="item__close-btn scroll-to-anchor">Close "'+data.items[i].parent.name+'"</a>'+
-                                  '</div>'+
+            $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-date="'+data.items[i].parent.releaseYear+'">'+
+                              '<a class="item__header" href="items/'+data.items[i].parent.uniqueId+'.html" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
+                                '<img class="item__cover lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
+                                '<div class="item__info">'+
+                                  '<h2 class="item__title">'+data.items[i].parent.name+'</h2>'+
+                                  '<h3 class="item__subtitle">'+data.items[i].parent.alternateName+'</h3>'+
+                                  '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
+                                  '<div class="wpac-rating-ajax" data-wpac-chan="'+data.items[i].parent.uniqueId+'"></div>'+
+                                  '<div class="item__btn">See details and editions</div>'+
                                 '</div>'+
-                              '</li>';
-            }
-            // SINGLES
-            else if(data.items[i].parent.category.single){
-              $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-date="'+data.items[i].parent.releaseYear+'">'+
-                                '<a class="item__header" href="items/'+data.items[i].parent.uniqueId+'.html" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
+                              '</a>'+
+                            '</li>';
 
-                                  '<img class="item__cover single lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
-                                  '<div class="item__info">'+
-                                    '<h2 class="item__title">'+data.items[i].parent.name+'</h2>'+
-                                    '<h3 class="item__subtitle">'+data.items[i].parent.alternateName+'</h3>'+
-                                    '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
-
-                                    '<div class="wpac-rating-ajax" data-wpac-chan="'+data.items[i].parent.uniqueId+'"></div>'+
-                                    '<div class="item__btn">See details and editions</div>'+
-                                    // '<a href="items/'+data.items[i].parent.uniqueId+'.html" class="item__btn" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Compilation\x27)">See details and editions</a>'+
-                                  '</div>'+
-                                '</a>'+
-                                '<div class="item__body">'+
-                                  '<div class="parent-item__info">'+
-                                    '<p>Released on '+thisReleaseMonthName+' '+thisReleaseDayNumber+', '+data.items[i].parent.releaseYear+'</p>'+
-                                    '<p>'+data.items[i].parent.publisher+' ('+data.items[i].parent.country+') '+data.items[i].parent.catalogNumber+'</p>'+
-                                    '<p>Chart position: #'+data.items[i].parent.billboardPosition+'</p>'+
-                                    // '<p>'+data.items[i].parent.notes+'</p>'+
-                                  '</div>'+
-                                  '<div class="parent-item__tracklist">'+
-                                    '<table>'+
-                                      '<tbody>'+
-                                        '<tr>'+
-                                          '<td>Title</td>'+
-                                          '<td></td>'+
-                                          '<td>Composer</td>'+
-                                        '</tr>'+
-                                      '</tbody>'+
-                                    '</table>'+
-                                  '</div>'+
-                                  '<ul class="child-items"></ul>'+
-                                  '<div class="item__footer">'+
-                                    '<a href="#'+data.items[i].parent.uniqueId+'" class="item__close-btn scroll-to-anchor">Close "'+data.items[i].parent.name+'"</a>'+
-                                  '</div>'+
-                                '</div>'+
-                              '</li>';
-            }
-            // BOOTLEG
-            else if(data.items[i].parent.category.bootleg){
-              $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-date="'+data.items[i].parent.releaseYear+'">'+
-                                '<a class="item__header" href="items/'+data.items[i].parent.uniqueId+'.html" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
-
-                                  '<img class="item__cover lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
-                                  '<div class="item__info">'+
-                                    '<h2 class="item__title">'+data.items[i].parent.name+'</h2>'+
-                                    '<h3 class="item__subtitle">'+data.items[i].parent.alternateName+'</h3>'+
-                                    '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
-
-                                    '<div class="wpac-rating-ajax" data-wpac-chan="'+data.items[i].parent.uniqueId+'"></div>'+
-                                    '<div class="item__btn">See details and editions</div>'+
-                                    // '<a href="items/'+data.items[i].parent.uniqueId+'.html" class="item__btn" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Album\x27)">See details and editions</a>'+
-                                  '</div>'+
-                                '</a>'+
-                                '<div class="item__body">'+
-                                  '<div class="parent-item__info">'+
-                                    '<p>'+data.items[i].parent.publisher+' ('+data.items[i].parent.country+') '+data.items[i].parent.catalogNumber+'</p>'+
-                                    // '<p>'+data.items[i].parent.notes+'</p>'+
-                                  '</div>'+
-                                  '<div class="parent-item__tracklist">'+
-                                    '<table>'+
-                                      '<tbody>'+
-                                        '<tr>'+
-                                          '<td>Title</td>'+
-                                          '<td></td>'+
-                                          '<td></td>'+
-                                        '</tr>'+
-                                      '</tbody>'+
-                                    '</table>'+
-                                  '</div>'+
-                                  '<ul class="child-items"></ul>'+
-                                  '<div class="item__footer">'+
-                                    '<a href="#'+data.items[i].parent.uniqueId+'" class="item__close-btn scroll-to-anchor">Close "'+data.items[i].parent.name+'"</a>'+
-                                  '</div>'+
-                                '</div>'+
-                              '</li>';
-            }
-            // Productions
-            else if(data.items[i].parent.category.production){
-              $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-date="'+data.items[i].parent.releaseYear+'">'+
-                                '<a class="item__header" href="items/'+data.items[i].parent.uniqueId+'.html" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
-
-                                  '<img class="item__cover single lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
-                                  '<div class="item__info">'+
-                                    '<h2 class="item__title">'+data.items[i].parent.name+'</h2>'+
-                                    '<h3 class="item__subtitle">'+data.items[i].parent.alternateName+'</h3>'+
-                                    '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
-
-                                    '<div class="wpac-rating-ajax" data-wpac-chan="'+data.items[i].parent.uniqueId+'"></div>'+
-                                    '<div class="item__btn">See details and editions</div>'+
-                                    // '<a href="items/'+data.items[i].parent.uniqueId+'.html" class="item__btn" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Album\x27)">See details and editions</a>'+
-                                  '</div>'+
-                                '</a>'+
-                                '<div class="item__body">'+
-                                  '<div class="parent-item__info">'+
-                                    '<p>Released on '+thisReleaseMonthName+' '+thisReleaseDayNumber+', '+data.items[i].parent.releaseYear+'</p>'+
-                                    '<p>'+data.items[i].parent.publisher+' ('+data.items[i].parent.country+') '+data.items[i].parent.catalogNumber+'</p>'+
-                                    '<p>Produced by '+data.items[i].parent.producer+'</p>'+
-                                    '<p>Chart position: #'+data.items[i].parent.billboardPosition+'</p>'+
-                                    // '<p>'+data.items[i].parent.notes+'</p>'+
-                                  '</div>'+
-                                  '<div class="parent-item__tracklist">'+
-                                    '<table>'+
-                                      '<tbody>'+
-                                        '<tr>'+
-                                          '<td>Title</td>'+
-                                          '<td></td>'+
-                                          '<td>Composer</td>'+
-                                          '<td>Producer</td>'+
-                                        '</tr>'+
-                                      '</tbody>'+
-                                    '</table>'+
-                                  '</div>'+
-                                  '<ul class="child-items"></ul>'+
-                                  '<div class="item__footer">'+
-                                    '<a href="#'+data.items[i].parent.uniqueId+'" class="item__close-btn scroll-to-anchor">Close "'+data.items[i].parent.name+'"</a>'+
-                                  '</div>'+
-                                '</div>'+
-                              '</li>';
-            }
-            // Collaborations
-            else if(data.items[i].parent.category.collaboration){
-              $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-date="'+data.items[i].parent.releaseYear+'">'+
-                                '<a class="item__header" href="items/'+data.items[i].parent.uniqueId+'.html" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
-
-                                  '<img class="item__cover single lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
-                                  '<div class="item__info">'+
-                                    '<h2 class="item__title">'+data.items[i].parent.name+'</h2>'+
-                                    '<h3 class="item__subtitle">'+data.items[i].parent.alternateName+'</h3>'+
-                                    '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
-
-                                    '<div class="wpac-rating-ajax" data-wpac-chan="'+data.items[i].parent.uniqueId+'"></div>'+
-                                    '<div class="item__btn">See details and editions</div>'+
-                                    // '<a href="items/'+data.items[i].parent.uniqueId+'.html" class="item__btn" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Album\x27)">See details and editions</a>'+
-                                  '</div>'+
-                                '</a>'+
-                                '<div class="item__body">'+
-                                  '<div class="parent-item__info">'+
-                                    '<p>Released on '+thisReleaseMonthName+' '+thisReleaseDayNumber+', '+data.items[i].parent.releaseYear+'</p>'+
-                                    '<p>'+data.items[i].parent.publisher+' ('+data.items[i].parent.country+') '+data.items[i].parent.catalogNumber+'</p>'+
-                                    '<p>Produced by '+data.items[i].parent.producer+'</p>'+
-                                    '<p>Chart position: #'+data.items[i].parent.billboardPosition+'</p>'+
-                                    // '<p>'+data.items[i].parent.notes+'</p>'+
-                                  '</div>'+
-                                  '<div class="parent-item__tracklist">'+
-                                    '<table>'+
-                                      '<tbody>'+
-                                        '<tr>'+
-                                          '<td>Title</td>'+
-                                          '<td></td>'+
-                                          '<td>Composer</td>'+
-                                        '</tr>'+
-                                      '</tbody>'+
-                                    '</table>'+
-                                  '</div>'+
-                                  '<ul class="child-items"></ul>'+
-                                  '<div class="item__footer">'+
-                                    '<a href="#'+data.items[i].parent.uniqueId+'" class="item__close-btn scroll-to-anchor">Close "'+data.items[i].parent.name+'"</a>'+
-                                  '</div>'+
-                                '</div>'+
-                              '</li>';
-            }
-            // Concert
-            else if(data.items[i].parent.category.concert){
-              $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-date="'+data.items[i].parent.releaseYear+'">'+
-                                '<a class="item__header" href="items/'+data.items[i].parent.uniqueId+'.html" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
-
-                                  '<img class="item__cover single lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
-                                  '<div class="item__info">'+
-                                    '<h2 class="item__title">'+data.items[i].parent.name+'</h2>'+
-                                    '<h3 class="item__subtitle">'+data.items[i].parent.alternateName+'</h3>'+
-                                    '<h3 class="item__year">'+thisReleaseMonthName+' '+thisReleaseDayNumber+', '+data.items[i].parent.releaseYear+'</h3>'+
-
-                                    '<div class="wpac-rating-ajax" data-wpac-chan="'+data.items[i].parent.uniqueId+'"></div>'+
-                                    '<div class="item__btn">See details and editions</div>'+
-                                    // '<a href="items/'+data.items[i].parent.uniqueId+'.html" class="item__btn" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Album\x27)">See details and editions</a>'+
-                                  '</div>'+
-                                '</a>'+
-                                '<div class="item__body">'+
-                                  '<div class="parent-item__info">'+
-                                    '<p> Venue: '+data.items[i].parent.location+'</p>'+
-                                    '<p>'+data.items[i].parent.doorTime+'</p>'+
-                                    '<p> Beach Boys present: '+data.items[i].parent.performers+'</p>'+
-                                    // '<p>'+data.items[i].parent.notes+'</p>'+
-                                  '</div>'+
-                                  '<div class="parent-item__tracklist">'+
-                                    '<table>'+
-                                      '<tbody>'+
-                                        '<tr>'+
-                                          '<td>Title</td>'+
-                                          '<td></td>'+
-                                          '<td>Composer</td>'+
-                                        '</tr>'+
-                                      '</tbody>'+
-                                    '</table>'+
-                                  '</div>'+
-                                  '<ul class="child-items"></ul>'+
-                                  '<div class="item__footer">'+
-                                    '<a href="#'+data.items[i].parent.uniqueId+'" class="item__close-btn scroll-to-anchor">Close "'+data.items[i].parent.name+'"</a>'+
-                                  '</div>'+
-                                '</div>'+
-                              '</li>';
-            }
-            // ALBUM
-            else{
-              $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-date="'+data.items[i].parent.releaseYear+'">'+
-                                '<a class="item__header" href="items/'+data.items[i].parent.uniqueId+'.html" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
-
-                                  '<img class="item__cover lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
-                                  '<div class="item__info">'+
-                                    '<h2 class="item__title">'+data.items[i].parent.name+'</h2>'+
-                                    '<h3 class="item__subtitle">'+data.items[i].parent.alternateName+'</h3>'+
-                                    '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
-
-                                    '<div class="wpac-rating-ajax" data-wpac-chan="'+data.items[i].parent.uniqueId+'"></div>'+
-                                    '<div class="item__btn">See details and editions</div>'+
-                                    // '<a href="items/'+data.items[i].parent.uniqueId+'.html" class="item__btn" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Album\x27)">See details and editions</a>'+
-                                  '</div>'+
-                                '</a>'+
-                                '<div class="item__body">'+
-                                  '<div class="parent-item__info">'+
-                                    '<p>Released on '+thisReleaseMonthName+' '+thisReleaseDayNumber+', '+data.items[i].parent.releaseYear+'</p>'+
-                                    '<p>'+data.items[i].parent.publisher+' ('+data.items[i].parent.country+') '+data.items[i].parent.catalogNumber+'</p>'+
-                                    '<p>Produced by '+data.items[i].parent.producer+'</p>'+
-                                    '<p>Chart position: #'+data.items[i].parent.billboardPosition+'</p>'+
-                                    // '<p>'+data.items[i].parent.notes+'</p>'+
-                                  '</div>'+
-                                  '<div class="parent-item__tracklist">'+
-                                    '<table>'+
-                                      '<tbody>'+
-                                        '<tr>'+
-                                          '<td>Title</td>'+
-                                          '<td></td>'+
-                                          '<td>Composer</td>'+
-                                        '</tr>'+
-                                      '</tbody>'+
-                                    '</table>'+
-                                  '</div>'+
-                                  '<ul class="child-items"></ul>'+
-                                  '<div class="item__footer">'+
-                                    '<a href="#'+data.items[i].parent.uniqueId+'" class="item__close-btn scroll-to-anchor">Close "'+data.items[i].parent.name+'"</a>'+
-                                  '</div>'+
-                                '</div>'+
-                              '</li>';
-            } // /else
 
               $thisItem = $($thisItem); //converts string to DOM element
               $('.items').append($thisItem);
 
-
-
-              tracks = data.items[i].parent.track.itemListElement.length;
-
-              // productions are separate because we add the producer to the tracklist
-              if(data.items[i].parent.category.production){
-
-                for (k=0; k<tracks; k++){
-
-                  thisTrack = '<tr>'+
-                                    '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
-                                    '<td></td>'+
-                                    '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
-                                    '<td>'+data.items[i].parent.track.itemListElement[k].item.producer+'</td>'+
-                                  '</tr>'
-
-                  $thisItem.find('.parent-item__tracklist tbody').append(thisTrack);
-                }
-
-
-
-              }
-              else{
-
-                for (k=0; k<tracks; k++){
-
-                  if (data.items[i].parent.numberOfDiscs > 1) {
-                    if( data.items[i].parent.track.itemListElement[k].item.trackNumber == 1){
-                      $thisItem.find('.parent-item__tracklist tbody tr:last-child').after(
-                        '<tr class="discnumber"><td colspan="3">Disc '+data.items[i].parent.track.itemListElement[k].item.disc+'</td></tr>'
-                      );
-                    }
-                  }
-
-
-                  if( data.items[i].parent.track.itemListElement[k].item.hit == true ){
-                    thisTrack = '<tr>'+
-                                      '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
-                                      '<td class="hit-or-gem"><img src="assets/star.svg" /> HIT</td>'+
-                                      '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
-                                    '</tr>'
-                  }else if( data.items[i].parent.track.itemListElement[k].item.inthit == true ){
-                    thisTrack = '<tr>'+
-                                      '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
-                                      '<td class="hit-or-gem"><img src="assets/inthit.svg" /> HIT</td>'+
-                                      '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
-                                    '</tr>'
-                  }else if( data.items[i].parent.track.itemListElement[k].item.gem == true ){
-                    thisTrack = '<tr>'+
-                                      '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
-                                      '<td class="hit-or-gem"><img src="assets/gem.svg" /> GEM</td>'+
-                                      '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
-                                    '</tr>'
-                  }else{
-                    thisTrack = '<tr>'+
-                                      '<td><div class="tracknumber">'+data.items[i].parent.track.itemListElement[k].item.trackNumber+'</div>'+data.items[i].parent.track.itemListElement[k].item.name+'</td>'+
-                                      '<td></td>'+
-                                      '<td>'+data.items[i].parent.track.itemListElement[k].item.composer+'</td>'+
-                                    '</tr>'
-                  }
-
-                  $thisItem.find('.parent-item__tracklist tbody').append(thisTrack);
-
-                } //for
-
-
-              } // else
 
               $('.scroll-to-anchor').smoothScroll({
                  offset: -44
@@ -1201,7 +235,7 @@ $(function(){
 
       //adds back to top button at the end of the items when there are more than 5 items
       if(loadedItems>5){
-        var backToTop = '<div class="backtotop-btn" id="backToTop"><a href="#sorting" class="scroll-to-anchor">Back to top</a></div>'
+        var backToTop = '<div class="backtotop-btn" id="backToTop"><a href="#sorting" class="scroll-to-anchor">Catch a wave to the top</a></div>'
         $('.items').after(backToTop);
         $('.scroll-to-anchor').smoothScroll({
            offset: -44
@@ -1225,194 +259,6 @@ $(function(){
 
 
 
-    //Loads child items for a given parent
-    function loadChildren(){
-
-
-
-      var i,j=0;
-
-      $('.item__btn').on( 'click', function() {
-
-        var thisButton = $(this);
-
-        if ( thisButton.hasClass('visited') ){
-          return 0;
-        }else {
-          thisButton.addClass('visited');
-
-          var itemId = thisButton.parent('.item__info').parent('.item__header').parent('li').attr('id');
-
-
-
-          for (i=0; i<totalItems; i++){
-            if (itemId === data.items[i].parent.uniqueId){
-             var requestedItemNumber = i;
-            }
-          }
-
-          var childrenNumber = data.items[requestedItemNumber].editions.length;
-
-
-
-          for (j=childrenNumber-1; j>=0; j--){
-
-            // BOOKS
-            if(data.items[requestedItemNumber].parent.category.book){
-
-              var thisChildReleaseMonthNumber = data.items[requestedItemNumber].editions[j].releaseMonth;
-              var thisChildReleaseMonthName = 0;
-              if ( thisChildReleaseMonthNumber == 0 ){
-                thisChildReleaseMonthName = "";
-              }else{
-                var thisChildReleaseMonthName = months[thisChildReleaseMonthNumber - 1];
-              }
-
-              var thisChildReleaseDayNumber = data.items[requestedItemNumber].editions[j].releaseDay;
-              if ( thisChildReleaseDayNumber == 0 ){
-                thisChildReleaseDayNumber = "";
-              }else{
-                thisChildReleaseDayNumber = thisChildReleaseDayNumber;
-              }
-
-
-
-              var $thisChild = '<li>'+
-                                '<div class="child-item__header">'+
-                                  '<h3 class="child-item__title">'+data.items[requestedItemNumber].editions[j].name+'</h3>'+
-                                  '<h4 class="child-item__subtitle">'+data.items[requestedItemNumber].editions[j].alternateName+'</h4>'+
-                                  '<ul class="child-item__info">'+
-                                    '<li>'+thisChildReleaseMonthName+' '+thisChildReleaseDayNumber+' '+data.items[requestedItemNumber].editions[j].releaseYear+'</li>'+
-                                    '<li>'+data.items[requestedItemNumber].editions[j].publisher+'</li>'+
-									'<li>'+data.items[requestedItemNumber].editions[j].country+'</li>'+
-                                    '<li>'+data.items[requestedItemNumber].editions[j].bookFormat+'</li>'+
-                                    '<li>'+data.items[requestedItemNumber].editions[j].numberOfPages+' pages</li>'+
-                                    '<li>ISBN: '+data.items[requestedItemNumber].editions[j].isbn+'</li>'+
-                                  '</ul>'+
-                                '</div>'+
-                                '<div class="child-item__body">'+
-                                  '<div class="child-item__sidebar">'+
-                                    '<div class="sticky-content">'+
-                                      '<a href="'+data.items[requestedItemNumber].editions[j][amazonLink]+'" target="_blank"><img class="child-item__cover" src="'+data.items[requestedItemNumber].editions[j].image+'" alt="'+data.items[requestedItemNumber].editions[j].name+' cover"></a>'+
-                                      '<a class="child-item__buy" href="'+data.items[requestedItemNumber].editions[j][amazonLink]+'" target="_blank" onClick="ga(\x27send\x27, \x27event\x27, \x27Amazon\x27, \x27click\x27, \x27Item\x27)">'+amazonBtnTxt+'</a>'+  // \x27 is a scaped quote '
-                                    '</div>'+
-                                  '</div>'+
-                                  '<div class="child-item__book-review">'+
-                                    '<pre>'+data.items[requestedItemNumber].editions[j].review+'</pre>'+
-                                  '</div>'+
-                                '</div>'+
-                              '</li>';
-            }
-            // VIDEO (Excluding Live & Video, e.g. Brian Wilson and Friends)
-            else if( (data.items[requestedItemNumber].parent.category.video) && !(data.items[requestedItemNumber].parent.category.live) ){
-
-              var thisChildReleaseMonthNumber = data.items[requestedItemNumber].editions[j].albumRelease.releaseMonth;
-              var thisChildReleaseMonthName = 0;
-              if ( thisChildReleaseMonthNumber == 0 ){
-                thisChildReleaseMonthName = "";
-              }else{
-                var thisChildReleaseMonthName = months[thisChildReleaseMonthNumber - 1];
-              }
-
-              var thisChildReleaseDayNumber = data.items[requestedItemNumber].editions[j].albumRelease.releaseDay;
-              if ( thisChildReleaseDayNumber == 0 ){
-                thisChildReleaseDayNumber = "";
-              }else{
-                thisChildReleaseDayNumber = thisChildReleaseDayNumber;
-              }
-
-              var $thisChild = '<li>'+
-                                '<div class="child-item__header">'+
-                                  '<h3 class="child-item__title">'+data.items[requestedItemNumber].editions[j].albumRelease.name+'</h3>'+
-                                  '<ul class="child-item__info">'+
-                                    '<li>'+thisChildReleaseMonthName+' '+thisChildReleaseDayNumber+' '+data.items[requestedItemNumber].editions[j].albumRelease.releaseYear+'</li>'+
-                                    '<li>'+data.items[requestedItemNumber].editions[j].albumRelease.publisher+' ('+data.items[requestedItemNumber].editions[j].albumRelease.country+')</li>'+
-                                    '<li>'+data.items[requestedItemNumber].editions[j].albumRelease.videoReleaseFormat+'</li>'+
-                                  '</ul>'+
-                                '</div>'+
-                                '<div class="child-item__body">'+
-                                  '<div class="child-item__sidebar">'+
-                                    '<div class="sticky-content">'+
-                                      '<a href="'+data.items[requestedItemNumber].editions[j].albumRelease[amazonLink]+'" target="_blank"><img class="child-item__cover" src="'+data.items[requestedItemNumber].editions[j].albumRelease.image+'" alt="'+data.items[requestedItemNumber].editions[j].albumRelease.name+' cover"></a>'+
-                                      '<a class="child-item__buy" href="'+data.items[requestedItemNumber].editions[j].albumRelease[amazonLink]+'" target="_blank" onClick="ga(\x27send\x27, \x27event\x27, \x27Amazon\x27, \x27click\x27, \x27Item\x27)">'+amazonBtnTxt+'</a>'+  // \x27 is a scaped quote '
-                                    '</div>'+
-                                  '</div>'+
-                                  '<div class="child-item__tracklist">'+
-                                    '<pre>'+data.items[requestedItemNumber].editions[j].albumRelease.tracklist+'</pre>'+
-                                  '</div>'+
-                                '</div>'+
-                              '</li>';
-            }
-            // ALL ITEMS BUT BOOKS AND VIDEOS
-            else{
-              // var thisChildReleaseMonthNumber = data.items[requestedItemNumber].editions[j].albumRelease.releaseMonth;
-              // var thisChildReleaseMonthName = months[thisChildReleaseMonthNumber - 1];
-
-
-              var thisChildReleaseMonthNumber = data.items[requestedItemNumber].editions[j].albumRelease.releaseMonth;
-              var thisChildReleaseMonthName = 0;
-              if ( thisChildReleaseMonthNumber == 0 ){
-                thisChildReleaseMonthName = "";
-              }else{
-                var thisChildReleaseMonthName = months[thisChildReleaseMonthNumber - 1];
-              }
-
-              var thisChildReleaseDayNumber = data.items[requestedItemNumber].editions[j].albumRelease.releaseDay;
-              if ( thisChildReleaseDayNumber == 0 ){
-                thisChildReleaseDayNumber = "";
-              }else{
-                thisChildReleaseDayNumber = thisChildReleaseDayNumber;
-              }
-
-
-              var $thisChild = '<li>'+
-                                '<div class="child-item__header">'+
-                                  '<h3 class="child-item__title">'+data.items[requestedItemNumber].editions[j].albumRelease.name+'</h3>'+
-                                  '<ul class="child-item__info">'+
-                                    '<li>'+thisChildReleaseMonthName+' '+thisChildReleaseDayNumber+' '+data.items[requestedItemNumber].editions[j].albumRelease.releaseYear+'</li>'+
-                                    '<li>'+data.items[requestedItemNumber].editions[j].albumRelease.recordLabel+' ('+data.items[requestedItemNumber].editions[j].albumRelease.country+') '+data.items[requestedItemNumber].editions[j].albumRelease.catalogNumber+'</li>'+
-                                    '<li>'+data.items[requestedItemNumber].editions[j].albumRelease.musicReleaseFormat+'</li>'+
-                                  '</ul>'+
-                                '</div>'+
-                                '<div class="child-item__body">'+
-                                  '<div class="child-item__sidebar">'+
-                                    '<div class="sticky-content">'+
-                                      '<a href="'+data.items[requestedItemNumber].editions[j].albumRelease[amazonLink]+'" target="_blank"><img class="child-item__cover" src="'+data.items[requestedItemNumber].editions[j].albumRelease.image+'" alt="'+data.items[requestedItemNumber].editions[j].albumRelease.name+' cover"></a>'+
-                                      '<a class="child-item__buy" href="'+data.items[requestedItemNumber].editions[j].albumRelease[amazonLink]+'" target="_blank" onClick="ga(\x27send\x27, \x27event\x27, \x27Amazon\x27, \x27click\x27, \x27Item\x27)">'+amazonBtnTxt+'</a>'+  // \x27 is a scaped quote '
-                                    '</div>'+
-                                  '</div>'+
-                                  '<div class="child-item__tracklist">'+
-                                    '<pre>'+data.items[requestedItemNumber].editions[j].albumRelease.tracklist+'</pre>'+
-                                  '</div>'+
-                                '</div>'+
-                              '</li>';
-            }
-
-            $thisChild = $($thisChild); //convers string to DOM element
-            $('#'+itemId).find('.item__body').find('.child-items').append($thisChild);
-
-            // Removes amazon button for items with no amazon link
-            if( $thisChild.find('.child-item__buy').attr('href') == "" ){
-              $thisChild.find('.child-item__buy').remove();
-            }
-
-            $('.child-item__tracklist').each(function(){
-              $(this).shorten({
-                moreText: 'Show full tracklist',
-                lessText: 'Show less',
-                showChars: 300
-              });
-            });
-
-          }  // /for
-        }
-      });
-
-
-
-
-
-    } // /loadChildren
 
 
 
@@ -1464,7 +310,6 @@ $(function(){
     loadItems(initialArtist, initialCategory);
     sortByRelease();
     getCountry();
-    loadChildren();
     lazyLoad();
 
 
@@ -1481,17 +326,17 @@ $(function(){
 
 
 
-    function sortByRating(){
-
-      var list = $('.items');
-      var listItems = list.children('li');
-
-      listItems.sort(sortList).appendTo(list);
-      function sortList(a, b){
-          return ($(b).data('rating')) > ($(a).data('rating')) ? 1 : -1;
-      }
-
-    }
+    // function sortByRating(){
+    //
+    //   var list = $('.items');
+    //   var listItems = list.children('li');
+    //
+    //   listItems.sort(sortList).appendTo(list);
+    //   function sortList(a, b){
+    //       return ($(b).data('rating')) > ($(a).data('rating')) ? 1 : -1;
+    //   }
+    //
+    // }
 
 
     function sortByRelease(){
@@ -1557,7 +402,6 @@ $(function(){
         }
 
         sortByRelease();
-        loadChildren();
         lazyLoad();
         resetSorting();
 
@@ -1591,7 +435,7 @@ $(function(){
         currentCategory = selectedCategory;
         loadItems(currentArtist,selectedCategory);
         sortByRelease();
-        loadChildren();
+
         lazyLoad();
         resetSorting();
 
