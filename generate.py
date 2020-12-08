@@ -76,7 +76,7 @@ for item in data["items"]:
 
     # Grab all the "true" categories.
     item_cats: List = {
-        k:v for k,v in parent["category"].items() if v
+        k: v for k, v in parent["category"].items() if v
     }.keys()
 
     # We determine the template name by looking at the item's categories.
