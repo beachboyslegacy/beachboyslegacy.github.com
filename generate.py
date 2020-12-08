@@ -86,21 +86,7 @@ for item in data["items"]:
     elif [category for category in item_cats if category in book_cats]:
         template = template_map["book.html.jinja2"]
     elif [category for category in item_cats if category in video_cats]:
-        # Grab all the "true" subcats.
-        item_subcats: List = {
-            k:v for k,v in parent.get("subcategory", {}).items() if v
-        }.keys()
-
-        if "live" in item_subcats:
-            template = template_map["video_live.html.jinja2"]
-        elif "documentary" in item_subcats:
-            template = template_map["video_documentary.html.jinja2"]
-        elif "movie" in item_subcats:
-            template = template_map["video_movie.html.jinja2"]
-        else:
-            raise CategoryException(
-                f"Ivalid video subcategories for {parent['uniqueId']}"
-            )
+        template = template_map["video.html.jinja2"]
     else:
         raise CategoryException(
             f"Ivalid categories for {parent['uniqueId']}"

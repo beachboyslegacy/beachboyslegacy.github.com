@@ -186,6 +186,7 @@ window.cookieconsent.initialise({
 
       <div class="item-details__body">
 
+        {% if item.parent.track %}
         <div class="parent-item__tracklist">
           <table>
             <tbody>
@@ -197,7 +198,6 @@ window.cookieconsent.initialise({
               </tr>
 
 
-              {% if item.parent.track %}
                 {% for element in item["parent"]["track"]["itemListElement"] %}
 
 
@@ -211,19 +211,19 @@ window.cookieconsent.initialise({
                   {% if element.item.hit %}
                     <tr>
                       <td><div class="tracknumber">{{element["item"]["trackNumber"]}}</div>{{element["item"]["name"]}}</td>
-                      <td class="hit-or-gem"><img src="../../assets/star.svg" /> HIT</td>
+                      <td class="hit-or-gem"><img src="../../assets/star.svg" alt="Hit" title="Hit"/> HIT</td>
                       <td>{{element["item"]["composer"]}}</td>
                     </tr>
                   {% elif element.item.inthit %}
                     <tr>
                       <td><div class="tracknumber">{{element["item"]["trackNumber"]}}</div>{{element["item"]["name"]}}</td>
-                      <td class="hit-or-gem"><img src="../../assets/inthit.svg" /> HIT</td>
+                      <td class="hit-or-gem"><img src="../../assets/inthit.svg" alt="International Hit" title="International Hit"/>HIT</td>
                       <td>{{element["item"]["composer"]}}</td>
                     </tr>
                   {% elif element.item.gem %}
                     <tr>
                       <td><div class="tracknumber">{{element["item"]["trackNumber"]}}</div>{{element["item"]["name"]}}</td>
-                      <td class="hit-or-gem"><img src="../../assets/gem.svg" /> GEM</td>
+                      <td class="hit-or-gem"><img src="../../assets/gem.svg" alt="Gem" title="Gem"/> GEM</td>
                       <td>{{element["item"]["composer"]}}</td>
                     </tr>
                   {% else %}
@@ -235,12 +235,12 @@ window.cookieconsent.initialise({
                   {% endif %}
 
                 {% endfor %}
-              {% endif %}
 
 
             </tbody>
           </table>
         </div>
+        {% endif %}
 
         <ul class="child-items">
 
@@ -382,21 +382,21 @@ window.cookieconsent.initialise({
         </h3>
         <p>
           <span class="overlay-menu__content__icon">
-            <img src="../../assets/star.svg" alt="Hit"/>
+            <img src="../../assets/star.svg" alt="Hit" title="Hit"/>
             HIT
           </span>
           The filled star indicates the song entered the Billboard Hot 100 (regardless of whether it entered any other US or foreign chart).
         </p>
         <p>
           <span class="overlay-menu__content__icon">
-            <img src="../../assets/inthit.svg" alt="International Hit"/>
+            <img src="../../assets/inthit.svg" alt="International Hit" title="International Hit"/>
             HIT
           </span>
           The outlined star indicates the song entered a US chart other than the Billboard Hot 100 or any other chart around the world.
         </p>
         <p>
           <span class="overlay-menu__content__icon">
-            <img src="../../assets/gem.svg" alt ="Gem"/>
+            <img src="../../assets/gem.svg" alt ="Gem" title="Gem"/>
             GEM
           </span>
           Indicates it's a lesser known track, but generally considered by Beach Boys aficionados as underrated or 'deep cut', having never entered any chart.</p>

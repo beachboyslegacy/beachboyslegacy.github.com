@@ -172,6 +172,9 @@ window.cookieconsent.initialise({
             {% if item.parent.duration %}
               <p>Run time: {{item["parent"]["duration"]}}</p>
             {% endif %}
+            {% if item.parent.producer %}
+              <p>Directed by {{item["parent"]["producer"]}}</p>
+            {% endif %}
             <p>{{item["parent"]["notes"]}}</p>
           </div>
         </div>
@@ -181,6 +184,7 @@ window.cookieconsent.initialise({
 
       <div class="item-details__body">
 
+        {% if item.parent.track %}
         <div class="parent-item__tracklist">
           <table>
             <tbody>
@@ -192,7 +196,6 @@ window.cookieconsent.initialise({
               </tr>
 
 
-              {% if item.parent.track %}
                 {% for element in item["parent"]["track"]["itemListElement"] %}
 
 
@@ -230,15 +233,15 @@ window.cookieconsent.initialise({
                   {% endif %}
 
                 {% endfor %}
-              {% endif %}
+
 
 
             </tbody>
           </table>
         </div>
+        {% endif %}
 
         <ul class="child-items">
-
 
           {% for element in item["editions"] %}
 
@@ -282,7 +285,7 @@ window.cookieconsent.initialise({
                     {% endif %}
                     {{element["albumRelease"]["releaseYear"]}}
                   </li>
-                  <li>{{element["albumRelease"]["publisher"]}}</li>
+                  <li>{{element["albumRelease"]["publisher"]}} ({{element["albumRelease"]["country"]}})</li>
                   <li>{{element["albumRelease"]["videoReleaseFormat"]}}</li>
                 </ul>
               </div>
