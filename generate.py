@@ -7,11 +7,11 @@ from os import makedirs
 from os import path
 from shutil import copytree
 from shutil import rmtree
-from typing import Dict
-from typing import List
+
 
 class CategoryException(Exception):
     pass
+
 
 # Create a command line interface for the generator.
 parser: ArgumentParser = ArgumentParser(
@@ -48,7 +48,7 @@ makedirs(items_path)
 # and for each we have a template. We must determine the category to which
 # each template belongs and render the right type of template for it.
 
-album_cats: List = [
+album_cats: list[str] = [
     "album",
     "collaboration",
     "concert",
@@ -61,11 +61,11 @@ album_cats: List = [
     "variousArtists",
     "bootleg",
 ]
-book_cats: List = ["book"]
-video_cats: List = ["video"]
+book_cats: list[str] = ["book"]
+video_cats: list[str] = ["video"]
 
 # We'll preload all the templates so we don't have to do it every time.
-template_map: Dict = {}
+template_map: dict = {}
 for template_name in listdir(templates_dir):
     with open(path.join(templates_dir, template_name), "r") as template:
         template_map[template_name] = Template(template.read())
@@ -75,7 +75,7 @@ for item in data["items"]:
     parent: dict = item["parent"]
 
     # Grab all the "true" categories.
-    item_cats: List = {
+    item_cats: list[str] = {
         k: v for k, v in parent["category"].items() if v
     }.keys()
 
