@@ -150,11 +150,6 @@ window.cookieconsent.initialise({
             <p>No Label JP B.B.5-003/4</p>
             
             
-              <p>
-                
-                No chart
-              </p>
-            
 
             <p></p>
           </div>
@@ -897,9 +892,6 @@ It's OK ! NBC TV Special. August 5, 1976</pre>
 </div>
 
 
-<script async type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.10/cookieconsent.min.js"></script>
-<!-- End Cookie Consent plugin -->
-
 
 <!-- Uncomment the following four lines in local -->
 <!-- <script src="../../js/jquery.lazyload.1.9.7.min.js"></script>
@@ -926,6 +918,27 @@ $(function(){
 });
 </script>
 
+
+
+
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#000"
+    },
+    "button": {
+      "background": "#f1d600"
+    }
+  },
+  "content": {
+    "href": "cookies-policy.html"
+  }
+})});
+</script>
 
 
 
