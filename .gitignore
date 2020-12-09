@@ -76,3 +76,6 @@ typings/
 /beachboys-next/.elasticbeanstalk/*
 /beachboys-next/!.elasticbeanstalk/*.cfg.yml
 /beachboys-next/!.elasticbeanstalk/*.global.yml
+
+# Codekit config file
+config.codekit3
