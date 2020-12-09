@@ -2,6 +2,9 @@
 /beachboys-next/.next
 .vscode
 
+# Venv
+/venv
+
 # Logs
 /beachboys-next/logs
 *.log
