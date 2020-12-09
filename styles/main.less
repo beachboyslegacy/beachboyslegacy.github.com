@@ -2,11 +2,12 @@
   height: @v-unit;
   background: @blue-dark;
   z-index: 3;
+  overflow: hidden;
 }
 
 .logo{
   height: @v-unit;
-  padding: 0 10px;
+  padding: 0;
   float: left;
   h1{
     font-family: 'Oswald', sans-serif;
@@ -19,6 +20,12 @@
   }
   a{
     color: #fff;
+  }
+}
+
+@media screen and (min-width: @mobile-bp){
+  .logo{
+    padding: 0 10px;
   }
 }
 
@@ -37,54 +44,7 @@
   }
 }
 
-/*
-.header__search{
-  float: right;
-  color: #fff;
-  height: @v-unit;
-  overflow: hidden;
-  margin-right: 2px;
-}
 
-.header__search__icon{
-  height: @v-unit;
-  padding: 0 10px;
-  cursor: pointer;
-  color: #fff;
-  display: inline-block;
-  vertical-align: middle;
-  &:hover{
-    background: @blue-light;
-  }
-  webicon{
-    height: @v-unit;
-    width: 32px;
-    padding: 0 5px;
-  }
-}
-
-
-.header__search__input{
-  display: none;
-  background: transparent;
-  border: 0 none;
-  color: #fff;
-  line-height: @v-unit;
-  height: @v-unit;
-  outline: 0;
-  padding: 0 5px;
-}
-
-@media screen and (min-width: @mobile-bp){
-  .header__search__icon{
-    pointer-events: none;
-    padding: 0;
-  }
-  .header__search__input{
-    display: inline-block;
-  }
-}
-*/
 
 .header__nav{
   float: right;
@@ -92,7 +52,7 @@
   overflow: hidden;
   li{
     float: left;
-    margin-left: 5px;
+    margin-left: 0;
     a{
       display: block;
       color: #fff;
@@ -131,11 +91,22 @@
   }
 }
 
-@media screen and (max-width: @mobile-bp){
-  .header__nav span{
-    display: none;
+@media screen and (min-width: @mobile-bp){
+  .header__nav{
+    li{
+      margin-left: 5px;
+    }
   }
 }
+
+@media screen and (max-width: @mobile-bp){
+  .header__nav{
+    span{
+      display: none;
+    }
+  }
+}
+
 
 
 .sidebar{
@@ -391,7 +362,7 @@
   right: 1%;
   top: 0;
   font-size: .75rem;
-  color: @grey-light;
+  color: @grey;
 }
 
 @media screen and (max-width: @mobile-bp){
@@ -488,7 +459,7 @@
 }
 
 .item-details__sidebar{
-    padding: 5% 2%;
+    padding: 20px;
     color: #fff;
     overflow-y: scroll;
     overflow-x: hidden;
@@ -498,7 +469,7 @@
 .item-details__sidebar__cover{
   display: block;
   width: 80%;
-  max-width: 500px;
+  max-width: 400px;
   min-height: 100px;
   margin: 0 auto .5rem;
   position: relative;
@@ -547,6 +518,26 @@
 }
 
 
+.item-details__sidebar__info__facts__amazon-link{
+  background: #fff;
+  display: inline-block;
+  padding:  0 20px;
+  height: 42px;
+  line-height: 40px;
+  border-radius: 21px;
+  text-align: center;
+  border: 2px solid #fff;
+  color: #fff;
+  background: transparent;
+  margin-bottom: 1em;
+  font-weight: 700;
+  &:hover{
+    background: #fff;
+    color: @grey-dark;
+  }
+}
+
+
 .item-details__body{
 
 }
@@ -561,17 +552,14 @@
 
 @media screen and (min-width: @mobile-bp){
 
-  .item-details-wrapper{
-    margin-top: 44px;
-  }
   .item-details__sidebar{
       position: fixed;
       left: 0;
       top: 44px;
       bottom: 0;
       .clearfix;
-      width: 30%;
-      padding: 2% 2%;
+      width: 300px;
+      padding: 20px;
   }
   .item-details__sidebar__info{
     text-align: left;
@@ -581,13 +569,22 @@
     margin: 0 auto .5rem 0;
   }
   .item-details__body{
-    width: 70%;
+    width: 100%;
     float: right;
-    padding: 1rem 2%;
+    padding: 1rem 2% 1rem 320px;
   }
 
 }
 
+@media screen and (min-width: @tablet-bp){
+  .item-details__sidebar{
+      width: 400px;
+  }
+  .item-details__body{
+    padding: 1rem 2% 1rem 420px;
+  }
+
+}
 
 
 .item__info{
@@ -668,7 +665,9 @@
   border: 2px solid #fff;
   color: #fff;
   line-height: 2rem;
-  padding: 0 4%;
+  padding: 0 20px;
+  height: 42px;
+  line-height: 40px;
   cursor: pointer;
   .transition(all 0.2s ease-in);
   &:hover{
@@ -830,6 +829,7 @@
 }
 
 .child-items{
+  padding: 10px;
   & > li{
     background: #fff;
     padding: 4%;
@@ -914,16 +914,23 @@
 
 .child-item__buy{
   background: @amazon;
-  display: inline-block;
-  padding: 15px 30px;
-  border-radius: 50px;
+  display: block;
+  max-width: 300px;
+  margin: 0 auto;
+  padding:  0 20px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 20px;
   color: #fff;
   text-align: center;
   margin-bottom: 2em;
+  font-weight: 700;
   &:hover{
     background: darken(@amazon, 5%);
   }
 }
+
+
 
 @media screen and (min-width: @tablet-bp){
   .child-item__sidebar{
