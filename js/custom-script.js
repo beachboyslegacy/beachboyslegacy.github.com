@@ -3,6 +3,37 @@
 // @codekit-prepend 'jquery.shorten.js'
 // @codekit-append 'jquery-webicon.js'
 
+// This function will use URL History API to store an arbitrary dict object.
+function storeURLData(data) {
+    // Let's grab the current URL and load it as a URL object.
+    const url = new URL(window.location.href);
+
+    // We can create our own params now.
+    const newParams = new URLSearchParams(data);
+
+    // Let's set the URL with our new params.
+    url.search = newParams.toString();
+    window.history.replaceState(
+        { additionalInformation: "Update selected artist" },
+        document.title,
+        url,
+    );
+}
+
+// This function will retrieve URL params as a data object.
+function retrieveURLData() {
+    // Let's grab the search params in the URL.
+    const url = new URL(window.location.href);
+    const search = new URLSearchParams(url.search);
+
+    // We return them in a data dictionary.
+    // TODO: find a way to make this return anything in the params.
+    return {
+        artist: search.get("artist"),
+        category: search.get("category"),
+    }
+}
+
 $(function(){
 
   // var jsonFile = 'js/data.json';
@@ -13,8 +44,12 @@ $(function(){
 
     var totalItems = data.items.length;
 
-    var initialArtist = 'The Beach Boys';
-    var initialCategory = 'new'
+    // We'll retrieve the selected artist and category form the URL. If none
+    // are there, we'll use our default values.
+    const urlData = retrieveURLData();
+    const initialArtist = urlData.artist || "The Beach Boys";
+    const initialCategory = urlData.category || "new";
+
     var currentArtist = initialArtist;
     var currentCategory = initialCategory;
     var amazonLink = 'amazonUs';
@@ -298,6 +333,9 @@ $(function(){
       }, 0);
 
       wpac_ajax_init(); // Loads the rating widget for each loaded item
+
+      // Let's store the category and artist in the URL.
+      storeURLData({artist: currentArtist, category: currentCategory});
 
     } // /loadItems function
 
