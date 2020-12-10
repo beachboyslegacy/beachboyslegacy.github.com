@@ -153,7 +153,6 @@ $(function(){
               $('.items').append($thisItem);
 
 
-
           }
 
           // else list books for the selected member
@@ -195,7 +194,53 @@ $(function(){
 
 
 
-      else{ //Everything but latest, solo albums, books or videos
+      // SINGLE (no box shadow for single covers)
+      else if( selectedCategory == 'single'){
+
+        for(i=0; i<totalItems; i++){
+
+
+          if( (data.items[i].parent.byArtist === selectedArtist) && (data.items[i].parent.category[selectedCategory] == true) ){
+
+            loadedItems++;
+
+            $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-date="'+data.items[i].parent.releaseYear+'">'+
+                              '<a class="item__header" href="items/'+data.items[i].parent.uniqueId+'.html" style="background-color:'+data.items[i].parent.backgroundColor+'">'+
+                                '<img class="item__cover lazy noshadow" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
+                                '<div class="item__info">'+
+                                  '<h2 class="item__title">'+data.items[i].parent.name+'</h2>'+
+                                  '<h3 class="item__subtitle">'+data.items[i].parent.alternateName+'</h3>'+
+                                  '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
+                                  '<div class="wpac-rating-ajax" data-wpac-chan="'+data.items[i].parent.uniqueId+'"></div>'+
+                                  '<div class="item__btn">See details and editions</div>'+
+                                '</div>'+
+                              '</a>'+
+                            '</li>';
+
+
+              $thisItem = $($thisItem); //converts string to DOM element
+              $('.items').append($thisItem);
+
+
+              $('.scroll-to-anchor').smoothScroll({
+                 offset: -44
+              });
+
+
+          } // /if
+
+        } //end of main for loop
+
+        sortByRelease();
+
+
+      } // end of single
+
+
+
+
+
+      else{ //Everything but latest, solo albums, singles, books or videos
 
         for(i=0; i<totalItems; i++){
 
