@@ -34,21 +34,6 @@ function retrieveURLData() {
     }
 }
 
-// Validates a category or retuns a viable option if invalid.
-function validateCategory(category) {
-    const validCategories = [
-        ...document
-        .getElementById("category")
-        .getElementsByTagName("li")
-    ].map(li => li.dataset.categoryname);
-
-    if (validCategories.includes(category)) {
-        return category;
-    } else {
-        return "new";
-    }
-}
-
 // Validates an artist or returns a viable option if invalid.
 function validateArtist(artist) {
     const validArtist = [
@@ -61,6 +46,23 @@ function validateArtist(artist) {
         return artist;
     } else {
         return "The Beach Boys";
+    }
+}
+
+// Validates a category or retuns a viable option if invalid.
+function validateCategory(category) {
+    const validCategories = [
+        ...document
+        .getElementById("category")
+        .getElementsByTagName("li")
+    ].filter(
+        li => !li.classList.contains("hide-category")
+    ) .map(li => li.dataset.categoryname);
+
+    if (validCategories.includes(category)) {
+        return category;
+    } else {
+        return validCategories[0];
     }
 }
 
@@ -77,11 +79,13 @@ $(function(){
     // We'll retrieve the selected artist and category form the URL. If none
     // are there, we'll use our default values.
     const urlData = retrieveURLData();
-    const initialArtist = validateArtist(urlData.artist);
-    const initialCategory = validateCategory(urlData.category);
 
-    // Let's update the navigation pane to reflect our artist and category.
+    // Let's update the navigation pane to reflect our artist.
+    const initialArtist = validateArtist(urlData.artist);
     updateArtistNavigation(initialArtist);
+
+    // Let's update the navigation pane to reflect our category.
+    const initialCategory = validateCategory(urlData.category);
     updateCategoryNavigation(initialCategory);
 
     var currentArtist = initialArtist;
