@@ -589,11 +589,6 @@ $(function(){
         });
     }
 
-    // Loads another category items for a given artist
-    $('#category li').on( 'click', function() {
-
-    });
-
     // Sorting
     $('.sorting li').on( 'click', function() {
 
