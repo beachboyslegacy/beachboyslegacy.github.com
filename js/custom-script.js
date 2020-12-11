@@ -592,7 +592,7 @@ $(function(){
                 .getElementById("category")
                 .getElementsByClassName("selector__options__current")[0]
                 .dataset
-                .category;
+                .categoryname;
 
             const newSelectedCategory = event.target.dataset.categoryname;
 
