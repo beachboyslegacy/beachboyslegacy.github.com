@@ -34,6 +34,36 @@ function retrieveURLData() {
     }
 }
 
+// Validates a category or retuns a viable option if invalid.
+function validateCategory(category) {
+    const validCategories = [
+        ...document
+        .getElementById("category")
+        .getElementsByTagName("li")
+    ].map(li => li.dataset.categoryname);
+
+    if (validCategories.includes(category)) {
+        return category;
+    } else {
+        return "new";
+    }
+}
+
+// Validates an artist or returns a viable option if invalid.
+function validateArtist(artist) {
+    const validArtist = [
+        ...document
+        .getElementById("artist")
+        .getElementsByTagName("li")
+    ].map(li => li.dataset.artist);
+
+    if (validArtist.includes(artist)) {
+        return artist;
+    } else {
+        return "The Beach Boys";
+    }
+}
+
 $(function(){
 
   // var jsonFile = 'js/data.json';
@@ -47,8 +77,8 @@ $(function(){
     // We'll retrieve the selected artist and category form the URL. If none
     // are there, we'll use our default values.
     const urlData = retrieveURLData();
-    const initialArtist = urlData.artist || "The Beach Boys";
-    const initialCategory = urlData.category || "new";
+    const initialArtist = validateArtist(urlData.artist);
+    const initialCategory = validateCategory(urlData.category);
 
     // Let's update the navigation pane to reflect our artist and category.
     updateArtistNavigation(initialArtist);
