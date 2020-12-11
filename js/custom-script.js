@@ -50,6 +50,10 @@ $(function(){
     const initialArtist = urlData.artist || "The Beach Boys";
     const initialCategory = urlData.category || "new";
 
+    // Let's update the navigation pane to reflect our artist and category.
+    updateArtistNavigation(initialArtist);
+    updateCategoryNavigation(initialCategory);
+
     var currentArtist = initialArtist;
     var currentCategory = initialCategory;
     var amazonLink = 'amazonUs';
@@ -335,7 +339,7 @@ $(function(){
       wpac_ajax_init(); // Loads the rating widget for each loaded item
 
       // Let's store the category and artist in the URL.
-      storeURLData({artist: currentArtist, category: currentCategory});
+      storeURLData({artist: selectedArtist, category: selectedCategory});
 
     } // /loadItems function
 
@@ -460,10 +464,6 @@ $(function(){
                 .getElementsByTagName("li")
         ].filter(li => li.dataset.artist === artist)[0];
 
-        // If the selected and new artists match, we don't have to do
-        // anything.
-        if (newSelectedArtist === selectedArtist) return;
-
         // Unselect the old artist and select the new one.
         selectedArtist.removeAttribute("class");
         newSelectedArtist.classList = ["selector__options__current"];
@@ -509,20 +509,6 @@ $(function(){
         // Unselect the old category and select the new one.
         selectedCategory.classList.remove("selector__options__current");
         newSelectedCategory.classList.add("selector__options__current");
-
-        // We'll load the items matching the new category.
-        const selectedArtist =
-            document
-            .getElementById("artist")
-            .getElementsByClassName("selector__options__current")[0]
-            .dataset
-            .artist;
-
-        loadItems(selectedArtist, newSelectedCategory.dataset.categoryname);
-        sortByRelease();
-
-        lazyLoad();
-        resetSorting();
     }
 
     // Register artist li event listeners.
@@ -532,7 +518,35 @@ $(function(){
 
     for (const artist of artists) {
         artist.addEventListener("click", function (event) {
-            updateArtistNavigation(event.target.dataset.artist);
+            const selectedArtist =
+                document
+                .getElementById("artist")
+                .getElementsByClassName("selector__options__current")[0]
+                .dataset
+                .artist;
+
+            const newSelectedArtist = event.target.dataset.artist;
+
+            // If the selected artist and the current artist match, don't do
+            // anything.
+            if (selectedArtist === newSelectedArtist) return;
+
+            // Update the UI to reflect the click on the artist.
+            updateArtistNavigation(newSelectedArtist);
+
+            // We'll load the items matching the new artist and category.
+            const selectedCategory =
+                document
+                .getElementById("category")
+                .getElementsByClassName("selector__options__current")[0]
+                .dataset
+                .categoryname;
+
+            loadItems(newSelectedArtist, selectedCategory);
+            sortByRelease();
+
+            lazyLoad();
+            resetSorting();
         });
     }
 
@@ -543,7 +557,35 @@ $(function(){
 
     for (const category of categories) {
         category.addEventListener("click", function (event) {
-            updateCategoryNavigation(event.target.dataset.categoryname);
+            const selectedCategory =
+                document
+                .getElementById("category")
+                .getElementsByClassName("selector__options__current")[0]
+                .dataset
+                .category;
+
+            const newSelectedCategory = event.target.dataset.categoryname;
+
+            // If the selected category and the current category match, don't
+            // do anything.
+            if (selectedCategory === newSelectedCategory) return;
+
+            // Update the UI to reflect the click on the category.
+            updateCategoryNavigation(newSelectedCategory);
+
+            // We'll load the items matching the new artist and category.
+            const selectedArtist =
+                document
+                .getElementById("artist")
+                .getElementsByClassName("selector__options__current")[0]
+                .dataset
+                .artist;
+
+            loadItems(selectedArtist, newSelectedCategory);
+            sortByRelease();
+
+            lazyLoad();
+            resetSorting();
         });
     }
 
