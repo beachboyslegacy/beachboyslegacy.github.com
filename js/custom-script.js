@@ -3,7 +3,7 @@
 // @codekit-prepend 'jquery.shorten.js'
 // @codekit-append 'jquery-webicon.js'
 
-// This function will use URL History API to store an arbitrary dict object.
+// Uses URL History API to store an arbitrary dict object.
 function storeURLData(data) {
     // Let's grab the current URL and load it as a URL object.
     const url = new URL(window.location.href);
@@ -20,7 +20,7 @@ function storeURLData(data) {
     );
 }
 
-// This function will retrieve URL params as a data object.
+// Retrieves URL params as a data object.
 function retrieveURLData() {
     // Let's grab the search params in the URL.
     const url = new URL(window.location.href);
@@ -447,92 +447,114 @@ $(function(){
       });
     }
 
+    // Updates artist navigation (side panel) to reflect the selected artist.
+    function updateArtistNavigation(artist, category) {
+        const selectedArtist =
+            document
+            .getElementById("artist")
+            .getElementsByClassName("selector__options__current")[0];
 
+        const newSelectedArtist = [
+            ...document
+                .getElementById("artist")
+                .getElementsByTagName("li")
+        ].filter(li => li.dataset.artist === artist)[0];
 
-    // Loads another artist's items and filters categories based on selected artist
-    $('#artist li').on( 'click', function() {
+        // If the selected and new artists match, we don't have to do
+        // anything.
+        if (newSelectedArtist === selectedArtist) return;
 
-      if ( $(this).hasClass('selector__options__current') ){
-        return 0; // currently selected artist has been clicked so do nothing
-      }else{
+        // Unselect the old artist and select the new one.
+        selectedArtist.removeAttribute("class");
+        newSelectedArtist.classList = ["selector__options__current"];
 
-        //updates navigation
-        $('#artist li').removeClass('selector__options__current');
-        $(this).addClass('selector__options__current');
+        // We'll show relevant categories for the selected artist and remove
+        // the rest.
+        const newSelectedArtistClass = newSelectedArtist.dataset.artistclass;
 
-        selectedArtistClass = $(this).attr('data-artistclass');
+        const categories = [
+            ...document
+            .getElementById("category")
+            .getElementsByTagName("li")
+        ];
 
-
-        $('#category li.'+selectedArtistClass).removeClass('hide-category');
-        $('#category li').not('.'+selectedArtistClass).addClass('hide-category');
-
-        $('#category li').removeClass('selector__options__current');
-
-        //loads new items
-
-        selectedArtist = $(this).attr('data-artist');
-        currentArtist = selectedArtist;
-
-        if( selectedArtist == 'The Beach Boys'){
-          loadItems(selectedArtist,initialCategory); //new
-          $('#new').addClass('selector__options__current');
-          $('#current-category span').html('Latest');
+        let firstValidCategory;
+        for (category of categories) {
+            if (category.classList.contains(newSelectedArtistClass)) {
+                firstValidCategory = firstValidCategory || category;
+                category.classList.remove("hide-category");
+            } else {
+                category.classList.add("hide-category");
+            }
         }
-        else{
-          loadItems(selectedArtist,'album');   //only Beach Boys have a latest (new) category. The others default to 'album'.
-          $('#album').addClass('selector__options__current');
-          $('#current-category span').html('Albums');
-        }
 
+        // We'll select the first category of the new selection.
+        updateCategoryNavigation(firstValidCategory.dataset.categoryname);
+    }
+
+    // Updates category navigation (side panel) to reflect the selected
+    // category.
+    function updateCategoryNavigation(category) {
+        const selectedCategory =
+            document
+            .getElementById("category")
+            .getElementsByClassName("selector__options__current")[0];
+
+        const newSelectedCategory = [
+            ...document
+                .getElementById("category")
+                .getElementsByTagName("li")
+        ].filter(li => li.dataset.categoryname === category)[0];
+
+        // If the selected and new categories match, we don't have to do
+        // anything.
+        if (newSelectedCategory === selectedCategory) return;
+
+        // Unselect the old category and select the new one.
+        selectedCategory.classList.remove("selector__options__current");
+        newSelectedCategory.classList.add("selector__options__current");
+
+        // We'll load the items matching the new category.
+        const selectedArtist =
+            document
+            .getElementById("artist")
+            .getElementsByClassName("selector__options__current")[0]
+            .dataset
+            .artist;
+
+        loadItems(selectedArtist, newSelectedCategory.dataset.categoryname);
         sortByRelease();
+
         lazyLoad();
         resetSorting();
+    }
 
+    // Register artist li event listeners.
+    const artists = [
+        ...document.getElementById("artist").getElementsByTagName("li")
+    ];
 
+    for (const artist of artists) {
+        artist.addEventListener("click", function (event) {
+            updateArtistNavigation(event.target.dataset.artist);
+        });
+    }
 
-      } // /else
+    // Register categories li event listeners.
+    const categories = [
+        ...document.getElementById("category").getElementsByTagName("li")
+    ];
 
-
-      $('#sorting-rating').show();
-
-
-    });
-
+    for (const category of categories) {
+        category.addEventListener("click", function (event) {
+            updateCategoryNavigation(event.target.dataset.categoryname);
+        });
+    }
 
     // Loads another category items for a given artist
     $('#category li').on( 'click', function() {
 
-      if ( $(this).hasClass('selector__options__current') ){
-        return 0; // currently selected artist has been clicked so do nothing
-      }else{
-
-        //updates navigation
-        $('#category li').removeClass('selector__options__current');
-        $(this).addClass('selector__options__current');
-
-        //loads new items
-        selectedCategory= $(this).attr('data-categoryname');
-
-
-
-        currentCategory = selectedCategory;
-        loadItems(currentArtist,selectedCategory);
-        sortByRelease();
-
-        lazyLoad();
-        resetSorting();
-
-      } // /else
-
-      if ( selectedCategory == 'book' ){
-        $('#sorting-rating').hide();
-      }
-      else{
-        $('#sorting-rating').show();
-      }
-
     });
-
 
     // Sorting
     $('.sorting li').on( 'click', function() {
