@@ -339,14 +339,6 @@ $(function(){
 
     } // /loadItems function
 
-
-
-
-
-
-
-
-
     function getCountry(){
 
       $.get("https://ipinfo.io", function (response) {
