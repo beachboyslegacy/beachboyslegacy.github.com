@@ -3,6 +3,69 @@
 // @codekit-prepend 'jquery.shorten.js'
 // @codekit-append 'jquery-webicon.js'
 
+// Uses URL History API to store an arbitrary dict object.
+function storeURLData(data) {
+    // Let's grab the current URL and load it as a URL object.
+    const url = new URL(window.location.href);
+
+    // We can create our own params now.
+    const newParams = new URLSearchParams(data);
+
+    // Let's set the URL with our new params.
+    url.search = newParams.toString();
+    window.history.replaceState(
+        { additionalInformation: "Update selected artist" },
+        document.title,
+        url,
+    );
+}
+
+// Retrieves URL params as a data object.
+function retrieveURLData() {
+    // Let's grab the search params in the URL.
+    const url = new URL(window.location.href);
+    const search = new URLSearchParams(url.search);
+
+    // We return them in a data dictionary.
+    // TODO: find a way to make this return anything in the params.
+    return {
+        artist: search.get("artist"),
+        category: search.get("category"),
+    }
+}
+
+// Validates an artist or returns a viable option if invalid.
+function validateArtist(artist) {
+    const validArtist = [
+        ...document
+        .getElementById("artist")
+        .getElementsByTagName("li")
+    ].map(li => li.dataset.artist);
+
+    if (validArtist.includes(artist)) {
+        return artist;
+    } else {
+        return "The Beach Boys";
+    }
+}
+
+// Validates a category or retuns a viable option if invalid.
+function validateCategory(category) {
+    const validCategories = [
+        ...document
+        .getElementById("category")
+        .getElementsByTagName("li")
+    ].filter(
+        li => !li.classList.contains("hide-category")
+    ) .map(li => li.dataset.categoryname);
+
+    if (validCategories.includes(category)) {
+        return category;
+    } else {
+        return validCategories[0];
+    }
+}
+
 $(function(){
 
   // var jsonFile = 'js/data.json';
@@ -13,8 +76,18 @@ $(function(){
 
     var totalItems = data.items.length;
 
-    var initialArtist = 'The Beach Boys';
-    var initialCategory = 'new'
+    // We'll retrieve the selected artist and category form the URL. If none
+    // are there, we'll use our default values.
+    const urlData = retrieveURLData();
+
+    // Let's update the navigation pane to reflect our artist.
+    const initialArtist = validateArtist(urlData.artist);
+    updateArtistNavigation(initialArtist);
+
+    // Let's update the navigation pane to reflect our category.
+    const initialCategory = validateCategory(urlData.category);
+    updateCategoryNavigation(initialCategory);
+
     var currentArtist = initialArtist;
     var currentCategory = initialCategory;
     var amazonLink = 'amazonUs';
@@ -299,6 +372,9 @@ $(function(){
 
       wpac_ajax_init(); // Loads the rating widget for each loaded item
 
+      // Let's store the category and artist in the URL.
+      storeURLData({artist: selectedArtist, category: selectedCategory});
+
     } // /loadItems function
 
 
@@ -409,92 +485,143 @@ $(function(){
       });
     }
 
+    // Updates artist navigation (side panel) to reflect the selected artist.
+    function updateArtistNavigation(artist, category) {
+        const selectedArtist =
+            document
+            .getElementById("artist")
+            .getElementsByClassName("selector__options__current")[0];
 
+        const newSelectedArtist = [
+            ...document
+                .getElementById("artist")
+                .getElementsByTagName("li")
+        ].filter(li => li.dataset.artist === artist)[0];
 
-    // Loads another artist's items and filters categories based on selected artist
-    $('#artist li').on( 'click', function() {
+        // Unselect the old artist and select the new one.
+        selectedArtist.removeAttribute("class");
+        newSelectedArtist.classList = ["selector__options__current"];
 
-      if ( $(this).hasClass('selector__options__current') ){
-        return 0; // currently selected artist has been clicked so do nothing
-      }else{
+        // We'll show relevant categories for the selected artist and remove
+        // the rest.
+        const newSelectedArtistClass = newSelectedArtist.dataset.artistclass;
 
-        //updates navigation
-        $('#artist li').removeClass('selector__options__current');
-        $(this).addClass('selector__options__current');
+        const categories = [
+            ...document
+            .getElementById("category")
+            .getElementsByTagName("li")
+        ];
 
-        selectedArtistClass = $(this).attr('data-artistclass');
-
-
-        $('#category li.'+selectedArtistClass).removeClass('hide-category');
-        $('#category li').not('.'+selectedArtistClass).addClass('hide-category');
-
-        $('#category li').removeClass('selector__options__current');
-
-        //loads new items
-
-        selectedArtist = $(this).attr('data-artist');
-        currentArtist = selectedArtist;
-
-        if( selectedArtist == 'The Beach Boys'){
-          loadItems(selectedArtist,initialCategory); //new
-          $('#new').addClass('selector__options__current');
-          $('#current-category span').html('Latest');
+        let firstValidCategory;
+        for (category of categories) {
+            if (category.classList.contains(newSelectedArtistClass)) {
+                firstValidCategory = firstValidCategory || category;
+                category.classList.remove("hide-category");
+            } else {
+                category.classList.add("hide-category");
+            }
         }
-        else{
-          loadItems(selectedArtist,'album');   //only Beach Boys have a latest (new) category. The others default to 'album'.
-          $('#album').addClass('selector__options__current');
-          $('#current-category span').html('Albums');
-        }
 
-        sortByRelease();
-        lazyLoad();
-        resetSorting();
+        // We'll select the first category of the new selection.
+        updateCategoryNavigation(firstValidCategory.dataset.categoryname);
+    }
 
+    // Updates category navigation (side panel) to reflect the selected
+    // category.
+    function updateCategoryNavigation(category) {
+        const selectedCategory =
+            document
+            .getElementById("category")
+            .getElementsByClassName("selector__options__current")[0];
 
+        const newSelectedCategory = [
+            ...document
+                .getElementById("category")
+                .getElementsByTagName("li")
+        ].filter(li => li.dataset.categoryname === category)[0];
 
-      } // /else
+        // Unselect the old category and select the new one.
+        selectedCategory.classList.remove("selector__options__current");
+        newSelectedCategory.classList.add("selector__options__current");
+    }
 
+    // Register artist li event listeners.
+    const artists = [
+        ...document.getElementById("artist").getElementsByTagName("li")
+    ];
 
-      $('#sorting-rating').show();
+    for (const artist of artists) {
+        artist.addEventListener("click", function (event) {
+            const selectedArtist =
+                document
+                .getElementById("artist")
+                .getElementsByClassName("selector__options__current")[0]
+                .dataset
+                .artist;
 
+            const newSelectedArtist = event.target.dataset.artist;
 
-    });
+            // If the selected artist and the current artist match, don't do
+            // anything.
+            if (selectedArtist === newSelectedArtist) return;
 
+            // Update the UI to reflect the click on the artist.
+            updateArtistNavigation(newSelectedArtist);
 
-    // Loads another category items for a given artist
-    $('#category li').on( 'click', function() {
+            // We'll load the items matching the new artist and category.
+            const selectedCategory =
+                document
+                .getElementById("category")
+                .getElementsByClassName("selector__options__current")[0]
+                .dataset
+                .categoryname;
 
-      if ( $(this).hasClass('selector__options__current') ){
-        return 0; // currently selected artist has been clicked so do nothing
-      }else{
+            loadItems(newSelectedArtist, selectedCategory);
+            sortByRelease();
 
-        //updates navigation
-        $('#category li').removeClass('selector__options__current');
-        $(this).addClass('selector__options__current');
+            lazyLoad();
+            resetSorting();
+        });
+    }
 
-        //loads new items
-        selectedCategory= $(this).attr('data-categoryname');
+    // Register categories li event listeners.
+    const categories = [
+        ...document.getElementById("category").getElementsByTagName("li")
+    ];
 
+    for (const category of categories) {
+        category.addEventListener("click", function (event) {
+            const selectedCategory =
+                document
+                .getElementById("category")
+                .getElementsByClassName("selector__options__current")[0]
+                .dataset
+                .categoryname;
 
+            const newSelectedCategory = event.target.dataset.categoryname;
 
-        currentCategory = selectedCategory;
-        loadItems(currentArtist,selectedCategory);
-        sortByRelease();
+            // If the selected category and the current category match, don't
+            // do anything.
+            if (selectedCategory === newSelectedCategory) return;
 
-        lazyLoad();
-        resetSorting();
+            // Update the UI to reflect the click on the category.
+            updateCategoryNavigation(newSelectedCategory);
 
-      } // /else
+            // We'll load the items matching the new artist and category.
+            const selectedArtist =
+                document
+                .getElementById("artist")
+                .getElementsByClassName("selector__options__current")[0]
+                .dataset
+                .artist;
 
-      if ( selectedCategory == 'book' ){
-        $('#sorting-rating').hide();
-      }
-      else{
-        $('#sorting-rating').show();
-      }
+            loadItems(selectedArtist, newSelectedCategory);
+            sortByRelease();
 
-    });
-
+            lazyLoad();
+            resetSorting();
+        });
+    }
 
     // Sorting
     $('.sorting li').on( 'click', function() {
