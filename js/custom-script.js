@@ -506,10 +506,6 @@ $(function(){
                 .getElementsByTagName("li")
         ].filter(li => li.dataset.categoryname === category)[0];
 
-        // If the selected and new categories match, we don't have to do
-        // anything.
-        if (newSelectedCategory === selectedCategory) return;
-
         // Unselect the old category and select the new one.
         selectedCategory.classList.remove("selector__options__current");
         newSelectedCategory.classList.add("selector__options__current");
