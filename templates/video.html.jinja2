@@ -132,6 +132,17 @@ window.cookieconsent.initialise({
         <div class="item-details__sidebar__info">
           <h1 class="item-details__sidebar__info__title">{{item["parent"]["name"]}}</h1>
           <h3 class="item-details__sidebar__info__subtitle">{{item["parent"]["alternateName"]}}</h3>
+
+          {% if item.parent.category.video %}
+            {% if item.parent.subcategory.documentary %}
+              <p>{{item["parent"]["byArtist"]}} Documentary</p>
+            {% elif item.parent.subcategory.movie %}
+              <p>Film about {{item["parent"]["byArtist"]}}</p>
+              {% elif item.parent.subcategory.live %}
+                <p>Live Show by {{item["parent"]["byArtist"]}}</p>
+            {% endif %}
+          {% endif %}
+
           <div class="wpac-rating-ajax" data-wpac-chan="{{item["parent"]["uniqueId"]}}"></div>
           <div class="item-details__sidebar__info__facts">
             {% if item.editions %}

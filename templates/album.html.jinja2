@@ -134,8 +134,45 @@ window.cookieconsent.initialise({
           <img class="item-details__sidebar__cover" src="../../{{item["parent"]["image"]}}" alt="{{item["parent"]["name"]}} cover">
         {% endif %}
         <div class="item-details__sidebar__info">
-          <h1 class="item-details__sidebar__info__title">{{item["parent"]["name"]}} by {{item["parent"]["byArtist"]}}</h1>
+          <h1 class="item-details__sidebar__info__title">{{item["parent"]["name"]}}</h1>
           <h3 class="item-details__sidebar__info__subtitle">{{item["parent"]["alternateName"]}}</h3>
+
+
+          {% if item.parent.category.studio %}
+            <p>Studio Album by {{item["parent"]["byArtist"]}}</p>
+          {% endif %}
+
+          {% if item.parent.category.live %}
+            <p>Live Album by {{item["parent"]["byArtist"]}}</p>
+          {% endif %}
+
+          {% if item.parent.category.compilation %}
+            {% if item.parent.category.boxset %}
+              <p>{{item["parent"]["byArtist"]}} Box Set</p>
+            {% elif item.parent.category.digital %}
+              <p>Digital Release by {{item["parent"]["byArtist"]}}</p>
+            {% else %}
+              <p>{{item["parent"]["byArtist"]}} Compilation</p>
+            {% endif %}
+          {% endif %}
+
+          {% if item.parent.category.single %}
+            <p>Single by {{item["parent"]["byArtist"]}}</p>
+          {% endif %}
+
+
+          {% if item.parent.category.collaboration %}
+            <p>{{item["parent"]["byArtist"]}} Collaboration</p>
+          {% endif %}
+
+          {% if item.parent.category.bootleg %}
+            <p>{{item["parent"]["byArtist"]}} Bootleg</p>
+          {% endif %}
+
+
+
+
+
           <div class="wpac-rating-ajax" data-wpac-chan="{{item["parent"]["uniqueId"]}}"></div>
           <div class="item-details__sidebar__info__facts">
             {% if item.editions %}
