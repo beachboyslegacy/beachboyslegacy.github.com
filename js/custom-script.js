@@ -3,6 +3,23 @@
 // @codekit-prepend 'jquery.shorten.js'
 // @codekit-append 'jquery-webicon.js'
 
+// Updates title and description of page based on artist and category.
+function updateTitleAndDescription(artist, category) {
+    let title;
+    let description;
+
+    if (category === "Latest") {
+        title = "Beach Boys Legacy";
+        description = "Explore The Beach Boys Discography: Studio Albums, Live Albums, Compilations, Box Sets, Singles, and all Solo Albums by Brian Wilson, Dennis Wilson, Carl Wilson, Al Jardine, Mike Love, Bruce Johnston and David Marks.";
+    } else {
+        title = `${artist} ${category}`;
+        description = `Explore all ${title} on Beach Boys Legacy.`
+    }
+
+    document.title = title;
+    document.description = description;
+}
+
 // Uses URL History API to store an arbitrary dict object.
 function storeURLData(data) {
     // Let's grab the current URL and load it as a URL object.
@@ -374,6 +391,14 @@ $(function(){
 
       // Let's store the category and artist in the URL.
       storeURLData({artist: selectedArtist, category: selectedCategory});
+
+      // To help with SEO, we'll also update the page title and description.
+      const prettyCategory =
+        document
+        .querySelectorAll(`[data-categoryname=${selectedCategory}]`)[0]
+        .innerText;
+
+      updateTitleAndDescription(selectedArtist, prettyCategory);
 
     } // /loadItems function
 
