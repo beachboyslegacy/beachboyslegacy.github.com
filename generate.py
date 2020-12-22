@@ -65,11 +65,21 @@ book_cats: list[str] = ["book"]
 video_cats: list[str] = ["video"]
 
 # We'll preload all the templates so we don't have to do it every time.
-template_map: dict = {}
+templates_map: dict = {}
 for template_name in listdir(templates_dir):
     if template_name.endswith(".jinja2"):
         with open(path.join(templates_dir, template_name), "r") as template:
-            template_map[template_name] = Template(template.read())
+            templates_map[template_name] = Template(template.read())
+
+# Load partials as well.
+partials_map: dict = {}
+partials_dir: str = path.join(templates_dir, "partials")
+for partial_name in listdir(partials_dir):
+    if partial_name.endswith(".jinja2"):
+        with open(path.join(partials_dir, partial_name), "r") as partial:
+            partials_map[partial_name] = Template(partial.read())
+
+templates_map["partials"] = partials_map
 
 # Now, for each category object in the data, we must choose the riht template.
 for item in data["items"]:
@@ -83,11 +93,11 @@ for item in data["items"]:
     # We determine the template name by looking at the item's categories.
     template: str
     if [category for category in item_cats if category in album_cats]:
-        template = template_map["album.html.jinja2"]
+        template = templates_map["album.html.jinja2"]
     elif [category for category in item_cats if category in book_cats]:
-        template = template_map["book.html.jinja2"]
+        template = templates_map["book.html.jinja2"]
     elif [category for category in item_cats if category in video_cats]:
-        template = template_map["video.html.jinja2"]
+        template = templates_map["video.html.jinja2"]
     else:
         raise CategoryException(
             f"Ivalid categories for {parent['uniqueId']}"
@@ -101,4 +111,9 @@ for item in data["items"]:
     )
 
     with open(output_template_path, "w") as template_file:
-        template_file.write(template.render(item=item))
+        partials = {
+            partial.split(".")[0]: template.render(item=item)
+            for partial, template in templates_map["partials"].items()
+        }
+
+        template_file.write(template.render(item=item, partials=partials))
