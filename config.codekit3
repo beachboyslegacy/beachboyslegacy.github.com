@@ -332,14 +332,6 @@
 		"oAP": "/dev_requirements.txt",
 		"oF": 0
 		},
-	"/donate.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/donate.html",
-		"oF": 1
-		},
 	"/favicon.ico": {
 		"cB": 0,
 		"ft": 8192,
@@ -607,6 +599,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"/img/albums/brian-wilson/2020-orange-crate-instrumentals/orange-crate-instrumentals-cover.jpg": {
+		"ft": 16384,
+		"iS": 73274,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/albums/brian-wilson/2020-orange-crate-instrumentals/orange-crate-instrumentals-cover.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/img/albums/bruce-johnston/1962-do-the-surfer-stomp-part-1/do-the-surfer-stomp-part-1-cover.png": {
@@ -1476,6 +1479,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"/img/albums/the-beach-boys/live/2018-in-paris/in-paris-cover.jpg": {
+		"ft": 16384,
+		"iS": 70804,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/albums/the-beach-boys/live/2018-in-paris/in-paris-cover.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/img/albums/the-beach-boys/live/2018-on-tour-1968/on-tour-1968-cover.jpg": {
@@ -2510,6 +2524,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"/img/albums/the-beach-boys/studio/2014-surfin-safari-rsd/surfin-safari-rsd-cover.jpg": {
+		"ft": 16384,
+		"iS": 37196,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/albums/the-beach-boys/studio/2014-surfin-safari-rsd/surfin-safari-rsd-cover.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/img/books/1976-bruce-golden-southern-california-pastoral/bruce-golden-southern-california-pastoral-2007.jpg": {
@@ -10586,6 +10611,17 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/img/compilations/2015-music-from-love-and-mercy-rsd/music-from-love-and-mercy-rsd-cover.jpg": {
+		"ft": 16384,
+		"iS": 172634,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/compilations/2015-music-from-love-and-mercy-rsd/music-from-love-and-mercy-rsd-cover.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/img/compilations/2016-becoming-the-beach-boys/becoming-the-beach-boys-cover.jpg": {
 		"ft": 16384,
 		"iS": 199070,
@@ -12170,6 +12206,17 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/img/productions/2015-sessions-64/sessions-64-cover.jpg": {
+		"ft": 16384,
+		"iS": 208766,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/productions/2015-sessions-64/sessions-64-cover.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/img/singles/1961-luau/luau-cover.png": {
 		"ft": 32768,
 		"iS": 390151,
@@ -13083,6 +13130,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/img/singles/2011-good-vibrations-heroes-and-villains/good-vibrations-heroes-and-villains-cover.jpg": {
+		"ft": 16384,
+		"iS": 125221,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/singles/2011-good-vibrations-heroes-and-villains/good-vibrations-heroes-and-villains-cover.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/img/singles/2012-isnt-it-time-single/isnt-it-time-single-cover.jpg": {
 		"ft": 16384,
 		"iS": 383111,
@@ -13171,6 +13229,17 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/img/singles/2015-the-right-time-rsd/the-right-time-rsd-cover.jpg": {
+		"ft": 16384,
+		"iS": 72462,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/singles/2015-the-right-time-rsd/the-right-time-rsd-cover.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/img/singles/2017-do-it-again-mike-love/do-it-again-mike-love-cover.jpg": {
 		"ft": 16384,
 		"iS": 69885,
@@ -13210,6 +13279,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/singles/2018-its-ok-hanson/its-ok-hanson-cover.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/singles/2019-holy-man/holy-man-cover.jpg": {
+		"ft": 16384,
+		"iS": 108909,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/singles/2019-holy-man/holy-man-cover.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -30896,7 +30976,7 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/venv/lib/python3.9/site-packages/pelican/tests/output/custom_locale/posts/2010/décembre/02/this-is-a-super-article/index.html": {
+	"/venv/lib/python3.9/site-packages/pelican/tests/output/custom_locale/posts/2010/décembre/02/this-is-a-super-article/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
@@ -30928,7 +31008,7 @@
 		"oAP": "/venv/lib/python3.9/site-packages/pelican/tests/output/custom_locale/posts/2011/avril/20/a-markdown-powered-article/index.html",
 		"oF": 0
 		},
-	"/venv/lib/python3.9/site-packages/pelican/tests/output/custom_locale/posts/2011/février/17/article-1/index.html": {
+	"/venv/lib/python3.9/site-packages/pelican/tests/output/custom_locale/posts/2011/février/17/article-1/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
@@ -30936,7 +31016,7 @@
 		"oAP": "/venv/lib/python3.9/site-packages/pelican/tests/output/custom_locale/posts/2011/février/17/article-1/index.html",
 		"oF": 0
 		},
-	"/venv/lib/python3.9/site-packages/pelican/tests/output/custom_locale/posts/2011/février/17/article-2/index.html": {
+	"/venv/lib/python3.9/site-packages/pelican/tests/output/custom_locale/posts/2011/février/17/article-2/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
@@ -30944,7 +31024,7 @@
 		"oAP": "/venv/lib/python3.9/site-packages/pelican/tests/output/custom_locale/posts/2011/février/17/article-2/index.html",
 		"oF": 0
 		},
-	"/venv/lib/python3.9/site-packages/pelican/tests/output/custom_locale/posts/2011/février/17/article-3/index.html": {
+	"/venv/lib/python3.9/site-packages/pelican/tests/output/custom_locale/posts/2011/février/17/article-3/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
@@ -30952,7 +31032,7 @@
 		"oAP": "/venv/lib/python3.9/site-packages/pelican/tests/output/custom_locale/posts/2011/février/17/article-3/index.html",
 		"oF": 0
 		},
-	"/venv/lib/python3.9/site-packages/pelican/tests/output/custom_locale/posts/2012/février/29/second-article/index.html": {
+	"/venv/lib/python3.9/site-packages/pelican/tests/output/custom_locale/posts/2012/février/29/second-article/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
