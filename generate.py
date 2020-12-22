@@ -1,7 +1,10 @@
+from __future__ import annotations
+
 from argparse import ArgumentParser
 from argparse import Namespace
 from jinja2 import Template
 from json import loads
+from minify_html import minify
 from os import listdir
 from os import makedirs
 from os import path
@@ -99,5 +102,12 @@ for item in data["items"]:
         f"{parent['uniqueId']}.html",
     )
 
-    with open(output_template_path, "w") as template_file:
-        template_file.write(template.render(item=item))
+    try:
+        with open(output_template_path, "w") as template_file:
+            template_file.write(minify(
+                template.render(item=item),
+                minify_js=True,
+            ))
+    except SyntaxError:
+        print(f"Error minifying template '{output_template_path}'")
+        raise
