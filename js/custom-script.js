@@ -21,6 +21,30 @@ function updateTitleAndDescription(artist, category) {
     document
         .querySelector('meta[name="description"]')
         .setAttribute("content", description);
+
+    // For Facebook.
+    document
+        .querySelector('meta[property="og:title"]')
+        .setAttribute("content", title);
+    document
+        .querySelector('meta[property="og:description"]')
+        .setAttribute("content", description);
+
+    // For Twitter.
+    document
+        .querySelector('meta[name="twitter:title"]')
+        .setAttribute("content", title);
+    document
+        .querySelector('meta[name="twitter:description"]')
+        .setAttribute("content", description);
+
+    // For Google+.
+    document
+        .querySelector('meta[itemprop="name"]')
+        .setAttribute("content", title);
+    document
+        .querySelector('meta[itemprop="description"]')
+        .setAttribute("content", description);
 }
 
 // Uses URL History API to store an arbitrary dict object.
