@@ -67,8 +67,9 @@ video_cats: list[str] = ["video"]
 # We'll preload all the templates so we don't have to do it every time.
 template_map: dict = {}
 for template_name in listdir(templates_dir):
-    with open(path.join(templates_dir, template_name), "r") as template:
-        template_map[template_name] = Template(template.read())
+    if template_name.endswith(".jinja2"):
+        with open(path.join(templates_dir, template_name), "r") as template:
+            template_map[template_name] = Template(template.read())
 
 # Now, for each category object in the data, we must choose the riht template.
 for item in data["items"]:
