@@ -17,7 +17,9 @@ function updateTitleAndDescription(artist, category) {
     }
 
     document.title = title;
-    document.description = description;
+    document
+        .querySelector('meta[name="description"]')
+        .setAttribute("content", description);
 }
 
 // Uses URL History API to store an arbitrary dict object.
