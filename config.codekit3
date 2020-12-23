@@ -291,39 +291,6 @@
 		"oAP": "/css/styles.css.map",
 		"oF": 0
 		},
-	"/data/AAA.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/data/AAA-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/data/AAB.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/data/AAB-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/data/AAC.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/data/AAC-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
 	"/dev_requirements.txt": {
 		"cB": 0,
 		"ft": 8192,
@@ -1483,7 +1450,7 @@
 		},
 	"/img/albums/the-beach-boys/live/2018-in-paris/in-paris-cover.jpg": {
 		"ft": 16384,
-		"iS": 70804,
+		"iS": 58982,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/albums/the-beach-boys/live/2018-in-paris/in-paris-cover.jpg",
@@ -14796,6 +14763,14 @@
 		"oAP": "/items/a-pocket-symphony.html",
 		"oF": 0
 		},
+	"/items/a-postcard-from-california-rsd.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/items/a-postcard-from-california-rsd.html",
+		"oF": 0
+		},
 	"/items/a-postcard-from-california.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -14826,6 +14801,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/a-woman-and-a-man-belinda-carlisle.html",
+		"oF": 0
+		},
+	"/items/a-world-of-peace-must-come-rsd.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/items/a-world-of-peace-must-come-rsd.html",
 		"oF": 0
 		},
 	"/items/a-world-of-peace-must-come.html": {
@@ -15460,6 +15443,14 @@
 		"oAP": "/items/beckley-lamm-wilson-like-a-brother.html",
 		"oF": 0
 		},
+	"/items/becoming-the-beach-boys-highlights.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/items/becoming-the-beach-boys-highlights.html",
+		"oF": 0
+		},
 	"/items/becoming-the-beach-boys.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -15786,6 +15777,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/brian-wilson-ben-greenman-i-am-brian-wilson.html",
+		"oF": 0
+		},
+	"/items/brian-wilson-deluxe-1988.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/items/brian-wilson-deluxe-1988.html",
 		"oF": 0
 		},
 	"/items/brian-wilson-imagination-documentary.html": {
@@ -17596,6 +17595,14 @@
 		"oAP": "/items/good-vibrations-ep.html",
 		"oF": 0
 		},
+	"/items/good-vibrations-heroes-and-villains.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/items/good-vibrations-heroes-and-villains.html",
+		"oF": 0
+		},
 	"/items/good-vibrations-i-miti-del-rock.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -17836,6 +17843,14 @@
 		"oAP": "/items/holland.html",
 		"oF": 0
 		},
+	"/items/holy-man.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/items/holy-man.html",
+		"oF": 0
+		},
 	"/items/hourglass-america.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -17962,6 +17977,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/in-my-room-iu.html",
+		"oF": 0
+		},
+	"/items/in-paris.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/items/in-paris.html",
 		"oF": 0
 		},
 	"/items/in-the-beginning-the-garage-tapes.html": {
@@ -19284,6 +19307,14 @@
 		"oAP": "/items/music-for-our-mother-ocean-ii.html",
 		"oF": 0
 		},
+	"/items/music-from-love-and-mercy-rsd.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/items/music-from-love-and-mercy-rsd.html",
+		"oF": 0
+		},
 	"/items/musicares-a-tribute-to-brian-wilson.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -19418,6 +19449,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/orange-crate-art.html",
+		"oF": 0
+		},
+	"/items/orange-crate-instrumentals.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/items/orange-crate-instrumentals.html",
 		"oF": 0
 		},
 	"/items/osaka-2016-zion.html": {
@@ -20124,6 +20163,14 @@
 		"oAP": "/items/school-day.html",
 		"oF": 0
 		},
+	"/items/sessions-64.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/items/sessions-64.html",
+		"oF": 0
+		},
 	"/items/she-rides-with-me-paul-petersen.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -20804,6 +20851,22 @@
 		"oAP": "/items/surfin-safari-ariola.html",
 		"oF": 0
 		},
+	"/items/surfin-safari-lp.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/items/surfin-safari-lp.html",
+		"oF": 0
+		},
+	"/items/surfin-safari-rsd.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/items/surfin-safari-rsd.html",
+		"oF": 0
+		},
 	"/items/surfin-safari-trip.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -21466,6 +21529,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/items/the-revo-lution-number-one.html",
+		"oF": 0
+		},
+	"/items/the-right-time-rsd.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/items/the-right-time-rsd.html",
 		"oF": 0
 		},
 	"/items/the-rip-chords-hey-little-cobra.html": {
@@ -22227,17 +22298,6 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/js/custom-script-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/js/custom-script-pre-jinja.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/js/custom-script-pre-jinja-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -30976,7 +31036,7 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/venv/lib/python3.9/site-packages/pelican/tests/output/custom_locale/posts/2010/décembre/02/this-is-a-super-article/index.html": {
+	"/venv/lib/python3.9/site-packages/pelican/tests/output/custom_locale/posts/2010/décembre/02/this-is-a-super-article/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
@@ -31008,7 +31068,7 @@
 		"oAP": "/venv/lib/python3.9/site-packages/pelican/tests/output/custom_locale/posts/2011/avril/20/a-markdown-powered-article/index.html",
 		"oF": 0
 		},
-	"/venv/lib/python3.9/site-packages/pelican/tests/output/custom_locale/posts/2011/février/17/article-1/index.html": {
+	"/venv/lib/python3.9/site-packages/pelican/tests/output/custom_locale/posts/2011/février/17/article-1/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
@@ -31016,7 +31076,7 @@
 		"oAP": "/venv/lib/python3.9/site-packages/pelican/tests/output/custom_locale/posts/2011/février/17/article-1/index.html",
 		"oF": 0
 		},
-	"/venv/lib/python3.9/site-packages/pelican/tests/output/custom_locale/posts/2011/février/17/article-2/index.html": {
+	"/venv/lib/python3.9/site-packages/pelican/tests/output/custom_locale/posts/2011/février/17/article-2/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
@@ -31024,7 +31084,7 @@
 		"oAP": "/venv/lib/python3.9/site-packages/pelican/tests/output/custom_locale/posts/2011/février/17/article-2/index.html",
 		"oF": 0
 		},
-	"/venv/lib/python3.9/site-packages/pelican/tests/output/custom_locale/posts/2011/février/17/article-3/index.html": {
+	"/venv/lib/python3.9/site-packages/pelican/tests/output/custom_locale/posts/2011/février/17/article-3/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
@@ -31032,7 +31092,7 @@
 		"oAP": "/venv/lib/python3.9/site-packages/pelican/tests/output/custom_locale/posts/2011/février/17/article-3/index.html",
 		"oF": 0
 		},
-	"/venv/lib/python3.9/site-packages/pelican/tests/output/custom_locale/posts/2012/février/29/second-article/index.html": {
+	"/venv/lib/python3.9/site-packages/pelican/tests/output/custom_locale/posts/2012/février/29/second-article/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
