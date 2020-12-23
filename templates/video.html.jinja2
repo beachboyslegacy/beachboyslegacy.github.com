@@ -20,18 +20,12 @@
 {{partials.common_headers}}
 
 </head>
-
-
-
 <body>
 
 {{partials.item_details_header}}
 
 <div class="item-details-wrapper">
-
-
     <div class="item-details" id="{{item["parent"]["uniqueId"]}}" data-date="{{item["parent"]["releaseYear"]}}">
-
       <div class="item-details__sidebar" style="background-color:{{item["parent"]["backgroundColor"]}}">
         <img class="item-details__sidebar__cover item-details__sidebar__cover--portrait" src="../../{{item["parent"]["image"]}}" alt="{{item["parent"]["name"]}} cover">
         <div class="item-details__sidebar__info">
@@ -106,7 +100,6 @@
 
         <div id="amzn-assoc-ad-3d8cea96-b02c-4fae-9a98-94bdef6ac9cf"></div><script async src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=3d8cea96-b02c-4fae-9a98-94bdef6ac9cf"></script>
 
-
         {% if item.parent.track %}
         <div class="parent-item__tracklist">
           <table>
@@ -173,7 +166,6 @@
                 <h3 class="child-item__title">
                   {{element["albumRelease"]["name"]}}{% if element.albumRelease.alternateName %}: {{element["albumRelease"]["alternateName"]}}{% endif %}
                 </h3>
-
                 <ul class="child-item__info">
                   <li>
                     {% if element.albumRelease.releaseMonth == 1 %}
@@ -236,23 +228,11 @@
                 </div>
               </div>
             </li>
-
           {% endfor %}
-
-
-
         </ul>
-
-
-
       </div>
     </div> <!-- /item__details -->
-
   </div> <!-- /item__details__wrapper -->
-
-
-
-
 
   <div class="mobile-footer">
 
