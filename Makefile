@@ -19,6 +19,10 @@ devserver:
 templates:
 	python generate.py ./js/data.json --output-dir . --templates ./templates
 
+.PHONY: templates-reset
+templates-reset:
+	git checkout master items
+
 .PHONY: build
 build: all
 build: templates
