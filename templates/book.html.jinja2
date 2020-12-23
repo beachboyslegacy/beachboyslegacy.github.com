@@ -12,11 +12,6 @@
 <meta name="twitter:title" content="{{item["parent"]["name"]}}{% if item.parent.alternateName %}: {{item["parent"]["alternateName"]}}{% endif %}" />
 <meta name="twitter:description" content="{{item["parent"]["name"]}}{% if item.parent.alternateName %}: {{item["parent"]["alternateName"]}}{% endif %}. {{item["parent"]["releaseYear"]}} book written by {{item["parent"]["author"]["name"]}}.">
 
-<!-- For Google+ -->
-<!-- <html itemscope itemtype="http://schema.org/Article"> -->
-<meta itemprop="name" content="{{item["parent"]["name"]}}{% if item.parent.alternateName %}: {{item["parent"]["alternateName"]}}{% endif %}">
-<meta itemprop="description" content="{{item["parent"]["name"]}}{% if item.parent.alternateName %}: {{item["parent"]["alternateName"]}}{% endif %}. {{item["parent"]["releaseYear"]}} book written by {{item["parent"]["author"]["name"]}}.">
-
 {{partials.common_headers}}
 
 </head>

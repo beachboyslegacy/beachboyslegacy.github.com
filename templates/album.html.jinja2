@@ -13,11 +13,6 @@
 <meta name="twitter:title" content="{{item["parent"]["name"]}}{% if item.parent.alternateName %}: {{item["parent"]["alternateName"]}}{% endif %} by {{item["parent"]["byArtist"]}}" />
 <meta name="twitter:description" content="{{item["parent"]["name"]}}{% if item.parent.alternateName %}: {{item["parent"]["alternateName"]}}{% endif %} ({{item["parent"]["releaseYear"]}}) by {{item["parent"]["byArtist"]}}" />
 
-<!-- For Google+ -->
-<!-- <html itemscope itemtype="http://schema.org/Article"> -->
-<meta itemprop="name" content="{{item["parent"]["name"]}}{% if item.parent.alternateName %}: {{item["parent"]["alternateName"]}}{% endif %} by {{item["parent"]["byArtist"]}}">
-<meta itemprop="description" content="{{item["parent"]["name"]}}{% if item.parent.alternateName %}: {{item["parent"]["alternateName"]}}{% endif %} ({{item["parent"]["releaseYear"]}}) by {{item["parent"]["byArtist"]}}">
-
 {{partials.common_headers}}
 
 </head>
