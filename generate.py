@@ -88,7 +88,7 @@ for partial_name in listdir(partials_dir):
 
 templates_map["partials"] = partials_map
 
-# Now, for each category object in the data, we must choose the riht template.
+# Now, for each category object in the data, we must choose the right template.
 for item in data["items"]:
     parent: dict = item["parent"]
 
