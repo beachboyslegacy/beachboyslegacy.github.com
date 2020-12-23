@@ -67,10 +67,16 @@ video_cats: list[str] = ["video"]
 
 # We'll preload all the templates so we don't have to do it every time.
 templates_map: dict = {}
-for template_name in listdir(templates_dir):
-    if template_name.endswith(".jinja2"):
-        with open(path.join(templates_dir, template_name), "r") as template:
-            templates_map[template_name] = Template(template.read())
+
+# Load items.
+items_map: dict = {}
+items_dir: str = path.join(templates_dir, "items")
+for partial_name in listdir(items_dir):
+    if partial_name.endswith(".jinja2"):
+        with open(path.join(items_dir, partial_name), "r") as partial:
+            items_map[partial_name] = Template(partial.read())
+
+templates_map["items"] = items_map
 
 # Load partials as well.
 partials_map: dict = {}
@@ -94,11 +100,11 @@ for item in data["items"]:
     # We determine the template name by looking at the item's categories.
     template: str
     if [category for category in item_cats if category in album_cats]:
-        template = templates_map["album.html.jinja2"]
+        template = templates_map["items"]["album.html.jinja2"]
     elif [category for category in item_cats if category in book_cats]:
-        template = templates_map["book.html.jinja2"]
+        template = templates_map["items"]["book.html.jinja2"]
     elif [category for category in item_cats if category in video_cats]:
-        template = templates_map["video.html.jinja2"]
+        template = templates_map["items"]["video.html.jinja2"]
     else:
         raise CategoryException(
             f"Ivalid categories for {parent['uniqueId']}"
