@@ -1,8 +1,10 @@
+from __future__ import annotations
+
 from argparse import ArgumentParser
 from argparse import Namespace
+from generator import Templater
 from jinja2 import Template
 from json import loads
-from os import listdir
 from os import makedirs
 from os import path
 from shutil import copytree
@@ -65,28 +67,11 @@ album_cats: list[str] = [
 book_cats: list[str] = ["book"]
 video_cats: list[str] = ["video"]
 
-# We'll preload all the templates so we don't have to do it every time.
-templates_map: dict = {}
+# We're gonig to use some templates to generate items.
+templater: Templater = Templater(templates_dir)
 
-# Load items.
-items_map: dict = {}
-items_dir: str = path.join(templates_dir, "items")
-for partial_name in listdir(items_dir):
-    if partial_name.endswith(".jinja2"):
-        with open(path.join(items_dir, partial_name), "r") as partial:
-            items_map[partial_name] = Template(partial.read())
-
-templates_map["items"] = items_map
-
-# Load partials as well.
-partials_map: dict = {}
-partials_dir: str = path.join(templates_dir, "partials")
-for partial_name in listdir(partials_dir):
-    if partial_name.endswith(".jinja2"):
-        with open(path.join(partials_dir, partial_name), "r") as partial:
-            partials_map[partial_name] = Template(partial.read())
-
-templates_map["partials"] = partials_map
+# We'll load all partials since they'll be used in the items templates.
+partials: list[tuple[str, Template]] = templater.list("partials")
 
 # Now, for each category object in the data, we must choose the right template.
 for item in data["items"]:
@@ -100,11 +85,11 @@ for item in data["items"]:
     # We determine the template name by looking at the item's categories.
     template: str
     if [category for category in item_cats if category in album_cats]:
-        template = templates_map["items"]["album.html.jinja2"]
+        _, template = templater.get("items/album.html.jinja2")
     elif [category for category in item_cats if category in book_cats]:
-        template = templates_map["items"]["book.html.jinja2"]
+        _, template = templater.get("items/book.html.jinja2")
     elif [category for category in item_cats if category in video_cats]:
-        template = templates_map["items"]["video.html.jinja2"]
+        _, template = templater.get("items/video.html.jinja2")
     else:
         raise CategoryException(
             f"Ivalid categories for {parent['uniqueId']}"
@@ -117,10 +102,12 @@ for item in data["items"]:
         f"{parent['uniqueId']}.html",
     )
 
-    with open(output_template_path, "w") as template_file:
-        partials = {
-            partial.split(".")[0]: template.render(item=item)
-            for partial, template in templates_map["partials"].items()
-        }
+    rendered_partials: dict = {
+        name: template.render(item=item) for name, template in partials
+    }
 
-        template_file.write(template.render(item=item, partials=partials))
+    with open(output_template_path, "w") as template_file:
+        template_file.write(template.render(
+            item=item,
+            partials=rendered_partials
+        ))

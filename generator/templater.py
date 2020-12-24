@@ -13,8 +13,8 @@ class Templater:
         self.templates_dir = templates_dir
         self.cache = {}
 
-    def get(self, filepath) -> tuple[str, Template]:
-        """Return name and Template for template file. Memoizes.
+    def _get(self, filepath) -> tuple[str, Template]:
+        """Internal use only fetcher. Memoizes.
 
         Arguments:
         filepath: str -- path to template file.
@@ -31,6 +31,26 @@ class Templater:
 
         return (name, template)
 
+    def get(self, filepath) -> tuple[str, Template]:
+        """Return name and Template for template file. Memoizes.
+
+        Arguments:
+        filepath: str -- path to template file.
+        """
+        parsed_filepath: str = join(self.templates_dir, filepath)
+
+        name: str = splitext(basename(parsed_filepath))[0]
+        template: Template
+        if parsed_filepath in self.cache:
+            template = self.cache[parsed_filepath]
+        else:
+            with open(parsed_filepath, "r") as template_file:
+                template = Template(template_file.read())
+
+            self.cache[parsed_filepath] = template
+
+        return (name, template)
+
     def list(self, subdir=None) -> list[tuple[str, Template]]:
         """Lists all templates in a subdir (or all templates by default).
 
@@ -44,6 +64,8 @@ class Templater:
         for path, dirnames, filenames in walk(parsed_subdir):
             # Find the leaves of the tree.
             if filenames and not dirnames:
-                template_paths.extend(filenames)
+                template_paths.extend([
+                    join(path, filename) for filename in filenames
+                ])
 
-        return [self.get(template_path) for template_path in template_paths]
+        return [self._get(template_path) for template_path in template_paths]
