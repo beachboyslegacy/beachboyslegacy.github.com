@@ -17,7 +17,7 @@ devserver:
 
 .PHONY: templates
 templates:
-	python generate.py ./js/data.json --output-dir . --templates ./templates
+	python cli.py ./js/data.json --output-dir . --templates ./templates
 
 .PHONY: templates-reset
 templates-reset:

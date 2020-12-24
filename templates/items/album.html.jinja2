@@ -1,41 +1,71 @@
 <!doctype html>
 <html lang="en">
 <head>
-<title>{{item["parent"]["name"]}}{% if item.parent.alternateName %}: {{item["parent"]["alternateName"]}}{% endif %}</title>
-<meta name="description" content="{{item["parent"]["name"]}}{% if item.parent.alternateName %}: {{item["parent"]["alternateName"]}}{% endif %} ({{item["parent"]["releaseYear"]}})">
+<title>{{item["parent"]["name"]}}{% if item.parent.alternateName %}: {{item["parent"]["alternateName"]}}{% endif %} by {{item["parent"]["byArtist"]}}</title>
+<meta name="description" content="{{item["parent"]["name"]}}{% if item.parent.alternateName %}: {{item["parent"]["alternateName"]}}{% endif %} ({{item["parent"]["releaseYear"]}}) by {{item["parent"]["byArtist"]}}">
+
 
 <!-- For Facebook -->
-<meta property="og:title" content="{{item["parent"]["name"]}}{% if item.parent.alternateName %}: {{item["parent"]["alternateName"]}}{% endif %}"/>
-<meta property="og:description" content="{{item["parent"]["name"]}}{% if item.parent.alternateName %}: {{item["parent"]["alternateName"]}}{% endif %} ({{item["parent"]["releaseYear"]}})"/>
+<meta property="og:title" content="{{item["parent"]["name"]}}{% if item.parent.alternateName %}: {{item["parent"]["alternateName"]}}{% endif %} by {{item["parent"]["byArtist"]}}"/>
+<meta property="og:description" content="{{item["parent"]["name"]}}{% if item.parent.alternateName %}: {{item["parent"]["alternateName"]}}{% endif %} ({{item["parent"]["releaseYear"]}}) by {{item["parent"]["byArtist"]}}"/>
 
 <!-- for Twitter -->
-<meta name="twitter:title" content="{{item["parent"]["name"]}}{% if item.parent.alternateName %}: {{item["parent"]["alternateName"]}}{% endif %}" />
-<meta name="twitter:description" content="{{item["parent"]["name"]}}{% if item.parent.alternateName %}: {{item["parent"]["alternateName"]}}{% endif %} ({{item["parent"]["releaseYear"]}})" />
+<meta name="twitter:title" content="{{item["parent"]["name"]}}{% if item.parent.alternateName %}: {{item["parent"]["alternateName"]}}{% endif %} by {{item["parent"]["byArtist"]}}" />
+<meta name="twitter:description" content="{{item["parent"]["name"]}}{% if item.parent.alternateName %}: {{item["parent"]["alternateName"]}}{% endif %} ({{item["parent"]["releaseYear"]}}) by {{item["parent"]["byArtist"]}}" />
 
-{{partials.common_headers}}
+{{partials["common_headers.html"]}}
 
 </head>
 <body>
 
-{{partials.item_details_header}}
+{{partials["item_details_header.html"]}}
 
 <div class="item-details-wrapper">
     <div class="item-details" id="{{item["parent"]["uniqueId"]}}" data-date="{{item["parent"]["releaseYear"]}}">
       <div class="item-details__sidebar" style="background-color:{{item["parent"]["backgroundColor"]}}">
-        <img class="item-details__sidebar__cover item-details__sidebar__cover--portrait" src="../../{{item["parent"]["image"]}}" alt="{{item["parent"]["name"]}} cover">
+        {% if item.parent.category.single %}
+          <img class="item-details__sidebar__cover noshadow" src="../../{{item["parent"]["image"]}}" alt="{{item["parent"]["name"]}} cover">
+        {% else %}
+          <img class="item-details__sidebar__cover" src="../../{{item["parent"]["image"]}}" alt="{{item["parent"]["name"]}} cover">
+        {% endif %}
         <div class="item-details__sidebar__info">
           <h1 class="item-details__sidebar__info__title">{{item["parent"]["name"]}}</h1>
           <h3 class="item-details__sidebar__info__subtitle">{{item["parent"]["alternateName"]}}</h3>
 
-          {% if item.parent.category.video %}
-            {% if item.parent.subcategory.documentary %}
-              <p>{{item["parent"]["byArtist"]}} Documentary</p>
-            {% elif item.parent.subcategory.movie %}
-              <p>Film about {{item["parent"]["byArtist"]}}</p>
-              {% elif item.parent.subcategory.live %}
-                <p>Live Show by {{item["parent"]["byArtist"]}}</p>
+          {% if item.parent.category.studio %}
+            <p>Studio Album by {{item["parent"]["byArtist"]}}</p>
+          {% endif %}
+
+          {% if item.parent.category.live %}
+            <p>Live Album by {{item["parent"]["byArtist"]}}</p>
+          {% endif %}
+
+          {% if item.parent.category.compilation %}
+            {% if item.parent.category.boxset %}
+              <p>{{item["parent"]["byArtist"]}} Box Set</p>
+            {% elif item.parent.category.digital %}
+              <p>Digital Release by {{item["parent"]["byArtist"]}}</p>
+            {% else %}
+              <p>{{item["parent"]["byArtist"]}} Compilation</p>
             {% endif %}
           {% endif %}
+
+          {% if item.parent.category.single %}
+            <p>Single by {{item["parent"]["byArtist"]}}</p>
+          {% endif %}
+
+
+          {% if item.parent.category.collaboration %}
+            <p>{{item["parent"]["byArtist"]}} Collaboration</p>
+          {% endif %}
+
+          {% if item.parent.category.bootleg %}
+            <p>{{item["parent"]["byArtist"]}} Bootleg</p>
+          {% endif %}
+
+
+
+
 
           <div class="wpac-rating-ajax" data-wpac-chan="{{item["parent"]["uniqueId"]}}"></div>
           <div class="item-details__sidebar__info__facts">
@@ -78,11 +108,15 @@
                 {{item["parent"]["releaseDay"]}},
               {% endif %}
                {{item["parent"]["releaseYear"]}}</p>
-            {% if item.parent.duration %}
-              <p>Run time: {{item["parent"]["duration"]}}</p>
-            {% endif %}
+            <p>{{item["parent"]["publisher"]}} {{item["parent"]["country"]}} {{item["parent"]["catalogNumber"]}}</p>
             {% if item.parent.producer %}
-              <p>Directed by {{item["parent"]["producer"]}}</p>
+              <p>Produced by {{item["parent"]["producer"]}}</p>
+            {% endif %}
+            {% if item.parent.billboardPosition %}
+              <p>
+                {% if item.parent.billboardPosition|int != 0 %}Chart position: #{% endif %}
+                {{item["parent"]["billboardPosition"]}}
+              </p>
             {% endif %}
             <p>{{item["parent"]["notes"]}}</p>
           </div>
@@ -121,19 +155,19 @@
                   {% if element.item.hit %}
                     <tr>
                       <td><div class="tracknumber">{{element["item"]["trackNumber"]}}</div>{{element["item"]["name"]}}</td>
-                      <td class="hit-or-gem"><img src="../../assets/star.svg" /> HIT</td>
+                      <td class="hit-or-gem"><img src="../../assets/star.svg" alt="Hit" title="Hit"/> HIT</td>
                       <td>{{element["item"]["composer"]}}</td>
                     </tr>
                   {% elif element.item.inthit %}
                     <tr>
                       <td><div class="tracknumber">{{element["item"]["trackNumber"]}}</div>{{element["item"]["name"]}}</td>
-                      <td class="hit-or-gem"><img src="../../assets/inthit.svg" /> HIT</td>
+                      <td class="hit-or-gem"><img src="../../assets/inthit.svg" alt="International Hit" title="International Hit"/>HIT</td>
                       <td>{{element["item"]["composer"]}}</td>
                     </tr>
                   {% elif element.item.gem %}
                     <tr>
                       <td><div class="tracknumber">{{element["item"]["trackNumber"]}}</div>{{element["item"]["name"]}}</td>
-                      <td class="hit-or-gem"><img src="../../assets/gem.svg" /> GEM</td>
+                      <td class="hit-or-gem"><img src="../../assets/gem.svg" alt="Gem" title="Gem"/> GEM</td>
                       <td>{{element["item"]["composer"]}}</td>
                     </tr>
                   {% else %}
@@ -147,12 +181,10 @@
                 {% endfor %}
 
 
-
             </tbody>
           </table>
         </div>
         {% endif %}
-
 
 
 
@@ -174,64 +206,66 @@
         {% endif %}
 
 
-        {% if item.editions %}
-        <h3 class="item-section-title">Editions</h3>
-        <ul class="child-items">
+          {% if item.editions %}
+          <h3 class="item-section-title">Editions</h3>
+          <ul class="child-items">
+            {% for element in item["editions"] %}
+              <li>
+                <div class="child-item__header">
+                  <h3 class="child-item__title">
+                    {{element["albumRelease"]["name"]}}{% if element.albumRelease.alternateName %}: {{element["albumRelease"]["alternateName"]}}{% endif %}
+                  </h3>
+                  <ul class="child-item__info">
+                    <li>
+                      {% if element.albumRelease.releaseMonth == 1 %}
+                        January
+                      {% elif element.albumRelease.releaseMonth == 2 %}
+                        February
+                      {% elif element.albumRelease.releaseMonth == 3 %}
+                        March
+                      {% elif element.albumRelease.releaseMonth == 4 %}
+                        April
+                      {% elif element.albumRelease.releaseMonth == 5 %}
+                        May
+                      {% elif element.albumRelease.releaseMonth == 6 %}
+                        June
+                      {% elif element.albumRelease.releaseMonth == 7 %}
+                        July
+                      {% elif element.albumRelease.releaseMonth == 8 %}
+                        August
+                      {% elif element.albumRelease.releaseMonth == 9 %}
+                        September
+                      {% elif element.albumRelease.releaseMonth == 10 %}
+                        October
+                      {% elif element.albumRelease.releaseMonth == 11 %}
+                        November
+                      {% elif element.albumRelease.releaseMonth == 12 %}
+                        December
+                      {% else %}
 
-          {% for element in item["editions"] %}
+                      {% endif %}
 
-            <li>
-              <div class="child-item__header">
-                <h3 class="child-item__title">
-                  {{element["albumRelease"]["name"]}}{% if element.albumRelease.alternateName %}: {{element["albumRelease"]["alternateName"]}}{% endif %}
-                </h3>
-                <ul class="child-item__info">
-                  <li>
-                    {% if element.albumRelease.releaseMonth == 1 %}
-                      January
-                    {% elif element.albumRelease.releaseMonth == 2 %}
-                      February
-                    {% elif element.albumRelease.releaseMonth == 3 %}
-                      March
-                    {% elif element.albumRelease.releaseMonth == 4 %}
-                      April
-                    {% elif element.albumRelease.releaseMonth == 5 %}
-                      May
-                    {% elif element.albumRelease.releaseMonth == 6 %}
-                      June
-                    {% elif element.albumRelease.releaseMonth == 7 %}
-                      July
-                    {% elif element.albumRelease.releaseMonth == 8 %}
-                      August
-                    {% elif element.albumRelease.releaseMonth == 9 %}
-                      September
-                    {% elif element.albumRelease.releaseMonth == 10 %}
-                      October
-                    {% elif element.albumRelease.releaseMonth == 11 %}
-                      November
-                    {% elif element.albumRelease.releaseMonth == 12 %}
-                      December
-                    {% else %}
+                      {% if element.albumRelease.releaseDay == 0 %}
 
+                      {% else %}
+                        {{element["albumRelease"]["releaseDay"]}},
+                      {% endif %}
+                      {{element["albumRelease"]["releaseYear"]}}
+                    </li>
+                    {% if element.albumRelease.recordLabel %}
+                      <li>{{element["albumRelease"]["recordLabel"]}}</li>
                     {% endif %}
-
-                    {% if element.albumRelease.releaseDay == 0 %}
-
-                    {% else %}
-                      {{element["albumRelease"]["releaseDay"]}},
+                    {% if element.albumRelease.country %}
+                      <li>{{element["albumRelease"]["country"]}}</li>
                     {% endif %}
-                    {{element["albumRelease"]["releaseYear"]}}
-                  </li>
-                  {% if element.albumRelease.publisher %}
-                    <li>{{element["albumRelease"]["publisher"]}}</li>
-                  {% endif %}
-                  {% if element.albumRelease.country %}
-                    <li>{{element["albumRelease"]["country"]}}</li>
-                  {% endif %}
-                  {% if element.albumRelease.videoReleaseFormat %}
-                    <li>{{element["albumRelease"]["videoReleaseFormat"]}}</li>
-                  {% endif %}
-                </ul>
+                    {% if element.albumRelease.catalogNumber %}
+                      <li>{{element["albumRelease"]["catalogNumber"]}}</li>
+                    {% endif %}
+                    {% if element.albumRelease.musicReleaseFormat %}
+                      <li>{{element["albumRelease"]["musicReleaseFormat"]}}</li>
+                    {% endif %}
+                  </ul>
+
               </div>
               <div class="child-item__body">
                 <div class="child-item__sidebar">
@@ -250,11 +284,12 @@
           {% endfor %}
         </ul><!-- /child-items -->
         {% endif %}
+
       </div>
     </div> <!-- /item__details -->
   </div> <!-- /item__details__wrapper -->
-  {{partials.footers}}
+  {{partials["footers.html"]}}
 </div>
 </body>
-{{partials.post_scripts}}
+{{partials["post_scripts.html"]}}
 </html>
