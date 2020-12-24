@@ -96,6 +96,7 @@
         <div id="amzn-assoc-ad-3d8cea96-b02c-4fae-9a98-94bdef6ac9cf"></div><script async src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=3d8cea96-b02c-4fae-9a98-94bdef6ac9cf"></script>
 
         {% if item.parent.track %}
+        <h3 class="item-section-title">Tracklist</h3>
         <div class="parent-item__tracklist">
           <table>
             <tbody>
@@ -152,6 +153,29 @@
         </div>
         {% endif %}
 
+
+
+
+        {% if item.parent.reviews %}
+          <h3 class="item-section-title">Reviews</h3>
+          <ul class="item-reviews">
+          {% for element in item["parent"]["reviews"] %}
+            <li class="item-review">
+              <p class="item-review__text">{{element["review"]["reviewText"]}}</p>
+              <a href="{{element["review"]["reviewAuthorLink"]}}" target="_blank">
+                {% if element.review.reviewAuthorPic %}
+                  <img class="item-review__author-pic" src="{{element["review"]["reviewAuthorPic"]}}" alt="{{element["review"]["reviewAuthor"]}} photo"/>
+                {% endif %}
+                {{element["review"]["reviewAuthor"]}}
+              </a>
+            </li>
+          {% endfor %}
+          </ul>
+        {% endif %}
+
+
+        {% if item.editions %}
+        <h3 class="item-section-title">Editions</h3>
         <ul class="child-items">
 
           {% for element in item["editions"] %}
@@ -224,7 +248,8 @@
               </div>
             </li>
           {% endfor %}
-        </ul>
+        </ul><!-- /child-items -->
+        {% endif %}
       </div>
     </div> <!-- /item__details -->
   </div> <!-- /item__details__wrapper -->

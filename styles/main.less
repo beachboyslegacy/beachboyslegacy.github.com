@@ -831,11 +831,58 @@
   }
 }
 
+
+.item-section-title{
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: 700;
+  color: @grey-dark;
+  font-family: @serif-font;
+  margin-bottom: .5em;
+  margin-top: 60px;
+  margin-left: 20px;
+}
+
+
+
+
+.item-reviews{
+  .clearfix;
+  & > li{
+    padding: 40px;
+    background: #fff;
+    margin-bottom: 2rem;
+    margin-right: 20px;
+    width: 100%;
+    float: left;
+    a{
+      line-height: 40px;
+      color: @blue-dark;
+    }
+  }
+}
+
+.item-review__author-pic{
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+@media screen and (min-width: @mobile-bp){
+  .item-reviews{
+    & > li{
+      max-width: 400px;
+    }
+  }
+}
+
+
 .child-items{
-  padding: 10px;
   & > li{
     background: #fff;
-    padding: 4%;
+    padding: 40px;
     .clearfix;
     margin-bottom: 2rem;
     max-width: 900px;
@@ -1280,6 +1327,8 @@ display: none !important;
   vertical-align: middle;
 }
 
+
+
 @media screen and (min-width: 600px){
   .team-member-card{
     max-width: 100%;
@@ -1292,12 +1341,13 @@ display: none !important;
     width: 60%;
     padding: .5em 4% 0;
   }
+  .team-member-card__pic{
+      float: left;
+      width: 40%;
+  }
 }
 
-.team-member-card__pic{
-    float: left;
-    width: 40%;
-}
+
 
 .support-widget{
   padding: 10px 0 10px 120px;
