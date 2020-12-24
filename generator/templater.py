@@ -8,6 +8,7 @@ from os.path import splitext
 
 
 class Templater:
+    """This class is used to generate templates and cache them."""
 
     def __init__(self, templates_dir):
         self.templates_dir = templates_dir

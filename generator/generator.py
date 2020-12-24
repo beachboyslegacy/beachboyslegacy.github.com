@@ -14,6 +14,8 @@ class CategoryException(Exception):
 
 
 class Generator:
+    """This class is used to generate static HTML from templates."""
+
     def __init__(
         self,
         *_,
@@ -28,6 +30,8 @@ class Generator:
         self.templates_dir = templates_dir
 
     def generate(self):
+        """Generates static HTML for templated items."""
+
         # Load data into memmory.
         data: dict
         with open(self.jsond_data_filepath, "r") as jsond_data:
