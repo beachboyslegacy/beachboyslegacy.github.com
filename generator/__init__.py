@@ -1,5 +1,5 @@
-from .templater import Templater
+from .generator import Generator
 
 __all__ = [
-    "Templater",
+    "Generator",
 ]
