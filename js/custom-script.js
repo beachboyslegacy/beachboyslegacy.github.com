@@ -311,7 +311,7 @@ $(function(){
 
       // RSD or christmas
       // Like for Books, if Artist is Beach Boys we load all items. Separate from books bc they use byArtist instead of aboutArtist
-      else if( selectedCategory == 'rsd' || 'christmas'){
+      else if( selectedCategory == 'rsd' || selectedCategory == 'christmas'){
 
         for(i=0; i<totalItems; i++){
 
