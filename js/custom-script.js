@@ -145,11 +145,7 @@ $(function(){
       var i,j,k = 0;
       var selectedArtist = artist;
       var selectedCategory = category;
-      var thisReleaseMonthNumber = 0;
-      var thisReleaseMonthName = 0;
-      var thisReleaseDayNumber = 0;
       var $thisItem = '<li></li>';
-      var rating = 0;
 
 
       $('.items').empty();
@@ -159,13 +155,14 @@ $(function(){
 
       if( selectedCategory == 'new' ){
 
+        var currentYear = new Date().getFullYear();
+
+
         for(i=0; i<totalItems; i++){
 
-          if( data.items[i].parent.category.new == true ){
+          if( (currentYear - data.items[i].parent.releaseYear) < 4){
 
             loadedItems++;
-
-            thisReleaseMonthNumber = data.items[i].parent.releaseMonth;
 
 
             $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-date="'+data.items[i].parent.releaseYear+'">'+
@@ -248,7 +245,7 @@ $(function(){
 
 
           // If selected artist is The Beach Boys, then load all the books
-          if( data.items[i].parent.category.book == true && selectedArtist == 'The Beach Boys'){
+          if( (data.items[i].parent.category[selectedCategory] == true) && selectedArtist == 'The Beach Boys'){
 
             loadedItems++;
 
@@ -307,6 +304,81 @@ $(function(){
 
 
       } // end of book
+
+
+
+
+
+      // RSD or christmas
+      // Like for Books, if Artist is Beach Boys we load all items. Separate from books bc they use byArtist instead of aboutArtist
+      else if( selectedCategory == 'rsd' || 'christmas'){
+
+        for(i=0; i<totalItems; i++){
+
+
+          // If selected artist is The Beach Boys, then load all the items by all members
+          if( (data.items[i].parent.category[selectedCategory] == true) && selectedArtist == 'The Beach Boys'){
+
+            loadedItems++;
+
+            $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-date="'+data.items[i].parent.releaseYear+'">'+
+                              '<a class="item__header" href="items/'+data.items[i].parent.uniqueId+'.html" style="background-color:'+data.items[i].parent.backgroundColor+'" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Book\x27)">'+
+                                '<img class="item__cover lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
+                                '<div class="item__info">'+
+                                  '<h2 class="item__title">'+data.items[i].parent.name+'</h2>'+
+                                  '<h3 class="item__subtitle">'+data.items[i].parent.alternateName+'</h3>'+
+                                  '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
+                                  '<div class="wpac-rating-ajax" data-wpac-chan="'+data.items[i].parent.uniqueId+'"></div>'+
+                                  '<div class="item__btn">See details and editions</div>'+
+                                  '</div>'+
+                              '</a>'+
+                            '</li>';
+
+
+              $thisItem = $($thisItem); //convers string to DOM element
+              $('.items').append($thisItem);
+
+
+          }
+
+          // else list items for the selected member
+          else if( (data.items[i].parent.byArtist === selectedArtist) && (data.items[i].parent.category[selectedCategory] == true) ){
+
+            loadedItems++;
+
+            $thisItem = '<li id="'+data.items[i].parent.uniqueId+'" data-date="'+data.items[i].parent.releaseYear+'">'+
+                              '<a class="item__header" href="items/'+data.items[i].parent.uniqueId+'.html" style="background-color:'+data.items[i].parent.backgroundColor+'" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Book\x27)">'+
+                                '<img class="item__cover lazy" data-original="'+data.items[i].parent.image+'" alt="'+data.items[i].parent.name+' cover">'+
+                                '<div class="item__info">'+
+                                  '<h2 class="item__title">'+data.items[i].parent.name+'</h2>'+
+                                  '<h3 class="item__subtitle">'+data.items[i].parent.alternateName+'</h3>'+
+                                  '<h3 class="item__year">'+data.items[i].parent.releaseYear+'</h3>'+
+                                  '<div class="wpac-rating-ajax" data-wpac-chan="'+data.items[i].parent.uniqueId+'"></div>'+
+                                  '<div class="item__btn">See details and editions</div>'+
+                                '</div>'+
+                              '</a>'+
+                            '</li>';
+
+
+              $thisItem = $($thisItem); //convers string to DOM element
+              $('.items').append($thisItem);
+
+
+          }// /if
+
+          $('.scroll-to-anchor').smoothScroll({
+             offset: -44
+          });
+
+        } //end of main for loop
+
+        sortByRelease();
+
+
+      } // end of rsd
+
+
+
 
 
 

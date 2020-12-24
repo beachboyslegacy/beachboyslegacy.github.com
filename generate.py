@@ -61,6 +61,7 @@ album_cats: list[str] = [
     "variousArtists",
     "bootleg",
     "rsd",
+    "christmas",
 ]
 book_cats: list[str] = ["book"]
 video_cats: list[str] = ["video"]
