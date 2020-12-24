@@ -13,12 +13,12 @@
 <meta name="twitter:title" content="{{item["parent"]["name"]}}{% if item.parent.alternateName %}: {{item["parent"]["alternateName"]}}{% endif %} by {{item["parent"]["byArtist"]}}" />
 <meta name="twitter:description" content="{{item["parent"]["name"]}}{% if item.parent.alternateName %}: {{item["parent"]["alternateName"]}}{% endif %} ({{item["parent"]["releaseYear"]}}) by {{item["parent"]["byArtist"]}}" />
 
-{{partials.common_headers}}
+{{partials["common_headers.html"]}}
 
 </head>
 <body>
 
-{{partials.item_details_header}}
+{{partials["item_details_header.html"]}}
 
 <div class="item-details-wrapper">
     <div class="item-details" id="{{item["parent"]["uniqueId"]}}" data-date="{{item["parent"]["releaseYear"]}}">
@@ -264,8 +264,8 @@
       </div>
     </div> <!-- /item__details -->
   </div> <!-- /item__details__wrapper -->
-  {{partials.footers}}
+  {{partials["footers.html"]}}
 </div>
 </body>
-{{partials.post_scripts}}
+{{partials["post_scripts.html"]}}
 </html>
