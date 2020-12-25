@@ -75,9 +75,20 @@ class Generator:
         partials: list[tuple[str, Template]] = templater.list("partials")
 
         # Now, for each category object in the data, we must choose the right
-        # template.
+        # template. Since we're going to do artists next and we're going to
+        # have tot traverse the data anyway, we'll take the opportunity to
+        # grab all items belonging to each artist.
+        artists: dict = {}
         for item in data["items"]:
             parent: dict = item["parent"]
+
+            # Set artist and extend items per artist.
+            if "byArtist" in parent:
+                artist_name: str = parent["byArtist"]
+                if artist_name in artists:
+                    artists[artist_name].extend(item)
+                else:
+                    artists[artist_name] = [item]
 
             # Grab all the "true" categories.
             item_cats: list[str] = {
@@ -114,3 +125,6 @@ class Generator:
                     item=item,
                     partials=rendered_partials
                 ))
+
+        for name, items in artists.items():
+            print(f"Artist '{name}' has {len(items)} items.")
