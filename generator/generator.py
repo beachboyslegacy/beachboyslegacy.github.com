@@ -83,6 +83,7 @@ class Generator:
             parent: dict = item["parent"]
 
             # Set artist and extend items per artist.
+            artist_name: str
             if "byArtist" in parent:
                 artist_name: str = parent["byArtist"]
                 if artist_name in artists:
@@ -126,5 +127,28 @@ class Generator:
                     partials=rendered_partials
                 ))
 
+        # Now let's render all the artist templates.
+        artist_template: Template = templater.get(
+            "artists/artist.html.jinja2",
+        )
+
         for name, items in artists.items():
             print(f"Artist '{name}' has {len(items)} items.")
+
+            rendered_partials: dict = {
+                template_name: template.render(
+                ) for template_name, template in partials
+            }
+
+            # Wirte the generated template to the its item file.
+            output_template_path: str = path.join(
+                self.output_dir,
+                "artists",
+                f"{name}.html",
+            )
+
+            with open(output_template_path, "w") as template_file:
+                artist_template.write(template.render(
+                    items=items,
+                    partials=rendered_partials
+                ))
