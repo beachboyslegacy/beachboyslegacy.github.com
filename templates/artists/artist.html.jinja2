@@ -64,231 +64,74 @@
                 <div class="amazon-banner-wrapper">
                     <div id="amzn-assoc-ad-3d8cea96-b02c-4fae-9a98-94bdef6ac9cf"></div><script async src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=3d8cea96-b02c-4fae-9a98-94bdef6ac9cf"></script>
                 </div>
-
             </div>
 
             <div class="sidebar__footer">
                 <a class="policy-link" href="cookies-policy.html" target="_blank">Cookies Policy</a>
                 <a class="policy-link" href="privacy-policy.html" target="_blank">Privacy Policy</a>
             </div>
-
         </div>
 
         <div class="main-container">
-
             <div class="main-container__header clearfix">
-
                 <ul class="sorting clearfix" id="sorting">
                     <li id="sorting-release" class="sorting__current">Release Date<div class="sorting__icon"><webicon icon="entypo:select-arrows"/></div></li>
-                    <!-- <li id="sorting-rating">Rating<div class="sorting__icon"><webicon icon="entypo:select-arrows"/></div></li> -->
                 </ul>
 
                 <div class="results-number"></div>
-
             </div>
-
 
             <ul class="items">
-
-                <li id="sunshine-tomorrow" data-date="2017"><div class="item__header" style="background-color:#F16C35">
-                        <img class="item__cover lazy" data-original="img/compilations/2017-sunshine-tomorrow/sunshine-tomorrow-cover.jpg" alt="1967 - Sunshine Tomorrow cover">
-                        <div class="item__info">
-                            <h2 class="item__title">1967 - Sunshine Tomorrow</h2>
-                            <h3 class="item__subtitle"></h3>
-                            <h3 class="item__year">2017</h3>
-                            <img class="item__preloader" src="assets/preloader-item.svg" alt="preloader" />
-                        </div>
-                </li>
-
-                <li id="christian-matijas-mecca-words-and-music" data-date="2017"><div class="item__header" style="background-color:#6CA7D8">
-                        <img class="item__cover lazy" data-original="img/books/2017-christian-matijas-mecca-words-and-music/christian-matijas-mecca-words-and-music-cover.jpg" alt="The Words and Music of Brian Wilson cover">
-                        <div class="item__info">
-                            <h2 class="item__title">The Words and Music of Brian Wilson</h2>
-                            <h3 class="item__subtitle"></h3>
-                            <h3 class="item__year">2017</h3>
-                            <img class="item__preloader" src="assets/preloader-item.svg" alt="preloader" />
-                        </div>
-                </li>
-
-                <li id="dennis-wilson-bambu-the-caribou-sessions" data-date="2017"><div class="item__header" style="background-color:#73A365">
-                        <img class="item__cover lazy" data-original="img/albums/dennis-wilson/2017-dennis-wilson-bambu-the-caribou-sessions/dennis-wilson-bambu-the-caribou-sessions-cover.jpg" alt="Bambu cover">
-                        <div class="item__info">
-                            <h2 class="item__title">Bambu</h2>
-                            <h3 class="item__subtitle">The Caribou Sessions</h3>
-                            <h3 class="item__year">2017</h3>
-                            <img class="item__preloader" src="assets/preloader-item.svg" alt="preloader" />
-                        </div>
-                </li>
-
-                <li style="background:#d5dbe5; text-align:center;">
-                    <img class="item__preloader" src="assets/preloader-item.svg" alt="preloader" />
-                </li>
-
             </ul>
 
+            {{partials["footers.html"]}}
 
-            <div class="mobile-footer">
-                <a class="policy-link" href="cookies-policy.html" target="_blank">Cookies Policy</a>
-                <a class="policy-link" href="privacy-policy.html" target="_blank">Privacy Policy</a>
-            </div>
+        </div>
 
-                    </div>
+        {{partials["overlay_menu.html"]}}
 
-                    <div id="overlay-menu-screen" class="overlay-menu-screen">
+        <!-- Uncomment the following line in production -->
+        <script src="js/custom-script-min.js"></script>
 
-                        <div class="overlay-menu">
+        <!-- loads images 500px before they appear in the viewport -->
+        <script>
+            $("img.lazy").lazyload({
+                threshold : 500,
+                effect : "fadeIn",
+                placeholder: 'assets/preloader.svg'
+            });
+        </script>
 
-                            <div class="overlay-menu__header">
-                                <a  class="overlay-menu__header__menu-icon closeOverlayMenu" href="javascript:void(0)"><webicon icon="material:menu"/></a>
-                                <div class="overlay-menu__header__nav">
-                                    <ul>
-                                        <li id="about-this-site-tab" class="selected">
-                                            <span class="desktop-nav">About this site</span>
-                                            <span class="mobile-nav">About</span>
-                                        </li>
-                                        <li id="about-the-authors-tab">
-                                            <div class="desktop-nav">About the authors</div>
-                                            <div class="mobile-nav">Authors</div>
-                                        </li>
-                                        <li id="contact-tab">Contact</li>
-                                    </ul>
-                                </div>
+        <!-- Amazon universal link doesnt work -->
+        <!-- <script src="https://z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=5af50dea-b060-4387-b1de-aecb74adf6af" async></script> -->
 
-                                <div class="overlay-menu__header__close-icon closeOverlayMenu"><webicon icon="material:close"></webicon></div>
-
-                            </div>
-
-                            <div class="overlay-menu__content">
-
-                                <div id="about-this-site" class="overlay-menu__content__section">
-                                    <h3>Motivation</h3>
-                                    <p>
-                                    With a career that spans over five decades, The Beach Boys have one of the most extensive discographies out there. Listeners typically approach their music through either one of their many Greatest Hits compilations or through their masterpiece 'Pet Sounds'. But most of the time they just scratch the surface and find it hard to know where to go from there, missing amazing albums such as 'The Beach Boys Today!' or 'Sunflower'.
-                                    </p>
-                                    <p>
-                                    As lifelong Beach Boys fans, we thought we could build a better way of exploring The Beach Boys records by focusing on discoverability. The result is a browsing experience that feels like digging through vinyls.
-                                    </p>
-
-                                    <h3>
-                                        What makes this site special?
-                                    </h3>
-                                    <ul class="overlay-menu__content__list">
-                                        <li>It lists all the available editions of each item and specifies what's special about each of them (e.g. previously unreleased tracks).</li>
-                                        <li>It marks all the <em><strong>Hits</strong></em> from each album.</li>
-                                        <li>The list of <em><strong>Gems</strong></em> has been curated by Beach Boys connoisseurs.</li>
-                                        <li>It allows to filter and sort items by different criteria, which is great for discoverability.</li>
-                                        <li>It's responsive and mobile-friendly.</li>
-                                    </ul>
-                                    <h3>
-                                        Additional information
-                                    </h3>
-                                    <p>
-                                    <span class="overlay-menu__content__icon">
-                                        <img src="assets/star.svg" alt="Hit"/>
-                                        HIT
-                                    </span>
-                                    The filled star indicates the song entered the Billboard Hot 100 (regardless of whether it entered any other US or foreign chart).
-                                    </p>
-                                    <p>
-                                    <span class="overlay-menu__content__icon">
-                                        <img src="assets/inthit.svg" alt="International Hit"/>
-                                        HIT
-                                    </span>
-                                    The outlined star indicates the song entered a US chart other than the Billboard Hot 100 or any other chart around the world.
-                                    </p>
-                                    <p>
-                                    <span class="overlay-menu__content__icon">
-                                        <img src="assets/gem.svg" alt ="Gem"/>
-                                        GEM
-                                    </span>
-                                    Indicates it's a lesser known track, but generally considered by Beach Boys aficionados as underrated or 'deep cut', having never entered any chart.</p>
-                                    </p>
-
-                                </div>
-
-                                <div id="about-the-authors" class="overlay-menu__content__section">
-                                    <!-- loads content from authors.html -->
-                                </div>
-
-                                <div id="contact" class="overlay-menu__content__section">
-                                    <h3>Get in touch!</h3>
-                                    <div class="contact-card">
-                                        <a href="mailto:contact@beachboyslegacy.com">
-                                            <div class="contact-card__icon"><webicon icon="material:mail"></webicon></div>
-                                            contact@beachboyslegacy.com
-                                        </a>
-                                    </div>
-                                    <div class="contact-card">
-                                        <a href="https://twitter.com/beachboyslegacy" target="_blank">
-                                            <div class="contact-card__icon"><webicon icon="entypo:twitter"></webicon></div>@beachboyslegacy
-                                        </a>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                        <div class="overlay-menu-bg closeOverlayMenu"></div>
-
-                    </div>
+        <script src="https://embed.widgetpack.com/widget.js" async></script>
+        <script type="text/javascript">
+            function wpac_ajax_init() {
+                            WPac.init({widget: 'Rating', id: 2265, el: 'wpac-rating-ajax'});
+                        }
+        </script>
 
 
 
-
-                    <!-- Uncomment the following four lines in local -->
-                    <!-- <script src="js/jquery.lazyload.1.9.7.min.js"></script>
-                    <script src="js/jquery.smooth-scroll.min.js"></script>
-                    <script src="js/jquery.shorten.min.js"></script>
-                    <script src="js/custom-script.js"></script>
-                    -->
-
-
-                    <!-- Uncomment the following line in production -->
-                    <script src="js/custom-script-min.js"></script>
-
-
-
-
-                    <!-- loads images 500px before they appear in the viewport -->
-                    <script>
-                        $("img.lazy").lazyload({
-                                                    threshold : 500,
-                                                    effect : "fadeIn",
-                                                    placeholder: 'assets/preloader.svg'
-                                                });
-                    </script>
-
-                    <!-- Amazon universal link doesnt work -->
-                    <!-- <script src="https://z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=5af50dea-b060-4387-b1de-aecb74adf6af" async></script> -->
-
-                    <script src="https://embed.widgetpack.com/widget.js" async></script>
-                    <script type="text/javascript">
-                        function wpac_ajax_init() {
-                                                    WPac.init({widget: 'Rating', id: 2265, el: 'wpac-rating-ajax'});
-                                                }
-                    </script>
-
-
-
-                    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
-                    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
-                    <script>
-                        window.addEventListener("load", function(){
-                                                    window.cookieconsent.initialise({
-                                                                                "palette": {
-                                                                                                            "popup": {
-                                                                                                                                        "background": "#000"
-                                                                                                                                    },
-                                                                                                            "button": {
-                                                                                                                                        "background": "#f1d600"
-                                                                                                                                    }
-                                                                                                        },
-                                                                                "content": {
-                                                                                                            "href": "cookies-policy.html"
-                                                                                                        }
-                                                                            })});
-                    </script>
+        <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+        <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+        <script>
+            window.addEventListener("load", function(){
+                            window.cookieconsent.initialise({
+                                            "palette": {
+                                                            "popup": {
+                                                                            "background": "#000"
+                                                                        },
+                                                            "button": {
+                                                                            "background": "#f1d600"
+                                                                        }
+                                                        },
+                                            "content": {
+                                                            "href": "cookies-policy.html"
+                                                        }
+                                        })});
+        </script>
 
 
 
