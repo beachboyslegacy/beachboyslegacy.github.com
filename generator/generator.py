@@ -81,16 +81,6 @@ class Generator:
         artists: dict = {}
         for item in data["items"]:
             parent: dict = item["parent"]
-
-            # Set artist and extend items per artist.
-            artist_name: str
-            if "byArtist" in parent:
-                artist_name: str = parent["byArtist"]
-                if artist_name in artists:
-                    artists[artist_name].extend(item)
-                else:
-                    artists[artist_name] = [item]
-
             # Grab all the "true" categories.
             item_cats: list[str] = {
                 k: v for k, v in parent["category"].items() if v
@@ -127,18 +117,35 @@ class Generator:
                     partials=rendered_partials
                 ))
 
+            # Set artist and extend items per artist.
+            artist_name: str
+            try:
+                artist_name = parent["byArtist"]
+            except KeyError:
+                artist_name = parent["aboutArtist"]
+
+            if artist_name in artists:
+                artists[artist_name]["items"].extend(item)
+                artists[artist_name]["categories"].union(item_cats)
+            else:
+                artists[artist_name] = {
+                    "items": [item],
+                    "categories": set(item_cats),
+                }
+
         # Now let's render all the artist templates.
         _, artist_template = templater.get(
             "artists/artist.html.jinja2",
         )
 
-        for name, items in artists.items():
-            print(f"Artist '{name}' has {len(items)} items.")
+        for name, data in artists.items():
+            print(f"Artist '{name}' has {len(data['items'])} items.")
 
             rendered_partials: dict = {
                 template_name: template.render(
                     name=name,
-                    items=items,
+                    items=data["items"],
+                    categories=data["categories"],
                 ) for template_name, template in partials
             }
 
@@ -152,6 +159,7 @@ class Generator:
             with open(output_template_path, "w") as output_file:
                 output_file.write(artist_template.render(
                     name=name,
-                    items=items,
+                    items=data["items"],
+                    categories=data["categories"],
                     partials=rendered_partials,
                 ))
