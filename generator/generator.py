@@ -126,7 +126,9 @@ class Generator:
 
             if artist_name in artists:
                 artists[artist_name]["items"].extend(item)
-                artists[artist_name]["categories"].union(item_cats)
+                artists[artist_name]["categories"] = (
+                    artists[artist_name]["categories"].union(item_cats)
+                )
             else:
                 artists[artist_name] = {
                     "items": [item],
@@ -160,6 +162,6 @@ class Generator:
                 output_file.write(artist_template.render(
                     name=name,
                     items=data["items"],
-                    categories=data["categories"],
+                    categories=list(data["categories"]),
                     partials=rendered_partials,
                 ))
