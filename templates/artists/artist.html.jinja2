@@ -44,14 +44,9 @@
                     <div class="selector__title">Artist</div>
                     <div class="selector__current" id="current-artist"><span>The Beach Boys</span><div class="selector__icon"><webicon icon="material:arrow-drop-down"/></div></div>
                     <ul id="artist" class="selector__options clearfix">
-                        <li class="selector__options__current" data-artist="The Beach Boys" data-artistclass="bb">The Beach Boys</li>
-                        <li data-artist="Brian Wilson" data-artistclass="bw">Brian Wilson</li>
-                        <li data-artist="Dennis Wilson" data-artistclass="dw">Dennis Wilson</li>
-                        <li data-artist="Carl Wilson" data-artistclass="cw">Carl Wilson</li>
-                        <li data-artist="Mike Love" data-artistclass="ml">Mike Love</li>
-                        <li data-artist="Al Jardine" data-artistclass="aj">Al Jardine</li>
-                        <li data-artist="David Marks" data-artistclass="dm">David Marks</li>
-                        <li data-artist="Bruce Johnston" data-artistclass="bj">Bruce Johnston</li>
+                        {% for artist in artists %}
+                        <li id="{{artist}}" {{'class="selector__options__current"' if artist == name}}>{{artist}}</li>
+                        {% endfor %}
                     </ul>
                 </div>
 
@@ -59,28 +54,10 @@
                     <div class="selector__title">Category</div>
                     <div class="selector__current" id="current-category"><span>Latest</span><div class="selector__icon"><webicon icon="material:arrow-drop-down"/></div></div>
                     <ul id="category" class="selector__options clearfix">
-                        <!-- <li id="category-all-items" class="selector__options__current bb bw dw cw aj dm ml bj">All Items</li> -->
-                        <li data-categoryname="new" id="new" class="selector__options__current bb">Latest</li>
-                        <li data-categoryname="album" id="album" class="bb bw dw cw aj dm ml bj">Albums</li> <!-- estas clases se podrian añadir automaticamente en base a la info del json -->
-                        <li data-categoryname="studio" class="bb bw aj dm">Studio Albums</li>
-                        <li data-categoryname="live" class="bb bw aj dm">Live Albums</li>
-                        <li data-categoryname="compilation" class="bb bw dw dm bj">Compilations</li>
-                        <li data-categoryname="boxset" class="bb">Box Sets</li>
-                        <li data-categoryname="digital" class="bb">Copyright Extensions</li>
-                        <li data-categoryname="solo" class="bb">Solo Albums</li>
-                        <li data-categoryname="sideProject" class="cw bj ml dm hide-category">Side Projects</li>
-                        <li data-categoryname="single" class="bb bw dw cw aj ml bj">Non-album Singles</li>
-                        <li data-categoryname="variousArtists" class="bb bw ml aj">Various Artists</li>
-                        <li data-categoryname="production" class="bw cw hide-category">Productions</li>
-                        <li data-categoryname="collaboration" class="bw dw cw aj ml dm bj hide-category">Collaborations</li>
-                        <li data-categoryname="rsd" class="bb bw dw aj">Record Store Day</li>
-                        <!-- <li data-categoryname="tribute">Tribute</li> -->
-                        <li data-categoryname="book" class="bb bw dw cw aj dm ml">Books</li>
-                        <li data-categoryname="video" class="bb bw dw cw ml">Videos</li>
-                        <li data-categoryname="christmas" class="bb bw aj ml">Christmas</li>
-                        <!-- <li data-categoryname="ep" class="bb bw">EP</li> -->
-                        <li data-categoryname="bootleg" class="bb bw dw cw ml bj">Bootlegs</li>
-                        <!-- <li data-categoryname="concert" class="bb bw">Concerts</li> -->
+                        <li id="{{categories[0]}}" class="selector__options__current">{{categories[0]}}</li>
+                        {% for category in categories[1:] %}
+                        <li id="{{category}}">{{category}}</li>
+                        {% endfor %}
                     </ul>
                 </div>
 
