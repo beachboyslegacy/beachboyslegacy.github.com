@@ -128,7 +128,7 @@ class Generator:
                 ))
 
         # Now let's render all the artist templates.
-        artist_template: Template = templater.get(
+        _, artist_template = templater.get(
             "artists/artist.html.jinja2",
         )
 
@@ -137,6 +137,8 @@ class Generator:
 
             rendered_partials: dict = {
                 template_name: template.render(
+                    name=name,
+                    items=items,
                 ) for template_name, template in partials
             }
 
@@ -147,8 +149,8 @@ class Generator:
                 f"{name}.html",
             )
 
-            with open(output_template_path, "w") as template_file:
-                artist_template.write(template.render(
+            with open(output_template_path, "w") as output_file:
+                output_file.write(artist_template.render(
                     items=items,
-                    partials=rendered_partials
+                    partials=rendered_partials,
                 ))
