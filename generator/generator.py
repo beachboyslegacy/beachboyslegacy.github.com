@@ -148,7 +148,7 @@ class Generator:
                     name=name,
                     items=data["items"],
                     categories=data["categories"],
-                    artists=data.keys(),
+                    artists=list(data.keys()),
                 ) for template_name, template in partials
             }
 
@@ -164,6 +164,6 @@ class Generator:
                     name=name,
                     items=data["items"],
                     categories=list(data["categories"]),
-                    artists=data.keys(),
+                    artists=list(data.keys()),
                     partials=rendered_partials,
                 ))
