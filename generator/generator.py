@@ -151,6 +151,7 @@ class Generator:
 
             with open(output_template_path, "w") as output_file:
                 output_file.write(artist_template.render(
+                    name=name,
                     items=items,
                     partials=rendered_partials,
                 ))
