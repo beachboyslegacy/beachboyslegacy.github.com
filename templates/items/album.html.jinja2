@@ -8,6 +8,8 @@
 <!-- For Facebook -->
 <meta property="og:title" content="{{item["parent"]["name"]}}{% if item.parent.alternateName %}: {{item["parent"]["alternateName"]}}{% endif %} by {{item["parent"]["byArtist"]}}"/>
 <meta property="og:description" content="{{item["parent"]["name"]}}{% if item.parent.alternateName %}: {{item["parent"]["alternateName"]}}{% endif %} ({{item["parent"]["releaseYear"]}}) by {{item["parent"]["byArtist"]}}"/>
+<meta property="og:image" content="https://beachboyslegacy.com/{{item["parent"]["image"]}}"/>
+<meta property="og:url" content="http://beachboyslegacy.com/items/{{item["parent"]["uniqueId"]}}"/>
 
 <!-- for Twitter -->
 <meta name="twitter:title" content="{{item["parent"]["name"]}}{% if item.parent.alternateName %}: {{item["parent"]["alternateName"]}}{% endif %} by {{item["parent"]["byArtist"]}}" />
