@@ -152,14 +152,6 @@ class Generator:
                 f"{len(categories)} categories."
             )
 
-            rendered_partials: dict = {
-                template_name: template.render(
-                    artist_name=artist_name,
-                    categories=list(categories.keys()),
-                    artists=list(artists.keys()),
-                ) for template_name, template in partials
-            }
-
             # There will be one template per artist category.
             output_artist_categories_dir: str = Path(path.join(
                 "artists",
@@ -182,8 +174,19 @@ class Generator:
                     f"{category_name}.html",
                 ))
 
+                rendered_partials: dict = {
+                    template_name: template.render(
+                        artist_name=artist_name,
+                        category_name=category_name,
+                        items=category_items,
+                        categories=list(categories.keys()),
+                        artists=list(artists.keys()),
+                    ) for template_name, template in partials
+                }
+
                 with output_template_path.open("w") as output_file:
                     output_file.write(artist_category_template.render(
+                        artist_name=artist_name,
                         category_name=category_name,
                         items=category_items,
                         categories=list(categories.keys()),
