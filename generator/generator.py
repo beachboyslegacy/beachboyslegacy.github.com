@@ -5,6 +5,7 @@ from jinja2 import Template
 from json import loads
 from os import makedirs
 from os import path
+from pathlib import Path
 from shutil import copytree
 from shutil import rmtree
 
@@ -78,6 +79,11 @@ class Generator:
         # template. Since we're going to do artists next and we're going to
         # have tot traverse the data anyway, we'll take the opportunity to
         # grab all items belonging to each artist.
+        # We'll start by removing old item contents.
+        artists_path: str = path.join(self.output_dir, "artists")
+        rmtree(artists_path, ignore_errors=True)
+        makedirs(artists_path)
+
         artists: dict = {}
         for item in data["items"]:
             parent: dict = item["parent"]
@@ -152,18 +158,27 @@ class Generator:
                 ) for template_name, template in partials
             }
 
-            # Wirte the generated template to the its item file.
-            output_template_path: str = path.join(
-                self.output_dir,
+            # There will be one template per artist category.
+            output_artist_categories_dir: str = Path(path.join(
                 "artists",
-                f"{name}.html",
+                name,
+                "categories",
+            ))
+            Path(output_artist_categories_dir).mkdir(
+                parents=True,
+                exist_ok=True,
             )
-
-            with open(output_template_path, "w") as output_file:
-                output_file.write(artist_template.render(
-                    name=name,
-                    items=data["items"],
-                    categories=list(data["categories"]),
-                    artists=list(artists.keys()),
-                    partials=rendered_partials,
+            for category in data["categories"]:
+                output_template_path: str = Path(path.join(
+                    output_artist_categories_dir,
+                    f"{category}.html",
                 ))
+
+                with output_template_path.open("w") as output_file:
+                    output_file.write(artist_template.render(
+                        name=name,
+                        items=data["items"],
+                        categories=list(data["categories"]),
+                        artists=list(artists.keys()),
+                        partials=rendered_partials,
+                    ))
