@@ -131,29 +131,31 @@ class Generator:
                 artist_name = parent["aboutArtist"]
 
             if artist_name in artists:
-                artists[artist_name]["items"].extend(item)
-                artists[artist_name]["categories"] = (
-                    artists[artist_name]["categories"].union(item_cats)
-                )
+                for category in item_cats:
+                    if category in artists[artist_name]:
+                        artists[artist_name][category].append(item)
+                    else:
+                        artists[artist_name][category] = [item]
             else:
                 artists[artist_name] = {
-                    "items": [item],
-                    "categories": set(item_cats),
+                    category: [item] for category in item_cats
                 }
 
-        # Now let's render all the artist templates.
-        _, artist_template = templater.get(
-            "artists/artist.html.jinja2",
+        # Now let's render all the artist category templates.
+        _, artist_category_template = templater.get(
+            "artist_categories/artist_category.html.jinja2",
         )
 
-        for name, data in artists.items():
-            print(f"Artist '{name}' has {len(data['items'])} items.")
+        for artist_name, categories in artists.items():
+            print(
+                f"Artist '{artist_name}' has "
+                f"{len(categories)} categories."
+            )
 
             rendered_partials: dict = {
                 template_name: template.render(
-                    name=name,
-                    items=data["items"],
-                    categories=data["categories"],
+                    artist_name=artist_name,
+                    categories=list(categories.keys()),
                     artists=list(artists.keys()),
                 ) for template_name, template in partials
             }
@@ -161,24 +163,30 @@ class Generator:
             # There will be one template per artist category.
             output_artist_categories_dir: str = Path(path.join(
                 "artists",
-                name,
+                artist_name,
                 "categories",
             ))
             Path(output_artist_categories_dir).mkdir(
                 parents=True,
                 exist_ok=True,
             )
-            for category in data["categories"]:
+            for category_name, category_items in categories.items():
+                print(
+                    "    "
+                    f"category {category_name} "
+                    f"has {len(category_items)} items."
+                )
+
                 output_template_path: str = Path(path.join(
                     output_artist_categories_dir,
-                    f"{category}.html",
+                    f"{category_name}.html",
                 ))
 
                 with output_template_path.open("w") as output_file:
-                    output_file.write(artist_template.render(
-                        name=name,
-                        items=data["items"],
-                        categories=list(data["categories"]),
+                    output_file.write(artist_category_template.render(
+                        category_name=category_name,
+                        items=category_items,
+                        categories=list(categories.keys()),
                         artists=list(artists.keys()),
                         partials=rendered_partials,
                     ))
