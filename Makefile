@@ -19,6 +19,13 @@ devserver:
 templates:
 	python cli.py ./js/data.json --output-dir . --templates ./templates
 
+.PHONY: templates-dev
+templates-dev:
+	python cli.py ./js/data.json \
+		--output-dir . \
+		--templates ./templates \
+		--base-url localhost:8000
+
 .PHONY: templates-reset
 templates-reset:
 	git checkout master items
