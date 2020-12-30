@@ -25,7 +25,7 @@
 <div class="item-details-wrapper">
     <div class="item-details" id="{{item["parent"]["uniqueId"]}}" data-date="{{item["parent"]["releaseYear"]}}">
       <div class="item-details__sidebar" style="background-color:{{item["parent"]["backgroundColor"]}}">
-        <img class="item-details__sidebar__cover item-details__sidebar__cover--portrait" src="../../{{item["parent"]["image"]}}" alt="{{item["parent"]["name"]}} cover">
+        <img class="item-details__sidebar__cover item-details__sidebar__cover--portrait" src="{{base_url}}/{{item["parent"]["image"]}}" alt="{{item["parent"]["name"]}} cover">
         <div class="item-details__sidebar__info">
           <h1 class="item-details__sidebar__info__title">{{item["parent"]["name"]}}</h1>
           <h3 class="item-details__sidebar__info__subtitle">{{item["parent"]["alternateName"]}}</h3>
@@ -178,7 +178,7 @@
               <div class="child-item__body">
                 <div class="child-item__sidebar">
                   <div class="sticky-content">
-                    <a href="{{element["amazonUs"]}}" class="amazonLink" target="_blank"><img class="child-item__cover" src="../../{{element["image"]}}" alt="{{element["name"]}} cover"></a>
+                    <a href="{{element["amazonUs"]}}" class="amazonLink" target="_blank"><img class="child-item__cover" src="{{base_url}}/{{element["image"]}}" alt="{{element["name"]}} cover"></a>
                     {% if element.amazonUs %}
                     <a class="child-item__buy amazonLink" href="{{element["amazonUs"]}}" target="_blank" onClick="ga(\x27send\x27, \x27event\x27, \x27Amazon\x27, \x27click\x27, \x27Item\x27)">Buy on Amazon</a>  <!-- \x27 is a scaped quote ' -->
                     {% endif %}

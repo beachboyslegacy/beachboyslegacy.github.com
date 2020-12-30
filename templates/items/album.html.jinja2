@@ -27,9 +27,9 @@
     <div class="item-details" id="{{item["parent"]["uniqueId"]}}" data-date="{{item["parent"]["releaseYear"]}}">
       <div class="item-details__sidebar" style="background-color:{{item["parent"]["backgroundColor"]}}">
         {% if item.parent.category.single %}
-          <img class="item-details__sidebar__cover noshadow" src="../../{{item["parent"]["image"]}}" alt="{{item["parent"]["name"]}} cover">
+          <img class="item-details__sidebar__cover noshadow" src="{{base_url}}/{{item["parent"]["image"]}}" alt="{{item["parent"]["name"]}} cover">
         {% else %}
-          <img class="item-details__sidebar__cover" src="../../{{item["parent"]["image"]}}" alt="{{item["parent"]["name"]}} cover">
+          <img class="item-details__sidebar__cover" src="{{base_url}}/{{item["parent"]["image"]}}" alt="{{item["parent"]["name"]}} cover">
         {% endif %}
         <div class="item-details__sidebar__info">
           <h1 class="item-details__sidebar__info__title">{{item["parent"]["name"]}}</h1>
@@ -158,19 +158,19 @@
                   {% if element.item.hit %}
                     <tr>
                       <td><div class="tracknumber">{{element["item"]["trackNumber"]}}</div>{{element["item"]["name"]}}</td>
-                      <td class="hit-or-gem"><img src="../../assets/star.svg" alt="Hit" title="Hit"/> HIT</td>
+                      <td class="hit-or-gem"><img src="{{base_url}}/assets/star.svg" alt="Hit" title="Hit"/> HIT</td>
                       <td>{{element["item"]["composer"]}}</td>
                     </tr>
                   {% elif element.item.inthit %}
                     <tr>
                       <td><div class="tracknumber">{{element["item"]["trackNumber"]}}</div>{{element["item"]["name"]}}</td>
-                      <td class="hit-or-gem"><img src="../../assets/inthit.svg" alt="International Hit" title="International Hit"/>HIT</td>
+                      <td class="hit-or-gem"><img src="{{base_url}}/assets/inthit.svg" alt="International Hit" title="International Hit"/>HIT</td>
                       <td>{{element["item"]["composer"]}}</td>
                     </tr>
                   {% elif element.item.gem %}
                     <tr>
                       <td><div class="tracknumber">{{element["item"]["trackNumber"]}}</div>{{element["item"]["name"]}}</td>
-                      <td class="hit-or-gem"><img src="../../assets/gem.svg" alt="Gem" title="Gem"/> GEM</td>
+                      <td class="hit-or-gem"><img src="{{base_url}}/assets/gem.svg" alt="Gem" title="Gem"/> GEM</td>
                       <td>{{element["item"]["composer"]}}</td>
                     </tr>
                   {% else %}
@@ -273,7 +273,7 @@
               <div class="child-item__body">
                 <div class="child-item__sidebar">
                   <div class="sticky-content">
-                    <a href="{{element["albumRelease"]["amazonUs"]}}" class="amazonLink" target="_blank"><img class="child-item__cover" src="../../{{element["albumRelease"]["image"]}}" alt="{{element["albumRelease"]["name"]}} cover"></a>
+                    <a href="{{element["albumRelease"]["amazonUs"]}}" class="amazonLink" target="_blank"><img class="child-item__cover" src="{{base_url}}/{{element["albumRelease"]["image"]}}" alt="{{element["albumRelease"]["name"]}} cover"></a>
                     {% if element.albumRelease.amazonUs %}
                     <a class="child-item__buy amazonLink" href="{{element["albumRelease"]["amazonUs"]}}" target="_blank" onClick="ga(\x27send\x27, \x27event\x27, \x27Amazon\x27, \x27click\x27, \x27Item\x27)">Buy on Amazon</a>  <!-- \x27 is a scaped quote ' -->
                     {% endif %}
