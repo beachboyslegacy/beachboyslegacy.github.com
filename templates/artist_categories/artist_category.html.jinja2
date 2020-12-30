@@ -93,7 +93,18 @@
 
             <ul class="items">
                 {% for item in items%}
-                    {{item}}
+                    <li data-date="{{item.parent.releaseYear}}">
+                        <a class="item__header" href="{{base_url}}/items/{{item.parent.uniqueId}}.html" style="background-color:{{item.parent.backgroundColor}}" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Latest\x27)">
+                        <img class="item__cover lazy" data-original="{{item.parent.image}}" alt="{{item.parent.name}} cover">
+                        <div class="item__info">
+                            <h2 class="item__title">{{item.parent.name}}</h2>
+                            <h3 class="item__subtitle">{{item.parent.alternateName}}</h3>
+                            <h3 class="item__year">{{item.parent.releaseYear}}</h3>
+                            <div class="wpac-rating-ajax" data-wpac-chan="{{item.parent.uniqueId}}"></div>
+                            <div class="item__btn">See details and editions</div>
+                        </div>
+                      </a>
+                    </li>
                 {% endfor %}
             </ul>
 
