@@ -24,7 +24,7 @@ templates-dev:
 	python cli.py ./js/data.json \
 		--output-dir . \
 		--templates ./templates \
-		--base-url localhost:8000
+		--base-url http://localhost:8000
 
 .PHONY: templates-reset
 templates-reset:
