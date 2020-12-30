@@ -24,11 +24,13 @@ class Generator:
         static_resources_dir: str,
         output_dir: str,
         templates_dir: str,
+        base_url: str,
     ):
         self.jsond_data_filepath = jsond_data_filepath
         self.static_resources_dir = static_resources_dir
         self.output_dir = output_dir
         self.templates_dir = templates_dir
+        self.base_url = base_url
 
     def generate(self):
         """Generates static HTML for templated items."""
@@ -120,7 +122,8 @@ class Generator:
             with open(output_template_path, "w") as template_file:
                 template_file.write(template.render(
                     item=item,
-                    partials=rendered_partials
+                    partials=rendered_partials,
+                    base_url=self.base_url,
                 ))
 
             # Set artist and extend items per artist.
@@ -181,6 +184,7 @@ class Generator:
                         items=category_items,
                         categories=list(categories.keys()),
                         artists=list(artists.keys()),
+                        base_url=self.base_url,
                     ) for template_name, template in partials
                 }
 
@@ -192,4 +196,5 @@ class Generator:
                         categories=list(categories.keys()),
                         artists=list(artists.keys()),
                         partials=rendered_partials,
+                        base_url=self.base_url,
                     ))
