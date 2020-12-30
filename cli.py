@@ -22,7 +22,7 @@ jsond_data_filepath: str = args.jsond_data_filepath
 static_resources_dir: str = args.static_resources_dir
 output_dir: str = args.output_dir or "./www"
 templates_dir: str = args.templates_dir or "./templates"
-base_url: str = args.templates_dir or "https://beachboyslegacy.com"
+base_url: str = args.base_url or "https://beachboyslegacy.com"
 
 Generator(
     jsond_data_filepath=jsond_data_filepath,
