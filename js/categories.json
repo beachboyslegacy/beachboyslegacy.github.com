@@ -1,65 +1,88 @@
 {
-    "album": {
-        "name": "Albums"
-    },
-    "book": {
-        "name": "Books"
-    },
-    "bootleg": {
-        "name": "Bootlegs"
-    },
-    "boxset": {
-        "name": "Box Sets"
-    },
-    "christmas": {
-        "name": "Christmas"
-    },
-    "collaboration": {
-        "name": "Collaborations"
-    },
-    "compilation": {
-        "name": "Compilations"
-    },
-    "concert": {
-        "name": "Concerts"
-    },
-    "digital": {
-        "name": "Copy Right Extensions"
-    },
-    "ep": {
-        "name": "EP"
-    },
-    "live": {
-        "name": "Live Albums"
-    },
-    "new": {
-        "name": "Latest"
-    },
-    "production": {
-        "name": "Productions"
-    },
-    "rsd": {
-        "name": "Record Store Day"
-    },
-    "sideProject": {
-        "name": "Side Projects"
-    },
-    "single": {
-        "name": "Non-album Singles"
-    },
-    "solo": {
-        "name": "Solo Albums"
-    },
-    "studio": {
-        "name": "Studio Albums"
-    },
-    "tribute": {
-        "name": "Tribute"
-    },
-    "variousArtists": {
-        "name": "Various Artists"
-    },
-    "video": {
-        "name": "Videos"
-    }
+    "categories": [
+        {
+            "name": "Albums",
+            "uniqueId": "album"
+        },
+        {
+            "name": "Books",
+            "uniqueId": "book"
+        },
+        {
+            "name": "Bootlegs",
+            "uniqueId": "bootleg"
+        },
+        {
+            "name": "Box Sets",
+            "uniqueId": "boxset"
+        },
+        {
+            "name": "Christmas",
+            "uniqueId": "christmas"
+        },
+        {
+            "name": "Collaborations",
+            "uniqueId": "collaboration"
+        },
+        {
+            "name": "Compilations",
+            "uniqueId": "compilation"
+        },
+        {
+            "name": "Concerts",
+            "uniqueId": "concert"
+        },
+        {
+            "name": "Copy Right Extensions",
+            "uniqueId": "digital"
+        },
+        {
+            "name": "EP",
+            "uniqueId": "ep"
+        },
+        {
+            "name": "Live Albums",
+            "uniqueId": "live"
+        },
+        {
+            "name": "Latest",
+            "uniqueId": "new"
+        },
+        {
+            "name": "Productions",
+            "uniqueId": "production"
+        },
+        {
+            "name": "Record Store Day",
+            "uniqueId": "rsd"
+        },
+        {
+            "name": "Side Projects",
+            "uniqueId": "sideProject"
+        },
+        {
+            "name": "Non-album Singles",
+            "uniqueId": "single"
+        },
+        {
+            "name": "Solo Albums",
+            "uniqueId": "solo"
+        },
+        {
+            "name": "Studio Albums",
+            "uniqueId": "studio"
+        },
+        {
+            "name": "Tribute",
+            "uniqueId": "tribute"
+        },
+        {
+            "name": "Various Artists",
+            "uniqueId": "variousArtists"
+        },
+        {
+            "name": "Videos",
+            "uniqueId": "video"
+        }
+    ]
 }

@@ -1,26 +1,36 @@
 {
-    "al_jardine": {
-        "name": "Al Jardine"
-    },
-    "brian_wilson": {
-        "name": "Brian Wilson"
-    },
-    "bruce_johnston": {
-        "name": "Bruce Johnston"
-    },
-    "carl_wilson": {
-        "name": "Carl Wilson"
-    },
-    "david_marks": {
-        "name": "David Marks"
-    },
-    "dennis_wilson": {
-        "name": "Dennis Wilson"
-    },
-    "mike_love": {
-        "name": "Mike Love"
-    },
-    "the_beach_boys": {
-        "name": "The Beach Boys"
-    }
+    "artists": [
+        {
+            "name": "Al Jardine",
+            "uniqueId": "al_jardine"
+        },
+        {
+            "name": "Brian Wilson",
+            "uniqueId": "brian_wilson"
+        },
+        {
+            "name": "Bruce Johnston",
+            "uniqueId": "bruce_johnston"
+        },
+        {
+            "name": "Carl Wilson",
+            "uniqueId": "carl_wilson"
+        },
+        {
+            "name": "David Marks",
+            "uniqueId": "david_marks"
+        },
+        {
+            "name": "Dennis Wilson",
+            "uniqueId": "dennis_wilson"
+        },
+        {
+            "name": "Mike Love",
+            "uniqueId": "mike_love"
+        },
+        {
+            "name": "The Beach Boys",
+            "uniqueId": "the_beach_boys"
+        }
+    ]
 }
