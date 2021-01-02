@@ -20,13 +20,13 @@ class Generator:
     def __init__(
         self,
         *_,
-        jsond_data_filepath: str,
+        data_dir: str,
         static_resources_dir: str,
         output_dir: str,
         templates_dir: str,
         base_url: str,
     ):
-        self.jsond_data_filepath = jsond_data_filepath
+        self.data_dir = data_dir
         self.static_resources_dir = static_resources_dir
         self.output_dir = output_dir
         self.templates_dir = templates_dir
@@ -37,8 +37,9 @@ class Generator:
 
         # Load data into memmory.
         data: dict
-        with open(self.jsond_data_filepath, "r") as jsond_data:
-            data = loads(jsond_data.read())
+        items_data_filepath: str = path.join(self.data_dir, "data.json")
+        with open(items_data_filepath, "r") as items_data:
+            data = loads(items_data.read())
 
         # Move static resources if specified.
         if self.static_resources_dir:

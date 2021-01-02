@@ -17,11 +17,11 @@ devserver:
 
 .PHONY: templates
 templates:
-	python cli.py ./js/data.json --output-dir . --templates ./templates
+	python cli.py ./js --output-dir . --templates ./templates
 
 .PHONY: templates-dev
 templates-dev:
-	python cli.py ./js/data.json \
+	python cli.py ./js \
 		--output-dir . \
 		--templates ./templates \
 		--base-url http://localhost:8000
