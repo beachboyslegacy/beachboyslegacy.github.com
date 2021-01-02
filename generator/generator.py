@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+from .categories import Categories
 from .templater import Templater
 from jinja2 import Template
 from json import loads
@@ -40,6 +41,18 @@ class Generator:
         items_data_filepath: str = path.join(self.data_dir, "data.json")
         with open(items_data_filepath, "r") as items_data:
             data = loads(items_data.read())
+
+        # We'll load artist and category data too.
+        categories_data_filepath: str = path.join(
+            self.data_dir,
+            "categories.json",
+        )
+        categories_data: Categories = Categories(categories_data_filepath)
+
+        artists_data: dict
+        artists_data_filepath: str = path.join(self.data_dir, "artists.json")
+        with open(artists_data_filepath, "r") as artists_data:
+            artists_data = loads(artists_data.read())
 
         # Move static resources if specified.
         if self.static_resources_dir:
@@ -90,7 +103,8 @@ class Generator:
         artists: dict = {}
         for item in data["items"]:
             parent: dict = item["parent"]
-            # Grab all the "true" categories.
+            # Grab all the "true" categories. We'll translate them to their
+            # "pretty" values using categories.json's data.
             item_cats: list[str] = {
                 k: v for k, v in parent["category"].items() if v
             }.keys()
@@ -166,7 +180,12 @@ class Generator:
                 parents=True,
                 exist_ok=True,
             )
-            for category_name, category_items in categories.items():
+
+            pretty_cats: dict = {
+                categories_data.pretty_name(cat) or cat: items
+                for cat, items in categories.items()
+            }
+            for category_name, category_items in pretty_cats.items():
                 print(
                     "    "
                     f"category {category_name} "
@@ -183,7 +202,7 @@ class Generator:
                         artist_name=artist_name,
                         category_name=category_name,
                         items=category_items,
-                        categories=list(categories.keys()),
+                        categories=list(pretty_cats.keys()),
                         artists=list(artists.keys()),
                         base_url=self.base_url,
                     ) for template_name, template in partials
@@ -194,7 +213,7 @@ class Generator:
                         artist_name=artist_name,
                         category_name=category_name,
                         items=category_items,
-                        categories=list(categories.keys()),
+                        categories=list(pretty_cats.keys()),
                         artists=list(artists.keys()),
                         partials=rendered_partials,
                         base_url=self.base_url,
