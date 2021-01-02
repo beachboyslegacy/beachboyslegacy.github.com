@@ -1,0 +1,65 @@
+{
+    "album": {
+        "name": "Albums"
+    },
+    "book": {
+        "name": "Books"
+    },
+    "bootleg": {
+        "name": "Bootlegs"
+    },
+    "boxset": {
+        "name": "Box Sets"
+    },
+    "christmas": {
+        "name": "Christmas"
+    },
+    "collaboration": {
+        "name": "Collaborations"
+    },
+    "compilation": {
+        "name": "Compilations"
+    },
+    "concert": {
+        "name": "Concerts"
+    },
+    "digital": {
+        "name": "Copy Right Extensions"
+    },
+    "ep": {
+        "name": "EP"
+    },
+    "live": {
+        "name": "Live Albums"
+    },
+    "new": {
+        "name": "Latest"
+    },
+    "production": {
+        "name": "Productions"
+    },
+    "rsd": {
+        "name": "Record Store Day"
+    },
+    "sideProject": {
+        "name": "Side Projects"
+    },
+    "single": {
+        "name": "Non-album Singles"
+    },
+    "solo": {
+        "name": "Solo Albums"
+    },
+    "studio": {
+        "name": "Studio Albums"
+    },
+    "tribute": {
+        "name": "Tribute"
+    },
+    "variousArtists": {
+        "name": "Various Artists"
+    },
+    "video": {
+        "name": "Videos"
+    }
+}
