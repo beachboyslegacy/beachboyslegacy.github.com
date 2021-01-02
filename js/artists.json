@@ -1,5 +1,5 @@
 {
-    "artists": [
+    "items": [
         {
             "name": "Al Jardine",
             "uniqueId": "al_jardine"
@@ -29,6 +29,7 @@
             "uniqueId": "mike_love"
         },
         {
+            "defaultCategory": "Latest",
             "name": "The Beach Boys",
             "uniqueId": "the_beach_boys"
         }
