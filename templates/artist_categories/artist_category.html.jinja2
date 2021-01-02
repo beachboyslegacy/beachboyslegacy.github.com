@@ -45,7 +45,14 @@
                     <div class="selector__current" id="current-artist"><span>The Beach Boys</span><div class="selector__icon"><webicon icon="material:arrow-drop-down"/></div></div>
                     <ul id="artist" class="selector__options clearfix">
                         {% for artist in artists %}
-                        <li id="{{artist}}" {{'class="selector__options__current"' if artist == artist_name}}>{{artist}}</li>
+                        <li
+                            id="{{artist}}"
+                            {{'class="selector__options__current"' if artist == artist_name}}
+                        >
+                            <a href="{{base_url}}/artists/{{artist}}/categories/Albums.html">
+                                {{artist}}
+                            </a>
+                        </li>
                         {% endfor %}
                     </ul>
                 </div>
@@ -95,7 +102,7 @@
                 {% for item in items%}
                     <li data-date="{{item.parent.releaseYear}}">
                         <a class="item__header" href="{{base_url}}/items/{{item.parent.uniqueId}}.html" style="background-color:{{item.parent.backgroundColor}}" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Latest\x27)">
-                        <img class="item__cover lazy" data-original="{{item.parent.image}}" alt="{{item.parent.name}} cover">
+                            <img class="item__cover lazy" src="{{base_url}}/{{item.parent.image}}" alt="{{item.parent.name}} cover">
                         <div class="item__info">
                             <h2 class="item__title">{{item.parent.name}}</h2>
                             <h3 class="item__subtitle">{{item.parent.alternateName}}</h3>
