@@ -42,10 +42,12 @@
         },
         {
             "name": "Copy Right Extensions",
+            "template": "items/album.html.jinja2",
             "uniqueId": "digital"
         },
         {
             "name": "EP",
+            "template": "items/album.html.jinja2",
             "uniqueId": "ep"
         },
         {
@@ -55,6 +57,7 @@
         },
         {
             "name": "Latest",
+            "template": "items/album.html.jinja2",
             "uniqueId": "new"
         },
         {
@@ -79,14 +82,17 @@
         },
         {
             "name": "Solo Albums",
+            "template": "items/album.html.jinja2",
             "uniqueId": "solo"
         },
         {
             "name": "Studio Albums",
+            "template": "items/album.html.jinja2",
             "uniqueId": "studio"
         },
         {
             "name": "Tribute",
+            "template": "items/album.html.jinja2",
             "uniqueId": "tribute"
         },
         {

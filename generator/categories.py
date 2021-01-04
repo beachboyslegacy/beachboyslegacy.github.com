@@ -8,9 +8,11 @@ from json import loads
 class Category:
     """Models a categories.json's category."""
 
-    def __init__(self, *_, unique_id, name):
-        self.unique_id = unique_id
-        self.name = name
+    def __init__(self, *_, unique_id, name, template):
+        self.unique_id: str = unique_id
+        self.name: str = name
+        self.template: str = template
+        self.items: list[dict] = []
 
 
 class Categories:
@@ -22,19 +24,20 @@ class Categories:
             categories_data = loads(categories_data_file.read())
 
         self.categories: set[Category] = set()
-        for category in categories_data["categories"]:
+        for category in categories_data["items"]:
             self.categories.add(Category(
                 unique_id=category["uniqueId"],
                 name=category["name"],
+                template=category["template"],
             ))
 
-    def pretty_name(self, unique_id) -> str:
-        """Attempts to return a Categorie's name if found by unique_id.
-        Otherwise, None is returned.
+    def get(self, unique_id) -> str:
+        """Attempts to return a Category if found by unique_id.  Otherwise,
+        None is returned.
 
         Arguments:
         unique_id: str -- the unique_id by which to find a category.
         """
         for category in self.categories:
             if category.unique_id == unique_id:
-                return category.name
+                return category

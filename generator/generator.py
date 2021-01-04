@@ -1,6 +1,9 @@
 from __future__ import annotations
 
+from .artists import Artist
+from .artists import Artists
 from .categories import Categories
+from .categories import Category
 from .templater import Templater
 from jinja2 import Template
 from json import loads
@@ -49,10 +52,8 @@ class Generator:
         )
         categories_data: Categories = Categories(categories_data_filepath)
 
-        artists_data: dict
         artists_data_filepath: str = path.join(self.data_dir, "artists.json")
-        with open(artists_data_filepath, "r") as artists_data:
-            artists_data = loads(artists_data.read())
+        artists: Artists = Artists(artists_data_filepath)
 
         # Move static resources if specified.
         if self.static_resources_dir:
@@ -62,28 +63,6 @@ class Generator:
         items_path: str = path.join(self.output_dir, "items")
         rmtree(items_path, ignore_errors=True)
         makedirs(items_path)
-
-        # For each item we'll generate an item view. There are various types of
-        # items, and for each we have a template. We must determine the
-        # category to which each template belongs and render the right type of
-        # template for it.
-        album_cats: list[str] = [
-            "album",
-            "collaboration",
-            "concert",
-            "live",
-            "production",
-            "sideProject",
-            "compilation",
-            "boxset",
-            "single",
-            "variousArtists",
-            "bootleg",
-            "rsd",
-            "christmas",
-        ]
-        book_cats: list[str] = ["book"]
-        video_cats: list[str] = ["video"]
 
         # We're gonig to use some templates to generate items.
         templater: Templater = Templater(self.templates_dir)
@@ -100,28 +79,19 @@ class Generator:
         rmtree(artists_path, ignore_errors=True)
         makedirs(artists_path)
 
-        artists: dict = {}
         for item in data["items"]:
             parent: dict = item["parent"]
             # Grab all the "true" categories. We'll translate them to their
             # "pretty" values using categories.json's data.
-            item_cats: list[str] = {
-                k: v for k, v in parent["category"].items() if v
-            }.keys()
+            item_cats: list[Category] = [
+                categories_data.get(category)
+                for category, applies
+                in parent["category"].items() if applies
+            ]
 
-            # We determine the template name by looking at the item's
-            # categories.
-            template: str
-            if [cat for cat in item_cats if cat in album_cats]:
-                _, template = templater.get("items/album.html.jinja2")
-            elif [cat for cat in item_cats if cat in book_cats]:
-                _, template = templater.get("items/book.html.jinja2")
-            elif [cat for cat in item_cats if cat in video_cats]:
-                _, template = templater.get("items/video.html.jinja2")
-            else:
-                raise CategoryException(
-                    f"Ivalid categories for {parent['uniqueId']}"
-                )
+            # We'll just take the first category's template. They *should* all
+            # be the same, but we wont validate that here.
+            _, template = templater.get(item_cats[0].template)
 
             # Wirte the generated template to the its item file.
             output_template_path: str = path.join(
@@ -141,36 +111,33 @@ class Generator:
                     base_url=self.base_url,
                 ))
 
-            # Set artist and extend items per artist.
+            # Let's add this category to the artist. It can be byArtist or
+            # aboutArtist depending on the nature of the item's data (i.e:
+            # album vs book).
             artist_name: str
             try:
                 artist_name = parent["byArtist"]
             except KeyError:
                 artist_name = parent["aboutArtist"]
 
-            if artist_name in artists:
-                for category in item_cats:
-                    if category in artists[artist_name]:
-                        artists[artist_name][category].append(item)
-                    else:
-                        artists[artist_name][category] = [item]
-            else:
-                artists[artist_name] = {
-                    category: [item] for category in item_cats
-                }
+            artist: Artist = artists.get(artist_name)
+            for category in item_cats:
+                # For each category, we'll add a reference to the item.
+                category.items.append(item)
+                artist.categories.add(category)
 
         # Now let's render all the artist category templates.
         _, artist_category_template = templater.get(
             "artist_categories/artist_category.html.jinja2",
         )
 
-        for artist_name, categories in artists.items():
+        for artist in artists:
             print(
-                f"Artist '{artist_name}' has "
-                f"{len(categories)} categories."
+                f"Artist '{artist.name}' has "
+                f"{len(artist.categories)} categories."
             )
 
-            # There will be one template per artist category.
+            # There will be one template per artist and category.
             output_artist_categories_dir: str = Path(path.join(
                 "artists",
                 artist_name,
@@ -181,40 +148,35 @@ class Generator:
                 exist_ok=True,
             )
 
-            pretty_cats: dict = {
-                categories_data.pretty_name(cat) or cat: items
-                for cat, items in categories.items()
-            }
-            for category_name, category_items in pretty_cats.items():
+            for category in artist.categories:
                 print(
                     "    "
-                    f"category {category_name} "
-                    f"has {len(category_items)} items."
+                    f"category {category.name} "
+                    f"has {len(category.items)} items."
                 )
 
                 output_template_path: str = Path(path.join(
                     output_artist_categories_dir,
-                    f"{category_name}.html",
+                    f"{category.name}.html",
                 ))
 
                 rendered_partials: dict = {
                     template_name: template.render(
-                        artist_name=artist_name,
-                        category_name=category_name,
-                        items=category_items,
-                        categories=list(pretty_cats.keys()),
-                        artists=list(artists.keys()),
+                        artist=artist,
+                        category=category,
+                        items=category.items,
+                        categories=artist.categories,
+                        artists=artists,
                         base_url=self.base_url,
                     ) for template_name, template in partials
                 }
 
                 with output_template_path.open("w") as output_file:
                     output_file.write(artist_category_template.render(
-                        artist_name=artist_name,
-                        category_name=category_name,
-                        items=category_items,
-                        categories=list(pretty_cats.keys()),
-                        artists=list(artists.keys()),
-                        partials=rendered_partials,
+                        artist=artist,
+                        category=category,
+                        items=category.items,
+                        categories=artist.categories,
+                        artists=artists,
                         base_url=self.base_url,
                     ))

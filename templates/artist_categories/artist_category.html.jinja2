@@ -1,8 +1,8 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <title>{{artist_name}}: {{category_name}} - Beach Boys Legacy</title>
-        <meta name="description" content="Explore {{category_name}} {{artist_name}} on Beach Boys Legacy.">
+        <title>{{artist.name}}: {{category_name}} - Beach Boys Legacy</title>
+        <meta name="description" content="Explore {{category_name}} {{artist.name}} on Beach Boys Legacy.">
 
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -15,12 +15,12 @@
         <link rel="stylesheet" type="text/css" href="{{base_url}}/css/styles.css" />
 
         <!-- For Facebook -->
-        <meta property="og:title" content="{{artist_name}}: {{category_name}} - Beach Boys Legacy"/>
-        <meta property="og:description" content="Explore {{category_name}} {{artist_name}} on Beach Boys Legacy."/>
+        <meta property="og:title" content="{{artist.name}}: {{category_name}} - Beach Boys Legacy"/>
+        <meta property="og:description" content="Explore {{category_name}} {{artist.name}} on Beach Boys Legacy."/>
 
         <!-- for Twitter -->
-        <meta name="twitter:title" content="{{artist_name}}: {{category_name}} - Beach Boys Legacy" />
-        <meta name="twitter:description" content="Explore {{category_name}} {{artist_name}} on Beach Boys Legacy." />
+        <meta name="twitter:title" content="{{artist.name}}: {{category_name}} - Beach Boys Legacy" />
+        <meta name="twitter:description" content="Explore {{category_name}} {{artist.name}} on Beach Boys Legacy." />
 
         {{partials["common_headers.html"]}}
     </head>
@@ -46,11 +46,11 @@
                     <ul id="artist" class="selector__options clearfix">
                         {% for artist in artists %}
                         <li
-                            id="{{artist}}"
-                            {{'class="selector__options__current"' if artist == artist_name}}
+                            id="{{artist.unique_id}}"
+                            {{'class="selector__options__current"' if artist == artist.name}}
                         >
-                            <a href="{{base_url}}/artists/{{artist}}/categories/Albums.html">
-                                {{artist}}
+                        <a href="{{base_url}}/artists/{{artist.unique_id}}/categories/{{artist.default_category}}.html">
+                                {{artist.name}}
                             </a>
                         </li>
                         {% endfor %}
@@ -69,7 +69,7 @@
                         >
                             <a
                                 style="text-decoration:none"
-                                href="{{base_url}}/artists/{{artist_name}}/categories/{{category}}.html"
+                                href="{{base_url}}/artists/{{artist.name}}/categories/{{category}}.html"
                             >
                                 {{category}}
                             </a>
