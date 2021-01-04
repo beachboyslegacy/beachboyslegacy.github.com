@@ -1,30 +1,37 @@
 {
     "items": [
         {
+            "defaultCategory": "Albums",
             "name": "Al Jardine",
             "uniqueId": "al_jardine"
         },
         {
+            "defaultCategory": "Albums",
             "name": "Brian Wilson",
             "uniqueId": "brian_wilson"
         },
         {
+            "defaultCategory": "Albums",
             "name": "Bruce Johnston",
             "uniqueId": "bruce_johnston"
         },
         {
+            "defaultCategory": "Albums",
             "name": "Carl Wilson",
             "uniqueId": "carl_wilson"
         },
         {
+            "defaultCategory": "Albums",
             "name": "David Marks",
             "uniqueId": "david_marks"
         },
         {
+            "defaultCategory": "Albums",
             "name": "Dennis Wilson",
             "uniqueId": "dennis_wilson"
         },
         {
+            "defaultCategory": "Albums",
             "name": "Mike Love",
             "uniqueId": "mike_love"
         },
