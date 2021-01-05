@@ -44,13 +44,12 @@
                     <div class="selector__title">Artist</div>
                     <div class="selector__current" id="current-artist"><span>The Beach Boys</span><div class="selector__icon"><webicon icon="material:arrow-drop-down"/></div></div>
                     <ul id="artist" class="selector__options clearfix">
-                        {% for artist in artists %}
+                        {% for other_artist in artists %}
                         <li
-                            id="{{artist.unique_id}}"
-                            {{'class="selector__options__current"' if artist == artist.name}}
+                            {{'class="selector__options__current"' if other_artist.name == artist.name}}
                         >
-                        <a href="{{base_url}}/artists/{{artist.unique_id}}/categories/{{artist.default_category}}.html">
-                                {{artist.name}}
+                        <a href="{{base_url}}/artists/{{other_artist.unique_id}}/categories/{{other_artist.default_category}}.html">
+                                {{other_artist.name}}
                             </a>
                         </li>
                         {% endfor %}
