@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 from .categories import Categories
+from copy import deepcopy
 from json import loads
 
 
@@ -37,7 +38,7 @@ class Artists:
                 unique_id=artist["uniqueId"],
                 name=artist["name"],
                 default_category=artist["default_category"],
-                categories=categories,
+                categories=deepcopy(categories),
             ))
 
     def get(self, name) -> str:
