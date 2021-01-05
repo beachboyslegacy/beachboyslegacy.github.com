@@ -1,6 +1,5 @@
 //Overlay Menu
 window.addEventListener("load", () => {
-    console.log("hey");
     $('#open-overlay-menu').click(function(){
         $('#overlay-menu-screen').show();
         $('.overlay-menu').animate({left: '0'});
