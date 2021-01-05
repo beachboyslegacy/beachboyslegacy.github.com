@@ -24,14 +24,24 @@ class Artist:
         self.default_category = default_category
         self.categories: Categories = categories
 
-    def get_default_category(self) -> Category:
-        """Returns a Category that should be used as default. It will be the
-        "Latest" category if there are any new items or the configured
-        "default_category" otherwise.
+    def get_default_category(
+        self,
+        preferred_category_unique_id,
+    ) -> Category:
+        """Returns a Category that should be used as default. We will try to
+        use the preferred category but only if it's non-empty. Otherwise we'll
+        use the configured default_category for this artist.
+
+        Arguments:
+        preferred_category_unique_id: Category -- unique_id of category we'll
+            try to use if it's not empty.
         """
-        latest_category: Category = self.categories.get("new")
-        if len(latest_category.items):
-            return latest_category
+        preferred_category: Category = self.categories.get(
+            preferred_category_unique_id,
+        )
+
+        if preferred_category.items:
+            return preferred_category
         else:
             return self.default_category
 
