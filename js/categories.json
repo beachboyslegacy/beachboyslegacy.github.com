@@ -1,6 +1,11 @@
 {
     "items": [
         {
+            "name": "Latest",
+            "template": "items/album.html.jinja2",
+            "uniqueId": "new"
+        },
+        {
             "name": "Albums",
             "template": "items/album.html.jinja2",
             "uniqueId": "album"
@@ -54,11 +59,6 @@
             "name": "Live Albums",
             "template": "items/album.html.jinja2",
             "uniqueId": "live"
-        },
-        {
-            "name": "Latest",
-            "template": "items/album.html.jinja2",
-            "uniqueId": "new"
         },
         {
             "name": "Productions",
