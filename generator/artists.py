@@ -73,3 +73,16 @@ class Artists:
         for artist in self.artists:
             if artist.name == name:
                 return artist
+
+    def get_all(self, category_unique_id: str) -> list[Artist]:
+        """Returns all Artists that have items in provided category.
+
+        Arguments:
+        category_unique_id: str -- Unique ID for Category that must have items
+            for the Artist to be considered.
+        """
+        return [
+            artist
+            for artist in self.artists
+            if artist.categories.get(category_unique_id).items
+        ]

@@ -178,7 +178,7 @@ class Generator:
                         category=category,
                         items=category.items,
                         categories=artist.categories.get_all(),
-                        artists=artists_data.artists,
+                        artists=artists_data.get_all(category.unique_id),
                         base_url=self.base_url,
                     ) for template_name, template in partials
                 }
@@ -189,7 +189,7 @@ class Generator:
                         category=category,
                         items=category.items,
                         categories=artist.categories.get_all(),
-                        artists=artists_data.artists,
+                        artists=artists_data.get_all(category.unique_id),
                         base_url=self.base_url,
                         partials=rendered_partials,
                     ))
