@@ -146,7 +146,7 @@ class Generator:
         for artist in artists_data.artists:
             print(
                 f"Artist '{artist.name}' has "
-                f"{len(artist.categories.categories)} categories."
+                f"{len(artist.categories.get_all())} categories."
             )
 
             # There will be one template per artist and category.
