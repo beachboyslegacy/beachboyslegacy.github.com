@@ -17,7 +17,10 @@ devserver:
 
 .PHONY: templates
 templates:
-	python cli.py ./js --output-dir . --templates ./templates
+	python cli.py ./js \
+		--output-dir . \
+		--templates ./templates \
+		--base-url https://beachboyslegacy.com
 
 .PHONY: templates-dev
 templates-dev:
