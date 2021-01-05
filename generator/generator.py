@@ -174,15 +174,6 @@ class Generator:
 
                 rendered_partials: dict = {
                     template_name: template.render(
-                        artist=artist,
-                        category=category,
-                        items=sorted(
-                            category.items,
-                            key=lambda item: item["parent"]["releaseYear"],
-                            reverse=True,
-                        ),
-                        categories=artist.categories.get_all(),
-                        artists=artists_data.get_all(category.unique_id),
                         base_url=self.base_url,
                     ) for template_name, template in partials
                 }
