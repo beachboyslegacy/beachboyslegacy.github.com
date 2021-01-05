@@ -33,9 +33,9 @@ class Artists:
         with open(artists_data_filepath, "r") as artists_data_file:
             artists_data = loads(artists_data_file.read())
 
-        self.artists: set[Artist] = set()
+        self.artists: list[Artist] = []
         for artist in artists_data["items"]:
-            self.artists.add(Artist(
+            self.artists.append(Artist(
                 unique_id=artist["uniqueId"],
                 name=artist["name"],
                 default_category=categories.get(artist["default_category"]),

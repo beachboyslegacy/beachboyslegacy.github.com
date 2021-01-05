@@ -23,9 +23,9 @@ class Categories:
         with open(categories_data_filepath, "r") as categories_data_file:
             categories_data = loads(categories_data_file.read())
 
-        self.categories: set[Category] = set()
+        self.categories: list[Category] = []
         for category in categories_data["items"]:
-            self.categories.add(Category(
+            self.categories.append(Category(
                 unique_id=category["uniqueId"],
                 name=category["name"],
                 template=category["template"],
