@@ -1,42 +1,42 @@
 {
     "items": [
         {
-            "default_category": "Albums",
+            "default_category": "album",
             "name": "Al Jardine",
             "uniqueId": "al_jardine"
         },
         {
-            "default_category": "Albums",
+            "default_category": "album",
             "name": "Brian Wilson",
             "uniqueId": "brian_wilson"
         },
         {
-            "default_category": "Albums",
+            "default_category": "album",
             "name": "Bruce Johnston",
             "uniqueId": "bruce_johnston"
         },
         {
-            "default_category": "Albums",
+            "default_category": "album",
             "name": "Carl Wilson",
             "uniqueId": "carl_wilson"
         },
         {
-            "default_category": "Albums",
+            "default_category": "album",
             "name": "David Marks",
             "uniqueId": "david_marks"
         },
         {
-            "default_category": "Albums",
+            "default_category": "album",
             "name": "Dennis Wilson",
             "uniqueId": "dennis_wilson"
         },
         {
-            "default_category": "Albums",
+            "default_category": "album",
             "name": "Mike Love",
             "uniqueId": "mike_love"
         },
         {
-            "default_category": "Latest",
+            "default_category": "new",
             "name": "The Beach Boys",
             "uniqueId": "the_beach_boys"
         }
