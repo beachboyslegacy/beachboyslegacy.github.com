@@ -22,11 +22,13 @@
         <meta name="twitter:title" content="{{artist.name}}: {{category_name}} - Beach Boys Legacy" />
         <meta name="twitter:description" content="Explore {{category_name}} {{artist.name}} on Beach Boys Legacy." />
 
+        <script src="{{base_url}}/js/overlay_menu.js"></script>
+
         {{partials["common_headers.html"]}}
     </head>
     <body>
         <div class="header clearfix">
-            <a id="open-overlay-menu" class="header__menu-icon" href="javascript:void(0)" onClick="ga('send', 'event', 'Navigation', 'click', 'Overlay Menu')"><webicon icon="material:menu"/></a>
+            <a id="open-overlay-menu" class="header__menu-icon">☰</a>
             <div class="logo">
                 <h1>Beach Boys Legacy</h1>
             </div>
@@ -48,7 +50,7 @@
                         <li
                             {{'class="selector__options__current"' if other_artist.name == artist.name}}
                         >
-                        <a href="{{base_url}}/artists/{{other_artist.unique_id}}/categories/{{other_artist.get_default_category().unique_id}}.html">
+                        <a href="{{base_url}}/artists/{{other_artist.unique_id}}/categories/{{other_artist.default_category.unique_id}}.html">
                                 {{other_artist.name}}
                             </a>
                         </li>
