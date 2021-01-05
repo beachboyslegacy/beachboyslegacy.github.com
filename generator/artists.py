@@ -52,3 +52,14 @@ class Artists:
         for artist in self.artists:
             if artist.name == name:
                 return artist
+
+    def get_default_category(self) -> Category:
+        """Returns a Category that should be used as default. It will be the
+        "Latest" category if there are any new items or the configured
+        "default_category" otherwise.
+        """
+        latest_category: Category = self.categories.get("new")
+        if len(latest_category):
+            return latest_category
+        else:
+            return self.default_category
