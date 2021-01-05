@@ -24,17 +24,6 @@ class Artist:
         self.default_category = default_category
         self.categories: Categories = categories
 
-    def get_default_category(self) -> Category:
-        """Returns a Category that should be used as default. It will be the
-        "Latest" category if there are any new items or the configured
-        "default_category" otherwise.
-        """
-        latest_category: Category = self.categories.get("new")
-        if len(latest_category.items):
-            return latest_category
-        else:
-            return self.default_category
-
 
 class Artists:
     """Models artists.json."""
