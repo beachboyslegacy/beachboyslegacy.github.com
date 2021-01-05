@@ -5,6 +5,7 @@ from .artists import Artists
 from .categories import Categories
 from .categories import Category
 from .templater import Templater
+from datetime import datetime
 from jinja2 import Template
 from json import loads
 from os import makedirs
@@ -50,10 +51,12 @@ class Generator:
             self.data_dir,
             "categories.json",
         )
-        categories_data: Categories = Categories(categories_data_filepath)
 
         artists_data_filepath: str = path.join(self.data_dir, "artists.json")
-        artists: Artists = Artists(artists_data_filepath)
+        artists_data: Artists = Artists(
+            artists_data_filepath,
+            Categories(categories_data_filepath),
+        )
 
         # Move static resources if specified.
         if self.static_resources_dir:
@@ -81,10 +84,20 @@ class Generator:
 
         for item in data["items"]:
             parent: dict = item["parent"]
+            # Let's add this category to the artist. It can be byArtist or
+            # aboutArtist depending on the nature of the item's data (i.e:
+            # album vs book).
+            artist_name: str
+            try:
+                artist_name = parent["byArtist"]
+            except KeyError:
+                artist_name = parent["aboutArtist"]
+
             # Grab all the "true" categories. We'll translate them to their
             # "pretty" values using categories.json's data.
+            artist: Artist = artists_data.get(artist_name)
             item_cats: list[Category] = [
-                categories_data.get(category)
+                artist.categories.get(category)
                 for category, applies
                 in parent["category"].items() if applies
             ]
@@ -111,30 +124,30 @@ class Generator:
                     base_url=self.base_url,
                 ))
 
-            # Let's add this category to the artist. It can be byArtist or
-            # aboutArtist depending on the nature of the item's data (i.e:
-            # album vs book).
-            artist_name: str
-            try:
-                artist_name = parent["byArtist"]
-            except KeyError:
-                artist_name = parent["aboutArtist"]
-
-            artist: Artist = artists.get(artist_name)
             for category in item_cats:
                 # For each category, we'll add a reference to the item.
                 category.items.append(item)
-                artist.categories.add(category)
+
+            # We maintain an artificial category named "Latest" that contains
+            # any item published in the last 4 years.
+            years_passed: int = (
+                datetime.today().year -
+                int(item["parent"]["releaseYear"])
+            )
+            if years_passed < 4:
+                latest_category: Category = artist.categories.get("new")
+
+                latest_category.items.append(item)
 
         # Now let's render all the artist category templates.
         _, artist_category_template = templater.get(
             "artist_categories/artist_category.html.jinja2",
         )
 
-        for artist in artists:
+        for artist in artists_data.artists:
             print(
                 f"Artist '{artist.name}' has "
-                f"{len(artist.categories)} categories."
+                f"{len(artist.categories.categories)} categories."
             )
 
             # There will be one template per artist and category.
@@ -148,7 +161,7 @@ class Generator:
                 exist_ok=True,
             )
 
-            for category in artist.categories:
+            for category in artist.categories.categories:
                 print(
                     "    "
                     f"category {category.name} "
@@ -165,8 +178,8 @@ class Generator:
                         artist=artist,
                         category=category,
                         items=category.items,
-                        categories=artist.categories,
-                        artists=artists,
+                        categories=artist.categories.categories,
+                        artists=artists_data.artists,
                         base_url=self.base_url,
                     ) for template_name, template in partials
                 }
@@ -176,7 +189,8 @@ class Generator:
                         artist=artist,
                         category=category,
                         items=category.items,
-                        categories=artist.categories,
-                        artists=artists,
+                        categories=artist.categories.categories,
+                        artists=artists_data.artists,
                         base_url=self.base_url,
+                        partials=rendered_partials,
                     ))

@@ -18,7 +18,7 @@ class Category:
 class Categories:
     """Models categories.json."""
 
-    def __init__(self, categories_data_filepath):
+    def __init__(self, categories_data_filepath: str):
         categories_data: dict
         with open(categories_data_filepath, "r") as categories_data_file:
             categories_data = loads(categories_data_file.read())

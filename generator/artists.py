@@ -2,24 +2,31 @@
 
 from __future__ import annotations
 
-from .categories import Category
+from .categories import Categories
 from json import loads
 
 
 class Artist:
     """Models a artists.json's artist."""
 
-    def __init__(self, *_, unique_id, name, default_category):
+    def __init__(
+        self,
+        *_,
+        unique_id: str,
+        name: str,
+        default_category: str,
+        categories: Categories,
+    ):
         self.unique_id = unique_id
         self.name = name
         self.default_category = default_category
-        self.categories: set[Category] = set()
+        self.categories: Categories = categories
 
 
 class Artists:
     """Models artists.json."""
 
-    def __init__(self, artists_data_filepath):
+    def __init__(self, artists_data_filepath, categories: Categories):
         artists_data: dict
         with open(artists_data_filepath, "r") as artists_data_file:
             artists_data = loads(artists_data_file.read())
@@ -30,6 +37,7 @@ class Artists:
                 unique_id=artist["uniqueId"],
                 name=artist["name"],
                 default_category=artist["default_category"],
+                categories=categories,
             ))
 
     def get(self, name) -> str:
