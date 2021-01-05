@@ -61,17 +61,17 @@
                     <div class="selector__title">Category</div>
                     <div class="selector__current" id="current-category"><span>Latest</span><div class="selector__icon"><webicon icon="material:arrow-drop-down"/></div></div>
                     <ul id="category" class="selector__options clearfix">
-                        {% for category in categories %}
+                        {% for other_category in categories %}
                         <li
-                        {% if category == category_name: %}
+                        {% if other_category.name == category.name: %}
                         class="selector__options__current"
                         {% endif %}
                         >
                             <a
                                 style="text-decoration:none"
-                                href="{{base_url}}/artists/{{artist.name}}/categories/{{category}}.html"
+                                href="{{base_url}}/artists/{{artist.unique_id}}/categories/{{other_category.unique_id}}.html"
                             >
-                                {{category}}
+                                {{other_category.name}}
                             </a>
                         </li>
                         {% endfor %}
