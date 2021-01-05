@@ -38,7 +38,7 @@ class Artists:
             self.artists.add(Artist(
                 unique_id=artist["uniqueId"],
                 name=artist["name"],
-                default_category=artist["default_category"],
+                default_category=categories.get(artist["default_category"]),
                 categories=deepcopy(categories),
             ))
 
