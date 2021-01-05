@@ -30,7 +30,7 @@ class Artist:
         "default_category" otherwise.
         """
         latest_category: Category = self.categories.get("new")
-        if len(latest_category):
+        if len(latest_category.items):
             return latest_category
         else:
             return self.default_category
