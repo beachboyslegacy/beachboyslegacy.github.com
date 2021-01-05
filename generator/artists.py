@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 from .categories import Categories
+from .categories import Category
 from copy import deepcopy
 from json import loads
 
@@ -15,7 +16,7 @@ class Artist:
         *_,
         unique_id: str,
         name: str,
-        default_category: str,
+        default_category: Category,
         categories: Categories,
     ):
         self.unique_id = unique_id
