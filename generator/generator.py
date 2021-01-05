@@ -160,7 +160,7 @@ class Generator:
                 exist_ok=True,
             )
 
-            for category in artist.categories.categories:
+            for category in artist.categories.get_all():
                 print(
                     "    "
                     f"category {category.name} "
@@ -177,7 +177,7 @@ class Generator:
                         artist=artist,
                         category=category,
                         items=category.items,
-                        categories=artist.categories.categories,
+                        categories=artist.categories.get_all(),
                         artists=artists_data.artists,
                         base_url=self.base_url,
                     ) for template_name, template in partials
@@ -188,7 +188,7 @@ class Generator:
                         artist=artist,
                         category=category,
                         items=category.items,
-                        categories=artist.categories.categories,
+                        categories=artist.categories.get_all(),
                         artists=artists_data.artists,
                         base_url=self.base_url,
                         partials=rendered_partials,
