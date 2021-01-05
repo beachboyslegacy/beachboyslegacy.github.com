@@ -93,18 +93,32 @@ class Generator:
             except KeyError:
                 artist_name = parent["aboutArtist"]
 
-            # Grab all the "true" categories. We'll translate them to their
-            # "pretty" values using categories.json's data.
+            # Grab all the "true" categories. We'll map each to a Category
+            # object to make it easier to track items.
             artist: Artist = artists_data.get(artist_name)
-            item_cats: list[Category] = [
-                artist.categories.get(category)
-                for category, applies
-                in parent["category"].items() if applies
-            ]
+            template_name: str
+            for category, applies in parent["category"].items():
+                if applies:
+                    category: Category = artist.categories.get(category)
+                    template_name = category.template
+                    category.items.append(item)
 
-            # We'll just take the first category's template. They *should* all
+            # We maintain an artificial category named "Latest" that contains
+            # any item published in the last 4 years.
+            years_passed: int = (
+                datetime.today().year -
+                int(item["parent"]["releaseYear"])
+            )
+            if years_passed < 4:
+                latest_category: Category = artist.categories.get("new")
+
+                latest_category.items.append(item)
+
+            # We'll just take the last category's template. They *should* all
             # be the same, but we wont validate that here.
-            _, template = templater.get(item_cats[0].template)
+            _, template = templater.get(
+                template_name
+            )
 
             # Wirte the generated template to the its item file.
             output_template_path: str = path.join(
@@ -124,21 +138,6 @@ class Generator:
                     base_url=self.base_url,
                 ))
 
-            for category in item_cats:
-                # For each category, we'll add a reference to the item.
-                category.items.append(item)
-
-            # We maintain an artificial category named "Latest" that contains
-            # any item published in the last 4 years.
-            years_passed: int = (
-                datetime.today().year -
-                int(item["parent"]["releaseYear"])
-            )
-            if years_passed < 4:
-                latest_category: Category = artist.categories.get("new")
-
-                latest_category.items.append(item)
-
         # Now let's render all the artist category templates.
         _, artist_category_template = templater.get(
             "artist_categories/artist_category.html.jinja2",
@@ -153,7 +152,7 @@ class Generator:
             # There will be one template per artist and category.
             output_artist_categories_dir: str = Path(path.join(
                 "artists",
-                artist_name,
+                artist.unique_id,
                 "categories",
             ))
             Path(output_artist_categories_dir).mkdir(
