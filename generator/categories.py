@@ -41,3 +41,18 @@ class Categories:
         for category in self.categories:
             if category.unique_id == unique_id:
                 return category
+
+    def get_all(self, *_, empty: bool = False) -> list[Category]:
+        """Get all categories in this class. If empty is provided true, even
+        categories with no items are returned (which is probably more organic
+        but ultimately useless most of the time).
+
+        Keyword arguments:
+        empty: bool -- Whether to return categories with no items (default
+                False).
+        """
+        return [
+            category
+            for category in self.categories
+            if len(category.items)
+        ]
