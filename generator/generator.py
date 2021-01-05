@@ -169,7 +169,7 @@ class Generator:
 
                 output_template_path: str = Path(path.join(
                     output_artist_categories_dir,
-                    f"{category.name}.html",
+                    f"{category.unique_id}.html",
                 ))
 
                 rendered_partials: dict = {
