@@ -1,6 +1,11 @@
 {
     "items": [
         {
+            "default_category": "new",
+            "name": "The Beach Boys",
+            "uniqueId": "the_beach_boys"
+        },
+        {
             "default_category": "album",
             "name": "Al Jardine",
             "uniqueId": "al_jardine"
@@ -34,11 +39,6 @@
             "default_category": "album",
             "name": "Mike Love",
             "uniqueId": "mike_love"
-        },
-        {
-            "default_category": "new",
-            "name": "The Beach Boys",
-            "uniqueId": "the_beach_boys"
         }
     ]
 }
