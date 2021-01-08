@@ -91,11 +91,6 @@
             "uniqueId": "studio"
         },
         {
-            "name": "Tribute",
-            "template": "items/album.html.jinja2",
-            "uniqueId": "tribute"
-        },
-        {
             "name": "Various Artists",
             "template": "items/album.html.jinja2",
             "uniqueId": "variousArtists"
