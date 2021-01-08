@@ -1,4 +1,3 @@
-//Overlay Menu
 window.addEventListener("load", () => {
     $('#open-overlay-menu').click(function(){
         $('#overlay-menu-screen').show();
