@@ -187,8 +187,8 @@ class Generator:
                             key=lambda item: item["parent"]["releaseYear"],
                             reverse=True,
                         ),
-                        categories=artist.categories.get_all(),
-                        artists=artists_data.get_all(category.unique_id),
+                        categories=artist.categories.categories,
+                        artists=artists_data.artists,
                         base_url=self.base_url,
                         partials=rendered_partials,
                     ))
