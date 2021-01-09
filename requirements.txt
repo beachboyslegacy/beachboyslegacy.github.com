@@ -1,4 +1,4 @@
 jinja2>=2.11.2
 markdown>=3.3.3
-minify-html>=0.4.0
+minify-html>=0.3.12
 pelican>=4.5.1
