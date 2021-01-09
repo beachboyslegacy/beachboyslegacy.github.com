@@ -8,6 +8,7 @@ from .templater import Templater
 from datetime import datetime
 from jinja2 import Template
 from json import loads
+from minify_html import minify
 from os import makedirs
 from os import path
 from pathlib import Path
@@ -132,10 +133,13 @@ class Generator:
             }
 
             with open(output_template_path, "w") as template_file:
-                template_file.write(template.render(
-                    item=item,
-                    partials=rendered_partials,
-                    base_url=self.base_url,
+                template_file.write(minify(
+                    template.render(
+                        item=item,
+                        partials=rendered_partials,
+                        base_url=self.base_url,
+                    ),
+                    minify_js=True,
                 ))
 
         # Now let's render all the artist category templates.
@@ -179,16 +183,19 @@ class Generator:
                 }
 
                 with output_template_path.open("w") as output_file:
-                    output_file.write(artist_category_template.render(
-                        artist=artist,
-                        category=category,
-                        items=sorted(
-                            category.items,
-                            key=lambda item: item["parent"]["releaseYear"],
-                            reverse=True,
+                    output_file.write(minify(
+                        artist_category_template.render(
+                            artist=artist,
+                            category=category,
+                            items=sorted(
+                                category.items,
+                                key=lambda item: item["parent"]["releaseYear"],
+                                reverse=True,
+                            ),
+                            categories=artist.categories.categories,
+                            artists=artists_data.artists,
+                            base_url=self.base_url,
+                            partials=rendered_partials,
                         ),
-                        categories=artist.categories.categories,
-                        artists=artists_data.artists,
-                        base_url=self.base_url,
-                        partials=rendered_partials,
+                        minify_js=True,
                     ))
