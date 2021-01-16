@@ -11,49 +11,9 @@
             "uniqueId": "album"
         },
         {
-            "name": "Books",
-            "template": "items/book.html.jinja2",
-            "uniqueId": "book"
-        },
-        {
-            "name": "Bootlegs",
+            "name": "Studio Albums",
             "template": "items/album.html.jinja2",
-            "uniqueId": "bootleg"
-        },
-        {
-            "name": "Box Sets",
-            "template": "items/album.html.jinja2",
-            "uniqueId": "boxset"
-        },
-        {
-            "name": "Christmas",
-            "template": "items/album.html.jinja2",
-            "uniqueId": "christmas"
-        },
-        {
-            "name": "Collaborations",
-            "template": "items/album.html.jinja2",
-            "uniqueId": "collaboration"
-        },
-        {
-            "name": "Compilations",
-            "template": "items/album.html.jinja2",
-            "uniqueId": "compilation"
-        },
-        {
-            "name": "Concerts",
-            "template": "items/album.html.jinja2",
-            "uniqueId": "concert"
-        },
-        {
-            "name": "Copy Right Extensions",
-            "template": "items/album.html.jinja2",
-            "uniqueId": "digital"
-        },
-        {
-            "name": "EP",
-            "template": "items/album.html.jinja2",
-            "uniqueId": "ep"
+            "uniqueId": "studio"
         },
         {
             "name": "Live Albums",
@@ -61,34 +21,30 @@
             "uniqueId": "live"
         },
         {
-            "name": "Productions",
+            "name": "Compilations",
             "template": "items/album.html.jinja2",
-            "uniqueId": "production"
+            "uniqueId": "compilation"
         },
         {
-            "name": "Record Store Day",
+            "name": "Box Sets",
             "template": "items/album.html.jinja2",
-            "uniqueId": "rsd"
+            "uniqueId": "boxset"
         },
         {
-            "name": "Side Projects",
+            "name": "Copyright Extensions",
             "template": "items/album.html.jinja2",
-            "uniqueId": "sideProject"
-        },
-        {
-            "name": "Non-album Singles",
-            "template": "items/album.html.jinja2",
-            "uniqueId": "single"
+            "uniqueId": "digital"
         },
         {
             "name": "Solo Albums",
             "template": "items/album.html.jinja2",
             "uniqueId": "solo"
         },
+
         {
-            "name": "Studio Albums",
+            "name": "Non-album Singles",
             "template": "items/album.html.jinja2",
-            "uniqueId": "studio"
+            "uniqueId": "single"
         },
         {
             "name": "Various Artists",
@@ -96,9 +52,54 @@
             "uniqueId": "variousArtists"
         },
         {
+            "name": "Productions",
+            "template": "items/album.html.jinja2",
+            "uniqueId": "production"
+        },
+        {
+            "name": "Collaborations",
+            "template": "items/album.html.jinja2",
+            "uniqueId": "collaboration"
+        },
+        {
+            "name": "Record Store Day",
+            "template": "items/album.html.jinja2",
+            "uniqueId": "rsd"
+        },
+        {
+            "name": "Books",
+            "template": "items/book.html.jinja2",
+            "uniqueId": "book"
+        },
+        {
             "name": "Videos",
             "template": "items/video.html.jinja2",
             "uniqueId": "video"
+        },
+        {
+            "name": "Christmas",
+            "template": "items/album.html.jinja2",
+            "uniqueId": "christmas"
+        },
+        {
+            "name": "Bootlegs",
+            "template": "items/album.html.jinja2",
+            "uniqueId": "bootleg"
+        },
+        {
+            "name": "Concerts",
+            "template": "items/album.html.jinja2",
+            "uniqueId": "concert"
+        },
+        {
+            "name": "EP",
+            "template": "items/album.html.jinja2",
+            "uniqueId": "ep"
+        },
+        {
+            "name": "Side Projects",
+            "template": "items/album.html.jinja2",
+            "uniqueId": "sideProject"
         }
     ]
 }

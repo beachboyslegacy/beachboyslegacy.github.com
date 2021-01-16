@@ -35,10 +35,9 @@
   float: left;
   padding: 0 10px;
   height: @v-unit;
-  webicon{
-    width: 2em;
-    height: @v-unit;
-  }
+  font-size: 1rem;
+  line-height: @v-unit;
+  cursor: pointer;
   &:hover{
     background: @blue-light;
   }
@@ -193,7 +192,7 @@
   z-index: 2;
   margin-bottom: .5em;
   li{
-    color: @grey;
+
     float: left;
     line-height: 32px;
     height: 32px;
@@ -205,6 +204,9 @@
     white-space: nowrap;
     &:hover{
       color: @red;
+    }
+    a{
+      color: @grey-dark;
     }
   }
 }
@@ -218,6 +220,14 @@
   &:hover{
     color: #fff;
   }
+  a{
+    color: #fff;
+  }
+}
+
+.selector__options__disabled{
+  opacity: .3;
+  pointer-events: none;
 }
 
 .selector__title{
@@ -1165,12 +1175,11 @@ display: none !important;
   padding: 0 2%;
   cursor: pointer;
   color: rgba(0,0,0,.3);
-  webicon{
-    width: 1.5em;
-    height: @v-unit;
-  }
+  font-size: 1rem;
+  line-height: @v-unit;
+  color: #fff;
   &:hover{
-    color: #fff;
+    background: rgba(255, 255, 255, 0.2);
   }
 }
 
@@ -1184,15 +1193,16 @@ display: none !important;
       padding: 0 10px;
       margin: 0;
       cursor: pointer;
-
+      color: @blue-lighter;
+      font-weight: bold;
       &.selected{
-        background: rgba(0,0,0,.3);
+        color: #fff;
         &:hover{
-          background: rgba(0,0,0,.3);
+          color: #fff;
         }
       }
       &:hover{
-        background: rgba(0,0,0,.15);
+        color: #fff;
       }
     }
   }
@@ -1267,10 +1277,13 @@ display: none !important;
 .contact-card__icon{
   display: block;
   height: 2em;
-  webicon{
-    height: 2em;
-    width: 2em;
+  svg{
+    path{
+      fill: @blue-light;
+    }
   }
+
+  font-size: 2rem;
 }
 
 .team-member-card{
