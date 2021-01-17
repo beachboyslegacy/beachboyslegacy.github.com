@@ -1,2 +1,1 @@
-items/*.html linguist-generated=true
-artists/* linguist-generated=true
+*.html linguist-generated=true
