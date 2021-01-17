@@ -26,7 +26,7 @@ window.addEventListener("load", () => {
     });
 
     $('#about-the-authors-tab').click(function(){
-        $('#about-the-authors').load('{{base_url}}/authors.html').show();
+        $('#about-the-authors').show();
     });
 
     $('#contact-tab').click(function(){

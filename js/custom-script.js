@@ -837,9 +837,9 @@ $(function(){
     $('#about-this-site').show();
   });
 
-  $('#about-the-authors-tab').click(function(){
-    $('#about-the-authors').load('authors.html').show();
-  });
+  // $('#about-the-authors-tab').click(function(){
+  //   $('#about-the-authors').load('authors.html').show();
+  // });
 
   $('#contact-tab').click(function(){
     $('#contact').show();
