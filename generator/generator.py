@@ -83,6 +83,10 @@ class Generator:
         rmtree(artists_path, ignore_errors=True)
         makedirs(artists_path)
 
+        # We'll store every item in the "all" artist, since that should contain
+        # items for all artists.
+        all_artist: Artist = artists_data.get("All")
+
         for item in data["items"]:
             parent: dict = item["parent"]
             # Let's add this category to the artist. It can be byArtist or
@@ -98,11 +102,12 @@ class Generator:
             # object to make it easier to track items.
             artist: Artist = artists_data.get(artist_name)
             template_name: str
-            for category, applies in parent["category"].items():
+            for category_id, applies in parent["category"].items():
                 if applies:
-                    category: Category = artist.categories.get(category)
+                    category: Category = artist.categories.get(category_id)
                     template_name = category.template
                     category.items.append(item)
+                    all_artist.categories.get(category_id).items.append(item)
 
             # We maintain an artificial category named "Latest" that contains
             # any item published in the last 4 years.
@@ -114,6 +119,7 @@ class Generator:
                 latest_category: Category = artist.categories.get("new")
 
                 latest_category.items.append(item)
+                all_artist.categories.get("new").items.append(item)
 
             # We'll just take the last category's template. They *should* all
             # be the same, but we wont validate that here.

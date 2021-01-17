@@ -1,6 +1,12 @@
 {
     "items": [
         {
+            "all_category": true,
+            "default_category": "studio",
+            "name": "All",
+            "uniqueId": "all"
+        },
+        {
             "default_category": "new",
             "name": "The Beach Boys",
             "uniqueId": "the_beach_boys"
@@ -35,7 +41,6 @@
             "name": "Bruce Johnston",
             "uniqueId": "bruce_johnston"
         },
-
         {
             "default_category": "album",
             "name": "David Marks",
