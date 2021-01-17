@@ -5,7 +5,7 @@ window.addEventListener("load", () => {
         $('body').addClass('disable-scrolling');
     });
 
-    $('.closeOverlayMenu').click(function(){
+    $('#close-overlay-menu').click(function(){
         $('.overlay-menu').animate({left: '-100%'});
         setTimeout(function(){
             $('#overlay-menu-screen').fadeOut();
