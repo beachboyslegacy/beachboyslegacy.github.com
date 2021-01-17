@@ -1,13 +1,3 @@
-// This function hides the overlay menu.
-function closeOverlayMenu() {
-    $('.overlay-menu').animate({left: '-100%'});
-    setTimeout(function(){
-        $('#overlay-menu-screen').fadeOut();
-    }, 100);
-
-    $('body').removeClass('disable-scrolling');
-}
-
 window.addEventListener("load", () => {
     $('#open-overlay-menu').click(function(){
         $('#overlay-menu-screen').show();
@@ -15,12 +5,13 @@ window.addEventListener("load", () => {
         $('body').addClass('disable-scrolling');
     });
 
-    $('#close-overlay-menu').click(function(){
-        closeOverlayMenu();
-    });
+    $('.closeOverlayMenu').click(function(){
+        $('.overlay-menu').animate({left: '-100%'});
+        setTimeout(function(){
+            $('#overlay-menu-screen').fadeOut();
+        }, 100);
 
-    $('#close-overlay-menu-x').click(function(){
-        closeOverlayMenu();
+        $('body').removeClass('disable-scrolling');
     });
 
     $('.overlay-menu__header__nav ul li').click(function(){
