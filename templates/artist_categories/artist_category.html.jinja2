@@ -54,7 +54,7 @@
                         <li
                             {{'class="selector__options__current"' if other_artist.name == artist.name}}
                         >
-                        <a href="{{base_url}}/artists/{{other_artist.unique_id}}/categories/{{other_artist.get_default_category(category.unique_id).unique_id}}.html">
+                        <a href="{{base_url}}/{{other_artist.path(category.unique_id)}}">
                                 {{other_artist.name}}
                             </a>
                         </li>

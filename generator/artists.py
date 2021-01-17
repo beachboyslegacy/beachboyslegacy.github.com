@@ -4,7 +4,6 @@ from __future__ import annotations
 
 from .categories import Categories
 from .categories import Category
-from copy import deepcopy
 from json import loads
 
 
@@ -16,13 +15,18 @@ class Artist:
         *_,
         unique_id: str,
         name: str,
-        default_category: Category,
-        categories: Categories,
+        default_category_id: str,
+        categories_data: dict,
     ):
         self.unique_id = unique_id
         self.name = name
-        self.default_category = default_category
-        self.categories: Categories = categories
+
+        self.categories: Categories = Categories(
+            categories_data=categories_data,
+            artist_id=self.unique_id,
+        )
+
+        self.default_category = self.categories.get(default_category_id)
 
     def get_default_category(
         self,
@@ -45,22 +49,43 @@ class Artist:
         else:
             return self.default_category
 
+    def path(self, preferred_category_unique_id=None) -> str:
+        """Returns a path to the artist, complete with its default category.
+
+        Arguments:
+        preferred_category_unique_id: str -- Unique id of category that we'd
+            want for the artist (only useful it it has any items). Otherwise,
+            we use the default category for the artist.
+        """
+        parsed_preferred_category_unique_id: str = self.get_default_category(
+            preferred_category_unique_id or self.default_category_id
+        ).unique_id
+
+        return (
+            f"artists/{self.unique_id}/"
+            f"categories/{parsed_preferred_category_unique_id}.html"
+        )
+
 
 class Artists:
     """Models artists.json."""
 
-    def __init__(self, artists_data_filepath, categories: Categories):
+    def __init__(self, artists_data_filepath, categories_data_filepath):
         artists_data: dict
         with open(artists_data_filepath, "r") as artists_data_file:
             artists_data = loads(artists_data_file.read())
+
+        categories_data: dict
+        with open(categories_data_filepath, "r") as categories_data_file:
+            categories_data = loads(categories_data_file.read())
 
         self.artists: list[Artist] = []
         for artist in artists_data["items"]:
             self.artists.append(Artist(
                 unique_id=artist["uniqueId"],
                 name=artist["name"],
-                default_category=categories.get(artist["default_category"]),
-                categories=deepcopy(categories),
+                default_category_id=artist["default_category"],
+                categories_data=categories_data,
             ))
 
     def get(self, name) -> str:

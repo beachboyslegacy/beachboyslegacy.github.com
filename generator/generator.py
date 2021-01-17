@@ -2,7 +2,6 @@ from __future__ import annotations
 
 from .artists import Artist
 from .artists import Artists
-from .categories import Categories
 from .categories import Category
 from .templater import Templater
 from datetime import datetime
@@ -56,7 +55,7 @@ class Generator:
         artists_data_filepath: str = path.join(self.data_dir, "artists.json")
         artists_data: Artists = Artists(
             artists_data_filepath,
-            Categories(categories_data_filepath),
+            categories_data_filepath,
         )
 
         # Move static resources if specified.
