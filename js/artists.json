@@ -2,7 +2,6 @@
     "items": [
         {
             "all_category": true,
-            "default_category": "studio",
             "name": "All",
             "uniqueId": "all"
         },
