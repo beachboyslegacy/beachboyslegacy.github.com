@@ -1,2 +1,2 @@
 items/*.html linguist-generated=true
-artists/*/categories/*.html linguist-generated=true
+artists/* linguist-generated=true
