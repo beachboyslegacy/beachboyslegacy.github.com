@@ -33,6 +33,11 @@ templates-dev:
 templates-reset:
 	git checkout master item artist index.html
 
+.PHONY: try-dev
+try-dev: templates-dev
+try-dev: devserver
+
+
 .PHONY: test
 test:
 	python -m unittest discover ./test
