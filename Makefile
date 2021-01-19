@@ -31,7 +31,7 @@ templates-dev:
 
 .PHONY: templates-reset
 templates-reset:
-	git checkout master item artist
+	git checkout master item artist index.html
 
 .PHONY: test
 test:
