@@ -10,6 +10,7 @@ from json import loads
 from minify_html import minify
 from os import makedirs
 from os import path
+from os import remove
 from pathlib import Path
 from shutil import copytree
 from shutil import rmtree
@@ -92,7 +93,11 @@ class Generator:
         # grab all items belonging to each artist.
         # We'll start by removing old item contents.
         artists_path: str = path.join(self.output_dir, "artist")
+        index_path: str = path.join(self.output_dir, "index.html")
         rmtree(artists_path, ignore_errors=True)
+        if path.exists(index_path):
+            remove(index_path)
+
         makedirs(artists_path)
 
         # We'll store every item in the "all" artist, since that should contain
@@ -184,7 +189,7 @@ class Generator:
                 exist_ok=True,
             )
 
-            for category in artist.categories:
+            for category in list(filter(lambda c: c.items, artist.categories)):
                 print(
                     "    "
                     f"category {category.name} "
