@@ -37,7 +37,6 @@ templates-reset:
 try-dev: templates-dev
 try-dev: devserver
 
-
 .PHONY: test
 test:
 	python -m unittest discover ./test
