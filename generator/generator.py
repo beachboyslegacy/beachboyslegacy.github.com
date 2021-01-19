@@ -190,13 +190,8 @@ class Generator:
                 exist_ok=True,
             )
 
+            # Iterate non-empty categories.
             for category in list(filter(lambda c: c.items, artist.categories)):
-                print(
-                    "    "
-                    f"category {category.name} "
-                    f"has {len(category.items)} items."
-                )
-
                 rendered_partials: dict = {
                     template_name: template.render(
                         base_url=self.base_url,
