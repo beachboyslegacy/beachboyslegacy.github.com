@@ -30,7 +30,7 @@ class Artist:
                 artist_id=self.id,
                 index=(
                     self.index and
-                    category_data["id"] == self.default_category_id
+                    category_data["id"] == default_category_id
                 ),
             )
             for category_data in categories_data["items"]

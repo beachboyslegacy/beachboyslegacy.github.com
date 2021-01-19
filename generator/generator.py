@@ -68,6 +68,7 @@ class Generator:
                         name=item["name"],
                         default_category_id=item["default_category"],
                         categories_data=categories_data,
+                        index="index" in item and item["index"],
                     )
                     for item in artists_data["items"]
                 ])
@@ -196,14 +197,13 @@ class Generator:
                     f"has {len(category.items)} items."
                 )
 
-                output_template_path: str = Path(category.path())
-
                 rendered_partials: dict = {
                     template_name: template.render(
                         base_url=self.base_url,
                     ) for template_name, template in partials
                 }
 
+                output_template_path: str = Path(category.path())
                 with output_template_path.open("w") as output_file:
                     output_file.write(minify(
                         artist_category_template.render(
