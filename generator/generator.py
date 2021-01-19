@@ -174,11 +174,6 @@ class Generator:
         )
 
         for artist in artists:
-            print(
-                f"Artist '{artist.name}' has "
-                f"{len(artist.categories)} categories."
-            )
-
             # There will be one template per artist and category.
             output_artist_categories_dir: str = Path(path.join(
                 "artist",
