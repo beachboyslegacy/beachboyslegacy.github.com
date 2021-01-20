@@ -13,6 +13,9 @@ function sortItems(order) {
     }
 
     items_list.parentNode.replaceChild(sorted_items_list, items_list);
+
+    // Try loading newly visible images now that order has changed.
+    loadVisibleImages();
 }
 
 window.addEventListener("load", () => {
