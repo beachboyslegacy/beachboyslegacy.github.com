@@ -59,11 +59,17 @@
       height: @v-unit;
       &:hover{
         color: @blue-lighter;
+        svg path{
+          fill: @blue-lighter;
+        }
       }
-      webicon{
+      svg{
         padding: 0 5px;
         width: 30px;
         height: @v-unit;
+        path{
+          fill: #fff;
+        }
       }
       span{
         line-height: @v-unit;
@@ -362,11 +368,11 @@
 
 .sorting__icon{
   display: inline-block;
-  vertical-align: bottom;
-  height: 30px;
-  webicon{
-    width: 1em;
-    height: 30px;
+  vertical-align: middle;
+  height: 12px;
+  width: 16px;
+  path{
+    fill: @blue-light;
   }
 }
 
@@ -1325,23 +1331,24 @@ display: none !important;
 .team-member-card__link{
   display: block;
   margin-bottom: .5em;
-}
-
-
-.team-member-card__icon{
-  height: 1.5em;
-  display: inline-block;
-  vertical-align: middle;
-  webicon{
-    width: 1.5em;
-    height: 1.5em;
+  &:hover{
+    .team-member-card__link__icon{
+      path{
+        fill: @blue-dark;
+      }
+    }
   }
 }
 
-.team-member-card__icon--img{
-  height: 16px;
+
+.team-member-card__link__icon{
   vertical-align: middle;
+  height: 20px;
+  path{
+    fill: @blue-light;
+  }
 }
+
 
 
 
