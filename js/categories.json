@@ -77,7 +77,7 @@
         },
         {
             "id": "christmas",
-            "name": "Christmas",
+            "name": "Christmas Albums",
             "template": "items/album.html.jinja2"
         },
         {
@@ -92,7 +92,7 @@
         },
         {
             "id": "ep",
-            "name": "EP",
+            "name": "EPs",
             "template": "items/album.html.jinja2"
         },
         {

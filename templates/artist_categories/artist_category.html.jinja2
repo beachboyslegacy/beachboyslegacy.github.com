@@ -1,8 +1,8 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <title>{{artist.name}}: {{category.name}} - Beach Boys Legacy</title>
-        <meta name="description" content="Explore {{category.name}} {{artist.name}} on Beach Boys Legacy.">
+        <title>{% if artist.name == 'All' %}The Beach Boys{% else %}{{artist.name}}{% endif %} {% if category.name == 'Latest' %}Latest Releases{% else %}{{category.name}}{% endif %} - Beach Boys Legacy</title>
+        <meta name="description" content="Explore {% if artist.name == 'All' %}The Beach Boys{% else %}{{artist.name}}{% endif %} {% if category.name == 'Latest' %}Latest Releases{% else %}{{category.name}}{% endif %} on Beach Boys Legacy.">
 
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -15,12 +15,12 @@
         <link rel="stylesheet" type="text/css" href="{{base_url}}/css/styles.css" />
 
         <!-- For Facebook -->
-        <meta property="og:title" content="{{artist.name}}: {{category.name}} - Beach Boys Legacy"/>
-        <meta property="og:description" content="Explore {{category.name}} {{artist.name}} on Beach Boys Legacy."/>
+        <meta property="og:title" content="{% if artist.name == 'All' %}The Beach Boys{% else %}{{artist.name}}{% endif %} {% if category.name == 'Latest' %}Latest Releases{% else %}{{category.name}}{% endif %} - Beach Boys Legacy"/>
+        <meta property="og:description" content="Explore {% if artist.name == 'All' %}The Beach Boys{% else %}{{artist.name}}{% endif %} {% if category.name == 'Latest' %}Latest Releases{% else %}{{category.name}}{% endif %} on Beach Boys Legacy."/>
 
         <!-- for Twitter -->
-        <meta name="twitter:title" content="{{artist.name}}: {{category.name}} - Beach Boys Legacy" />
-        <meta name="twitter:description" content="Explore {{category.name}} {{artist.name}} on Beach Boys Legacy." />
+        <meta name="twitter:title" content="{% if artist.name == 'All' %}The Beach Boys{% else %}{{artist.name}}{% endif %} {% if category.name == 'Latest' %}Latest Releases{% else %}{{category.name}}{% endif %} - Beach Boys Legacy"/>
+        <meta name="twitter:description" content="Explore {% if artist.name == 'All' %}The Beach Boys{% else %}{{artist.name}}{% endif %} {% if category.name == 'Latest' %}Latest Releases{% else %}{{category.name}}{% endif %} on Beach Boys Legacy."/>
 
         <!-- Overlay Menu -->
         <script src="{{base_url}}/js/overlay_menu.js"></script>
