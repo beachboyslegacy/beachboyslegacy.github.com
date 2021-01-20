@@ -51,7 +51,7 @@
 
                 <div class="selector">
                     <div class="selector__title">Artist</div>
-                    <div class="selector__current" id="current-artist"><span>The Beach Boys</span><div class="selector__icon"><webicon icon="material:arrow-drop-down"/></div></div>
+                    <div class="selector__current" id="current-artist"><span>{{artist.name}}</span><div class="selector__icon"><webicon icon="material:arrow-drop-down"/></div></div>
                     <ul id="artist" class="selector__options clearfix">
                         {% for other_artist in artists %}
                         <li
@@ -67,7 +67,7 @@
 
                 <div class="selector">
                     <div class="selector__title">Category</div>
-                    <div class="selector__current" id="current-category"><span>Latest</span><div class="selector__icon"><webicon icon="material:arrow-drop-down"/></div></div>
+                    <div class="selector__current" id="current-category"><span>{{category.name}}</span><div class="selector__icon"><webicon icon="material:arrow-drop-down"/></div></div>
                     <ul id="category" class="selector__options clearfix">
                         {% for other_category in categories %}
                         <li
