@@ -33,6 +33,10 @@ templates-dev:
 templates-reset:
 	git checkout master item artist index.html
 
+.PHONY: templates-stage
+templates-stage:
+	git add item artist index.html
+
 .PHONY: try-dev
 try-dev: templates-dev
 try-dev: devserver
