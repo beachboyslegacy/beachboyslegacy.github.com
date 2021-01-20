@@ -17,11 +17,33 @@ devserver:
 
 .PHONY: templates
 templates:
-	python cli.py ./js/data.json --output-dir . --templates ./templates
+	python cli.py ./js \
+		--output-dir . \
+		--templates ./templates \
+		--base-url https://beachboyslegacy.com
+
+.PHONY: templates-dev
+templates-dev:
+	python cli.py ./js \
+		--output-dir . \
+		--templates ./templates \
+		--base-url http://localhost:8000
 
 .PHONY: templates-reset
 templates-reset:
-	git checkout master items
+	git checkout master item artist index.html
+
+.PHONY: templates-stage
+templates-stage:
+	git add item artist index.html
+
+.PHONY: try-dev
+try-dev: templates-dev
+try-dev: devserver
+
+.PHONY: test
+test:
+	python -m unittest discover ./test
 
 .PHONY: build
 build: all
