@@ -7,13 +7,13 @@
 <!-- For Facebook -->
 <meta property="og:title" content="{{item["parent"]["name"]}}{% if item.parent.alternateName %}: {{item["parent"]["alternateName"]}}{% endif %}"/>
 <meta property="og:description" content="{{item["parent"]["name"]}}{% if item.parent.alternateName %}: {{item["parent"]["alternateName"]}}{% endif %}. {{item["parent"]["releaseYear"]}} book written by {{item["parent"]["author"]["name"]}}.">
-<meta property="og:image" content="https://beachboyslegacy.com/{{item["parent"]["image"]}}"/>
-<meta property="og:url" content="https://beachboyslegacy.com/items/{{item["parent"]["uniqueId"]}}"/>
+<meta property="og:image" content="{{base_url}}/{{item["parent"]["image"]}}"/>
+<meta property="og:url" content="{{base_url}}/items/{{item["parent"]["uniqueId"]}}"/>
 
 <!-- for Twitter -->
 <meta name="twitter:title" content="{{item["parent"]["name"]}}{% if item.parent.alternateName %}: {{item["parent"]["alternateName"]}}{% endif %}" />
 <meta name="twitter:description" content="{{item["parent"]["name"]}}{% if item.parent.alternateName %}: {{item["parent"]["alternateName"]}}{% endif %}. {{item["parent"]["releaseYear"]}} book written by {{item["parent"]["author"]["name"]}}.">
-<meta name="twitter:image" content="https://beachboyslegacy.com/{{item["parent"]["image"]}}" />
+<meta name="twitter:image" content="{{base_url}}/{{item["parent"]["image"]}}" />
 
 {{partials["common_headers.html"]}}
 
