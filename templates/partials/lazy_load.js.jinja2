@@ -22,17 +22,7 @@ function loadVisibleImages() {
         .forEach(img => img.src = img.dataset.src);
 }
 
-// Find all unloaded lazy images and show preloader.
-function loadPreloaders() {
-    const lazyImages = [
-        ...document.getElementsByTagName("img")
-    ].filter(img => !img.src && img.hasAttribute("data-src"));
-
-    lazyImages.forEach(img => img.src = "{{base_url}}/assets/preloader.gif");
-}
-
 window.addEventListener("load", () => {
-    loadPreloaders();
     loadVisibleImages();
 
     // Try loading newly visible images when scrolling.
