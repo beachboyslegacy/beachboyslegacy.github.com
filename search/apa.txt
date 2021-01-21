@@ -1,2 +1,2 @@
-apache-maitreya-kali
-falling-apart-emile-haynie
+item/apache-maitreya-kali.html
+item/falling-apart-emile-haynie.html

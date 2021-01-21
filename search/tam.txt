@@ -1,2 +1,2 @@
-tammy-wynette-remembered
-help-me-tampa
+item/tammy-wynette-remembered.html
+item/help-me-tampa.html

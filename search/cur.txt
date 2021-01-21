@@ -1,3 +1,3 @@
-curious-george-2-follow-that-monkey
-bw-boats-against-the-current
-bj-boats-against-the-current
+item/curious-george-2-follow-that-monkey.html
+item/bw-boats-against-the-current.html
+item/bj-boats-against-the-current.html

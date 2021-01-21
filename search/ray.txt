@@ -1,1 +1,1 @@
-vintage-rays-sunrays
+item/vintage-rays-sunrays.html

@@ -1,8 +1,8 @@
-trios-rob-wasserman
-abba-a-tribute-the-25th-anniversary-celebration
-dennis-wilson-only-with-you
-cw-hat-trick-america
-bj-hat-trick-america
-an-all-star-tribute-to-brian-wilson
-musicares-a-tribute-to-brian-wilson
-yasuki-nakayama-a-tribute-to-the-beach-boys-summer-days
+item/trios-rob-wasserman.html
+item/abba-a-tribute-the-25th-anniversary-celebration.html
+item/dennis-wilson-only-with-you.html
+item/cw-hat-trick-america.html
+item/bj-hat-trick-america.html
+item/an-all-star-tribute-to-brian-wilson.html
+item/musicares-a-tribute-to-brian-wilson.html
+item/yasuki-nakayama-a-tribute-to-the-beach-boys-summer-days.html

@@ -1,5 +1,5 @@
-stars-and-stripes-vol-1
-20-christmas-stars-iii
-boogie-bands-and-one-night-stands
-bo-diddleys-all-star-jam
-live-from-michigan-state-university
+item/stars-and-stripes-vol-1.html
+item/20-christmas-stars-iii.html
+item/boogie-bands-and-one-night-stands.html
+item/bo-diddleys-all-star-jam.html
+item/live-from-michigan-state-university.html

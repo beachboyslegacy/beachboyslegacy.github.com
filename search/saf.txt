@@ -1,5 +1,5 @@
-surfin-safari
-surfin-safari-rsd
-surfin-safari-lp
-surfin-safari-ariola
-surfin-safari-trip
+item/surfin-safari.html
+item/surfin-safari-rsd.html
+item/surfin-safari-lp.html
+item/surfin-safari-ariola.html
+item/surfin-safari-trip.html

@@ -1,2 +1,2 @@
-rock-n-roll-to-the-rescue
-rock-n-roll-to-the-rescue-beach-party
+item/rock-n-roll-to-the-rescue.html
+item/rock-n-roll-to-the-rescue-beach-party.html

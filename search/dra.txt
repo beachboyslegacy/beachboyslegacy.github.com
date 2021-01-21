@@ -1,8 +1,8 @@
-drag-city-jan-and-dean-single
-bw-drag-city-jan-and-dean
-cw-drag-city-jan-and-dean
-dw-drag-city-jan-and-dean
-ml-drag-city-jan-and-dean
-aj-drag-city-jan-and-dean
-surf-and-drag-vol-1
-all-the-hits-from-surf-city-to-drag-city
+item/drag-city-jan-and-dean-single.html
+item/bw-drag-city-jan-and-dean.html
+item/cw-drag-city-jan-and-dean.html
+item/dw-drag-city-jan-and-dean.html
+item/ml-drag-city-jan-and-dean.html
+item/aj-drag-city-jan-and-dean.html
+item/surf-and-drag-vol-1.html
+item/all-the-hits-from-surf-city-to-drag-city.html

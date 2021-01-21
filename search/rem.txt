@@ -1,4 +1,4 @@
-tammy-wynette-remembered
-edward-wincentsen-denny-remembered
-denny-remembered-vol-1
-denny-remembered-vol-2
+item/tammy-wynette-remembered.html
+item/edward-wincentsen-denny-remembered.html
+item/denny-remembered-vol-1.html
+item/denny-remembered-vol-2.html

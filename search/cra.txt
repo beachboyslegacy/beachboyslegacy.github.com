@@ -1,4 +1,4 @@
-orange-crate-art
-orange-crate-instrumentals
-crazy-from-the-heat
-crank-it-up-jeff-foxworthy
+item/orange-crate-art.html
+item/orange-crate-instrumentals.html
+item/crazy-from-the-heat.html
+item/crank-it-up-jeff-foxworthy.html

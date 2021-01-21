@@ -1,4 +1,4 @@
-brian-wilson-imagination
-brian-wilson-imagination-documentary
-your-imagination-acapella
-live-imagination
+item/brian-wilson-imagination.html
+item/brian-wilson-imagination-documentary.html
+item/your-imagination-acapella.html
+item/live-imagination.html

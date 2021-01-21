@@ -1,5 +1,5 @@
-love-and-mercy
-music-from-love-and-mercy-rsd
-walking-down-the-path-of-life
-merry-xmas-cs
-merry-christmas-from-the-beach-boys
+item/love-and-mercy.html
+item/music-from-love-and-mercy-rsd.html
+item/walking-down-the-path-of-life.html
+item/merry-xmas-cs.html
+item/merry-christmas-from-the-beach-boys.html

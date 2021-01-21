@@ -1,3 +1,3 @@
-rock-and-other-four-letter-words
-cw-caribou-elton-john
-bj-caribou-elton-john
+item/rock-and-other-four-letter-words.html
+item/cw-caribou-elton-john.html
+item/bj-caribou-elton-john.html

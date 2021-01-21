@@ -1,2 +1,2 @@
-celebration-almost-summer
-bw-celebration-almost-summer
+item/celebration-almost-summer.html
+item/bw-celebration-almost-summer.html

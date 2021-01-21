@@ -1,6 +1,6 @@
-looking-back-with-love-be-my-baby
-charles-granata-wouldnt-it-be-nice
-be-true-to-your-school
-wouldnt-it-be-nice-live
-wouldnt-it-be-nice-downunder-1978
-wouldnt-he-be-nice-guy
+item/looking-back-with-love-be-my-baby.html
+item/charles-granata-wouldnt-it-be-nice.html
+item/be-true-to-your-school.html
+item/wouldnt-it-be-nice-live.html
+item/wouldnt-it-be-nice-downunder-1978.html
+item/wouldnt-he-be-nice-guy.html

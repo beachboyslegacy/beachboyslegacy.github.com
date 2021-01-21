@@ -1,1 +1,1 @@
-capitol-punishment
+item/capitol-punishment.html

@@ -1,5 +1,5 @@
-bw-warm-waters-charles-lloyd
-cw-warm-waters-charles-lloyd
-ml-warm-waters-charles-lloyd
-aj-warm-waters-charles-lloyd
-cool-cool-water
+item/bw-warm-waters-charles-lloyd.html
+item/cw-warm-waters-charles-lloyd.html
+item/ml-warm-waters-charles-lloyd.html
+item/aj-warm-waters-charles-lloyd.html
+item/cool-cool-water.html

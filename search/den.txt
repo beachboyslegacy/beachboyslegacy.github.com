@@ -1,5 +1,5 @@
-edward-wincentsen-denny-remembered
-john-stebbins-dennis-wilson-the-real-beach-boy
-max-harrick-shenk-meeting-dennis-wilson
-denny-remembered-vol-1
-denny-remembered-vol-2
+item/edward-wincentsen-denny-remembered.html
+item/john-stebbins-dennis-wilson-the-real-beach-boy.html
+item/max-harrick-shenk-meeting-dennis-wilson.html
+item/denny-remembered-vol-1.html
+item/denny-remembered-vol-2.html

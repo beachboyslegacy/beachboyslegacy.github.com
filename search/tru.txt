@@ -1,3 +1,3 @@
-be-true-to-your-school
-dream-comes-true
-a-dream-come-true
+item/be-true-to-your-school.html
+item/dream-comes-true.html
+item/a-dream-come-true.html

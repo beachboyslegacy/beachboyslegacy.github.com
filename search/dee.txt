@@ -1,2 +1,2 @@
-deep-sea-treasures-vol-1
-deep-sea-treasures-vol-2
+item/deep-sea-treasures-vol-1.html
+item/deep-sea-treasures-vol-2.html

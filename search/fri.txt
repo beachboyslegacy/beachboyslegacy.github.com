@@ -1,8 +1,8 @@
-friends
-brian-wilson-and-friends
-a-tribute-to-garth-brooks-new-friends-in-low-places
-new-music-from-an-old-friend
-brian-wilson-and-friends-bluray
-friends-a-capella
-the-beach-boys-and-friends
-harmony-friends
+item/friends.html
+item/brian-wilson-and-friends.html
+item/a-tribute-to-garth-brooks-new-friends-in-low-places.html
+item/new-music-from-an-old-friend.html
+item/brian-wilson-and-friends-bluray.html
+item/friends-a-capella.html
+item/the-beach-boys-and-friends.html
+item/harmony-friends.html

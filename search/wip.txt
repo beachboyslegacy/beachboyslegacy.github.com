@@ -1,1 +1,1 @@
-wipe-out-wave
+item/wipe-out-wave.html

@@ -1,2 +1,2 @@
-view-from-the-ground-america
-grief-never-grows-old
+item/view-from-the-ground-america.html
+item/grief-never-grows-old.html

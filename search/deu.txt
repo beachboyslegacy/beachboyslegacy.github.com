@@ -1,1 +1,1 @@
-little-deuce-coupe
+item/little-deuce-coupe.html

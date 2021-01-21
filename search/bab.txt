@@ -1,4 +1,4 @@
-looking-back-with-love-be-my-baby
-yes-sir-thats-my-baby
-dont-worry-baby-everly-brothers
-beach-with-ya-baby
+item/looking-back-with-love-be-my-baby.html
+item/yes-sir-thats-my-baby.html
+item/dont-worry-baby-everly-brothers.html
+item/beach-with-ya-baby.html

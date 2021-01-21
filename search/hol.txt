@@ -1,8 +1,8 @@
-holland
-jdrf-hope-for-the-holidays
-ml-jdrf-hope-for-the-holidays
-peter-hollens-our-special-love
-holy-man
-hold-me
-1963-10-19-hollywood
-hold-on-brothers
+item/holland.html
+item/jdrf-hope-for-the-holidays.html
+item/ml-jdrf-hope-for-the-holidays.html
+item/peter-hollens-our-special-love.html
+item/holy-man.html
+item/hold-me.html
+item/1963-10-19-hollywood.html
+item/hold-on-brothers.html

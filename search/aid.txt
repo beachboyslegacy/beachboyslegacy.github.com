@@ -1,2 +1,2 @@
-farm-aid-volume-one-live
-live-aid-live-1985
+item/farm-aid-volume-one-live.html
+item/live-aid-live-1985.html

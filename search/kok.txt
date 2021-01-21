@@ -1,2 +1,2 @@
-kokomo-spanish-version
-santas-goin-to-kokomo
+item/kokomo-spanish-version.html
+item/santas-goin-to-kokomo.html

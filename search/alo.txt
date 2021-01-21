@@ -1,4 +1,4 @@
-celebrate-the-three-dog-night-story
-alone-on-christmas-day
-time-to-get-alone-silver
-aloha-from-hawaii-and-hollywood
+item/celebrate-the-three-dog-night-story.html
+item/alone-on-christmas-day.html
+item/time-to-get-alone-silver.html
+item/aloha-from-hawaii-and-hollywood.html

@@ -1,5 +1,5 @@
-bw-the-monkeys-uncle
-cw-the-monkeys-uncle
-dw-the-monkeys-uncle
-ml-the-monkeys-uncle
-aj-the-monkeys-uncle
+item/bw-the-monkeys-uncle.html
+item/cw-the-monkeys-uncle.html
+item/dw-the-monkeys-uncle.html
+item/ml-the-monkeys-uncle.html
+item/aj-the-monkeys-uncle.html

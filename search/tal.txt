@@ -1,2 +1,2 @@
-arctic-tale
-brian-wilson-a-beach-boys-tale
+item/arctic-tale.html
+item/brian-wilson-a-beach-boys-tale.html

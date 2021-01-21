@@ -1,4 +1,4 @@
-the-hot-doggers-surfin-usa
-surfing-usa-featuring-the-hits-of-the-beach-boys
-beach-boys-vol-1-live-usa
-beach-boys-vol-2-live-usa
+item/the-hot-doggers-surfin-usa.html
+item/surfing-usa-featuring-the-hits-of-the-beach-boys.html
+item/beach-boys-vol-1-live-usa.html
+item/beach-boys-vol-2-live-usa.html

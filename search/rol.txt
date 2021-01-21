@@ -1,4 +1,4 @@
-rock-and-roll-music
-rock-n-roll-to-the-rescue
-rock-n-roll-to-the-rescue-beach-party
-together-live-at-the-rock-hall
+item/rock-and-roll-music.html
+item/rock-n-roll-to-the-rescue.html
+item/rock-n-roll-to-the-rescue-beach-party.html
+item/together-live-at-the-rock-hall.html

@@ -1,3 +1,3 @@
-the-moon-without-earth
-smile-the-early-years
-too-early-to-tell
+item/the-moon-without-earth.html
+item/smile-the-early-years.html
+item/too-early-to-tell.html

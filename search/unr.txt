@@ -1,4 +1,4 @@
-ccs-vol-3
-ccs-vol-5
-unreleased-gems
-landlocked-the-unreleased-1970-album-capital
+item/ccs-vol-3.html
+item/ccs-vol-5.html
+item/unreleased-gems.html
+item/landlocked-the-unreleased-1970-album-capital.html

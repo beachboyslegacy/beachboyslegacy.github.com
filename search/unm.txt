@@ -1,2 +1,2 @@
-ml-legendary-masked-surfer-unmasked
-ccs-vol-6
+item/ml-legendary-masked-surfer-unmasked.html
+item/ccs-vol-6.html

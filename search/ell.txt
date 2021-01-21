@@ -1,2 +1,2 @@
-cw-cass-elliot-mama-cass
-bj-cass-elliot-mama-cass
+item/cw-cass-elliot-mama-cass.html
+item/bj-cass-elliot-mama-cass.html

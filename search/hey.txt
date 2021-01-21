@@ -1,6 +1,6 @@
-the-rip-chords-hey-little-cobra
-cw-hey-santa-carnie-and-wendy
-bw-hey-santa-carnie-and-wendy
-ml-hey-santa-carnie-and-wendy
-aj-hey-santa-carnie-and-wendy
-hey-little-tomboy
+item/the-rip-chords-hey-little-cobra.html
+item/cw-hey-santa-carnie-and-wendy.html
+item/bw-hey-santa-carnie-and-wendy.html
+item/ml-hey-santa-carnie-and-wendy.html
+item/aj-hey-santa-carnie-and-wendy.html
+item/hey-little-tomboy.html

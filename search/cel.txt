@@ -1,4 +1,4 @@
-celebration
-disco-celebration
-celebration-big-sur-folk-festival-monterey-1970
-sam-night-the-celebrity-411-spotlight-on-brian-wilson
+item/celebration.html
+item/disco-celebration.html
+item/celebration-big-sur-folk-festival-monterey-1970.html
+item/sam-night-the-celebrity-411-spotlight-on-brian-wilson.html

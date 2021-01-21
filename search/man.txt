@@ -1,3 +1,3 @@
-a-woman-and-a-man-belinda-carlisle
-vertical-man-ringo-starr
-holy-man
+item/a-woman-and-a-man-belinda-carlisle.html
+item/vertical-man-ringo-starr.html
+item/holy-man.html

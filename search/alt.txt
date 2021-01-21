@@ -1,2 +1,2 @@
-the-alternative-smile-collection
-alternative-pet-sounds
+item/the-alternative-smile-collection.html
+item/alternative-pet-sounds.html

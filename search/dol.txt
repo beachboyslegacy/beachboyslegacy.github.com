@@ -1,2 +1,2 @@
-marks-clifford-band-live-blue-dolphin
-living-doll
+item/marks-clifford-band-live-blue-dolphin.html
+item/living-doll.html

@@ -1,2 +1,2 @@
-the-absolute-best-vol-1
-the-absolute-best-vol-2
+item/the-absolute-best-vol-1.html
+item/the-absolute-best-vol-2.html

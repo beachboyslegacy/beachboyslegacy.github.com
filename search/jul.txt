@@ -1,2 +1,2 @@
-fourth-of-july
-ml-fourth-of-july
+item/fourth-of-july.html
+item/ml-fourth-of-july.html

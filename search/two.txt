@@ -1,2 +1,2 @@
-two-rooms
-the-search-for-everything-wave-two-john-mayer
+item/two-rooms.html
+item/the-search-for-everything-wave-two-john-mayer.html

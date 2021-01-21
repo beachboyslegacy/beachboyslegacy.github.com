@@ -1,1 +1,1 @@
-barefoot-adventure-pendletones
+item/barefoot-adventure-pendletones.html

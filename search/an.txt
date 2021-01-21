@@ -1,6 +1,6 @@
-new-music-from-an-old-friend
-an-american-band
-the-beach-boys-an-american-family
-an-all-star-tribute-to-brian-wilson
-keep-an-eye-on-summer-sessions-1964
-an-evening-with-pet-sounds
+item/new-music-from-an-old-friend.html
+item/an-american-band.html
+item/the-beach-boys-an-american-family.html
+item/an-all-star-tribute-to-brian-wilson.html
+item/keep-an-eye-on-summer-sessions-1964.html
+item/an-evening-with-pet-sounds.html

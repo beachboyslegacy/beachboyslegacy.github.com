@@ -1,5 +1,5 @@
-a-postcard-from-california
-a-postcard-from-california-rsd
-bw-a-postcard-from-california
-cw-a-postcard-from-california
-ml-a-postcard-from-california
+item/a-postcard-from-california.html
+item/a-postcard-from-california-rsd.html
+item/bw-a-postcard-from-california.html
+item/cw-a-postcard-from-california.html
+item/ml-a-postcard-from-california.html

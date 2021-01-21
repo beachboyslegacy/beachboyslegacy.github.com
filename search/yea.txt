@@ -1,6 +1,6 @@
-david-marks-the-lost-years
-the-capitol-years
-ten-years-of-harmony
-25-years-of-good-vibrations
-best-of-the-brother-years
-smile-the-early-years
+item/david-marks-the-lost-years.html
+item/the-capitol-years.html
+item/ten-years-of-harmony.html
+item/25-years-of-good-vibrations.html
+item/best-of-the-brother-years.html
+item/smile-the-early-years.html

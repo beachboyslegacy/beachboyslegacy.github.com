@@ -1,2 +1,2 @@
-arctic-tale
-archaeology
+item/arctic-tale.html
+item/archaeology.html

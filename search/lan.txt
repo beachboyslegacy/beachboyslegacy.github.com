@@ -1,8 +1,8 @@
-landlocked-brother
-landlocked-polyphone
-landlocked-9009
-landlocked-the-last-capitol-album
-landlocked-adult-child-pegboy
-landlocked-adult-child-frontline
-landlocked-the-unreleased-1970-album-capital
-landylocked
+item/landlocked-brother.html
+item/landlocked-polyphone.html
+item/landlocked-9009.html
+item/landlocked-the-last-capitol-album.html
+item/landlocked-adult-child-pegboy.html
+item/landlocked-adult-child-frontline.html
+item/landlocked-the-unreleased-1970-album-capital.html
+item/landylocked.html

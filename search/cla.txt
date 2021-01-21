@@ -1,5 +1,5 @@
-beach-music-classics
-pet-sounds-classic-album
-classics-selected-by-brian-wilson
-hurry-up-hurry-up-santa-claus
-classic-airwaves
+item/beach-music-classics.html
+item/pet-sounds-classic-album.html
+item/classics-selected-by-brian-wilson.html
+item/hurry-up-hurry-up-santa-claus.html
+item/classic-airwaves.html

@@ -1,1 +1,1 @@
-my-buddy-seat
+item/my-buddy-seat.html

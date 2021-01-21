@@ -1,6 +1,6 @@
-the-surfer-moon-humpty-dumpty
-guess-im-dumb-glen-campbell
-bw-guess-im-dumb-glen-campbell
-domenic-priore-the-dumb-angel-gazette
-domenic-priore-the-dumb-angel-gazette-potpourri
-adam-webb-dumb-angel
+item/the-surfer-moon-humpty-dumpty.html
+item/guess-im-dumb-glen-campbell.html
+item/bw-guess-im-dumb-glen-campbell.html
+item/domenic-priore-the-dumb-angel-gazette.html
+item/domenic-priore-the-dumb-angel-gazette-potpourri.html
+item/adam-webb-dumb-angel.html

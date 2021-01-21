@@ -1,2 +1,2 @@
-aj-acoustic-vibrations-surf-city-allstars
-dm-acoustic-vibrations-surf-city-allstars
+item/aj-acoustic-vibrations-surf-city-allstars.html
+item/dm-acoustic-vibrations-surf-city-allstars.html

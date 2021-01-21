@@ -1,3 +1,3 @@
-two-rooms
-rooted-in-peace
-in-my-room-iu
+item/two-rooms.html
+item/rooted-in-peace.html
+item/in-my-room-iu.html

@@ -1,4 +1,4 @@
-somewhere-near-japan-edit
-live-in-japan-1966
-japan-jam-79
-live-in-japan-66
+item/somewhere-near-japan-edit.html
+item/live-in-japan-1966.html
+item/japan-jam-79.html
+item/live-in-japan-66.html

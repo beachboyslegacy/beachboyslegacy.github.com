@@ -1,7 +1,7 @@
-that-lucky-old-sun
-new-music-from-an-old-friend
-grief-never-grows-old
-brian-wilson-that-lucky-old-sun
-he-couldnt-get-his-poor-old-body-to-move
-old-vibrations
-that-lucky-old-sun-live
+item/that-lucky-old-sun.html
+item/new-music-from-an-old-friend.html
+item/grief-never-grows-old.html
+item/brian-wilson-that-lucky-old-sun.html
+item/he-couldnt-get-his-poor-old-body-to-move.html
+item/old-vibrations.html
+item/that-lucky-old-sun-live.html

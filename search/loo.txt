@@ -1,2 +1,2 @@
-looking-back-with-love
-bw-looking-back-with-love
+item/looking-back-with-love.html
+item/bw-looking-back-with-love.html

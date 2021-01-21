@@ -1,2 +1,2 @@
-journals-part-1
-journals-part-2
+item/journals-part-1.html
+item/journals-part-2.html

@@ -1,5 +1,5 @@
-cw-mixed-messages-billy-hinsche
-ml-mixed-messages-billy-hinsche
-aj-mixed-messages-billy-hinsche
-bj-mixed-messages-billy-hinsche
-brians-christmas-message
+item/cw-mixed-messages-billy-hinsche.html
+item/ml-mixed-messages-billy-hinsche.html
+item/aj-mixed-messages-billy-hinsche.html
+item/bj-mixed-messages-billy-hinsche.html
+item/brians-christmas-message.html

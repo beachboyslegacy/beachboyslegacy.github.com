@@ -1,5 +1,5 @@
-brian-wilson-in-the-key-of-disney
-disco-celebration
-california-music-and-disney-girls
-rarities-on-compact-disc-vol-1
-rarities-on-compact-disc-vol-2
+item/brian-wilson-in-the-key-of-disney.html
+item/disco-celebration.html
+item/california-music-and-disney-girls.html
+item/rarities-on-compact-disc-vol-1.html
+item/rarities-on-compact-disc-vol-2.html

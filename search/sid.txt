@@ -1,4 +1,4 @@
-12-sides-of-summer
-mark-dillon-fifty-sides-of-the-beach-boys
-bb-the-other-sides-of-the-beach-boys
-ml-the-other-sides-of-the-beach-boys
+item/12-sides-of-summer.html
+item/mark-dillon-fifty-sides-of-the-beach-boys.html
+item/bb-the-other-sides-of-the-beach-boys.html
+item/ml-the-other-sides-of-the-beach-boys.html

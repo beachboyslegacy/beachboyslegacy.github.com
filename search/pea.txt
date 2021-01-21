@@ -1,4 +1,4 @@
-rooted-in-peace
-a-world-of-peace-must-come
-a-world-of-peace-must-come-rsd
-bw-a-world-of-peace-must-come
+item/rooted-in-peace.html
+item/a-world-of-peace-must-come.html
+item/a-world-of-peace-must-come-rsd.html
+item/bw-a-world-of-peace-must-come.html

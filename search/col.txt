@@ -1,8 +1,8 @@
-capitol-collectors-series-honeys
-the-honeys-collection
-the-world-is-getting-colder-old-sand-mill
-us-singles-collection-the-capitol-years-1962-1965
-the-complete-collection-of-california-music
-the-alternative-smile-collection
-the-golden-collection
-for-collectors-only
+item/capitol-collectors-series-honeys.html
+item/the-honeys-collection.html
+item/the-world-is-getting-colder-old-sand-mill.html
+item/us-singles-collection-the-capitol-years-1962-1965.html
+item/the-complete-collection-of-california-music.html
+item/the-alternative-smile-collection.html
+item/the-golden-collection.html
+item/for-collectors-only.html

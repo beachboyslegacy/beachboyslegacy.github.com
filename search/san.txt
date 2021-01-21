@@ -1,6 +1,6 @@
-cw-hey-santa-carnie-and-wendy
-bw-hey-santa-carnie-and-wendy
-ml-hey-santa-carnie-and-wendy
-aj-hey-santa-carnie-and-wendy
-stephen-mcparland-smile-sun-pet-sounds
-hurry-up-hurry-up-santa-claus
+item/cw-hey-santa-carnie-and-wendy.html
+item/bw-hey-santa-carnie-and-wendy.html
+item/ml-hey-santa-carnie-and-wendy.html
+item/aj-hey-santa-carnie-and-wendy.html
+item/stephen-mcparland-smile-sun-pet-sounds.html
+item/hurry-up-hurry-up-santa-claus.html

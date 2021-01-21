@@ -1,4 +1,4 @@
-that-lucky-old-sun
-brian-wilson-that-lucky-old-sun
-all-this-is-that-sea-of-tunes
-that-lucky-old-sun-live
+item/that-lucky-old-sun.html
+item/brian-wilson-that-lucky-old-sun.html
+item/all-this-is-that-sea-of-tunes.html
+item/that-lucky-old-sun-live.html

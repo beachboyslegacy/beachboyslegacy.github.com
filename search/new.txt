@@ -1,8 +1,8 @@
-the-association-new-memories
-a-tribute-to-garth-brooks-new-friends-in-low-places
-new-music-from-an-old-friend
-dead-mans-curve-the-new-girl-in-school
-new-arrangement-jackie-deshannon
-break-away-celebrate-the-news
-the-new-album-cs
-live-at-syracuse-1971
+item/the-association-new-memories.html
+item/a-tribute-to-garth-brooks-new-friends-in-low-places.html
+item/new-music-from-an-old-friend.html
+item/dead-mans-curve-the-new-girl-in-school.html
+item/new-arrangement-jackie-deshannon.html
+item/break-away-celebrate-the-news.html
+item/the-new-album-cs.html
+item/live-at-syracuse-1971.html

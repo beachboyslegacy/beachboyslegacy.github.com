@@ -1,2 +1,2 @@
-george-fest-the-music-of-george-harrison
-live-at-the-royal-festival-hall
+item/george-fest-the-music-of-george-harrison.html
+item/live-at-the-royal-festival-hall.html

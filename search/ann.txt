@@ -1,4 +1,4 @@
-barbara-ann
-30th-anniversary-show
-50th-anniversary-in-london
-an-evening-with-pet-sounds
+item/barbara-ann.html
+item/30th-anniversary-show.html
+item/50th-anniversary-in-london.html
+item/an-evening-with-pet-sounds.html

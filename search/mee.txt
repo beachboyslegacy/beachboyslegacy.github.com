@@ -1,6 +1,6 @@
-max-harrick-shenk-meeting-dennis-wilson
-east-meets-west
-meet-the-grateful-dead
-the-beach-boys-meet-the-grateful-dead
-grateful-dead-meets-the-beach-boys
-the-beach-boys-meets-grateful-dead
+item/max-harrick-shenk-meeting-dennis-wilson.html
+item/east-meets-west.html
+item/meet-the-grateful-dead.html
+item/the-beach-boys-meet-the-grateful-dead.html
+item/grateful-dead-meets-the-beach-boys.html
+item/the-beach-boys-meets-grateful-dead.html

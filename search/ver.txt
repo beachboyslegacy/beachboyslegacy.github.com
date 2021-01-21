@@ -1,2 +1,2 @@
-vertical-man-ringo-starr
-the-very-best-of-the-beach-boys
+item/vertical-man-ringo-starr.html
+item/the-very-best-of-the-beach-boys.html

@@ -1,6 +1,6 @@
-all-summer-long
-all-the-hits-from-surf-city-to-drag-city
-bo-diddleys-all-star-jam
-brian-chidester-domenic-priore-all-summer-long
-all-summer-long-triangle
-all-this-is-that-sea-of-tunes
+item/all-summer-long.html
+item/all-the-hits-from-surf-city-to-drag-city.html
+item/bo-diddleys-all-star-jam.html
+item/brian-chidester-domenic-priore-all-summer-long.html
+item/all-summer-long-triangle.html
+item/all-this-is-that-sea-of-tunes.html

@@ -1,2 +1,2 @@
-orange-crate-art
-the-art-of-mccartney
+item/orange-crate-art.html
+item/the-art-of-mccartney.html

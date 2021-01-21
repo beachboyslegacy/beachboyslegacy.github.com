@@ -1,4 +1,4 @@
-in-blue-hawaii
-bbcs-2
-leid-in-hawaii-rehearsal
-aloha-from-hawaii-and-hollywood
+item/in-blue-hawaii.html
+item/bbcs-2.html
+item/leid-in-hawaii-rehearsal.html
+item/aloha-from-hawaii-and-hollywood.html

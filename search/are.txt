@@ -1,3 +1,3 @@
-things-are-changing
-bw-we-are-the-world-25-for-haiti
-aj-we-are-the-world-25-for-haiti
+item/things-are-changing.html
+item/bw-we-are-the-world-25-for-haiti.html
+item/aj-we-are-the-world-25-for-haiti.html

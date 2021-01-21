@@ -1,2 +1,2 @@
-ccs-vol-3
-trader-goes-to-nassau
+item/ccs-vol-3.html
+item/trader-goes-to-nassau.html

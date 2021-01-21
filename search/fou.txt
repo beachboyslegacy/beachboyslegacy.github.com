@@ -1,5 +1,5 @@
-fourth-of-july
-ml-fourth-of-july
-rock-and-other-four-letter-words
-lost-and-found
-ccs-vol-3
+item/fourth-of-july.html
+item/ml-fourth-of-july.html
+item/rock-and-other-four-letter-words.html
+item/lost-and-found.html
+item/ccs-vol-3.html

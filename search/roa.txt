@@ -1,4 +1,4 @@
-mai-tai-roa-ae-steve-dahl
-kent-crowley-long-promised-road
-on-the-road
-a-long-promised-road
+item/mai-tai-roa-ae-steve-dahl.html
+item/kent-crowley-long-promised-road.html
+item/on-the-road.html
+item/a-long-promised-road.html

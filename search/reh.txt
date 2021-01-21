@@ -1,4 +1,4 @@
-pet-sounds-rehearsals
-leid-in-hawaii-rehearsal
-live-in-sacramento-1964-first-show
-knebworth-the-rehearsals
+item/pet-sounds-rehearsals.html
+item/leid-in-hawaii-rehearsal.html
+item/live-in-sacramento-1964-first-show.html
+item/knebworth-the-rehearsals.html

@@ -1,3 +1,3 @@
-pipeline-disco
-pipeline
-east-coast-pipeline
+item/pipeline-disco.html
+item/pipeline.html
+item/east-coast-pipeline.html

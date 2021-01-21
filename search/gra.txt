@@ -1,5 +1,5 @@
-graduation-day-1966
-meet-the-grateful-dead
-the-beach-boys-meet-the-grateful-dead
-grateful-dead-meets-the-beach-boys
-the-beach-boys-meets-grateful-dead
+item/graduation-day-1966.html
+item/meet-the-grateful-dead.html
+item/the-beach-boys-meet-the-grateful-dead.html
+item/grateful-dead-meets-the-beach-boys.html
+item/the-beach-boys-meets-grateful-dead.html

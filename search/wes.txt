@@ -1,1 +1,1 @@
-east-meets-west
+item/east-meets-west.html

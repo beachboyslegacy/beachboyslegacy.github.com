@@ -1,4 +1,4 @@
-stars-and-stripes-vol-1
-mayor-of-the-sunset-strip
-cw-reg-strikes-back-elton-john
-bj-reg-strikes-back-elton-john
+item/stars-and-stripes-vol-1.html
+item/mayor-of-the-sunset-strip.html
+item/cw-reg-strikes-back-elton-john.html
+item/bj-reg-strikes-back-elton-john.html

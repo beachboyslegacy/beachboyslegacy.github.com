@@ -1,5 +1,5 @@
-surfs-up
-up-the-creek-soundtrack
-cuddle-up
-givin-you-up
-surfs-up-in-prinston
+item/surfs-up.html
+item/up-the-creek-soundtrack.html
+item/cuddle-up.html
+item/givin-you-up.html
+item/surfs-up-in-prinston.html

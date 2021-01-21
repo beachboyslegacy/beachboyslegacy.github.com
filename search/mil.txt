@@ -1,4 +1,4 @@
-one-in-a-million
-pet-sounds-millennium-edition
-smile-millennium-edition
-smile-purple-chick-millenium
+item/one-in-a-million.html
+item/pet-sounds-millennium-edition.html
+item/smile-millennium-edition.html
+item/smile-purple-chick-millenium.html

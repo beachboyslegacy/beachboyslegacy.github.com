@@ -1,7 +1,7 @@
-bw-warm-waters-charles-lloyd
-cw-warm-waters-charles-lloyd
-ml-warm-waters-charles-lloyd
-aj-warm-waters-charles-lloyd
-warren-zeavon-desperadoes
-the-warmth-of-the-sun
-mike-love-not-war-spank
+item/bw-warm-waters-charles-lloyd.html
+item/cw-warm-waters-charles-lloyd.html
+item/ml-warm-waters-charles-lloyd.html
+item/aj-warm-waters-charles-lloyd.html
+item/warren-zeavon-desperadoes.html
+item/the-warmth-of-the-sun.html
+item/mike-love-not-war-spank.html
