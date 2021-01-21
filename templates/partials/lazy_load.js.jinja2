@@ -1,7 +1,7 @@
 function elementIsVisible(el) {
     const rect = el.getBoundingClientRect();
     // Look ahead buffer when scrolling. 200px before being visible.
-    const bufferMarginPx = 200;
+    const bufferMarginPx = 400;
 
     return (
         rect.top >= -bufferMarginPx &&
