@@ -1,6 +1,6 @@
-item/till-the-night-is-gone-a-tribute-to-doc-pomus.html
-item/bw-barbie-what-is-a-young-girl-made-of.html
-item/here-and-now-is-forever-michael-angeloff.html
-item/the-world-is-getting-colder-old-sand-mill.html
-item/brian-is-back-first-solo-concert.html
-item/all-this-is-that-sea-of-tunes.html
+till-the-night-is-gone-a-tribute-to-doc-pomus
+bw-barbie-what-is-a-young-girl-made-of
+here-and-now-is-forever-michael-angeloff
+the-world-is-getting-colder-old-sand-mill
+brian-is-back-first-solo-concert
+all-this-is-that-sea-of-tunes

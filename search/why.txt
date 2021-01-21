@@ -1,6 +1,6 @@
-item/thats-why-god-made-the-radio.html
-item/why-do-fools-fall-in-love-california-music.html
-item/bw-why-do-fools-fall-in-love-california-music.html
-item/tom-smucker-why-matter.html
-item/thats-why-god-made-the-radio-instrumental.html
-item/tell-me-why-blue-ocean.html
+thats-why-god-made-the-radio
+why-do-fools-fall-in-love-california-music
+bw-why-do-fools-fall-in-love-california-music
+tom-smucker-why-matter
+thats-why-god-made-the-radio-instrumental
+tell-me-why-blue-ocean

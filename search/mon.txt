@@ -1,1 +1,1 @@
-item/monster-mash-oil-well.html
+monster-mash-oil-well

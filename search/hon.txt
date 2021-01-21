@@ -1,1 +1,1 @@
-item/wild-honey.html
+wild-honey

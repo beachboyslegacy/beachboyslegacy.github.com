@@ -1,1 +1,1 @@
-item/the-live-box.html
+the-live-box

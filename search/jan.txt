@@ -1,6 +1,6 @@
-item/bw-jan-and-dean-take-linda-surfin.html
-item/cw-jan-and-dean-take-linda-surfin.html
-item/dw-jan-and-dean-take-linda-surfin.html
-item/ml-jan-and-dean-take-linda-surfin.html
-item/dm-jan-and-dean-take-linda-surfin.html
-item/ccs-vol-1.html
+bw-jan-and-dean-take-linda-surfin
+cw-jan-and-dean-take-linda-surfin
+dw-jan-and-dean-take-linda-surfin
+ml-jan-and-dean-take-linda-surfin
+dm-jan-and-dean-take-linda-surfin
+ccs-vol-1

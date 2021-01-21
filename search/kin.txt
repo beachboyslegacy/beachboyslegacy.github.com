@@ -1,2 +1,2 @@
-item/cw-king-harvest-vaea.html
-item/ml-king-harvest-vaea.html
+cw-king-harvest-vaea
+ml-king-harvest-vaea

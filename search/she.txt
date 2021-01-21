@@ -1,2 +1,2 @@
-item/she-rides-with-me-paul-petersen.html
-item/bw-she-rides-with-me-paul-petersen.html
+she-rides-with-me-paul-petersen
+bw-she-rides-with-me-paul-petersen

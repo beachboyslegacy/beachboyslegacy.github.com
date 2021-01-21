@@ -1,1 +1,1 @@
-item/dirty-computer.html
+dirty-computer

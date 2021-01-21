@@ -1,6 +1,6 @@
-item/bw-boats-against-the-current.html
-item/bj-boats-against-the-current.html
-item/the-beach-boys-doin-it-again.html
-item/do-it-again.html
-item/do-it-again-triangle.html
-item/doin-it-again-symphony-hall.html
+bw-boats-against-the-current
+bj-boats-against-the-current
+the-beach-boys-doin-it-again
+do-it-again
+do-it-again-triangle
+doin-it-again-symphony-hall

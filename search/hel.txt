@@ -1,3 +1,3 @@
-item/help-me-rhonda-johnny-rivers.html
-item/help-me-tampa.html
-item/goodbye-surfing-hello-god.html
+help-me-rhonda-johnny-rivers
+help-me-tampa
+goodbye-surfing-hello-god

@@ -1,2 +1,2 @@
-item/20-christmas-stars-iii.html
-item/bbcs-3.html
+20-christmas-stars-iii
+bbcs-3

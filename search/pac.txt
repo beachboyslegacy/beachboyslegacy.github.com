@@ -1,5 +1,5 @@
-item/dennis-wilson-pacific-ocean-blue.html
-item/dennis-wilson-pacific-ocean-blue-legacy-edition.html
-item/cw-dennis-wilson-pacific-ocean-blue.html
-item/pacific-ocean-blue-bamboo-hen.html
-item/pacific-ocean-blue-bamboo-delux-edition.html
+dennis-wilson-pacific-ocean-blue
+dennis-wilson-pacific-ocean-blue-legacy-edition
+cw-dennis-wilson-pacific-ocean-blue
+pacific-ocean-blue-bamboo-hen
+pacific-ocean-blue-bamboo-delux-edition

@@ -1,7 +1,7 @@
-item/spring-spring.html
-item/bw-spring-spring.html
-item/cw-spring-spring.html
-item/dw-spring-spring.html
-item/ml-spring-spring.html
-item/aj-spring-spring.html
-item/bj-spring-spring.html
+spring-spring
+bw-spring-spring
+cw-spring-spring
+dw-spring-spring
+ml-spring-spring
+aj-spring-spring
+bj-spring-spring

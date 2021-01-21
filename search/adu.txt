@@ -1,5 +1,5 @@
-item/adult-child-cs.html
-item/adult-child-updated.html
-item/landlocked-adult-child-pegboy.html
-item/landlocked-adult-child-frontline.html
-item/adult-child-millennium-edition.html
+adult-child-cs
+adult-child-updated
+landlocked-adult-child-pegboy
+landlocked-adult-child-frontline
+adult-child-millennium-edition

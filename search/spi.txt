@@ -1,5 +1,5 @@
-item/christmas-spirit.html
-item/spirit-of-the-forest-va.html
-item/ml-spirit-voices-the-kings-singers.html
-item/bj-spirit-voices-the-kings-singers.html
-item/spirit-of-america.html
+christmas-spirit
+spirit-of-the-forest-va
+ml-spirit-voices-the-kings-singers
+bj-spirit-voices-the-kings-singers
+spirit-of-america

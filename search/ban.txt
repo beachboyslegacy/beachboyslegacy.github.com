@@ -1,2 +1,2 @@
-item/boogie-bands-and-one-night-stands.html
-item/an-american-band.html
+boogie-bands-and-one-night-stands
+an-american-band

@@ -1,2 +1,2 @@
-item/sacramento-just-the-way-i-feel.html
-item/just-the-way-i-feel.html
+sacramento-just-the-way-i-feel
+just-the-way-i-feel

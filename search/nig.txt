@@ -1,6 +1,6 @@
-item/till-the-night-is-gone-a-tribute-to-doc-pomus.html
-item/boogie-bands-and-one-night-stands.html
-item/here-comes-the-night.html
-item/here-comes-the-night-short.html
-item/here-comes-the-night-instrumental.html
-item/surfers-nightmare.html
+till-the-night-is-gone-a-tribute-to-doc-pomus
+boogie-bands-and-one-night-stands
+here-comes-the-night
+here-comes-the-night-short
+here-comes-the-night-instrumental
+surfers-nightmare

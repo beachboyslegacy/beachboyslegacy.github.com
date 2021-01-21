@@ -1,2 +1,2 @@
-item/guess-im-dumb-glen-campbell.html
-item/bw-guess-im-dumb-glen-campbell.html
+guess-im-dumb-glen-campbell
+bw-guess-im-dumb-glen-campbell

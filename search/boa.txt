@@ -1,2 +1,2 @@
-item/bw-boats-against-the-current.html
-item/bj-boats-against-the-current.html
+bw-boats-against-the-current
+bj-boats-against-the-current

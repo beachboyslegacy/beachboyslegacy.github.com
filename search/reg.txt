@@ -1,2 +1,2 @@
-item/cw-reg-strikes-back-elton-john.html
-item/bj-reg-strikes-back-elton-john.html
+cw-reg-strikes-back-elton-john
+bj-reg-strikes-back-elton-john

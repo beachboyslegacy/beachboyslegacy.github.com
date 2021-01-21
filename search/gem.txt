@@ -1,2 +1,2 @@
-item/rare-gems.html
-item/unreleased-gems.html
+rare-gems
+unreleased-gems

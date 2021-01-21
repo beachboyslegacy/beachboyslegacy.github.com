@@ -1,1 +1,1 @@
-item/cyclorama-styx.html
+cyclorama-styx

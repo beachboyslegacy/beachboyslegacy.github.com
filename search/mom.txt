@@ -1,2 +1,2 @@
-item/music-for-our-mother-ocean-ii.html
-item/mom-3-music-for-our-mother-ocean.html
+music-for-our-mother-ocean-ii
+mom-3-music-for-our-mother-ocean

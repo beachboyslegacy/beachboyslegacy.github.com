@@ -1,7 +1,7 @@
-item/little-deuce-coupe.html
-item/the-rip-chords-three-window-coupe.html
-item/cw-county-line-southern-pacific.html
-item/ml-county-line-southern-pacific.html
-item/aj-county-line-southern-pacific.html
-item/bj-county-line-southern-pacific.html
-item/first-love-country-love.html
+little-deuce-coupe
+the-rip-chords-three-window-coupe
+cw-county-line-southern-pacific
+ml-county-line-southern-pacific
+aj-county-line-southern-pacific
+bj-county-line-southern-pacific
+first-love-country-love

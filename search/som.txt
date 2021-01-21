@@ -1,5 +1,5 @@
-item/something-funny-goin-on.html
-item/everly-brothers-some-hearts.html
-item/plug-me-into-something.html
-item/don-cunningham-jeff-bleiel-add-some-music.html
-item/somewhere-near-japan-edit.html
+something-funny-goin-on
+everly-brothers-some-hearts
+plug-me-into-something
+don-cunningham-jeff-bleiel-add-some-music
+somewhere-near-japan-edit

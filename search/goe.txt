@@ -1,1 +1,1 @@
-item/trader-goes-to-nassau.html
+trader-goes-to-nassau

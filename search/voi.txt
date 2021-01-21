@@ -1,3 +1,3 @@
-item/ml-spirit-voices-the-kings-singers.html
-item/bj-spirit-voices-the-kings-singers.html
-item/still-within-the-sound-of-my-voice-jimmy-webb.html
+ml-spirit-voices-the-kings-singers
+bj-spirit-voices-the-kings-singers
+still-within-the-sound-of-my-voice-jimmy-webb

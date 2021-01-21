@@ -1,1 +1,1 @@
-item/good-elaboration.html
+good-elaboration

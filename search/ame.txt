@@ -1,8 +1,8 @@
-item/americathon.html
-item/american-girls-myfair.html
-item/an-american-band.html
-item/the-beach-boys-an-american-family.html
-item/spirit-of-america.html
-item/american-birthday-party.html
-item/slightly-american-music.html
-item/happy-birthday-america-scorpio.html
+americathon
+american-girls-myfair
+an-american-band
+the-beach-boys-an-american-family
+spirit-of-america
+american-birthday-party
+slightly-american-music
+happy-birthday-america-scorpio

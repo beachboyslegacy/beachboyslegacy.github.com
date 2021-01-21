@@ -1,2 +1,2 @@
-item/cw-hat-trick-america.html
-item/bj-hat-trick-america.html
+cw-hat-trick-america
+bj-hat-trick-america

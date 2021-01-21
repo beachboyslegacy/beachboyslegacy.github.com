@@ -1,3 +1,3 @@
-item/cw-chicago-vii.html
-item/dw-chicago-vii.html
-item/aj-chicago-vii.html
+cw-chicago-vii
+dw-chicago-vii
+aj-chicago-vii

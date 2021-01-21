@@ -1,2 +1,2 @@
-item/music-for-our-mother-ocean-ii.html
-item/lake-ii.html
+music-for-our-mother-ocean-ii
+lake-ii

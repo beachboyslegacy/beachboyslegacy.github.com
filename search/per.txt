@@ -1,2 +1,2 @@
-item/perfect-harmony.html
-item/brian-wilson-performs-smile.html
+perfect-harmony
+brian-wilson-performs-smile

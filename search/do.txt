@@ -1,8 +1,8 @@
-item/i-do-castells.html
-item/twelve-o-four-baby-what-you-want-me-to-do.html
-item/why-do-fools-fall-in-love-california-music.html
-item/bw-why-do-fools-fall-in-love-california-music.html
-item/do-the-surfer-stomp-part-1.html
-item/fun-fun-fun-why-do-fools-fall-in-love.html
-item/do-it-again.html
-item/do-it-again-triangle.html
+i-do-castells
+twelve-o-four-baby-what-you-want-me-to-do
+why-do-fools-fall-in-love-california-music
+bw-why-do-fools-fall-in-love-california-music
+do-the-surfer-stomp-part-1
+fun-fun-fun-why-do-fools-fall-in-love
+do-it-again
+do-it-again-triangle

@@ -1,2 +1,2 @@
-item/shut-down-vol-2.html
-item/soupy-shuffle-stomp.html
+shut-down-vol-2
+soupy-shuffle-stomp

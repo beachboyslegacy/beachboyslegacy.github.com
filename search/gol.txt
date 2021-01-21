@@ -1,2 +1,2 @@
-item/20-golden-greats.html
-item/the-golden-collection.html
+20-golden-greats
+the-golden-collection

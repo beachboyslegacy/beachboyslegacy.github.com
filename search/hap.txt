@@ -1,2 +1,2 @@
-item/happy-endings.html
-item/happy-birthday-america-scorpio.html
+happy-endings
+happy-birthday-america-scorpio

@@ -1,2 +1,2 @@
-item/the-union-elton-john.html
-item/live-from-michigan-state-university.html
+the-union-elton-john
+live-from-michigan-state-university

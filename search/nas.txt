@@ -1,3 +1,3 @@
-item/salute-nascar.html
-item/the-beach-boys-nashville-sounds.html
-item/trader-goes-to-nassau.html
+salute-nascar
+the-beach-boys-nashville-sounds
+trader-goes-to-nassau

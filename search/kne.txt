@@ -1,4 +1,4 @@
-item/the-little-girl-i-once-knew.html
-item/knebworth-1980-mistral.html
-item/knebworth-the-rehearsals.html
-item/knebworth-the-concert.html
+the-little-girl-i-once-knew
+knebworth-1980-mistral
+knebworth-the-rehearsals
+knebworth-the-concert

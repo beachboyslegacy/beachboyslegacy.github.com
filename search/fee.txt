@@ -1,5 +1,5 @@
-item/sacramento-just-the-way-i-feel.html
-item/just-the-way-i-feel.html
-item/california-feeling-cs.html
-item/california-feeling-updated.html
-item/california-feeling.html
+sacramento-just-the-way-i-feel
+just-the-way-i-feel
+california-feeling-cs
+california-feeling-updated
+california-feeling

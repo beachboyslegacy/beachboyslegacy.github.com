@@ -1,2 +1,2 @@
-item/the-right-time-rsd.html
-item/dont-run-away.html
+the-right-time-rsd
+dont-run-away

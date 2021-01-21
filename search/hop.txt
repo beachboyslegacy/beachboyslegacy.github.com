@@ -1,2 +1,2 @@
-item/jdrf-hope-for-the-holidays.html
-item/ml-jdrf-hope-for-the-holidays.html
+jdrf-hope-for-the-holidays
+ml-jdrf-hope-for-the-holidays

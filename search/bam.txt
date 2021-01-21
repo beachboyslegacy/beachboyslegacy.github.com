@@ -1,6 +1,6 @@
-item/dennis-wilson-bambu-the-caribou-sessions.html
-item/dennis-wilson-pacific-ocean-blue-legacy-edition.html
-item/bamboo.html
-item/bamboo-bell-bottom.html
-item/pacific-ocean-blue-bamboo-hen.html
-item/pacific-ocean-blue-bamboo-delux-edition.html
+dennis-wilson-bambu-the-caribou-sessions
+dennis-wilson-pacific-ocean-blue-legacy-edition
+bamboo
+bamboo-bell-bottom
+pacific-ocean-blue-bamboo-hen
+pacific-ocean-blue-bamboo-delux-edition

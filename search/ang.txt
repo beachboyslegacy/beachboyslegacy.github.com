@@ -1,4 +1,4 @@
-item/angelo-angelo.html
-item/domenic-priore-the-dumb-angel-gazette.html
-item/domenic-priore-the-dumb-angel-gazette-potpourri.html
-item/adam-webb-dumb-angel.html
+angelo-angelo
+domenic-priore-the-dumb-angel-gazette
+domenic-priore-the-dumb-angel-gazette-potpourri
+adam-webb-dumb-angel

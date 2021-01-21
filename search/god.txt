@@ -1,6 +1,6 @@
-item/thats-why-god-made-the-radio.html
-item/carl-wilson-under-god.html
-item/jeff-sellars-god-only-knows.html
-item/thats-why-god-made-the-radio-instrumental.html
-item/god-only-knows-bbc.html
-item/goodbye-surfing-hello-god.html
+thats-why-god-made-the-radio
+carl-wilson-under-god
+jeff-sellars-god-only-knows
+thats-why-god-made-the-radio-instrumental
+god-only-knows-bbc
+goodbye-surfing-hello-god

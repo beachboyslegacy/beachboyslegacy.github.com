@@ -1,7 +1,7 @@
-item/east-meets-west.html
-item/fillmore-east-final-concert.html
-item/california-easter-album.html
-item/fillmore-east-wild-bird.html
-item/live-at-the-fillmore-east-moonlight.html
-item/east-coast-pipeline.html
-item/live-at-the-fillmore-east-1971.html
+east-meets-west
+fillmore-east-final-concert
+california-easter-album
+fillmore-east-wild-bird
+live-at-the-fillmore-east-moonlight
+east-coast-pipeline
+live-at-the-fillmore-east-1971

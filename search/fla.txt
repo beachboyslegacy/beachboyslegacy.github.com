@@ -1,1 +1,1 @@
-item/the-flame.html
+the-flame

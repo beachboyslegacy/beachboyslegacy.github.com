@@ -1,1 +1,1 @@
-item/two-lane-blacktop.html
+two-lane-blacktop

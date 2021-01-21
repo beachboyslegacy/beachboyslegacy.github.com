@@ -1,2 +1,2 @@
-item/refined-texas-crude.html
-item/price-and-reference-guide.html
+refined-texas-crude
+price-and-reference-guide

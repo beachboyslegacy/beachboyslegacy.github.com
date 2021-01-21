@@ -1,6 +1,6 @@
-item/little-deuce-coupe.html
-item/the-rip-chords-hey-little-cobra.html
-item/little-saint-nick-the-lords-prayer.html
-item/the-little-girl-i-once-knew.html
-item/hey-little-tomboy.html
-item/21-little-ones.html
+little-deuce-coupe
+the-rip-chords-hey-little-cobra
+little-saint-nick-the-lords-prayer
+the-little-girl-i-once-knew
+hey-little-tomboy
+21-little-ones

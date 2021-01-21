@@ -1,1 +1,1 @@
-item/luau.html
+luau

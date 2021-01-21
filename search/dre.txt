@@ -1,7 +1,7 @@
-item/summer-dreams-the-story-of-the-beach-boys.html
-item/ken-sharp-dreamer.html
-item/sunshine-dream.html
-item/summer-dreams.html
-item/still-i-dream-of-you-rare-works.html
-item/dream-comes-true.html
-item/a-dream-come-true.html
+summer-dreams-the-story-of-the-beach-boys
+ken-sharp-dreamer
+sunshine-dream
+summer-dreams
+still-i-dream-of-you-rare-works
+dream-comes-true
+a-dream-come-true

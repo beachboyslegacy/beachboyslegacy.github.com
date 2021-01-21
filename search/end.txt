@@ -1,5 +1,5 @@
-item/endless-harmony-the-beach-boys-story.html
-item/jack-lloyd-endless-summer.html
-item/rocky-pamplin-endless-wave.html
-item/endless-summer.html
-item/endless-harmony-soundtrack.html
+endless-harmony-the-beach-boys-story
+jack-lloyd-endless-summer
+rocky-pamplin-endless-wave
+endless-summer
+endless-harmony-soundtrack

@@ -1,1 +1,1 @@
-item/pt-cruiser.html
+pt-cruiser

@@ -1,3 +1,3 @@
-item/together-live-at-the-rock-hall.html
-item/live-at-the-royal-festival-hall.html
-item/carnegie-hall-1972.html
+together-live-at-the-rock-hall
+live-at-the-royal-festival-hall
+carnegie-hall-1972

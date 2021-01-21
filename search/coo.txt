@@ -1,2 +1,2 @@
-item/playin-it-cool-timothy-b-schmit.html
-item/cool-cool-water.html
+playin-it-cool-timothy-b-schmit
+cool-cool-water

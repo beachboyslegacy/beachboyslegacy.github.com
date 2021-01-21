@@ -1,2 +1,2 @@
-item/carl-wilson-under-god.html
-item/surfin-down-under.html
+carl-wilson-under-god
+surfin-down-under

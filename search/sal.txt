@@ -1,1 +1,1 @@
-item/salute-nascar.html
+salute-nascar

@@ -1,2 +1,2 @@
-item/its-ok.html
-item/its-ok-hanson.html
+its-ok
+its-ok-hanson

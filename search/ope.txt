@@ -1,1 +1,1 @@
-item/open-hearts-clear-mines.html
+open-hearts-clear-mines

@@ -1,1 +1,1 @@
-item/mutual-admiration.html
+mutual-admiration

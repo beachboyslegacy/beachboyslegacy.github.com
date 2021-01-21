@@ -1,1 +1,1 @@
-item/bridge-benefit-unplugged.html
+bridge-benefit-unplugged

@@ -1,2 +1,2 @@
-item/pulp-surfin.html
-item/bw-pulp-surfin.html
+pulp-surfin
+bw-pulp-surfin

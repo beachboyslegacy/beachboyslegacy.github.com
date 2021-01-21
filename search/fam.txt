@@ -1,2 +1,2 @@
-item/the-beach-boys-an-american-family.html
-item/together-live-at-the-rock-hall.html
+the-beach-boys-an-american-family
+together-live-at-the-rock-hall

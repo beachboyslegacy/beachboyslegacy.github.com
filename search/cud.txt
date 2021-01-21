@@ -1,1 +1,1 @@
-item/cuddle-up.html
+cuddle-up

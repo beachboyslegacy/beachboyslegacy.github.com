@@ -1,1 +1,1 @@
-item/cottonfields.html
+cottonfields

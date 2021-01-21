@@ -1,1 +1,1 @@
-item/fillmore-east-wild-bird.html
+fillmore-east-wild-bird

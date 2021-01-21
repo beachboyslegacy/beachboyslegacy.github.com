@@ -1,2 +1,2 @@
-item/human-nature-america.html
-item/human-conditions-richard-ashcroft.html
+human-nature-america
+human-conditions-richard-ashcroft

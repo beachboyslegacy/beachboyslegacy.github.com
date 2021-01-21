@@ -1,2 +1,2 @@
-item/pamela-jean-after-the-game.html
-item/bw-pamela-jean-after-the-game.html
+pamela-jean-after-the-game
+bw-pamela-jean-after-the-game

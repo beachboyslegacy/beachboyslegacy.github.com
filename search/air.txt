@@ -1,7 +1,7 @@
-item/mike-love-and-dean-torrence-listen-to-the-air.html
-item/bw-1100-bel-air-place.html
-item/cw-1100-bel-air-place.html
-item/ml-1100-bel-air-place.html
-item/aj-1100-bel-air-place.html
-item/bj-1100-bel-air-place.html
-item/classic-airwaves.html
+mike-love-and-dean-torrence-listen-to-the-air
+bw-1100-bel-air-place
+cw-1100-bel-air-place
+ml-1100-bel-air-place
+aj-1100-bel-air-place
+bj-1100-bel-air-place
+classic-airwaves

@@ -1,2 +1,2 @@
-item/cw-scene-of-the-crime-killer-joe.html
-item/aj-scene-of-the-crime-killer-joe.html
+cw-scene-of-the-crime-killer-joe
+aj-scene-of-the-crime-killer-joe

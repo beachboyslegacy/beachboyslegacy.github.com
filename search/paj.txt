@@ -1,2 +1,2 @@
-item/surfers-pajama-party.html
-item/pajama-party.html
+surfers-pajama-party
+pajama-party

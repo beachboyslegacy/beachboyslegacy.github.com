@@ -1,2 +1,2 @@
-item/grief-never-grows-old.html
-item/alone-on-christmas-day.html
+grief-never-grows-old
+alone-on-christmas-day

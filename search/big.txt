@@ -1,6 +1,6 @@
-item/15-big-ones.html
-item/chicago-xi.html
-item/fifty-big-ones-greatest-hits.html
-item/the-big-beat-1963.html
-item/26-big-ones.html
-item/the-big-beat-surf-city.html
+15-big-ones
+chicago-xi
+fifty-big-ones-greatest-hits
+the-big-beat-1963
+26-big-ones
+the-big-beat-surf-city

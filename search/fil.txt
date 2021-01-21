@@ -1,6 +1,6 @@
-item/filet-of-soul-a-live-one.html
-item/rene-hulz-hans-christian-skotte-the-rainbow-files.html
-item/fillmore-east-final-concert.html
-item/fillmore-east-wild-bird.html
-item/live-at-the-fillmore-east-moonlight.html
-item/live-at-the-fillmore-east-1971.html
+filet-of-soul-a-live-one
+rene-hulz-hans-christian-skotte-the-rainbow-files
+fillmore-east-final-concert
+fillmore-east-wild-bird
+live-at-the-fillmore-east-moonlight
+live-at-the-fillmore-east-1971

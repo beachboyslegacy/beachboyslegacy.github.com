@@ -1,2 +1,2 @@
-item/shoot-the-curl-surfin-down-the-swannee-river.html
-item/bw-surfin-down-the-swanee-river.html
+shoot-the-curl-surfin-down-the-swannee-river
+bw-surfin-down-the-swanee-river

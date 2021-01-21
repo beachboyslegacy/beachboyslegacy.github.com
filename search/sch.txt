@@ -1,6 +1,6 @@
-item/the-bridge-collection.html
-item/the-bridge-school-concerts-25th-anniversary-edition.html
-item/dead-mans-curve-the-new-girl-in-school.html
-item/the-bridge-school-concerts.html
-item/be-true-to-your-school.html
-item/school-day.html
+the-bridge-collection
+the-bridge-school-concerts-25th-anniversary-edition
+dead-mans-curve-the-new-girl-in-school
+the-bridge-school-concerts
+be-true-to-your-school
+school-day

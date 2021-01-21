@@ -1,2 +1,2 @@
-item/another-page-christopher-cross.html
-item/fun-fun-fun-with-jimmy-page.html
+another-page-christopher-cross
+fun-fun-fun-with-jimmy-page

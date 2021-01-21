@@ -1,5 +1,5 @@
-item/i-think-about-you-often.html
-item/things-are-changing.html
-item/manfred-schmidt-christian-haschke-this-whole-world.html
-item/this-song-wants-to-sleep-with-you-tonight.html
-item/all-this-is-that-sea-of-tunes.html
+i-think-about-you-often
+things-are-changing
+manfred-schmidt-christian-haschke-this-whole-world
+this-song-wants-to-sleep-with-you-tonight
+all-this-is-that-sea-of-tunes

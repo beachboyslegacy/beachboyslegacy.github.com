@@ -1,1 +1,1 @@
-item/going-public.html
+going-public

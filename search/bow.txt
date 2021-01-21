@@ -1,2 +1,2 @@
-item/1963-10-19-hollywood.html
-item/pet-bowl.html
+1963-10-19-hollywood
+pet-bowl

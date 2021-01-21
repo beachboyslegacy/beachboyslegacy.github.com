@@ -1,2 +1,2 @@
-item/andrew-doe-john-tobler-complete-guide.html
-item/price-and-reference-guide.html
+andrew-doe-john-tobler-complete-guide
+price-and-reference-guide

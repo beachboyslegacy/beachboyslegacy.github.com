@@ -1,4 +1,4 @@
-item/ml-symphonic-sounds-music-of-the-beach-boys.html
-item/bj-symphonic-sounds-music-of-the-beach-boys.html
-item/the-pet-sounds-symphonic-tour.html
-item/a-pocket-symphony.html
+ml-symphonic-sounds-music-of-the-beach-boys
+bj-symphonic-sounds-music-of-the-beach-boys
+the-pet-sounds-symphonic-tour
+a-pocket-symphony

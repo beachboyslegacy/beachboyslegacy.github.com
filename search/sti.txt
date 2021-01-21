@@ -1,5 +1,5 @@
-item/still-cruisin.html
-item/my-sting-ray-rpm.html
-item/still-within-the-sound-of-my-voice-jimmy-webb.html
-item/still-i-dream-of-you-rare-works.html
-item/still-surfing-in-atlantic-city.html
+still-cruisin
+my-sting-ray-rpm
+still-within-the-sound-of-my-voice-jimmy-webb
+still-i-dream-of-you-rare-works
+still-surfing-in-atlantic-city

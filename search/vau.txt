@@ -1,2 +1,2 @@
-item/from-the-vaults-dumb-angel.html
-item/from-the-vaults-audiofon.html
+from-the-vaults-dumb-angel
+from-the-vaults-audiofon

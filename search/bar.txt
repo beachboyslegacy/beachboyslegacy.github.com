@@ -1,4 +1,4 @@
-item/cw-barbie.html
-item/aj-barbie.html
-item/barefoot-adventure-pendletones.html
-item/barbara-ann.html
+cw-barbie
+aj-barbie
+barefoot-adventure-pendletones
+barbara-ann

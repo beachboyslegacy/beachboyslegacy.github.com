@@ -1,2 +1,2 @@
-item/catch-a-wave-meleco.html
-item/peter-ames-carlin-catch-a-wave.html
+catch-a-wave-meleco
+peter-ames-carlin-catch-a-wave

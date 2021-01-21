@@ -1,2 +1,2 @@
-item/david-marks-work-tapes.html
-item/in-the-beginning-the-garage-tapes.html
+david-marks-work-tapes
+in-the-beginning-the-garage-tapes

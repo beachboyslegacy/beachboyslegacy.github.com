@@ -1,4 +1,4 @@
-item/carl-and-the-passions-so-tough.html
-item/carl-wilson.html
-item/ccs-vol-1.html
-item/carnegie-hall-1972.html
+carl-and-the-passions-so-tough
+carl-wilson
+ccs-vol-1
+carnegie-hall-1972

@@ -1,3 +1,3 @@
-item/steven-gaines-heroes-and-villains.html
-item/good-vibrations-heroes-and-villains.html
-item/heroes-and-villains-sessions-parts-1-2.html
+steven-gaines-heroes-and-villains
+good-vibrations-heroes-and-villains
+heroes-and-villains-sessions-parts-1-2

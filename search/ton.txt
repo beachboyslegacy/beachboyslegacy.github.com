@@ -1,2 +1,2 @@
-item/tonight-you-belong-to-me-goodnight-my-love.html
-item/this-song-wants-to-sleep-with-you-tonight.html
+tonight-you-belong-to-me-goodnight-my-love
+this-song-wants-to-sleep-with-you-tonight

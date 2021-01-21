@@ -1,1 +1,1 @@
-item/the-document-today.html
+the-document-today

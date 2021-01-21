@@ -1,2 +1,2 @@
-item/orange-crate-art.html
-item/orange-crate-instrumentals.html
+orange-crate-art
+orange-crate-instrumentals

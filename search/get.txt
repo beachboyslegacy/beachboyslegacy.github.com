@@ -1,6 +1,6 @@
-item/celebrate-the-three-dog-night-story.html
-item/dw-come-and-get-it-like-chop.html
-item/cw-come-and-get-it-like-chop.html
-item/the-world-is-getting-colder-old-sand-mill.html
-item/he-couldnt-get-his-poor-old-body-to-move.html
-item/time-to-get-alone-silver.html
+celebrate-the-three-dog-night-story
+dw-come-and-get-it-like-chop
+cw-come-and-get-it-like-chop
+the-world-is-getting-colder-old-sand-mill
+he-couldnt-get-his-poor-old-body-to-move
+time-to-get-alone-silver

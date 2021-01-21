@@ -1,1 +1,1 @@
-item/our-favorite-recordings.html
+our-favorite-recordings

@@ -1,3 +1,3 @@
-item/party-at-the-palace.html
-item/party-at-the-palace-dvd.html
-item/more-andy-paley-sessions.html
+party-at-the-palace
+party-at-the-palace-dvd
+more-andy-paley-sessions

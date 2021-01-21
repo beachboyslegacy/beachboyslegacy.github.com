@@ -1,4 +1,4 @@
-item/things-are-changing.html
-item/bw-change-of-heart-eric-carmen.html
-item/bj-change-of-heart-eric-carmen.html
-item/chapel-of-love.html
+things-are-changing
+bw-change-of-heart-eric-carmen
+bj-change-of-heart-eric-carmen
+chapel-of-love

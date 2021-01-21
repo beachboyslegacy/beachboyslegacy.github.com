@@ -1,5 +1,5 @@
-item/dennis-wilson-only-with-you.html
-item/jeff-sellars-god-only-knows.html
-item/god-only-knows-bbc.html
-item/god-only-knows-bbc.html
-item/for-collectors-only.html
+dennis-wilson-only-with-you
+jeff-sellars-god-only-knows
+god-only-knows-bbc
+god-only-knows-bbc
+for-collectors-only

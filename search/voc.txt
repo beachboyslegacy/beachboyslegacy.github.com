@@ -1,1 +1,1 @@
-item/a-vocal-element.html
+a-vocal-element

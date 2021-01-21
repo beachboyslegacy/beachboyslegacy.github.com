@@ -1,2 +1,2 @@
-item/bw-sound-of-free.html
-item/cw-sound-of-free.html
+bw-sound-of-free
+cw-sound-of-free

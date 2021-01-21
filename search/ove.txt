@@ -1,2 +1,2 @@
-item/gettin-in-over-my-head.html
-item/bluebirds-over-the-mountain.html
+gettin-in-over-my-head
+bluebirds-over-the-mountain

@@ -1,2 +1,2 @@
-item/tell-me-why-blue-ocean.html
-item/too-early-to-tell.html
+tell-me-why-blue-ocean
+too-early-to-tell

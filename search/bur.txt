@@ -1,1 +1,1 @@
-item/buried-treasure-sailor.html
+buried-treasure-sailor

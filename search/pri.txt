@@ -1,2 +1,2 @@
-item/price-and-reference-guide.html
-item/surfs-up-in-prinston.html
+price-and-reference-guide
+surfs-up-in-prinston

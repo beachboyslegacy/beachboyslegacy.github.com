@@ -1,5 +1,5 @@
-item/live-in-sacramento-1964.html
-item/1964-08-01-sacramento-01.html
-item/1964-08-01-sacramento-02.html
-item/live-in-sacramento-1964-first-show.html
-item/live-in-sacramento-1964-second-show.html
+live-in-sacramento-1964
+1964-08-01-sacramento-01
+1964-08-01-sacramento-02
+live-in-sacramento-1964-first-show
+live-in-sacramento-1964-second-show

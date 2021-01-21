@@ -1,2 +1,2 @@
-item/the-paley-brothers-the-complete-recordings.html
-item/our-favorite-recordings.html
+the-paley-brothers-the-complete-recordings
+our-favorite-recordings
