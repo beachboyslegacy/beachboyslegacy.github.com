@@ -12,17 +12,9 @@ class SearchIndicesGenerator:
     # This grows exponentially as 26^letters_per_index.
     letters_per_index: int = 3
 
-    def __init__(
-        self,
-        *_,
-        output_dir: str,
-        items_dir: str,
-        items: list[str],
-    ):
+    def __init__(self, *_, output_dir: str, items: list[str]):
         self.output_dir = output_dir
-        self.items_dir = items_dir
         self.items = items
-        self.items_dir
 
     def _ensure_output_dir(self) -> None:
         """Removes output_dir contents if existent and creates it."""
@@ -44,8 +36,6 @@ class SearchIndicesGenerator:
             if word.isalpha()
         ]
 
-        # For each word in the term, ensure the corresponding index file exists
-        # or create it, then add the location of the term into to it.
         for word in words:
             word_index_file_path: Path = Path(path.join(
                 self.output_dir,
@@ -68,7 +58,4 @@ class SearchIndicesGenerator:
         for item in self.items:
             parent: dict = item["parent"]
 
-            self._write_to_index_file(
-                parent["name"],
-                path.join(self.items_dir, f"{parent['uniqueId']}.html")
-            )
+            self._write_to_index_file(parent["name"], parent["uniqueId"])
