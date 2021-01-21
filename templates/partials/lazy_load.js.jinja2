@@ -25,6 +25,17 @@ function loadVisibleImages() {
 window.addEventListener("load", () => {
     loadVisibleImages();
 
+    // We'll use some debouncing in case the user scrolls past the entire page
+    // to the bottom. This way we won't have to load images in between.
+    var scrollTimer = null;
+
     // Try loading newly visible images when scrolling.
-    document.addEventListener("scroll", () => loadVisibleImages());
+    document.addEventListener("scroll", () => {
+        if (scrollTimer) {
+            clearTimeout(scrollTimer);
+        }
+
+        // We'll use 250 for debouncing.
+        timer = setTimeout(loadVisibleImages, 250);
+    });
 });
