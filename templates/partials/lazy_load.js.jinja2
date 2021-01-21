@@ -4,7 +4,7 @@ function elementIsVisible(el) {
     const bufferMarginPx = 200;
 
     return (
-        rect.top >= bufferMarginPx &&
+        rect.top >= -bufferMarginPx &&
         rect.left >= 0 &&
         rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) + bufferMarginPx &&
         rect.right <= (window.innerWidth || document.documentElement.clientWidth)
