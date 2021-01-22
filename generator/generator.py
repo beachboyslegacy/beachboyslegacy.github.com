@@ -201,7 +201,11 @@ class Generator:
                             category=category,
                             items=sorted(
                                 category.items,
-                                key=lambda item: item["parent"]["releaseYear"],
+                                key=lambda item: (
+                                    int(item["parent"]["releaseYear"])*1000 +
+                                    int(item["parent"]["releaseMonth"])*100 +
+                                    int(item["parent"]["releaseDay"])
+                                ),
                                 reverse=True,
                             ),
                             categories=artist.categories,
