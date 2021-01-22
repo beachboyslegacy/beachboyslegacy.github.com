@@ -1,0 +1,41 @@
+function elementIsVisible(el) {
+    const rect = el.getBoundingClientRect();
+    // Look ahead buffer when scrolling. 200px before being visible.
+    const bufferMarginPx = 400;
+
+    return (
+        rect.top >= -bufferMarginPx &&
+        rect.left >= 0 &&
+        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) + bufferMarginPx &&
+        rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+    );
+}
+
+// Find newly visible images and load their images.
+function loadVisibleImages() {
+    const lazyImages = [
+        ...document.getElementsByTagName("img")
+    ].filter(img => img.hasAttribute("data-src") && img.src !== img.dataset.src);
+
+    lazyImages
+        .filter(img => elementIsVisible(img))
+        .forEach(img => img.src = img.dataset.src);
+}
+
+window.addEventListener("load", () => {
+    loadVisibleImages();
+
+    // We'll use some debouncing in case the user scrolls past the entire page
+    // to the bottom. This way we won't have to load images in between.
+    var scrollTimer = null;
+
+    // Try loading newly visible images when scrolling.
+    document.addEventListener("scroll", () => {
+        if (scrollTimer) {
+            clearTimeout(scrollTimer);
+        }
+
+        // We'll use 250 for debouncing.
+        timer = setTimeout(loadVisibleImages, 250);
+    });
+});

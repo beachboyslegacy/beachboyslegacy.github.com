@@ -34,6 +34,9 @@
         <!-- Selectors logic -->
         <script src="{{base_url}}/js/selectors.js"></script>
 
+        <!-- Lazy image logic -->
+        <script>{{partials["lazy_load.js"]}}</script>
+
         {{partials["common_headers.html"]}}
     </head>
     <body>
@@ -118,14 +121,18 @@
                     </li>
                 </ul>
 
-                <div class="results-number"></div>
+                <div class="results-number">{{category.items|length}} items</div>
             </div>
 
             <ul id="items" class="items">
                 {% for item in items%}
-                    <li data-date="{{item.parent.releaseYear}}">
+                    <li
+                        data-year="{{item.parent.releaseYear}}"
+                        data-month="{{item.parent.releaseMonth}}"
+                        data-day="{{item.parent.releaseDay}}"
+                    >
                         <a class="item__header" href="{{base_url}}/item/{{item.parent.uniqueId}}.html" style="background-color:{{item.parent.backgroundColor}}" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Latest\x27)">
-                            <img class="item__cover lazy" src="{{base_url}}/{{item.parent.image}}" alt="{{item.parent.name}} cover">
+                            <img class="item__cover lazy" src="{{base_url}}/assets/preloader.svg" data-src="{{base_url}}/{{item.parent.image}}" alt="{{item.parent.name}} cover">
                         <div class="item__info">
                             <h2 class="item__title">{{item.parent.name}}</h2>
                             <h3 class="item__subtitle">{{item.parent.alternateName}}</h3>

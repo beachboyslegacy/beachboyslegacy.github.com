@@ -1,18 +1,29 @@
 function sortItems(order) {
-    const items_list = document.getElementById("items");
-    const sorted_items_list = items_list.cloneNode(false);
+    var items_list = document.getElementById("items");
+    var sorted_items_list = items_list.cloneNode(false);
 
-    const items = [...items_list.children];
-    items.sort((thisItem, thatItem) => (
-        order*(parseInt(thatItem.dataset.date) - parseInt(thisItem.dataset.date))
+    var items = [...items_list.children];
+    items.sort((thisItem, thatItem) => {
+        var thisScore = parseInt(thisItem.dataset.year)*1000 +
+            parseInt(thisItem.dataset.month)*100 +
+            parseInt(thisItem.dataset.day);
 
-    ));
+        var thatScore = parseInt(thatItem.dataset.year)*1000 +
+            parseInt(thatItem.dataset.month)*100 +
+            parseInt(thatItem.dataset.day);
+
+        return order*(thatScore - thisScore);
+
+    });
 
     for (item of items) {
         sorted_items_list.append(item);
     }
 
     items_list.parentNode.replaceChild(sorted_items_list, items_list);
+
+    // Try loading newly visible images now that order has changed.
+    loadVisibleImages();
 }
 
 window.addEventListener("load", () => {
@@ -22,7 +33,7 @@ window.addEventListener("load", () => {
             itemsOrder = sortItems();
         });
 
-    const sortingButton = document.getElementById("sorting-release");
+    var sortingButton = document.getElementById("sorting-release");
     sortingButton.addEventListener("click", () => {
         sortItems(parseInt(sortingButton.dataset.order));
         sortingButton.dataset.order *= -1;
