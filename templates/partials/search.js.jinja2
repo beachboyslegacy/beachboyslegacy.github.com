@@ -1,3 +1,16 @@
+// Unpacks a locator into its data.
+function unpackLocator(locator) {
+    var parts = locator.split(":");
+
+    return {
+        uniqueId: parts[0],
+        name: parts[1],
+        artist: parts[2],
+        releaseYear: parts[3],
+    };
+}
+
+// Fetches results for a search term and adds them to results ui.
 function fetchResultsForSearch(search, resultsTarget) {
     var terms = search.split(" ")
         .map(word => word.toLowerCase())
@@ -20,9 +33,10 @@ function fetchResultsForSearch(search, resultsTarget) {
         [...resultsTarget.options].map(result => result.remove());
 
         // Add new results.
-        for (result of results.flat()) {
+        for (result of results.flat().map(locator => unpackLocator(locator))) {
             var resultObject = document.createElement("option");
-            resultObject.value = result;
+            resultObject.value = `${result.name} (${result.releaseYear}) - ${result.artist}`;
+            resultObject.dataset.url = `{{base_url}}/item/${result.uniqueId}.html`
 
             resultsTarget.appendChild(resultObject);
         }
@@ -36,14 +50,10 @@ window.addEventListener("load", () => {
     searchBar.addEventListener("change", () => {
         var selectedResults = [
             ...resultsTarget.options
-        ].map(
-            result => result.value
-        ).filter(
-            result => result === searchBar.value
-        );
+        ].filter(result => result.value === searchBar.value);
 
         if (selectedResults.length) {
-            window.location = "{{base_url}}/item/" + selectedResults[0] + ".html";
+            window.location = selectedResults[0].dataset.url;
         } else if (searchBar.value.length) {
             fetchResultsForSearch(searchBar.value, resultsTarget);
         }
