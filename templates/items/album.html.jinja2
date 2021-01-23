@@ -193,15 +193,15 @@
 
         {% if item.parent.reviews %}
           <h3 class="item-section-title">Reviews</h3>
-          <ul class="item-reviews">
-          {% for element in item["parent"]["reviews"] %}
+          <ul class="item-reviews" data-item="{{item.parent.reviews|length}}">
+          {% for element in item.parent.reviews %}
             <li class="item-review">
-              <p class="item-review__text">{{element["review"]["reviewText"]}}</p>
-              <a href="{{element["review"]["reviewAuthorLink"]}}" target="_blank">
-                {% if element.review.reviewAuthorPic %}
-                  <img class="item-review__author-pic" src="{{element["review"]["reviewAuthorPic"]}}" alt="{{element["review"]["reviewAuthor"]}} photo"/>
+              <p class="item-review__text">{{element["reviewText"]}}</p>
+              <a href="{{element["reviewAuthorLink"]}}" target="_blank">
+                {% if element.reviewAuthorPic %}
+                  <img class="item-review__author-pic" src="{{element["reviewAuthorPic"]}}" alt="{{element["reviewAuthor"]}} photo"/>
                 {% endif %}
-                {{element["review"]["reviewAuthor"]}}
+                {{element["reviewAuthor"]}}
               </a>
             </li>
           {% endfor %}
