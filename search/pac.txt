@@ -1,5 +1,5 @@
-dennis-wilson-pacific-ocean-blue
-dennis-wilson-pacific-ocean-blue-legacy-edition
-cw-dennis-wilson-pacific-ocean-blue
-pacific-ocean-blue-bamboo-hen
-pacific-ocean-blue-bamboo-delux-edition
+dennis-wilson-pacific-ocean-blue:Pacific Ocean Blue:Dennis Wilson:1977
+dennis-wilson-pacific-ocean-blue-legacy-edition:Pacific Ocean Blue & Bambu:Dennis Wilson:2008
+cw-dennis-wilson-pacific-ocean-blue:Pacific Ocean Blue:Carl Wilson:1977
+pacific-ocean-blue-bamboo-hen:Pacific Ocean Blue + Bamboo:Dennis Wilson:2006
+pacific-ocean-blue-bamboo-delux-edition:Pacific Ocean Blue / Bamboo:Dennis Wilson:2006

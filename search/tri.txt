@@ -1,8 +1,9 @@
-trios-rob-wasserman
-abba-a-tribute-the-25th-anniversary-celebration
-dennis-wilson-only-with-you
-cw-hat-trick-america
-bj-hat-trick-america
-an-all-star-tribute-to-brian-wilson
-musicares-a-tribute-to-brian-wilson
-yasuki-nakayama-a-tribute-to-the-beach-boys-summer-days
+trios-rob-wasserman:Trios:Brian Wilson:1994
+abba-a-tribute-the-25th-anniversary-celebration:ABBA - A Tribute:Mike Love:1999
+dennis-wilson-only-with-you:Only With You - Tribute CD:Brian Wilson:2008
+cw-hat-trick-america:Hat Trick:Carl Wilson:1973
+bj-hat-trick-america:Hat Trick:Bruce Johnston:1973
+an-all-star-tribute-to-brian-wilson:An All-Star Tribute To Brian Wilson:Brian Wilson:2001
+musicares-a-tribute-to-brian-wilson:Musicares Presents: A Tribute To Brian Wilson:Brian Wilson:2007
+yasuki-nakayama-a-tribute-to-the-beach-boys-summer-days:A Tribute To The Beach Boys Summer Days:The Beach Boys:1997
+lets-go-trippin-rockcartoon:Let's Go Trippin':The Beach Boys:1998

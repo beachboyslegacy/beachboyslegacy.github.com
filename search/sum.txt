@@ -1,25 +1,25 @@
-all-summer-long
-summer-days
-keepin-the-summer-alive
-summer-in-paradise
-celebration-almost-summer
-12-sides-of-summer
-summertime-cruisin
-the-boys-of-summer
-bw-celebration-almost-summer
-silver-summer-jan-and-dean
-summertime-blues-adrian-baker
-summer-dreams-the-story-of-the-beach-boys
-yasuki-nakayama-a-tribute-to-the-beach-boys-summer-days
-brian-chidester-domenic-priore-all-summer-long
-jack-lloyd-endless-summer
-endless-summer
-summer-dreams
-sounds-of-summer
-summer-love-songs
-keep-an-eye-on-summer-sessions-1964
-summer-in-paradise-live
-all-summer-long-triangle
-summer-sounds-and-pet-sessions
-keepin-the-summer-live
-pet-theory-in-the-summer
+all-summer-long:All Summer Long:The Beach Boys:1964
+summer-days:Summer Days:The Beach Boys:1965
+keepin-the-summer-alive:Keepin' The Summer Alive:The Beach Boys:1980
+summer-in-paradise:Summer In Paradise:The Beach Boys:1992
+celebration-almost-summer:Almost Summer:Mike Love:1978
+12-sides-of-summer:12 Sides Of Summer:Mike Love:2019
+summertime-cruisin:Summertime Cruisin':Mike Love:2001
+the-boys-of-summer:The Boys Of Summer:Mike Love:2010
+bw-celebration-almost-summer:Almost Summer:Brian Wilson:1978
+silver-summer-jan-and-dean:Silver Summer:Mike Love:1985
+summertime-blues-adrian-baker:Summertime Blues:Mike Love:2010
+summer-dreams-the-story-of-the-beach-boys:Summer Dreams:The Beach Boys:1990
+yasuki-nakayama-a-tribute-to-the-beach-boys-summer-days:A Tribute To The Beach Boys Summer Days:The Beach Boys:1997
+brian-chidester-domenic-priore-all-summer-long:All Summer Long:The Beach Boys:2005
+jack-lloyd-endless-summer:Endless Summer:The Beach Boys:2010
+endless-summer:Endless Summer:The Beach Boys:1974
+summer-dreams:Summer Dreams:The Beach Boys:1990
+sounds-of-summer:Sounds Of Summer:The Beach Boys:2003
+summer-love-songs:Summer Love Songs:The Beach Boys:2009
+keep-an-eye-on-summer-sessions-1964:Keep An Eye On Summer:The Beach Boys:2014
+summer-in-paradise-live:Summer In Paradise:The Beach Boys:1993
+all-summer-long-triangle:All Summer Long:The Beach Boys:1993
+summer-sounds-and-pet-sessions:Summer Sounds (And Pet Sessions!!!):The Beach Boys:1994
+keepin-the-summer-live:Keepin' The Summer Live:The Beach Boys:1998
+pet-theory-in-the-summer:Pet Theory In The Summer:Brian Wilson:2002

@@ -1,14 +1,15 @@
-surfer-girl
-california-music-and-disney-girls
-hes-a-doll-honeys
-bw-barbie-what-is-a-young-girl-made-of
-the-love-of-a-boy-and-girl
-dead-mans-curve-the-new-girl-in-school
-american-girls-myfair
-acapulco-girls-sol-de-mexico
-california-girl-nancy-sinatra
-the-girls-on-the-beach
-the-little-girl-i-once-knew
-surfer-girl-binaural
-surfer-girl-era
-happy-endings
+surfer-girl:Surfer Girl:The Beach Boys:1963
+california-music-and-disney-girls:California Music & Disney Girls:Bruce Johnston:2000
+hes-a-doll-honeys:He's A Doll/The Love Of A Boy And A Girl:Brian Wilson:1964
+bw-barbie-what-is-a-young-girl-made-of:Barbie/What Is A Young Girl Made Of:Brian Wilson:1962
+the-love-of-a-boy-and-girl:The Love Of A Boy And Girl:Brian Wilson:1964
+dead-mans-curve-the-new-girl-in-school:Dead Man's Curve/The New Girl In School:Brian Wilson:1964
+american-girls-myfair:American Girls:Mike Love:1984
+acapulco-girls-sol-de-mexico:Acapulco Girls:Mike Love:1998
+california-girl-nancy-sinatra:California Girl:Brian Wilson:2002
+the-girls-on-the-beach:The Girls On The Beach:The Beach Boys:1965
+the-little-girl-i-once-knew:The Little Girl I Once Knew:The Beach Boys:1965
+surfer-girl-binaural:Surfer Girl:The Beach Boys:1967
+surfer-girl-era:Surfer Girl:The Beach Boys:1969
+happy-endings:Happy Endings/California Girls (Live):The Beach Boys:1987
+isnt-it-time-single:Isn't It Time/California Girls/Do It Again/Sail On, Sailor:The Beach Boys:2012

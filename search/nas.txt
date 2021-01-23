@@ -1,3 +1,3 @@
-salute-nascar
-the-beach-boys-nashville-sounds
-trader-goes-to-nassau
+salute-nascar:Salute Nascar:Mike Love:1998
+the-beach-boys-nashville-sounds:Nashville Sounds:The Beach Boys:1998
+trader-goes-to-nassau:Trader Goes To Nassau:The Beach Boys:1998

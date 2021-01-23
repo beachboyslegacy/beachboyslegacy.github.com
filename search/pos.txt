@@ -1,5 +1,5 @@
-a-postcard-from-california
-a-postcard-from-california-rsd
-bw-a-postcard-from-california
-cw-a-postcard-from-california
-ml-a-postcard-from-california
+a-postcard-from-california:A Postcard From California:Al Jardine:2010
+a-postcard-from-california-rsd:A Postcard From California:Al Jardine:2018
+bw-a-postcard-from-california:A Postcard From California:Brian Wilson:2010
+cw-a-postcard-from-california:A Postcard From California:Carl Wilson:2010
+ml-a-postcard-from-california:A Postcard From California:Mike Love:2010

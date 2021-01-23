@@ -1,2 +1,2 @@
-bw-boats-against-the-current
-bj-boats-against-the-current
+bw-boats-against-the-current:Boats Against The Current:Brian Wilson:1977
+bj-boats-against-the-current:Boats Against The Current:Bruce Johnston:1977

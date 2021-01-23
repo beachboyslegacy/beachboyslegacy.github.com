@@ -1,3 +1,4 @@
-pray-for-surf-hide-go-seek
-little-saint-nick-the-lords-prayer
-our-prayer-freeform-reform
+pray-for-surf-hide-go-seek:Pray For Surf/Hide Go Seek:Brian Wilson:1963
+little-saint-nick-the-lords-prayer:Little St. Nick/The Lord's Prayer:The Beach Boys:1963
+our-prayer-good-vibrations-live:Our Prayer/Good Vibrations:Brian Wilson:2004
+our-prayer-freeform-reform:Our Prayer:Brian Wilson:2005

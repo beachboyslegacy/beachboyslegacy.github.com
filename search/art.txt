@@ -1,2 +1,2 @@
-orange-crate-art
-the-art-of-mccartney
+orange-crate-art:Orange Crate Art:Brian Wilson:1995
+the-art-of-mccartney:The Art of McCartney:Brian Wilson:2014

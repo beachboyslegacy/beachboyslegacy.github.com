@@ -1,10 +1,10 @@
-listen-to-me-buddy-holly
-she-rides-with-me-paul-petersen
-twelve-o-four-baby-what-you-want-me-to-do
-bw-she-rides-with-me-paul-petersen
-cw-caribou-elton-john
-bj-caribou-elton-john
-plug-me-into-something
-hold-me
-help-me-tampa
-tell-me-why-blue-ocean
+listen-to-me-buddy-holly:Listen To Me:Brian Wilson:2011
+she-rides-with-me-paul-petersen:She Rides With Me:Brian Wilson:1964
+twelve-o-four-baby-what-you-want-me-to-do:Twelve-O-Four/Baby What You Want Me To Do:Brian Wilson:1965
+bw-she-rides-with-me-paul-petersen:She Rides With Me:Brian Wilson:1964
+cw-caribou-elton-john:Don't Let The Sun Go Down On Me:Carl Wilson:1974
+bj-caribou-elton-john:Don't Let The Sun Go Down On Me:Bruce Johnston:1974
+plug-me-into-something:Plug Me Into Something:Carl Wilson:1975
+hold-me:Hold Me:Carl Wilson:1981
+help-me-tampa:Help Me Tampa:The Beach Boys:1995
+tell-me-why-blue-ocean:Tell Me Why:Brian Wilson:2004

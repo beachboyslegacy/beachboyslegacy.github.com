@@ -1,8 +1,13 @@
-something-funny-goin-on
-the-catalinas-fun-fun-fun
-the-catalinas-fun-fun-fun
-the-catalinas-fun-fun-fun
-fun-fun-fun-status-quo
-fun-fun-fun-with-jimmy-page
-fun-fun-fun-with-jimmy-page
-fun-fun-fun-with-jimmy-page
+something-funny-goin-on:Something Funny Goin' On:David Marks:2003
+the-catalinas-fun-fun-fun:Fun Fun Fun:Bruce Johnston:1964
+the-catalinas-fun-fun-fun:Fun Fun Fun:Bruce Johnston:1964
+the-catalinas-fun-fun-fun:Fun Fun Fun:Bruce Johnston:1964
+fun-fun-fun-why-do-fools-fall-in-love:Fun, Fun, Fun/Why Do Fools Fall In Love:The Beach Boys:1964
+fun-fun-fun-why-do-fools-fall-in-love:Fun, Fun, Fun/Why Do Fools Fall In Love:The Beach Boys:1964
+fun-fun-fun-why-do-fools-fall-in-love:Fun, Fun, Fun/Why Do Fools Fall In Love:The Beach Boys:1964
+fun-fun-fun-status-quo:Fun, Fun, Fun:The Beach Boys:1996
+fun-fun-fun-status-quo:Fun, Fun, Fun:The Beach Boys:1996
+fun-fun-fun-status-quo:Fun, Fun, Fun:The Beach Boys:1996
+fun-fun-fun-with-jimmy-page:Fun Fun Fun With Jimmy Page:The Beach Boys:1994
+fun-fun-fun-with-jimmy-page:Fun Fun Fun With Jimmy Page:The Beach Boys:1994
+fun-fun-fun-with-jimmy-page:Fun Fun Fun With Jimmy Page:The Beach Boys:1994

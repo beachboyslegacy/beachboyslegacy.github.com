@@ -1,10 +1,10 @@
-dennis-wilson-pacific-ocean-blue
-dennis-wilson-pacific-ocean-blue-legacy-edition
-marks-clifford-band-live-blue-dolphin
-blue-moo
-cw-dennis-wilson-pacific-ocean-blue
-summertime-blues-adrian-baker
-bluebirds-over-the-mountain
-in-blue-hawaii
-pacific-ocean-blue-bamboo-hen
-pacific-ocean-blue-bamboo-delux-edition
+dennis-wilson-pacific-ocean-blue:Pacific Ocean Blue:Dennis Wilson:1977
+dennis-wilson-pacific-ocean-blue-legacy-edition:Pacific Ocean Blue & Bambu:Dennis Wilson:2008
+marks-clifford-band-live-blue-dolphin:Live @ The Blue Dolphin '77:David Marks:2006
+blue-moo:Blue Moo:Brian Wilson:2007
+cw-dennis-wilson-pacific-ocean-blue:Pacific Ocean Blue:Carl Wilson:1977
+summertime-blues-adrian-baker:Summertime Blues:Mike Love:2010
+bluebirds-over-the-mountain:Bluebirds Over The Mountain/Never Learn Not To Love:The Beach Boys:1968
+in-blue-hawaii:In Blue Hawaii:Brian Wilson:2004
+pacific-ocean-blue-bamboo-hen:Pacific Ocean Blue + Bamboo:Dennis Wilson:2006
+pacific-ocean-blue-bamboo-delux-edition:Pacific Ocean Blue / Bamboo:Dennis Wilson:2006

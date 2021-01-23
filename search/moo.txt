@@ -1,3 +1,4 @@
-the-moon
-blue-moo
-bbcs-1
+the-moon:The Moon:David Marks:1969
+blue-moo:Blue Moo:Brian Wilson:2007
+the-surfer-moon-humpty-dumpty:The Surfer Moon/Humpty Dumpty:Brian Wilson:1962
+bbcs-1:Bob And Sheri: The Surfer Moon:The Beach Boys:1978

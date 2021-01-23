@@ -1,14 +1,15 @@
-the-smile-sessions
-sessions-64
-the-pet-sounds-sessions
-the-smile-sessions-box
-the-sweet-insanity-sessions-scorpio
-brian-wilson-sessions
-pet-sounds-sessions-hawthorne
-heroes-and-villains-sessions-parts-1-2
-brian-wilson-and-andy-paley-sessions-1996
-christmas-sessions
-sweet-insanity-sessions-ever-green
-brian-wilson-andy-paley-sessions-1994-1996
-more-andy-paley-sessions
-andy-paley-sessions-volume-2
+the-smile-sessions:The Smile Sessions:The Beach Boys:2011
+sessions-64:Sessions '64!!:Brian Wilson:2015
+the-pet-sounds-sessions:The Pet Sounds Sessions:The Beach Boys:1997
+the-smile-sessions-box:The Smile Sessions:The Beach Boys:2011
+the-sweet-insanity-sessions-scorpio:The Sweet Insanity Sessions:Brian Wilson:1992
+summer-sounds-and-pet-sessions:Summer Sounds (And Pet Sessions!!!):The Beach Boys:1994
+brian-wilson-sessions:Sessions:Brian Wilson:1994
+pet-sounds-sessions-hawthorne:Pet Sounds Sessions:The Beach Boys:1996
+heroes-and-villains-sessions-parts-1-2:Heroes And Villains Sessions Parts 1 & 2:The Beach Boys:1996
+brian-wilson-and-andy-paley-sessions-1996:Sessions 1996:Brian Wilson:1996
+christmas-sessions:Christmas Sessions:The Beach Boys:1997
+sweet-insanity-sessions-ever-green:Sweet Insanity Sessions:Brian Wilson:1998
+brian-wilson-andy-paley-sessions-1994-1996:Sessions 1994-1996:Brian Wilson:1999
+more-andy-paley-sessions:More Andy Paley Sessions:Brian Wilson:2000
+andy-paley-sessions-volume-2:Sessions Volume 2:Brian Wilson:2000

@@ -1,5 +1,5 @@
-fourth-of-july
-ml-fourth-of-july
-rock-and-other-four-letter-words
-lost-and-found
-ccs-vol-3
+fourth-of-july:Fourth Of July:The Beach Boys:1986
+ml-fourth-of-july:Fourth Of July:Mike Love:1986
+rock-and-other-four-letter-words:Rock And Other Four Letter Words:Brian Wilson:1968
+lost-and-found:Lost & Found:The Beach Boys:1991
+ccs-vol-3:Four Previously Unreleased Tracks:The Beach Boys:1982

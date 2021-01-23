@@ -1,6 +1,6 @@
-15-big-ones
-chicago-xi
-fifty-big-ones-greatest-hits
-the-big-beat-1963
-26-big-ones
-the-big-beat-surf-city
+15-big-ones:15 Big Ones:The Beach Boys:1976
+chicago-xi:Baby, What A Big Surprise:Carl Wilson:1977
+fifty-big-ones-greatest-hits:Fifty Big Ones:The Beach Boys:2012
+the-big-beat-1963:The Big Beat 1963:The Beach Boys:2013
+26-big-ones:26 Big Ones!:The Beach Boys:1999
+the-big-beat-surf-city:The Big Beat 1963:The Beach Boys:2014

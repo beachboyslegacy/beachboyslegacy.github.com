@@ -1,14 +1,14 @@
-all-summer-long
-pet-sounds-live-in-london
-brian-chidester-domenic-priore-all-summer-long
-kent-crowley-long-promised-road
-all-summer-long-triangle
-long-lost-surf-songs-vol-1
-long-lost-surf-songs-vol-2
-long-lost-surf-songs-vol-3
-long-lost-surf-songs-vol-4
-long-lost-surf-songs-vol-5
-long-lost-surf-songs-vol-6
-a-long-promised-road
-live-in-london-hmc
-50th-anniversary-in-london
+all-summer-long:All Summer Long:The Beach Boys:1964
+pet-sounds-live-in-london:Brian Wilson Presents Pet Sounds Live In London:Brian Wilson:2003
+brian-chidester-domenic-priore-all-summer-long:All Summer Long:The Beach Boys:2005
+kent-crowley-long-promised-road:Long Promised Road:Carl Wilson:2015
+all-summer-long-triangle:All Summer Long:The Beach Boys:1993
+long-lost-surf-songs-vol-1:Long Lost Surf Songs Vol. 1:The Beach Boys:1995
+long-lost-surf-songs-vol-2:Long Lost Surf Songs Vol. 2:The Beach Boys:1995
+long-lost-surf-songs-vol-3:Long Lost Surf Songs Vol. 3:The Beach Boys:1995
+long-lost-surf-songs-vol-4:Long Lost Surf Songs Vol. 4:The Beach Boys:1995
+long-lost-surf-songs-vol-5:Long Lost Surf Songs Vol. 5:The Beach Boys:1995
+long-lost-surf-songs-vol-6:Long Lost Surf Songs Vol. 6:The Beach Boys:1995
+a-long-promised-road:A Long Promised Road:The Beach Boys:2005
+live-in-london-hmc:Live In London:The Beach Boys:2008
+50th-anniversary-in-london:50th Anniversary In London:The Beach Boys:2012

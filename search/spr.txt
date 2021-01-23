@@ -1,7 +1,7 @@
-spring-spring
-bw-spring-spring
-cw-spring-spring
-dw-spring-spring
-ml-spring-spring
-aj-spring-spring
-bj-spring-spring
+spring-spring:Spring:Brian Wilson:1972
+bw-spring-spring:Spring:Brian Wilson:1972
+cw-spring-spring:Spring:Carl Wilson:1972
+dw-spring-spring:Spring:Dennis Wilson:1972
+ml-spring-spring:Spring:Mike Love:1972
+aj-spring-spring:Spring:Al Jardine:1972
+bj-spring-spring:Spring:Bruce Johnston:1972

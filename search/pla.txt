@@ -1,8 +1,9 @@
-playback-the-brian-wilson-anthology
-a-tribute-to-garth-brooks-new-friends-in-low-places
-bw-1100-bel-air-place
-cw-1100-bel-air-place
-ml-1100-bel-air-place
-aj-1100-bel-air-place
-bj-1100-bel-air-place
-timothy-white-the-nearest-faraway-place
+playback-the-brian-wilson-anthology:Playback:Brian Wilson:2017
+a-tribute-to-garth-brooks-new-friends-in-low-places:New Friends In Low Places:Al Jardine:1999
+playin-it-cool-timothy-b-schmit:Playin' It Cool:Carl Wilson:1984
+bw-1100-bel-air-place:1100 Bel Air Place:Brian Wilson:1984
+cw-1100-bel-air-place:1100 Bel Air Place:Carl Wilson:1984
+ml-1100-bel-air-place:1100 Bel Air Place:Mike Love:1984
+aj-1100-bel-air-place:1100 Bel Air Place:Al Jardine:1984
+bj-1100-bel-air-place:1100 Bel Air Place:Bruce Johnston:1984
+timothy-white-the-nearest-faraway-place:The Nearest Faraway Place:The Beach Boys:1994

@@ -1,38 +1,39 @@
-wild-honey
-brian-wilson-1988
-brian-wilson-deluxe-1988
-brian-wilson-presents-pet-sounds-live
-brian-wilson-presents-smile
-brian-wilson-reimagines-gershwin
-brian-wilson-and-friends
-carl-wilson
-brian-wilson-rarities-beach-boys
-the-wilsons
-ride-the-wild-surf
-wildflowers-tom-petty
-bw-the-wilsons
-an-all-star-tribute-to-brian-wilson
-brian-wilson-on-tour
-pet-sounds-live-in-london
-brian-wilson-presents-smile-dvd
-musicares-a-tribute-to-brian-wilson
-brian-wilson-and-friends-bluray
-todd-gold-woudnt-it-be-nice
-stephen-mcparland-the-wilson-project
-paul-williams-how-deep-is-the-ocean
-stephen-mcparland-our-favorite-recording-sessions
-john-stebbins-dennis-wilson-the-real-beach-boy
-joe-thomas-kie-miskelly-brian-wilson-solo
-joe-thomas-the-japanese-cd-releases
-alex-farquharson-brian-wilson-an-art-book
-philip-lambert-inside-the-music-of-brian-wilson
-kirk-curnutt-icons-of-pop-music-brian-wilson
-max-harrick-shenk-meeting-dennis-wilson
-lora-greene-the-good-vibrations-of-brian-wilson
-brian-wilson-ben-greenman-i-am-brian-wilson
-christian-matijas-mecca-words-and-music
-brian-wilson-and-the-beach-boys-solos
-the-wilson-project-iu
-project-wilson-darkside
-maximum-brian-wilson-and-the-beach-boys
-brian-wilson-performs-smile
+wild-honey:Wild Honey:The Beach Boys:1967
+brian-wilson-1988:Brian Wilson:Brian Wilson:1988
+brian-wilson-deluxe-1988:Brian Wilson:Brian Wilson:2015
+brian-wilson-presents-pet-sounds-live:Brian Wilson Presents Pet Sounds Live:Brian Wilson:2002
+brian-wilson-presents-smile:Brian Wilson Presents Smile:Brian Wilson:2004
+brian-wilson-reimagines-gershwin:Brian Wilson Reimagines Gershwin:Brian Wilson:2010
+brian-wilson-and-friends:Brian Wilson And Friends:Brian Wilson:2016
+carl-wilson:Carl Wilson:Carl Wilson:1981
+brian-wilson-rarities-beach-boys:Brian Wilson Rarities:The Beach Boys:1981
+the-wilsons:The Wilsons:Brian Wilson:1997
+ride-the-wild-surf:Ride The Wild Surf:Brian Wilson:1964
+wildflowers-tom-petty:Wildflowers:Carl Wilson:1994
+bw-the-wilsons:The Wilsons:Brian Wilson:1997
+an-all-star-tribute-to-brian-wilson:An All-Star Tribute To Brian Wilson:Brian Wilson:2001
+brian-wilson-on-tour:Brian Wilson On Tour:Brian Wilson:2003
+pet-sounds-live-in-london:Brian Wilson Presents Pet Sounds Live In London:Brian Wilson:2003
+brian-wilson-presents-smile-dvd:Brian Wilson Presents SMiLE:Brian Wilson:2005
+musicares-a-tribute-to-brian-wilson:Musicares Presents: A Tribute To Brian Wilson:Brian Wilson:2007
+brian-wilson-and-friends-bluray:Brian Wilson and Friends:Brian Wilson:2016
+todd-gold-woudnt-it-be-nice:Brian Wilson:Brian Wilson:1991
+stephen-mcparland-the-wilson-project:The Wilson Project:Brian Wilson:1991
+paul-williams-how-deep-is-the-ocean:Brian Wilson & The Beach Boys:The Beach Boys:1997
+stephen-mcparland-our-favorite-recording-sessions:In The Studio with Brian Wilson and The Beach Boys:The Beach Boys:2000
+john-stebbins-dennis-wilson-the-real-beach-boy:Dennis Wilson:Dennis Wilson:2000
+joe-thomas-kie-miskelly-brian-wilson-solo:Brian Wilson Solo:Brian Wilson:2004
+joe-thomas-the-japanese-cd-releases:The Beach Boys & Brian Wilson:The Beach Boys:2004
+alex-farquharson-brian-wilson-an-art-book:Brian Wilson:Brian Wilson:2005
+philip-lambert-inside-the-music-of-brian-wilson:Inside the Music of Brian Wilson:Brian Wilson:2007
+kirk-curnutt-icons-of-pop-music-brian-wilson:Brian Wilson:Brian Wilson:2012
+max-harrick-shenk-meeting-dennis-wilson:Meeting Dennis Wilson:Dennis Wilson:2013
+lora-greene-the-good-vibrations-of-brian-wilson:The Good Vibrations Of Brian Wilson:Brian Wilson:2013
+brian-wilson-ben-greenman-i-am-brian-wilson:I Am Brian Wilson:Brian Wilson:2016
+christian-matijas-mecca-words-and-music:The Words and Music of Brian Wilson:Brian Wilson:2017
+brian-wilson-and-the-beach-boys-solos:Brian Wilson & The Beach Boys Solos:The Beach Boys:1990
+the-wilson-project-iu:The Wilson Project:Brian Wilson:1994
+project-wilson-darkside:Project Wilson:Brian Wilson:2000
+brian-wilson-party:Brian Wilson' Party!:Brian Wilson:2000
+maximum-brian-wilson-and-the-beach-boys:Maximum Brian Wilson & The Beach Boys:The Beach Boys:2004
+brian-wilson-performs-smile:Brian Wilson Performs Smile:Brian Wilson:2004

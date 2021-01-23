@@ -1,26 +1,26 @@
-ml-legendary-masked-surfer-unmasked
-bruce-and-terry-rare-masters
-monster-mash-oil-well
-masterpiece-vol-1
-unsurpassed-masters-vol-1
-unsurpassed-masters-vol-2
-unsurpassed-masters-vol-3
-unsurpassed-masters-vol-4
-unsurpassed-masters-vol-5
-unsurpassed-masters-vol-6
-unsurpassed-masters-vol-7
-unsurpassed-masters-vol-8
-unsurpassed-masters-vol-9
-unsurpassed-masters-vol-10
-unsurpassed-masters-vol-11
-unsurpassed-masters-vol-12
-unsurpassed-masters-vol-13
-unsurpassed-masters-vol-14
-unsurpassed-masters-vol-15
-unsurpassed-masters-vol-16
-unsurpassed-masters-vol-17
-unsurpassed-masters-vol-18
-unsurpassed-masters-vol-19
-unsurpassed-masters-vol-20
-unsurpassed-masters-vol-21
-best-unsurpassed-masters
+ml-legendary-masked-surfer-unmasked:Anthology: Legendary Masked Surfer Unmasked:Mike Love:2002
+bruce-and-terry-rare-masters:Rare Masters:Bruce Johnston:1992
+monster-mash-oil-well:Monster Mash (Live 1964):The Beach Boys:1994
+masterpiece-vol-1:Masterpiece Vol. 1:Brian Wilson:1996
+unsurpassed-masters-vol-1:Unsurpassed Masters Vol. 1 (1962):The Beach Boys:1997
+unsurpassed-masters-vol-2:Unsurpassed Masters Vol. 2 (1963):The Beach Boys:1997
+unsurpassed-masters-vol-3:Unsurpassed Masters Vol. 3 (1963):The Beach Boys:1997
+unsurpassed-masters-vol-4:Unsurpassed Masters Vol. 4 (1963):The Beach Boys:1997
+unsurpassed-masters-vol-5:Unsurpassed Masters Vol. 5 (1964):The Beach Boys:1998
+unsurpassed-masters-vol-6:Unsurpassed Masters Vol. 6 (1964):The Beach Boys:1998
+unsurpassed-masters-vol-7:Unsurpassed Masters Vol. 7 (1964):The Beach Boys:1998
+unsurpassed-masters-vol-8:Unsurpassed Masters Vol. 8 (1965):The Beach Boys:1998
+unsurpassed-masters-vol-9:Unsurpassed Masters Vol. 9 (1965):The Beach Boys:1998
+unsurpassed-masters-vol-10:Unsurpassed Masters Vol. 10 (1965):The Beach Boys:1998
+unsurpassed-masters-vol-11:Unsurpassed Masters Vol. 11 (1965):The Beach Boys:1998
+unsurpassed-masters-vol-12:Unsurpassed Masters Vol. 12 (1965):The Beach Boys:1998
+unsurpassed-masters-vol-13:Unsurpassed Masters Vol. 13 (1966):The Beach Boys:1998
+unsurpassed-masters-vol-14:Unsurpassed Masters Vol. 14 (1966):The Beach Boys:1998
+unsurpassed-masters-vol-15:Unsurpassed Masters Vol. 15 (1966):The Beach Boys:1999
+unsurpassed-masters-vol-16:Unsurpassed Masters Vol. 16 (1966-1967):The Beach Boys:1999
+unsurpassed-masters-vol-17:Unsurpassed Masters Vol. 17 (1966-1967):The Beach Boys:1999
+unsurpassed-masters-vol-18:Unsurpassed Masters Vol. 18 (1967):The Beach Boys:1999
+unsurpassed-masters-vol-19:Unsurpassed Masters Vol. 19 (1967):The Beach Boys:1999
+unsurpassed-masters-vol-20:Unsurpassed Masters Vol. 20 (1968-1969):The Beach Boys:1999
+unsurpassed-masters-vol-21:Unsurpassed Masters Vol. 21 (1965):The Beach Boys:1999
+best-unsurpassed-masters:Best Unsurpassed Masters (1962-1969):The Beach Boys:2001

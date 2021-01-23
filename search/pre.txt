@@ -1,8 +1,10 @@
-brian-wilson-presents-pet-sounds-live
-brian-wilson-presents-smile
-no-pier-pressure
-pet-sounds-live-in-london
-brian-wilson-presents-smile-dvd
-bbcs-4
-ccs-vol-3
-presents-smile
+brian-wilson-presents-pet-sounds-live:Brian Wilson Presents Pet Sounds Live:Brian Wilson:2002
+brian-wilson-presents-smile:Brian Wilson Presents Smile:Brian Wilson:2004
+no-pier-pressure:No Pier Pressure:Brian Wilson:2015
+pet-sounds-live-in-london:Brian Wilson Presents Pet Sounds Live In London:Brian Wilson:2003
+brian-wilson-presents-smile-dvd:Brian Wilson Presents SMiLE:Brian Wilson:2005
+musicares-a-tribute-to-brian-wilson:Musicares Presents: A Tribute To Brian Wilson:Brian Wilson:2007
+bbcs-4:KPUK Radio presents The Borscht Boys:The Beach Boys:1978
+ccs-vol-3:Four Previously Unreleased Tracks:The Beach Boys:1982
+pre-show-jitters:Pre-Show Jitters:Brian Wilson:2001
+presents-smile:Presents Smile:Brian Wilson:2004

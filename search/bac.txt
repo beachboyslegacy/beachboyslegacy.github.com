@@ -1,9 +1,11 @@
-songs-from-here-and-back
-david-marks-back-in-the-garage
-looking-back-with-love
-bw-looking-back-with-love
-cw-reg-strikes-back-elton-john
-bj-reg-strikes-back-elton-john
-the-beach-boys-back-to-the-beach
-kingsley-abbott-back-to-the-beach
-brians-back-he-loves-you
+songs-from-here-and-back:Songs From Here And Back:The Beach Boys:2006
+david-marks-back-in-the-garage:Back In The Garage:David Marks:2016
+looking-back-with-love:Looking Back With Love:Mike Love:1981
+bw-looking-back-with-love:Looking Back With Love:Brian Wilson:1981
+cw-reg-strikes-back-elton-john:Reg Strikes Back:Carl Wilson:1988
+bj-reg-strikes-back-elton-john:Reg Strikes Back:Bruce Johnston:1988
+the-beach-boys-back-to-the-beach:Back To The Beach:The Beach Boys:2005
+kingsley-abbott-back-to-the-beach:Back To The Beach:The Beach Boys:1998
+brians-back-he-loves-you:Brian's Back (He Loves You):The Beach Boys:1994
+come-back-brian:Come Back, Brian!:Brian Wilson:1994
+brian-is-back-first-solo-concert:Brian Is Back!:Brian Wilson:1999

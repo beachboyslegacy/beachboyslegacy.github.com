@@ -1,10 +1,10 @@
-david-marks-the-lost-years
-the-beach-boys-the-lost-concert
-john-stebbins-david-marks-the-lost-beach-boy
-lost-and-found
-long-lost-surf-songs-vol-1
-long-lost-surf-songs-vol-2
-long-lost-surf-songs-vol-3
-long-lost-surf-songs-vol-4
-long-lost-surf-songs-vol-5
-long-lost-surf-songs-vol-6
+david-marks-the-lost-years:The Lost Years:David Marks:2008
+the-beach-boys-the-lost-concert:The Lost Concert:The Beach Boys:1999
+john-stebbins-david-marks-the-lost-beach-boy:The Lost Beach Boy:David Marks:2007
+lost-and-found:Lost & Found:The Beach Boys:1991
+long-lost-surf-songs-vol-1:Long Lost Surf Songs Vol. 1:The Beach Boys:1995
+long-lost-surf-songs-vol-2:Long Lost Surf Songs Vol. 2:The Beach Boys:1995
+long-lost-surf-songs-vol-3:Long Lost Surf Songs Vol. 3:The Beach Boys:1995
+long-lost-surf-songs-vol-4:Long Lost Surf Songs Vol. 4:The Beach Boys:1995
+long-lost-surf-songs-vol-5:Long Lost Surf Songs Vol. 5:The Beach Boys:1995
+long-lost-surf-songs-vol-6:Long Lost Surf Songs Vol. 6:The Beach Boys:1995

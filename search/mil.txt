@@ -1,4 +1,4 @@
-one-in-a-million
-pet-sounds-millennium-edition
-smile-millennium-edition
-smile-purple-chick-millenium
+one-in-a-million:One In A Million:Al Jardine:2004
+pet-sounds-millennium-edition:Pet Sounds Millennium Edition:The Beach Boys:2000
+smile-millennium-edition:Smile Millennium Edition:The Beach Boys:2000
+smile-purple-chick-millenium:Smile (Purple Chick & Millenium Editions):The Beach Boys:2008

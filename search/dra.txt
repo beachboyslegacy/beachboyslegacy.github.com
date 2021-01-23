@@ -1,8 +1,8 @@
-drag-city-jan-and-dean-single
-bw-drag-city-jan-and-dean
-cw-drag-city-jan-and-dean
-dw-drag-city-jan-and-dean
-ml-drag-city-jan-and-dean
-aj-drag-city-jan-and-dean
-surf-and-drag-vol-1
-all-the-hits-from-surf-city-to-drag-city
+drag-city-jan-and-dean-single:Drag City:Brian Wilson:1963
+bw-drag-city-jan-and-dean:Drag City:Brian Wilson:1963
+cw-drag-city-jan-and-dean:Drag City:Carl Wilson:1963
+dw-drag-city-jan-and-dean:Drag City:Dennis Wilson:1963
+ml-drag-city-jan-and-dean:Drag City:Mike Love:1963
+aj-drag-city-jan-and-dean:Drag City:Al Jardine:1963
+surf-and-drag-vol-1:Surf & Drag Vol. 1:Dennis Wilson:1989
+all-the-hits-from-surf-city-to-drag-city:All The Hits: From Surf City To Drag City:Brian Wilson:1996

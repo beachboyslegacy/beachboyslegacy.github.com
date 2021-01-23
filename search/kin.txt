@@ -1,2 +1,2 @@
-cw-king-harvest-vaea
-ml-king-harvest-vaea
+cw-king-harvest-vaea:King Harvest:Carl Wilson:1975
+ml-king-harvest-vaea:King Harvest:Mike Love:1975
