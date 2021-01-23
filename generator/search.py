@@ -21,12 +21,12 @@ class SearchIndicesGenerator:
         rmtree(self.output_dir, ignore_errors=True)
         makedirs(self.output_dir)
 
-    def _write_to_index_file(self, term: str, location: str) -> None:
+    def _write_to_index_file(self, term: str, locator: str) -> None:
         """Writes path to the matching index.
 
         Arguments:
         term: str -- Term that must be matched to the proper index files.
-        location: str -- The path to be recorded for the matching term index
+        locator: str -- The path to be recorded for the matching term index
             files.
         """
         # Get all words in term and make them lowercase if they're char-only.
@@ -49,7 +49,7 @@ class SearchIndicesGenerator:
                 file_op = "w"
 
             with word_index_file_path.open(file_op) as word_index_file:
-                word_index_file.write(f"{location}\n")
+                word_index_file.write(f"{locator}\n")
 
     def generate(self) -> None:
         # Remove previous contents for index files.
@@ -57,5 +57,15 @@ class SearchIndicesGenerator:
 
         for item in self.items:
             parent: dict = item["parent"]
+            name: str = parent["name"]
+            unique_id: str = parent["uniqueId"]
+            release_year: str = parent["releaseYear"]
 
-            self._write_to_index_file(parent["name"], parent["uniqueId"])
+            artist: str
+            try:
+                artist = parent["byArtist"]
+            except KeyError:
+                artist = parent["aboutArtist"]
+
+            locator: str = f"{unique_id}:{name}:{artist}:{release_year}"
+            self._write_to_index_file(name, locator)
