@@ -17,9 +17,7 @@ function fetchResultsForSearch(search, resultsTarget) {
 
     setTimeout(() => {
         // Remove old results.
-        // while (resultsTarget.firstChild) {
-        //     resultsTarget.removeChild(parent.firstChild);
-        // }
+        [...resultsTarget.options].map(result => result.remove());
 
         // Add new results.
         for (result of results.flat()) {
