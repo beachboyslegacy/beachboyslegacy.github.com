@@ -17,10 +17,13 @@
         <!-- For Facebook -->
         <meta property="og:title" content="{% if artist.name == 'All' %}The Beach Boys{% else %}{{artist.name}}{% endif %} {% if category.name == 'Latest' %}Latest Releases{% else %}{{category.name}}{% endif %} - Beach Boys Legacy"/>
         <meta property="og:description" content="Explore {% if artist.name == 'All' %}The Beach Boys{% else %}{{artist.name}}{% endif %} {% if category.name == 'Latest' %}Latest Releases{% else %}{{category.name}}{% endif %} on Beach Boys Legacy."/>
-
+        <meta property="og:image" content="{{base_url}}/assets/beach-boys-legacy.png">
+        
         <!-- for Twitter -->
         <meta name="twitter:title" content="{% if artist.name == 'All' %}The Beach Boys{% else %}{{artist.name}}{% endif %} {% if category.name == 'Latest' %}Latest Releases{% else %}{{category.name}}{% endif %} - Beach Boys Legacy"/>
         <meta name="twitter:description" content="Explore {% if artist.name == 'All' %}The Beach Boys{% else %}{{artist.name}}{% endif %} {% if category.name == 'Latest' %}Latest Releases{% else %}{{category.name}}{% endif %} on Beach Boys Legacy."/>
+        <meta name="twitter:image" content="{{base_url}}/assets/beach-boys-legacy.png">
+
 
         <!-- Overlay Menu -->
         <script src="{{base_url}}/js/overlay_menu.js"></script>
@@ -123,7 +126,11 @@
 
             <ul id="items" class="items">
                 {% for item in items%}
-                    <li data-date="{{item.parent.releaseYear}}">
+                    <li
+                        data-year="{{item.parent.releaseYear}}"
+                        data-month="{{item.parent.releaseMonth}}"
+                        data-day="{{item.parent.releaseDay}}"
+                    >
                         <a class="item__header" href="{{base_url}}/item/{{item.parent.uniqueId}}.html" style="background-color:{{item.parent.backgroundColor}}" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Latest\x27)">
                             <img class="item__cover lazy" src="{{base_url}}/assets/preloader.svg" data-src="{{base_url}}/{{item.parent.image}}" alt="{{item.parent.name}} cover">
                         <div class="item__info">

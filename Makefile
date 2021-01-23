@@ -34,6 +34,7 @@ templates-reset:
 	git checkout master item artist index.html
 
 .PHONY: templates-stage
+templates-stage: templates-reset
 templates-stage: templates
 templates-stage:
 	git add item artist index.html
