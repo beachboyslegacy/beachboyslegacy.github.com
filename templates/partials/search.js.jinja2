@@ -1,0 +1,21 @@
+function fetchResultsForSearch(search) {
+    var terms = search.split(" ")
+        .map(word => word.toLowerCase())
+        .map(term => term.substring(0, 3));
+
+    var results = [];
+    for (term of terms) {
+        var request = new XMLHttpRequest();
+
+        request.addEventListener("load", function() {
+            results.push(this.responseText.split("\n"));
+        });
+
+        request.open("GET", "{{base_url}}/search/" + term + ".txt");
+        request.send();
+    }
+
+    setTimeout(() => console.log(results.flat()), 1000);
+}
+
+window.addEventListener("load", () => {});
