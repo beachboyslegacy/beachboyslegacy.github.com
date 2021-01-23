@@ -33,7 +33,7 @@ class SearchIndicesGenerator:
         words: list[str] = [
             word[:self.letters_per_index].lower().rstrip()
             for word in term.split()
-            if word.isalpha()
+            if word[:self.letters_per_index].isalpha()
         ]
 
         for word in words:
