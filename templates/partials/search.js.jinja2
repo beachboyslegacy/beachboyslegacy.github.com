@@ -12,7 +12,7 @@ function unpackLocator(locator) {
 
 // Fetches results for a search term and adds them to results ui.
 function fetchResultsForSearch(search, resultsTarget) {
-    var terms = search.split(" ")
+    var terms = search.trim().split(" ")
         .map(word => word.toLowerCase())
         .map(term => term.substring(0, 3));
 
@@ -33,7 +33,14 @@ function fetchResultsForSearch(search, resultsTarget) {
         [...resultsTarget.options].map(result => result.remove());
 
         // Add new results.
-        for (result of results.flat().map(locator => unpackLocator(locator))) {
+        parsedResults = results
+            .flat()
+            .filter((result, index, self) => (
+                result && self.indexOf(result) === index
+            ))
+            .map(locator => unpackLocator(locator));
+
+        for (result of parsedResults) {
             var resultObject = document.createElement("option");
             resultObject.value = `${result.name} (${result.releaseYear}) - ${result.artist}`;
             resultObject.dataset.url = `{{base_url}}/item/${result.uniqueId}.html`
@@ -54,7 +61,7 @@ window.addEventListener("load", () => {
 
         if (selectedResults.length) {
             window.location = selectedResults[0].dataset.url;
-        } else if (searchBar.value.length) {
+        } else if (searchBar.value.length !== 0) {
             fetchResultsForSearch(searchBar.value, resultsTarget);
         }
     });
