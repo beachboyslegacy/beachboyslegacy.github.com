@@ -214,7 +214,7 @@
           {% if item.editions %}
           <h3 class="item-section-title">Editions</h3>
           <ul class="child-items">
-            {% for element in item["editions"] %}
+            {% for element in item["editions"]|reverse %}
               <li>
                 <div class="child-item__header">
                   <h3 class="child-item__title">
