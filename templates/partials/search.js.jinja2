@@ -1,4 +1,4 @@
-function fetchResultsForSearch(search) {
+function fetchResultsForSearch(search, resultsTarget) {
     var terms = search.split(" ")
         .map(word => word.toLowerCase())
         .map(term => term.substring(0, 3));
@@ -15,7 +15,39 @@ function fetchResultsForSearch(search) {
         request.send();
     }
 
-    setTimeout(() => console.log(results.flat()), 1000);
+    setTimeout(() => {
+        // Remove old results.
+        // while (resultsTarget.firstChild) {
+        //     resultsTarget.removeChild(parent.firstChild);
+        // }
+
+        // Add new results.
+        for (result of results.flat()) {
+            var resultObject = document.createElement("option");
+            resultObject.value = result;
+
+            resultsTarget.appendChild(resultObject);
+        }
+    }, 1000);
 }
 
-window.addEventListener("load", () => {});
+window.addEventListener("load", () => {
+    var searchBar = document.getElementById("searchBar");
+    var resultsTarget = document.getElementById("results");
+
+    searchBar.addEventListener("change", () => {
+        var selectedResults = [
+            ...resultsTarget.options
+        ].map(
+            result => result.value
+        ).filter(
+            result => result === searchBar.value
+        );
+
+        if (selectedResults.length) {
+            window.location = "{{base_url}}/item/" + selectedResults[0] + ".html";
+        } else if (searchBar.value.length) {
+            fetchResultsForSearch(searchBar.value, resultsTarget);
+        }
+    });
+});
