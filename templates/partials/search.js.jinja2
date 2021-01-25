@@ -48,7 +48,7 @@ window.addEventListener("load", () => {
     var searchBar = document.getElementById("searchBar");
     var resultsTarget = document.getElementById("results");
 
-    searchBar.addEventListener("change", () => {
+    searchBar.addEventListener("input", () => {
         var selectedResults = [
             ...resultsTarget.options
         ].filter(result => result.value === searchBar.value);
