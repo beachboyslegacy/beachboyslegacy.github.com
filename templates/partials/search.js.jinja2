@@ -10,49 +10,38 @@ function unpackLocator(locator) {
     };
 }
 
-// Fetches results for a search term and adds them to results ui.
 function fetchResultsForSearch(search, resultsTarget) {
     var terms = search.trim().split(" ")
         .map(word => word.toLowerCase())
         .map(term => term.substring(0, 3));
 
-    var results = [];
-    for (term of terms) {
-        var request = new XMLHttpRequest();
-
-        request.onreadystatechange = function () {
-            if(request.readyState === XMLHttpRequest.DONE) {
-                var status = request.status;
-                if (status === 0 || (status >= 200 && status < 400)) {
-                    results.push(this.responseText.split("\n"));
-                }
-            }
-        };
-
-        request.open("GET", "{{base_url}}/search/" + term + ".txt");
-        request.send();
-    }
-
-    setTimeout(() => {
+    Promise.all(terms.map(term => fetch(`{{base_url}}/search/${term}.txt`)))
+    .then(responses => Promise.all(responses.map(response => response.text())))
+    .then(responses => responses.join("\n"))
+    .then(response => response.split("\n"))
+    .then(rawLocators => rawLocators.filter(rawLocator => rawLocator.length))
+    .then(rawLocators => rawLocators.map(rawLocator => unpackLocator(rawLocator)))
+    .then(locators => (
+        locators.filter((locator, index, self) => (
+            locator && self.indexOf(locator) === index)
+        )
+    ))
+    .then(locators => {
         // Remove old results.
         [...resultsTarget.options].map(result => result.remove());
 
         // Add new results.
-        parsedResults = results
-            .flat()
-            .filter((result, index, self) => (
-                result && self.indexOf(result) === index
-            ))
-            .map(locator => unpackLocator(locator));
-
-        for (result of parsedResults) {
+        for (locator of locators) {
             var resultObject = document.createElement("option");
-            resultObject.value = `${result.name} (${result.releaseYear}) - ${result.artist}`;
-            resultObject.dataset.url = `{{base_url}}/item/${result.uniqueId}.html`
+
+            var {name, releaseYear, artist, uniqueId} = locator;
+            resultObject.value = `${name} (${releaseYear}) - ${artist}`;
+            resultObject.dataset.url = `{{base_url}}/item/${uniqueId}.html`;
 
             resultsTarget.appendChild(resultObject);
         }
-    }, 1000);
+    })
+    .catch()
 }
 
 window.addEventListener("load", () => {
