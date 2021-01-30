@@ -37,7 +37,7 @@ templates-reset:
 templates-stage: templates-reset
 templates-stage: templates
 templates-stage:
-	git add item artist index.html
+	git add item artist index.html _search
 
 .PHONY: try-dev
 try-dev: templates-dev
