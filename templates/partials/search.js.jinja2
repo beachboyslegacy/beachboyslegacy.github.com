@@ -15,7 +15,7 @@ function fetchResultsForSearch(search, resultsTarget) {
         .map(word => word.toLowerCase())
         .map(term => term.substring(0, 3));
 
-    Promise.all(terms.map(term => fetch(`{{base_url}}/search/${term}.txt`)))
+    Promise.all(terms.map(term => fetch(`{{base_url}}/_search/${term}.txt`)))
     .then(responses => responses.filter(response => response.status === 200))
     .then(responses => Promise.all(responses.map(response => response.text())))
     .then(responses => responses.join("\n"))

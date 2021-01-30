@@ -50,7 +50,7 @@ class Generator:
 
         # Generate search indicies.
         SearchIndicesGenerator(
-            output_dir=path.join(self.output_dir, "search"),
+            output_dir=path.join(self.output_dir, "_search"),
             items=data["items"],
         ).generate()
 
