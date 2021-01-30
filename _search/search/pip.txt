@@ -1,3 +1,0 @@
-pipeline-disco:Pipeline:Bruce Johnston:1977
-pipeline:Pipeline:Bruce Johnston:1977
-east-coast-pipeline:East Coast Pipeline:The Beach Boys:1995
