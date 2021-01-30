@@ -10,10 +10,11 @@ function unpackLocator(locator) {
     };
 }
 
-function fetchResultsForSearch(search, resultsTarget) {
+function fetchResultsForSearch(search, resultsTarget, availableTerms) {
     var terms = search.trim().split(" ")
         .map(word => word.toLowerCase())
-        .map(term => term.substring(0, 3));
+        .map(term => term.substring(0, 3))
+        .filter(term => availableTerms.includes(term));
 
     Promise.all(terms.map(term => fetch(`{{base_url}}/_search/${term}.txt`)))
     .then(responses => responses.filter(response => response.status === 200))
@@ -46,18 +47,28 @@ function fetchResultsForSearch(search, resultsTarget) {
 }
 
 window.addEventListener("load", () => {
-    var searchBar = document.getElementById("searchBar");
-    var resultsTarget = document.getElementById("results");
+    fetch(`{{base_url}}/_search/available.txt`)
+    .then(response => response.text())
+    .then(response => response.split("\n"))
+    .then(terms => {
+        var searchBar = document.getElementById("searchBar");
+        var resultsTarget = document.getElementById("results");
 
-    searchBar.addEventListener("input", () => {
-        var selectedResults = [
-            ...resultsTarget.options
-        ].filter(result => result.value === searchBar.value);
+        searchBar.addEventListener("input", () => {
+            var selectedResults = [
+                ...resultsTarget.options
+            ].filter(result => result.value === searchBar.value);
 
-        if (selectedResults.length) {
-            window.location = selectedResults[0].dataset.url;
-        } else if (searchBar.value.length !== 0) {
-            fetchResultsForSearch(searchBar.value, resultsTarget);
-        }
-    });
+            if (selectedResults.length) {
+                window.location = selectedResults[0].dataset.url;
+            } else if (searchBar.value.length !== 0) {
+                fetchResultsForSearch(
+                    searchBar.value,
+                    resultsTarget,
+                    terms,
+                );
+            }
+        });
+    })
+    .catch()
 });
