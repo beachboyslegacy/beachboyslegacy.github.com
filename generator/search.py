@@ -58,8 +58,15 @@ class SearchIndicesGenerator:
         for item in self.items:
             parent: dict = item["parent"]
             name: str = parent["name"]
+            alternateName: str = parent["alternateName"]
             unique_id: str = parent["uniqueId"]
             release_year: str = parent["releaseYear"]
+
+            parsed_name: str
+            if alternateName:
+                parsed_name = f"{name}: {alternateName}"
+            else:
+                parsed_name = name
 
             artist: str
             try:
@@ -67,5 +74,5 @@ class SearchIndicesGenerator:
             except KeyError:
                 artist = parent["aboutArtist"]
 
-            locator: str = f"{unique_id}:{name}:{artist}:{release_year}"
+            locator: str = f"{unique_id};{parsed_name};{artist};{release_year}"
             self._write_to_index_file(name, locator)

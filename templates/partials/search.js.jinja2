@@ -1,6 +1,6 @@
 // Unpacks a locator into its data.
 function unpackLocator(locator) {
-    var parts = locator.split(":");
+    var parts = locator.split(";");
 
     return {
         uniqueId: parts[0],
