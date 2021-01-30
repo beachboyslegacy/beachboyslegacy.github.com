@@ -15,6 +15,7 @@ class SearchIndicesGenerator:
     def __init__(self, *_, output_dir: str, items: list[str]):
         self.output_dir = output_dir
         self.items = items
+        self._indexed_terms = set()
 
     def _ensure_output_dir(self) -> None:
         """Removes output_dir contents if existent and creates it."""
@@ -37,6 +38,10 @@ class SearchIndicesGenerator:
         ]
 
         for word in words:
+            # We'll keep track of everything we indexed so we can generate an
+            # availability report.
+            self._indexed_terms.add(word)
+
             word_index_file_path: Path = Path(path.join(
                 self.output_dir,
                 f"{word}.txt",
@@ -76,3 +81,13 @@ class SearchIndicesGenerator:
 
             locator: str = f"{unique_id};{parsed_name};{artist};{release_year}"
             self._write_to_index_file(name, locator)
+
+        self._write_available_report()
+
+    def _write_available_report(self) -> None:
+        """Writes an available.txt file with all terms that were indexed."""
+        with Path(
+            path.join(self.output_dir, "available.txt"),
+        ).open("w") as available_file:
+            for term in self._indexed_terms:
+                available_file.write(f"{term}\n")
