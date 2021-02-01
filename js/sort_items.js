@@ -4,11 +4,11 @@ function sortItems(order) {
 
     var items = [...items_list.children];
     items.sort((thisItem, thatItem) => {
-        var thisScore = parseInt(thisItem.dataset.year)*1000 +
+        var thisScore = parseInt(thisItem.dataset.year)*10000 +
             parseInt(thisItem.dataset.month)*100 +
             parseInt(thisItem.dataset.day);
 
-        var thatScore = parseInt(thatItem.dataset.year)*1000 +
+        var thatScore = parseInt(thatItem.dataset.year)*10000 +
             parseInt(thatItem.dataset.month)*100 +
             parseInt(thatItem.dataset.day);
 

@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <title>{% if artist.name == 'All' %}The Beach Boys{% else %}{{artist.name}}{% endif %} {% if category.name == 'Latest' %}Latest Releases{% else %}{{category.name}}{% endif %} - Beach Boys Legacy</title>
-        <meta name="description" content="Explore {% if artist.name == 'All' %}The Beach Boys{% else %}{{artist.name}}{% endif %} {% if category.name == 'Latest' %}Latest Releases{% else %}{{category.name}}{% endif %} on Beach Boys Legacy.">
+        <meta name="description" content="Explore The Beach Boys discography and all solo albums by Brian Wilson, Dennis Wilson, Carl Wilson, Mike Love, Al Jardine, Bruce Johnston and David Marks.">
 
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -16,12 +16,12 @@
 
         <!-- For Facebook -->
         <meta property="og:title" content="{% if artist.name == 'All' %}The Beach Boys{% else %}{{artist.name}}{% endif %} {% if category.name == 'Latest' %}Latest Releases{% else %}{{category.name}}{% endif %} - Beach Boys Legacy"/>
-        <meta property="og:description" content="Explore {% if artist.name == 'All' %}The Beach Boys{% else %}{{artist.name}}{% endif %} {% if category.name == 'Latest' %}Latest Releases{% else %}{{category.name}}{% endif %} on Beach Boys Legacy."/>
+        <meta property="og:description" content="Explore The Beach Boys discography and all solo albums by Brian Wilson, Dennis Wilson, Carl Wilson, Mike Love, Al Jardine, Bruce Johnston and David Marks."/>
         <meta property="og:image" content="{{base_url}}/assets/beach-boys-legacy.png">
 
         <!-- for Twitter -->
         <meta name="twitter:title" content="{% if artist.name == 'All' %}The Beach Boys{% else %}{{artist.name}}{% endif %} {% if category.name == 'Latest' %}Latest Releases{% else %}{{category.name}}{% endif %} - Beach Boys Legacy"/>
-        <meta name="twitter:description" content="Explore {% if artist.name == 'All' %}The Beach Boys{% else %}{{artist.name}}{% endif %} {% if category.name == 'Latest' %}Latest Releases{% else %}{{category.name}}{% endif %} on Beach Boys Legacy."/>
+        <meta name="twitter:description" content="Explore The Beach Boys discography and all solo albums by Brian Wilson, Dennis Wilson, Carl Wilson, Mike Love, Al Jardine, Bruce Johnston and David Marks."/>
         <meta name="twitter:image" content="{{base_url}}/assets/beach-boys-legacy.png">
 
 
@@ -46,7 +46,7 @@
         <div class="header clearfix">
             <a id="open-overlay-menu" class="header__menu-icon">☰</a>
             <div class="logo">
-                <h1>Beach Boys Legacy</h1>
+                <h1><a href="{{base_url}}">Beach Boys Legacy</a></h1>
             </div>
 
 

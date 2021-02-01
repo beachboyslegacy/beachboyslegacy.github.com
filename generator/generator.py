@@ -209,7 +209,7 @@ class Generator:
                             items=sorted(
                                 category.items,
                                 key=lambda item: (
-                                    int(item["parent"]["releaseYear"])*1000 +
+                                    int(item["parent"]["releaseYear"])*10000 +
                                     int(item["parent"]["releaseMonth"])*100 +
                                     int(item["parent"]["releaseDay"])
                                 ),
