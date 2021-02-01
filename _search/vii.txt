@@ -1,0 +1,3 @@
+cw-chicago-vii;Chicago VII: Chicago;Carl Wilson;1974
+dw-chicago-vii;Chicago VII: Chicago;Dennis Wilson;1974
+aj-chicago-vii;Chicago VII: Chicago;Al Jardine;1974

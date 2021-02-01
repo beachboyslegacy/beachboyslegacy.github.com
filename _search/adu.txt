@@ -1,0 +1,5 @@
+adult-child-cs;Adult Child;The Beach Boys;1984
+adult-child-updated;Adult Child;The Beach Boys;1985
+landlocked-adult-child-pegboy;Landlocked / Adult Child;The Beach Boys;1997
+landlocked-adult-child-frontline;Landlocked / Adult Child;The Beach Boys;1997
+adult-child-millennium-edition;Adult Child: Millennium Edition;Brian Wilson;2000
