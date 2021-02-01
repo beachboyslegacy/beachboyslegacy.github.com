@@ -15,7 +15,7 @@
     color: #fff;
     text-transform: uppercase;
     font-weight: 400;
-    font-size: 1.2rem;
+    font-size: .9rem;
     display: inline-block;
   }
   a{
@@ -26,6 +26,9 @@
 @media screen and (min-width: @mobile-bp){
   .logo{
     padding: 0 10px;
+    h1{
+      font-size: 1.2rem;
+    }
   }
 }
 
@@ -45,15 +48,15 @@
 
 .header__search{
   float: right;
-  width: 40%;
-  min-width: 250px;
+  width: 35%;
+  min-width: 200px;
   .containing-block;
   input{
     width: 100%;
     height: @v-unit;
     background-color: @blue-light;
     border: 0;
-    padding: 0 44px 0 15px;
+    padding: 0 15px;
     color: #fff;
     text-overflow: ellipsis;
     &:focus{
