@@ -3,6 +3,7 @@ from __future__ import annotations
 from .artists import Artist
 from .categories import Category
 from .lib import ObjectList
+from .search import SearchIndicesGenerator
 from .templater import Templater
 from datetime import datetime
 from jinja2 import Template
@@ -46,6 +47,12 @@ class Generator:
         items_data_filepath: str = Path(path.join(self.data_dir, "data.json"))
         with items_data_filepath.open("r") as items_data:
             data = loads(items_data.read())
+
+        # Generate search indicies.
+        SearchIndicesGenerator(
+            output_dir=path.join(self.output_dir, "_search"),
+            items=data["items"],
+        ).generate()
 
         # We'll load artist and category data too.
         categories_data_filepath: str = Path(path.join(

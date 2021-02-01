@@ -31,13 +31,13 @@ templates-dev:
 
 .PHONY: templates-reset
 templates-reset:
-	git checkout master item artist index.html
+	git checkout master item artist index.html _search
 
 .PHONY: templates-stage
 templates-stage: templates-reset
 templates-stage: templates
 templates-stage:
-	git add item artist index.html
+	git add item artist index.html _search
 
 .PHONY: try-dev
 try-dev: templates-dev
