@@ -22,12 +22,12 @@ function fetchResultsForSearch(search, resultsTarget, availableTerms) {
     .then(responses => responses.join("\n"))
     .then(response => response.split("\n"))
     .then(rawLocators => rawLocators.filter(rawLocator => rawLocator.length))
-    .then(rawLocators => rawLocators.map(rawLocator => unpackLocator(rawLocator)))
-    .then(locators => (
-        locators.filter((locator, index, self) => (
-            locator && self.indexOf(locator) === index)
-        )
+    .then(rawLocators => (
+        rawLocators.filter((locator, index, self) => (
+            self.indexOf(locator) === index
+        ))
     ))
+    .then(rawLocators => rawLocators.map(rawLocator => unpackLocator(rawLocator)))
     .then(locators => {
         // Remove old results.
         [...resultsTarget.options].map(result => result.remove());
