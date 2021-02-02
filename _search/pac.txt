@@ -1,5 +1,10 @@
 dennis-wilson-pacific-ocean-blue;Pacific Ocean Blue;Dennis Wilson;1977
 dennis-wilson-pacific-ocean-blue-legacy-edition;Pacific Ocean Blue & Bambu: 2 CD Deluxe Legacy Edition;Dennis Wilson;2008
 cw-dennis-wilson-pacific-ocean-blue;Pacific Ocean Blue: Dennis Wilson;Carl Wilson;1977
+cw-county-line-southern-pacific;County Line: Southern Pacific;Carl Wilson;1990
+ml-county-line-southern-pacific;County Line: Southern Pacific;Mike Love;1990
+aj-county-line-southern-pacific;County Line: Southern Pacific;Al Jardine;1990
+bj-county-line-southern-pacific;County Line: Southern Pacific;Bruce Johnston;1990
+ken-sharp-dreamer;Dreamer: The Making of Dennis Wilson's Pacific Ocean Blue;Dennis Wilson;2017
 pacific-ocean-blue-bamboo-hen;Pacific Ocean Blue + Bamboo;Dennis Wilson;2006
 pacific-ocean-blue-bamboo-delux-edition;Pacific Ocean Blue / Bamboo: Delux Edition;Dennis Wilson;2006

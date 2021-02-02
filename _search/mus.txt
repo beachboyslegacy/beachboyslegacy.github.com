@@ -1,9 +1,20 @@
+celebration-almost-summer;Almost Summer: Music from the Original Motion Picture Score;Mike Love;1978
 california-music-and-disney-girls;California Music & Disney Girls: RCA/Equinox Collection;Bruce Johnston;2000
 california-music-curt-boettcher;California Music: Curt Boettcher;Bruce Johnston;2001
+americathon;Americathon: Music From The Original Motion Picture Soundtrack;The Beach Boys;1979
+music-for-our-mother-ocean-ii;MOM II: Music For Our Mother Ocean;The Beach Boys;1997
+christmas-spirit;Christmas Spirit: A Musical Collection;Brian Wilson;1997
+mom-3-music-for-our-mother-ocean;MOM 3: Music For Our Mother Ocean;Brian Wilson;1999
 new-music-from-an-old-friend;New Music From An Old Friend;Brian Wilson;2007
+frankie-valli-and-the-four-seasons-jersey-beat;...Jersey Beat...: The Music Of Frankie Valli & The Four Seasons;The Beach Boys;2007
+arctic-tale;Arctic Tale: Music From And Inspired By The Motion Picture;Brian Wilson;2007
+george-fest-the-music-of-george-harrison;George Fest: A Night To Celebrate The Music Of George Harrison;Brian Wilson;2016
 beach-music-classics;Beach Music Classics;Mike Love;2016
+why-do-fools-fall-in-love-california-music;Why Do Fools Fall In Love: California Music;Brian Wilson;1975
 a-world-of-peace-must-come;A World Of Peace Must Come: Stephen John Kalinich;Brian Wilson;2008
 a-world-of-peace-must-come-rsd;A World Of Peace Must Come: Stephen John Kalinich;Brian Wilson;2014
+bw-why-do-fools-fall-in-love-california-music;Why Do Fools Fall In Love: California Music;Brian Wilson;1975
+bw-jamaica-farewell-california-music;Jamaica Farewell: California Music;Brian Wilson;1976
 cw-good-music-joan-jett;Good Music: Joan Jett & The Blackhearts;Carl Wilson;1986
 ml-good-music-joan-jett;Good Music: Joan Jett & The Blackhearts;Mike Love;1986
 aj-good-music-joan-jett;Good Music: Joan Jett & The Blackhearts;Al Jardine;1986
@@ -14,10 +25,19 @@ ml-symphonic-sounds-music-of-the-beach-boys;Symphonic Sounds: Music Of The Beach
 bj-symphonic-sounds-music-of-the-beach-boys;Symphonic Sounds: Music Of The Beach Boys: Royal Philharmonic Orchestra;Bruce Johnston;1998
 bw-a-world-of-peace-must-come;A World Of Peace Must Come: Stephen John Kalinich;Brian Wilson;2008
 musicares-a-tribute-to-brian-wilson;Musicares Presents: A Tribute To Brian Wilson;Brian Wilson;2007
+the-tami-show;T.A.M.I. Show: Teenage Awards Music International;The Beach Boys;2010
 andrew-doe-john-tobler-complete-guide;The Complete Guide To The Music Of The Beach Boys;The Beach Boys;1997
 don-cunningham-jeff-bleiel-add-some-music;Add Some Music To Your Day: Analyzing and Enjoying the Music of The Beach Boys;The Beach Boys;2000
+don-cunningham-jeff-bleiel-add-some-music;Add Some Music To Your Day: Analyzing and Enjoying the Music of The Beach Boys;The Beach Boys;2000
+adam-webb-dumb-angel;Dumb Angel: the life and music of Dennis Wilson;Dennis Wilson;2001
+robert-anstey-the-musical-evolution;The Beach Boys: The Musical Evolution Of America's Band;The Beach Boys;2004
 philip-lambert-inside-the-music-of-brian-wilson;Inside the Music of Brian Wilson: The Songs, Sounds, and Influences of the Beach Boys' Founding Genius;Brian Wilson;2007
+g-a-de-forest-beach-boys-vs-beatlemania;Beach Boys VS Beatlemania: Rediscovering Sixties Music;The Beach Boys;2007
+domenic-priore-pop-surf-culture;Pop Surf Culture: Music, Design, Film, and Fashion from the Bohemian Surf Boom;The Beach Boys;2008
+kirk-curnutt-icons-of-pop-music-brian-wilson;Brian Wilson: Icons of Pop Music;Brian Wilson;2012
 christian-matijas-mecca-words-and-music;The Words and Music of Brian Wilson;Brian Wilson;2017
+tom-smucker-why-matter;Why The Beach Boys Matter: Music Matters;The Beach Boys;2018
+hawthorne-ca-birthplace-of-a-musical-legacy;Hawthorne, CA: Birthplace of a Musical Legacy;The Beach Boys;2001
 i-can-hear-music-carl-wilson;I Can Hear Music: The Beach Boys lead vocal by Carl Wilson;The Beach Boys;2002
 music-from-love-and-mercy-rsd;Music From Love & Mercy: Atticus Ross;The Beach Boys;2015
 i-can-hear-music-20-20-sessions;I Can Hear Music: The 20/20 Sessions;The Beach Boys;2018

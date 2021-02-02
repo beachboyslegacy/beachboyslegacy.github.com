@@ -1,2 +1,8 @@
 fourth-of-july;Fourth Of July: A Rockin' Celebration Of America;The Beach Boys;1986
 ml-fourth-of-july;Fourth Of July: A Rockin' Celebration Of America;Mike Love;1986
+live-aid-live-1985;Live Aid: Live, 13th July 1985;The Beach Boys;2018
+bw-1100-bel-air-place;1100 Bel Air Place: Julio Iglesias;Brian Wilson;1984
+cw-1100-bel-air-place;1100 Bel Air Place: Julio Iglesias;Carl Wilson;1984
+ml-1100-bel-air-place;1100 Bel Air Place: Julio Iglesias;Mike Love;1984
+aj-1100-bel-air-place;1100 Bel Air Place: Julio Iglesias;Al Jardine;1984
+bj-1100-bel-air-place;1100 Bel Air Place: Julio Iglesias;Bruce Johnston;1984

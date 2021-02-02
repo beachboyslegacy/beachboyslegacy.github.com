@@ -10,6 +10,7 @@ beach-boys-party-uncovered-and-unplugged;Beach Boys' Party!: Uncovered And Unplu
 do-the-surfer-stomp-part-1;Do The Surfer Stomp Part One;Bruce Johnston;1962
 pajama-party;Pajama Party;Bruce Johnston;1963
 jingle-bell-rock-lets-party;Jingle Bell Rock/Let's Party;Mike Love;1983
+rock-n-roll-to-the-rescue-beach-party;Rock 'N' Roll To The Rescue: Beach Party Mix - Extended Dance Version/Percadella Mix/Instrumental;The Beach Boys;1986
 summer-in-paradise-live;Summer In Paradise: Live Version;The Beach Boys;1993
 beach-party;Beach Party;The Beach Boys;1993
 american-birthday-party;American Birthday Party;The Beach Boys;1993
@@ -17,5 +18,11 @@ journals-part-1;Journals Part 1 (1961-1967);The Beach Boys;1994
 journals-part-2;Journals Part 2 (1968-1988);The Beach Boys;1994
 heroes-and-villains-sessions-parts-1-2;Heroes And Villains Sessions Parts 1 & 2;The Beach Boys;1996
 brian-wilson-party;Brian Wilson' Party!;Brian Wilson;2000
+rarities-vol-16;Rarities Vol. 16: Brian Wilson Production, Participation Or Presence Part 1 (1962-1963);Brian Wilson;2002
+rarities-vol-16;Rarities Vol. 16: Brian Wilson Production, Participation Or Presence Part 1 (1962-1963);Brian Wilson;2002
+rarities-vol-17;Rarities Vol. 17: Brian Wilson Production, Participation Or Presence Part 2 (1963-1964);Brian Wilson;2002
+rarities-vol-17;Rarities Vol. 17: Brian Wilson Production, Participation Or Presence Part 2 (1963-1964);Brian Wilson;2002
+rarities-vol-18;Rarities Vol. 18: Brian Wilson Production, Participation Or Presence Part 3 (1964-1965);Brian Wilson;2002
+rarities-vol-18;Rarities Vol. 18: Brian Wilson Production, Participation Or Presence Part 3 (1964-1965);Brian Wilson;2002
 brians-birthday-party;Brian's Birthday Party;Brian Wilson;2002
 independence-day-party-1981;Independence Day Party 1981;The Beach Boys;2016

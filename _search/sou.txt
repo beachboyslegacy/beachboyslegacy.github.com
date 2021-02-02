@@ -1,20 +1,37 @@
 pet-sounds;Pet Sounds;The Beach Boys;1966
 brian-wilson-presents-pet-sounds-live;Brian Wilson Presents Pet Sounds Live;Brian Wilson;2002
+brian-wilson-and-friends;Brian Wilson And Friends: A Soundstage Special Event;Brian Wilson;2016
+americathon;Americathon: Music From The Original Motion Picture Soundtrack;The Beach Boys;1979
+up-the-creek-soundtrack;Up The Creek: Original Soundtrack From The Motion Picture;The Beach Boys;1984
+shes-out-of-control;She's Out of Control: Original Motion Picture Soundtrack Album;Brian Wilson;1989
+rooted-in-peace;Rooted In Peace: Original Feature Documentary Soundtrack;Mike Love;2017
 filet-of-soul-a-live-one;Filet Of Soul: Jan & Dean;Brian Wilson;1966
 bw-sound-of-free;Sound Of Free: Dennis Wilson & Rumbo;Brian Wilson;1970
 cw-sound-of-free;Sound Of Free: Dennis Wilson & Rumbo;Carl Wilson;1970
 soul-kiss-olivia-newton-john;Soul Kiss: Olivia Newton-John;Carl Wilson;1985
+cw-county-line-southern-pacific;County Line: Southern Pacific;Carl Wilson;1990
+ml-county-line-southern-pacific;County Line: Southern Pacific;Mike Love;1990
+aj-county-line-southern-pacific;County Line: Southern Pacific;Al Jardine;1990
+bj-county-line-southern-pacific;County Line: Southern Pacific;Bruce Johnston;1990
 ml-symphonic-sounds-music-of-the-beach-boys;Symphonic Sounds: Music Of The Beach Boys: Royal Philharmonic Orchestra;Mike Love;1998
 bj-symphonic-sounds-music-of-the-beach-boys;Symphonic Sounds: Music Of The Beach Boys: Royal Philharmonic Orchestra;Bruce Johnston;1998
 still-within-the-sound-of-my-voice-jimmy-webb;Still Within The Sound Of My Voice: Jimmy Webb;Brian Wilson;2013
 the-beach-boys-nashville-sounds;Nashville Sounds: The Making of Stars and Stripes;The Beach Boys;1998
 pet-sounds-live-in-london;Brian Wilson Presents Pet Sounds Live In London;Brian Wilson;2003
+brian-wilson-and-friends-bluray;Brian Wilson and Friends: A Soundstage Special Event;Brian Wilson;2016
 pet-sounds-classic-album;Pet Sounds Classic Album;The Beach Boys;2016
+bruce-golden-southern-california-pastoral;The Beach Boys: Southern California Pastoral;The Beach Boys;1976
+timothy-white-the-nearest-faraway-place;The Nearest Faraway Place: Brian Wilson, The Beach Boys and the Southern California Experience;The Beach Boys;1994
 stephen-mcparland-smile-sun-pet-sounds;SMiLE, Sun, Sand & Pet Sounds;The Beach Boys;1999
 kingsley-abbott-the-beach-boys-pet-sounds;The Beach Boys Pet Sounds: The Greatest Album of the Twentieth Century;The Beach Boys;2001
+charles-granata-wouldnt-it-be-nice;Wouldn't It Be Nice: Brian Wilson and the Making of the Beach Boys' Pet Sounds;The Beach Boys;2003
 jim-fusilli-pet-sounds;The Beach Boys Pet Sounds: 33 1/3;The Beach Boys;2005
+philip-lambert-inside-the-music-of-brian-wilson;Inside the Music of Brian Wilson: The Songs, Sounds, and Influences of the Beach Boys' Founding Genius;Brian Wilson;2007
 gael-tynevez-lachevement-de-brian-wilson;Pet Sounds: L'achevement de Brian Wilson;The Beach Boys;2007
+simone-caltabellota-note-parallele;Note parallele: Vite di Brian Wilson e di Epic Soundtracks;The Beach Boys;2013
+kent-crowley-long-promised-road;Long Promised Road: Carl Wilson, Soul of the Beach Boys - The Biography;Carl Wilson;2015
 the-pet-sounds-sessions;The Pet Sounds Sessions;The Beach Boys;1997
+endless-harmony-soundtrack;Endless Harmony: Soundtrack;The Beach Boys;1998
 sounds-of-summer;Sounds Of Summer: The Very Best Of The Beach Boys;The Beach Boys;2003
 pet-sounds-50th-anniversary;Pet Sounds: 50th Anniversary Deluxe Edition;The Beach Boys;2016
 soupy-shuffle-stomp;Soupy Shuffle Stomp/Moon Shot;Bruce Johnston;1962

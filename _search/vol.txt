@@ -1,11 +1,25 @@
 shut-down-vol-2;Shut Down Volume 2;The Beach Boys;1964
 stars-and-stripes-vol-1;Stars And Stripes Volume 1;The Beach Boys;1996
+televisions-greatest-hits-black-and-white-classics-vol-4;Television's Greatest Hits: Volume 4 - Black & White Classics;The Beach Boys;1996
+farm-aid-volume-one-live;Farm Aid: Family Farmers Keep America Growing: Volume One · Live;The Beach Boys;2000
 the-bridge-collection;The Bridge School Collection, Vol. 2;Brian Wilson;2006
 surf-and-drag-vol-1;Surf & Drag Vol. 1: Various Artists;Dennis Wilson;1989
+andrew-hickey-the-beach-boys-on-cd-vol-1;The Beach Boys On CD: Vol. 1 1961-1969;The Beach Boys;2011
+andrew-hickey-the-beach-boys-on-cd-vol-2;The Beach Boys On CD: Vol. 2 1970-1984;The Beach Boys;2013
+torrence-berry-gary-zenker-archives-vol-1;The Beach Boys: Archives, Vol. 1;The Beach Boys;2013
+torrence-berry-gary-zenker-archives-vol-2;The Beach Boys: Archives, Vol. 2;The Beach Boys;2013
+torrence-berry-gary-zenker-archives-vol-3;The Beach Boys: Archives, Vol. 3;The Beach Boys;2014
+torrence-berry-gary-zenker-archives-vol-4;The Beach Boys: Archives, Vol. 4;The Beach Boys;2014
+torrence-berry-gary-zenker-archives-vol-5;The Beach Boys: Archives, Vol. 5;The Beach Boys;2014
+torrence-berry-gary-zenker-archives-vol-7;The Beach Boys: Archives, Vol. 7;The Beach Boys;2015
+torrence-berry-gary-zenker-archives-vol-6;The Beach Boys: Archives, Vol. 6;The Beach Boys;2016
+andrew-hickey-the-beach-boys-on-cd-vol-3;The Beach Boys On CD: Vol. 3 1985-2015;The Beach Boys;2017
 best-of-the-beach-boys-vol-2;Best Of The Beach Boys Vol. 2;The Beach Boys;1967
 best-of-the-beach-boys-vol-3;The Best Of The Beach Boys Vol. 3;The Beach Boys;1968
 the-absolute-best-vol-1;The Absolute Best Vol. 1;The Beach Boys;1991
 the-absolute-best-vol-2;The Absolute Best Vol. 2;The Beach Boys;1991
+20-more-good-vibrations-the-greatest-hits-vol-2;20 More Good Vibrations: The Greatest Hits Volume 2;The Beach Boys;1999
+best-of-the-brother-years;Best Of The Brother Years 1970-86: Greatest Hits · Volume Three;The Beach Boys;2000
 bbcs-3;The Honeys: The Definite Album Vol. III;The Beach Boys;1978
 beach-boys-vol-1-live-usa;Beach Boys Vol. 1 Live USA;The Beach Boys;1991
 beach-boys-vol-2-live-usa;Beach Boys Vol. 2 Live USA;The Beach Boys;1991
@@ -24,6 +38,8 @@ surfin-rarities-vol-5;Surfin' Rarities Vol. 5;The Beach Boys;1995
 surfin-rarities-vol-6;Surfin' Rarities Vol. 6;The Beach Boys;1995
 rarities-on-compact-disc-vol-2;Rarities On Compact Disc Vol. 2;The Beach Boys;1996
 masterpiece-vol-1;Masterpiece Vol. 1;Brian Wilson;1996
+denny-remembered-vol-1;Denny Remembered: Volume One;Dennis Wilson;1996
+denny-remembered-vol-2;Denny Remembered: Volume Two;Dennis Wilson;1996
 unsurpassed-masters-vol-1;Unsurpassed Masters Vol. 1 (1962);The Beach Boys;1997
 unsurpassed-masters-vol-2;Unsurpassed Masters Vol. 2 (1963);The Beach Boys;1997
 unsurpassed-masters-vol-3;Unsurpassed Masters Vol. 3 (1963);The Beach Boys;1997
