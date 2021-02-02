@@ -80,7 +80,7 @@ class SearchIndicesGenerator:
                 artist = parent["aboutArtist"]
 
             locator: str = f"{unique_id};{parsed_name};{artist};{release_year}"
-            self._write_to_index_file(name, locator)
+            self._write_to_index_file(parsed_name, locator)
 
         self._write_available_report()
 
