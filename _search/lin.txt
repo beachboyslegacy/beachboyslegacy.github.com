@@ -3,9 +3,12 @@ cw-jan-and-dean-take-linda-surfin;Jan And Dean Take Linda Surfin';Carl Wilson;19
 dw-jan-and-dean-take-linda-surfin;Jan And Dean Take Linda Surfin';Dennis Wilson;1963
 ml-jan-and-dean-take-linda-surfin;Jan And Dean Take Linda Surfin';Mike Love;1963
 dm-jan-and-dean-take-linda-surfin;Jan And Dean Take Linda Surfin';David Marks;1963
+cry-like-a-rainstorm-linda-rondstadt;Cry Like A Rainstorm - Howl Like The Wind: Linda Rondstadt;Brian Wilson;1989
 cw-county-line-southern-pacific;County Line: Southern Pacific;Carl Wilson;1990
 ml-county-line-southern-pacific;County Line: Southern Pacific;Mike Love;1990
 aj-county-line-southern-pacific;County Line: Southern Pacific;Al Jardine;1990
 bj-county-line-southern-pacific;County Line: Southern Pacific;Bruce Johnston;1990
 the-dotted-line;The Dotted Line: The Dotted Line;Brian Wilson;2004
+the-dotted-line;The Dotted Line: The Dotted Line;Brian Wilson;2004
 live-from-the-bottom-line-1981;Live From The Bottom Line 1981;Carl Wilson;1998
+too-early-to-tell;Too Early To Tell: Live At The Bottom Line New York City 1981;Carl Wilson;2015

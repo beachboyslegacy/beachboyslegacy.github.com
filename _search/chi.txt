@@ -1,8 +1,12 @@
 live-in-chicago-1965;Live In Chicago 1965;The Beach Boys;2015
 for-our-children;For Our Children: To Benefit The Pediatric AIDS Foundation;Brian Wilson;1991
 cw-chicago-vii;Chicago VII: Chicago;Carl Wilson;1974
+cw-chicago-vii;Chicago VII: Chicago;Carl Wilson;1974
+dw-chicago-vii;Chicago VII: Chicago;Dennis Wilson;1974
 dw-chicago-vii;Chicago VII: Chicago;Dennis Wilson;1974
 aj-chicago-vii;Chicago VII: Chicago;Al Jardine;1974
+aj-chicago-vii;Chicago VII: Chicago;Al Jardine;1974
+chicago-xi;Baby, What A Big Surprise: Chicago;Carl Wilson;1977
 child-of-winter;Child Of Winter: (Christmas Song);The Beach Boys;1974
 problem-child-radio-edit;Problem Child: Radio Edit;The Beach Boys;1990
 problem-child;Problem Child/Problem Child (Instrumental);The Beach Boys;1990

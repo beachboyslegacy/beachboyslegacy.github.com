@@ -1,11 +1,5 @@
-listen-to-me-buddy-holly;Listen To Me: Buddy Holly;Brian Wilson;2011
-she-rides-with-me-paul-petersen;She Rides With Me: Paul Petersen;Brian Wilson;1964
 twelve-o-four-baby-what-you-want-me-to-do;Twelve-O-Four/Baby What You Want Me To Do: Bob And Bobby;Brian Wilson;1965
-bw-she-rides-with-me-paul-petersen;She Rides With Me: Paul Petersen;Brian Wilson;1964
-cw-caribou-elton-john;Don't Let The Sun Go Down On Me: Elton John;Carl Wilson;1974
-bj-caribou-elton-john;Don't Let The Sun Go Down On Me: Elton John;Bruce Johnston;1974
 plug-me-into-something;Plug Me Into Something: Henry Gross;Carl Wilson;1975
-hold-me;Hold Me: Shorter Edit;Carl Wilson;1981
 help-me-tampa;Help Me Tampa;The Beach Boys;1995
 tell-me-why-blue-ocean;Tell Me Why;Brian Wilson;2004
 with-me-tonight-radio-broadcast-1968-1970;With Me Tonight Radio Broadcast 1968-1970;The Beach Boys;2014

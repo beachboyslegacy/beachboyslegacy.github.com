@@ -4,6 +4,8 @@ cw-1100-bel-air-place;1100 Bel Air Place: Julio Iglesias;Carl Wilson;1984
 ml-1100-bel-air-place;1100 Bel Air Place: Julio Iglesias;Mike Love;1984
 aj-1100-bel-air-place;1100 Bel Air Place: Julio Iglesias;Al Jardine;1984
 bj-1100-bel-air-place;1100 Bel Air Place: Julio Iglesias;Bruce Johnston;1984
+a-woman-and-a-man-belinda-carlisle;A Woman And A Man: Belinda Carlisle;Brian Wilson;1996
+school-day;School Day: (Ring! Ring! Goes the Bell);The Beach Boys;1980
 jingle-bell-rock-lets-party;Jingle Bell Rock/Let's Party;Mike Love;1983
 liberty-bell;Liberty Bell;The Beach Boys;1994
 live-in-belgium-1987;Live In Belgium 1987;The Beach Boys;2002

@@ -1,4 +1,5 @@
 the-beach-boys-in-concert;The Beach Boys In Concert;The Beach Boys;1973
+beach-boys-69;Beach Boys '69: Live in London;The Beach Boys;1976
 summer-in-paradise;Summer In Paradise;The Beach Boys;1992
 live-in-sacramento-1964;Live In Sacramento 1964;The Beach Boys;2014
 live-in-chicago-1965;Live In Chicago 1965;The Beach Boys;2015
@@ -19,8 +20,16 @@ bw-why-do-fools-fall-in-love-california-music;Why Do Fools Fall In Love: Califor
 in-my-head-robert-lamm;In My Head: Robert Lamm;Carl Wilson;1999
 live-in-concert-the-surf-city-allstar-band;Live In Concert: The Surf City Allstar Band;Al Jardine;2006
 pet-sounds-live-in-london;Brian Wilson Presents Pet Sounds Live In London;Brian Wilson;2003
+donovan-live-in-la-at-the-kodak-theatre;The Donovan Concert: Live In L.A.;Mike Love;2008
+the-beach-boys-50-live-in-concert;The Beach Boys 50: Live in Concert;The Beach Boys;2012
+ken-barnes-a-biography-in-words-and-pictures;The Beach Boys: A Biography In Words & Pictures;The Beach Boys;1976
+edward-wincentsen-denny-remembered;Denny Remembered: Dennis Wilson in Words and Pictures;Dennis Wilson;1991
+nick-wise-in-their-own-words;The Beach Boys: In Their Own Words;The Beach Boys;1994
 stephen-mcparland-our-favorite-recording-sessions;In The Studio with Brian Wilson and The Beach Boys: Our Favourite Recording Sessions;The Beach Boys;2000
+keith-badman-the-definitive-diary;The Beach Boys: The Definitive Diary Of America's Greatest Band on Stage And In The Studio;The Beach Boys;2004
 jon-stebbins-ian-rusten-in-concert;The Beach Boys in Concert: The Ultimate History Of America's Band On Tour And Onstage;The Beach Boys;2013
+robert-haagsma-the-beach-boys;The Beach Boys: Perfecte Harmonie in een Donkere Wereld;The Beach Boys;2013
+philip-lambert-good-vibrations;Good Vibrations: Brian Wilson and the Beach Boys in Critical Perspective;Brian Wilson;2016
 made-in-usa;Made In U.S.A.;The Beach Boys;1986
 made-in-california;Made In California: 1962-2012;The Beach Boys;2013
 fun-fun-fun-why-do-fools-fall-in-love;Fun, Fun, Fun/Why Do Fools Fall In Love;The Beach Boys;1964

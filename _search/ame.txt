@@ -1,7 +1,24 @@
 americathon;Americathon: Music From The Original Motion Picture Soundtrack;The Beach Boys;1979
+fourth-of-july;Fourth Of July: A Rockin' Celebration Of America;The Beach Boys;1986
+ml-fourth-of-july;Fourth Of July: A Rockin' Celebration Of America;Mike Love;1986
+farm-aid-volume-one-live;Farm Aid: Family Farmers Keep America Growing: Volume One · Live;The Beach Boys;2000
+shyin-away-fallin-in-love;Shyin' Away/Fallin' In Love: American Spring;Brian Wilson;1973
+cw-hat-trick-america;Hat Trick: America;Carl Wilson;1973
+bj-hat-trick-america;Hat Trick: America;Bruce Johnston;1973
+view-from-the-ground-america;View From The Ground: America;Carl Wilson;1982
 american-girls-myfair;American Girls: Mayfair;Mike Love;1984
+hourglass-america;Hourglass: America;Carl Wilson;1994
+human-nature-america;Human Nature: America;Carl Wilson;1998
 an-american-band;An American Band;The Beach Boys;1985
 the-beach-boys-an-american-family;An American Family;The Beach Boys;2000
+byron-preiss-the-authorized-biography;The Beach Boys: The Authorized Biography of America's Greatest Rock and Roll Band!;The Beach Boys;1979
+keith-badman-the-definitive-diary;The Beach Boys: The Definitive Diary Of America's Greatest Band on Stage And In The Studio;The Beach Boys;2004
+robert-anstey-the-musical-evolution;The Beach Boys: The Musical Evolution Of America's Band;The Beach Boys;2004
+john-stebbins-the-beach-boys-faq;The Beach Boys FAQ: All That's Left To Know About America's Band;The Beach Boys;2011
+jon-stebbins-ian-rusten-in-concert;The Beach Boys in Concert: The Ultimate History Of America's Band On Tour And Onstage;The Beach Boys;2013
+johnny-morgan-the-beach-boys-americas-band;The Beach Boys: America's Band;The Beach Boys;2015
+price-and-reference-guide;Price & Reference Guide: for The Beach Boys American Records;The Beach Boys;2017
+rocky-pamplin-endless-wave;The Beach Boys' Endless Wave: Inside America's Band;The Beach Boys;2018
 spirit-of-america;Spirit Of America;The Beach Boys;1975
 american-birthday-party;American Birthday Party;The Beach Boys;1993
 slightly-american-music;Slightly American Music;Brian Wilson;1999

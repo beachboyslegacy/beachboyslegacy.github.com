@@ -1,16 +1,27 @@
 songs-from-here-and-back;Songs From Here And Back;The Beach Boys;2006
 a-postcard-from-california;A Postcard From California;Al Jardine;2010
 a-postcard-from-california-rsd;A Postcard From California;Al Jardine;2018
+celebration-almost-summer;Almost Summer: Music from the Original Motion Picture Score;Mike Love;1978
+americathon;Americathon: Music From The Original Motion Picture Soundtrack;The Beach Boys;1979
+up-the-creek-soundtrack;Up The Creek: Original Soundtrack From The Motion Picture;The Beach Boys;1984
+pulp-surfin;Pulp Surfin': From the Vaults of Del-Fi Records;Brian Wilson;1995
 new-music-from-an-old-friend;New Music From An Old Friend;Brian Wilson;2007
+arctic-tale;Arctic Tale: Music From And Inspired By The Motion Picture;Brian Wilson;2007
+blue-moo;Blue Moo: 17 Jukebox Hits From Way Back Never;Brian Wilson;2007
+the-boys-of-summer;The Boys Of Summer: An ESQ Offering From;Mike Love;2010
 view-from-the-ground-america;View From The Ground: America;Carl Wilson;1982
 crazy-from-the-heat;Crazy From The Heat: David Lee Roth;Carl Wilson;1985
+bw-pulp-surfin;Pulp Surfin': From the Vaults of Del-Fi Records;Brian Wilson;1995
 songs-and-music-from-shes-the-one;Songs and Music From ''She's the One'': Tom Petty;Carl Wilson;1996
 all-the-hits-from-surf-city-to-drag-city;All The Hits: From Surf City To Drag City: Jan & Dean;Brian Wilson;1996
 a-mothers-gift-carnie-wilson;A Mother's Gift: Lullabyes From The Heart: Carnie Wilson;Brian Wilson;2006
 bw-a-postcard-from-california;A Postcard From California: Al Jardine;Brian Wilson;2010
 cw-a-postcard-from-california;A Postcard From California: Al Jardine;Carl Wilson;2010
 ml-a-postcard-from-california;A Postcard From California: Al Jardine;Mike Love;2010
+domenic-priore-pop-surf-culture;Pop Surf Culture: Music, Design, Film, and Fashion from the Bohemian Surf Boom;The Beach Boys;2008
+andrew-lewand-concert-chronicles;Concert Chronicles: Memoirs From There And Back Again;The Beach Boys;2016
 music-from-love-and-mercy-rsd;Music From Love & Mercy: Atticus Ross;The Beach Boys;2015
+becoming-the-beach-boys-highlights;Becoming The Beach Boys: Highlights From The Hite & Dorinda Morgan Sessions;The Beach Boys;2016
 merry-xmas-cs;Merry Christmas From The California Legends;The Beach Boys;1984
 from-the-vaults-dumb-angel;From The Vaults;The Beach Boys;1992
 merry-christmas-from-the-beach-boys;Merry Christmas From The Beach Boys;The Beach Boys;1993
@@ -18,3 +29,4 @@ live-from-michigan-state-university;Live From Michigan State University 10/12/19
 live-from-the-bottom-line-1981;Live From The Bottom Line 1981;Carl Wilson;1998
 aloha-from-hawaii-and-hollywood;Aloha From Hawaii (And Hollywood);The Beach Boys;2001
 from-the-vaults-audiofon;From The Vaults;The Beach Boys;2005
+transmission-impossible;Transmission Impossible: Legendary Radio Broadcasts from the 1960s, 1970s & 1980s;The Beach Boys;2019

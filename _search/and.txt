@@ -2,7 +2,12 @@ carl-and-the-passions-so-tough;Carl And The Passions ''So Tough'';The Beach Boys
 stars-and-stripes-vol-1;Stars And Stripes Volume 1;The Beach Boys;1996
 songs-from-here-and-back;Songs From Here And Back;The Beach Boys;2006
 brian-wilson-and-friends;Brian Wilson And Friends: A Soundstage Special Event;Brian Wilson;2016
+salute-nascar;Salute Nascar: Mike Love, Bruce Johnston and David Marks of the Beach Boys;Mike Love;1998
+summertime-cruisin;Summertime Cruisin': The Unforgettable Favourites of Mike Love and Bruce Johnston of The Beach Boys;Mike Love;2001
+arctic-tale;Arctic Tale: Music From And Inspired By The Motion Picture;Brian Wilson;2007
 hes-a-doll-honeys;He's A Doll/The Love Of A Boy And A Girl: The Honeys;Brian Wilson;1964
+twelve-o-four-baby-what-you-want-me-to-do;Twelve-O-Four/Baby What You Want Me To Do: Bob And Bobby;Brian Wilson;1965
+sessions-64;Sessions '64!!: featuring The Honeys, The Castells and The Timers;Brian Wilson;2015
 bw-jan-and-dean-take-linda-surfin;Jan And Dean Take Linda Surfin';Brian Wilson;1963
 cw-jan-and-dean-take-linda-surfin;Jan And Dean Take Linda Surfin';Carl Wilson;1963
 dw-jan-and-dean-take-linda-surfin;Jan And Dean Take Linda Surfin';Dennis Wilson;1963
@@ -12,16 +17,41 @@ dw-come-and-get-it-like-chop;Come And Get It/Like Chop: The Tri-Five;Dennis Wils
 cw-come-and-get-it-like-chop;Come And Get It/Like Chop: The Tri-Five;Carl Wilson;1963
 the-love-of-a-boy-and-girl;The Love Of A Boy And Girl: The Honeys;Brian Wilson;1964
 rock-and-other-four-letter-words;Rock And Other Four Letter Words: Marks And Lebzelter;Brian Wilson;1968
+rock-and-other-four-letter-words;Rock And Other Four Letter Words: Marks And Lebzelter;Brian Wilson;1968
 boogie-bands-and-one-night-stands;Boogie Bands And One Night Stands: Kathy Dalton;Carl Wilson;1974
 songs-and-music-from-shes-the-one;Songs and Music From ''She's the One'': Tom Petty;Carl Wilson;1996
 a-woman-and-a-man-belinda-carlisle;A Woman And A Man: Belinda Carlisle;Brian Wilson;1996
 here-and-now-is-forever-michael-angeloff;Here And Now... Is Forever: Michael Angeloff;Carl Wilson;2000
 twelve-and-twelve-jeff-foskett;Twelve And Twelve: Jeffrey Foskett;Brian Wilson;2000
+the-beach-boys-nashville-sounds;Nashville Sounds: The Making of Stars and Stripes;The Beach Boys;1998
 the-beach-boys-and-the-satan;The Beach Boys And The Satan;The Beach Boys;2008
 carl-wilson-here-and-now;Here and Now: a film by Billy Hinsche;Carl Wilson;2011
 brian-wilson-and-friends-bluray;Brian Wilson and Friends: A Soundstage Special Event;Brian Wilson;2016
+david-leaf-the-beach-boys-and-the-california-myth;The Beach Boys: And The California Myth;The Beach Boys;1978
+byron-preiss-the-authorized-biography;The Beach Boys: The Authorized Biography of America's Greatest Rock and Roll Band!;The Beach Boys;1979
+edward-wincentsen-denny-remembered;Denny Remembered: Dennis Wilson in Words and Pictures;Dennis Wilson;1991
+timothy-white-the-nearest-faraway-place;The Nearest Faraway Place: Brian Wilson, The Beach Boys and the Southern California Experience;The Beach Boys;1994
+paul-williams-how-deep-is-the-ocean;Brian Wilson & The Beach Boys: How Deep Is The Ocean? Essays and Conversations;The Beach Boys;1997
+kingsley-abbott-back-to-the-beach;Back To The Beach: A Brian Wilson and The Beach Boys Reader;The Beach Boys;1998
+don-cunningham-jeff-bleiel-add-some-music;Add Some Music To Your Day: Analyzing and Enjoying the Music of The Beach Boys;The Beach Boys;2000
 stephen-mcparland-our-favorite-recording-sessions;In The Studio with Brian Wilson and The Beach Boys: Our Favourite Recording Sessions;The Beach Boys;2000
+adam-webb-dumb-angel;Dumb Angel: the life and music of Dennis Wilson;Dennis Wilson;2001
+the-beach-boys-earth-music-library;The Beach Boys: Original albums and singles, solo album, video, story, Who's Who, column and many more.;The Beach Boys;2001
+the-beach-boys-earth-music-library;The Beach Boys: Original albums and singles, solo album, video, story, Who's Who, column and many more.;The Beach Boys;2001
+mark-holcomb-rock-and-roll-hall-of-famers;The Beach Boys: Rock and Roll Hall of Famers;The Beach Boys;2003
+charles-granata-wouldnt-it-be-nice;Wouldn't It Be Nice: Brian Wilson and the Making of the Beach Boys' Pet Sounds;The Beach Boys;2003
+manfred-schmidt-christian-haschke-this-whole-world;This Whole World: The Complete Beach Boys Single And EP Cover Collection;The Beach Boys;2004
+keith-badman-the-definitive-diary;The Beach Boys: The Definitive Diary Of America's Greatest Band on Stage And In The Studio;The Beach Boys;2004
+peter-ames-carlin-catch-a-wave;Catch A Wave: The Rise, Fall and Redemption of the Beach Boys' Brian Wilson;The Beach Boys;2006
+philip-lambert-inside-the-music-of-brian-wilson;Inside the Music of Brian Wilson: The Songs, Sounds, and Influences of the Beach Boys' Founding Genius;Brian Wilson;2007
+domenic-priore-pop-surf-culture;Pop Surf Culture: Music, Design, Film, and Fashion from the Bohemian Surf Boom;The Beach Boys;2008
+stephen-mcparland-inception-and-conception;The Beach Boys: Inception And Conception, 1961-1963;The Beach Boys;2011
+jon-stebbins-ian-rusten-in-concert;The Beach Boys in Concert: The Ultimate History Of America's Band On Tour And Onstage;The Beach Boys;2013
+jeff-sellars-god-only-knows;God Only Knows: Faith, Hope, Love, and The Beach Boys;The Beach Boys;2015
+philip-lambert-good-vibrations;Good Vibrations: Brian Wilson and the Beach Boys in Critical Perspective;Brian Wilson;2016
+andrew-lewand-concert-chronicles;Concert Chronicles: Memoirs From There And Back Again;The Beach Boys;2016
 christian-matijas-mecca-words-and-music;The Words and Music of Brian Wilson;Brian Wilson;2017
+beach-boys-party-uncovered-and-unplugged;Beach Boys' Party!: Uncovered And Unplugged;The Beach Boys;2015
 rock-and-roll-music;Rock And Roll Music;The Beach Boys;1976
 good-vibrations-heroes-and-villains;Good Vibrations/Heroes And Villains;The Beach Boys;2011
 bbcs-1;Bob And Sheri: The Surfer Moon;The Beach Boys;1978
@@ -32,7 +62,10 @@ love-you-and-more;Love You And More;The Beach Boys;1991
 sunflower-and-more;Sunflower And More;The Beach Boys;1991
 landlocked-the-last-capitol-album;Landlocked (The Last 'Capitol' Album and More);The Beach Boys;1994
 heroes-and-villains-sessions-parts-1-2;Heroes And Villains Sessions Parts 1 & 2;The Beach Boys;1996
+brian-wilson-and-andy-paley-sessions-1996;Sessions 1996: Brian Wilson & Andy Paley;Brian Wilson;1996
 live-in-sacramento-1964-first-show;Live In Sacramento 1964 First Show and Rehearsal;The Beach Boys;1997
 heroes-and-vibrations;Heroes And Vibrations;The Beach Boys;1998
+brian-wilson-andy-paley-sessions-1994-1996;Sessions 1994-1996: Brian Wilson - Andy Paley;Brian Wilson;1999
 smile-and-smiley;SMiLE And SMiLEY;The Beach Boys;2000
 more-andy-paley-sessions;More Andy Paley Sessions;Brian Wilson;2000
+andy-paley-sessions-volume-2;Sessions Volume 2: Brian Wilson - Andy Paley;Brian Wilson;2000
