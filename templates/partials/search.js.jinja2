@@ -51,16 +51,11 @@ function unpackLocator(locator) {
 }
 
 function fetchResultsForSearch(
+    terms,
     searchBar,
     searchIconContainer,
     resultsTarget,
-    availableTerms,
 ) {
-    var terms = searchBar.value.trim().split(" ")
-        .map(word => word.toLowerCase())
-        .map(term => term.substring(0, 3))
-        .filter(term => availableTerms.includes(term));
-
     Promise.all(
         terms.map(term => fetch(`{{base_url}}/_search/${term}.txt`))
     )
@@ -103,17 +98,27 @@ window.addEventListener("load", () => {
     fetch(`{{base_url}}/_search/available.txt`)
     .then(response => response.text())
     .then(response => response.split("\n"))
-    .then(terms => {
+    .then(availableTerms => availableTerms.filter(t => t !== ""))
+    .then(availableTerms => {
         searchBar.addEventListener("input", () => {
             if (searchDeBounce) {
                 clearTimeout(searchDeBounce);
             }
 
+            var terms = searchBar.value.trim().split(" ")
+                .map(word => word.toLowerCase())
+                .map(term => term.substring(0, 3))
+                .filter(term => availableTerms.includes(term));
+
             // Show loading icon.
-            if (searchBar.value.length) {
+            if (terms.length) {
                 displayLoadingIcon(searchIconContainer);
             } else {
-                displaySearchIcon(searchIconContainer);
+                if (searchBar.value) {
+                    displayXButton(searchIconContainer, searchBar);
+                } else {
+                    displaySearchIcon(searchIconContainer);
+                }
             }
 
             searchDeBounce = setTimeout(() => {
@@ -123,12 +128,12 @@ window.addEventListener("load", () => {
 
                 if (selectedResults.length) {
                     window.location = selectedResults[0].dataset.url;
-                } else if (searchBar.value.length !== 0) {
+                } else if (terms.length) {
                     fetchResultsForSearch(
+                        terms,
                         searchBar,
                         searchIconContainer,
                         resultsTarget,
-                        terms,
                     );
                 }
             }, 500)
