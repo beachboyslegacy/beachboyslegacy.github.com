@@ -59,14 +59,13 @@ function fetchResultsForSearch(
 window.addEventListener("load", () => {
     let searchIcon = document.getElementById("search_icon");
     let searchDeBounce;
+    let searchBar = document.getElementById("searchBar");
+    let resultsTarget = document.getElementById("results");
 
     fetch(`{{base_url}}/_search/available.txt`)
     .then(response => response.text())
     .then(response => response.split("\n"))
     .then(terms => {
-        var searchBar = document.getElementById("searchBar");
-        var resultsTarget = document.getElementById("results");
-
         searchBar.addEventListener("input", () => {
             if (searchDeBounce) {
                 clearTimeout(searchDeBounce);
@@ -96,6 +95,10 @@ window.addEventListener("load", () => {
                 }
             }, 500)
         });
+    })
+    .then(() => {
+        // Enable search input
+        searchBar.disabled = false;
     })
     .catch()
 });
