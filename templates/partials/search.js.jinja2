@@ -1,3 +1,43 @@
+// Removes any icon.
+function removeSearchIcon(iconContainer) {
+    [...iconContainer.childNodes].forEach(node => node.remove());
+}
+
+// Creates an asset icon.
+function createAssetIcon(assetName) {
+    const asset = document.createElement("img");
+    asset.src = `{{base_url}}/assets/${assetName}`;
+
+    return asset;
+}
+
+// Displays "X" button.
+function displayXButton(iconContainer, searchBar) {
+    removeSearchIcon(iconContainer);
+
+    const xButton = createAssetIcon("delete.svg");
+    xButton.addEventListener("click", () => {
+        searchBar.value = "";
+        displaySearchIcon(iconContainer);
+    })
+
+    xButton.style.cursor = "pointer";
+
+    iconContainer.appendChild(xButton);
+}
+
+// Display search icon.
+function displaySearchIcon(iconContainer) {
+    removeSearchIcon(iconContainer);
+    iconContainer.appendChild(createAssetIcon("search.svg"));
+}
+
+// Display loading icon.
+function displayLoadingIcon(iconContainer) {
+    removeSearchIcon(iconContainer);
+    iconContainer.appendChild(createAssetIcon("preloader-item.svg"));
+}
+
 // Unpacks a locator into its data.
 function unpackLocator(locator) {
     var parts = locator.split(";");
@@ -11,12 +51,12 @@ function unpackLocator(locator) {
 }
 
 function fetchResultsForSearch(
-    search,
-    searchIcon,
+    searchBar,
+    searchIconContainer,
     resultsTarget,
     availableTerms,
 ) {
-    var terms = search.trim().split(" ")
+    var terms = searchBar.value.trim().split(" ")
         .map(word => word.toLowerCase())
         .map(term => term.substring(0, 3))
         .filter(term => availableTerms.includes(term));
@@ -50,14 +90,12 @@ function fetchResultsForSearch(
             resultsTarget.appendChild(resultObject);
         }
     })
-    .then(() => {
-        searchIcon.src = "{{base_url}}/assets/search.png";
-    })
+    .then(() => (displayXButton(searchIconContainer, searchBar)))
     .catch()
 }
 
 window.addEventListener("load", () => {
-    let searchIcon = document.getElementById("search_icon");
+    let searchIconContainer = document.getElementById("searchIconContainer");
     let searchDeBounce;
     let searchBar = document.getElementById("searchBar");
     let resultsTarget = document.getElementById("results");
@@ -72,10 +110,10 @@ window.addEventListener("load", () => {
             }
 
             // Show loading icon.
-            if (!searchBar.value.length) {
-                searchIcon.src = "{{base_url}}/assets/search.svg";
-            } else if (searchIcon.src != "{{base_url}}/assets/preloader-item.svg") {
-                searchIcon.src = "{{base_url}}/assets/preloader-item.svg";
+            if (searchBar.value.length) {
+                displayLoadingIcon(searchIconContainer);
+            } else {
+                displaySearchIcon(searchIconContainer);
             }
 
             searchDeBounce = setTimeout(() => {
@@ -87,8 +125,8 @@ window.addEventListener("load", () => {
                     window.location = selectedResults[0].dataset.url;
                 } else if (searchBar.value.length !== 0) {
                     fetchResultsForSearch(
-                        searchBar.value,
-                        searchIcon,
+                        searchBar,
+                        searchIconContainer,
                         resultsTarget,
                         terms,
                     );
