@@ -1,3 +1,43 @@
+// Removes any icon.
+function removeSearchIcon(iconContainer) {
+    [...iconContainer.childNodes].forEach(node => node.remove());
+}
+
+// Creates an asset icon.
+function createAssetIcon(assetName) {
+    const asset = document.createElement("img");
+    asset.src = `{{base_url}}/assets/${assetName}`;
+
+    return asset;
+}
+
+// Displays "X" button.
+function displayXButton(iconContainer, searchBar) {
+    removeSearchIcon(iconContainer);
+
+    const xButton = createAssetIcon("delete.svg");
+    xButton.addEventListener("click", () => {
+        searchBar.value = "";
+        displaySearchIcon(iconContainer);
+    })
+
+    xButton.style.cursor = "pointer";
+
+    iconContainer.appendChild(xButton);
+}
+
+// Display search icon.
+function displaySearchIcon(iconContainer) {
+    removeSearchIcon(iconContainer);
+    iconContainer.appendChild(createAssetIcon("search.svg"));
+}
+
+// Display loading icon.
+function displayLoadingIcon(iconContainer) {
+    removeSearchIcon(iconContainer);
+    iconContainer.appendChild(createAssetIcon("preloader-item.svg"));
+}
+
 // Unpacks a locator into its data.
 function unpackLocator(locator) {
     var parts = locator.split(";");
@@ -10,13 +50,15 @@ function unpackLocator(locator) {
     };
 }
 
-function fetchResultsForSearch(search, resultsTarget, availableTerms) {
-    var terms = search.trim().split(" ")
-        .map(word => word.toLowerCase())
-        .map(term => term.substring(0, 3))
-        .filter(term => availableTerms.includes(term));
-
-    Promise.all(terms.map(term => fetch(`{{base_url}}/_search/${term}.txt`)))
+function fetchResultsForSearch(
+    terms,
+    searchBar,
+    searchIconContainer,
+    resultsTarget,
+) {
+    Promise.all(
+        terms.map(term => fetch(`{{base_url}}/_search/${term}.txt`))
+    )
     .then(responses => responses.filter(response => response.status === 200))
     .then(responses => Promise.all(responses.map(response => response.text())))
     .then(responses => responses.join("\n"))
@@ -43,32 +85,63 @@ function fetchResultsForSearch(search, resultsTarget, availableTerms) {
             resultsTarget.appendChild(resultObject);
         }
     })
+    .then(() => (displayXButton(searchIconContainer, searchBar)))
     .catch()
 }
 
 window.addEventListener("load", () => {
+    let searchIconContainer = document.getElementById("searchIconContainer");
+    let searchDeBounce;
+    let searchBar = document.getElementById("searchBar");
+    let resultsTarget = document.getElementById("results");
+
     fetch(`{{base_url}}/_search/available.txt`)
     .then(response => response.text())
     .then(response => response.split("\n"))
-    .then(terms => {
-        var searchBar = document.getElementById("searchBar");
-        var resultsTarget = document.getElementById("results");
-
+    .then(availableTerms => availableTerms.filter(t => t !== ""))
+    .then(availableTerms => {
         searchBar.addEventListener("input", () => {
-            var selectedResults = [
-                ...resultsTarget.options
-            ].filter(result => result.value === searchBar.value);
-
-            if (selectedResults.length) {
-                window.location = selectedResults[0].dataset.url;
-            } else if (searchBar.value.length !== 0) {
-                fetchResultsForSearch(
-                    searchBar.value,
-                    resultsTarget,
-                    terms,
-                );
+            if (searchDeBounce) {
+                clearTimeout(searchDeBounce);
             }
+
+            var terms = searchBar.value.trim().split(" ")
+                .map(word => word.toLowerCase())
+                .map(term => term.substring(0, 3))
+                .filter(term => availableTerms.includes(term));
+
+            // Show loading icon.
+            if (terms.length) {
+                displayLoadingIcon(searchIconContainer);
+            } else {
+                if (searchBar.value) {
+                    displayXButton(searchIconContainer, searchBar);
+                } else {
+                    displaySearchIcon(searchIconContainer);
+                }
+            }
+
+            searchDeBounce = setTimeout(() => {
+                var selectedResults = [
+                    ...resultsTarget.options
+                ].filter(result => result.value === searchBar.value);
+
+                if (selectedResults.length) {
+                    window.location = selectedResults[0].dataset.url;
+                } else if (terms.length) {
+                    fetchResultsForSearch(
+                        terms,
+                        searchBar,
+                        searchIconContainer,
+                        resultsTarget,
+                    );
+                }
+            }, 500)
         });
+    })
+    .then(() => {
+        // Enable search input
+        searchBar.disabled = false;
     })
     .catch()
 });
