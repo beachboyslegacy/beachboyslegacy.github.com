@@ -1,0 +1,10 @@
+// Try to find a "from" param with a URL to use as a "back" link. If not, use
+// base_url.
+window.addEventListener("load", () => {
+    const url = new URL(window.location.href);
+    const search = new URLSearchParams(url.search);
+
+    const from = search.get("from");
+
+    document.getElementById("backButton").href = from || "{{base_url}}";
+});
