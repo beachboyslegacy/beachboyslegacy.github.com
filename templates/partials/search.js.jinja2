@@ -10,13 +10,20 @@ function unpackLocator(locator) {
     };
 }
 
-function fetchResultsForSearch(search, resultsTarget, availableTerms) {
+function fetchResultsForSearch(
+    search,
+    searchIcon,
+    resultsTarget,
+    availableTerms,
+) {
     var terms = search.trim().split(" ")
         .map(word => word.toLowerCase())
         .map(term => term.substring(0, 3))
         .filter(term => availableTerms.includes(term));
 
-    Promise.all(terms.map(term => fetch(`{{base_url}}/_search/${term}.txt`)))
+    Promise.all(
+        terms.map(term => fetch(`{{base_url}}/_search/${term}.txt`))
+    )
     .then(responses => responses.filter(response => response.status === 200))
     .then(responses => Promise.all(responses.map(response => response.text())))
     .then(responses => responses.join("\n"))
@@ -43,10 +50,16 @@ function fetchResultsForSearch(search, resultsTarget, availableTerms) {
             resultsTarget.appendChild(resultObject);
         }
     })
+    .then(() => {
+        searchIcon.src = "{{base_url}}/assets/search.png";
+    })
     .catch()
 }
 
 window.addEventListener("load", () => {
+    let searchIcon = document.getElementById("search_icon");
+    let searchDeBounce;
+
     fetch(`{{base_url}}/_search/available.txt`)
     .then(response => response.text())
     .then(response => response.split("\n"))
@@ -55,19 +68,33 @@ window.addEventListener("load", () => {
         var resultsTarget = document.getElementById("results");
 
         searchBar.addEventListener("input", () => {
-            var selectedResults = [
-                ...resultsTarget.options
-            ].filter(result => result.value === searchBar.value);
-
-            if (selectedResults.length) {
-                window.location = selectedResults[0].dataset.url;
-            } else if (searchBar.value.length !== 0) {
-                fetchResultsForSearch(
-                    searchBar.value,
-                    resultsTarget,
-                    terms,
-                );
+            if (searchDeBounce) {
+                clearTimeout(searchDeBounce);
             }
+
+            // Show loading icon.
+            if (!searchBar.value.length) {
+                searchIcon.src = "{{base_url}}/assets/search.png";
+            } else if (searchIcon.src != "{{base_url}}/assets/preloader-item.svg") {
+                searchIcon.src = "{{base_url}}/assets/preloader-item.svg";
+            }
+
+            searchDeBounce = setTimeout(() => {
+                var selectedResults = [
+                    ...resultsTarget.options
+                ].filter(result => result.value === searchBar.value);
+
+                if (selectedResults.length) {
+                    window.location = selectedResults[0].dataset.url;
+                } else if (searchBar.value.length !== 0) {
+                    fetchResultsForSearch(
+                        searchBar.value,
+                        searchIcon,
+                        resultsTarget,
+                        terms,
+                    );
+                }
+            }, 500)
         });
     })
     .catch()
