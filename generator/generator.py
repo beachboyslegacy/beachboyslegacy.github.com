@@ -162,7 +162,11 @@ class Generator:
             )
 
             rendered_partials: dict = {
-                name: template.render(item=item) for name, template in partials
+                name: template.render(
+                    base_url=self.base_url,
+                    item=item,
+                )
+                for name, template in partials
             }
 
             with open(output_template_path, "w") as template_file:

@@ -1,17 +1,20 @@
 <script>
-    // Try to find a "from" param with a URL to use as a "back" link. If not, use
-    // base_url.
+    // If "fromSite" is present in the params, we'll make the back button work
+    // as the browser's back button. Otherwise, we'll go to the base URL.
     window.addEventListener("load", () => {
         const url = new URL(window.location.href);
         const search = new URLSearchParams(url.search);
 
+        const fromSite = search.get("fromSite");
         const backButton = document.getElementById("backButton");
-        const from = search.get("from");
-        if (from.length) {
-            backButton.href = from;
-        } else {
-            backButton.href = "{{base_url}}";
-        }
+        backButton.addEventListener("click", () => {
+            if (fromSite && fromSite.length) {
+                window.history.go(-1);
+            } else {
+                window.location = "{{base_url}}";
+                console.log("{{base_url}}");
+            }
+        });
 
         // Remove "from" from URL.
         url.search = "";
@@ -20,9 +23,9 @@
 </script>
 
 <div class="item-details-header">
-  <a id="backButton" class="item-details-header__back-btn" href="{{base_url}}/index.html">
+  <div id="backButton" class="item-details-header__back-btn">
   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M16.67 0l2.83 2.829-9.339 9.175 9.339 9.167-2.83 2.829-12.17-11.996z"/></svg>
-  Back Home <span>♫ I'll Spend My Summer</span></a>
+  Back Home <span>♫ I'll Spend My Summer</span></div>
   <ul class="header__nav">
     <li><a class="header__nav__patreon-link" href="https://www.patreon.com/beachboyslegacy" target="_blank">Become a Patron</a></li>
     <li>
