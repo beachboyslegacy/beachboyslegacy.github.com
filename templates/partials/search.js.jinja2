@@ -127,7 +127,7 @@ window.addEventListener("load", () => {
                 ].filter(result => result.value === searchBar.value);
 
                 if (selectedResults.length) {
-                    window.location = selectedResults[0].dataset.url;
+                    window.location = `${selectedResults[0].dataset.url}?fromSite=true`;
                 } else if (terms.length) {
                     fetchResultsForSearch(
                         terms,

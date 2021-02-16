@@ -146,7 +146,7 @@
                         data-month="{{item.parent.releaseMonth}}"
                         data-day="{{item.parent.releaseDay}}"
                     >
-                        <a class="item__header" href="{{base_url}}/item/{{item.parent.uniqueId}}.html" style="background-color:{{item.parent.backgroundColor}}" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Latest\x27)">
+                    <a class="item__header" href="{{base_url}}/item/{{item.parent.uniqueId}}.html?fromSite=true" style="background-color:{{item.parent.backgroundColor}}" onClick="ga(\x27send\x27, \x27event\x27, \x27Details\x27, \x27click\x27, \x27Latest\x27)">
                             <img class="item__cover lazy" src="{{base_url}}/assets/preloader.svg" data-src="{{base_url}}/{{item.parent.image}}" alt="{{item.parent.name}} cover">
                         <div class="item__info">
                             <h2 class="item__title">{{item.parent.name}}</h2>
