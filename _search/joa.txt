@@ -1,0 +1,4 @@
+cw-good-music-joan-jett;Good Music: Joan Jett & The Blackhearts;Carl Wilson;1986
+ml-good-music-joan-jett;Good Music: Joan Jett & The Blackhearts;Mike Love;1986
+aj-good-music-joan-jett;Good Music: Joan Jett & The Blackhearts;Al Jardine;1986
+bj-good-music-joan-jett;Good Music: Joan Jett & The Blackhearts;Bruce Johnston;1986
