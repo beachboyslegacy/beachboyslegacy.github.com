@@ -1,5 +1,0 @@
-bw-1100-bel-air-place;1100 Bel Air Place: Julio Iglesias;Brian Wilson;1984
-cw-1100-bel-air-place;1100 Bel Air Place: Julio Iglesias;Carl Wilson;1984
-ml-1100-bel-air-place;1100 Bel Air Place: Julio Iglesias;Mike Love;1984
-aj-1100-bel-air-place;1100 Bel Air Place: Julio Iglesias;Al Jardine;1984
-bj-1100-bel-air-place;1100 Bel Air Place: Julio Iglesias;Bruce Johnston;1984

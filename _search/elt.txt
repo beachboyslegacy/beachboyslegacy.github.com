@@ -1,6 +1,0 @@
-two-rooms;Two Rooms: Celebrating The Songs Of Elton John & Bernie Taupin;The Beach Boys;1991
-cw-caribou-elton-john;Don't Let The Sun Go Down On Me: Elton John;Carl Wilson;1974
-bj-caribou-elton-john;Don't Let The Sun Go Down On Me: Elton John;Bruce Johnston;1974
-cw-reg-strikes-back-elton-john;Reg Strikes Back: Elton John;Carl Wilson;1988
-bj-reg-strikes-back-elton-john;Reg Strikes Back: Elton John;Bruce Johnston;1988
-the-union-elton-john;The Union: Elton John/Leon Russell;Brian Wilson;2010
