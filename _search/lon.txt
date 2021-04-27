@@ -1,5 +1,6 @@
 all-summer-long;All Summer Long;The Beach Boys;1964
 beach-boys-69;Beach Boys '69: Live in London;The Beach Boys;1976
+brian-wilson-long-promised-road;Brian Wilson: Long Promised Road;Brian Wilson;2020
 pet-sounds-live-in-london;Brian Wilson Presents Pet Sounds Live In London;Brian Wilson;2003
 brian-chidester-domenic-priore-all-summer-long;All Summer Long: Dumb Angel No. 4;The Beach Boys;2005
 kent-crowley-long-promised-road;Long Promised Road: Carl Wilson, Soul of the Beach Boys - The Biography;Carl Wilson;2015
