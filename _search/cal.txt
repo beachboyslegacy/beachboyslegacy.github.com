@@ -29,3 +29,4 @@ california-feeling-cs;Califonia Feeling;The Beach Boys;1984
 california-feeling-updated;California Feeling;The Beach Boys;1985
 california-feeling;California Feeling;The Beach Boys;1990
 the-complete-collection-of-california-music;The Complete Collection Of California Music;Bruce Johnston;1992
+david-leaf-god-only-knows;God Only Knows: The Story of Brian Wilson, the Beach Boys and the California Myth;The Beach Boys;2022
