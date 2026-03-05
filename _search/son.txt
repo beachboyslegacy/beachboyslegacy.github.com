@@ -18,3 +18,4 @@ long-lost-surf-songs-vol-3;Long Lost Surf Songs Vol. 3;The Beach Boys;1995
 long-lost-surf-songs-vol-4;Long Lost Surf Songs Vol. 4;The Beach Boys;1995
 long-lost-surf-songs-vol-5;Long Lost Surf Songs Vol. 5;The Beach Boys;1995
 long-lost-surf-songs-vol-6;Long Lost Surf Songs Vol. 6;The Beach Boys;1995
+pet-tracks;Pet Tracks: The Stories behind 100 of their greatest songs;The Beach Boys;2023

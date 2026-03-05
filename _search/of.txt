@@ -99,3 +99,6 @@ sounds-of-summer-expanded-edition;Sounds Of Summer Expanded Edition: The Very Be
 sounds-of-summer-expanded-edition;Sounds Of Summer Expanded Edition: The Very Best Of The Beach Boys;The Beach Boys;2022
 david-leaf-god-only-knows;God Only Knows: The Story of Brian Wilson, the Beach Boys and the California Myth;The Beach Boys;2022
 the-teammates;The Teammates: Twenty Years Of Making Music 1965-1985: Dean Torrence & Friends;Mike Love;2022
+pet-tracks;Pet Tracks: The Stories behind 100 of their greatest songs;The Beach Boys;2023
+the-abcs-of-california;The ABC's of California;The Beach Boys;2024
+smile-the-rise-fall-and-resurrection-of-brian-wilson;SMiLE: The Rise, Fall and Resurrection of Brian Wilson;Brian Wilson;2025
