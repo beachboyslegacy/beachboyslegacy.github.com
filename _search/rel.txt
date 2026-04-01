@@ -1,3 +1,8 @@
 hurricane-relief-come-together-now;Hurricane Relief: Come Together Now;Brian Wilson;2005
 joe-thomas-the-japanese-cd-releases;The Beach Boys & Brian Wilson: The Japanese CD Releases of;The Beach Boys;2004
 1970-release;1970 Release;The Beach Boys;2020
+1971-release;1971 Release;The Beach Boys;2021
+1972-release;1972 Release;The Beach Boys;2022
+1973-release;1973 Release;The Beach Boys;2023
+1974-release;1974 Release;The Beach Boys;2024
+1975-release;1975 Release;The Beach Boys;2025
